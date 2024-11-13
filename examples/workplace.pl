@@ -7,16 +7,14 @@
 :- dynamic('urn:example:complies'/2).
 
 % Define basic deontic predicates
-true =>
-    'urn:example:obliged'('urn:example:workplace_policy', 'urn:example:log_off_at_end_of_shift'),
-    'urn:example:permitted'('urn:example:workplace_policy', 'urn:example:work_related_task'),
-    'urn:example:forbidden'('urn:example:workplace_policy', 'urn:example:access_social_media').
+'urn:example:obliged'('urn:example:workplace_policy', 'urn:example:log_off_at_end_of_shift').
+'urn:example:permitted'('urn:example:workplace_policy', 'urn:example:work_related_task').
+'urn:example:forbidden'('urn:example:workplace_policy', 'urn:example:access_social_media').
 
 % Facts about what an employee is doing
-true =>
-    'urn:example:does'('urn:example:alice', 'urn:example:log_off_at_end_of_shift'),
-    'urn:example:does'('urn:example:bob', 'urn:example:work_related_task'),
-    'urn:example:does'('urn:example:carol', 'urn:example:access_social_media').
+'urn:example:does'('urn:example:alice', 'urn:example:log_off_at_end_of_shift').
+'urn:example:does'('urn:example:bob', 'urn:example:work_related_task').
+'urn:example:does'('urn:example:carol', 'urn:example:access_social_media').
 
 % Rules to check if an action complies with deontic logic
 'urn:example:does'(Person, Action),

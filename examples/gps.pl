@@ -113,7 +113,7 @@ conj_list((A,B),[A|C]) :-
 ).
 
 % current state
-true => 'urn:example:location'('urn:example:i1','urn:example:gent').
+'urn:example:location'('urn:example:i1','urn:example:gent').
 
 % query
 'urn:example:findpath'(

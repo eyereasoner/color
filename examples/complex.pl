@@ -1,43 +1,43 @@
 % See https://en.wikipedia.org/wiki/Complex_number
 
-'urn:example:exp'([[A,B],[C,D]],[E,F]) :-
+'urn:example:exp'([[A,B],[C,D]],[E,F]) <=
     polar([A,B],[G,H]),
     E is G^C*exp(-D*H)*cos(D*log(G)+C*H),
     F is G^C*exp(-D*H)*sin(D*log(G)+C*H).
 
-'urn:example:log'([[A,B],[C,D]],[E,F]) :-
+'urn:example:log'([[A,B],[C,D]],[E,F]) <=
     polar([A,B],[G,H]),
     polar([C,D],[I,J]),
     K is log(G),
     L is log(I),
     divide([[L,J],[K,H]],[E,F]).
 
-'urn:example:sin'([A,B],[C,D]) :-
+'urn:example:sin'([A,B],[C,D]) <=
     C is sin(A)*(exp(B)+exp(-B))/2,
     D is cos(A)*(exp(B)-exp(-B))/2.
 
-'urn:example:cos'([A,B],[C,D]) :-
+'urn:example:cos'([A,B],[C,D]) <=
     C is cos(A)*(exp(B)+exp(-B))/2,
     D is -sin(A)*(exp(B)-exp(-B))/2.
 
-'urn:example:tan'(A,B) :-
+'urn:example:tan'(A,B) <=
     'urn:example:sin'(A,C),
     'urn:example:cos'(A,D),
     divide([C,D],B).
 
-'urn:example:asin'([A,B],[C,D]) :-
+'urn:example:asin'([A,B],[C,D]) <=
     E is (sqrt((1+A)^2+B^2)-sqrt((1-A)^2+B^2))/2,
     F is (sqrt((1+A)^2+B^2)+sqrt((1-A)^2+B^2))/2,
     C is asin(E),
     D is log(F+sqrt(F^2-1)).
 
-'urn:example:acos'([A,B],[C,D]) :-
+'urn:example:acos'([A,B],[C,D]) <=
     E is (sqrt((1+A)^2+B^2)-sqrt((1-A)^2+B^2))/2,
     F is (sqrt((1+A)^2+B^2)+sqrt((1-A)^2+B^2))/2,
     C is acos(E),
     D is -log(F+sqrt(F^2-1)).
 
-'urn:example:atan'(A,B) :-
+'urn:example:atan'(A,B) <=
     subtract([[0,1],A],C),
     add([[0,1],A],D),
     divide([C,D],E),

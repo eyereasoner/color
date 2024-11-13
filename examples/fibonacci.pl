@@ -1,6 +1,6 @@
 % See https://en.wikipedia.org/wiki/Fibonacci_number
 
-'urn:example:fibonacci'(A, B) :-
+'urn:example:fibonacci'(A, B) <=
     fibonacci(A, 0, 1, B).
 
 fibonacci(0, A, _, A).
@@ -11,7 +11,7 @@ fibonacci(A, B, C, D) :-
     F is B+C,
     fibonacci(E, C, F, D).
 
-'urn:example:golden_ratio'(A, B) :-
+'urn:example:golden_ratio'(A, B) <=
     'urn:example:fibonacci'(A, C),
     D is A+1,
     'urn:example:fibonacci'(D, E),

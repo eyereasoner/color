@@ -2,7 +2,7 @@
 
 :- use_module(library(between)).
 
-'urn:example:easter'(Year,[Month,Day]) :-
+'urn:example:easter'(Year,[Month,Day]) <=
     A is Year rem 19,
     B is Year//100,
     C is Year rem 100,

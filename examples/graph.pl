@@ -14,8 +14,10 @@
 'urn:example:oneway'('urn:example:lemans','urn:example:tours').
 'urn:example:oneway'('urn:example:angers','urn:example:nantes').
 
-'urn:example:oneway'(A,B) => 'urn:example:path'(A,B).
-'urn:example:path'(A,B),'urn:example:path'(B,C) => 'urn:example:path'(A,C).
+'urn:example:oneway'(A,B) =>
+    'urn:example:path'(A,B).
+'urn:example:path'(A,B),'urn:example:path'(B,C) =>
+    'urn:example:path'(A,C).
 
 % query
 'urn:example:path'(_CITY,'urn:example:nantes') => true.

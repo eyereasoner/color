@@ -9,6 +9,7 @@
 :- use_module(library(terms)).
 
 :- op(1150,xfx,=>).
+:- op(1200,xfx,<=).
 
 :- dynamic((=>)/2).
 :- dynamic(brake/0).
@@ -16,6 +17,8 @@
 :- dynamic(pred/1).
 :- dynamic(answer/1).
 :- dynamic(proof_step/1).
+
+term_expansion((Head <= Body), (Head :- Body)).
 
 % run color abstract machine with a list of options:
 %   - single_answer: output only one answer

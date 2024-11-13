@@ -3,7 +3,7 @@
 
 :- use_module(library(lists)).
 
-'urn:example:route'([Source,Destination,Obstacles],Path) :-
+'urn:example:route'([Source,Destination,Obstacles],Path) <=
     waves(Destination,[[Source],[]],Obstacles,Waves),
     path(Source,Destination,Waves,Path).
 

@@ -2,7 +2,7 @@
 % Original code from https://www.youtube.com/watch?v=nmBkU-l1zyc&t=1870s
 
 'urn:example:mi'([],[]).
-'urn:example:mi'([G|Gs],[]) :-
+'urn:example:mi'([G|Gs],[]) <=
     head_body_(G,Goals,Gs),
     'urn:example:mi'(Goals,[]).
 

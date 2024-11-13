@@ -4,10 +4,10 @@
 
 % interpreter for Univeral Turing Machine
 
-'urn:example:compute'([],OutTape) :-
+'urn:example:compute'([],OutTape) <=
     start(_MACHINE,I),
     find(I,[],"#",[ ],OutTape).
-'urn:example:compute'([Head|Tail],OutTape) :-
+'urn:example:compute'([Head|Tail],OutTape) <=
     start(_MACHINE,I),
     find(I,[],Head,Tail,OutTape).
 

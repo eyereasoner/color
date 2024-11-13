@@ -95,13 +95,3 @@ astep(_,A) :-
         )
     ;   true
     ).
-
-%
-% built-ins
-%
-'https://eyereasoner.github.io/color#pso_triple'([P,S,O],Triple) :-
-    (   var(P)
-    ->  pred(P)
-    ;   true
-    ),
-    Triple =.. [P,S,O].

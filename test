@@ -3,6 +3,6 @@ echo -n "" | tee result.pl
 for f in examples/*.pl
 do
     echo "% running $f" | tee -a result.pl
-    tpl -g "run,halt" color.pl "$f" | tee -a result.pl
+    tpl -g "run([proof_step]), halt" color.pl "$f" | tee -a result.pl
     echo "" | tee -a result.pl
 done

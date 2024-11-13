@@ -9,9 +9,9 @@ TERM            | Examples
 ----------------|---------
 IRI             | `'http://example.org/etc#Socrates'`
 VARIABLE        | `X` `_abc`
-LITERAL         | `"abc"` `1.52` `1e-18` `pi` `dt("2022-01-15",'http://www.w3.org/2001/XMLSchema#date')`
+LITERAL         | `"abc"` true false `1.52` `1e-18` `pi` `dt("2022-01-15",'http://www.w3.org/2001/XMLSchema#date')`
 LIST            | `[TERM,...]` `[TERM,...\|LIST]`
-TRIPLE          | `IRI(TERM,TERM)`
+TRIPLE          | `IRI(TERM,TERM)` `GRAPH => GRAPH`
 GRAPH           | `TRIPLE,...`
 
 CLAUSE          | Examples
@@ -21,7 +21,7 @@ FORWARD_RULE    | `GRAPH => GRAPH.`
 QUERY           | `GRAPH => true.`
 ANSWER          | `GRAPH => true.`
 INFERENCE_FUSE  | `GRAPH => false.`
-BACKWARD_RULE   | `TRIPLE <= GRAPH,`[`PROLOG`](http://tau-prolog.org/documentation#prolog)`.`
+BACKWARD_RULE   | `TRIPLE <= GRAPH,`[`PROLOG`](https://www.scryer.pl/builtins)`.`
 
 Color performs forward chaining for a `FORWARD_RULE` and backward chaining for a `BACKWARD_RULE`.
 

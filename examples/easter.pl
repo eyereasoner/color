@@ -13,5 +13,5 @@
     Day is F rem 31+1.
 
 % query
-'urn:example:easter'(Year,[_Month,_Day]) => true :-
+'urn:example:easter'(Year,[_Month,_Day]) => true <=
     between(2021,2050,Year).

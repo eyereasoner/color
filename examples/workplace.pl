@@ -21,15 +21,15 @@ true =>
 % Rules to check if an action complies with deontic logic
 'urn:example:does'(Person, Action),
 'urn:example:obliged'('urn:example:workplace_policy', Action)
-=> 'urn:example:complies'(Person, ['urn:example:is_fulfilling_an_obligation', Action]).
+=> 'urn:example:complies'(Person, [true, 'urn:example:is_fulfilling_an_obligation', Action]).
 
 'urn:example:does'(Person, Action),
 'urn:example:permitted'('urn:example:workplace_policy', Action)
-=> 'urn:example:complies'(Person, ['urn:example:is_doing_a_permitted_action', Action]).
+=> 'urn:example:complies'(Person, [true, 'urn:example:is_doing_a_permitted_action', Action]).
 
 'urn:example:does'(Person, Action),
 'urn:example:forbidden'('urn:example:workplace_policy', Action)
-=> 'urn:example:complies'(Person, ['urn:example:is_violating_a_prohibition', Action]).
+=> 'urn:example:complies'(Person, [false, 'urn:example:is_violating_a_prohibition', Action]).
 
 % Query to test if everyone complies with deontic logic
 'urn:example:complies'(_Person, _Check) => true.

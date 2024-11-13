@@ -2,54 +2,54 @@
 
 :- use_module(library(lists)).
 
-'https://eyereasoner.github.io/color#colors'(_Map,Places) :-
-    findall([Place,_],'https://eyereasoner.github.io/color#neighbours'(Place,_),Places),
+'urn:example:colors'(_Map,Places) :-
+    findall([Place,_],'urn:example:neighbours'(Place,_),Places),
     places(Places).
 
 places([]).
 places([[Place,Color]|Tail]) :-
     places(Tail),
-    'https://eyereasoner.github.io/color#neighbours'(Place,Neighbours),
-    member(Color,['http://example.org/ns#c1','http://example.org/ns#c2','http://example.org/ns#c3','http://example.org/ns#c4']),
+    'urn:example:neighbours'(Place,Neighbours),
+    member(Color,['urn:example:c1','urn:example:c2','urn:example:c3','urn:example:c4']),
     \+ (member([Neighbour,Color],Tail),member(Neighbour,Neighbours)).
 
 % test data
-'https://eyereasoner.github.io/color#neighbours'(
-    'http://example.org/ns#p1',
-    [   'http://example.org/ns#p2',
-        'http://example.org/ns#p5',
-        'http://example.org/ns#p4',
-        'http://example.org/ns#p3'
+'urn:example:neighbours'(
+    'urn:example:p1',
+    [   'urn:example:p2',
+        'urn:example:p5',
+        'urn:example:p4',
+        'urn:example:p3'
     ]
 ).
-'https://eyereasoner.github.io/color#neighbours'(
-    'http://example.org/ns#p2',
-    [   'http://example.org/ns#p1',
-        'http://example.org/ns#p4',
-        'http://example.org/ns#p3'
+'urn:example:neighbours'(
+    'urn:example:p2',
+    [   'urn:example:p1',
+        'urn:example:p4',
+        'urn:example:p3'
     ]
 ).
-'https://eyereasoner.github.io/color#neighbours'(
-    'http://example.org/ns#p3',
-    [   'http://example.org/ns#p5',
-        'http://example.org/ns#p1',
-        'http://example.org/ns#p4',
-        'http://example.org/ns#p2'
+'urn:example:neighbours'(
+    'urn:example:p3',
+    [   'urn:example:p5',
+        'urn:example:p1',
+        'urn:example:p4',
+        'urn:example:p2'
     ]
 ).
-'https://eyereasoner.github.io/color#neighbours'(
-    'http://example.org/ns#p4',
-    [   'http://example.org/ns#p1',
-        'http://example.org/ns#p2',
-        'http://example.org/ns#p3'
+'urn:example:neighbours'(
+    'urn:example:p4',
+    [   'urn:example:p1',
+        'urn:example:p2',
+        'urn:example:p3'
     ]
 ).
-'https://eyereasoner.github.io/color#neighbours'(
-    'http://example.org/ns#p5',
-    [   'http://example.org/ns#p1',
-        'http://example.org/ns#p3'
+'urn:example:neighbours'(
+    'urn:example:p5',
+    [   'urn:example:p1',
+        'urn:example:p3'
     ]
 ).
 
 % query
-'https://eyereasoner.github.io/color#colors'('http://example.org/ns#map1',_X) => true.
+'urn:example:colors'('urn:example:map1',_X) => true.

@@ -5,7 +5,7 @@
 :- use_module(library(iso_ext)).
 
 % find paths in the state space from initial state to goal state within limits
-'https://eyereasoner.github.io/color#findpath'(_SCOPE,[Goal,Path,Duration,Cost,Belief,Comfort,Limits]) :-
+'urn:example:findpath'(_SCOPE,[Goal,Path,Duration,Cost,Belief,Comfort,Limits]) :-
     findpaths([],Goal,[],0.0,0.0,1.0,1.0,Path,Duration,Cost,Belief,Comfort,Limits).
 
 findpaths(_Maps,Goal,Path,Duration,Cost,Belief,Comfort,Path,Duration,Cost,Belief,Comfort,_Limits) :-
@@ -13,10 +13,10 @@ findpaths(_Maps,Goal,Path,Duration,Cost,Belief,Comfort,Path,Duration,Cost,Belief
     !.
 findpaths(Maps_s,Goal,Path_s,Duration_s,Cost_s,Belief_s,Comfort_s,Path,Duration,Cost,Belief,Comfort,Limits) :-
     Limits = [MaxDuration,MaxCost,MinBelief,MinComfort,MaxStagecount],
-    clause('https://eyereasoner.github.io/color#description'(Map,[From,Transition,To,Action,Duration_n,Cost_n,Belief_n,Comfort_n]),Where),
+    clause('urn:example:description'(Map,[From,Transition,To,Action,Duration_n,Cost_n,Belief_n,Comfort_n]),Where),
     From,
     Where,
-    'https://eyereasoner.github.io/color#description'(Map,[From,Transition,To,Action,Duration_n,Cost_n,Belief_n,Comfort_n]),
+    'urn:example:description'(Map,[From,Transition,To,Action,Duration_n,Cost_n,Belief_n,Comfort_n]),
     append(Maps_s,[Map],Maps_t),
     stagecount(Maps_t,Stagecount),
     Stagecount =< MaxStagecount,
@@ -59,52 +59,52 @@ conj_list((A,B),[A|C]) :-
     conj_list(B,C).
 
 % test data
-:- dynamic('https://eyereasoner.github.io/color#description'/2).
-:- dynamic('https://eyereasoner.github.io/color#location'/2).
+:- dynamic('urn:example:description'/2).
+:- dynamic('urn:example:location'/2).
 
 % partial map of Belgium
-'https://eyereasoner.github.io/color#description'(
-    'http://example.org/ns#map_be',
-    [   'https://eyereasoner.github.io/color#location'(S,'http://example.org/ns#gent'),
+'urn:example:description'(
+    'urn:example:map_be',
+    [   'urn:example:location'(S,'urn:example:gent'),
         true,
-        'https://eyereasoner.github.io/color#location'(S,'http://example.org/ns#brugge'),
-        'http://example.org/ns#drive_gent_brugge',
+        'urn:example:location'(S,'urn:example:brugge'),
+        'urn:example:drive_gent_brugge',
         1500.0,
         0.006,
         0.96,
         0.99
     ]
 ).
-'https://eyereasoner.github.io/color#description'(
-    'http://example.org/ns#map_be',
-    [   'https://eyereasoner.github.io/color#location'(S,'http://example.org/ns#gent'),
+'urn:example:description'(
+    'urn:example:map_be',
+    [   'urn:example:location'(S,'urn:example:gent'),
         true,
-        'https://eyereasoner.github.io/color#location'(S,'http://example.org/ns#kortrijk'),
-        'http://example.org/ns#drive_gent_kortrijk',
+        'urn:example:location'(S,'urn:example:kortrijk'),
+        'urn:example:drive_gent_kortrijk',
         1600.0,
         0.007,
         0.96,
         0.99
     ]
 ).
-'https://eyereasoner.github.io/color#description'(
-    'http://example.org/ns#map_be',
-    [   'https://eyereasoner.github.io/color#location'(S,'http://example.org/ns#kortrijk'),
+'urn:example:description'(
+    'urn:example:map_be',
+    [   'urn:example:location'(S,'urn:example:kortrijk'),
         true,
-        'https://eyereasoner.github.io/color#location'(S,'http://example.org/ns#brugge'),
-        'http://example.org/ns#drive_kortrijk_brugge',
+        'urn:example:location'(S,'urn:example:brugge'),
+        'urn:example:drive_kortrijk_brugge',
         1600.0,
         0.007,
         0.96,
         0.99
     ]
 ).
-'https://eyereasoner.github.io/color#description'(
-    'http://example.org/ns#map_be',
-    [   'https://eyereasoner.github.io/color#location'(S,'http://example.org/ns#brugge'),
+'urn:example:description'(
+    'urn:example:map_be',
+    [   'urn:example:location'(S,'urn:example:brugge'),
         true,
-        'https://eyereasoner.github.io/color#location'(S,'http://example.org/ns#oostende'),
-        'http://example.org/ns#drive_brugge_oostende',
+        'urn:example:location'(S,'urn:example:oostende'),
+        'urn:example:drive_brugge_oostende',
         900.0,
         0.004,
         0.98,
@@ -113,12 +113,12 @@ conj_list((A,B),[A|C]) :-
 ).
 
 % current state
-true => 'https://eyereasoner.github.io/color#location'('http://example.org/ns#i1','http://example.org/ns#gent').
+true => 'urn:example:location'('urn:example:i1','urn:example:gent').
 
 % query
-'https://eyereasoner.github.io/color#findpath'(
-    'http://example.org/ns#map_be',
-    [   'https://eyereasoner.github.io/color#location'(_SUBJECT,'http://example.org/ns#oostende'),
+'urn:example:findpath'(
+    'urn:example:map_be',
+    [   'urn:example:location'(_SUBJECT,'urn:example:oostende'),
         _PATH,
         _DURATION,
         _COST,

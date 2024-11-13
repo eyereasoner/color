@@ -4,10 +4,10 @@
 
 % interpreter for Univeral Turing Machine
 
-'https://eyereasoner.github.io/color#compute'([],OutTape) :-
+'urn:example:compute'([],OutTape) :-
     start(_MACHINE,I),
     find(I,[],"#",[ ],OutTape).
-'https://eyereasoner.github.io/color#compute'([Head|Tail],OutTape) :-
+'urn:example:compute'([Head|Tail],OutTape) :-
     start(_MACHINE,I),
     find(I,[],Head,Tail,OutTape).
 
@@ -45,7 +45,7 @@ t([1,1,0,l],1).
 t([1,"#",1,s],halt).
 
 % query
-'https://eyereasoner.github.io/color#compute'([1,0,1,0,0,1],_ANSWER) => true.
-'https://eyereasoner.github.io/color#compute'([1,0,1,1,1,1],_ANSWER) => true.
-'https://eyereasoner.github.io/color#compute'([1,1,1,1,1,1],_ANSWER) => true.
-'https://eyereasoner.github.io/color#compute'([],_ANSWER) => true.
+'urn:example:compute'([1,0,1,0,0,1],_ANSWER) => true.
+'urn:example:compute'([1,0,1,1,1,1],_ANSWER) => true.
+'urn:example:compute'([1,1,1,1,1,1],_ANSWER) => true.
+'urn:example:compute'([],_ANSWER) => true.

@@ -1,0 +1,4 @@
+#!/bin/bash
+export COLOR=$(dirname "$(readlink -f "$0")")/color.pl
+
+tpl -g "run([proof_step]), halt" ${COLOR} "$@"

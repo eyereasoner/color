@@ -2,7 +2,7 @@
 
 :- use_module(library(between)).
 
-'https://eyereasoner.github.io/color#easter'(Year,[Month,Day]) :-
+'urn:example:easter'(Year,[Month,Day]) :-
     A is Year rem 19,
     B is Year//100,
     C is Year rem 100,
@@ -13,5 +13,5 @@
     Day is F rem 31+1.
 
 % query
-'https://eyereasoner.github.io/color#easter'(Year,[_Month,_Day]) => true :-
+'urn:example:easter'(Year,[_Month,_Day]) => true :-
     between(2021,2050,Year).

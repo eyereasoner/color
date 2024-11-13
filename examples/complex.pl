@@ -1,47 +1,47 @@
 % See https://en.wikipedia.org/wiki/Complex_number
 
-'https://eyereasoner.github.io/color#exp'([[A,B],[C,D]],[E,F]) :-
+'urn:example:exp'([[A,B],[C,D]],[E,F]) :-
     polar([A,B],[G,H]),
     E is G^C*exp(-D*H)*cos(D*log(G)+C*H),
     F is G^C*exp(-D*H)*sin(D*log(G)+C*H).
 
-'https://eyereasoner.github.io/color#log'([[A,B],[C,D]],[E,F]) :-
+'urn:example:log'([[A,B],[C,D]],[E,F]) :-
     polar([A,B],[G,H]),
     polar([C,D],[I,J]),
     K is log(G),
     L is log(I),
     divide([[L,J],[K,H]],[E,F]).
 
-'https://eyereasoner.github.io/color#sin'([A,B],[C,D]) :-
+'urn:example:sin'([A,B],[C,D]) :-
     C is sin(A)*(exp(B)+exp(-B))/2,
     D is cos(A)*(exp(B)-exp(-B))/2.
 
-'https://eyereasoner.github.io/color#cos'([A,B],[C,D]) :-
+'urn:example:cos'([A,B],[C,D]) :-
     C is cos(A)*(exp(B)+exp(-B))/2,
     D is -sin(A)*(exp(B)-exp(-B))/2.
 
-'https://eyereasoner.github.io/color#tan'(A,B) :-
-    'https://eyereasoner.github.io/color#sin'(A,C),
-    'https://eyereasoner.github.io/color#cos'(A,D),
+'urn:example:tan'(A,B) :-
+    'urn:example:sin'(A,C),
+    'urn:example:cos'(A,D),
     divide([C,D],B).
 
-'https://eyereasoner.github.io/color#asin'([A,B],[C,D]) :-
+'urn:example:asin'([A,B],[C,D]) :-
     E is (sqrt((1+A)^2+B^2)-sqrt((1-A)^2+B^2))/2,
     F is (sqrt((1+A)^2+B^2)+sqrt((1-A)^2+B^2))/2,
     C is asin(E),
     D is log(F+sqrt(F^2-1)).
 
-'https://eyereasoner.github.io/color#acos'([A,B],[C,D]) :-
+'urn:example:acos'([A,B],[C,D]) :-
     E is (sqrt((1+A)^2+B^2)-sqrt((1-A)^2+B^2))/2,
     F is (sqrt((1+A)^2+B^2)+sqrt((1-A)^2+B^2))/2,
     C is acos(E),
     D is -log(F+sqrt(F^2-1)).
 
-'https://eyereasoner.github.io/color#atan'(A,B) :-
+'urn:example:atan'(A,B) :-
     subtract([[0,1],A],C),
     add([[0,1],A],D),
     divide([C,D],E),
-    'https://eyereasoner.github.io/color#log'([[e,0],E],F),
+    'urn:example:log'([[e,0],E],F),
     divide([F,[0,2]],B).
 
 polar([A,B],[C,D]) :-
@@ -91,13 +91,13 @@ divide([A,B],C) :-
     multiply([A,D],C).
 
 % query
-'https://eyereasoner.github.io/color#exp'([[-1,0],[0.5,0]],_ANSWER) => true.
-'https://eyereasoner.github.io/color#exp'([[e,0],[0,pi]],_ANSWER) => true.
-'https://eyereasoner.github.io/color#log'([[e,0],[-1,0]],_ANSWER) => true.
-'https://eyereasoner.github.io/color#log'([[0,1],[0,1]],_ANSWER) => true.
-'https://eyereasoner.github.io/color#sin'([1.570796326794897,1.316957896924817],_ANSWER) => true.
-'https://eyereasoner.github.io/color#cos'([0,-1.316957896924817],_ANSWER) => true.
-'https://eyereasoner.github.io/color#tan'([1.338972522294493,0.4023594781085251],_ANSWER) => true.
-'https://eyereasoner.github.io/color#asin'([2,0],_ANSWER) => true.
-'https://eyereasoner.github.io/color#acos'([2,0],_ANSWER) => true.
-'https://eyereasoner.github.io/color#atan'([1,2],_ANSWER) => true.
+'urn:example:exp'([[-1,0],[0.5,0]],_ANSWER) => true.
+'urn:example:exp'([[e,0],[0,pi]],_ANSWER) => true.
+'urn:example:log'([[e,0],[-1,0]],_ANSWER) => true.
+'urn:example:log'([[0,1],[0,1]],_ANSWER) => true.
+'urn:example:sin'([1.570796326794897,1.316957896924817],_ANSWER) => true.
+'urn:example:cos'([0,-1.316957896924817],_ANSWER) => true.
+'urn:example:tan'([1.338972522294493,0.4023594781085251],_ANSWER) => true.
+'urn:example:asin'([2,0],_ANSWER) => true.
+'urn:example:acos'([2,0],_ANSWER) => true.
+'urn:example:atan'([1,2],_ANSWER) => true.

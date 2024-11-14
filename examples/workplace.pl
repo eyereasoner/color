@@ -1,8 +1,5 @@
 % Deontic Logic example
 
-:- dynamic('urn:example:obliged'/2).
-:- dynamic('urn:example:permitted'/2).
-:- dynamic('urn:example:forbidden'/2).
 :- dynamic('urn:example:does'/2).
 :- dynamic('urn:example:complies'/2).
 

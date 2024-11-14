@@ -12,10 +12,11 @@
 :- op(1200,xfx,<=).
 
 :- dynamic((=>)/2).
+:- dynamic(answer/1).
 :- dynamic(brake/0).
 :- dynamic(label/1).
+:- dynamic(need_nl/0).
 :- dynamic(pred/1).
-:- dynamic(answer/1).
 :- dynamic(proof_step/1).
 
 term_expansion((Head <= Body), (Head :- Body)).
@@ -44,6 +45,10 @@ run(Options) :-
     ->  labelvars(Prem),
         (   \+answer((Prem => true))
         ->  assertz(answer((Prem => true))),
+            (   retract(need_nl)
+            ->  nl
+            ;   true
+            ),
             writeq(Prem),
             write(' => true.\n')
         ;   true
@@ -56,7 +61,11 @@ run(Options) :-
             \+proof_step((Prem => Conc))
         ->  assertz(proof_step((Prem => Conc))),
             writeq('https://eyereasoner.github.io/color#proof_step'(Rule,(Prem => Conc))),
-            write('.\n')
+            write('.\n'),
+            (   \+need_nl
+            ->  assertz(need_nl)
+            ;   true
+            )
         ;   true
         ),
         retract(brake),

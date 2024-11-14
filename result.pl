@@ -174,6 +174,8 @@
 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type'('urn:example:Socrates','urn:example:Mortal') => true.
 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type'('urn:example:Socrates','urn:example:Man') => true.
 
+% running examples/student.pl
+
 % running examples/turing.pl
 'urn:example:compute'([1,0,1,0,0,1],[1,0,1,0,1,0,[#]]) => true.
 'urn:example:compute'([1,0,1,1,1,1],[1,1,0,0,0,0,[#]]) => true.
@@ -182,9 +184,9 @@
 
 % running examples/workplace.pl
 'https://eyereasoner.github.io/color#proof_step'(('urn:example:does'(A,B),'urn:example:obliged'('urn:example:workplace_policy',B)=>'urn:example:complies'(A,[true,'urn:example:is_fulfilling_an_obligation',B])),('urn:example:does'('urn:example:alice','urn:example:log_off_at_end_of_shift'),'urn:example:obliged'('urn:example:workplace_policy','urn:example:log_off_at_end_of_shift')=>'urn:example:complies'('urn:example:alice',[true,'urn:example:is_fulfilling_an_obligation','urn:example:log_off_at_end_of_shift']))).
-'https://eyereasoner.github.io/color#proof_step'(('urn:example:does'(C,D),'urn:example:permitted'('urn:example:workplace_policy',D)=>'urn:example:complies'(C,[true,'urn:example:is_doing_a_permitted_action',D])),('urn:example:does'('urn:example:bob','urn:example:work_related_task'),'urn:example:permitted'('urn:example:workplace_policy','urn:example:work_related_task')=>'urn:example:complies'('urn:example:bob',[true,'urn:example:is_doing_a_permitted_action','urn:example:work_related_task']))).
-'https://eyereasoner.github.io/color#proof_step'(('urn:example:does'(E,F),'urn:example:forbidden'('urn:example:workplace_policy',F)=>'urn:example:complies'(E,[false,'urn:example:is_violating_a_prohibition',F])),('urn:example:does'('urn:example:carol','urn:example:access_social_media'),'urn:example:forbidden'('urn:example:workplace_policy','urn:example:access_social_media')=>'urn:example:complies'('urn:example:carol',[false,'urn:example:is_violating_a_prohibition','urn:example:access_social_media']))).
+'https://eyereasoner.github.io/color#proof_step'(('urn:example:does'(C,D), \+'urn:example:obliged'('urn:example:workplace_policy',D)=>'urn:example:complies'(C,[false,'urn:example:is_violating_a_prohibition',D])),('urn:example:does'('urn:example:bob','urn:example:work_related_task'), \+'urn:example:obliged'('urn:example:workplace_policy','urn:example:work_related_task')=>'urn:example:complies'('urn:example:bob',[false,'urn:example:is_violating_a_prohibition','urn:example:work_related_task']))).
+'https://eyereasoner.github.io/color#proof_step'(('urn:example:does'(C,D), \+'urn:example:obliged'('urn:example:workplace_policy',D)=>'urn:example:complies'(C,[false,'urn:example:is_violating_a_prohibition',D])),('urn:example:does'('urn:example:carol','urn:example:access_social_media'), \+'urn:example:obliged'('urn:example:workplace_policy','urn:example:access_social_media')=>'urn:example:complies'('urn:example:carol',[false,'urn:example:is_violating_a_prohibition','urn:example:access_social_media']))).
 'urn:example:complies'('urn:example:carol',[false,'urn:example:is_violating_a_prohibition','urn:example:access_social_media']) => true.
-'urn:example:complies'('urn:example:bob',[true,'urn:example:is_doing_a_permitted_action','urn:example:work_related_task']) => true.
+'urn:example:complies'('urn:example:bob',[false,'urn:example:is_violating_a_prohibition','urn:example:work_related_task']) => true.
 'urn:example:complies'('urn:example:alice',[true,'urn:example:is_fulfilling_an_obligation','urn:example:log_off_at_end_of_shift']) => true.
 

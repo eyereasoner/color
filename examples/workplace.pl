@@ -22,7 +22,12 @@
     'urn:example:complies'(Person, [true, 'urn:example:is_fulfilling_an_obligation', Action]).
 
 'urn:example:does'(Person, Action),
-'urn:example:permitted'('urn:example:workplace_policy', Action) =>
+\+'urn:example:obliged'('urn:example:workplace_policy', Action) =>
+    'urn:example:complies'(Person, [false, 'urn:example:is_violating_a_prohibition', Action]).
+
+'urn:example:does'(Person, Action),
+'urn:example:permitted'('urn:example:workplace_policy', Action),
+\+'urn:example:complies'(Person, [false, _, _]) =>
     'urn:example:complies'(Person, [true, 'urn:example:is_doing_a_permitted_action', Action]).
 
 'urn:example:does'(Person, Action),

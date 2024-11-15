@@ -1,3 +1,6 @@
+% running examples/cobbler.pl
+'urn:example:is'('urn:example:bob','urn:example:good'('urn:example:Cobbler')) => true.
+
 % running examples/complex.pl
 'urn:example:exp'([[-1,0],[0.5,0]],[6.123233995736766e-17,1.0]) => true.
 'urn:example:exp'([[e,0],[0,pi]],[-1.0,1.2246467991473532e-16]) => true.

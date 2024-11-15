@@ -7,10 +7,11 @@ Color is using [ISO Prolog notation](https://en.wikipedia.org/wiki/Prolog#ISO_Pr
 
 TERM            | Examples
 ----------------|---------
-IRI             | `'http://example.org/etc#Socrates'`
+IRI             | `'urn:example:abc'`
 VARIABLE        | `X` `_abc`
 LITERAL         | `"abc"` `true` `1.52` `1e-18` `pi` `dt("2022-01-15",'http://www.w3.org/2001/XMLSchema#date')`
 LIST            | `[TERM,...]` `[TERM,...\|LIST]`
+COMPOUND        | `IRI(TERM,...)`
 TRIPLE          | `IRI(TERM,TERM)` `GRAPH => GRAPH`
 GRAPH           | `TRIPLE,...`
 

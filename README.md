@@ -38,6 +38,19 @@ Install [Trealla Prolog](https://github.com/trealla-prolog/trealla?tab=readme-ov
 ./test
 ```
 
+Here is a quick test on Linux that should give no diff:
+```
+cd /tmp
+git clone https://github.com/trealla-prolog/trealla
+cd trealla
+make
+cd ..
+git clone https://github.com/eyereasoner/color
+cd color
+./test
+git diff
+```
+
 ## Background
 
 - Personal notes by Tim Berners-Lee: [Design Issues](https://www.w3.org/DesignIssues/)

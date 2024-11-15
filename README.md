@@ -1,4 +1,4 @@
-# Condition logic reasoning - color
+# Condition logic reasoner - color
 
 Color is doing forward and backward chaining.
 It participates in dialogues leading to necessary and sufficient answers, supported by proof steps, so that action can take place.

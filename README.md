@@ -47,6 +47,7 @@ make
 cd ..
 git clone https://github.com/eyereasoner/color
 cd color
+export tpl=../trealla/tpl
 ./test
 git diff
 ```

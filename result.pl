@@ -13,6 +13,13 @@
 'urn:example:acos'([2,0],[0.0,-1.31695789692482]) => true.
 'urn:example:atan'([1,2],[1.33897252229449,0.402359478108525]) => true.
 
+% running examples/control.pl
+'https://eyereasoner.github.io/color#proof_step'(('urn:example:measurement10'('urn:example:input1',A),'urn:example:measurement2'('urn:example:input2',true),'urn:example:measurement3'('urn:example:disturbance1',B),C is A*19.6,D is log10(B),E is C-D=>'urn:example:control1'('urn:example:actuator1',E)),('urn:example:measurement10'('urn:example:input1',2.23606797749979),'urn:example:measurement2'('urn:example:input2',true),'urn:example:measurement3'('urn:example:disturbance1',35766),43.8269323589959 is 2.23606797749979*19.6,4.55347037221312 is log10(35766),39.2734619867828 is 43.8269323589959-4.55347037221312=>'urn:example:control1'('urn:example:actuator1',39.2734619867828))).
+'https://eyereasoner.github.io/color#proof_step'(('urn:example:observation3'('urn:example:state3',F),'urn:example:measurement4'('urn:example:output2',G),'urn:example:target2'('urn:example:output2',H),I is H-G,J is F-G,K is 5.8*I,L is 7.3/I,M is L*J,N is K+M=>'urn:example:control1'('urn:example:actuator2',N)),('urn:example:observation3'('urn:example:state3',22),'urn:example:measurement4'('urn:example:output2',24),'urn:example:target2'('urn:example:output2',29),5 is 29-24, -2 is 22-24,29.0 is 5.8*5,1.46 is 7.3/5, -2.92 is 1.46* -2,26.08 is 29.0+ -2.92=>'urn:example:control1'('urn:example:actuator2',26.08))).
+
+'urn:example:control1'('urn:example:actuator2',26.08) => true.
+'urn:example:control1'('urn:example:actuator1',39.2734619867828) => true.
+
 % running examples/dt.pl
 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type'('urn:example:z','urn:example:N10000') => true.
 

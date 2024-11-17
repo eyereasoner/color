@@ -36,20 +36,7 @@ This forms a dialogue leading to necessary and sufficient answers, supported by 
 Install [Trealla Prolog](https://github.com/trealla-prolog/trealla?tab=readme-ov-file#building) and then run
 
 ```
-./test
-```
-
-Here is a quick test on Linux that should give no diff:
-```
-cd /tmp
-git clone https://github.com/trealla-prolog/trealla
-cd trealla
-make
-cd ..
-git clone https://github.com/eyereasoner/eye3
-cd eye3/etc
-export tpl=../trealla/tpl
-export eye3=../eye3
+cd etc
 ./test
 ```
 

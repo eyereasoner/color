@@ -21,6 +21,8 @@
 
 term_expansion((Head <= Body), (Head :- Body)).
 
+version_info('eye3 v0.0.1 (2024-11-17)').
+
 % run eye3 abstract machine with a list of options:
 %   - single_answer: output only one answer
 %   - proof_step: output proof steps
@@ -37,6 +39,14 @@ run :-
     run([]).
 
 run(Options) :-
+    (   (_ => _)
+    ->  true
+    ;   version_info(Version),
+        write('% '),
+        write(Version),
+        nl,
+        halt
+    ),
     (Prem => Conc),
     copy_term((Prem => Conc),Rule),
     labelvars(Rule),

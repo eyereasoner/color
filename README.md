@@ -1,9 +1,9 @@
-# Condition logic reasoner - color
+# eye3
 
-Color is doing forward and backward chaining.
+The eye3 reasoner is doing forward, backward chaining and query answering.
 It participates in dialogues leading to necessary and sufficient answers, supported by proof steps, so that action can take place.
 
-Color is using [ISO Prolog notation](https://en.wikipedia.org/wiki/Prolog#ISO_Prolog):
+It is using webized [ISO Prolog notation](https://en.wikipedia.org/wiki/Prolog#ISO_Prolog):
 
 TERM            | Examples
 ----------------|---------
@@ -24,7 +24,7 @@ ANSWER          | `GRAPH => true.`
 INFERENCE_FUSE  | `GRAPH => false.`
 BACKWARD_RULE   | `TRIPLE <= GRAPH,`[`PROLOG`](https://www.scryer.pl/builtins)`.`
 
-Color performs forward chaining for a `FORWARD_RULE` and backward chaining for a `BACKWARD_RULE`.
+It performs forward chaining for a `FORWARD_RULE` and backward chaining for a `BACKWARD_RULE`.
 
 Queries are posed and answered as `GRAPH => true.` so the answers are also queries be it with
 some parts substituted and eventually containing more variables than in the original query.
@@ -45,8 +45,8 @@ git clone https://github.com/trealla-prolog/trealla
 cd trealla
 make
 cd ..
-git clone https://github.com/eyereasoner/color
-cd color
+git clone https://github.com/eyereasoner/eye3
+cd eye3
 export tpl=../trealla/tpl
 ./test
 git diff

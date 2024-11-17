@@ -14,8 +14,8 @@
 'urn:example:atan'([1,2],[1.33897252229449,0.402359478108525]) => true.
 
 % running examples/control.pl
-'https://eyereasoner.github.io/color#proof_step'(('urn:example:measurement10'('urn:example:input1',A),'urn:example:measurement2'('urn:example:input2',true),'urn:example:measurement3'('urn:example:disturbance1',B),C is A*19.6,D is log10(B),E is C-D=>'urn:example:control1'('urn:example:actuator1',E)),('urn:example:measurement10'('urn:example:input1',2.23606797749979),'urn:example:measurement2'('urn:example:input2',true),'urn:example:measurement3'('urn:example:disturbance1',35766),43.8269323589959 is 2.23606797749979*19.6,4.55347037221312 is log10(35766),39.2734619867828 is 43.8269323589959-4.55347037221312=>'urn:example:control1'('urn:example:actuator1',39.2734619867828))).
-'https://eyereasoner.github.io/color#proof_step'(('urn:example:observation3'('urn:example:state3',F),'urn:example:measurement4'('urn:example:output2',G),'urn:example:target2'('urn:example:output2',H),I is H-G,J is F-G,K is 5.8*I,L is 7.3/I,M is L*J,N is K+M=>'urn:example:control1'('urn:example:actuator2',N)),('urn:example:observation3'('urn:example:state3',22),'urn:example:measurement4'('urn:example:output2',24),'urn:example:target2'('urn:example:output2',29),5 is 29-24, -2 is 22-24,29.0 is 5.8*5,1.46 is 7.3/5, -2.92 is 1.46* -2,26.08 is 29.0+ -2.92=>'urn:example:control1'('urn:example:actuator2',26.08))).
+'https://eyereasoner.github.io/eye3#proof_step'(('urn:example:measurement10'('urn:example:input1',A),'urn:example:measurement2'('urn:example:input2',true),'urn:example:measurement3'('urn:example:disturbance1',B),C is A*19.6,D is log10(B),E is C-D=>'urn:example:control1'('urn:example:actuator1',E)),('urn:example:measurement10'('urn:example:input1',2.23606797749979),'urn:example:measurement2'('urn:example:input2',true),'urn:example:measurement3'('urn:example:disturbance1',35766),43.8269323589959 is 2.23606797749979*19.6,4.55347037221312 is log10(35766),39.2734619867828 is 43.8269323589959-4.55347037221312=>'urn:example:control1'('urn:example:actuator1',39.2734619867828))).
+'https://eyereasoner.github.io/eye3#proof_step'(('urn:example:observation3'('urn:example:state3',F),'urn:example:measurement4'('urn:example:output2',G),'urn:example:target2'('urn:example:output2',H),I is H-G,J is F-G,K is 5.8*I,L is 7.3/I,M is L*J,N is K+M=>'urn:example:control1'('urn:example:actuator2',N)),('urn:example:observation3'('urn:example:state3',22),'urn:example:measurement4'('urn:example:output2',24),'urn:example:target2'('urn:example:output2',29),5 is 29-24, -2 is 22-24,29.0 is 5.8*5,1.46 is 7.3/5, -2.92 is 1.46* -2,26.08 is 29.0+ -2.92=>'urn:example:control1'('urn:example:actuator2',26.08))).
 
 'urn:example:control1'('urn:example:actuator2',26.08) => true.
 'urn:example:control1'('urn:example:actuator1',39.2734619867828) => true.
@@ -124,27 +124,27 @@
 'urn:example:findpath'('urn:example:map_be',['urn:example:location'('urn:example:i1','urn:example:oostende'),['urn:example:drive_gent_kortrijk','urn:example:drive_kortrijk_brugge','urn:example:drive_brugge_oostende'],4100.0,0.018,0.903168,0.9801,[5000.0,5.0,0.2,0.4,1]]) => true.
 
 % running examples/graph.pl
-'https://eyereasoner.github.io/color#proof_step'(('urn:example:oneway'(A,B)=>'urn:example:path'(A,B)),('urn:example:oneway'('urn:example:paris','urn:example:orleans')=>'urn:example:path'('urn:example:paris','urn:example:orleans'))).
-'https://eyereasoner.github.io/color#proof_step'(('urn:example:oneway'(A,B)=>'urn:example:path'(A,B)),('urn:example:oneway'('urn:example:paris','urn:example:chartres')=>'urn:example:path'('urn:example:paris','urn:example:chartres'))).
-'https://eyereasoner.github.io/color#proof_step'(('urn:example:oneway'(A,B)=>'urn:example:path'(A,B)),('urn:example:oneway'('urn:example:paris','urn:example:amiens')=>'urn:example:path'('urn:example:paris','urn:example:amiens'))).
-'https://eyereasoner.github.io/color#proof_step'(('urn:example:oneway'(A,B)=>'urn:example:path'(A,B)),('urn:example:oneway'('urn:example:orleans','urn:example:blois')=>'urn:example:path'('urn:example:orleans','urn:example:blois'))).
-'https://eyereasoner.github.io/color#proof_step'(('urn:example:oneway'(A,B)=>'urn:example:path'(A,B)),('urn:example:oneway'('urn:example:orleans','urn:example:bourges')=>'urn:example:path'('urn:example:orleans','urn:example:bourges'))).
-'https://eyereasoner.github.io/color#proof_step'(('urn:example:oneway'(A,B)=>'urn:example:path'(A,B)),('urn:example:oneway'('urn:example:blois','urn:example:tours')=>'urn:example:path'('urn:example:blois','urn:example:tours'))).
-'https://eyereasoner.github.io/color#proof_step'(('urn:example:oneway'(A,B)=>'urn:example:path'(A,B)),('urn:example:oneway'('urn:example:chartres','urn:example:lemans')=>'urn:example:path'('urn:example:chartres','urn:example:lemans'))).
-'https://eyereasoner.github.io/color#proof_step'(('urn:example:oneway'(A,B)=>'urn:example:path'(A,B)),('urn:example:oneway'('urn:example:lemans','urn:example:angers')=>'urn:example:path'('urn:example:lemans','urn:example:angers'))).
-'https://eyereasoner.github.io/color#proof_step'(('urn:example:oneway'(A,B)=>'urn:example:path'(A,B)),('urn:example:oneway'('urn:example:lemans','urn:example:tours')=>'urn:example:path'('urn:example:lemans','urn:example:tours'))).
-'https://eyereasoner.github.io/color#proof_step'(('urn:example:oneway'(A,B)=>'urn:example:path'(A,B)),('urn:example:oneway'('urn:example:angers','urn:example:nantes')=>'urn:example:path'('urn:example:angers','urn:example:nantes'))).
-'https://eyereasoner.github.io/color#proof_step'(('urn:example:path'(C,D),'urn:example:path'(D,E)=>'urn:example:path'(C,E)),('urn:example:path'('urn:example:lemans','urn:example:angers'),'urn:example:path'('urn:example:angers','urn:example:nantes')=>'urn:example:path'('urn:example:lemans','urn:example:nantes'))).
-'https://eyereasoner.github.io/color#proof_step'(('urn:example:path'(C,D),'urn:example:path'(D,E)=>'urn:example:path'(C,E)),('urn:example:path'('urn:example:chartres','urn:example:lemans'),'urn:example:path'('urn:example:lemans','urn:example:nantes')=>'urn:example:path'('urn:example:chartres','urn:example:nantes'))).
-'https://eyereasoner.github.io/color#proof_step'(('urn:example:path'(C,D),'urn:example:path'(D,E)=>'urn:example:path'(C,E)),('urn:example:path'('urn:example:chartres','urn:example:lemans'),'urn:example:path'('urn:example:lemans','urn:example:tours')=>'urn:example:path'('urn:example:chartres','urn:example:tours'))).
-'https://eyereasoner.github.io/color#proof_step'(('urn:example:path'(C,D),'urn:example:path'(D,E)=>'urn:example:path'(C,E)),('urn:example:path'('urn:example:chartres','urn:example:lemans'),'urn:example:path'('urn:example:lemans','urn:example:angers')=>'urn:example:path'('urn:example:chartres','urn:example:angers'))).
-'https://eyereasoner.github.io/color#proof_step'(('urn:example:path'(C,D),'urn:example:path'(D,E)=>'urn:example:path'(C,E)),('urn:example:path'('urn:example:orleans','urn:example:blois'),'urn:example:path'('urn:example:blois','urn:example:tours')=>'urn:example:path'('urn:example:orleans','urn:example:tours'))).
-'https://eyereasoner.github.io/color#proof_step'(('urn:example:path'(C,D),'urn:example:path'(D,E)=>'urn:example:path'(C,E)),('urn:example:path'('urn:example:paris','urn:example:chartres'),'urn:example:path'('urn:example:chartres','urn:example:angers')=>'urn:example:path'('urn:example:paris','urn:example:angers'))).
-'https://eyereasoner.github.io/color#proof_step'(('urn:example:path'(C,D),'urn:example:path'(D,E)=>'urn:example:path'(C,E)),('urn:example:path'('urn:example:paris','urn:example:chartres'),'urn:example:path'('urn:example:chartres','urn:example:tours')=>'urn:example:path'('urn:example:paris','urn:example:tours'))).
-'https://eyereasoner.github.io/color#proof_step'(('urn:example:path'(C,D),'urn:example:path'(D,E)=>'urn:example:path'(C,E)),('urn:example:path'('urn:example:paris','urn:example:chartres'),'urn:example:path'('urn:example:chartres','urn:example:nantes')=>'urn:example:path'('urn:example:paris','urn:example:nantes'))).
-'https://eyereasoner.github.io/color#proof_step'(('urn:example:path'(C,D),'urn:example:path'(D,E)=>'urn:example:path'(C,E)),('urn:example:path'('urn:example:paris','urn:example:chartres'),'urn:example:path'('urn:example:chartres','urn:example:lemans')=>'urn:example:path'('urn:example:paris','urn:example:lemans'))).
-'https://eyereasoner.github.io/color#proof_step'(('urn:example:path'(C,D),'urn:example:path'(D,E)=>'urn:example:path'(C,E)),('urn:example:path'('urn:example:paris','urn:example:orleans'),'urn:example:path'('urn:example:orleans','urn:example:bourges')=>'urn:example:path'('urn:example:paris','urn:example:bourges'))).
-'https://eyereasoner.github.io/color#proof_step'(('urn:example:path'(C,D),'urn:example:path'(D,E)=>'urn:example:path'(C,E)),('urn:example:path'('urn:example:paris','urn:example:orleans'),'urn:example:path'('urn:example:orleans','urn:example:blois')=>'urn:example:path'('urn:example:paris','urn:example:blois'))).
+'https://eyereasoner.github.io/eye3#proof_step'(('urn:example:oneway'(A,B)=>'urn:example:path'(A,B)),('urn:example:oneway'('urn:example:paris','urn:example:orleans')=>'urn:example:path'('urn:example:paris','urn:example:orleans'))).
+'https://eyereasoner.github.io/eye3#proof_step'(('urn:example:oneway'(A,B)=>'urn:example:path'(A,B)),('urn:example:oneway'('urn:example:paris','urn:example:chartres')=>'urn:example:path'('urn:example:paris','urn:example:chartres'))).
+'https://eyereasoner.github.io/eye3#proof_step'(('urn:example:oneway'(A,B)=>'urn:example:path'(A,B)),('urn:example:oneway'('urn:example:paris','urn:example:amiens')=>'urn:example:path'('urn:example:paris','urn:example:amiens'))).
+'https://eyereasoner.github.io/eye3#proof_step'(('urn:example:oneway'(A,B)=>'urn:example:path'(A,B)),('urn:example:oneway'('urn:example:orleans','urn:example:blois')=>'urn:example:path'('urn:example:orleans','urn:example:blois'))).
+'https://eyereasoner.github.io/eye3#proof_step'(('urn:example:oneway'(A,B)=>'urn:example:path'(A,B)),('urn:example:oneway'('urn:example:orleans','urn:example:bourges')=>'urn:example:path'('urn:example:orleans','urn:example:bourges'))).
+'https://eyereasoner.github.io/eye3#proof_step'(('urn:example:oneway'(A,B)=>'urn:example:path'(A,B)),('urn:example:oneway'('urn:example:blois','urn:example:tours')=>'urn:example:path'('urn:example:blois','urn:example:tours'))).
+'https://eyereasoner.github.io/eye3#proof_step'(('urn:example:oneway'(A,B)=>'urn:example:path'(A,B)),('urn:example:oneway'('urn:example:chartres','urn:example:lemans')=>'urn:example:path'('urn:example:chartres','urn:example:lemans'))).
+'https://eyereasoner.github.io/eye3#proof_step'(('urn:example:oneway'(A,B)=>'urn:example:path'(A,B)),('urn:example:oneway'('urn:example:lemans','urn:example:angers')=>'urn:example:path'('urn:example:lemans','urn:example:angers'))).
+'https://eyereasoner.github.io/eye3#proof_step'(('urn:example:oneway'(A,B)=>'urn:example:path'(A,B)),('urn:example:oneway'('urn:example:lemans','urn:example:tours')=>'urn:example:path'('urn:example:lemans','urn:example:tours'))).
+'https://eyereasoner.github.io/eye3#proof_step'(('urn:example:oneway'(A,B)=>'urn:example:path'(A,B)),('urn:example:oneway'('urn:example:angers','urn:example:nantes')=>'urn:example:path'('urn:example:angers','urn:example:nantes'))).
+'https://eyereasoner.github.io/eye3#proof_step'(('urn:example:path'(C,D),'urn:example:path'(D,E)=>'urn:example:path'(C,E)),('urn:example:path'('urn:example:lemans','urn:example:angers'),'urn:example:path'('urn:example:angers','urn:example:nantes')=>'urn:example:path'('urn:example:lemans','urn:example:nantes'))).
+'https://eyereasoner.github.io/eye3#proof_step'(('urn:example:path'(C,D),'urn:example:path'(D,E)=>'urn:example:path'(C,E)),('urn:example:path'('urn:example:chartres','urn:example:lemans'),'urn:example:path'('urn:example:lemans','urn:example:nantes')=>'urn:example:path'('urn:example:chartres','urn:example:nantes'))).
+'https://eyereasoner.github.io/eye3#proof_step'(('urn:example:path'(C,D),'urn:example:path'(D,E)=>'urn:example:path'(C,E)),('urn:example:path'('urn:example:chartres','urn:example:lemans'),'urn:example:path'('urn:example:lemans','urn:example:tours')=>'urn:example:path'('urn:example:chartres','urn:example:tours'))).
+'https://eyereasoner.github.io/eye3#proof_step'(('urn:example:path'(C,D),'urn:example:path'(D,E)=>'urn:example:path'(C,E)),('urn:example:path'('urn:example:chartres','urn:example:lemans'),'urn:example:path'('urn:example:lemans','urn:example:angers')=>'urn:example:path'('urn:example:chartres','urn:example:angers'))).
+'https://eyereasoner.github.io/eye3#proof_step'(('urn:example:path'(C,D),'urn:example:path'(D,E)=>'urn:example:path'(C,E)),('urn:example:path'('urn:example:orleans','urn:example:blois'),'urn:example:path'('urn:example:blois','urn:example:tours')=>'urn:example:path'('urn:example:orleans','urn:example:tours'))).
+'https://eyereasoner.github.io/eye3#proof_step'(('urn:example:path'(C,D),'urn:example:path'(D,E)=>'urn:example:path'(C,E)),('urn:example:path'('urn:example:paris','urn:example:chartres'),'urn:example:path'('urn:example:chartres','urn:example:angers')=>'urn:example:path'('urn:example:paris','urn:example:angers'))).
+'https://eyereasoner.github.io/eye3#proof_step'(('urn:example:path'(C,D),'urn:example:path'(D,E)=>'urn:example:path'(C,E)),('urn:example:path'('urn:example:paris','urn:example:chartres'),'urn:example:path'('urn:example:chartres','urn:example:tours')=>'urn:example:path'('urn:example:paris','urn:example:tours'))).
+'https://eyereasoner.github.io/eye3#proof_step'(('urn:example:path'(C,D),'urn:example:path'(D,E)=>'urn:example:path'(C,E)),('urn:example:path'('urn:example:paris','urn:example:chartres'),'urn:example:path'('urn:example:chartres','urn:example:nantes')=>'urn:example:path'('urn:example:paris','urn:example:nantes'))).
+'https://eyereasoner.github.io/eye3#proof_step'(('urn:example:path'(C,D),'urn:example:path'(D,E)=>'urn:example:path'(C,E)),('urn:example:path'('urn:example:paris','urn:example:chartres'),'urn:example:path'('urn:example:chartres','urn:example:lemans')=>'urn:example:path'('urn:example:paris','urn:example:lemans'))).
+'https://eyereasoner.github.io/eye3#proof_step'(('urn:example:path'(C,D),'urn:example:path'(D,E)=>'urn:example:path'(C,E)),('urn:example:path'('urn:example:paris','urn:example:orleans'),'urn:example:path'('urn:example:orleans','urn:example:bourges')=>'urn:example:path'('urn:example:paris','urn:example:bourges'))).
+'https://eyereasoner.github.io/eye3#proof_step'(('urn:example:path'(C,D),'urn:example:path'(D,E)=>'urn:example:path'(C,E)),('urn:example:path'('urn:example:paris','urn:example:orleans'),'urn:example:path'('urn:example:orleans','urn:example:blois')=>'urn:example:path'('urn:example:paris','urn:example:blois'))).
 
 'urn:example:path'('urn:example:paris','urn:example:nantes') => true.
 'urn:example:path'('urn:example:chartres','urn:example:nantes') => true.
@@ -161,20 +161,20 @@
 'urn:example:area'([[3,2],[6,2],[7,6],[4,6],[5,5],[5,3],[3,2]],7.5) => true.
 
 % running examples/sdcoding.pl
-'https://eyereasoner.github.io/color#proof_step'(('urn:example:sdc'(A,B)=>'urn:example:sdconot'(A,B)),('urn:example:sdc'(0,1)=>'urn:example:sdconot'(0,1))).
-'https://eyereasoner.github.io/color#proof_step'(('urn:example:sdc'(A,B)=>'urn:example:sdconot'(A,B)),('urn:example:sdc'(0,3)=>'urn:example:sdconot'(0,3))).
-'https://eyereasoner.github.io/color#proof_step'(('urn:example:sdc'(A,B)=>'urn:example:sdconot'(A,B)),('urn:example:sdc'(1,0)=>'urn:example:sdconot'(1,0))).
-'https://eyereasoner.github.io/color#proof_step'(('urn:example:sdc'(A,B)=>'urn:example:sdconot'(A,B)),('urn:example:sdc'(1,1)=>'urn:example:sdconot'(1,1))).
-'https://eyereasoner.github.io/color#proof_step'(('urn:example:sdc'(A,B)=>'urn:example:sdconot'(A,B)),('urn:example:sdc'(1,2)=>'urn:example:sdconot'(1,2))).
-'https://eyereasoner.github.io/color#proof_step'(('urn:example:sdc'(A,B)=>'urn:example:sdconot'(A,B)),('urn:example:sdc'(2,1)=>'urn:example:sdconot'(2,1))).
-'https://eyereasoner.github.io/color#proof_step'(('urn:example:sdc'(A,B)=>'urn:example:sdconot'(A,B)),('urn:example:sdc'(2,3)=>'urn:example:sdconot'(2,3))).
-'https://eyereasoner.github.io/color#proof_step'(('urn:example:sdc'(A,B)=>'urn:example:sdconot'(A,B)),('urn:example:sdc'(3,1)=>'urn:example:sdconot'(3,1))).
-'https://eyereasoner.github.io/color#proof_step'(('urn:example:sdc'(A,B)=>'urn:example:sdconot'(A,B)),('urn:example:sdc'(3,3)=>'urn:example:sdconot'(3,3))).
-'https://eyereasoner.github.io/color#proof_step'(('urn:example:sdc'(A,B)=>'urn:example:sdconot'(A,B)),('urn:example:sdc'(3,0)=>'urn:example:sdconot'(3,0))).
-'https://eyereasoner.github.io/color#proof_step'(('urn:example:sdc'(A,B)=>'urn:example:sdconot'(A,B)),('urn:example:sdc'(3,2)=>'urn:example:sdconot'(3,2))).
-'https://eyereasoner.github.io/color#proof_step'(('urn:example:sdc'(A,B)=>'urn:example:sdconot'(A,B)),('urn:example:sdc'(0,0)=>'urn:example:sdconot'(0,0))).
-'https://eyereasoner.github.io/color#proof_step'(('urn:example:sdc'(A,B)=>'urn:example:sdconot'(A,B)),('urn:example:sdc'(2,0)=>'urn:example:sdconot'(2,0))).
-'https://eyereasoner.github.io/color#proof_step'(('urn:example:sdc'(A,B)=>'urn:example:sdconot'(A,B)),('urn:example:sdc'(2,2)=>'urn:example:sdconot'(2,2))).
+'https://eyereasoner.github.io/eye3#proof_step'(('urn:example:sdc'(A,B)=>'urn:example:sdconot'(A,B)),('urn:example:sdc'(0,1)=>'urn:example:sdconot'(0,1))).
+'https://eyereasoner.github.io/eye3#proof_step'(('urn:example:sdc'(A,B)=>'urn:example:sdconot'(A,B)),('urn:example:sdc'(0,3)=>'urn:example:sdconot'(0,3))).
+'https://eyereasoner.github.io/eye3#proof_step'(('urn:example:sdc'(A,B)=>'urn:example:sdconot'(A,B)),('urn:example:sdc'(1,0)=>'urn:example:sdconot'(1,0))).
+'https://eyereasoner.github.io/eye3#proof_step'(('urn:example:sdc'(A,B)=>'urn:example:sdconot'(A,B)),('urn:example:sdc'(1,1)=>'urn:example:sdconot'(1,1))).
+'https://eyereasoner.github.io/eye3#proof_step'(('urn:example:sdc'(A,B)=>'urn:example:sdconot'(A,B)),('urn:example:sdc'(1,2)=>'urn:example:sdconot'(1,2))).
+'https://eyereasoner.github.io/eye3#proof_step'(('urn:example:sdc'(A,B)=>'urn:example:sdconot'(A,B)),('urn:example:sdc'(2,1)=>'urn:example:sdconot'(2,1))).
+'https://eyereasoner.github.io/eye3#proof_step'(('urn:example:sdc'(A,B)=>'urn:example:sdconot'(A,B)),('urn:example:sdc'(2,3)=>'urn:example:sdconot'(2,3))).
+'https://eyereasoner.github.io/eye3#proof_step'(('urn:example:sdc'(A,B)=>'urn:example:sdconot'(A,B)),('urn:example:sdc'(3,1)=>'urn:example:sdconot'(3,1))).
+'https://eyereasoner.github.io/eye3#proof_step'(('urn:example:sdc'(A,B)=>'urn:example:sdconot'(A,B)),('urn:example:sdc'(3,3)=>'urn:example:sdconot'(3,3))).
+'https://eyereasoner.github.io/eye3#proof_step'(('urn:example:sdc'(A,B)=>'urn:example:sdconot'(A,B)),('urn:example:sdc'(3,0)=>'urn:example:sdconot'(3,0))).
+'https://eyereasoner.github.io/eye3#proof_step'(('urn:example:sdc'(A,B)=>'urn:example:sdconot'(A,B)),('urn:example:sdc'(3,2)=>'urn:example:sdconot'(3,2))).
+'https://eyereasoner.github.io/eye3#proof_step'(('urn:example:sdc'(A,B)=>'urn:example:sdconot'(A,B)),('urn:example:sdc'(0,0)=>'urn:example:sdconot'(0,0))).
+'https://eyereasoner.github.io/eye3#proof_step'(('urn:example:sdc'(A,B)=>'urn:example:sdconot'(A,B)),('urn:example:sdc'(2,0)=>'urn:example:sdconot'(2,0))).
+'https://eyereasoner.github.io/eye3#proof_step'(('urn:example:sdc'(A,B)=>'urn:example:sdconot'(A,B)),('urn:example:sdc'(2,2)=>'urn:example:sdconot'(2,2))).
 
 'urn:example:sdcoding'(1,1) => true.
 'urn:example:sdcoding'(3,3) => true.
@@ -182,7 +182,7 @@
 'urn:example:sdcoding'(2,2) => true.
 
 % running examples/socrates.pl
-'https://eyereasoner.github.io/color#proof_step'(('http://www.w3.org/1999/02/22-rdf-syntax-ns#type'(A,'urn:example:Man')=>'http://www.w3.org/1999/02/22-rdf-syntax-ns#type'(A,'urn:example:Mortal')),('http://www.w3.org/1999/02/22-rdf-syntax-ns#type'('urn:example:Socrates','urn:example:Man')=>'http://www.w3.org/1999/02/22-rdf-syntax-ns#type'('urn:example:Socrates','urn:example:Mortal'))).
+'https://eyereasoner.github.io/eye3#proof_step'(('http://www.w3.org/1999/02/22-rdf-syntax-ns#type'(A,'urn:example:Man')=>'http://www.w3.org/1999/02/22-rdf-syntax-ns#type'(A,'urn:example:Mortal')),('http://www.w3.org/1999/02/22-rdf-syntax-ns#type'('urn:example:Socrates','urn:example:Man')=>'http://www.w3.org/1999/02/22-rdf-syntax-ns#type'('urn:example:Socrates','urn:example:Mortal'))).
 
 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type'('urn:example:Socrates','urn:example:Mortal') => true.
 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type'('urn:example:Socrates','urn:example:Man') => true.
@@ -194,9 +194,9 @@
 'urn:example:compute'([],[1,[#]]) => true.
 
 % running examples/workplace.pl
-'https://eyereasoner.github.io/color#proof_step'(('urn:example:does'(B,'urn:example:work_related_task'), \+'urn:example:does'(B,'urn:example:log_off_at_end_of_shift')=>'urn:example:complies'(B,false)),('urn:example:does'('urn:example:bob','urn:example:work_related_task'), \+'urn:example:does'('urn:example:bob','urn:example:log_off_at_end_of_shift')=>'urn:example:complies'('urn:example:bob',false))).
-'https://eyereasoner.github.io/color#proof_step'(('urn:example:does'(C,'urn:example:log_off_at_end_of_shift')=>'urn:example:complies'(C,true)),('urn:example:does'('urn:example:alice','urn:example:log_off_at_end_of_shift')=>'urn:example:complies'('urn:example:alice',true))).
-'https://eyereasoner.github.io/color#proof_step'(('urn:example:does'(D,'urn:example:access_social_media')=>'urn:example:complies'(D,false)),('urn:example:does'('urn:example:carol','urn:example:access_social_media')=>'urn:example:complies'('urn:example:carol',false))).
+'https://eyereasoner.github.io/eye3#proof_step'(('urn:example:does'(B,'urn:example:work_related_task'), \+'urn:example:does'(B,'urn:example:log_off_at_end_of_shift')=>'urn:example:complies'(B,false)),('urn:example:does'('urn:example:bob','urn:example:work_related_task'), \+'urn:example:does'('urn:example:bob','urn:example:log_off_at_end_of_shift')=>'urn:example:complies'('urn:example:bob',false))).
+'https://eyereasoner.github.io/eye3#proof_step'(('urn:example:does'(C,'urn:example:log_off_at_end_of_shift')=>'urn:example:complies'(C,true)),('urn:example:does'('urn:example:alice','urn:example:log_off_at_end_of_shift')=>'urn:example:complies'('urn:example:alice',true))).
+'https://eyereasoner.github.io/eye3#proof_step'(('urn:example:does'(D,'urn:example:access_social_media')=>'urn:example:complies'(D,false)),('urn:example:does'('urn:example:carol','urn:example:access_social_media')=>'urn:example:complies'('urn:example:carol',false))).
 
 'urn:example:complies'('urn:example:carol',false) => true.
 'urn:example:complies'('urn:example:alice',true) => true.

@@ -1,8 +1,8 @@
-% ---------------------------------------
-% Condition logic reasoning -- Jos De Roo
-% ---------------------------------------
+% ------------------
+% eye3 -- Jos De Roo
+% ------------------
 %
-% See https://github.com/eyereasoner/color
+% See https://github.com/eyereasoner/eye3
 %
 
 :- use_module(library(lists)).
@@ -21,7 +21,7 @@
 
 term_expansion((Head <= Body), (Head :- Body)).
 
-% run color abstract machine with a list of options:
+% run eye3 abstract machine with a list of options:
 %   - single_answer: output only one answer
 %   - proof_step: output proof steps
 %   - linear_select: use the rules only once
@@ -60,7 +60,7 @@ run(Options) :-
         (   member(proof_step,Options),
             \+proof_step((Prem => Conc))
         ->  assertz(proof_step((Prem => Conc))),
-            writeq('https://eyereasoner.github.io/color#proof_step'(Rule,(Prem => Conc))),
+            writeq('https://eyereasoner.github.io/eye3#proof_step'(Rule,(Prem => Conc))),
             write('.\n'),
             (   \+need_nl
             ->  assertz(need_nl)

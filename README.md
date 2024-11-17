@@ -47,10 +47,10 @@ cd trealla
 make
 cd ..
 git clone https://github.com/eyereasoner/eye3
-cd eye3
+cd eye3/etc
 export tpl=../trealla/tpl
+export eye3=../eye3
 ./test
-git diff
 ```
 
 ## Background

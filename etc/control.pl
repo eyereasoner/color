@@ -18,7 +18,7 @@
 % targets
 'urn:example:target2'('urn:example:output2',29).
 
-% forward rules
+% rules
 'urn:example:control1'('urn:example:actuator1',C) <=
     'urn:example:measurement10'('urn:example:input1',M1),
     'urn:example:measurement2'('urn:example:input2',true),
@@ -38,7 +38,6 @@
     C2 is N*D,              % nonlinear differential part
     C is C1+C2.             % PND feedback control
 
-% backward rules
 'urn:example:measurement10'(I,M) <=
     'urn:example:measurement1'(I,[M1,M2]),
     M1 < M2,

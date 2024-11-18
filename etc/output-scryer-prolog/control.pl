@@ -1,1 +1,2 @@
-% Warning: overwriting urn:example:measurement1/2 because the clauses are discontiguous
+'urn:example:control1'('urn:example:actuator1',39.27346198678276) => true.
+'urn:example:control1'('urn:example:actuator2',26.08) => true.

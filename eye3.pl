@@ -21,7 +21,7 @@
 
 term_expansion((Head <= Body), (Head :- Body)).
 
-version_info('eye3 v0.0.2 (2024-11-17)').
+version_info('eye3 v0.0.3 (2024-11-18)').
 
 % run eye3 abstract machine with a list of options:
 %   - single_answer: output only one answer
@@ -69,7 +69,7 @@ run(Options) :-
         (   member(proof_step,Options),
             \+proof_step((Prem => Conc))
         ->  assertz(proof_step((Prem => Conc))),
-            writeq('https://eyereasoner.github.io/eye3#proof_step'(Rule,(Prem => Conc))),
+            writeq('https://eyereasoner.github.io/log#proves'([Rule,Prem],Conc)),
             write('.\n'),
             (   \+need_nl
             ->  assertz(need_nl)

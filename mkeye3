@@ -7,7 +7,7 @@ if [ $# -lt 2 ] ; then
 fi
 
 # change working directory
-pushd ~/github.com/eyereasoner/eye3
+pushd ~/github.com/eyereasoner/eye3 > /dev/null
 
 # the following is adapted from https://gist.github.com/codezninja/c227d9c65b09d2be2d99abbfcfa8774a
 while getopts "Mmp" Option
@@ -59,13 +59,16 @@ export DATE="$(date -Idate)"
 cat eye3.pl | sed -e "s/'eye3.*'/'eye3 $RELEASE \($DATE\)'/" > eye3.pl.tmp
 mv eye3.pl.tmp eye3.pl
 
-# run the tests and do git diff
-./test
-git diff
+# run the etc tests
+pushd etc > /dev/null
+./test tpl
+echo ""
+./test scryer-prolog
+popd > /dev/null
 
 # git commands
 git commit -a -m "$1"
 git push
 git tag -a -m "$1" $RELEASE
 git push origin $RELEASE
-popd
+popd > /dev/null

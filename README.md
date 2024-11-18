@@ -29,11 +29,17 @@ This forms a dialogue leading to necessary and sufficient answers, supported by 
 
 ## Installation and test
 
-Install [Trealla Prolog](https://github.com/trealla-prolog/trealla?tab=readme-ov-file#building) and then run
+Install [Trealla Prolog](https://github.com/trealla-prolog/trealla?tab=readme-ov-file#building) and run
 
 ```
 cd etc
-./test
+./test tpl
+```
+or install [Scryer Prolog](https://github.com/mthom/scryer-prolog#installing-scryer-prolog) and run
+
+```
+cd etc
+./test scryer-prolog
 ```
 
 ## Background

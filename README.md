@@ -1,10 +1,6 @@
 # eye3
 
-The eye3 reasoner is doing forward chaining, backward chaining and query answering.
-
-It participates in dialogues leading to necessary and sufficient answers, supported by proof steps, so that action can take place.
-
-It is using webized [ISO Prolog notation](https://en.wikipedia.org/wiki/Prolog#ISO_Prolog):
+eye3 is a reasoner using webized [ISO Prolog](https://en.wikipedia.org/wiki/Prolog#ISO_Prolog) notation:
 
 TERM            | Examples
 ----------------|---------

@@ -1,6 +1,6 @@
 # eye3
 
-eye3 is a reasoner using webized [ISO Prolog](https://en.wikipedia.org/wiki/Prolog#ISO_Prolog) notation:
+A reasoner using Webized [ISO Prolog](https://en.wikipedia.org/wiki/Prolog#ISO_Prolog):
 
 TERM            | Examples
 ----------------|---------

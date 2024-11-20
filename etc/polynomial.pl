@@ -2,7 +2,7 @@
 % See http://alain.colmerauer.free.fr/alcol/ArchivesPublications/Equation4/Equation4.pdf
 
 % Liste des racines dun polynome
-'urn:example:roots'(P, L) :-
+'urn:example:roots'(P, L) <=
     findall(Z, racine(P, Z), L).
 
 % Racine dun polynome

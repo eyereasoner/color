@@ -14,14 +14,14 @@
 :- dynamic((=>)/2).
 :- dynamic(answer/1).
 :- dynamic(brake/0).
-:- dynamic(label/1).
 :- dynamic(need_nl/0).
 :- dynamic(pred/1).
 :- dynamic(proof_step/1).
+:- dynamic(var_nr/1).
 
 term_expansion((Head <= Body), (Head :- Body)).
 
-version_info('eye3 v0.0.4 (2024-11-19)').
+version_info('eye3 v0.0.5 (2024-11-20)').
 
 % run eye3 abstract machine with a list of options:
 %   - single_answer: output only one answer
@@ -91,12 +91,12 @@ run(Options) :-
 
 % create witnesses
 labelvars(Term) :-
-    (   retract(label(Current))
+    (   retract(var_nr(Current))
     ->  true
     ;   Current = 0
     ),
     numbervars(Term,Current,Next),
-    assertz(label(Next)).
+    assertz(var_nr(Next)).
 
 % assert new step
 astep(A,(B,C)) :-

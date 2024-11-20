@@ -93,8 +93,8 @@ divide([A,B],C) :-
 
 % query
 'urn:example:exp'([[-1,0],[0.5,0]],_ANSWER) => true.
-X is 0+e, 'urn:example:exp'([[X,0],[0,pi]],_ANSWER) => true.
-X is 0+e, 'urn:example:log'([[X,0],[-1,0]],_ANSWER) => true.
+X is 0+e,'urn:example:exp'([[X,0],[0,pi]],_ANSWER) => true.
+X is 0+e,'urn:example:log'([[X,0],[-1,0]],_ANSWER) => true.
 'urn:example:log'([[0,1],[0,1]],_ANSWER) => true.
 'urn:example:sin'([1.570796326794897,1.316957896924817],_ANSWER) => true.
 'urn:example:cos'([0,-1.316957896924817],_ANSWER) => true.

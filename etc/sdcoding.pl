@@ -6,8 +6,8 @@
 % of Hilbert spaces with a finite field instead of the field of complex numbers.
 % This instantiation collapses much the structure of actual quantum mechanics but
 % retains several of its distinguishing characteristics including the notions of
-% superposition, interference, and entanglement. Furthermore, discrete quantum
-% theory excludes local hidden variable models, has a no-cloning theorem, and can
+% superposition,interference,and entanglement. Furthermore,discrete quantum
+% theory excludes local hidden variable models,has a no-cloning theorem,and can
 % express natural counterparts of quantum information protocols such as superdense
 % coding and teleportation.
 
@@ -15,27 +15,27 @@
 % programming except for a small twist that is responsible for all the
 % "quantum-ness". The twist occurs when merging sets of answers computed by
 % several alternatives: the answers are combined using an exclusive version of
-% logical disjunction. In other words, the two branches of a choice junction
+% logical disjunction. In other words,the two branches of a choice junction
 % exhibit an interference effect: an answer is produced from the junction if it
 % occurs in one or the other branch but not both.
 
 :- dynamic('urn:example:sdcoding'/2).
 :- dynamic('urn:example:sdconot'/2).
 
-% |R) = |0, 0) + |1, 1)
+% |R) = |0,0) + |1,1)
 r(false,false).
 r(true,true).
 
-% |S) = |0, 1) + |1, 0)
+% |S) = |0,1) + |1,0)
 s(false,true).
 s(true,false).
 
-% |U) = |0, 0) + |1, 0) + |1, 1)
+% |U) = |0,0) + |1,0) + |1,1)
 u(false,false).
 u(true,false).
 u(true,true).
 
-% |V ) = |0, 0) + |0, 1) + |1, 0)
+% |V ) = |0,0) + |0,1) + |1,0)
 v(false,false).
 v(false,true).
 v(true,false).

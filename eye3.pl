@@ -19,7 +19,7 @@
 :- dynamic(proof_step/1).
 :- dynamic(var_nr/1).
 
-term_expansion((Head <= Body), (Head :- Body)).
+term_expansion((Head <= Body),(Head :- Body)).
 
 version_info('eye3 v0.0.5 (2024-11-20)').
 

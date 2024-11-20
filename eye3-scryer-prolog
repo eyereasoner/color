@@ -1,4 +1,4 @@
 #!/bin/bash
 export EYE3=$(dirname "$(readlink -f "$0")")/eye3.pl
 
-scryer-prolog -g "run([proof_step]), halt" ${EYE3} "$@"
+scryer-prolog -g "run([proof_step]),halt" ${EYE3} "$@"

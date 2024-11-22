@@ -27,6 +27,11 @@ Queries are posed and answered as `GRAPH => true.` so the answers are also queri
 some parts substituted and eventually containing more variables than in the original query.
 This forms a dialogue leading to necessary and sufficient answers, supported by proof steps, so that action can take place.
 
+Proofs are composed of
+```
+'https://eyereasoner.github.io/log#proof_step'(((premise=>conclusion),instantiated_premise),instantiated_conclusion).
+```
+
 ## Installation and test
 
 Install [Trealla Prolog](https://github.com/trealla-prolog/trealla?tab=readme-ov-file#building) and run

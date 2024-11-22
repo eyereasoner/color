@@ -1,3 +1,5 @@
+:- op(1150,xfx,=>).
+
 'https://eyereasoner.github.io/log#proof_step'(['urn:example:sdc'(A,B)=>'urn:example:sdconot'(A,B),'urn:example:sdc'(0,1)],'urn:example:sdconot'(0,1)).
 'https://eyereasoner.github.io/log#proof_step'(['urn:example:sdc'(A,B)=>'urn:example:sdconot'(A,B),'urn:example:sdc'(0,3)],'urn:example:sdconot'(0,3)).
 'https://eyereasoner.github.io/log#proof_step'(['urn:example:sdc'(A,B)=>'urn:example:sdconot'(A,B),'urn:example:sdc'(1,0)],'urn:example:sdconot'(1,0)).

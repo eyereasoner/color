@@ -1,3 +1,5 @@
+:- op(1150,xfx,=>).
+
 'urn:example:fibonacci'(1,1) => true.
 'urn:example:fibonacci'(2,1) => true.
 'urn:example:fibonacci'(3,2) => true.

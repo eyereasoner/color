@@ -14,6 +14,7 @@
 :- dynamic((=>)/2).
 :- dynamic(answer/1).
 :- dynamic(brake/0).
+:- dynamic(decl_op/0).
 :- dynamic(need_nl/0).
 :- dynamic(pred/1).
 :- dynamic(proof_step/1).
@@ -21,7 +22,7 @@
 
 term_expansion((Head <= Body),(Head :- Body)).
 
-version_info('eye3 v0.0.5 (2024-11-20)').
+version_info('eye3 v1.0.0 (2024-11-22)').
 
 % run eye3 abstract machine with a list of options:
 %   - single_answer: output only one answer
@@ -40,7 +41,13 @@ run :-
 
 run(Options) :-
     (   (_ => _)
-    ->  true
+    ->  (   \+decl_op
+        ->  write(':- op(1150,xfx,=>).'),
+            nl,
+            nl,
+            assertz(decl_op)
+        ;   true
+        )
     ;   version_info(Version),
         write(Version),
         nl,

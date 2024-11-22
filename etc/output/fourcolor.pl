@@ -1,3 +1,5 @@
+:- op(1150,xfx,=>).
+
 'urn:example:colors'('urn:example:map1',[['urn:example:place1','urn:example:yellow'],['urn:example:place2','urn:example:blue'],['urn:example:place3','urn:example:green'],['urn:example:place4','urn:example:red'],['urn:example:place5','urn:example:red']]) => true.
 'urn:example:colors'('urn:example:map1',[['urn:example:place1','urn:example:blue'],['urn:example:place2','urn:example:yellow'],['urn:example:place3','urn:example:green'],['urn:example:place4','urn:example:red'],['urn:example:place5','urn:example:red']]) => true.
 'urn:example:colors'('urn:example:map1',[['urn:example:place1','urn:example:yellow'],['urn:example:place2','urn:example:green'],['urn:example:place3','urn:example:blue'],['urn:example:place4','urn:example:red'],['urn:example:place5','urn:example:red']]) => true.

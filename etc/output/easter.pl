@@ -1,3 +1,5 @@
+:- op(1150,xfx,=>).
+
 'urn:example:easter'(2021,[4,4]) => true.
 'urn:example:easter'(2022,[4,17]) => true.
 'urn:example:easter'(2023,[4,9]) => true.

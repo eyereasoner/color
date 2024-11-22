@@ -1,3 +1,5 @@
+:- op(1150,xfx,=>).
+
 'https://eyereasoner.github.io/log#proof_step'(['urn:example:oneway'(A,B)=>'urn:example:path'(A,B),'urn:example:oneway'('urn:example:paris','urn:example:orleans')],'urn:example:path'('urn:example:paris','urn:example:orleans')).
 'https://eyereasoner.github.io/log#proof_step'(['urn:example:oneway'(A,B)=>'urn:example:path'(A,B),'urn:example:oneway'('urn:example:paris','urn:example:chartres')],'urn:example:path'('urn:example:paris','urn:example:chartres')).
 'https://eyereasoner.github.io/log#proof_step'(['urn:example:oneway'(A,B)=>'urn:example:path'(A,B),'urn:example:oneway'('urn:example:paris','urn:example:amiens')],'urn:example:path'('urn:example:paris','urn:example:amiens')).

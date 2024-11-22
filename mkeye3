@@ -61,9 +61,7 @@ mv eye3.pl.tmp eye3.pl
 
 # run the etc tests
 pushd etc > /dev/null
-./test tpl
-echo ""
-./test scryer-prolog
+./test
 git diff
 popd > /dev/null
 

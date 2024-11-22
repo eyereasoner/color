@@ -1,4 +1,0 @@
-#!/bin/bash
-export EYE3=$(dirname "$(readlink -f "$0")")/eye3.pl
-
-tpl -g "run([proof_step]),halt" ${EYE3} "$@"

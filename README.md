@@ -33,13 +33,7 @@ Install [Trealla Prolog](https://github.com/trealla-prolog/trealla?tab=readme-ov
 
 ```
 cd etc
-./test tpl
-```
-or install [Scryer Prolog](https://github.com/mthom/scryer-prolog#installing-scryer-prolog) and run
-
-```
-cd etc
-./test scryer-prolog
+./test
 ```
 
 ## Background

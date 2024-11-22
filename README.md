@@ -29,7 +29,7 @@ This forms a dialogue leading to necessary and sufficient answers, supported by 
 
 Proofs are composed of proof steps:
 ```
-'https://eyereasoner.github.io/log#proof_step'(((prem => conc),instantiated_prem),instantiated_conc).
+'https://eyereasoner.github.io/log#proof_step'(((prem=>conc),instantiated_prem),instantiated_conc).
 ```
 
 ## Installation and test

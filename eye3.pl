@@ -22,7 +22,7 @@
 
 term_expansion((Head <= Body),(Head :- Body)).
 
-version_info('eye3 v1.0.1 (2024-11-22)').
+version_info('eye3 v1.0.2 (2024-11-23)').
 
 % run eye3 abstract machine with a list of options:
 %   - single_answer: output only one answer
@@ -110,9 +110,10 @@ astep(A,(B,C)) :-
     astep(A,B),
     astep(A,C).
 astep(A,false) :-
+    write('% inference fuse, return code 2\n'),
     writeq(A),
     write(' => false.\n'),
-    halt.
+    halt(2).
 astep(_,A) :-
     (   \+A
     ->  asserta(A),

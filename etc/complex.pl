@@ -1,6 +1,22 @@
 % See https://en.wikipedia.org/wiki/Complex_number
 
-'urn:example:exp'([[A,B],[C,D]],[E,F]) <=
+'urn:example:sum'([[A,B],[C,D]],[E,F]) <=
+    E is A+C,
+    F is B+D.
+
+'urn:example:difference'([[A,B],[C,D]],[E,F]) <=
+    E is A-C,
+    F is B-D.
+
+'urn:example:product'([[A,B],[C,D]],[E,F]) <=
+    E is A*C-B*D,
+    F is A*D+B*C.
+
+'urn:example:quotient'([[A,B],[C,D]],[E,F]) <=
+    E is (A*C+B*D)/(C^2+D^2),
+    F is (B*C-A*D)/(C^2+D^2).
+
+'urn:example:exponentiation'([[A,B],[C,D]],[E,F]) <=
     polar([A,B],[G,H]),
     E is G^C*exp(-D*H)*cos(D*log(G)+C*H),
     F is G^C*exp(-D*H)*sin(D*log(G)+C*H).
@@ -10,7 +26,7 @@
     polar([C,D],[I,J]),
     K is log(G),
     L is log(I),
-    divide([[L,J],[K,H]],[E,F]).
+    'urn:example:quotient'([[L,J],[K,H]],[E,F]).
 
 'urn:example:sin'([A,B],[C,D]) <=
     C is sin(A)*(exp(B)+exp(-B))/2,
@@ -23,7 +39,7 @@
 'urn:example:tan'(A,B) <=
     'urn:example:sin'(A,C),
     'urn:example:cos'(A,D),
-    divide([C,D],B).
+    'urn:example:quotient'([C,D],B).
 
 'urn:example:asin'([A,B],[C,D]) <=
     E is (sqrt((1+A)^2+B^2)-sqrt((1-A)^2+B^2))/2,
@@ -38,12 +54,12 @@
     D is -log(F+sqrt(F^2-1)).
 
 'urn:example:atan'(A,B) <=
-    subtract([[0,1],A],C),
-    add([[0,1],A],D),
-    divide([C,D],E),
+    'urn:example:difference'([[0,1],A],C),
+    'urn:example:sum'([[0,1],A],D),
+    'urn:example:quotient'([C,D],E),
     X is 0+e,
     'urn:example:log'([[X,0],E],F),
-    divide([F,[0,2]],B).
+    'urn:example:quotient'([F,[0,2]],B).
 
 polar([A,B],[C,D]) :-
     C is sqrt(A^2+B^2),
@@ -67,33 +83,10 @@ angular(A,B,C,D) :-
     B < 0,
     D is 2*pi-C.
 
-minus([A,B],[C,D]) :-
-    C is -A,
-    D is -B.
-
-subtract([[A,B],[C,D]],[E,F]) :-
-    E is A-C,
-    F is B-D.
-
-add([[A,B],[C,D]],[E,F]) :-
-    E is A+C,
-    F is B+D.
-
-multiply([[A,B],[C,D]],[E,F]) :-
-    E is A*C-B*D,
-    F is A*D+B*C.
-
-inverse([A,B],[C,D]) :-
-    C is A/(A^2+B^2),
-    D is -B/(A^2+B^2).
-
-divide([A,B],C) :-
-    inverse(B,D),
-    multiply([A,D],C).
-
 % query
-'urn:example:exp'([[-1,0],[0.5,0]],_ANSWER) => true.
-X is 0+e,'urn:example:exp'([[X,0],[0,pi]],_ANSWER) => true.
+'urn:example:quotient'([[1,0],[0,1]],_ANSWER) => true.
+'urn:example:exponentiation'([[-1,0],[0.5,0]],_ANSWER) => true.
+X is 0+e,'urn:example:exponentiation'([[X,0],[0,pi]],_ANSWER) => true.
 X is 0+e,'urn:example:log'([[X,0],[-1,0]],_ANSWER) => true.
 'urn:example:log'([[0,1],[0,1]],_ANSWER) => true.
 'urn:example:sin'([1.570796326794897,1.316957896924817],_ANSWER) => true.

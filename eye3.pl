@@ -14,15 +14,19 @@
 :- dynamic((=>)/2).
 :- dynamic(answer/1).
 :- dynamic(brake/0).
+:- dynamic(current_stable/1).
+:- dynamic(current_limit/1).
 :- dynamic(decl_op/0).
 :- dynamic(need_nl/0).
 :- dynamic(pred/1).
-:- dynamic(proof_step/1).
 :- dynamic(var_nr/1).
 
 term_expansion((Head <= Body),(Head :- Body)).
 
-version_info('eye3 v1.0.2 (2024-11-23)').
+version_info('eye3 v1.0.3 (2024-11-23)').
+
+current_stable(0).
+current_limit(-1).
 
 % run eye3 abstract machine with a list of options:
 %   - single_answer: output only one answer
@@ -59,25 +63,18 @@ run(Options) :-
     Prem,
     (   Conc = true
     ->  labelvars(Prem),
-        (   \+answer((Prem => true))
-        ->  assertz(answer((Prem => true))),
-            (   retract(need_nl)
-            ->  nl
-            ;   true
-            ),
-            writeq(Prem),
-            write(' => true.\n')
+        (   \+answer(Prem)
+        ->  assertz(answer(Prem))
         ;   true
         ),
         member(single_answer,Options)
     ;   \+Conc,
         labelvars(Conc),
         astep(Prem,Conc),
-        (   member(proof_step,Options),
-            \+proof_step((Prem => Conc))
-        ->  assertz(proof_step((Prem => Conc))),
-            writeq('https://eyereasoner.github.io/log#proof_step'((Rule,Prem),Conc)),
-            write('.\n'),
+        (   member(proof_step,Options)
+        ->  writeq('https://eyereasoner.github.io/log#proof_step'((Rule,Prem),Conc)),
+            write('.'),
+            nl,
             (   \+need_nl
             ->  assertz(need_nl)
             ;   true
@@ -91,10 +88,38 @@ run(Options) :-
     (   (   brake
         ;   member(linear_select,Options)
         )
-    ->  true
-    ;   asserta(brake),
+    ->  (   current_stable(Stable),
+            current_limit(Limit),
+            Stable < Limit,
+            retractall(current_stable(_)),
+            New is Stable+1,
+            assertz(current_stable(New)),
+            run(Options)
+        ;   (   need_nl
+            ->  nl
+            ;   true
+            ),
+            answer(Prem),
+            writeq(Prem),
+            write(' => true.'),
+            nl,
+            fail
+        ;   true
+        )
+    ;   assertz(brake),
         run(Options)
     ).
+
+% check if closure is stable at given level
+stable(Level) :-
+    current_limit(Limit),
+    (   Limit < Level
+    ->  retractall(current_limit(_)),
+        assertz(current_limit(Level))
+    ;   true
+    ),
+    current_stable(Stable),
+    Level =< Stable.
 
 % create witnesses
 labelvars(Term) :-
@@ -110,13 +135,15 @@ astep(A,(B,C)) :-
     astep(A,B),
     astep(A,C).
 astep(A,false) :-
-    write('% inference fuse, return code 2\n'),
+    write('% inference fuse, return code 2'),
+    nl,
     writeq(A),
-    write(' => false.\n'),
+    write(' => false.'),
+    nl,
     halt(2).
 astep(_,A) :-
     (   \+A
-    ->  asserta(A),
+    ->  assertz(A),
         (   functor(A,B,2),
             \+pred(B)
         ->  assertz(pred(B))

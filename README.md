@@ -15,11 +15,13 @@ GRAPH           | `TRIPLE,...`
 CLAUSE          | Examples
 ----------------|---------
 ASSERTION       | `TRIPLE.` `true => GRAPH.`
-FORWARD_RULE    | `GRAPH,`[`PROLOG`](https://www.scryer.pl/builtins)` => GRAPH.`
+FORWARD_RULE    | `GRAPH,`[`PROLOG (*)`](https://www.scryer.pl/builtins)` => GRAPH.`
 QUERY           | `GRAPH => true.`
 ANSWER          | `GRAPH => true.`
 INFERENCE_FUSE  | `GRAPH => false.`
 BACKWARD_RULE   | `TRIPLE <= GRAPH,`[`PROLOG`](https://www.scryer.pl/builtins)`.`
+
+(*) Use `stable(n)` to fail if the deductive closure at level `n` is not yet stable.
 
 It performs forward chaining for a `FORWARD_RULE` and backward chaining for a `BACKWARD_RULE`.
 

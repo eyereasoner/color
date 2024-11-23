@@ -15,7 +15,7 @@ GRAPH           | `TRIPLE,...`
 CLAUSE          | Examples
 ----------------|---------
 ASSERTION       | `TRIPLE.` `true => GRAPH.`
-FORWARD_RULE    | `GRAPH,`[`PROLOG`](https://www.scryer.pl/builtins)`(*) => GRAPH.`
+FORWARD_RULE    | `GRAPH,`[`PROLOG (*)`](https://www.scryer.pl/builtins)` => GRAPH.`
 QUERY           | `GRAPH => true.`
 ANSWER          | `GRAPH => true.`
 INFERENCE_FUSE  | `GRAPH => false.`

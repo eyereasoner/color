@@ -110,7 +110,7 @@ run :-
         )
     ).
 
-% check if closure is stable at given level
+% check if deductive closure is stable at given level
 stable(Level) :-
     current_limit(Limit),
     (   Limit < Level

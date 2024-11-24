@@ -14,19 +14,18 @@
 :- dynamic((=>)/2).
 :- dynamic(answer/1).
 :- dynamic(brake/0).
-:- dynamic(current_stable/1).
-:- dynamic(current_limit/1).
+:- dynamic(closure/1).
 :- dynamic(decl_op/0).
+:- dynamic(limit/1).
 :- dynamic(need_nl/0).
-:- dynamic(pred/1).
 :- dynamic(var_nr/1).
 
 term_expansion((Head <= Body),(Head :- Body)).
 
-version_info('eye3 v1.0.4 (2024-11-24)').
+version_info('eye3 v1.0.5 (2024-11-24)').
 
-current_stable(0).
-current_limit(-1).
+closure(0).
+limit(-1).
 
 % run eye3 abstract machine
 %
@@ -87,12 +86,12 @@ run :-
         ),
         fail                % 4/
     ;   (   brake           % 5/
-        ->  (   current_stable(Stable),
-                current_limit(Limit),
-                Stable < Limit,
-                retractall(current_stable(_)),
-                New is Stable+1,
-                assertz(current_stable(New)),
+        ->  (   closure(Closure),
+                limit(Limit),
+                Closure < Limit,
+                retractall(closure(_)),
+                NewClosure is Closure+1,
+                assertz(closure(NewClosure)),
                 run
             ;   (   need_nl
                 ->  nl
@@ -110,17 +109,6 @@ run :-
         )
     ).
 
-% check if deductive closure is stable at given level
-stable(Level) :-
-    current_limit(Limit),
-    (   Limit < Level
-    ->  retractall(current_limit(_)),
-        assertz(current_limit(Level))
-    ;   true
-    ),
-    current_stable(Stable),
-    Level =< Stable.
-
 % create witnesses
 labelvars(Term) :-
     (   retract(var_nr(Current))
@@ -136,11 +124,17 @@ astep((B,C)) :-
     astep(C).
 astep(A) :-
     (   \+A
-    ->  assertz(A),
-        (   functor(A,B,2),
-            \+pred(B)
-        ->  assertz(pred(B))
-        ;   true
-        )
+    ->  assertz(A)
     ;   true
     ).
+
+% fail if the deductive closure at Level is not yet stable
+stable(Level) :-
+    limit(Limit),
+    (   Limit < Level
+    ->  retractall(limit(_)),
+        assertz(limit(Level))
+    ;   true
+    ),
+    closure(Closure),
+    Level =< Closure.

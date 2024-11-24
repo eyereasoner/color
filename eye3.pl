@@ -22,7 +22,7 @@
 
 term_expansion((Head <= Body),(Head :- Body)).
 
-version_info('eye3 v1.0.5 (2024-11-24)').
+version_info('eye3 v1.0.6 (2024-11-24)').
 
 closure(0).
 limit(-1).

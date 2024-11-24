@@ -24,7 +24,7 @@
 
 term_expansion((Head <= Body),(Head :- Body)).
 
-version_info('eye3 v1.1.0 (2024-11-24)').
+version_info('eye3 v1.1.1 (2024-11-24)').
 
 % main goal
 main :-
@@ -277,10 +277,6 @@ stable(Level) :-
     nonvar(B),
     forall(A,B).
 
-'http://www.w3.org/2000/10/swap/log#graffiti'(A,B) :-
-    nonvar(A),
-    term_variables(A,B).
-
 'http://www.w3.org/2000/10/swap/log#ifThenElseIn'([A,B,C],D) :-
     stable(D),
     nonvar(A),
@@ -333,7 +329,7 @@ stable(Level) :-
         bb_get(genid,C),
         genlabel('#t',D),
         atom_chars(D,E),
-        append(["<http://knowledgeonwebscale.github.io/.well-known/genid/",C,E,">"],F),
+        append(["http://knowledgeonwebscale.github.io/.well-known/genid/",C,E],F),
         atom_chars(B,F),
         assertz(skolem(A,B))
     ).

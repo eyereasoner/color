@@ -5,10 +5,7 @@
 % See https://github.com/eyereasoner/eye3
 %
 
-:- use_module(library(format)).
 :- use_module(library(iso_ext)).
-:- use_module(library(lists)).
-:- use_module(library(si)).
 :- use_module(library(terms)).
 
 :- op(1150,xfx,=>).
@@ -17,30 +14,26 @@
 :- dynamic((=>)/2).
 :- dynamic(answer/1).
 :- dynamic(brake/0).
-:- dynamic(pstep/3).
+:- dynamic(proof/3).
 :- dynamic(var_nr/1).
 
 term_expansion((Head <= Body),(Head :- Body)).
 
-version_info('eye3 v1.2.0 (2024-11-25)').
+version_info('eye3 v1.2.1 (2024-11-26)').
 
 % main goal
 main :-
     bb_put(closure,0),
     bb_put(limit,-1),
-    bb_put(fm,0),
     (   (_ => _)
-    ->  format(":- op(1150,xfx,=>).~n~n",[])
+    ->  write(':- op(1150,xfx,=>).'),
+        nl,
+        nl
     ;   version_info(Version),
-        format("~w~n",[Version])
+        write(Version),
+        nl
     ),
     run,
-    bb_get(fm,Cnt),
-    (   Cnt = 0
-    ->  true
-    ;   format(user_error,"*** fm=~w~n",[Cnt]),
-        flush_output(user_error)
-    ),
     halt(0).
 
 % run eye3 abstract machine
@@ -77,7 +70,7 @@ run :-
             ;   \+Conc,
                 labelvars(Conc),
                 astep(Conc),
-                assertz(pstep(Rule,Prem,Conc)),
+                assertz(proof(Rule,Prem,Conc)),
                 retract(brake)
             )
         ),
@@ -90,12 +83,17 @@ run :-
                 bb_put(closure,NewClosure),
                 run
             ;   answer(Prem),
-                format("~q => true.~n",[Prem]),
+                writeq(Prem),
+                write(' => true.'),
+                nl,
                 fail
-            ;   (   pstep(_,_,_)
-                ->  format("~n%~n% Proof Explanation~n%~n~n",[]),
-                    pstep(Rule,Prem,Conc),
-                    format("~q.~n",['http://www.w3.org/2000/10/swap/log#proves'((Rule,Prem),Conc)]),
+            ;   (   proof(_,_,_)
+                ->  nl,
+                    write('% proof'),
+                    nl,
+                    proof(Rule,Prem,Conc),
+                    writeq(proof(Rule,Prem,Conc)),
+                    nl,
                     fail
                 ;   true
                 )
@@ -125,6 +123,7 @@ astep(A) :-
     ;   true
     ).
 
+% stable(+Level)
 % fail if the deductive closure at Level is not yet stable
 stable(Level) :-
     bb_get(limit,Limit),
@@ -134,21 +133,3 @@ stable(Level) :-
     ),
     bb_get(closure,Closure),
     Level =< Closure.
-
-% debugging tools
-fm(A) :-
-    (   A = !
-    ->  true
-    ;   format(user_error,"*** ~q~n",[A]),
-        flush_output(user_error)
-    ),
-    bb_get(fm,B),
-    C is B+1,
-    bb_put(fm,C).
-
-mf(A) :-
-    forall(
-        catch(A,_,false),
-        format(user_error,"*** ~q~n",[A])
-    ),
-    flush_output(user_error).

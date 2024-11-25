@@ -19,12 +19,12 @@
 :- dynamic((=>)/2).
 :- dynamic(answer/1).
 :- dynamic(brake/0).
-:- dynamic(need_nl/0).
+:- dynamic(pstep/3).
 :- dynamic(var_nr/1).
 
 term_expansion((Head <= Body),(Head :- Body)).
 
-version_info('eye3 v1.1.1 (2024-11-24)').
+version_info('eye3 v1.1.2 (2024-11-25)').
 
 % main goal
 main :-
@@ -36,13 +36,13 @@ main :-
     (   (_ => _)
     ->  format(":- op(1150,xfx,=>).~n~n",[])
     ;   version_info(Version),
-        format("~w~n", [Version])
+        format("~w~n",[Version])
     ),
     run,
     bb_get(fm,Cnt),
     (   Cnt = 0
     ->  true
-    ;   format(user_error, "*** fm=~w~n", [Cnt]),
+    ;   format(user_error,"*** fm=~w~n",[Cnt]),
         flush_output(user_error)
     ),
     halt(0).
@@ -81,13 +81,7 @@ run :-
             ;   \+Conc,
                 labelvars(Conc),
                 astep(Conc),
-                writeq('https://eyereasoner.github.io/log#proof_step'((Rule,Prem),Conc)),
-                write('.'),
-                nl,
-                (   \+need_nl
-                ->  assertz(need_nl)
-                ;   true
-                ),
+                assertz(pstep(Rule,Prem,Conc)),
                 retract(brake)
             )
         ),
@@ -99,15 +93,16 @@ run :-
                 NewClosure is Closure+1,
                 bb_put(closure,NewClosure),
                 run
-            ;   (   need_nl
-                ->  nl
-                ;   true
-                ),
-                answer(Prem),
-                writeq(Prem),
-                write(' => true.'),
-                nl,
+            ;   answer(Prem),
+                format("~q => true.~n",[Prem]),
                 fail
+            ;   (   pstep(_,_,_)
+                ->  format("~n%~n% Proof Explanation~n%~n~n",[]),
+                    pstep(Rule,Prem,Conc),
+                    format("~q.~n",['http://www.w3.org/2000/10/swap/log#proves'((Rule,Prem),Conc)]),
+                    fail
+                ;   true
+                )
             ;   true
             )
         ;   assertz(brake),

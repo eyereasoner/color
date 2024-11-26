@@ -19,7 +19,7 @@
 
 term_expansion((Head <= Body),(Head :- Body)).
 
-version_info('eye3 v1.2.1 (2024-11-26)').
+version_info('eye3 v1.2.2 (2024-11-26)').
 
 % main goal
 main :-
@@ -52,10 +52,10 @@ main :-
 run :-
     (   (Prem => Conc),     % 1/
         copy_term((Prem => Conc),Rule),
-        labelvars(Rule),
+        labelvars(Rule,all),
         Prem,               % 2/
         (   Conc = true     % 3/
-        ->  labelvars(Prem),
+        ->  labelvars(Prem,all),
             (   \+answer(Prem)
             ->  assertz(answer(Prem))
             ;   true
@@ -68,7 +68,7 @@ run :-
                 nl,
                 halt(2)
             ;   \+Conc,
-                labelvars(Conc),
+                labelvars(Conc,some),
                 astep(Conc),
                 assertz(proof(Rule,Prem,Conc)),
                 retract(brake)
@@ -89,10 +89,11 @@ run :-
                 fail
             ;   (   proof(_,_,_)
                 ->  nl,
-                    write('% proof'),
+                    write('% Explain the reasoning'),
                     nl,
                     proof(Rule,Prem,Conc),
-                    writeq(proof(Rule,Prem,Conc)),
+                    writeq('http://www.w3.org/2000/10/swap/log#proves'((Rule,Prem),Conc)),
+                    write('.'),
                     nl,
                     fail
                 ;   true
@@ -105,13 +106,28 @@ run :-
     ).
 
 % create witnesses
-labelvars(Term) :-
+labelvars(Term,Mode) :-
     (   retract(var_nr(Current))
     ->  true
     ;   Current = 0
     ),
-    numbervars(Term,Current,Next),
+    labelvars(Term,Current,Next,Mode),
     assertz(var_nr(Next)).
+
+labelvars(Term,N0,N,Mode) :-
+    term_variables(Term,Vars),
+    labellist(Vars,N0,N,Mode).
+
+labellist([],N,N,_).
+labellist([A|Vars],N0,N,Mode) :-
+    (   Mode = all
+    ->  A = '$VAR'(N0)
+    ;   number_codes(N0,J),
+        atom_codes(I,J),
+        atom_concat('_:sk_',I,A)
+    ),
+    N1 is N0+1,
+    labellist(Vars,N1,N,Mode).
 
 % assert new step
 astep((B,C)) :-

@@ -5,6 +5,7 @@ A reasoner using Webized [ISO Prolog](https://en.wikipedia.org/wiki/Prolog#ISO_P
 TERM            | Examples
 ----------------|---------
 IRI             | `'urn:example:abc'`
+BLANKNODE       | `'_:bn_1'`
 VARIABLE        | `X` `_abc`
 LITERAL         | `"abc"` `true` `1.52` `1e-18` `pi`
 LIST            | `[TERM,...]` `[TERM,...\|LIST]`

@@ -1,3 +1,3 @@
 :- op(1150,xfx,=>).
 
-'urn:example:is'('urn:example:bob','urn:example:good'('urn:example:Cobbler')) => true.
+'urn:example:is'('_:x','urn:example:good'('urn:example:Cobbler')) => true.

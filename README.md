@@ -29,9 +29,9 @@ Queries are posed and answered as `GRAPH => true.` so the answers are also queri
 some parts substituted and eventually containing more variables than in the original query.
 This forms a dialogue leading to necessary and sufficient answers, supported by proof steps, so that action can take place.
 
-Proofs are composed of proof steps:
+Proofs are:
 ```
-'https://eyereasoner.github.io/log#proof_step'(((prem=>conc),instantiated_prem),instantiated_conc).
+proof((prem => conc),prem_inst,conc_inst).
 ```
 
 ## Installation and test

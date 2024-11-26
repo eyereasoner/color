@@ -29,7 +29,7 @@ Queries are posed and answered as `GRAPH => true.` so the answers are also queri
 some parts substituted and eventually containing more variables than in the original query.
 This forms a dialogue leading to necessary and sufficient answers, supported by proof steps, so that action can take place.
 
-Proofs are:
+Proofs are made of:
 ```
 proof((prem => conc),prem_inst,conc_inst).
 ```

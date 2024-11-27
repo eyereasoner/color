@@ -15,18 +15,15 @@
     Dl >= Db.
 
 local_time(A,B,C,D,E,F) :-
-    catch(
-        (   current_time(L),
-            memberchk('Y'=As,L),number_chars(A,As),
-            memberchk('m'=Bs,L),number_chars(B,Bs),
-            memberchk('d'=Cs,L),number_chars(C,Cs),
-            memberchk('H'=Ds,L),number_chars(D,Ds),
-            memberchk('M'=Es,L),number_chars(E,Es),
-            memberchk('S'=Fs,L),number_chars(F,Fs)
-        ),
-        _E,
-        catch(date_time(A,B,C,D,E,F),_E,false)
-    ).
+    catch(get_time(A,B,C,D,E,F),_E,catch(date_time(A,B,C,D,E,F),_E,false)).
+
+get_time(A,B,C,D,E,F) :-
+    maplist(time_get_num,['Y','m','d','H','M','S'],[A,B,C,D,E,F]).
+
+time_get_num(A,B) :-
+    current_time(L),
+    memberchk(A=C,L),
+    number_chars(B,C).
 
 % query
 'urn:example:ageAbove'(_S,80) => true.

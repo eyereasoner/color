@@ -22,7 +22,7 @@
 
 term_expansion((Head <= Body),(Head :- Body)).
 
-version_info('eye3 v1.2.5 (2024-11-27)').
+version_info('eye3 v1.2.6 (2024-11-27)').
 
 % main goal
 main :-
@@ -182,13 +182,6 @@ stable(Level) :-
 'http://www.w3.org/2000/10/swap/log#call'(A,B) :-
     call(A),
     catch(call(B),_,false).
-
-'http://www.w3.org/2000/10/swap/log#callWithOptional'(A,B) :-
-    call(A),
-    (   \+catch(call(B),_,false)
-    ->  true
-    ;   catch(call(B),_,false)
-    ).
 
 'http://www.w3.org/2000/10/swap/log#collectAllIn'([A,B,C],D) :-
     stable(D),

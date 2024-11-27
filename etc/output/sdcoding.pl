@@ -5,7 +5,10 @@
 'urn:example:sdcoding'(0,0) => true.
 'urn:example:sdcoding'(2,2) => true.
 
+%
 % Explain the reasoning
+%
+
 'http://www.w3.org/2000/10/swap/log#proves'((('urn:example:sdc'(A,B)=>'urn:example:sdconot'(A,B)),'urn:example:sdc'(0,1)),'urn:example:sdconot'(0,1)).
 'http://www.w3.org/2000/10/swap/log#proves'((('urn:example:sdc'(A,B)=>'urn:example:sdconot'(A,B)),'urn:example:sdc'(0,3)),'urn:example:sdconot'(0,3)).
 'http://www.w3.org/2000/10/swap/log#proves'((('urn:example:sdc'(A,B)=>'urn:example:sdconot'(A,B)),'urn:example:sdc'(1,0)),'urn:example:sdconot'(1,0)).

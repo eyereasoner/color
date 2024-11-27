@@ -19,7 +19,7 @@
 
 term_expansion((Head <= Body),(Head :- Body)).
 
-version_info('eye3 v1.2.3 (2024-11-27)').
+version_info('eye3 v1.2.4 (2024-11-27)').
 
 % main goal
 main :-
@@ -28,12 +28,10 @@ main :-
     bb_put(fm, 0),
     bb_put(mf, 0),
     (   (_ => _)
-    ->  write(':- op(1150,xfx,=>).'),
-        nl,
-        nl
+    ->  write(':- op(1150,xfx,=>).\n\n')
     ;   version_info(Version),
         write(Version),
-        nl
+        write('\n')
     ),
     run,
     bb_get(fm,Fm),
@@ -79,11 +77,9 @@ run :-
             ;   true
             )
         ;   (   Conc = false
-            ->  write('% inference fuse, return code 2'),
-                nl,
+            ->  write('% inference fuse, return code 2\n'),
                 writeq(Prem),
-                write(' => false.'),
-                nl,
+                write(' => false.\n'),
                 halt(2)
             ;   \+Conc,
                 labelvars(Conc,some),
@@ -102,17 +98,13 @@ run :-
                 run
             ;   answer(Prem),
                 writeq(Prem),
-                write(' => true.'),
-                nl,
+                write(' => true.\n'),
                 fail
             ;   (   proof(_,_,_)
-                ->  nl,
-                    write('% Explain the reasoning'),
-                    nl,
+                ->  write('\n%\n% Explain the reasoning\n%\n\n'),
                     proof(Rule,Prem,Conc),
                     writeq('http://www.w3.org/2000/10/swap/log#proves'((Rule,Prem),Conc)),
-                    write('.'),
-                    nl,
+                    write('.\n'),
                     fail
                 ;   true
                 )

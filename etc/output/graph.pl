@@ -5,7 +5,10 @@
 'urn:example:path'('urn:example:chartres','urn:example:nantes') => true.
 'urn:example:path'('urn:example:paris','urn:example:nantes') => true.
 
+%
 % Explain the reasoning
+%
+
 'http://www.w3.org/2000/10/swap/log#proves'((('urn:example:oneway'(A,B)=>'urn:example:path'(A,B)),'urn:example:oneway'('urn:example:paris','urn:example:orleans')),'urn:example:path'('urn:example:paris','urn:example:orleans')).
 'http://www.w3.org/2000/10/swap/log#proves'((('urn:example:oneway'(A,B)=>'urn:example:path'(A,B)),'urn:example:oneway'('urn:example:paris','urn:example:chartres')),'urn:example:path'('urn:example:paris','urn:example:chartres')).
 'http://www.w3.org/2000/10/swap/log#proves'((('urn:example:oneway'(A,B)=>'urn:example:path'(A,B)),'urn:example:oneway'('urn:example:paris','urn:example:amiens')),'urn:example:path'('urn:example:paris','urn:example:amiens')).

@@ -32,7 +32,7 @@ This forms a dialogue leading to necessary and sufficient answers, supported by 
 
 Proofs are made of:
 ```
-proof((prem => conc),prem_inst,conc_inst).
+'http://www.w3.org/2000/10/swap/log#proves'(((prem => conc),prem_inst),conc_inst).
 ```
 
 ## Installation and test

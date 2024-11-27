@@ -5,7 +5,6 @@
 % See https://github.com/eyereasoner/eye3
 %
 
-:- use_module(library(between)).
 :- use_module(library(iso_ext)).
 :- use_module(library(lists)).
 :- use_module(library(terms)).
@@ -22,7 +21,7 @@
 
 term_expansion((Head <= Body),(Head :- Body)).
 
-version_info('eye3 v1.2.6 (2024-11-27)').
+version_info('eye3 v1.2.7 (2024-11-28)').
 
 % main goal
 main :-
@@ -173,16 +172,6 @@ stable(Level) :-
     conj_list(B,E),
     forall(member(F,E),assertz(F)).
 
-'http://www.w3.org/2000/10/swap/log#bound'(X,Y) :-
-    (   nonvar(X)
-    ->  Y = true
-    ;   Y = false
-    ).
-
-'http://www.w3.org/2000/10/swap/log#call'(A,B) :-
-    call(A),
-    catch(call(B),_,false).
-
 'http://www.w3.org/2000/10/swap/log#collectAllIn'([A,B,C],D) :-
     stable(D),
     nonvar(B),
@@ -230,11 +219,6 @@ stable(Level) :-
     conj_list(X,A),
     conj_list(Y,B),
     \+includes(A,B).
-
-'http://www.w3.org/2000/10/swap/log#repeat'(A,B) :-
-    nonvar(A),
-    C is A-1,
-    between(0,C,B).
 
 'http://www.w3.org/2000/10/swap/log#skolem'(A,B) :-
     (   skolem(A,B)

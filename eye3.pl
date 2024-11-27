@@ -19,12 +19,14 @@
 
 term_expansion((Head <= Body),(Head :- Body)).
 
-version_info('eye3 v1.2.2 (2024-11-26)').
+version_info('eye3 v1.2.3 (2024-11-27)').
 
 % main goal
 main :-
     bb_put(closure,0),
     bb_put(limit,-1),
+    bb_put(fm, 0),
+    bb_put(mf, 0),
     (   (_ => _)
     ->  write(':- op(1150,xfx,=>).'),
         nl,
@@ -34,6 +36,22 @@ main :-
         nl
     ),
     run,
+    bb_get(fm,Fm),
+    (   Fm = 0
+    ->  true
+    ;   write(user_error,'*** fm='),
+        write(user_error,Fm),
+        write(user_error,'\n'),
+        flush_output(user_error)
+    ),
+    bb_get(mf,Mf),
+    (   Mf = 0
+    ->  true
+    ;   write(user_error,'*** mf='),
+        write(user_error,Mf),
+        write(user_error,'\n'),
+        flush_output(user_error)
+    ),
     halt(0).
 
 % run eye3 abstract machine
@@ -140,7 +158,7 @@ astep(A) :-
     ).
 
 % stable(+Level)
-% fail if the deductive closure at Level is not yet stable
+%   fail if the deductive closure at Level is not yet stable
 stable(Level) :-
     bb_get(limit,Limit),
     (   Limit < Level
@@ -149,3 +167,31 @@ stable(Level) :-
     ),
     bb_get(closure,Closure),
     Level =< Closure.
+
+% debugging tools
+fm(A) :-
+    (   nonvar(A),
+        A = !
+    ->  true
+    ;   write(user_error,'*** '),
+        writeq(user_error,A),
+        write(user_error,'.\n'),
+        flush_output(user_error)
+    ),
+    cnt(fm).
+
+mf(A) :-
+    forall(
+        catch(A,_,fail),
+        (   write(user_error,'*** '),
+            writeq(user_error,A),
+            write(user_error,'.\n'),
+            cnt(mf)
+        )
+    ),
+    flush_output(user_error).
+
+cnt(A) :-
+    bb_get(A,B),
+    C is B+1,
+    bb_put(A,C).

@@ -15,7 +15,7 @@
     Dl >= Db.
 
 local_time(A,B,C,D,E,F) :-
-    catch(date_time(A,B,C,D,E,F),_E,catch(get_time(A,B,C,D,E,F),_E,false)).
+    catch(date_time(A,B,C,D,E,F),_,get_time(A,B,C,D,E,F)).
 
 get_time(A,B,C,D,E,F) :-
     maplist(time_get_num,['Y','m','d','H','M','S'],[A,B,C,D,E,F]).

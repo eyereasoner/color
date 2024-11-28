@@ -1,8 +1,8 @@
 :- op(1150,xfx,=>).
 
-'urn:example:complies'('urn:example:alice',true) => true.
-'urn:example:complies'('urn:example:carol',false) => true.
-'urn:example:complies'('urn:example:bob',false) => true.
+'urn:example:complies'('urn:example:alice',true)=>true.
+'urn:example:complies'('urn:example:carol',false)=>true.
+'urn:example:complies'('urn:example:bob',false)=>true.
 
 %
 % Explain the reasoning

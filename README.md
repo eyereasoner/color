@@ -5,7 +5,6 @@ A reasoner using Webized [ISO Prolog](https://en.wikipedia.org/wiki/Prolog#ISO_P
 TERM            | Examples
 ----------------|---------
 IRI             | `'urn:example:abc'`
-BLANKNODE       | `'_:bn_1'`
 VARIABLE        | `X` `_abc`
 LITERAL         | `"abc"` `true` `1.52` `1e-18` `pi`
 LIST            | `[TERM,...]` `[TERM,...\|LIST]`
@@ -26,9 +25,13 @@ BACKWARD_RULE   | `TRIPLE <= GRAPH,`[`PROLOG`](https://www.scryer.pl/builtins)`.
 
 It performs forward chaining for a `FORWARD_RULE` and backward chaining for a `BACKWARD_RULE`.
 
+Variables are interpreted as universally quantified variables except for forward rule
+conclusion-only variables which are interpreted existentially.
+
 Queries are posed and answered as `GRAPH => true.` so the answers are also queries be it with
 some parts substituted and eventually containing more variables than in the original query.
-This forms a dialogue leading to necessary and sufficient answers, supported by proof steps, so that action can take place.
+This forms a dialogue leading to necessary and sufficient answers, supported by proof steps,
+so that action can take place.
 
 Proofs are made of:
 ```

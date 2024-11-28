@@ -8,7 +8,6 @@
 :- use_module(library(iso_ext)).
 :- use_module(library(lists)).
 :- use_module(library(terms)).
-:- use_module(library(uuid)).
 
 :- op(1150,xfx,=>).
 :- op(1200,xfx,<=).
@@ -17,16 +16,16 @@
 :- dynamic(answer/1).
 :- dynamic(brake/0).
 :- dynamic(proof/3).
-:- dynamic(var_nr/1).
 
 term_expansion((Head <= Body),(Head :- Body)).
 
-version_info('eye3 v1.2.8 (2024-11-28)').
+version_info('eye3 v1.2.9 (2024-11-28)').
 
 % main goal
 main :-
     bb_put(closure,0),
     bb_put(limit,-1),
+    bb_put(label,0),
     bb_put(fm,0),
     bb_put(mf,0),
     (   (_ => _)
@@ -41,16 +40,14 @@ main :-
     ->  true
     ;   write(user_error,'*** fm='),
         write(user_error,Fm),
-        write(user_error,'\n'),
-        flush_output(user_error)
+        write(user_error,'\n')
     ),
     bb_get(mf,Mf),
     (   Mf = 0
     ->  true
     ;   write(user_error,'*** mf='),
         write(user_error,Mf),
-        write(user_error,'\n'),
-        flush_output(user_error)
+        write(user_error,'\n')
     ),
     halt(0).
 
@@ -70,23 +67,26 @@ main :-
 run :-
     (   (Prem => Conc),     % 1/
         copy_term((Prem => Conc),Rule),
-        labelvars(Rule,all),
+        labelvars(Rule),
         Prem,               % 2/
         (   Conc = true     % 3/
-        ->  labelvars(Prem,all),
-            (   \+answer(Prem)
+        ->  (   \+answer(Prem)
             ->  assertz(answer(Prem))
             ;   true
             )
         ;   (   Conc = false
             ->  write('% inference fuse, return code 2\n'),
-                writeq(Prem),
-                write(' => false.\n'),
+                labelvars(Prem),
+                writeq((Prem => false)),
+                write('.\n'),
                 halt(2)
-            ;   \+Conc,
-                labelvars(Conc,some),
-                astep(Conc),
-                assertz(proof(Rule,Prem,Conc)),
+            ;   (   term_variables(Conc,[])
+                ->  Concl = Conc
+                ;   Concl = (true => Conc)
+                ),
+                \+Concl,
+                astep(Concl),
+                assertz(proof(Rule,Prem,Concl)),
                 retract(brake)
             )
         ),
@@ -99,12 +99,14 @@ run :-
                 bb_put(closure,NewClosure),
                 run
             ;   answer(Prem),
-                writeq(Prem),
-                write(' => true.\n'),
+                labelvars(Prem),
+                writeq((Prem => true)),
+                write('.\n'),
                 fail
             ;   (   proof(_,_,_)
                 ->  write('\n%\n% Explain the reasoning\n%\n\n'),
                     proof(Rule,Prem,Conc),
+                    labelvars(Conc),
                     writeq('http://www.w3.org/2000/10/swap/log#proves'((Rule,Prem),Conc)),
                     write('.\n'),
                     fail
@@ -117,29 +119,11 @@ run :-
         )
     ).
 
-% create witnesses
-labelvars(Term,Mode) :-
-    (   retract(var_nr(Current))
-    ->  true
-    ;   Current = 0
-    ),
-    labelvars(Term,Current,Next,Mode),
-    assertz(var_nr(Next)).
-
-labelvars(Term,N0,N,Mode) :-
-    term_variables(Term,Vars),
-    labellist(Vars,N0,N,Mode).
-
-labellist([],N,N,_).
-labellist([A|Vars],N0,N,Mode) :-
-    (   Mode = all
-    ->  A = '$VAR'(N0)
-    ;   number_codes(N0,J),
-        atom_codes(I,J),
-        atom_concat('_:sk_',I,A)
-    ),
-    N1 is N0+1,
-    labellist(Vars,N1,N,Mode).
+% label variables
+labelvars(Term) :-
+    bb_get(label,Current),
+    numbervars(Term,Current,Next),
+    bb_put(label,Next).
 
 % assert new step
 astep((B,C)) :-
@@ -170,8 +154,9 @@ fm(A) :-
     ;   write(user_error,'*** '),
         writeq(user_error,A),
         write(user_error,'.\n'),
-        flush_output(user_error),
-        cnt(fm)
+        bb_get(fm,B),
+        C is B+1,
+        bb_put(fm,C)
     ).
 
 mf(A) :-
@@ -180,12 +165,8 @@ mf(A) :-
         (   write(user_error,'*** '),
             writeq(user_error,A),
             write(user_error,'.\n'),
-            flush_output(user_error),
-            cnt(mf)
+            bb_get(mf,B),
+            C is B+1,
+            bb_put(mf,C)
         )
     ).
-
-cnt(A) :-
-    bb_get(A,B),
-    C is B+1,
-    bb_put(A,C).

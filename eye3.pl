@@ -15,11 +15,11 @@
 :- dynamic((=>)/2).
 :- dynamic(answer/1).
 :- dynamic(brake/0).
-:- dynamic(proof/3).
+:- dynamic(ether/3).
 
 term_expansion((Head <= Body),(Head :- Body)).
 
-version_info('eye3 v1.2.9 (2024-11-28)').
+version_info('eye3 v1.2.10 (2024-11-29)').
 
 % main goal
 main :-
@@ -86,7 +86,7 @@ run :-
                 ),
                 \+Concl,
                 astep(Concl),
-                assertz(proof(Rule,Prem,Concl)),
+                assertz(ether(Rule,Prem,Concl)),
                 retract(brake)
             )
         ),
@@ -103,11 +103,11 @@ run :-
                 writeq((Prem => true)),
                 write('.\n'),
                 fail
-            ;   (   proof(_,_,_)
+            ;   (   ether(_,_,_)
                 ->  write('\n%\n% Explain the reasoning\n%\n\n'),
-                    proof(Rule,Prem,Conc),
+                    ether(Rule,Prem,Conc),
                     labelvars(Conc),
-                    writeq('http://www.w3.org/2000/10/swap/log#proves'((Rule,Prem),Conc)),
+                    writeq(ether(Rule,Prem,Conc)),
                     write('.\n'),
                     fail
                 ;   true

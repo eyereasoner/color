@@ -18,12 +18,12 @@ local_time(A,B,C,D,E,F) :-
     catch(date_time(A,B,C,D,E,F),_,get_time(A,B,C,D,E,F)).
 
 get_time(A,B,C,D,E,F) :-
-    maplist(time_get_num,['Y','m','d','H','M','S'],[A,B,C,D,E,F]).
-
-time_get_num(A,B) :-
     current_time(L),
-    memberchk(A=C,L),
-    number_chars(B,C).
+    maplist(time_get_num,[L,L,L,L,L,L],['Y','m','d','H','M','S'],[A,B,C,D,E,F]).
+
+time_get_num(A,B,C) :-
+    memberchk(B=D,A),
+    number_chars(C,D).
 
 % query
 'urn:example:ageAbove'(_S,80) => true.

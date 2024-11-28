@@ -1,42 +1,22 @@
 # eye3
 
-A reasoner using Webized [ISO Prolog](https://en.wikipedia.org/wiki/Prolog#ISO_Prolog):
+A reasoner using Webized [ISO Prolog](https://en.wikipedia.org/wiki/Prolog#ISO_Prolog)
+which basically means that atoms can be IRIs.
 
-TERM            | Examples
-----------------|---------
-IRI             | `'urn:example:abc'`
-VARIABLE        | `X` `_abc`
-LITERAL         | `"abc"` `true` `1.52` `1e-18` `pi`
-LIST            | `[TERM,...]` `[TERM,...\|LIST]`
-COMPOUND        | `IRI(TERM,...)`
-TRIPLE          | `IRI(TERM,TERM)` `GRAPH => GRAPH`
-GRAPH           | `TRIPLE,...`
-
-CLAUSE          | Examples
-----------------|---------
-ASSERTION       | `TRIPLE.` `true => GRAPH.`
-FORWARD_RULE    | `GRAPH,`[`PROLOG (*)`](https://www.scryer.pl/builtins)` => GRAPH.`
-QUERY           | `GRAPH => true.`
-ANSWER          | `GRAPH => true.`
-INFERENCE_FUSE  | `GRAPH => false.`
-BACKWARD_RULE   | `TRIPLE <= GRAPH,`[`PROLOG`](https://www.scryer.pl/builtins)`.`
-
-(*) Use `stable(n)` to fail if the deductive closure at level `n` is not yet stable.
-
-It performs forward chaining for a `FORWARD_RULE` and backward chaining for a `BACKWARD_RULE`.
+It performs forward chaining for `prem => conc.` rules and uses `stable(n)` to fail
+if the deductive closure at level `n` is not yet stable.
 
 Variables are interpreted as universally quantified variables except for forward rule
 conclusion-only variables which are interpreted existentially.
 
-Queries are posed and answered as `GRAPH => true.` so the answers are also queries be it with
+Queries are posed and answered as `prem => true.` so the answers are also queries be it with
 some parts substituted and eventually containing more variables than in the original query.
 This forms a dialogue leading to necessary and sufficient answers, supported by proof steps,
 so that action can take place.
 
-Proofs are made of:
-```
-'http://www.w3.org/2000/10/swap/log#proves'(((prem => conc),prem_inst),conc_inst).
-```
+Proofs steps are `'http://www.w3.org/2000/10/swap/log#proves'(((prem => conc),prem_inst),conc_inst).`
+
+Inference fuses return code 2 with output `prem => false.`
 
 ## Installation and test
 

@@ -21,12 +21,10 @@
 
 term_expansion((Head <= Body),(Head :- Body)).
 
-version_info('eye3 v1.2.7 (2024-11-28)').
+version_info('eye3 v1.2.8 (2024-11-28)').
 
 % main goal
 main :-
-    uuidv4_string(Genid),
-    bb_put(genid,Genid),
     bb_put(closure,0),
     bb_put(limit,-1),
     bb_put(fm,0),
@@ -163,158 +161,6 @@ stable(Level) :-
     ),
     bb_get(closure,Closure),
     Level =< Closure.
-
-% log built-ins
-'http://www.w3.org/2000/10/swap/log#becomes'(A,B) :-
-    catch(A,_,fail),
-    conj_list(A,C),
-    forall(member(D,C),retract(D)),
-    conj_list(B,E),
-    forall(member(F,E),assertz(F)).
-
-'http://www.w3.org/2000/10/swap/log#collectAllIn'([A,B,C],D) :-
-    stable(D),
-    nonvar(B),
-    catch(findall(A,B,E),_,E = []),
-    E = C.
-
-'http://www.w3.org/2000/10/swap/log#conjunction'(A,B) :-
-    nonvar(A),
-    conjoin(A,B).
-
-'http://www.w3.org/2000/10/swap/log#equalTo'(X,Y) :-
-    X = Y.
-
-'http://www.w3.org/2000/10/swap/log#forAllIn'([A,B],C) :-
-    stable(C),
-    nonvar(A),
-    nonvar(B),
-    forall(A,B).
-
-'http://www.w3.org/2000/10/swap/log#includes'(X,Y) :-
-    stable(X),
-    !,
-    nonvar(Y),
-    call(Y).
-'http://www.w3.org/2000/10/swap/log#includes'(X,Y) :-
-    nonvar(X),
-    nonvar(Y),
-    X \= [_,_],
-    conj_list(X,A),
-    conj_list(Y,B),
-    includes(A,B).
-
-'http://www.w3.org/2000/10/swap/log#notEqualTo'(X,Y) :-
-    X \== Y.
-
-'http://www.w3.org/2000/10/swap/log#notIncludes'(X,Y) :-
-    stable(X),
-    !,
-    nonvar(Y),
-    \+call(Y).
-'http://www.w3.org/2000/10/swap/log#notIncludes'(X,Y) :-
-    nonvar(X),
-    nonvar(Y),
-    X \= [_,_],
-    conj_list(X,A),
-    conj_list(Y,B),
-    \+includes(A,B).
-
-'http://www.w3.org/2000/10/swap/log#skolem'(A,B) :-
-    (   skolem(A,B)
-    ->  true
-    ;   var(B),
-        bb_get(genid,C),
-        genlabel('#t',D),
-        atom_chars(D,E),
-        append(["http://knowledgeonwebscale.github.io/.well-known/genid/",C,E],F),
-        atom_chars(B,F),
-        assertz(skolem(A,B))
-    ).
-
-'http://www.w3.org/2000/10/swap/log#uri'(X,Y) :-
-    (   nonvar(X),
-        atom_concat('',U,X),
-        atom_concat(V,'',U),
-        atom_chars(V,Y),
-        !
-    ;   nonvar(Y),
-        atom_chars(U,Y),
-        atom_concat('',U,V),
-        atom_concat(V,'',X)
-    ).
-
-'http://www.w3.org/2000/10/swap/log#uuid'(X,Y) :-
-    ground(X),
-    'http://www.w3.org/2000/10/swap/log#uri'(X,U),
-    (   uuid(U,Y)
-    ->  true
-    ;   uuidv4_string(Y),
-        assertz(uuid(U,Y))
-    ).
-
-% conj_list(?Conj,?List)
-conj_list(true,[]).
-conj_list(A,[A]) :-
-    A \= (_,_),
-    A \= false,
-    !.
-conj_list((A,B),[A|C]) :-
-    conj_list(B,C).
-
-% conj_append(+Conj,+Conj,?Conj)
-conj_append(A,true,A) :-
-    !.
-conj_append((A,B),C,(A,D)) :-
-    conj_append(B,C,D),
-    !.
-conj_append(A,B,(A,B)).
-
-% conjoin(+List,-Conj)
-conjoin([X],X) :-
-    !.
-conjoin([true|Y],Z) :-
-    conjoin(Y,Z),
-    !.
-conjoin([X|Y],Z) :-
-    conjoin(Y,U),
-    conj_append(X,U,V),
-    (   ground(V)
-    ->  conj_list(V,A),
-        list_to_set(A,B),
-        conj_list(Z,B)
-    ;   Z = V
-    ).
-
-% includes(?ListA,?ListB)
-includes(_,[]) :-
-    !.
-includes(X,[Y|Z]) :-
-    member(Y,X),
-    includes(X,Z).
-
-% genlabel(+OldAtom,-NewAtom)
-%   For each invocation of this built-in a new label will
-%   be created for OldAtom by appending it with an ever
-%   increasing '_<Number>'
-%   Example: genlabel('A','A_1'),genlabel('A','A_2'),...
-genlabel(A,B) :-
-    (   bb_get(A,C)
-    ->  D is C+1,
-        bb_put(A,D),
-        taglabel(A,D,B)
-    ;   bb_put(A,1),
-        taglabel(A,1,B)
-    ).
-
-% taglabel(+Atom,+Number,-Tag)
-%   Tag is the result of appending '_<Number>' to '<Atom>'
-%   Example: taglabel('A',1,'A_1')
-taglabel(A,B,C) :-
-    atom_chars(A,D),
-    number_chars(B,E),
-    append([D,"_",E],F),
-    atom_chars(C,F).
 
 % debugging tools
 fm(A) :-

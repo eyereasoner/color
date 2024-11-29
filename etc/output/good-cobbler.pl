@@ -1,3 +1,3 @@
 :- op(1150,xfx,=>).
 
-(true=>'urn:example:is'(G,'urn:example:good'('urn:example:Cobbler')))=>true.
+(true=>'urn:example:is'(A,'urn:example:good'('urn:example:Cobbler')))=>true.

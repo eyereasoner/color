@@ -5,6 +5,7 @@
 % See https://github.com/eyereasoner/eye3
 %
 
+:- use_module(library(format)).
 :- use_module(library(iso_ext)).
 :- use_module(library(lists)).
 :- use_module(library(terms)).
@@ -19,7 +20,7 @@
 
 term_expansion((Head <= Body),(Head :- Body)).
 
-version_info('eye3 v1.2.10 (2024-11-29)').
+version_info('eye3 v1.2.11 (2024-11-29)').
 
 % main goal
 main :-
@@ -29,25 +30,20 @@ main :-
     bb_put(fm,0),
     bb_put(mf,0),
     (   (_ => _)
-    ->  write(':- op(1150,xfx,=>).\n\n')
+    ->  format(":- op(1150,xfx,=>).~n~n",[])
     ;   version_info(Version),
-        write(Version),
-        write('\n')
+        format("~w~n",[Version])
     ),
     run,
     bb_get(fm,Fm),
     (   Fm = 0
     ->  true
-    ;   write(user_error,'*** fm='),
-        write(user_error,Fm),
-        write(user_error,'\n')
+    ;   format(user_error,"*** fm=~w~n",[Fm])
     ),
     bb_get(mf,Mf),
     (   Mf = 0
     ->  true
-    ;   write(user_error,'*** mf='),
-        write(user_error,Mf),
-        write(user_error,'\n')
+    ;   format(user_error,"*** mf=~w~n",[Mf])
     ),
     halt(0).
 
@@ -61,13 +57,12 @@ main :-
 % 4/ backtrack to 2/ and if it fails go to 5/
 % 5/ if brake
 %       if not stable start again at 1/
-%       else write all answers as P => true and stop
+%       else output all answers as P => true and stop
 %    else assert brake and start again at 1/
 %
 run :-
     (   (Prem => Conc),     % 1/
         copy_term((Prem => Conc),Rule),
-        labelvars(Rule),
         Prem,               % 2/
         (   Conc = true     % 3/
         ->  (   \+answer(Prem)
@@ -75,10 +70,8 @@ run :-
             ;   true
             )
         ;   (   Conc = false
-            ->  write('% inference fuse, return code 2\n'),
-                labelvars(Prem),
-                writeq((Prem => false)),
-                write('.\n'),
+            ->  format("% inference fuse, return code 2~n",[]),
+                portray_clause((Prem => false)),
                 halt(2)
             ;   (   term_variables(Conc,[])
                 ->  Concl = Conc
@@ -99,16 +92,12 @@ run :-
                 bb_put(closure,NewClosure),
                 run
             ;   answer(Prem),
-                labelvars(Prem),
-                writeq((Prem => true)),
-                write('.\n'),
+                portray_clause((Prem => true)),
                 fail
             ;   (   ether(_,_,_)
-                ->  write('\n%\n% Explain the reasoning\n%\n\n'),
+                ->  format("~n%~n% Explain the reasoning~n%~n~n",[]),
                     ether(Rule,Prem,Conc),
-                    labelvars(Conc),
-                    writeq(ether(Rule,Prem,Conc)),
-                    write('.\n'),
+                    portray_clause(ether(Rule,Prem,Conc)),
                     fail
                 ;   true
                 )
@@ -118,12 +107,6 @@ run :-
             run
         )
     ).
-
-% label variables
-labelvars(Term) :-
-    bb_get(label,Current),
-    numbervars(Term,Current,Next),
-    bb_put(label,Next).
 
 % assert new step
 astep((B,C)) :-
@@ -148,23 +131,17 @@ stable(Level) :-
 
 % debugging tools
 fm(A) :-
-    (   nonvar(A),
-        A = !
-    ->  true
-    ;   write(user_error,'*** '),
-        writeq(user_error,A),
-        write(user_error,'.\n'),
-        bb_get(fm,B),
-        C is B+1,
-        bb_put(fm,C)
-    ).
+    write(user_error,'*** '),
+    portray_clause(user_error,A),
+    bb_get(fm,B),
+    C is B+1,
+    bb_put(fm,C).
 
 mf(A) :-
     forall(
         catch(A,_,fail),
         (   write(user_error,'*** '),
-            writeq(user_error,A),
-            write(user_error,'.\n'),
+            portray_clause(user_error,A),
             bb_get(mf,B),
             C is B+1,
             bb_put(mf,C)

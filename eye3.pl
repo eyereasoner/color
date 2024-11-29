@@ -20,13 +20,12 @@
 
 term_expansion((Head <= Body),(Head :- Body)).
 
-version_info('eye3 v1.2.11 (2024-11-29)').
+version_info('eye3 v1.2.12 (2024-11-29)').
 
 % main goal
 main :-
     bb_put(closure,0),
     bb_put(limit,-1),
-    bb_put(label,0),
     bb_put(fm,0),
     bb_put(mf,0),
     (   (_ => _)

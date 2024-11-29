@@ -20,7 +20,7 @@
 
 term_expansion((Head <= Body),(Head :- Body)).
 
-version_info('eye3 v1.2.12 (2024-11-29)').
+version_info('eye3 v1.2.13 (2024-11-29)').
 
 % main goal
 main :-
@@ -61,7 +61,7 @@ main :-
 %
 run :-
     (   (Prem => Conc),     % 1/
-        copy_term((Prem => Conc),Rule),
+        copy_term((Prem => Conc),Rule,_),
         Prem,               % 2/
         (   Conc = true     % 3/
         ->  (   \+answer(Prem)

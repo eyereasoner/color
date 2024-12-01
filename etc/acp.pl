@@ -13,7 +13,7 @@
 'urn:example:anyOf'('urn:example:PolicyX','urn:example:C').
 'urn:example:noneOf'('urn:example:PolicyX','urn:example:D').
 
-'urn:example:pass'(A,'urn:example:allOfTest') <=
+'urn:example:pass'(A,'urn:example:allOfTest') :-
     'urn:example:policy'(B,A),
     'urn:example:Policy'(A),
     forall(
@@ -21,7 +21,7 @@
         'urn:example:has'(B,C)
     ).
 
-'urn:example:pass'(A,'urn:example:anyOfTest') <=
+'urn:example:pass'(A,'urn:example:anyOfTest') :-
     'urn:example:policy'(B,A),
     'urn:example:Policy'(A),
     findall(C,
@@ -34,7 +34,7 @@
     length(D,E),
     E \= 0.
 
-'urn:example:pass'(A,'urn:example:noneOfTest') <=
+'urn:example:pass'(A,'urn:example:noneOfTest') :-
     'urn:example:policy'(B,A),
      'urn:example:Policy'(A),
     findall(C,
@@ -47,8 +47,8 @@
     length(D,0).
 
 % query
-'urn:example:Policy'(A),
-'urn:example:pass'(A,'urn:example:allOfTest'),
-'urn:example:pass'(A,'urn:example:anyOfTest'),
-'urn:example:pass'(A,'urn:example:noneOfTest') =>
-    true.
+true <=
+    'urn:example:Policy'(A),
+    'urn:example:pass'(A,'urn:example:allOfTest'),
+    'urn:example:pass'(A,'urn:example:anyOfTest'),
+    'urn:example:pass'(A,'urn:example:noneOfTest').

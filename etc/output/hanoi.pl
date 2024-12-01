@@ -1,3 +1,3 @@
-:- op(1150,xfx,=>).
+:- op(1150,xfx,<=).
 
-'urn:example:move'(14,[left,centre,right])=>true.
+true<='urn:example:move'(14,[left,centre,right]).

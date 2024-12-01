@@ -1,3 +1,3 @@
-:- op(1150,xfx,=>).
+:- op(1150,xfx,<=).
 
-'urn:example:tak'([34,13,8],13)=>true.
+true<='urn:example:tak'([34,13,8],13).

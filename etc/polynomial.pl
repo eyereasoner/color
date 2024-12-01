@@ -2,7 +2,7 @@
 % See http://alain.colmerauer.free.fr/alcol/ArchivesPublications/Equation4/Equation4.pdf
 
 % Liste des racines dun polynome
-'urn:example:roots'(P,L) <=
+'urn:example:roots'(P,L) :-
     findall(Z,racine(P,Z),L).
 
 % Racine dun polynome
@@ -229,5 +229,6 @@ nulreel(0.0) :-
 nulreel(-0.0).
 
 % query
-'urn:example:roots'([[1,0],[-10,0],[35,0],[-50,0],[24,0]],_ANSWER) => true.
-'urn:example:roots'([[1,0],[-9,-5],[14,33],[24,-44],[-26,0]],_ANSWER) => true.
+true <=
+    'urn:example:roots'([[1,0],[-10,0],[35,0],[-50,0],[24,0]],_),
+    'urn:example:roots'([[1,0],[-9,-5],[14,33],[24,-44],[-26,0]],_).

@@ -2,7 +2,7 @@
 
 :- use_module(library(lists)).
 
-'urn:example:colors'(_Map,Places) <=
+'urn:example:colors'(_Map,Places) :-
     findall([Place,_],'urn:example:neighbours'(Place,_),Places),
     places(Places),
     !.
@@ -44,4 +44,5 @@ places([[Place,Color]|Tail]) :-
 'urn:example:neighbours'('urn:example:Croatia',['urn:example:Slovenia','urn:example:Hungary']).
 
 % query
-'urn:example:colors'('urn:example:mapEU',_X) => true.
+true <=
+    'urn:example:colors'('urn:example:mapEU',_).

@@ -87,7 +87,7 @@ bob([X,Y],3) :-
     id(X,Y).
 
 % superdense coding
-'urn:example:sdc'(N,M) <=
+'urn:example:sdc'(N,M) :-
     r(X,Y),
     alice(N,[X,B]),
     bob([B,Y],M),
@@ -97,8 +97,9 @@ bob([X,Y],3) :-
     ).
 
 % superdense coding appearing an odd number of times
-'urn:example:sdc'(_N,_M) =>
-    'urn:example:sdconot'(_N,_M).
+'urn:example:sdconot'(N,M) <=
+    'urn:example:sdc'(N,M).
 
 % query
-'urn:example:sdcoding'(_N,_M) => true.
+true <=
+    'urn:example:sdcoding'(_,_).

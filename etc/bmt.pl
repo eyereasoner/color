@@ -10002,7 +10002,7 @@
 'urn:example:i9'('urn:example:i9','urn:example:i84').
 'urn:example:i9'('urn:example:i9','urn:example:i96').
 
-'urn:example:cycle'(A,[B,C,D,E,F,G,H,I,J,K,B]) <=
+'urn:example:cycle'(A,[B,C,D,E,F,G,H,I,J,K,B]) :-
     current_predicate(A/2),
     atom_concat('urn:example:',_,A),
     A \= 'urn:example:cycle',
@@ -10018,4 +10018,5 @@
     call(A,K,B).
 
 % query
-'urn:example:cycle'(_A,_CYCLE) => true.
+true <=
+    'urn:example:cycle'(_,_).

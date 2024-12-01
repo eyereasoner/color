@@ -6,7 +6,7 @@
 :- dynamic('urn:example:complies'/2).
 
 % Facts about what employees are doing
-'urn:example:prepare'(X,Y) <=
+'urn:example:prepare'(X,Y) :-
     Z is Y//3,
     between(X,Z,N),
     number_codes(N,J),
@@ -22,11 +22,26 @@
     true.
 
 % Rules to check if an action complies with deontic logic
-'urn:example:does'(Person,'urn:example:work_related_task'),'urn:example:does'(Person,'urn:example:log_off_at_end_of_shift') => 'urn:example:complies'(Person,true).
-'urn:example:does'(Person,'urn:example:work_related_task'),\+'urn:example:does'(Person,'urn:example:log_off_at_end_of_shift') => 'urn:example:complies'(Person,false).
-'urn:example:does'(Person,'urn:example:log_off_at_end_of_shift') => 'urn:example:complies'(Person,true).
-'urn:example:does'(Person,'urn:example:access_social_media') => 'urn:example:complies'(Person,false).
+'urn:example:complies'(Person,true) <=
+    'urn:example:does'(Person,'urn:example:work_related_task'),
+    'urn:example:does'(Person,'urn:example:log_off_at_end_of_shift').
+
+'urn:example:complies'(Person,false) <=
+    'urn:example:does'(Person,'urn:example:work_related_task'),
+    stable(1),
+    \+'urn:example:does'(Person,'urn:example:log_off_at_end_of_shift').
+
+'urn:example:complies'(Person,true) <=
+    'urn:example:does'(Person,'urn:example:log_off_at_end_of_shift').
+
+'urn:example:complies'(Person,false) <=
+    'urn:example:does'(Person,'urn:example:access_social_media').
+
+
+% prepare employee data
+true <=
+    'urn:example:prepare'(1,30000).
 
 % Query to test if everyone complies with deontic logic
-'urn:example:prepare'(1,30000) => true.
-'urn:example:complies'(_Person,_Check) => true.
+true <=
+    'urn:example:complies'(_,_).

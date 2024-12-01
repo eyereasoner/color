@@ -14,4 +14,5 @@
     'urn:example:tak'([A1,A2,A3],A).
 
 % query
-'urn:example:tak'([34,13,8],_ANSWER) => true.
+true <=
+    'urn:example:tak'([34,13,8],_).

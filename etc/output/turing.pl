@@ -1,6 +1,3 @@
-:- op(1150,xfx,=>).
+:- op(1150,xfx,<=).
 
-'urn:example:compute'([1,0,1,0,0,1],[1,0,1,0,1,0,[#]])=>true.
-'urn:example:compute'([1,0,1,1,1,1],[1,1,0,0,0,0,[#]])=>true.
-'urn:example:compute'([1,1,1,1,1,1],[1,0,0,0,0,0,0,[#]])=>true.
-'urn:example:compute'([],[1,[#]])=>true.
+true<='urn:example:compute'([1,0,1,0,0,1],[1,0,1,0,1,0,[#]]),'urn:example:compute'([1,0,1,1,1,1],[1,1,0,0,0,0,[#]]),'urn:example:compute'([1,1,1,1,1,1],[1,0,0,0,0,0,0,[#]]),'urn:example:compute'([],[1,[#]]).

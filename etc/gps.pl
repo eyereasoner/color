@@ -5,7 +5,7 @@
 :- use_module(library(iso_ext)).
 
 % find paths in the state space from initial state to goal state within limits
-'urn:example:findpath'(_SCOPE,[Goal,Path,Duration,Cost,Belief,Comfort,Limits]) <=
+'urn:example:findpath'(_SCOPE,[Goal,Path,Duration,Cost,Belief,Comfort,Limits]) :-
     findpaths([],Goal,[],0.0,0.0,1.0,1.0,Path,Duration,Cost,Belief,Comfort,Limits).
 
 findpaths(_Maps,Goal,Path,Duration,Cost,Belief,Comfort,Path,Duration,Cost,Belief,Comfort,_Limits) :-
@@ -116,14 +116,15 @@ conj_list((A,B),[A|C]) :-
 'urn:example:location'('urn:example:i1','urn:example:gent').
 
 % query
-'urn:example:findpath'(
-    'urn:example:map_be',
-    [   'urn:example:location'(_SUBJECT,'urn:example:oostende'),
-        _PATH,
-        _DURATION,
-        _COST,
-        _BELIEF,
-        _COMFORT,
-        [5000.0,5.0,0.2,0.4,1]
-    ]
-) => true.
+true <=
+    'urn:example:findpath'(
+        'urn:example:map_be',
+        [   'urn:example:location'(_SUBJECT,'urn:example:oostende'),
+            _PATH,
+            _DURATION,
+            _COST,
+            _BELIEF,
+            _COMFORT,
+            [5000.0,5.0,0.2,0.4,1]
+        ]
+    ).

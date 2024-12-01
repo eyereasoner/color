@@ -1,3 +1,3 @@
 :- op(1150,xfx,<=).
 
-true<='urn:example:compute'([1,0,1,0,0,1],[1,0,1,0,1,0,[#]]),'urn:example:compute'([1,0,1,1,1,1],[1,1,0,0,0,0,[#]]),'urn:example:compute'([1,1,1,1,1,1],[1,0,0,0,0,0,0,[#]]),'urn:example:compute'([],[1,[#]]).
+answer(('urn:example:compute'([1,0,1,0,0,1],[1,0,1,0,1,0,[#]]),'urn:example:compute'([1,0,1,1,1,1],[1,1,0,0,0,0,[#]]),'urn:example:compute'([1,1,1,1,1,1],[1,0,0,0,0,0,0,[#]]),'urn:example:compute'([],[1,[#]]))).

@@ -1,9 +1,9 @@
 :- op(1150,xfx,<=).
 
-true<='urn:example:sdcoding'(1,1).
-true<='urn:example:sdcoding'(3,3).
-true<='urn:example:sdcoding'(0,0).
-true<='urn:example:sdcoding'(2,2).
+answer('urn:example:sdcoding'(1,1)).
+answer('urn:example:sdcoding'(3,3)).
+answer('urn:example:sdcoding'(0,0)).
+answer('urn:example:sdcoding'(2,2)).
 
 %
 % Explain the reasoning

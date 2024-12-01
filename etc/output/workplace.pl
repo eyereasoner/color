@@ -1,8 +1,8 @@
 :- op(1150,xfx,<=).
 
-true<='urn:example:complies'('urn:example:alice',true).
-true<='urn:example:complies'('urn:example:carol',false).
-true<='urn:example:complies'('urn:example:bob',false).
+answer('urn:example:complies'('urn:example:alice',true)).
+answer('urn:example:complies'('urn:example:carol',false)).
+answer('urn:example:complies'('urn:example:bob',false)).
 
 %
 % Explain the reasoning

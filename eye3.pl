@@ -17,7 +17,7 @@
 :- dynamic(brake/0).
 :- dynamic(ether/3).
 
-version_info('eye3 v1.3.0 (2024-12-01)').
+version_info('eye3 v1.3.1 (2024-12-01)').
 
 % main goal
 main :-
@@ -88,7 +88,7 @@ run :-
                 bb_put(closure,NewClosure),
                 run
             ;   answer(Prem),
-                portray_clause((true <= Prem)),
+                portray_clause(answer(Prem)),
                 fail
             ;   (   ether(_,_,_)
                 ->  format("~n%~n% Explain the reasoning~n%~n~n",[]),

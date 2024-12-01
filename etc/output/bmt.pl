@@ -1,4 +1,4 @@
-:- op(1150, xfx, <=).
+:- op(1150, xfx, ::-).
 
 answer('urn:example:cycle'('urn:example:i0',['urn:example:i12','urn:example:i66','urn:example:i9','urn:example:i12','urn:example:i66','urn:example:i9','urn:example:i12','urn:example:i9','urn:example:i12','urn:example:i9','urn:example:i12'])).
 answer('urn:example:cycle'('urn:example:i0',['urn:example:i12','urn:example:i66','urn:example:i9','urn:example:i12','urn:example:i9','urn:example:i12','urn:example:i66','urn:example:i9','urn:example:i12','urn:example:i9','urn:example:i12'])).

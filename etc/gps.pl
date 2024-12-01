@@ -116,7 +116,7 @@ conj_list((A, B), [A|C]) :-
 'urn:example:location'('urn:example:i1', 'urn:example:gent').
 
 % query
-true <=
+true ::-
     'urn:example:findpath'(
         'urn:example:map_be',
         [   'urn:example:location'(_SUBJECT, 'urn:example:oostende'),

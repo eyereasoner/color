@@ -18,7 +18,7 @@ fibonacci(A, B, C, D) :-
     B is E/C.
 
 % query
-true <=
+true ::-
     'urn:example:fibonacci'(1, _),
     'urn:example:fibonacci'(2, _),
     'urn:example:fibonacci'(3, _),

@@ -44,5 +44,5 @@ places([[Place, Color]|Tail]) :-
 'urn:example:neighbours'('urn:example:Croatia', ['urn:example:Slovenia', 'urn:example:Hungary']).
 
 % query
-true <=
+true ::-
     'urn:example:colors'('urn:example:mapEU', _).

@@ -1,4 +1,4 @@
-:- op(1150,xfx,<=).
+:- op(1150, xfx, <=).
 
 answer('urn:example:path'('urn:example:angers','urn:example:nantes')).
 answer('urn:example:path'('urn:example:lemans','urn:example:nantes')).

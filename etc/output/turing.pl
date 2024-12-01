@@ -1,3 +1,3 @@
-:- op(1150,xfx,<=).
+:- op(1150, xfx, <=).
 
 answer(('urn:example:compute'([1,0,1,0,0,1],[1,0,1,0,1,0,[#]]),'urn:example:compute'([1,0,1,1,1,1],[1,1,0,0,0,0,[#]]),'urn:example:compute'([1,1,1,1,1,1],[1,0,0,0,0,0,0,[#]]),'urn:example:compute'([],[1,[#]]))).

@@ -10,7 +10,7 @@
 :- use_module(library(lists)).
 :- use_module(library(terms)).
 
-:- op(1200,xfx,<=).
+:- op(1200, xfx, <=).
 
 :- dynamic((<=)/2).
 :- dynamic(answer/1).
@@ -21,25 +21,25 @@ version_info('eye3 v1.3.1 (2024-12-01)').
 
 % main goal
 main :-
-    bb_put(closure,0),
-    bb_put(limit,-1),
-    bb_put(fm,0),
-    bb_put(mf,0),
+    bb_put(closure, 0),
+    bb_put(limit, -1),
+    bb_put(fm, 0),
+    bb_put(mf, 0),
     (   (_ <= _)
-    ->  format(":- op(1150,xfx,<=).~n~n",[])
+    ->  format(":- op(1150, xfx, <=).~n~n", [])
     ;   version_info(Version),
-        format("~w~n",[Version])
+        format("~w~n", [Version])
     ),
     run,
-    bb_get(fm,Fm),
+    bb_get(fm, Fm),
     (   Fm = 0
     ->  true
-    ;   format(user_error,"*** fm=~w~n",[Fm])
+    ;   format(user_error, "*** fm=~w~n", [Fm])
     ),
-    bb_get(mf,Mf),
+    bb_get(mf, Mf),
     (   Mf = 0
     ->  true
-    ;   format(user_error,"*** mf=~w~n",[Mf])
+    ;   format(user_error, "*** mf=~w~n", [Mf])
     ),
     halt(0).
 
@@ -58,7 +58,7 @@ main :-
 %
 run :-
     (   (Conc <= Prem),     % 1/
-        copy_term((Conc <= Prem),Rule),
+        copy_term((Conc <= Prem), Rule),
         Prem,               % 2/
         (   Conc = true     % 3/
         ->  (   \+answer(Prem)
@@ -66,34 +66,34 @@ run :-
             ;   true
             )
         ;   (   Conc = false
-            ->  format("% inference fuse, return code 2~n",[]),
+            ->  format("% inference fuse, return code 2~n", []),
                 portray_clause((false <= Prem)),
                 halt(2)
-            ;   (   term_variables(Conc,[])
+            ;   (   term_variables(Conc, [])
                 ->  Concl = Conc
                 ;   Concl = (Conc <= true)
                 ),
                 \+Concl,
                 astep(Concl),
-                assertz(ether(Rule,Prem,Concl)),
+                assertz(ether(Rule, Prem, Concl)),
                 retract(brake)
             )
         ),
         fail                % 4/
     ;   (   brake           % 5/
-        ->  (   bb_get(closure,Closure),
-                bb_get(limit,Limit),
+        ->  (   bb_get(closure, Closure),
+                bb_get(limit, Limit),
                 Closure < Limit,
                 NewClosure is Closure+1,
-                bb_put(closure,NewClosure),
+                bb_put(closure, NewClosure),
                 run
             ;   answer(Prem),
                 portray_clause(answer(Prem)),
                 fail
-            ;   (   ether(_,_,_)
-                ->  format("~n%~n% Explain the reasoning~n%~n~n",[]),
-                    ether(Rule,Prem,Conc),
-                    portray_clause(ether(Rule,Prem,Conc)),
+            ;   (   ether(_, _, _)
+                ->  format("~n%~n% Explain the reasoning~n%~n~n", []),
+                    ether(Rule, Prem, Conc),
+                    portray_clause(ether(Rule, Prem, Conc)),
                     fail
                 ;   true
                 )
@@ -105,7 +105,7 @@ run :-
     ).
 
 % assert new step
-astep((B,C)) :-
+astep((B, C)) :-
     astep(B),
     astep(C).
 astep(A) :-
@@ -117,29 +117,29 @@ astep(A) :-
 % stable(+Level)
 %   fail if the deductive closure at Level is not yet stable
 stable(Level) :-
-    bb_get(limit,Limit),
+    bb_get(limit, Limit),
     (   Limit < Level
-    ->  bb_put(limit,Level)
+    ->  bb_put(limit, Level)
     ;   true
     ),
-    bb_get(closure,Closure),
+    bb_get(closure, Closure),
     Level =< Closure.
 
 % debugging tools
 fm(A) :-
-    write(user_error,'*** '),
-    portray_clause(user_error,A),
-    bb_get(fm,B),
+    write(user_error, '*** '),
+    portray_clause(user_error, A),
+    bb_get(fm, B),
     C is B+1,
-    bb_put(fm,C).
+    bb_put(fm, C).
 
 mf(A) :-
     forall(
-        catch(A,_,fail),
-        (   write(user_error,'*** '),
-            portray_clause(user_error,A),
-            bb_get(mf,B),
+        catch(A, _, fail),
+        (   write(user_error, '*** '),
+            portray_clause(user_error, A),
+            bb_get(mf, B),
             C is B+1,
-            bb_put(mf,C)
+            bb_put(mf, C)
         )
     ).

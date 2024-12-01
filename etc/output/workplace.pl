@@ -1,4 +1,4 @@
-:- op(1150,xfx,<=).
+:- op(1150, xfx, <=).
 
 answer('urn:example:complies'('urn:example:alice',true)).
 answer('urn:example:complies'('urn:example:carol',false)).

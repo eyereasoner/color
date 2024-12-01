@@ -1,4 +1,4 @@
-:- op(1150,xfx,<=).
+:- op(1150, xfx, <=).
 
 answer('urn:example:sdcoding'(1,1)).
 answer('urn:example:sdcoding'(3,3)).

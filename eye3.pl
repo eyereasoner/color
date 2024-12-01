@@ -17,7 +17,7 @@
 :- dynamic(brake/0).
 :- dynamic(ether/3).
 
-version_info('eye3 v1.3.2 (2024-12-01)').
+version_info('eye3 v1.3.3 (2024-12-01)').
 
 % main goal
 main :-
@@ -57,7 +57,7 @@ main :-
 %    else assert brake and start again at 1/
 %
 run :-
-    (   (Conc ::- Prem),     % 1/
+    (   (Conc ::- Prem),    % 1/
         copy_term((Conc ::- Prem), Rule),
         Prem,               % 2/
         (   Conc = true     % 3/
@@ -67,7 +67,7 @@ run :-
             )
         ;   (   Conc = false
             ->  format("% inference fuse, return code 2~n", []),
-                portray_clause((false ::- Prem)),
+                portray_clause(fuse(Prem)),
                 halt(2)
             ;   (   term_variables(Conc, [])
                 ->  Concl = Conc

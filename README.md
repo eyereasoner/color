@@ -30,7 +30,7 @@ cd etc
 - conclusion can be `false` to blow an inference fuse
 - conclusion can be `true` to pose a query
 - conclusion-only variables are existentials
-- current way to produce proof steps
+- current way to explain the reasoning as `ether` proof steps
 - avoiding loops that could occur with backward chaining
 
 ## Background

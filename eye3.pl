@@ -17,7 +17,7 @@
 :- dynamic(brake/0).
 :- dynamic(ether/3).
 
-version_info('eye3 v1.3.5 (2024-12-02)').
+version_info('eye3 v1.3.6 (2024-12-02)').
 
 % main goal
 main :-

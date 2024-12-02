@@ -10018,5 +10018,5 @@
     call(A, K, B).
 
 % query
-true ::-
+true ?-
     'urn:example:cycle'(_, _).

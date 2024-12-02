@@ -279,7 +279,7 @@ lists_fr([[A|B]|C], [A|D], [B|E]) :-
     lists_fr(C, D, E).
 
 % query
-true ::-
+true ?-
     'urn:example:determinant'([[2, -1, 0], [-1, 2, -1], [0, -1, 2]], _),
     'urn:example:matrix_inversion'([[2, -1, 0], [-1, 2, -1], [0, -1, 2]], _),
     'urn:example:matrix_inversion'([[18, 22, 54, 42], [22, 70, 86, 62], [54, 86, 174, 134], [42, 62, 134, 106]], _),

@@ -117,7 +117,7 @@ divi(N, F, M, R, K) :-
 divi(N, _, M, N, M).
 
 % query
-true ::-
+true ?-
     'urn:example:primerange'(0, 100, _),
     'urn:example:primerange'(1000000, 1000100, _),
     'urn:example:totient'(271, _),

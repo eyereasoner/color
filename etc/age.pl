@@ -31,5 +31,5 @@ time_get_num(A,B,C) :-
     number_chars(C,D).
 
 % query
-true ::-
+true ?-
     'urn:example:ageAbove'(_,80).

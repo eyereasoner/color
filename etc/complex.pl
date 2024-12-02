@@ -84,7 +84,7 @@ angular(A, B, C, D) :-
     D is 2*pi-C.
 
 % query
-true ::-
+true ?-
     'urn:example:quotient'([[1, 0], [0, 1]], _),
     'urn:example:exponentiation'([[-1, 0], [0.5, 0]], _),
     X is 0+e, 'urn:example:exponentiation'([[X, 0], [0, pi]], _),

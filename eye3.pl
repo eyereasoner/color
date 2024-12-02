@@ -17,7 +17,7 @@
 :- dynamic(brake/0).
 :- dynamic(ether/3).
 
-version_info('eye3 v1.3.4 (2024-12-02)').
+version_info('eye3 v1.3.5 (2024-12-02)').
 
 % main goal
 main :-
@@ -26,7 +26,7 @@ main :-
     bb_put(fm, 0),
     bb_put(mf, 0),
     (   (_ ?- _)
-    ->  format(":- op(1150, xfx, ?-).~n~n", [])
+    ->  format(":- op(1200, xfx, ?-).~n~n", [])
     ;   version_info(Version),
         format("~w~n", [Version])
     ),

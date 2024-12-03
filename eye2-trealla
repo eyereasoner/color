@@ -1,0 +1,4 @@
+#!/bin/bash
+export EYE2=$(dirname "$(readlink -f "$0")")/eye2-trealla.pl
+
+tpl -g main ${EYE2} "$@"

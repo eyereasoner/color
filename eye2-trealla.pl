@@ -1,8 +1,8 @@
-% ------------------
-% eye3 -- Jos De Roo
-% ------------------
+% --------------------------
+% eye2-trealla -- Jos De Roo
+% --------------------------
 %
-% See https://github.com/eyereasoner/eye3
+% See https://github.com/eyereasoner/eye2-trealla
 %
 
 :- use_module(library(format)).
@@ -17,7 +17,7 @@
 :- dynamic(brake/0).
 :- dynamic(ether/3).
 
-version_info('eye3 v1.3.6 (2024-12-02)').
+version_info('eye2-trealla v1.3.7 (2024-12-03)').
 
 % main goal
 main :-
@@ -43,7 +43,7 @@ main :-
     ),
     halt(0).
 
-% run eye3 abstract machine
+% run eye2 abstract machine
 %
 % 1/ select rule Conc ?- Prem
 % 2/ prove Prem and if it fails backtrack to 1/

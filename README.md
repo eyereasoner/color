@@ -1,4 +1,4 @@
-# eye3
+# eye2-trealla
 
 - A reasoner using Webized Prolog which basically means that atoms can be IRIs.
 - It performs instantiation for `conclusion ?- premise` rules and uses `stable(n)` to fail if the deductive closure at level `n` is not yet stable.

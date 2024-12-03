@@ -5,7 +5,7 @@
 - Proofs steps are `ether((conclusion ?- premise), premise_inst, conclusion_inst)` and `conclusion_inst` is asserted.
 - Variables are interpreted as universally quantified variables except for `conclusion ?- premise` conclusion-only variables which are interpreted existentially.
 - Queries are posed as `true ?- premise` and answered as `answer(premise_inst)`.
-- Inference fuses are blown as `false ?- premise_inst` and the reasoning stops with return code 2.
+- Inference fuses are defined as `false ?- premise` and blown as `fuse(premise_inst)` with return code 2.
 
 ## Rationale for `conclusion ?- premise`
 

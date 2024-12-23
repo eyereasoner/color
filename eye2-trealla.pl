@@ -15,9 +15,9 @@
 :- dynamic((?-)/2).
 :- dynamic(answer/1).
 :- dynamic(brake/0).
-:- dynamic(ether/3).
+:- dynamic(explains/3).
 
-version_info('eye2-trealla v1.3.7 (2024-12-03)').
+version_info('eye2-trealla v1.3.8 (2024-12-23)').
 
 % main goal
 main :-
@@ -53,11 +53,11 @@ main :-
 % 4/ backtrack to 2/ and if it fails go to 5/
 % 5/ if brake
 %       if not stable start again at 1/
-%       else output answers, output ethers and stop
+%       else output answers, output explanations and stop
 %    else assert brake and start again at 1/
 %
 run :-
-    (   (Conc ?- Prem),    % 1/
+    (   (Conc ?- Prem),     % 1/
         copy_term((Conc ?- Prem), Rule),
         Prem,               % 2/
         (   Conc = true     % 3/
@@ -75,7 +75,7 @@ run :-
                 ),
                 \+Concl,
                 astep(Concl),
-                assertz(ether(Rule, Prem, Concl)),
+                assertz(explains(Rule, Prem, Concl)),
                 retract(brake)
             )
         ),
@@ -90,10 +90,10 @@ run :-
             ;   answer(Prem),
                 portray_clause(answer(Prem)),
                 fail
-            ;   (   ether(_, _, _)
+            ;   (   explains(_, _, _)
                 ->  format("~n%~n% Explain the reasoning~n%~n~n", []),
-                    ether(Rule, Prem, Conc),
-                    portray_clause(ether(Rule, Prem, Conc)),
+                    explains(Rule, Prem, Conc),
+                    portray_clause(explains(Rule, Prem, Conc)),
                     fail
                 ;   true
                 )

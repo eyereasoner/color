@@ -1,4 +1,4 @@
-# eye2-trealla
+# eye2
 
 - A reasoner using webized prolog which basically means that atoms can be IRIs.
 - Besides top-down reasoning with `conclusion :- premise` rules, it also does bottom-up reasoning with `conclusion ?- premise` rules.
@@ -20,10 +20,11 @@
 
 ## Installation and test
 
-Install [Trealla Prolog](https://github.com/trealla-prolog/trealla?tab=readme-ov-file#building) and run
+Install [Trealla Prolog](https://github.com/trealla-prolog/trealla?tab=readme-ov-file#building) and test eye2 as follows:
 
 ```
-cd etc
+git clone https://github.com/eyereasoner/eye2
+cd eye2
 ./test
 ```
 

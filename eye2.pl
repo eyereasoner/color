@@ -1,8 +1,8 @@
-% --------------------------
-% eye2-trealla -- Jos De Roo
-% --------------------------
+% ------------------
+% eye2 -- Jos De Roo
+% ------------------
 %
-% See https://github.com/eyereasoner/eye2-trealla
+% See https://github.com/eyereasoner/eye2
 %
 
 :- use_module(library(format)).
@@ -17,7 +17,7 @@
 :- dynamic(brake/0).
 :- dynamic(explains/3).
 
-version_info('eye2-trealla v1.3.8 (2024-12-23)').
+version_info('eye2 v1.3.9 (2024-12-24)').
 
 % main goal
 main :-

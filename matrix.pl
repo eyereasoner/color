@@ -264,7 +264,6 @@ listd(N, D, L, [0|T]) :-
     N1 is N-1,
     listd(N1, D, L, T).
 
-% needed to run with Trealla
 transpose_local([], []).
 transpose_local([A|B], C) :-
     transpose_local(A, [A|B], C).

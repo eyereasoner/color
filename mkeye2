@@ -7,7 +7,7 @@ if [ $# -lt 2 ] ; then
 fi
 
 # change working directory
-pushd ~/github.com/eyereasoner/eye2-trealla > /dev/null
+pushd ~/github.com/eyereasoner/eye2 > /dev/null
 
 # the following is adapted from https://gist.github.com/codezninja/c227d9c65b09d2be2d99abbfcfa8774a
 while getopts "Mmp" Option
@@ -55,9 +55,9 @@ echo "${a[0]}.${a[1]}.${a[2]}" > VERSION
 export RELEASE="v$(cat VERSION)"
 export DATE="$(date -Idate)"
 
-# update version in eye2-trealla.pl
-cat eye2-trealla.pl | sed -e "s/'eye2-trealla.*'/'eye2-trealla $RELEASE \($DATE\)'/" > eye2-trealla.pl.tmp
-mv eye2-trealla.pl.tmp eye2-trealla.pl
+# update version in eye2.pl
+cat eye2.pl | sed -e "s/'eye2.*'/'eye2 $RELEASE \($DATE\)'/" > eye2.pl.tmp
+mv eye2.pl.tmp eye2.pl
 
 # run the etc tests
 pushd etc > /dev/null

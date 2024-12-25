@@ -62,7 +62,7 @@
 
 % resolve conflicts with priority
 'urn:example:resolve:conflict'(Action) :-
-    'urn:example:role'(Agent, 'urn:example:manager'),
+    'urn:example:role'(_Agent, 'urn:example:manager'),
     'urn:example:conflict'(Action),
     'urn:example:obligatory'(Action).
 

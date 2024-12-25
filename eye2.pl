@@ -17,7 +17,7 @@
 :- dynamic(brake/0).
 :- dynamic(explains/3).
 
-version_info('eye2 v1.3.9 (2024-12-24)').
+version_info('eye2 v1.3.10 (2024-12-25)').
 
 % main goal
 main :-

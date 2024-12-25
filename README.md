@@ -24,7 +24,7 @@ Install [Trealla Prolog](https://github.com/trealla-prolog/trealla?tab=readme-ov
 
 ```
 git clone https://github.com/eyereasoner/eye2
-cd eye2
+cd eye2/etc
 ./test
 ```
 

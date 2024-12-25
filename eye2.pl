@@ -17,7 +17,7 @@
 :- dynamic(brake/0).
 :- dynamic(explains/3).
 
-version_info('eye2 v1.3.10 (2024-12-25)').
+version_info('eye2 v1.3.11 (2024-12-25)').
 
 % main goal
 main :-
@@ -58,7 +58,7 @@ main :-
 %
 run :-
     (   (Conc ?- Prem),     % 1/
-        copy_term((Conc ?- Prem), Rule),
+        copy_term((Conc ?- Prem), Rule, _),
         Prem,               % 2/
         (   Conc = true     % 3/
         ->  (   \+answer(Prem)

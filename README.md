@@ -24,7 +24,7 @@ Install [Scryer Prolog](https://github.com/mthom/scryer-prolog#installing-scryer
 
 ```
 git clone https://github.com/eyereasoner/eye2
-cd eye2/etc
+cd eye2
 ./test
 ```
 

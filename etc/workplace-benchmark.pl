@@ -40,7 +40,7 @@
 
 % prepare employee data
 true :+
-    'urn:example:prepare'(1, 30000).
+    'urn:example:prepare'(1, 3000).
 
 % Query to test if everyone complies with deontic logic
 true :+

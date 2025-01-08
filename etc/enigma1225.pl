@@ -1,5 +1,7 @@
 % New Scientist puzzle Enigma 1225
 
+:- use_module(library(si)).
+
 'urn:example:enigma1225'(Size, [Permutation, Board, Max]) :-
     setof(Total, M^Freq^Perm^square(Size, M, Total, Freq, Perm), Totals),
     lastlist(Totals, Max),
@@ -54,7 +56,7 @@ zip([H1|T1], [H2|T2], [(H1, H2)|T]) :-
 
 from_to(M, N, L) :-
     (   var(L)
-    ;   is_list(L)
+    ;   list_si(L)
     ),
     integer(M),
     integer(N),

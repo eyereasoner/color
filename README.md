@@ -20,7 +20,7 @@
 
 ## Installation and test
 
-Install [Trealla Prolog](https://github.com/trealla-prolog/trealla?tab=readme-ov-file#building) and test eye2 as follows:
+Install [Scryer Prolog](https://github.com/mthom/scryer-prolog#installing-scryer-prolog) and test eye2 as follows:
 
 ```
 git clone https://github.com/eyereasoner/eye2

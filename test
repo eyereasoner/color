@@ -1,0 +1,4 @@
+#!/bin/bash
+pushd ./etc 2> /dev/null
+./test
+popd 2> /dev/null

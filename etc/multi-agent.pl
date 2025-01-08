@@ -80,17 +80,17 @@
     'urn:example:assigned'(Task, Employee).
 
 % queries
-true ?-
+true :+
     'urn:example:obligatory'(_Action).
 
-true ?-
+true :+
     'urn:example:permitted'(_Action).
 
-true ?-
+true :+
     'urn:example:forbidden'(_Action).
 
-true ?-
+true :+
     'urn:example:violation'(_Task).
 
-true ?-
+true :+
     'urn:example:sanction'(_Employee).

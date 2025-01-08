@@ -42,5 +42,5 @@ nextto(X, Y, [_|Zs]) :-
     nextto(X, Y, Zs).
 
 % query
-true ?-
+true :+
     'urn:example:zebra'(_, _).

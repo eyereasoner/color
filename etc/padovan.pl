@@ -19,7 +19,7 @@ padovan(A, B, C, D, E) :-
     B is E/C.
 
 % query
-true ?-
+true :+
     'urn:example:padovan'(1, _),
     'urn:example:padovan'(2, _),
     'urn:example:padovan'(3, _),
@@ -29,7 +29,7 @@ true ?-
     'urn:example:padovan'(283, _),
     'urn:example:padovan'(3674, _).
 
-true ?-
+true :+
     'urn:example:plastic_ratio'(1, _),
     'urn:example:plastic_ratio'(10, _),
     'urn:example:plastic_ratio'(100, _),

@@ -45,7 +45,7 @@ t([1, 1, 0, l], 1).
 t([1, "#", 1, s], halt).
 
 % query
-true ?-
+true :+
     'urn:example:compute'([1, 0, 1, 0, 0, 1], _),
     'urn:example:compute'([1, 0, 1, 1, 1, 1], _),
     'urn:example:compute'([1, 1, 1, 1, 1, 1], _),

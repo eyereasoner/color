@@ -10,14 +10,14 @@
 :- use_module(library(lists)).
 :- use_module(library(terms)).
 
-:- op(1200, xfx, ?-).
+:- op(1200, xfx, :+).
 
-:- dynamic((?-)/2).
+:- dynamic((:+)/2).
 :- dynamic(answer/1).
 :- dynamic(brake/0).
 :- dynamic(explains/3).
 
-version_info('eye2 v1.3.11 (2024-12-25)').
+version_info('eye2 v1.4.0 (2025-01-08)').
 
 % main goal
 main :-
@@ -25,8 +25,8 @@ main :-
     bb_put(limit, -1),
     bb_put(fm, 0),
     bb_put(mf, 0),
-    (   (_ ?- _)
-    ->  format(":- op(1200, xfx, ?-).~n~n", [])
+    (   (_ :+ _)
+    ->  format(":- op(1200, xfx, :+).~n~n", [])
     ;   version_info(Version),
         format("~w~n", [Version])
     ),
@@ -45,7 +45,7 @@ main :-
 
 % run eye2 abstract machine
 %
-% 1/ select rule Conc ?- Prem
+% 1/ select rule Conc :+ Prem
 % 2/ prove Prem and if it fails backtrack to 1/
 % 3/ if Conc = true assert answer(Prem)
 %    else if Conc = false stop with return code 2
@@ -57,8 +57,8 @@ main :-
 %    else assert brake and start again at 1/
 %
 run :-
-    (   (Conc ?- Prem),     % 1/
-        copy_term((Conc ?- Prem), Rule, _),
+    (   (Conc :+ Prem),     % 1/
+        copy_term((Conc :+ Prem), Rule, _),
         Prem,               % 2/
         (   Conc = true     % 3/
         ->  (   \+answer(Prem)
@@ -71,7 +71,7 @@ run :-
                 halt(2)
             ;   (   term_variables(Conc, [])
                 ->  Concl = Conc
-                ;   Concl = (Conc ?- true)
+                ;   Concl = (Conc :+ true)
                 ),
                 \+Concl,
                 astep(Concl),

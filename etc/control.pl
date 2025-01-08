@@ -49,5 +49,5 @@
     M1 >= M2.
 
 % query
-true ?-
+true :+
     'urn:example:control1'(_, _).

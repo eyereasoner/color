@@ -32,7 +32,7 @@ ackermann(A, B, C, D) :-
     ackermann(G, F, C, D).
 
 % query
-true ?-
+true :+
     'urn:example:ackermann'([0, 6], _),
     'urn:example:ackermann'([1, 2], _),
     'urn:example:ackermann'([1, 7], _),

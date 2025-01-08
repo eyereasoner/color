@@ -33,7 +33,7 @@ angular(A, B, C, D) :-
     D is 2*pi-C.
 
 % query
-true ?-
+true :+
     X is 0+e,
     'urn:example:exponentiation'([[X, 0], [0, pi]], Y),
     'urn:example:sum'([Y, [1, 0]], _).

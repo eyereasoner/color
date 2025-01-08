@@ -449,7 +449,7 @@ compound1(Term) :-
     !.
 
 % query
-true ?-
+true :+
     'urn:example:equation'(x^2-3*x+2=0, x, _),
     'urn:example:equation'(cos(x)*(1-2*sin(x))=0, x, _),
     'urn:example:equation'(2^(2*x)-5*2^(x+1)+16=0, x, _).

@@ -8,11 +8,11 @@ NORMAL="\e[0;39m"
 OK=0
 FAILED=0
 
-echo -e "${YELLOW}-----------------${NORMAL}"
+echo -e "${YELLOW}------------------------${NORMAL}"
 echo -e "${YELLOW}Running eye2 test${NORMAL}"
 echo -e "${YELLOW}eye2 $(../eye2 2>&1 | grep eye2 | awk '{ print $2 }')${NORMAL}"
 echo -e "${YELLOW}scryer-prolog $(scryer-prolog --version 2>&1 | awk '{ print $NF }' | awk -F '-' '{print $1}')${NORMAL}"
-echo -e "${YELLOW}-----------------${NORMAL}"
+echo -e "${YELLOW}------------------------${NORMAL}"
 echo ""
 
 pad () {

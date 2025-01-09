@@ -15,9 +15,8 @@
 :- dynamic((:+)/2).
 :- dynamic(answer/1).
 :- dynamic(brake/0).
-:- dynamic(explains/3).
 
-version_info('eye2 v1.4.1 (2025-01-09)').
+version_info('eye2 v1.4.2 (2025-01-09)').
 
 % main goal
 main :-
@@ -58,7 +57,6 @@ main :-
 %
 run :-
     (   (Conc :+ Prem),     % 1/
-        copy_term((Conc :+ Prem), Rule, _),
         Prem,               % 2/
         (   Conc = true     % 3/
         ->  (   \+answer(Prem)
@@ -75,7 +73,6 @@ run :-
                 ),
                 \+Concl,
                 astep(Concl),
-                assertz(explains(Rule, Prem, Concl)),
                 retract(brake)
             )
         ),
@@ -90,13 +87,6 @@ run :-
             ;   answer(Prem),
                 portray_clause(answer(Prem)),
                 fail
-            ;   (   explains(_, _, _)
-                ->  format("~n% explanation~n", []),
-                    explains(Rule, Prem, Conc),
-                    portray_clause(explains(Rule, Prem, Conc)),
-                    fail
-                ;   true
-                )
             ;   true
             )
         ;   assertz(brake),

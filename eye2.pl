@@ -17,7 +17,7 @@
 :- dynamic(brake/0).
 :- dynamic(explains/3).
 
-version_info('eye2 v1.4.0 (2025-01-08)').
+version_info('eye2 v1.4.1 (2025-01-09)').
 
 % main goal
 main :-
@@ -91,7 +91,7 @@ run :-
                 portray_clause(answer(Prem)),
                 fail
             ;   (   explains(_, _, _)
-                ->  format("~n%~n% Explain the reasoning~n%~n~n", []),
+                ->  format("~n% explanation~n", []),
                     explains(Rule, Prem, Conc),
                     portray_clause(explains(Rule, Prem, Conc)),
                     fail

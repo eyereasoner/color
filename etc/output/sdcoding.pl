@@ -5,10 +5,7 @@ answer('urn:example:sdcoding'(3,3)).
 answer('urn:example:sdcoding'(0,0)).
 answer('urn:example:sdcoding'(2,2)).
 
-%
-% Explain the reasoning
-%
-
+% explanation
 explains(('urn:example:sdconot'(A,B):+'urn:example:sdc'(A,B)),'urn:example:sdc'(0,1),'urn:example:sdconot'(0,1)).
 explains(('urn:example:sdconot'(A,B):+'urn:example:sdc'(A,B)),'urn:example:sdc'(0,3),'urn:example:sdconot'(0,3)).
 explains(('urn:example:sdconot'(A,B):+'urn:example:sdc'(A,B)),'urn:example:sdc'(1,0),'urn:example:sdconot'(1,0)).

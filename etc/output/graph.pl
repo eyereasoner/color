@@ -5,10 +5,7 @@ answer('urn:example:path'('urn:example:lemans','urn:example:nantes')).
 answer('urn:example:path'('urn:example:chartres','urn:example:nantes')).
 answer('urn:example:path'('urn:example:paris','urn:example:nantes')).
 
-%
-% Explain the reasoning
-%
-
+% explanation
 explains(('urn:example:path'(A,B):+'urn:example:oneway'(A,B)),'urn:example:oneway'('urn:example:paris','urn:example:orleans'),'urn:example:path'('urn:example:paris','urn:example:orleans')).
 explains(('urn:example:path'(A,B):+'urn:example:oneway'(A,B)),'urn:example:oneway'('urn:example:paris','urn:example:chartres'),'urn:example:path'('urn:example:paris','urn:example:chartres')).
 explains(('urn:example:path'(A,B):+'urn:example:oneway'(A,B)),'urn:example:oneway'('urn:example:paris','urn:example:amiens'),'urn:example:path'('urn:example:paris','urn:example:amiens')).

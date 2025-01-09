@@ -3002,10 +3002,7 @@ answer('urn:example:complies'('urn:example:carol998',false)).
 answer('urn:example:complies'('urn:example:carol999',false)).
 answer('urn:example:complies'('urn:example:carol1000',false)).
 
-%
-% Explain the reasoning
-%
-
+% explanation
 explains(('urn:example:complies'(A,true):+'urn:example:does'(A,'urn:example:work_related_task'),'urn:example:does'(A,'urn:example:log_off_at_end_of_shift')),('urn:example:does'('urn:example:bob1','urn:example:work_related_task'),'urn:example:does'('urn:example:bob1','urn:example:log_off_at_end_of_shift')),'urn:example:complies'('urn:example:bob1',true)).
 explains(('urn:example:complies'(A,true):+'urn:example:does'(A,'urn:example:work_related_task'),'urn:example:does'(A,'urn:example:log_off_at_end_of_shift')),('urn:example:does'('urn:example:bob2','urn:example:work_related_task'),'urn:example:does'('urn:example:bob2','urn:example:log_off_at_end_of_shift')),'urn:example:complies'('urn:example:bob2',true)).
 explains(('urn:example:complies'(A,true):+'urn:example:does'(A,'urn:example:work_related_task'),'urn:example:does'(A,'urn:example:log_off_at_end_of_shift')),('urn:example:does'('urn:example:bob3','urn:example:work_related_task'),'urn:example:does'('urn:example:bob3','urn:example:log_off_at_end_of_shift')),'urn:example:complies'('urn:example:bob3',true)).

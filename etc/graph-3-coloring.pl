@@ -37,7 +37,7 @@ alice_knows_coloring([a-red, b-blue, c-green, d-red, e-blue]).
     alice_knows_coloring(SecretColoring),
     permutation(SecretColoring, PermutedColoring).
 
-% Verifier issues a random edge as a challenge
+% Verifier issues some edge as a challenge
 'urn:example:challenge_edge'(X-Y) :-
     edge(X, Y),
     X \= e,

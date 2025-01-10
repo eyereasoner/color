@@ -39,7 +39,9 @@ alice_knows_coloring([a-red, b-blue, c-green, d-red, e-blue]).
 
 % Verifier issues a random edge as a challenge
 'urn:example:challenge_edge'(X-Y) :-
-    edge(X, Y).
+    edge(X, Y),
+    X \= e,
+    Y \= c.
 
 % Prover reveals colors for the challenged edge only
 'urn:example:prover_response'(X-Y, PermutedColoring, [X-ColorX, Y-ColorY]) :-

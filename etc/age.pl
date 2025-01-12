@@ -25,4 +25,4 @@ time_get_num(A, B, C) :-
 
 % query
 true :+
-    'urn:example:ageAbove'(_, 810.
+    'urn:example:ageAbove'(_, 80).

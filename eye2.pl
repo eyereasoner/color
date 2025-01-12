@@ -16,7 +16,7 @@
 :- dynamic(answer/1).
 :- dynamic(brake/0).
 
-version_info('eye2 v1.4.2 (2025-01-09)').
+version_info('eye2 v1.4.3 (2025-01-12)').
 
 % main goal
 main :-
@@ -117,8 +117,7 @@ stable(Level) :-
 
 % debugging tools
 fm(A) :-
-    write(user_error, '*** '),
-    portray_clause(user_error, A),
+    format(user_error, "*** ~q~n", [A]),
     bb_get(fm, B),
     C is B+1,
     bb_put(fm, C).
@@ -126,8 +125,7 @@ fm(A) :-
 mf(A) :-
     forall(
         catch(A, _, fail),
-        (   write(user_error, '*** '),
-            portray_clause(user_error, A),
+        (   format(user_error, "*** ~q~n", [A]),
             bb_get(mf, B),
             C is B+1,
             bb_put(mf, C)

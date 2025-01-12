@@ -15,26 +15,28 @@
 % simulation age
 'urn:example:age'('urn:example:simulation1', 50).
 
-% prover demonstrates that persons are above some duration using a hash
-'urn:example:zeroKnowledgeProof'('urn:example:simulation1', Name, Result, Hash) :-
+% person age
+'urn:example:personAge'(Simulation, Name, Age) :-
     'urn:example:birthDay'(Name, [Yb, Mb, Db]),
-    'urn:example:date'('urn:example:simulation1', [Yl, Ml, Dl]),
-    'urn:example:age'('urn:example:simulation1', Ys),
-    Ya is Yl-Yb+(Ml-Mb)/12+(Dl-Db)/365,
-    write_term_to_chars(Ya > Ys, [], Chars),
+    'urn:example:date'(Simulation, [Yl, Ml, Dl]),
+    Age is Yl-Yb+(Ml-Mb)/12+(Dl-Db)/365.
+
+% prover demonstrates that persons are above some duration using a hash
+'urn:example:zeroKnowledgeProof'(Simulation, Name, Result, Hash) :-
+    'urn:example:personAge'(Simulation, Name, PersonAge),
+    'urn:example:age'(Simulation, SimulationAge),
+    write_term_to_chars(PersonAge > SimulationAge, [], Chars),
     crypto_data_hash(Chars, Hash, [algorithm(sha256)]),
-    (   Ya > Ys
+    (   PersonAge > SimulationAge
     ->  Result = "proof verified: more than 50 years old and entitled to work 80% per week"
     ;   Result = "proof failed: less than 50 years and not entitled to work 80% per week"
     ).
 
 % Challenger checking the proof using the hash
-'urn:example:challengeProof'('urn:example:simulation1', Name, Result, Hash) :-
-    'urn:example:birthDay'(Name, [Yb, Mb, Db]),
-    'urn:example:date'('urn:example:simulation1', [Yl, Ml, Dl]),
-    'urn:example:age'('urn:example:simulation1', Ys),
-    Ya is Yl-Yb+(Ml-Mb)/12+(Dl-Db)/365,
-    write_term_to_chars(Ya > Ys, [], Chars),
+'urn:example:challengeProof'(Simulation, Name, Result, Hash) :-
+    'urn:example:personAge'(Simulation, Name, PersonAge),
+    'urn:example:age'(Simulation, SimulationAge),
+    write_term_to_chars(PersonAge > SimulationAge, [], Chars),
     crypto_data_hash(Chars, ProofHash, [algorithm(sha256)]),
     (   Hash = ProofHash
     ->  Result = "challenge successful: the proof is valid"

@@ -27,7 +27,7 @@
     'urn:example:personAge'(Simulation, Name, PersonAge),
     'urn:example:age'(Simulation, SimulationAge),
     write_term_to_chars(PersonAge > SimulationAge, [], Chars),
-    crypto_data_hash(Chars, Hash, [algorithm(blake2b512)]),
+    crypto_data_hash(Chars, Hash, [algorithm(sha3_512)]),
     (   PersonAge > SimulationAge
     ->  Result = "proof verified: more than 50 years old and entitled to work 80% per week"
     ;   Result = "proof failed: less than 50 years and not entitled to work 80% per week"
@@ -38,7 +38,7 @@
     'urn:example:personAge'(Simulation, Name, PersonAge),
     'urn:example:age'(Simulation, SimulationAge),
     write_term_to_chars(PersonAge > SimulationAge, [], Chars),
-    crypto_data_hash(Chars, ProofHash, [algorithm(blake2b512)]),
+    crypto_data_hash(Chars, ProofHash, [algorithm(sha3_512)]),
     (   Hash = ProofHash
     ->  Result = "challenge successful: the proof is valid"
     ;   Result = "challenge failed: the proof is invalid"
@@ -47,8 +47,8 @@
 % queries
 query('urn:example:zeroKnowledgeProof'('urn:example:simulation1', 'urn:example:Mary', _, _)).
 query('urn:example:zeroKnowledgeProof'('urn:example:simulation1', 'urn:example:Pat', _, _)).
-query('urn:example:challengeProof'('urn:example:simulation1', 'urn:example:Mary', _, "d8a01900f6ab30e14dbce67939c46a29d4ade0f8aec11801d1c556a452e7653d6c1ea89b4d8643cde78398dbee87d90890406dc8a8b92bbbe94f09c3ea3b0ffd")).
-query('urn:example:challengeProof'('urn:example:simulation1', 'urn:example:Pat', _, "6b5e3584bbe589413f83c584ba064275a3fdf867aaa66acf25b14c6275439c90b0b0c7afafd478fc8feec73ae355f5cd8560264f66e9ffd118ae8577ffb81e13")).
+query('urn:example:challengeProof'('urn:example:simulation1', 'urn:example:Mary', _, "6151e3412bc493063a9be0aadd3ecaaae9ebdca0f5d65441192fd14660f1ef91918cd29181414d8b48ade139d11d33156618878df03cdaab9e9296370b00e821")).
+query('urn:example:challengeProof'('urn:example:simulation1', 'urn:example:Pat', _, "4ac8666fbe3e7a9206d453134ca6c38d8fa740b1e589a73c2a767c3679ac682c6e5919434a931e8b37ef62ed0ad942dab41c61e7960061dc1715bc10c0e525a8")).
 
 run :-
     query(Q),

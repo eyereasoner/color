@@ -1,4 +1,5 @@
-% age checker
+% Zero Knowledge Proof age checker
+% Proving that someone is more than 50 years old without revealing their age.
 
 :- use_module(library(charsio)).
 :- use_module(library(crypto)).

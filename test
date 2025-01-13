@@ -1,4 +1,4 @@
 #!/bin/bash
-pushd ./ways > /dev/null
+pushd ./runs > /dev/null
 ./test
 popd > /dev/null

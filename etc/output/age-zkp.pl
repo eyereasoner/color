@@ -1,6 +1,0 @@
-:- op(1200, xfx, :+).
-
-answer('urn:example:zeroKnowledgeProof'('urn:example:simulation1','urn:example:Mary',"proof failed: less than 50 years and not entitled to work 80% per week","94c9923c71b5dac8e5a8f409e3d5d285f7b0ca7d08fe7529a112103188726c74")).
-answer('urn:example:zeroKnowledgeProof'('urn:example:simulation1','urn:example:Pat',"proof verified: more than 50 years old and entitled to work 80% per week","66b486e614df3fcdb4ea91faa853fad3a50f170271254894bab22a234f430bee")).
-answer('urn:example:challengeProof'('urn:example:simulation1','urn:example:Mary',"challenge failed: the proof is invalid","94c9923c71b5dac8e5a8f409e3d5d285f7b0ca7d08fe7529a112103188726c75")).
-answer('urn:example:challengeProof'('urn:example:simulation1','urn:example:Pat',"challenge successful: the proof is valid","66b486e614df3fcdb4ea91faa853fad3a50f170271254894bab22a234f430bee")).

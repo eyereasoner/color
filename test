@@ -1,4 +1,4 @@
 #!/bin/bash
-pushd ./etc > /dev/null
+pushd ./ways > /dev/null
 ./test
 popd > /dev/null

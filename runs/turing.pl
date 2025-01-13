@@ -50,7 +50,7 @@ query('urn:example:compute'([1, 0, 1, 0, 0, 1], _)).
 query('urn:example:compute'([1, 0, 1, 1, 1, 1], _)).
 query('urn:example:compute'([1, 1, 1, 1, 1, 1], _)).
 query('urn:example:compute'([], _)).
-    
+
 run :-
     query(Q),
     Q,

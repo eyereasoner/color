@@ -102,7 +102,7 @@ sdc(N, M) :-
     fail;
     true.
 
-% query
+% queries
 query('urn:example:reason').
 query('urn:example:sdcoding'(_, _)).
 

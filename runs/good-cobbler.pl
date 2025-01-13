@@ -7,7 +7,7 @@
 % some x is a good cobbler
 'urn:example:is'(x, 'urn:example:good'('urn:example:Cobbler')).
 
-% is there some x which is good at some y
+% query: is there some x which is good at some y
 query('urn:example:is'(_, 'urn:example:good'(_))).
 
 run :-

@@ -4,7 +4,7 @@ Running eye reasoning examples in ISO Prolog
 
 ## Installation and test
 
-Install [Scryer Prolog](https://github.com/mthom/scryer-prolog#installing-scryer-prolog) and test eyeways as follows:
+Install [Scryer Prolog](https://github.com/mthom/scryer-prolog#installing-scryer-prolog) and test eyerun as follows:
 
 ```
 git clone https://github.com/eyereasoner/eyerun

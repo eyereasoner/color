@@ -1,5 +1,6 @@
 # eyeways
-### Running eye reasoning examples in ISO Prolog
+
+Running eye reasoning examples in ISO Prolog
 
 ## Installation and test
 

@@ -23,7 +23,6 @@ pad () {
 begin=$(($(date +%s)))
 for file in *.pl
 do
-    [[ "${file}" != eye2.pl ]] || continue
     echo -en "$(pad "${file}" -24)"
     start=$(($(date +%s%N)/1000000))
     scryer-prolog -g run "${file}" > output/${file}

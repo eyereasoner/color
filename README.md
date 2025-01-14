@@ -1,6 +1,6 @@
 # eyerun
 
-Running eye reasoning examples in ISO Prolog
+Running eye reasoning examples in webized ISO Prolog
 
 ## Installation and test
 

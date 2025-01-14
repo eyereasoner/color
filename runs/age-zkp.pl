@@ -22,7 +22,7 @@
     'urn:example:date'(Simulation, [Yl, Ml, Dl]),
     Age is Yl-Yb+(Ml-Mb)/12+(Dl-Db)/365.
 
-% prover demonstrates that persons are above some duration using a hash
+% prover proofs that someone is above some age using a hash and without revealing their age
 'urn:example:zeroKnowledgeProof'(Simulation, [Name, Result, Hash]) :-
     'urn:example:personAge'(Simulation, [Name, PersonAge]),
     'urn:example:age'(Simulation, SimulationAge),

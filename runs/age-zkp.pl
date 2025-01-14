@@ -33,7 +33,7 @@
     ;   Result = "proof failed: less than 50 years and not entitled to work 80% per week"
     ).
 
-% verifier checking the proof using the hash
+% challenge the proof using the hash
 'urn:example:challengeProof'(Simulation, [Name, Result, Hash]) :-
     'urn:example:personAge'(Simulation, [Name, PersonAge]),
     'urn:example:age'(Simulation, SimulationAge),

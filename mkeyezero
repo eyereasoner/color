@@ -7,7 +7,7 @@ if [ $# -lt 2 ] ; then
 fi
 
 # change working directory
-pushd ~/github.com/eyereasoner/eyerun > /dev/null
+pushd ~/github.com/eyereasoner/eyezero > /dev/null
 
 # the following is adapted from https://gist.github.com/codezninja/c227d9c65b09d2be2d99abbfcfa8774a
 while getopts "Mmp" Option
@@ -56,7 +56,7 @@ export RELEASE="v$(cat VERSION)"
 export DATE="$(date -Idate)"
 
 # run the tests
-pushd runs > /dev/null
+pushd cases > /dev/null
 ./test
 git diff
 popd > /dev/null

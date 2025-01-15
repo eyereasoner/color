@@ -1,4 +1,4 @@
 #!/bin/bash
-pushd ./runs > /dev/null
+pushd ./cases > /dev/null
 ./test
 popd > /dev/null

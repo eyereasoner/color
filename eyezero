@@ -1,6 +1,6 @@
 #!/bin/bash
 if [ $# -lt 1 ] ; then
-  echo "eyerun v$(cat $(dirname "$(readlink -f "$0")")/VERSION)";
+  echo "eyezero v$(cat $(dirname "$(readlink -f "$0")")/VERSION)";
   echo "Usage: $(basename $0) <prologfile>"
   exit 1
 fi

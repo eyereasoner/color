@@ -1,14 +1,14 @@
-# eyerun
+# eyezero
 
-Running eye reasoning examples in webized ISO Prolog
+Running eye reasoning cases in webized ISO Prolog
 
 ## Installation and test
 
-Install [Scryer Prolog](https://github.com/mthom/scryer-prolog#installing-scryer-prolog) and test eyerun as follows:
+Install [Scryer Prolog](https://github.com/mthom/scryer-prolog#installing-scryer-prolog) and test eyezero as follows:
 
 ```
-git clone https://github.com/eyereasoner/eyerun
-cd eyerun
+git clone https://github.com/eyereasoner/eyezero
+cd eyezero
 ./test
 ```
 

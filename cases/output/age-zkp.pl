@@ -1,4 +1,4 @@
-'urn:example:zeroKnowledgeProof'('urn:example:simulation1',['urn:example:Mary',"proof failed: less than 50 years and not entitled to work 80% per week","6151e3412bc493063a9be0aadd3ecaaae9ebdca0f5d65441192fd14660f1ef91918cd29181414d8b48ade139d11d33156618878df03cdaab9e9296370b00e822"]).
-'urn:example:zeroKnowledgeProof'('urn:example:simulation1',['urn:example:Pat',"proof verified: more than 50 years old and entitled to work 80% per week","4ac8666fbe3e7a9206d453134ca6c38d8fa740b1e589a73c2a767c3679ac682c6e5919434a931e8b37ef62ed0ad942dab41c61e7960061dc1715bc10c0e525a8"]).
-'urn:example:challengeProof'('urn:example:simulation1',['urn:example:Mary',"challenge failed: the proof is invalid","6151e3412bc493063a9be0aadd3ecaaae9ebdca0f5d65441192fd14660f1ef91918cd29181414d8b48ade139d11d33156618878df03cdaab9e9296370b00e821"]).
-'urn:example:challengeProof'('urn:example:simulation1',['urn:example:Pat',"challenge successful: the proof is valid","4ac8666fbe3e7a9206d453134ca6c38d8fa740b1e589a73c2a767c3679ac682c6e5919434a931e8b37ef62ed0ad942dab41c61e7960061dc1715bc10c0e525a8"]).
+'urn:example:zeroKnowledgeProof'('urn:example:Mary',"5c3a68c5cfb9f8d267d2f5543e0d1e4c848c84cad2bf6c08a4c6a256a4566fa8").
+'urn:example:zeroKnowledgeProof'('urn:example:Pat',"37c0dd6f9d52b616d2951564d8b3cfcfcef100c25a88401dc902c2d84de86e59").
+'urn:example:proofCheck'('urn:example:Mary',"5c3a68c5cfb9f8d267d2f5543e0d1e4c848c84cad2bf6c08a4c6a256a4566fa8","age not above 50 years").
+'urn:example:proofCheck'('urn:example:Pat',"37c0dd6f9d52b616d2951564d8b3cfcfcef100c25a88401dc902c2d84de86e59","age above 50 years").

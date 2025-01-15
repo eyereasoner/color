@@ -11,44 +11,35 @@
 'urn:example:birthDay'('urn:example:John', [1960, 1, 1]).
 
 % simulation date
-'urn:example:date'('urn:example:simulation1', [2025, 1, 11]).
-
-% simulation age
-'urn:example:age'('urn:example:simulation1', 50).
+'urn:example:date'([2025, 1, 11]).
 
 % person age
-'urn:example:personAge'(Simulation, [Name, Age]) :-
+'urn:example:personAge'(Name, Age) :-
     'urn:example:birthDay'(Name, [Yb, Mb, Db]),
-    'urn:example:date'(Simulation, [Yl, Ml, Dl]),
+    'urn:example:date'([Yl, Ml, Dl]),
     Age is Yl-Yb+(Ml-Mb)/12+(Dl-Db)/365.
 
-% prover proving that someone is above some age using a hash and without revealing their age
-'urn:example:zeroKnowledgeProof'(Simulation, [Name, Result, Hash]) :-
-    'urn:example:personAge'(Simulation, [Name, PersonAge]),
-    'urn:example:age'(Simulation, SimulationAge),
-    write_term_to_chars(PersonAge > SimulationAge, [], Chars),
-    crypto_data_hash(Chars, Hash, [algorithm(sha3_512)]),
-    (   PersonAge > SimulationAge
-    ->  Result = "proof verified: more than 50 years old and entitled to work 80% per week"
-    ;   Result = "proof failed: less than 50 years and not entitled to work 80% per week"
+% proving that someone is above 50 years old using a hash
+'urn:example:zeroKnowledgeProof'(Name, Hash) :-
+    'urn:example:personAge'(Name, PersonAge),
+    (   PersonAge > 50
+    ->  crypto_data_hash("age >= 50", Hash, [algorithm(sha256)])
+    ;   crypto_data_hash("age < 50", Hash, [algorithm(sha256)])
     ).
 
-% challenging the proof using the hash
-'urn:example:challengeProof'(Simulation, [Name, Result, Hash]) :-
-    'urn:example:personAge'(Simulation, [Name, PersonAge]),
-    'urn:example:age'(Simulation, SimulationAge),
-    write_term_to_chars(PersonAge > SimulationAge, [], Chars),
-    crypto_data_hash(Chars, ProofHash, [algorithm(sha3_512)]),
-    (   Hash = ProofHash
-    ->  Result = "challenge successful: the proof is valid"
-    ;   Result = "challenge failed: the proof is invalid"
+% checking the proof using the hash
+'urn:example:proofCheck'(_, Hash, Result) :-
+    crypto_data_hash("age >= 50", HashCheck, [algorithm(sha256)]),
+    (   Hash = HashCheck
+    ->  Result = "age above 50 years"
+    ;   Result = "age not above 50 years"
     ).
 
 % queries
-query('urn:example:zeroKnowledgeProof'('urn:example:simulation1', ['urn:example:Mary', _, _])).
-query('urn:example:zeroKnowledgeProof'('urn:example:simulation1', ['urn:example:Pat', _, _])).
-query('urn:example:challengeProof'('urn:example:simulation1', ['urn:example:Mary', _, "6151e3412bc493063a9be0aadd3ecaaae9ebdca0f5d65441192fd14660f1ef91918cd29181414d8b48ade139d11d33156618878df03cdaab9e9296370b00e821"])).
-query('urn:example:challengeProof'('urn:example:simulation1', ['urn:example:Pat', _, "4ac8666fbe3e7a9206d453134ca6c38d8fa740b1e589a73c2a767c3679ac682c6e5919434a931e8b37ef62ed0ad942dab41c61e7960061dc1715bc10c0e525a8"])).
+query('urn:example:zeroKnowledgeProof'('urn:example:Mary', _)).
+query('urn:example:zeroKnowledgeProof'('urn:example:Pat', _)).
+query('urn:example:proofCheck'('urn:example:Mary', "5c3a68c5cfb9f8d267d2f5543e0d1e4c848c84cad2bf6c08a4c6a256a4566fa8", _)).
+query('urn:example:proofCheck'('urn:example:Pat', "37c0dd6f9d52b616d2951564d8b3cfcfcef100c25a88401dc902c2d84de86e59", _)).
 
 run :-
     query(Q),

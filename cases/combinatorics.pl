@@ -4,13 +4,16 @@
 :- use_module(library(format)).
 :- use_module(library(lists)).
 
+:- dynamic(answer/1).
+
 % combination
 'urn:example:combination'([0, _], []).
-'urn:example:combination'([I, As], [B|Ds]) :-
+'urn:example:combination'([I, As], Bs) :-
     I > 0,
     select(B, As, Cs),
     J is I-1,
-    'urn:example:combination'([J, Cs], Ds).
+    'urn:example:combination'([J, Cs], Ds),
+    sort([B|Ds], Bs).
 
 % permutation
 'urn:example:permutation'(A, B) :-
@@ -28,6 +31,8 @@ query('urn:example:permutation'([1, 2, 3, 4, 5], _)).
 run :-
     query(Q),
     Q,
+    \+answer(Q),
+    assertz(answer(Q)),
     portray_clause(Q),
     fail;
     halt.

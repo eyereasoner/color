@@ -1,4 +1,6 @@
-'urn:example:zeroKnowledgeProof'('urn:example:Mary',"874b7d45f3ff3483590c346f85cff762447286376657d68b2b09b4090c269578").
-'urn:example:zeroKnowledgeProof'('urn:example:Pat',"24d3d5b7ade35fc664189044c02c52ac6cac319eaf01d0f01452927e0564a7b3").
-'urn:example:proofCheck'('urn:example:Mary',"874b7d45f3ff3483590c346f85cff762447286376657d68b2b09b4090c269578","age not above 50 years").
-'urn:example:proofCheck'('urn:example:Pat',"24d3d5b7ade35fc664189044c02c52ac6cac319eaf01d0f01452927e0564a7b3","age above 50 years").
+'urn:example:zeroKnowledgeProof'('urn:example:Mary',"4097d0da4fd49d47e945f7e7890b63b925cb31562212ab07533cd8efc5ef31d0").
+'urn:example:zeroKnowledgeProof'('urn:example:Pat',"c1f2499239e0af7aff962488fc48be06acbd4f8314d3b91174b00a2cdc453c29").
+'urn:example:zeroKnowledgeProof'('urn:example:John',"c1f2499239e0af7aff962488fc48be06acbd4f8314d3b91174b00a2cdc453c29").
+'urn:example:proofCheck'('urn:example:Mary',"4097d0da4fd49d47e945f7e7890b63b925cb31562212ab07533cd8efc5ef31d0","age below 50 years").
+'urn:example:proofCheck'('urn:example:Pat',"c1f2499239e0af7aff962488fc48be06acbd4f8314d3b91174b00a2cdc453c29","age above 50 years").
+'urn:example:proofCheck'('urn:example:John',"c1f2499239e0af7aff962488fc48be06acbd4f8314d3b91174b00a2cdc453c29","age above 50 years").

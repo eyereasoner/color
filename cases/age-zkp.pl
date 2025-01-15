@@ -22,24 +22,26 @@
 % proving that someone is above 50 years old using a hash
 'urn:example:zeroKnowledgeProof'(Name, Hash) :-
     'urn:example:personAge'(Name, PersonAge),
-    (   PersonAge > 50
-    ->  crypto_data_hash("1 >= 0", Hash, [algorithm(sha256)])
-    ;   crypto_data_hash("0 < 1", Hash, [algorithm(sha256)])
+    (   PersonAge >= 50
+    ->  crypto_data_hash("PersonAge >= 50", Hash, [algorithm(sha256)])
+    ;   crypto_data_hash("PersonAge < 50", Hash, [algorithm(sha256)])
     ).
 
 % checking the proof using the hash
 'urn:example:proofCheck'(_, Hash, "age above 50 years") :-
-    crypto_data_hash("1 >= 0", H, [algorithm(sha256)]),
+    crypto_data_hash("PersonAge >= 50", H, [algorithm(sha256)]),
     H = Hash.
-'urn:example:proofCheck'(_, Hash, "age not above 50 years") :-
-    crypto_data_hash("0 < 1", H, [algorithm(sha256)]),
+'urn:example:proofCheck'(_, Hash, "age below 50 years") :-
+    crypto_data_hash("PersonAge < 50", H, [algorithm(sha256)]),
     H = Hash.
 
 % queries
 query('urn:example:zeroKnowledgeProof'('urn:example:Mary', _)).
 query('urn:example:zeroKnowledgeProof'('urn:example:Pat', _)).
-query('urn:example:proofCheck'('urn:example:Mary', "874b7d45f3ff3483590c346f85cff762447286376657d68b2b09b4090c269578", _)).
-query('urn:example:proofCheck'('urn:example:Pat', "24d3d5b7ade35fc664189044c02c52ac6cac319eaf01d0f01452927e0564a7b3", _)).
+query('urn:example:zeroKnowledgeProof'('urn:example:John', _)).
+query('urn:example:proofCheck'('urn:example:Mary', "4097d0da4fd49d47e945f7e7890b63b925cb31562212ab07533cd8efc5ef31d0", _)).
+query('urn:example:proofCheck'('urn:example:Pat', "c1f2499239e0af7aff962488fc48be06acbd4f8314d3b91174b00a2cdc453c29", _)).
+query('urn:example:proofCheck'('urn:example:John', "c1f2499239e0af7aff962488fc48be06acbd4f8314d3b91174b00a2cdc453c29", _)).
 
 run :-
     query(Q),

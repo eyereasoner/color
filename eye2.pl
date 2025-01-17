@@ -15,9 +15,9 @@
 :- dynamic((:+)/2).
 :- dynamic(answer/1).
 :- dynamic(brake/0).
-:- dynamic(explains/3).
+:- dynamic(step/3).
 
-version_info('eye2 v1.6.0 (2025-01-17)').
+version_info('eye2 v1.6.1 (2025-01-17)').
 
 % main goal
 main :-
@@ -75,7 +75,7 @@ run :-
                 ),
                 \+Concl,
                 astep(Concl),
-                assertz(explains(Rule, Prem, Concl)),
+                assertz(step(Rule, Prem, Concl)),
                 retract(brake)
             )
         ),
@@ -90,10 +90,10 @@ run :-
             ;   answer(Prem),
                 portray_clause(answer(Prem)),
                 fail
-            ;   (   explains(_, _, _)
-                ->  format("~n% explanations~n", []),
-                    explains(Rule, Prem, Conc),
-                    portray_clause(explains(Rule, Prem, Conc)),
+            ;   (   step(_, _, _)
+                ->  format("~n% proof steps~n", []),
+                    step(Rule, Prem, Conc),
+                    portray_clause(step(Rule, Prem, Conc)),
                     fail
                 ;   true
                 )

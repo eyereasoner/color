@@ -15,7 +15,7 @@
 - conclusion can be `true` to pose a query
 - conclusion can not be any other built-in
 - conclusion-only variables are existentials
-- current way to explain the reasoning as `explains` proof steps
+- proving the bottom-up reasoning with `step/3` proof steps
 - avoiding loops that could occur with backward chaining
 
 ## Installation and test

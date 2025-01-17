@@ -87,8 +87,8 @@ angular(A, B, C, D) :-
 true :+
     'urn:example:quotient'([[1, 0], [0, 1]], _),
     'urn:example:exponentiation'([[-1, 0], [0.5, 0]], _),
-    X is 0+e, 'urn:example:exponentiation'([[X, 0], [0, pi]], _),
-    X is 0+e, 'urn:example:log'([[X, 0], [-1, 0]], _),
+    'urn:example:exponentiation'([[0+e, 0], [0, pi]], _),
+    'urn:example:log'([[0+e, 0], [-1, 0]], _),
     'urn:example:log'([[0, 1], [0, 1]], _),
     'urn:example:sin'([1.570796326794897, 1.316957896924817], _),
     'urn:example:cos'([0, -1.316957896924817], _),

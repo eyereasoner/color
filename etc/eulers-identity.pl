@@ -34,6 +34,5 @@ angular(A, B, C, D) :-
 
 % query
 true :+
-    X is 0+e,
-    'urn:example:exponentiation'([[X, 0], [0, pi]], Y),
+    'urn:example:exponentiation'([[0+e, 0], [0, pi]], Y),
     'urn:example:sum'([Y, [1, 0]], _).

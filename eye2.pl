@@ -54,7 +54,7 @@ main :-
 % 4/ backtrack to 2/ and if it fails go to 5/
 % 5/ if brake
 %       if not stable start again at 1/
-%       else output answers, output explanations and stop
+%       else output answers + proof steps and stop
 %    else assert brake and start again at 1/
 %
 run :-

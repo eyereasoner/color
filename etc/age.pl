@@ -1,8 +1,5 @@
 % age checker
 
-:- use_module(library(time)).
-:- use_module(library(lists)).
-
 % person data
 'urn:example:birthDay'('urn:example:patH', [1944, 8, 21]).
 

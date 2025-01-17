@@ -5,10 +5,12 @@
 % See https://github.com/eyereasoner/eye2
 %
 
+:- use_module(library(between)).
 :- use_module(library(format)).
 :- use_module(library(iso_ext)).
 :- use_module(library(lists)).
 :- use_module(library(terms)).
+:- use_module(library(time)).
 
 :- op(1200, xfx, :+).
 
@@ -17,7 +19,7 @@
 :- dynamic(brake/0).
 :- dynamic(step/3).
 
-version_info('eye2 v1.6.1 (2025-01-17)').
+version_info('eye2 v1.6.2 (2025-01-18)').
 
 % main goal
 main :-

@@ -1,8 +1,5 @@
 % Access control policy example
 
-:- use_module(library(lists)).
-:- use_module(library(iso_ext)).
-
 'urn:example:policy'('urn:example:test1', 'urn:example:PolicyX').
 'urn:example:has'('urn:example:test1', 'urn:example:A').
 'urn:example:has'('urn:example:test1', 'urn:example:B').

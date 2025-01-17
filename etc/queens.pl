@@ -2,9 +2,6 @@
 % See https://en.wikipedia.org/wiki/Eight_queens_puzzle
 % Original code at https://hanslen.github.io/2016/05/02/AI-problem-N-queens-problem-%E2%80%93-solved-in-prolog/
 
-:- use_module(library(format)).
-:- use_module(library(lists)).
-
 % 'urn:example:queens'(+N, -Queens): Queens is a solution to the N-queens problem
 'urn:example:queens'(N, Qs) :-
     range(1, N, Us),

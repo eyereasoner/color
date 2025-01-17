@@ -1,7 +1,5 @@
 % See https://en.wikipedia.org/wiki/Four_color_theorem
 
-:- use_module(library(lists)).
-
 'urn:example:colors'(_Map, Places) :-
     findall([Place, _], 'urn:example:neighbours'(Place, _), Places),
     places(Places),

@@ -1,7 +1,5 @@
 % See https://en.wikipedia.org/wiki/Universal_Turing_machine
 
-:- use_module(library(lists)).
-
 % interpreter for Univeral Turing Machine
 
 'urn:example:compute'([], OutTape) :-

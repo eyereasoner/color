@@ -1,7 +1,5 @@
 % Deontic Logic example
 
-:- use_module(library(between)).
-
 :- dynamic('urn:example:does'/2).
 :- dynamic('urn:example:complies'/2).
 

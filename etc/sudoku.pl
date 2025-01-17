@@ -1,6 +1,5 @@
 % Original at https://www.metalevel.at/sudoku/sudoku.pl
 
-:- use_module(library(lists)).
 :- use_module(library(clpz)).
 
 'urn:example:sudoku'(Rows) :-

@@ -1,4 +1,4 @@
 #!/bin/bash
-pushd ./cases > /dev/null
+pushd ./etc 2> /dev/null
 ./test
-popd > /dev/null
+popd 2> /dev/null

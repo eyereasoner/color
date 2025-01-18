@@ -1,8 +1,5 @@
 % Deontic Logic example
 
-:- dynamic('urn:example:does'/2).
-:- dynamic('urn:example:complies'/2).
-
 % Facts about what employees are doing
 'urn:example:prepare'(X, Y) :-
     Z is Y//3,
@@ -37,7 +34,7 @@
 
 
 % prepare employee data
-true :+ 'urn:example:prepare'(1, 30000).
+true :+ 'urn:example:prepare'(1, 10000).
 
 % Query to test if everyone complies with deontic logic
 true :+ 'urn:example:complies'(_, _).

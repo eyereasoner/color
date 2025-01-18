@@ -1,7 +1,5 @@
 % example of rule derivation
 
-:- dynamic('urn:example:is'/2).
-
 % facts
 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type'('urn:example:Minka', 'urn:example:Cat').
 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type'('urn:example:Charly', 'urn:example:Dog').

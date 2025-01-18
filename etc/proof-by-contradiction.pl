@@ -1,8 +1,6 @@
 % Proof by contradiction
 % See https://en.wikipedia.org/wiki/Proof_by_contradiction
 
-:- dynamic('urn:example:Mortal'/1).
-
 % facts
 'urn:example:Human'('urn:example:Socrates').
 

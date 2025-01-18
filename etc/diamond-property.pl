@@ -2,13 +2,6 @@
 % original version at http://www.ii.uib.no/~bezem/GL/dpe.in
 % DP(r) = DP(re), i.e. the diamond property is preserved under reflexive closure
 
-:- dynamic('urn:example:e'/2).
-:- dynamic('urn:example:not_e'/2).
-:- dynamic('urn:example:not_r'/2).
-:- dynamic('urn:example:not_re'/2).
-:- dynamic('urn:example:r'/2).
-:- dynamic('urn:example:re'/2).
-
 'urn:example:re'(a, b), 'urn:example:re'(a, c) :+ true.
 
 % equality axioms

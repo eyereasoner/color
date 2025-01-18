@@ -40,7 +40,6 @@ stagecount([_|D], B) :-
     stagecount(D, B).
 
 % test data
-:- dynamic('urn:example:description'/2).
 :- dynamic('urn:example:location'/2).
 
 % partial map of Belgium

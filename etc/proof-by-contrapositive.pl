@@ -1,8 +1,6 @@
 % Proof by contrapositive
 % See https://en.wikipedia.org/wiki/Contraposition#Proof_by_contrapositive
 
-:- dynamic('urn:example:is'/2).
-
 % the ground is not wet
 false :+ 'urn:example:is'('urn:example:ground', 'urn:example:wet').
 

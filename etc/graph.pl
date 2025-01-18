@@ -1,8 +1,5 @@
 % Traversing graph paths
 
-:- dynamic('urn:example:oneway'/2).
-:- dynamic('urn:example:path'/2).
-
 'urn:example:oneway'('urn:example:paris', 'urn:example:orleans').
 'urn:example:oneway'('urn:example:paris', 'urn:example:chartres').
 'urn:example:oneway'('urn:example:paris', 'urn:example:amiens').

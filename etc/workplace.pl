@@ -1,8 +1,5 @@
 % Deontic Logic example
 
-:- dynamic('urn:example:does'/2).
-:- dynamic('urn:example:complies'/2).
-
 % Facts about what an employee is doing
 'urn:example:does'('urn:example:alice', 'urn:example:log_off_at_end_of_shift').
 'urn:example:does'('urn:example:bob', 'urn:example:work_related_task').

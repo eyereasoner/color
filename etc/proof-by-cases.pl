@@ -1,9 +1,6 @@
 % Proof by cases
 % See https://en.wikipedia.org/wiki/Disjunction_elimination
 
-:- dynamic('urn:example:allPossibleCases'/2).
-:- dynamic('urn:example:is'/2).
-
 % water is an inorganic compound
 'urn:example:InorganicCompound'('urn:example:water').
 

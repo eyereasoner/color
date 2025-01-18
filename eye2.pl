@@ -18,7 +18,7 @@
 :- dynamic(limit/1).
 :- dynamic(step/3).
 
-version_info('eye2 v1.7.5 (2025-01-18)').
+version_info('eye2 v1.7.6 (2025-01-18)').
 
 % main goal
 main :-
@@ -34,6 +34,10 @@ main :-
     ;   version_info(Version),
         write(Version),
         nl
+    ),
+    forall(
+        (Conc :+ Prem),
+        dynify((Conc :+ Prem))
     ),
     run,
     count(fm, Fm),
@@ -152,6 +156,30 @@ conj_list(A, [A]) :-
     !.
 conj_list((A, B), [A|C]) :-
     conj_list(B, C).
+
+% make dynamic predicates
+dynify(A) :-
+    var(A),
+    !.
+dynify(A) :-
+    atomic(A),
+    !.
+dynify([]) :-
+    !.
+dynify([A|B]) :-
+    !,
+    dynify(A),
+    dynify(B).
+dynify(A) :-
+    A =.. [B|C],
+    length(C, N),
+    (   (   current_predicate(B/N)
+        ;   B = /
+        )
+    ->  true
+    ;   dynamic(B/N)
+    ),
+    dynify(C).
 
 % debugging tools
 fm(A) :-

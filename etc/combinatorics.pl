@@ -14,7 +14,7 @@
 'urn:example:permutation'(A, B) :-
     permutation(A, B).
 
-% queries
+% query
 true :+ 'urn:example:combination'([0, [1, 2, 3, 4, 5]], _).
 true :+ 'urn:example:combination'([1, [1, 2, 3, 4, 5]], _).
 true :+ 'urn:example:combination'([2, [1, 2, 3, 4, 5]], _).

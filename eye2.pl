@@ -18,7 +18,7 @@
 :- dynamic(limit/1).
 :- dynamic(step/3).
 
-version_info('eye2 v1.7.6 (2025-01-18)').
+version_info('eye2 v1.7.7 (2025-01-19)').
 
 % main goal
 main :-
@@ -75,7 +75,8 @@ run :-
         Prem,               % 2/
         (   Conc = true     % 3/
         ->  (   \+answer(Prem)
-            ->  assertz(answer(Prem))
+            ->  assertz(answer(Prem)),
+                assertz(step(Rule, Prem, true))
             ;   true
             )
         ;   (   Conc = false

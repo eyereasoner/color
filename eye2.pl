@@ -19,7 +19,7 @@
 :- dynamic(mfc/1).
 :- dynamic(step/3).
 
-version_info('eye2 v1.7.0 (2025-01-18)').
+version_info('eye2 v1.7.1 (2025-01-18)').
 
 % main goal
 main :-
@@ -82,9 +82,11 @@ run :-
                 write('.'),
                 nl,
                 halt(2)
-            ;   (   term_variables(Conc, [])
-                ->  Concl = Conc
-                ;   Concl = (Conc :+ true)
+            ;   (   Conc \= (_ :+ _),
+                    term_variables(Conc, Vs),
+                    Vs \= []
+                ->  Concl = (Conc :+ true)
+                ;   Concl = Conc
                 ),
                 \+Concl,
                 astep(Concl),

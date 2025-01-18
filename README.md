@@ -1,6 +1,6 @@
 # eye2
 
-- A reasoner using webized ISO Prolog which basically means that atoms can be IRIs.
+- A reasoner using webized prolog which basically means that atoms can be IRIs.
 - Besides top-down reasoning with `conclusion :- premise` rules, it also does bottom-up reasoning with `conclusion :+ premise` rules.
 - Bottum-up reasoning can use `stable(n)` to fail if the deductive closure at level `n` is not yet stable.
 - Proofs steps are `step((conclusion :+ premise), premise_inst, conclusion_inst)` and `conclusion_inst` is asserted.

@@ -18,7 +18,7 @@
 :- dynamic(limit/1).
 :- dynamic(step/3).
 
-version_info('eye2 v1.7.4 (2025-01-18)').
+version_info('eye2 v1.7.5 (2025-01-18)').
 
 % main goal
 main :-
@@ -79,15 +79,13 @@ run :-
                 nl,
                 portray_clause(fuse(Prem)),
                 halt(2)
-            ;   (   Conc \= (_ :+ _),
-                    term_variables(Conc, Vs),
-                    Vs \= []
-                ->  Concl = (Conc :+ true)
-                ;   Concl = Conc
+            ;   (   Conc \= (_ :+ _)
+                ->  numbervars(Conc, 0, _)
+                ;   true
                 ),
-                \+Concl,
-                astep(Concl),
-                assertz(step(Rule, Prem, Concl)),
+                \+Conc,
+                astep(Conc),
+                assertz(step(Rule, Prem, Conc)),
                 retract(brake)
             )
         ),

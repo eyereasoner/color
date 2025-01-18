@@ -1,9992 +1,9992 @@
 :- op(1200, xfx, :+).
 
-answer('urn:example:recursionCount'(1,5)).
-answer('urn:example:recursionCount'(2,4)).
-answer('urn:example:recursionCount'(3,6)).
-answer('urn:example:recursionCount'(4,4)).
-answer('urn:example:recursionCount'(5,6)).
-answer('urn:example:recursionCount'(6,6)).
-answer('urn:example:recursionCount'(7,4)).
-answer('urn:example:recursionCount'(8,6)).
-answer('urn:example:recursionCount'(9,4)).
-answer('urn:example:recursionCount'(10,5)).
-answer('urn:example:recursionCount'(11,4)).
-answer('urn:example:recursionCount'(12,3)).
-answer('urn:example:recursionCount'(13,3)).
-answer('urn:example:recursionCount'(14,7)).
-answer('urn:example:recursionCount'(15,7)).
-answer('urn:example:recursionCount'(16,7)).
-answer('urn:example:recursionCount'(17,3)).
-answer('urn:example:recursionCount'(18,3)).
-answer('urn:example:recursionCount'(19,4)).
-answer('urn:example:recursionCount'(20,4)).
-answer('urn:example:recursionCount'(21,3)).
-answer('urn:example:recursionCount'(22,6)).
-answer('urn:example:recursionCount'(23,5)).
-answer('urn:example:recursionCount'(24,2)).
-answer('urn:example:recursionCount'(25,7)).
-answer('urn:example:recursionCount'(26,1)).
-answer('urn:example:recursionCount'(27,5)).
-answer('urn:example:recursionCount'(28,6)).
-answer('urn:example:recursionCount'(29,3)).
-answer('urn:example:recursionCount'(30,6)).
-answer('urn:example:recursionCount'(31,3)).
-answer('urn:example:recursionCount'(32,5)).
-answer('urn:example:recursionCount'(33,6)).
-answer('urn:example:recursionCount'(34,3)).
-answer('urn:example:recursionCount'(35,5)).
-answer('urn:example:recursionCount'(36,3)).
-answer('urn:example:recursionCount'(37,6)).
-answer('urn:example:recursionCount'(38,5)).
-answer('urn:example:recursionCount'(39,3)).
-answer('urn:example:recursionCount'(40,4)).
-answer('urn:example:recursionCount'(41,7)).
-answer('urn:example:recursionCount'(42,2)).
-answer('urn:example:recursionCount'(43,3)).
-answer('urn:example:recursionCount'(44,4)).
-answer('urn:example:recursionCount'(45,5)).
-answer('urn:example:recursionCount'(46,4)).
-answer('urn:example:recursionCount'(47,3)).
-answer('urn:example:recursionCount'(48,2)).
-answer('urn:example:recursionCount'(49,7)).
-answer('urn:example:recursionCount'(50,6)).
-answer('urn:example:recursionCount'(51,7)).
-answer('urn:example:recursionCount'(52,7)).
-answer('urn:example:recursionCount'(53,5)).
-answer('urn:example:recursionCount'(54,5)).
-answer('urn:example:recursionCount'(55,5)).
-answer('urn:example:recursionCount'(56,5)).
-answer('urn:example:recursionCount'(57,5)).
-answer('urn:example:recursionCount'(58,7)).
-answer('urn:example:recursionCount'(59,7)).
-answer('urn:example:recursionCount'(60,6)).
-answer('urn:example:recursionCount'(61,7)).
-answer('urn:example:recursionCount'(62,1)).
-answer('urn:example:recursionCount'(63,3)).
-answer('urn:example:recursionCount'(64,4)).
-answer('urn:example:recursionCount'(65,5)).
-answer('urn:example:recursionCount'(66,4)).
-answer('urn:example:recursionCount'(67,3)).
-answer('urn:example:recursionCount'(68,2)).
-answer('urn:example:recursionCount'(69,7)).
-answer('urn:example:recursionCount'(70,4)).
-answer('urn:example:recursionCount'(71,3)).
-answer('urn:example:recursionCount'(72,5)).
-answer('urn:example:recursionCount'(73,6)).
-answer('urn:example:recursionCount'(74,3)).
-answer('urn:example:recursionCount'(75,5)).
-answer('urn:example:recursionCount'(76,3)).
-answer('urn:example:recursionCount'(77,6)).
-answer('urn:example:recursionCount'(78,5)).
-answer('urn:example:recursionCount'(79,3)).
-answer('urn:example:recursionCount'(80,6)).
-answer('urn:example:recursionCount'(81,3)).
-answer('urn:example:recursionCount'(82,6)).
-answer('urn:example:recursionCount'(83,5)).
-answer('urn:example:recursionCount'(84,2)).
-answer('urn:example:recursionCount'(85,7)).
-answer('urn:example:recursionCount'(86,2)).
-answer('urn:example:recursionCount'(87,5)).
-answer('urn:example:recursionCount'(88,6)).
-answer('urn:example:recursionCount'(89,3)).
-answer('urn:example:recursionCount'(90,4)).
-answer('urn:example:recursionCount'(91,4)).
-answer('urn:example:recursionCount'(92,3)).
-answer('urn:example:recursionCount'(93,3)).
-answer('urn:example:recursionCount'(94,7)).
-answer('urn:example:recursionCount'(95,7)).
-answer('urn:example:recursionCount'(96,7)).
-answer('urn:example:recursionCount'(97,3)).
-answer('urn:example:recursionCount'(98,3)).
-answer('urn:example:recursionCount'(99,4)).
-answer('urn:example:recursionCount'(100,5)).
-answer('urn:example:recursionCount'(101,4)).
-answer('urn:example:recursionCount'(102,3)).
-answer('urn:example:recursionCount'(103,3)).
-answer('urn:example:recursionCount'(104,7)).
-answer('urn:example:recursionCount'(105,7)).
-answer('urn:example:recursionCount'(106,7)).
-answer('urn:example:recursionCount'(107,3)).
-answer('urn:example:recursionCount'(108,3)).
-answer('urn:example:recursionCount'(109,4)).
-answer('urn:example:recursionCount'(110,4)).
-answer('urn:example:recursionCount'(111,5)).
-answer('urn:example:recursionCount'(112,4)).
-answer('urn:example:recursionCount'(113,6)).
-answer('urn:example:recursionCount'(114,4)).
-answer('urn:example:recursionCount'(115,6)).
-answer('urn:example:recursionCount'(116,6)).
-answer('urn:example:recursionCount'(117,4)).
-answer('urn:example:recursionCount'(118,6)).
-answer('urn:example:recursionCount'(119,4)).
-answer('urn:example:recursionCount'(120,3)).
-answer('urn:example:recursionCount'(121,4)).
-answer('urn:example:recursionCount'(122,3)).
-answer('urn:example:recursionCount'(123,3)).
-answer('urn:example:recursionCount'(124,7)).
-answer('urn:example:recursionCount'(125,7)).
-answer('urn:example:recursionCount'(126,7)).
-answer('urn:example:recursionCount'(127,3)).
-answer('urn:example:recursionCount'(128,3)).
-answer('urn:example:recursionCount'(129,4)).
-answer('urn:example:recursionCount'(130,3)).
-answer('urn:example:recursionCount'(131,6)).
-answer('urn:example:recursionCount'(132,3)).
-answer('urn:example:recursionCount'(133,5)).
-answer('urn:example:recursionCount'(134,2)).
-answer('urn:example:recursionCount'(135,7)).
-answer('urn:example:recursionCount'(136,1)).
-answer('urn:example:recursionCount'(137,5)).
-answer('urn:example:recursionCount'(138,6)).
-answer('urn:example:recursionCount'(139,3)).
-answer('urn:example:recursionCount'(140,7)).
-answer('urn:example:recursionCount'(141,4)).
-answer('urn:example:recursionCount'(142,7)).
-answer('urn:example:recursionCount'(143,2)).
-answer('urn:example:recursionCount'(144,3)).
-answer('urn:example:recursionCount'(145,5)).
-answer('urn:example:recursionCount'(146,3)).
-answer('urn:example:recursionCount'(147,6)).
-answer('urn:example:recursionCount'(148,5)).
-answer('urn:example:recursionCount'(149,3)).
-answer('urn:example:recursionCount'(150,7)).
-answer('urn:example:recursionCount'(151,6)).
-answer('urn:example:recursionCount'(152,7)).
-answer('urn:example:recursionCount'(153,7)).
-answer('urn:example:recursionCount'(154,5)).
-answer('urn:example:recursionCount'(155,5)).
-answer('urn:example:recursionCount'(156,4)).
-answer('urn:example:recursionCount'(157,3)).
-answer('urn:example:recursionCount'(158,2)).
-answer('urn:example:recursionCount'(159,7)).
-answer('urn:example:recursionCount'(160,7)).
-answer('urn:example:recursionCount'(161,6)).
-answer('urn:example:recursionCount'(162,7)).
-answer('urn:example:recursionCount'(163,1)).
-answer('urn:example:recursionCount'(164,3)).
-answer('urn:example:recursionCount'(165,4)).
-answer('urn:example:recursionCount'(166,5)).
-answer('urn:example:recursionCount'(167,5)).
-answer('urn:example:recursionCount'(168,7)).
-answer('urn:example:recursionCount'(169,7)).
-answer('urn:example:recursionCount'(170,3)).
-answer('urn:example:recursionCount'(171,4)).
-answer('urn:example:recursionCount'(172,3)).
-answer('urn:example:recursionCount'(173,5)).
-answer('urn:example:recursionCount'(174,6)).
-answer('urn:example:recursionCount'(175,3)).
-answer('urn:example:recursionCount'(176,5)).
-answer('urn:example:recursionCount'(177,3)).
-answer('urn:example:recursionCount'(178,2)).
-answer('urn:example:recursionCount'(179,7)).
-answer('urn:example:recursionCount'(180,3)).
-answer('urn:example:recursionCount'(181,6)).
-answer('urn:example:recursionCount'(182,3)).
-answer('urn:example:recursionCount'(183,6)).
-answer('urn:example:recursionCount'(184,5)).
-answer('urn:example:recursionCount'(185,2)).
-answer('urn:example:recursionCount'(186,7)).
-answer('urn:example:recursionCount'(187,2)).
-answer('urn:example:recursionCount'(188,5)).
-answer('urn:example:recursionCount'(189,3)).
-answer('urn:example:recursionCount'(190,4)).
-answer('urn:example:recursionCount'(191,4)).
-answer('urn:example:recursionCount'(192,4)).
-answer('urn:example:recursionCount'(193,3)).
-answer('urn:example:recursionCount'(194,3)).
-answer('urn:example:recursionCount'(195,7)).
-answer('urn:example:recursionCount'(196,7)).
-answer('urn:example:recursionCount'(197,7)).
-answer('urn:example:recursionCount'(198,3)).
-answer('urn:example:recursionCount'(199,3)).
-answer('urn:example:recursionCount'(200,4)).
-answer('urn:example:recursionCount'(201,3)).
-answer('urn:example:recursionCount'(202,6)).
-answer('urn:example:recursionCount'(203,5)).
-answer('urn:example:recursionCount'(204,2)).
-answer('urn:example:recursionCount'(205,7)).
-answer('urn:example:recursionCount'(206,1)).
-answer('urn:example:recursionCount'(207,5)).
-answer('urn:example:recursionCount'(208,6)).
-answer('urn:example:recursionCount'(209,3)).
-answer('urn:example:recursionCount'(210,3)).
-answer('urn:example:recursionCount'(211,4)).
-answer('urn:example:recursionCount'(212,3)).
-answer('urn:example:recursionCount'(213,3)).
-answer('urn:example:recursionCount'(214,7)).
-answer('urn:example:recursionCount'(215,7)).
-answer('urn:example:recursionCount'(216,7)).
-answer('urn:example:recursionCount'(217,3)).
-answer('urn:example:recursionCount'(218,3)).
-answer('urn:example:recursionCount'(219,4)).
-answer('urn:example:recursionCount'(220,6)).
-answer('urn:example:recursionCount'(221,3)).
-answer('urn:example:recursionCount'(222,4)).
-answer('urn:example:recursionCount'(223,6)).
-answer('urn:example:recursionCount'(224,4)).
-answer('urn:example:recursionCount'(225,6)).
-answer('urn:example:recursionCount'(226,6)).
-answer('urn:example:recursionCount'(227,4)).
-answer('urn:example:recursionCount'(228,6)).
-answer('urn:example:recursionCount'(229,4)).
-answer('urn:example:recursionCount'(230,5)).
-answer('urn:example:recursionCount'(231,3)).
-answer('urn:example:recursionCount'(232,6)).
-answer('urn:example:recursionCount'(233,3)).
-answer('urn:example:recursionCount'(234,7)).
-answer('urn:example:recursionCount'(235,7)).
-answer('urn:example:recursionCount'(236,7)).
-answer('urn:example:recursionCount'(237,3)).
-answer('urn:example:recursionCount'(238,3)).
-answer('urn:example:recursionCount'(239,4)).
-answer('urn:example:recursionCount'(240,2)).
-answer('urn:example:recursionCount'(241,7)).
-answer('urn:example:recursionCount'(242,4)).
-answer('urn:example:recursionCount'(243,7)).
-answer('urn:example:recursionCount'(244,2)).
-answer('urn:example:recursionCount'(245,7)).
-answer('urn:example:recursionCount'(246,1)).
-answer('urn:example:recursionCount'(247,5)).
-answer('urn:example:recursionCount'(248,6)).
-answer('urn:example:recursionCount'(249,3)).
-answer('urn:example:recursionCount'(250,7)).
-answer('urn:example:recursionCount'(251,7)).
-answer('urn:example:recursionCount'(252,6)).
-answer('urn:example:recursionCount'(253,7)).
-answer('urn:example:recursionCount'(254,7)).
-answer('urn:example:recursionCount'(255,5)).
-answer('urn:example:recursionCount'(256,3)).
-answer('urn:example:recursionCount'(257,6)).
-answer('urn:example:recursionCount'(258,5)).
-answer('urn:example:recursionCount'(259,3)).
-answer('urn:example:recursionCount'(260,1)).
-answer('urn:example:recursionCount'(261,7)).
-answer('urn:example:recursionCount'(262,6)).
-answer('urn:example:recursionCount'(263,7)).
-answer('urn:example:recursionCount'(264,1)).
-answer('urn:example:recursionCount'(265,3)).
-answer('urn:example:recursionCount'(266,4)).
-answer('urn:example:recursionCount'(267,3)).
-answer('urn:example:recursionCount'(268,2)).
-answer('urn:example:recursionCount'(269,7)).
-answer('urn:example:recursionCount'(270,5)).
-answer('urn:example:recursionCount'(271,3)).
-answer('urn:example:recursionCount'(272,4)).
-answer('urn:example:recursionCount'(273,3)).
-answer('urn:example:recursionCount'(274,5)).
-answer('urn:example:recursionCount'(275,6)).
-answer('urn:example:recursionCount'(276,3)).
-answer('urn:example:recursionCount'(277,5)).
-answer('urn:example:recursionCount'(278,7)).
-answer('urn:example:recursionCount'(279,7)).
-answer('urn:example:recursionCount'(280,6)).
-answer('urn:example:recursionCount'(281,3)).
-answer('urn:example:recursionCount'(282,6)).
-answer('urn:example:recursionCount'(283,3)).
-answer('urn:example:recursionCount'(284,6)).
-answer('urn:example:recursionCount'(285,5)).
-answer('urn:example:recursionCount'(286,2)).
-answer('urn:example:recursionCount'(287,7)).
-answer('urn:example:recursionCount'(288,2)).
-answer('urn:example:recursionCount'(289,7)).
-answer('urn:example:recursionCount'(290,3)).
-answer('urn:example:recursionCount'(291,4)).
-answer('urn:example:recursionCount'(292,4)).
-answer('urn:example:recursionCount'(293,4)).
-answer('urn:example:recursionCount'(294,3)).
-answer('urn:example:recursionCount'(295,3)).
-answer('urn:example:recursionCount'(296,7)).
-answer('urn:example:recursionCount'(297,7)).
-answer('urn:example:recursionCount'(298,7)).
-answer('urn:example:recursionCount'(299,3)).
-answer('urn:example:recursionCount'(300,6)).
-answer('urn:example:recursionCount'(301,3)).
-answer('urn:example:recursionCount'(302,5)).
-answer('urn:example:recursionCount'(303,6)).
-answer('urn:example:recursionCount'(304,3)).
-answer('urn:example:recursionCount'(305,5)).
-answer('urn:example:recursionCount'(306,3)).
-answer('urn:example:recursionCount'(307,6)).
-answer('urn:example:recursionCount'(308,5)).
-answer('urn:example:recursionCount'(309,3)).
-answer('urn:example:recursionCount'(310,3)).
-answer('urn:example:recursionCount'(311,6)).
-answer('urn:example:recursionCount'(312,3)).
-answer('urn:example:recursionCount'(313,5)).
-answer('urn:example:recursionCount'(314,2)).
-answer('urn:example:recursionCount'(315,7)).
-answer('urn:example:recursionCount'(316,1)).
-answer('urn:example:recursionCount'(317,5)).
-answer('urn:example:recursionCount'(318,6)).
-answer('urn:example:recursionCount'(319,3)).
-answer('urn:example:recursionCount'(320,5)).
-answer('urn:example:recursionCount'(321,3)).
-answer('urn:example:recursionCount'(322,6)).
-answer('urn:example:recursionCount'(323,3)).
-answer('urn:example:recursionCount'(324,7)).
-answer('urn:example:recursionCount'(325,7)).
-answer('urn:example:recursionCount'(326,7)).
-answer('urn:example:recursionCount'(327,3)).
-answer('urn:example:recursionCount'(328,3)).
-answer('urn:example:recursionCount'(329,4)).
-answer('urn:example:recursionCount'(330,6)).
-answer('urn:example:recursionCount'(331,5)).
-answer('urn:example:recursionCount'(332,3)).
-answer('urn:example:recursionCount'(333,6)).
-answer('urn:example:recursionCount'(334,4)).
-answer('urn:example:recursionCount'(335,6)).
-answer('urn:example:recursionCount'(336,6)).
-answer('urn:example:recursionCount'(337,4)).
-answer('urn:example:recursionCount'(338,6)).
-answer('urn:example:recursionCount'(339,4)).
-answer('urn:example:recursionCount'(340,3)).
-answer('urn:example:recursionCount'(341,2)).
-answer('urn:example:recursionCount'(342,7)).
-answer('urn:example:recursionCount'(343,4)).
-answer('urn:example:recursionCount'(344,7)).
-answer('urn:example:recursionCount'(345,7)).
-answer('urn:example:recursionCount'(346,7)).
-answer('urn:example:recursionCount'(347,3)).
-answer('urn:example:recursionCount'(348,3)).
-answer('urn:example:recursionCount'(349,4)).
-answer('urn:example:recursionCount'(350,5)).
-answer('urn:example:recursionCount'(351,7)).
-answer('urn:example:recursionCount'(352,7)).
-answer('urn:example:recursionCount'(353,6)).
-answer('urn:example:recursionCount'(354,7)).
-answer('urn:example:recursionCount'(355,7)).
-answer('urn:example:recursionCount'(356,1)).
-answer('urn:example:recursionCount'(357,5)).
-answer('urn:example:recursionCount'(358,6)).
-answer('urn:example:recursionCount'(359,3)).
-answer('urn:example:recursionCount'(360,3)).
-answer('urn:example:recursionCount'(361,1)).
-answer('urn:example:recursionCount'(362,7)).
-answer('urn:example:recursionCount'(363,6)).
-answer('urn:example:recursionCount'(364,7)).
-answer('urn:example:recursionCount'(365,1)).
-answer('urn:example:recursionCount'(366,3)).
-answer('urn:example:recursionCount'(367,6)).
-answer('urn:example:recursionCount'(368,5)).
-answer('urn:example:recursionCount'(369,3)).
-answer('urn:example:recursionCount'(370,6)).
-answer('urn:example:recursionCount'(371,5)).
-answer('urn:example:recursionCount'(372,3)).
-answer('urn:example:recursionCount'(373,4)).
-answer('urn:example:recursionCount'(374,3)).
-answer('urn:example:recursionCount'(375,5)).
-answer('urn:example:recursionCount'(376,6)).
-answer('urn:example:recursionCount'(377,3)).
-answer('urn:example:recursionCount'(378,2)).
-answer('urn:example:recursionCount'(379,7)).
-answer('urn:example:recursionCount'(380,5)).
-answer('urn:example:recursionCount'(381,6)).
-answer('urn:example:recursionCount'(382,3)).
-answer('urn:example:recursionCount'(383,6)).
-answer('urn:example:recursionCount'(384,3)).
-answer('urn:example:recursionCount'(385,6)).
-answer('urn:example:recursionCount'(386,5)).
-answer('urn:example:recursionCount'(387,2)).
-answer('urn:example:recursionCount'(388,7)).
-answer('urn:example:recursionCount'(389,7)).
-answer('urn:example:recursionCount'(390,3)).
-answer('urn:example:recursionCount'(391,3)).
-answer('urn:example:recursionCount'(392,4)).
-answer('urn:example:recursionCount'(393,4)).
-answer('urn:example:recursionCount'(394,4)).
-answer('urn:example:recursionCount'(395,3)).
-answer('urn:example:recursionCount'(396,3)).
-answer('urn:example:recursionCount'(397,7)).
-answer('urn:example:recursionCount'(398,7)).
-answer('urn:example:recursionCount'(399,7)).
-answer('urn:example:recursionCount'(400,4)).
-answer('urn:example:recursionCount'(401,7)).
-answer('urn:example:recursionCount'(402,2)).
-answer('urn:example:recursionCount'(403,3)).
-answer('urn:example:recursionCount'(404,4)).
-answer('urn:example:recursionCount'(405,5)).
-answer('urn:example:recursionCount'(406,4)).
-answer('urn:example:recursionCount'(407,3)).
-answer('urn:example:recursionCount'(408,2)).
-answer('urn:example:recursionCount'(409,7)).
-answer('urn:example:recursionCount'(410,7)).
-answer('urn:example:recursionCount'(411,4)).
-answer('urn:example:recursionCount'(412,7)).
-answer('urn:example:recursionCount'(413,2)).
-answer('urn:example:recursionCount'(414,3)).
-answer('urn:example:recursionCount'(415,5)).
-answer('urn:example:recursionCount'(416,3)).
-answer('urn:example:recursionCount'(417,6)).
-answer('urn:example:recursionCount'(418,5)).
-answer('urn:example:recursionCount'(419,3)).
-answer('urn:example:recursionCount'(420,2)).
-answer('urn:example:recursionCount'(421,7)).
-answer('urn:example:recursionCount'(422,4)).
-answer('urn:example:recursionCount'(423,7)).
-answer('urn:example:recursionCount'(424,2)).
-answer('urn:example:recursionCount'(425,7)).
-answer('urn:example:recursionCount'(426,1)).
-answer('urn:example:recursionCount'(427,5)).
-answer('urn:example:recursionCount'(428,6)).
-answer('urn:example:recursionCount'(429,3)).
-answer('urn:example:recursionCount'(430,3)).
-answer('urn:example:recursionCount'(431,2)).
-answer('urn:example:recursionCount'(432,7)).
-answer('urn:example:recursionCount'(433,4)).
-answer('urn:example:recursionCount'(434,7)).
-answer('urn:example:recursionCount'(435,7)).
-answer('urn:example:recursionCount'(436,7)).
-answer('urn:example:recursionCount'(437,3)).
-answer('urn:example:recursionCount'(438,3)).
-answer('urn:example:recursionCount'(439,4)).
-answer('urn:example:recursionCount'(440,4)).
-answer('urn:example:recursionCount'(441,3)).
-answer('urn:example:recursionCount'(442,2)).
-answer('urn:example:recursionCount'(443,7)).
-answer('urn:example:recursionCount'(444,4)).
-answer('urn:example:recursionCount'(445,6)).
-answer('urn:example:recursionCount'(446,6)).
-answer('urn:example:recursionCount'(447,4)).
-answer('urn:example:recursionCount'(448,6)).
-answer('urn:example:recursionCount'(449,4)).
-answer('urn:example:recursionCount'(450,5)).
-answer('urn:example:recursionCount'(451,5)).
-answer('urn:example:recursionCount'(452,7)).
-answer('urn:example:recursionCount'(453,7)).
-answer('urn:example:recursionCount'(454,6)).
-answer('urn:example:recursionCount'(455,7)).
-answer('urn:example:recursionCount'(456,7)).
-answer('urn:example:recursionCount'(457,3)).
-answer('urn:example:recursionCount'(458,3)).
-answer('urn:example:recursionCount'(459,4)).
-answer('urn:example:recursionCount'(460,4)).
-answer('urn:example:recursionCount'(461,3)).
-answer('urn:example:recursionCount'(462,1)).
-answer('urn:example:recursionCount'(463,7)).
-answer('urn:example:recursionCount'(464,6)).
-answer('urn:example:recursionCount'(465,7)).
-answer('urn:example:recursionCount'(466,1)).
-answer('urn:example:recursionCount'(467,5)).
-answer('urn:example:recursionCount'(468,6)).
-answer('urn:example:recursionCount'(469,3)).
-answer('urn:example:recursionCount'(470,3)).
-answer('urn:example:recursionCount'(471,6)).
-answer('urn:example:recursionCount'(472,5)).
-answer('urn:example:recursionCount'(473,3)).
-answer('urn:example:recursionCount'(474,4)).
-answer('urn:example:recursionCount'(475,3)).
-answer('urn:example:recursionCount'(476,5)).
-answer('urn:example:recursionCount'(477,6)).
-answer('urn:example:recursionCount'(478,5)).
-answer('urn:example:recursionCount'(479,3)).
-answer('urn:example:recursionCount'(480,2)).
-answer('urn:example:recursionCount'(481,5)).
-answer('urn:example:recursionCount'(482,6)).
-answer('urn:example:recursionCount'(483,3)).
-answer('urn:example:recursionCount'(484,6)).
-answer('urn:example:recursionCount'(485,3)).
-answer('urn:example:recursionCount'(486,6)).
-answer('urn:example:recursionCount'(487,5)).
-answer('urn:example:recursionCount'(488,2)).
-answer('urn:example:recursionCount'(489,7)).
-answer('urn:example:recursionCount'(490,7)).
-answer('urn:example:recursionCount'(491,3)).
-answer('urn:example:recursionCount'(492,3)).
-answer('urn:example:recursionCount'(493,4)).
-answer('urn:example:recursionCount'(494,4)).
-answer('urn:example:recursionCount'(495,4)).
-answer('urn:example:recursionCount'(496,3)).
-answer('urn:example:recursionCount'(497,3)).
-answer('urn:example:recursionCount'(498,7)).
-answer('urn:example:recursionCount'(499,7)).
-answer('urn:example:recursionCount'(500,6)).
-answer('urn:example:recursionCount'(501,7)).
-answer('urn:example:recursionCount'(502,7)).
-answer('urn:example:recursionCount'(503,5)).
-answer('urn:example:recursionCount'(504,5)).
-answer('urn:example:recursionCount'(505,5)).
-answer('urn:example:recursionCount'(506,5)).
-answer('urn:example:recursionCount'(507,5)).
-answer('urn:example:recursionCount'(508,7)).
-answer('urn:example:recursionCount'(509,7)).
-answer('urn:example:recursionCount'(510,7)).
-answer('urn:example:recursionCount'(511,6)).
-answer('urn:example:recursionCount'(512,7)).
-answer('urn:example:recursionCount'(513,7)).
-answer('urn:example:recursionCount'(514,5)).
-answer('urn:example:recursionCount'(515,5)).
-answer('urn:example:recursionCount'(516,4)).
-answer('urn:example:recursionCount'(517,3)).
-answer('urn:example:recursionCount'(518,2)).
-answer('urn:example:recursionCount'(519,7)).
-answer('urn:example:recursionCount'(520,7)).
-answer('urn:example:recursionCount'(521,7)).
-answer('urn:example:recursionCount'(522,6)).
-answer('urn:example:recursionCount'(523,7)).
-answer('urn:example:recursionCount'(524,7)).
-answer('urn:example:recursionCount'(525,5)).
-answer('urn:example:recursionCount'(526,3)).
-answer('urn:example:recursionCount'(527,6)).
-answer('urn:example:recursionCount'(528,5)).
-answer('urn:example:recursionCount'(529,3)).
-answer('urn:example:recursionCount'(530,5)).
-answer('urn:example:recursionCount'(531,7)).
-answer('urn:example:recursionCount'(532,7)).
-answer('urn:example:recursionCount'(533,6)).
-answer('urn:example:recursionCount'(534,7)).
-answer('urn:example:recursionCount'(535,7)).
-answer('urn:example:recursionCount'(536,1)).
-answer('urn:example:recursionCount'(537,5)).
-answer('urn:example:recursionCount'(538,6)).
-answer('urn:example:recursionCount'(539,3)).
-answer('urn:example:recursionCount'(540,5)).
-answer('urn:example:recursionCount'(541,5)).
-answer('urn:example:recursionCount'(542,7)).
-answer('urn:example:recursionCount'(543,7)).
-answer('urn:example:recursionCount'(544,6)).
-answer('urn:example:recursionCount'(545,7)).
-answer('urn:example:recursionCount'(546,7)).
-answer('urn:example:recursionCount'(547,3)).
-answer('urn:example:recursionCount'(548,3)).
-answer('urn:example:recursionCount'(549,4)).
-answer('urn:example:recursionCount'(550,5)).
-answer('urn:example:recursionCount'(551,5)).
-answer('urn:example:recursionCount'(552,5)).
-answer('urn:example:recursionCount'(553,7)).
-answer('urn:example:recursionCount'(554,7)).
-answer('urn:example:recursionCount'(555,6)).
-answer('urn:example:recursionCount'(556,6)).
-answer('urn:example:recursionCount'(557,4)).
-answer('urn:example:recursionCount'(558,6)).
-answer('urn:example:recursionCount'(559,4)).
-answer('urn:example:recursionCount'(560,5)).
-answer('urn:example:recursionCount'(561,4)).
-answer('urn:example:recursionCount'(562,3)).
-answer('urn:example:recursionCount'(563,1)).
-answer('urn:example:recursionCount'(564,7)).
-answer('urn:example:recursionCount'(565,6)).
-answer('urn:example:recursionCount'(566,7)).
-answer('urn:example:recursionCount'(567,3)).
-answer('urn:example:recursionCount'(568,3)).
-answer('urn:example:recursionCount'(569,4)).
-answer('urn:example:recursionCount'(570,5)).
-answer('urn:example:recursionCount'(571,3)).
-answer('urn:example:recursionCount'(572,6)).
-answer('urn:example:recursionCount'(573,5)).
-answer('urn:example:recursionCount'(574,3)).
-answer('urn:example:recursionCount'(575,4)).
-answer('urn:example:recursionCount'(576,3)).
-answer('urn:example:recursionCount'(577,5)).
-answer('urn:example:recursionCount'(578,6)).
-answer('urn:example:recursionCount'(579,3)).
-answer('urn:example:recursionCount'(580,7)).
-answer('urn:example:recursionCount'(581,2)).
-answer('urn:example:recursionCount'(582,5)).
-answer('urn:example:recursionCount'(583,6)).
-answer('urn:example:recursionCount'(584,3)).
-answer('urn:example:recursionCount'(585,6)).
-answer('urn:example:recursionCount'(586,3)).
-answer('urn:example:recursionCount'(587,6)).
-answer('urn:example:recursionCount'(588,5)).
-answer('urn:example:recursionCount'(589,3)).
-answer('urn:example:recursionCount'(590,7)).
-answer('urn:example:recursionCount'(591,7)).
-answer('urn:example:recursionCount'(592,3)).
-answer('urn:example:recursionCount'(593,3)).
-answer('urn:example:recursionCount'(594,4)).
-answer('urn:example:recursionCount'(595,4)).
-answer('urn:example:recursionCount'(596,4)).
-answer('urn:example:recursionCount'(597,3)).
-answer('urn:example:recursionCount'(598,3)).
-answer('urn:example:recursionCount'(599,7)).
-answer('urn:example:recursionCount'(600,6)).
-answer('urn:example:recursionCount'(601,7)).
-answer('urn:example:recursionCount'(602,1)).
-answer('urn:example:recursionCount'(603,3)).
-answer('urn:example:recursionCount'(604,4)).
-answer('urn:example:recursionCount'(605,5)).
-answer('urn:example:recursionCount'(606,4)).
-answer('urn:example:recursionCount'(607,3)).
-answer('urn:example:recursionCount'(608,2)).
-answer('urn:example:recursionCount'(609,7)).
-answer('urn:example:recursionCount'(610,7)).
-answer('urn:example:recursionCount'(611,6)).
-answer('urn:example:recursionCount'(612,7)).
-answer('urn:example:recursionCount'(613,1)).
-answer('urn:example:recursionCount'(614,3)).
-answer('urn:example:recursionCount'(615,4)).
-answer('urn:example:recursionCount'(616,5)).
-answer('urn:example:recursionCount'(617,5)).
-answer('urn:example:recursionCount'(618,7)).
-answer('urn:example:recursionCount'(619,7)).
-answer('urn:example:recursionCount'(620,1)).
-answer('urn:example:recursionCount'(621,7)).
-answer('urn:example:recursionCount'(622,6)).
-answer('urn:example:recursionCount'(623,7)).
-answer('urn:example:recursionCount'(624,1)).
-answer('urn:example:recursionCount'(625,3)).
-answer('urn:example:recursionCount'(626,4)).
-answer('urn:example:recursionCount'(627,3)).
-answer('urn:example:recursionCount'(628,2)).
-answer('urn:example:recursionCount'(629,7)).
-answer('urn:example:recursionCount'(630,3)).
-answer('urn:example:recursionCount'(631,1)).
-answer('urn:example:recursionCount'(632,7)).
-answer('urn:example:recursionCount'(633,6)).
-answer('urn:example:recursionCount'(634,7)).
-answer('urn:example:recursionCount'(635,1)).
-answer('urn:example:recursionCount'(636,3)).
-answer('urn:example:recursionCount'(637,6)).
-answer('urn:example:recursionCount'(638,5)).
-answer('urn:example:recursionCount'(639,3)).
-answer('urn:example:recursionCount'(640,4)).
-answer('urn:example:recursionCount'(641,3)).
-answer('urn:example:recursionCount'(642,1)).
-answer('urn:example:recursionCount'(643,7)).
-answer('urn:example:recursionCount'(644,6)).
-answer('urn:example:recursionCount'(645,7)).
-answer('urn:example:recursionCount'(646,1)).
-answer('urn:example:recursionCount'(647,5)).
-answer('urn:example:recursionCount'(648,6)).
-answer('urn:example:recursionCount'(649,3)).
-answer('urn:example:recursionCount'(650,5)).
-answer('urn:example:recursionCount'(651,4)).
-answer('urn:example:recursionCount'(652,3)).
-answer('urn:example:recursionCount'(653,1)).
-answer('urn:example:recursionCount'(654,7)).
-answer('urn:example:recursionCount'(655,6)).
-answer('urn:example:recursionCount'(656,7)).
-answer('urn:example:recursionCount'(657,3)).
-answer('urn:example:recursionCount'(658,3)).
-answer('urn:example:recursionCount'(659,4)).
-answer('urn:example:recursionCount'(660,4)).
-answer('urn:example:recursionCount'(661,5)).
-answer('urn:example:recursionCount'(662,4)).
-answer('urn:example:recursionCount'(663,3)).
-answer('urn:example:recursionCount'(664,1)).
-answer('urn:example:recursionCount'(665,7)).
-answer('urn:example:recursionCount'(666,6)).
-answer('urn:example:recursionCount'(667,4)).
-answer('urn:example:recursionCount'(668,6)).
-answer('urn:example:recursionCount'(669,4)).
-answer('urn:example:recursionCount'(670,3)).
-answer('urn:example:recursionCount'(671,5)).
-answer('urn:example:recursionCount'(672,3)).
-answer('urn:example:recursionCount'(673,6)).
-answer('urn:example:recursionCount'(674,5)).
-answer('urn:example:recursionCount'(675,3)).
-answer('urn:example:recursionCount'(676,4)).
-answer('urn:example:recursionCount'(677,3)).
-answer('urn:example:recursionCount'(678,3)).
-answer('urn:example:recursionCount'(679,4)).
-answer('urn:example:recursionCount'(680,2)).
-answer('urn:example:recursionCount'(681,7)).
-answer('urn:example:recursionCount'(682,2)).
-answer('urn:example:recursionCount'(683,5)).
-answer('urn:example:recursionCount'(684,6)).
-answer('urn:example:recursionCount'(685,3)).
-answer('urn:example:recursionCount'(686,6)).
-answer('urn:example:recursionCount'(687,3)).
-answer('urn:example:recursionCount'(688,6)).
-answer('urn:example:recursionCount'(689,3)).
-answer('urn:example:recursionCount'(690,7)).
-answer('urn:example:recursionCount'(691,7)).
-answer('urn:example:recursionCount'(692,7)).
-answer('urn:example:recursionCount'(693,3)).
-answer('urn:example:recursionCount'(694,3)).
-answer('urn:example:recursionCount'(695,4)).
-answer('urn:example:recursionCount'(696,4)).
-answer('urn:example:recursionCount'(697,4)).
-answer('urn:example:recursionCount'(698,3)).
-answer('urn:example:recursionCount'(699,3)).
-answer('urn:example:recursionCount'(700,4)).
-answer('urn:example:recursionCount'(701,3)).
-answer('urn:example:recursionCount'(702,5)).
-answer('urn:example:recursionCount'(703,6)).
-answer('urn:example:recursionCount'(704,3)).
-answer('urn:example:recursionCount'(705,5)).
-answer('urn:example:recursionCount'(706,3)).
-answer('urn:example:recursionCount'(707,6)).
-answer('urn:example:recursionCount'(708,5)).
-answer('urn:example:recursionCount'(709,3)).
-answer('urn:example:recursionCount'(710,3)).
-answer('urn:example:recursionCount'(711,4)).
-answer('urn:example:recursionCount'(712,3)).
-answer('urn:example:recursionCount'(713,5)).
-answer('urn:example:recursionCount'(714,6)).
-answer('urn:example:recursionCount'(715,3)).
-answer('urn:example:recursionCount'(716,5)).
-answer('urn:example:recursionCount'(717,3)).
-answer('urn:example:recursionCount'(718,2)).
-answer('urn:example:recursionCount'(719,7)).
-answer('urn:example:recursionCount'(720,5)).
-answer('urn:example:recursionCount'(721,3)).
-answer('urn:example:recursionCount'(722,4)).
-answer('urn:example:recursionCount'(723,3)).
-answer('urn:example:recursionCount'(724,5)).
-answer('urn:example:recursionCount'(725,6)).
-answer('urn:example:recursionCount'(726,3)).
-answer('urn:example:recursionCount'(727,5)).
-answer('urn:example:recursionCount'(728,7)).
-answer('urn:example:recursionCount'(729,7)).
-answer('urn:example:recursionCount'(730,6)).
-answer('urn:example:recursionCount'(731,5)).
-answer('urn:example:recursionCount'(732,3)).
-answer('urn:example:recursionCount'(733,4)).
-answer('urn:example:recursionCount'(734,3)).
-answer('urn:example:recursionCount'(735,5)).
-answer('urn:example:recursionCount'(736,6)).
-answer('urn:example:recursionCount'(737,3)).
-answer('urn:example:recursionCount'(738,2)).
-answer('urn:example:recursionCount'(739,7)).
-answer('urn:example:recursionCount'(740,3)).
-answer('urn:example:recursionCount'(741,6)).
-answer('urn:example:recursionCount'(742,5)).
-answer('urn:example:recursionCount'(743,3)).
-answer('urn:example:recursionCount'(744,4)).
-answer('urn:example:recursionCount'(745,3)).
-answer('urn:example:recursionCount'(746,5)).
-answer('urn:example:recursionCount'(747,6)).
-answer('urn:example:recursionCount'(748,5)).
-answer('urn:example:recursionCount'(749,3)).
-answer('urn:example:recursionCount'(750,5)).
-answer('urn:example:recursionCount'(751,3)).
-answer('urn:example:recursionCount'(752,6)).
-answer('urn:example:recursionCount'(753,5)).
-answer('urn:example:recursionCount'(754,3)).
-answer('urn:example:recursionCount'(755,4)).
-answer('urn:example:recursionCount'(756,3)).
-answer('urn:example:recursionCount'(757,5)).
-answer('urn:example:recursionCount'(758,6)).
-answer('urn:example:recursionCount'(759,3)).
-answer('urn:example:recursionCount'(760,3)).
-answer('urn:example:recursionCount'(761,5)).
-answer('urn:example:recursionCount'(762,3)).
-answer('urn:example:recursionCount'(763,6)).
-answer('urn:example:recursionCount'(764,5)).
-answer('urn:example:recursionCount'(765,3)).
-answer('urn:example:recursionCount'(766,4)).
-answer('urn:example:recursionCount'(767,3)).
-answer('urn:example:recursionCount'(768,3)).
-answer('urn:example:recursionCount'(769,4)).
-answer('urn:example:recursionCount'(770,6)).
-answer('urn:example:recursionCount'(771,3)).
-answer('urn:example:recursionCount'(772,5)).
-answer('urn:example:recursionCount'(773,3)).
-answer('urn:example:recursionCount'(774,6)).
-answer('urn:example:recursionCount'(775,5)).
-answer('urn:example:recursionCount'(776,3)).
-answer('urn:example:recursionCount'(777,4)).
-answer('urn:example:recursionCount'(778,6)).
-answer('urn:example:recursionCount'(779,4)).
-answer('urn:example:recursionCount'(780,5)).
-answer('urn:example:recursionCount'(781,2)).
-answer('urn:example:recursionCount'(782,7)).
-answer('urn:example:recursionCount'(783,2)).
-answer('urn:example:recursionCount'(784,5)).
-answer('urn:example:recursionCount'(785,6)).
-answer('urn:example:recursionCount'(786,3)).
-answer('urn:example:recursionCount'(787,6)).
-answer('urn:example:recursionCount'(788,3)).
-answer('urn:example:recursionCount'(789,4)).
-answer('urn:example:recursionCount'(790,3)).
-answer('urn:example:recursionCount'(791,7)).
-answer('urn:example:recursionCount'(792,7)).
-answer('urn:example:recursionCount'(793,7)).
-answer('urn:example:recursionCount'(794,3)).
-answer('urn:example:recursionCount'(795,3)).
-answer('urn:example:recursionCount'(796,4)).
-answer('urn:example:recursionCount'(797,4)).
-answer('urn:example:recursionCount'(798,4)).
-answer('urn:example:recursionCount'(799,3)).
-answer('urn:example:recursionCount'(800,6)).
-answer('urn:example:recursionCount'(801,3)).
-answer('urn:example:recursionCount'(802,6)).
-answer('urn:example:recursionCount'(803,5)).
-answer('urn:example:recursionCount'(804,2)).
-answer('urn:example:recursionCount'(805,7)).
-answer('urn:example:recursionCount'(806,2)).
-answer('urn:example:recursionCount'(807,5)).
-answer('urn:example:recursionCount'(808,6)).
-answer('urn:example:recursionCount'(809,3)).
-answer('urn:example:recursionCount'(810,3)).
-answer('urn:example:recursionCount'(811,6)).
-answer('urn:example:recursionCount'(812,3)).
-answer('urn:example:recursionCount'(813,6)).
-answer('urn:example:recursionCount'(814,5)).
-answer('urn:example:recursionCount'(815,2)).
-answer('urn:example:recursionCount'(816,7)).
-answer('urn:example:recursionCount'(817,2)).
-answer('urn:example:recursionCount'(818,5)).
-answer('urn:example:recursionCount'(819,3)).
-answer('urn:example:recursionCount'(820,6)).
-answer('urn:example:recursionCount'(821,3)).
-answer('urn:example:recursionCount'(822,6)).
-answer('urn:example:recursionCount'(823,3)).
-answer('urn:example:recursionCount'(824,6)).
-answer('urn:example:recursionCount'(825,5)).
-answer('urn:example:recursionCount'(826,2)).
-answer('urn:example:recursionCount'(827,7)).
-answer('urn:example:recursionCount'(828,2)).
-answer('urn:example:recursionCount'(829,7)).
-answer('urn:example:recursionCount'(830,5)).
-answer('urn:example:recursionCount'(831,6)).
-answer('urn:example:recursionCount'(832,3)).
-answer('urn:example:recursionCount'(833,6)).
-answer('urn:example:recursionCount'(834,3)).
-answer('urn:example:recursionCount'(835,6)).
-answer('urn:example:recursionCount'(836,5)).
-answer('urn:example:recursionCount'(837,2)).
-answer('urn:example:recursionCount'(838,7)).
-answer('urn:example:recursionCount'(839,7)).
-answer('urn:example:recursionCount'(840,2)).
-answer('urn:example:recursionCount'(841,5)).
-answer('urn:example:recursionCount'(842,6)).
-answer('urn:example:recursionCount'(843,3)).
-answer('urn:example:recursionCount'(844,6)).
-answer('urn:example:recursionCount'(845,3)).
-answer('urn:example:recursionCount'(846,6)).
-answer('urn:example:recursionCount'(847,5)).
-answer('urn:example:recursionCount'(848,2)).
-answer('urn:example:recursionCount'(849,7)).
-answer('urn:example:recursionCount'(850,7)).
-answer('urn:example:recursionCount'(851,2)).
-answer('urn:example:recursionCount'(852,5)).
-answer('urn:example:recursionCount'(853,6)).
-answer('urn:example:recursionCount'(854,3)).
-answer('urn:example:recursionCount'(855,6)).
-answer('urn:example:recursionCount'(856,3)).
-answer('urn:example:recursionCount'(857,6)).
-answer('urn:example:recursionCount'(858,5)).
-answer('urn:example:recursionCount'(859,3)).
-answer('urn:example:recursionCount'(860,2)).
-answer('urn:example:recursionCount'(861,7)).
-answer('urn:example:recursionCount'(862,2)).
-answer('urn:example:recursionCount'(863,5)).
-answer('urn:example:recursionCount'(864,6)).
-answer('urn:example:recursionCount'(865,3)).
-answer('urn:example:recursionCount'(866,6)).
-answer('urn:example:recursionCount'(867,3)).
-answer('urn:example:recursionCount'(868,6)).
-answer('urn:example:recursionCount'(869,3)).
-answer('urn:example:recursionCount'(870,5)).
-answer('urn:example:recursionCount'(871,2)).
-answer('urn:example:recursionCount'(872,7)).
-answer('urn:example:recursionCount'(873,2)).
-answer('urn:example:recursionCount'(874,5)).
-answer('urn:example:recursionCount'(875,6)).
-answer('urn:example:recursionCount'(876,3)).
-answer('urn:example:recursionCount'(877,6)).
-answer('urn:example:recursionCount'(878,3)).
-answer('urn:example:recursionCount'(879,4)).
-answer('urn:example:recursionCount'(880,6)).
-answer('urn:example:recursionCount'(881,5)).
-answer('urn:example:recursionCount'(882,2)).
-answer('urn:example:recursionCount'(883,7)).
-answer('urn:example:recursionCount'(884,2)).
-answer('urn:example:recursionCount'(885,5)).
-answer('urn:example:recursionCount'(886,6)).
-answer('urn:example:recursionCount'(887,3)).
-answer('urn:example:recursionCount'(888,6)).
-answer('urn:example:recursionCount'(889,4)).
-answer('urn:example:recursionCount'(890,3)).
-answer('urn:example:recursionCount'(891,3)).
-answer('urn:example:recursionCount'(892,7)).
-answer('urn:example:recursionCount'(893,7)).
-answer('urn:example:recursionCount'(894,7)).
-answer('urn:example:recursionCount'(895,3)).
-answer('urn:example:recursionCount'(896,3)).
-answer('urn:example:recursionCount'(897,4)).
-answer('urn:example:recursionCount'(898,4)).
-answer('urn:example:recursionCount'(899,4)).
-answer('urn:example:recursionCount'(900,4)).
-answer('urn:example:recursionCount'(901,4)).
-answer('urn:example:recursionCount'(902,3)).
-answer('urn:example:recursionCount'(903,3)).
-answer('urn:example:recursionCount'(904,7)).
-answer('urn:example:recursionCount'(905,7)).
-answer('urn:example:recursionCount'(906,7)).
-answer('urn:example:recursionCount'(907,3)).
-answer('urn:example:recursionCount'(908,3)).
-answer('urn:example:recursionCount'(909,4)).
-answer('urn:example:recursionCount'(910,4)).
-answer('urn:example:recursionCount'(911,4)).
-answer('urn:example:recursionCount'(912,4)).
-answer('urn:example:recursionCount'(913,3)).
-answer('urn:example:recursionCount'(914,3)).
-answer('urn:example:recursionCount'(915,7)).
-answer('urn:example:recursionCount'(916,7)).
-answer('urn:example:recursionCount'(917,7)).
-answer('urn:example:recursionCount'(918,3)).
-answer('urn:example:recursionCount'(919,3)).
-answer('urn:example:recursionCount'(920,3)).
-answer('urn:example:recursionCount'(921,4)).
-answer('urn:example:recursionCount'(922,4)).
-answer('urn:example:recursionCount'(923,4)).
-answer('urn:example:recursionCount'(924,3)).
-answer('urn:example:recursionCount'(925,3)).
-answer('urn:example:recursionCount'(926,7)).
-answer('urn:example:recursionCount'(927,7)).
-answer('urn:example:recursionCount'(928,7)).
-answer('urn:example:recursionCount'(929,3)).
-answer('urn:example:recursionCount'(930,3)).
-answer('urn:example:recursionCount'(931,3)).
-answer('urn:example:recursionCount'(932,4)).
-answer('urn:example:recursionCount'(933,4)).
-answer('urn:example:recursionCount'(934,4)).
-answer('urn:example:recursionCount'(935,3)).
-answer('urn:example:recursionCount'(936,3)).
-answer('urn:example:recursionCount'(937,7)).
-answer('urn:example:recursionCount'(938,7)).
-answer('urn:example:recursionCount'(939,7)).
-answer('urn:example:recursionCount'(940,7)).
-answer('urn:example:recursionCount'(941,3)).
-answer('urn:example:recursionCount'(942,3)).
-answer('urn:example:recursionCount'(943,4)).
-answer('urn:example:recursionCount'(944,4)).
-answer('urn:example:recursionCount'(945,4)).
-answer('urn:example:recursionCount'(946,3)).
-answer('urn:example:recursionCount'(947,3)).
-answer('urn:example:recursionCount'(948,7)).
-answer('urn:example:recursionCount'(949,7)).
-answer('urn:example:recursionCount'(950,7)).
-answer('urn:example:recursionCount'(951,7)).
-answer('urn:example:recursionCount'(952,3)).
-answer('urn:example:recursionCount'(953,3)).
-answer('urn:example:recursionCount'(954,4)).
-answer('urn:example:recursionCount'(955,4)).
-answer('urn:example:recursionCount'(956,4)).
-answer('urn:example:recursionCount'(957,3)).
-answer('urn:example:recursionCount'(958,3)).
-answer('urn:example:recursionCount'(959,7)).
-answer('urn:example:recursionCount'(960,7)).
-answer('urn:example:recursionCount'(961,7)).
-answer('urn:example:recursionCount'(962,7)).
-answer('urn:example:recursionCount'(963,3)).
-answer('urn:example:recursionCount'(964,3)).
-answer('urn:example:recursionCount'(965,4)).
-answer('urn:example:recursionCount'(966,4)).
-answer('urn:example:recursionCount'(967,4)).
-answer('urn:example:recursionCount'(968,3)).
-answer('urn:example:recursionCount'(969,3)).
-answer('urn:example:recursionCount'(970,3)).
-answer('urn:example:recursionCount'(971,7)).
-answer('urn:example:recursionCount'(972,7)).
-answer('urn:example:recursionCount'(973,7)).
-answer('urn:example:recursionCount'(974,3)).
-answer('urn:example:recursionCount'(975,3)).
-answer('urn:example:recursionCount'(976,4)).
-answer('urn:example:recursionCount'(977,4)).
-answer('urn:example:recursionCount'(978,4)).
-answer('urn:example:recursionCount'(979,3)).
-answer('urn:example:recursionCount'(980,3)).
-answer('urn:example:recursionCount'(981,3)).
-answer('urn:example:recursionCount'(982,7)).
-answer('urn:example:recursionCount'(983,7)).
-answer('urn:example:recursionCount'(984,7)).
-answer('urn:example:recursionCount'(985,3)).
-answer('urn:example:recursionCount'(986,3)).
-answer('urn:example:recursionCount'(987,4)).
-answer('urn:example:recursionCount'(988,4)).
-answer('urn:example:recursionCount'(989,4)).
-answer('urn:example:recursionCount'(990,4)).
-answer('urn:example:recursionCount'(991,3)).
-answer('urn:example:recursionCount'(992,3)).
-answer('urn:example:recursionCount'(993,7)).
-answer('urn:example:recursionCount'(994,7)).
-answer('urn:example:recursionCount'(995,7)).
-answer('urn:example:recursionCount'(996,3)).
-answer('urn:example:recursionCount'(997,3)).
-answer('urn:example:recursionCount'(998,4)).
-answer('urn:example:recursionCount'(999,4)).
-answer('urn:example:recursionCount'(1000,5)).
-answer('urn:example:recursionCount'(1001,4)).
-answer('urn:example:recursionCount'(1002,3)).
-answer('urn:example:recursionCount'(1003,3)).
-answer('urn:example:recursionCount'(1004,7)).
-answer('urn:example:recursionCount'(1005,7)).
-answer('urn:example:recursionCount'(1006,7)).
-answer('urn:example:recursionCount'(1007,3)).
-answer('urn:example:recursionCount'(1008,3)).
-answer('urn:example:recursionCount'(1009,4)).
-answer('urn:example:recursionCount'(1010,4)).
-answer('urn:example:recursionCount'(1011,5)).
-answer('urn:example:recursionCount'(1012,4)).
-answer('urn:example:recursionCount'(1013,6)).
-answer('urn:example:recursionCount'(1014,4)).
-answer('urn:example:recursionCount'(1015,6)).
-answer('urn:example:recursionCount'(1016,6)).
-answer('urn:example:recursionCount'(1017,4)).
-answer('urn:example:recursionCount'(1018,6)).
-answer('urn:example:recursionCount'(1019,4)).
-answer('urn:example:recursionCount'(1020,3)).
-answer('urn:example:recursionCount'(1021,4)).
-answer('urn:example:recursionCount'(1022,3)).
-answer('urn:example:recursionCount'(1023,3)).
-answer('urn:example:recursionCount'(1024,7)).
-answer('urn:example:recursionCount'(1025,7)).
-answer('urn:example:recursionCount'(1026,7)).
-answer('urn:example:recursionCount'(1027,3)).
-answer('urn:example:recursionCount'(1028,3)).
-answer('urn:example:recursionCount'(1029,4)).
-answer('urn:example:recursionCount'(1030,3)).
-answer('urn:example:recursionCount'(1031,6)).
-answer('urn:example:recursionCount'(1032,3)).
-answer('urn:example:recursionCount'(1033,5)).
-answer('urn:example:recursionCount'(1034,2)).
-answer('urn:example:recursionCount'(1035,7)).
-answer('urn:example:recursionCount'(1036,1)).
-answer('urn:example:recursionCount'(1037,5)).
-answer('urn:example:recursionCount'(1038,6)).
-answer('urn:example:recursionCount'(1039,3)).
-answer('urn:example:recursionCount'(1040,7)).
-answer('urn:example:recursionCount'(1041,4)).
-answer('urn:example:recursionCount'(1042,7)).
-answer('urn:example:recursionCount'(1043,2)).
-answer('urn:example:recursionCount'(1044,3)).
-answer('urn:example:recursionCount'(1045,5)).
-answer('urn:example:recursionCount'(1046,3)).
-answer('urn:example:recursionCount'(1047,6)).
-answer('urn:example:recursionCount'(1048,5)).
-answer('urn:example:recursionCount'(1049,3)).
-answer('urn:example:recursionCount'(1050,7)).
-answer('urn:example:recursionCount'(1051,6)).
-answer('urn:example:recursionCount'(1052,7)).
-answer('urn:example:recursionCount'(1053,7)).
-answer('urn:example:recursionCount'(1054,5)).
-answer('urn:example:recursionCount'(1055,5)).
-answer('urn:example:recursionCount'(1056,4)).
-answer('urn:example:recursionCount'(1057,3)).
-answer('urn:example:recursionCount'(1058,2)).
-answer('urn:example:recursionCount'(1059,7)).
-answer('urn:example:recursionCount'(1060,7)).
-answer('urn:example:recursionCount'(1061,6)).
-answer('urn:example:recursionCount'(1062,7)).
-answer('urn:example:recursionCount'(1063,1)).
-answer('urn:example:recursionCount'(1064,3)).
-answer('urn:example:recursionCount'(1065,4)).
-answer('urn:example:recursionCount'(1066,5)).
-answer('urn:example:recursionCount'(1067,5)).
-answer('urn:example:recursionCount'(1068,7)).
-answer('urn:example:recursionCount'(1069,7)).
-answer('urn:example:recursionCount'(1070,3)).
-answer('urn:example:recursionCount'(1071,4)).
-answer('urn:example:recursionCount'(1072,3)).
-answer('urn:example:recursionCount'(1073,5)).
-answer('urn:example:recursionCount'(1074,6)).
-answer('urn:example:recursionCount'(1075,3)).
-answer('urn:example:recursionCount'(1076,5)).
-answer('urn:example:recursionCount'(1077,3)).
-answer('urn:example:recursionCount'(1078,2)).
-answer('urn:example:recursionCount'(1079,7)).
-answer('urn:example:recursionCount'(1080,3)).
-answer('urn:example:recursionCount'(1081,6)).
-answer('urn:example:recursionCount'(1082,3)).
-answer('urn:example:recursionCount'(1083,6)).
-answer('urn:example:recursionCount'(1084,5)).
-answer('urn:example:recursionCount'(1085,2)).
-answer('urn:example:recursionCount'(1086,7)).
-answer('urn:example:recursionCount'(1087,2)).
-answer('urn:example:recursionCount'(1088,5)).
-answer('urn:example:recursionCount'(1089,3)).
-answer('urn:example:recursionCount'(1090,4)).
-answer('urn:example:recursionCount'(1091,4)).
-answer('urn:example:recursionCount'(1092,4)).
-answer('urn:example:recursionCount'(1093,3)).
-answer('urn:example:recursionCount'(1094,3)).
-answer('urn:example:recursionCount'(1095,7)).
-answer('urn:example:recursionCount'(1096,7)).
-answer('urn:example:recursionCount'(1097,7)).
-answer('urn:example:recursionCount'(1098,3)).
-answer('urn:example:recursionCount'(1099,3)).
-answer('urn:example:recursionCount'(1100,4)).
-answer('urn:example:recursionCount'(1101,5)).
-answer('urn:example:recursionCount'(1102,4)).
-answer('urn:example:recursionCount'(1103,6)).
-answer('urn:example:recursionCount'(1104,4)).
-answer('urn:example:recursionCount'(1105,6)).
-answer('urn:example:recursionCount'(1106,6)).
-answer('urn:example:recursionCount'(1107,4)).
-answer('urn:example:recursionCount'(1108,6)).
-answer('urn:example:recursionCount'(1109,4)).
-answer('urn:example:recursionCount'(1110,5)).
-answer('urn:example:recursionCount'(1112,5)).
-answer('urn:example:recursionCount'(1113,4)).
-answer('urn:example:recursionCount'(1114,6)).
-answer('urn:example:recursionCount'(1115,4)).
-answer('urn:example:recursionCount'(1116,6)).
-answer('urn:example:recursionCount'(1117,6)).
-answer('urn:example:recursionCount'(1118,4)).
-answer('urn:example:recursionCount'(1119,6)).
-answer('urn:example:recursionCount'(1120,4)).
-answer('urn:example:recursionCount'(1121,5)).
-answer('urn:example:recursionCount'(1122,4)).
-answer('urn:example:recursionCount'(1123,3)).
-answer('urn:example:recursionCount'(1124,3)).
-answer('urn:example:recursionCount'(1125,7)).
-answer('urn:example:recursionCount'(1126,7)).
-answer('urn:example:recursionCount'(1127,7)).
-answer('urn:example:recursionCount'(1128,3)).
-answer('urn:example:recursionCount'(1129,3)).
-answer('urn:example:recursionCount'(1130,6)).
-answer('urn:example:recursionCount'(1131,4)).
-answer('urn:example:recursionCount'(1132,3)).
-answer('urn:example:recursionCount'(1133,6)).
-answer('urn:example:recursionCount'(1134,5)).
-answer('urn:example:recursionCount'(1135,2)).
-answer('urn:example:recursionCount'(1136,7)).
-answer('urn:example:recursionCount'(1137,1)).
-answer('urn:example:recursionCount'(1138,5)).
-answer('urn:example:recursionCount'(1139,6)).
-answer('urn:example:recursionCount'(1140,4)).
-answer('urn:example:recursionCount'(1141,6)).
-answer('urn:example:recursionCount'(1142,3)).
-answer('urn:example:recursionCount'(1143,5)).
-answer('urn:example:recursionCount'(1144,6)).
-answer('urn:example:recursionCount'(1145,3)).
-answer('urn:example:recursionCount'(1146,5)).
-answer('urn:example:recursionCount'(1147,3)).
-answer('urn:example:recursionCount'(1148,6)).
-answer('urn:example:recursionCount'(1149,5)).
-answer('urn:example:recursionCount'(1150,6)).
-answer('urn:example:recursionCount'(1151,4)).
-answer('urn:example:recursionCount'(1152,7)).
-answer('urn:example:recursionCount'(1153,2)).
-answer('urn:example:recursionCount'(1154,3)).
-answer('urn:example:recursionCount'(1155,4)).
-answer('urn:example:recursionCount'(1156,5)).
-answer('urn:example:recursionCount'(1157,4)).
-answer('urn:example:recursionCount'(1158,3)).
-answer('urn:example:recursionCount'(1159,2)).
-answer('urn:example:recursionCount'(1160,6)).
-answer('urn:example:recursionCount'(1161,6)).
-answer('urn:example:recursionCount'(1162,7)).
-answer('urn:example:recursionCount'(1163,7)).
-answer('urn:example:recursionCount'(1164,5)).
-answer('urn:example:recursionCount'(1165,5)).
-answer('urn:example:recursionCount'(1166,5)).
-answer('urn:example:recursionCount'(1167,5)).
-answer('urn:example:recursionCount'(1168,5)).
-answer('urn:example:recursionCount'(1169,7)).
-answer('urn:example:recursionCount'(1170,4)).
-answer('urn:example:recursionCount'(1171,6)).
-answer('urn:example:recursionCount'(1172,7)).
-answer('urn:example:recursionCount'(1173,1)).
-answer('urn:example:recursionCount'(1174,3)).
-answer('urn:example:recursionCount'(1175,4)).
-answer('urn:example:recursionCount'(1176,5)).
-answer('urn:example:recursionCount'(1177,4)).
-answer('urn:example:recursionCount'(1178,3)).
-answer('urn:example:recursionCount'(1179,2)).
-answer('urn:example:recursionCount'(1180,6)).
-answer('urn:example:recursionCount'(1181,4)).
-answer('urn:example:recursionCount'(1182,3)).
-answer('urn:example:recursionCount'(1183,5)).
-answer('urn:example:recursionCount'(1184,6)).
-answer('urn:example:recursionCount'(1185,3)).
-answer('urn:example:recursionCount'(1186,5)).
-answer('urn:example:recursionCount'(1187,3)).
-answer('urn:example:recursionCount'(1188,6)).
-answer('urn:example:recursionCount'(1189,5)).
-answer('urn:example:recursionCount'(1190,4)).
-answer('urn:example:recursionCount'(1191,6)).
-answer('urn:example:recursionCount'(1192,3)).
-answer('urn:example:recursionCount'(1193,6)).
-answer('urn:example:recursionCount'(1194,5)).
-answer('urn:example:recursionCount'(1195,2)).
-answer('urn:example:recursionCount'(1196,7)).
-answer('urn:example:recursionCount'(1197,2)).
-answer('urn:example:recursionCount'(1198,5)).
-answer('urn:example:recursionCount'(1199,6)).
-answer('urn:example:recursionCount'(1200,3)).
-answer('urn:example:recursionCount'(1201,4)).
-answer('urn:example:recursionCount'(1202,3)).
-answer('urn:example:recursionCount'(1203,3)).
-answer('urn:example:recursionCount'(1204,7)).
-answer('urn:example:recursionCount'(1205,7)).
-answer('urn:example:recursionCount'(1206,7)).
-answer('urn:example:recursionCount'(1207,3)).
-answer('urn:example:recursionCount'(1208,3)).
-answer('urn:example:recursionCount'(1209,4)).
-answer('urn:example:recursionCount'(1210,4)).
-answer('urn:example:recursionCount'(1211,5)).
-answer('urn:example:recursionCount'(1212,4)).
-answer('urn:example:recursionCount'(1213,3)).
-answer('urn:example:recursionCount'(1214,3)).
-answer('urn:example:recursionCount'(1215,7)).
-answer('urn:example:recursionCount'(1216,7)).
-answer('urn:example:recursionCount'(1217,7)).
-answer('urn:example:recursionCount'(1218,3)).
-answer('urn:example:recursionCount'(1219,3)).
-answer('urn:example:recursionCount'(1220,3)).
-answer('urn:example:recursionCount'(1221,4)).
-answer('urn:example:recursionCount'(1222,5)).
-answer('urn:example:recursionCount'(1223,4)).
-answer('urn:example:recursionCount'(1224,6)).
-answer('urn:example:recursionCount'(1225,4)).
-answer('urn:example:recursionCount'(1226,6)).
-answer('urn:example:recursionCount'(1227,6)).
-answer('urn:example:recursionCount'(1228,4)).
-answer('urn:example:recursionCount'(1229,6)).
-answer('urn:example:recursionCount'(1230,3)).
-answer('urn:example:recursionCount'(1231,3)).
-answer('urn:example:recursionCount'(1232,4)).
-answer('urn:example:recursionCount'(1233,3)).
-answer('urn:example:recursionCount'(1234,3)).
-answer('urn:example:recursionCount'(1235,7)).
-answer('urn:example:recursionCount'(1236,7)).
-answer('urn:example:recursionCount'(1237,7)).
-answer('urn:example:recursionCount'(1238,3)).
-answer('urn:example:recursionCount'(1239,3)).
-answer('urn:example:recursionCount'(1240,7)).
-answer('urn:example:recursionCount'(1241,3)).
-answer('urn:example:recursionCount'(1242,6)).
-answer('urn:example:recursionCount'(1243,3)).
-answer('urn:example:recursionCount'(1244,5)).
-answer('urn:example:recursionCount'(1245,2)).
-answer('urn:example:recursionCount'(1246,7)).
-answer('urn:example:recursionCount'(1247,1)).
-answer('urn:example:recursionCount'(1248,5)).
-answer('urn:example:recursionCount'(1249,6)).
-answer('urn:example:recursionCount'(1250,7)).
-answer('urn:example:recursionCount'(1251,7)).
-answer('urn:example:recursionCount'(1252,4)).
-answer('urn:example:recursionCount'(1253,7)).
-answer('urn:example:recursionCount'(1254,2)).
-answer('urn:example:recursionCount'(1255,3)).
-answer('urn:example:recursionCount'(1256,5)).
-answer('urn:example:recursionCount'(1257,3)).
-answer('urn:example:recursionCount'(1258,6)).
-answer('urn:example:recursionCount'(1259,5)).
-answer('urn:example:recursionCount'(1260,7)).
-answer('urn:example:recursionCount'(1261,7)).
-answer('urn:example:recursionCount'(1262,6)).
-answer('urn:example:recursionCount'(1263,7)).
-answer('urn:example:recursionCount'(1264,7)).
-answer('urn:example:recursionCount'(1265,5)).
-answer('urn:example:recursionCount'(1266,5)).
-answer('urn:example:recursionCount'(1267,4)).
-answer('urn:example:recursionCount'(1268,3)).
-answer('urn:example:recursionCount'(1269,2)).
-answer('urn:example:recursionCount'(1270,3)).
-answer('urn:example:recursionCount'(1271,7)).
-answer('urn:example:recursionCount'(1272,6)).
-answer('urn:example:recursionCount'(1273,7)).
-answer('urn:example:recursionCount'(1274,1)).
-answer('urn:example:recursionCount'(1275,3)).
-answer('urn:example:recursionCount'(1276,4)).
-answer('urn:example:recursionCount'(1277,5)).
-answer('urn:example:recursionCount'(1278,5)).
-answer('urn:example:recursionCount'(1279,7)).
-answer('urn:example:recursionCount'(1280,3)).
-answer('urn:example:recursionCount'(1281,3)).
-answer('urn:example:recursionCount'(1282,4)).
-answer('urn:example:recursionCount'(1283,3)).
-answer('urn:example:recursionCount'(1284,5)).
-answer('urn:example:recursionCount'(1285,6)).
-answer('urn:example:recursionCount'(1286,3)).
-answer('urn:example:recursionCount'(1287,5)).
-answer('urn:example:recursionCount'(1288,3)).
-answer('urn:example:recursionCount'(1289,2)).
-answer('urn:example:recursionCount'(1290,4)).
-answer('urn:example:recursionCount'(1291,3)).
-answer('urn:example:recursionCount'(1292,6)).
-answer('urn:example:recursionCount'(1293,3)).
-answer('urn:example:recursionCount'(1294,6)).
-answer('urn:example:recursionCount'(1295,5)).
-answer('urn:example:recursionCount'(1296,2)).
-answer('urn:example:recursionCount'(1297,7)).
-answer('urn:example:recursionCount'(1298,2)).
-answer('urn:example:recursionCount'(1299,5)).
-answer('urn:example:recursionCount'(1300,3)).
-answer('urn:example:recursionCount'(1301,6)).
-answer('urn:example:recursionCount'(1302,3)).
-answer('urn:example:recursionCount'(1303,5)).
-answer('urn:example:recursionCount'(1304,2)).
-answer('urn:example:recursionCount'(1305,7)).
-answer('urn:example:recursionCount'(1306,1)).
-answer('urn:example:recursionCount'(1307,5)).
-answer('urn:example:recursionCount'(1308,6)).
-answer('urn:example:recursionCount'(1309,3)).
-answer('urn:example:recursionCount'(1310,6)).
-answer('urn:example:recursionCount'(1311,4)).
-answer('urn:example:recursionCount'(1312,3)).
-answer('urn:example:recursionCount'(1313,6)).
-answer('urn:example:recursionCount'(1314,5)).
-answer('urn:example:recursionCount'(1315,2)).
-answer('urn:example:recursionCount'(1316,7)).
-answer('urn:example:recursionCount'(1317,1)).
-answer('urn:example:recursionCount'(1318,5)).
-answer('urn:example:recursionCount'(1319,6)).
-answer('urn:example:recursionCount'(1320,3)).
-answer('urn:example:recursionCount'(1321,3)).
-answer('urn:example:recursionCount'(1322,4)).
-answer('urn:example:recursionCount'(1323,3)).
-answer('urn:example:recursionCount'(1324,3)).
-answer('urn:example:recursionCount'(1325,7)).
-answer('urn:example:recursionCount'(1326,7)).
-answer('urn:example:recursionCount'(1327,7)).
-answer('urn:example:recursionCount'(1328,3)).
-answer('urn:example:recursionCount'(1329,3)).
-answer('urn:example:recursionCount'(1330,5)).
-answer('urn:example:recursionCount'(1331,6)).
-answer('urn:example:recursionCount'(1332,3)).
-answer('urn:example:recursionCount'(1333,4)).
-answer('urn:example:recursionCount'(1334,6)).
-answer('urn:example:recursionCount'(1335,4)).
-answer('urn:example:recursionCount'(1336,6)).
-answer('urn:example:recursionCount'(1337,6)).
-answer('urn:example:recursionCount'(1338,4)).
-answer('urn:example:recursionCount'(1339,6)).
-answer('urn:example:recursionCount'(1340,2)).
-answer('urn:example:recursionCount'(1341,5)).
-answer('urn:example:recursionCount'(1342,3)).
-answer('urn:example:recursionCount'(1343,6)).
-answer('urn:example:recursionCount'(1344,3)).
-answer('urn:example:recursionCount'(1345,7)).
-answer('urn:example:recursionCount'(1346,7)).
-answer('urn:example:recursionCount'(1347,7)).
-answer('urn:example:recursionCount'(1348,3)).
-answer('urn:example:recursionCount'(1349,3)).
-answer('urn:example:recursionCount'(1350,7)).
-answer('urn:example:recursionCount'(1351,2)).
-answer('urn:example:recursionCount'(1352,7)).
-answer('urn:example:recursionCount'(1353,4)).
-answer('urn:example:recursionCount'(1354,7)).
-answer('urn:example:recursionCount'(1355,2)).
-answer('urn:example:recursionCount'(1356,7)).
-answer('urn:example:recursionCount'(1357,1)).
-answer('urn:example:recursionCount'(1358,5)).
-answer('urn:example:recursionCount'(1359,6)).
-answer('urn:example:recursionCount'(1360,1)).
-answer('urn:example:recursionCount'(1361,7)).
-answer('urn:example:recursionCount'(1362,7)).
-answer('urn:example:recursionCount'(1363,6)).
-answer('urn:example:recursionCount'(1364,7)).
-answer('urn:example:recursionCount'(1365,7)).
-answer('urn:example:recursionCount'(1366,5)).
-answer('urn:example:recursionCount'(1367,3)).
-answer('urn:example:recursionCount'(1368,6)).
-answer('urn:example:recursionCount'(1369,5)).
-answer('urn:example:recursionCount'(1370,5)).
-answer('urn:example:recursionCount'(1371,1)).
-answer('urn:example:recursionCount'(1372,7)).
-answer('urn:example:recursionCount'(1373,6)).
-answer('urn:example:recursionCount'(1374,7)).
-answer('urn:example:recursionCount'(1375,1)).
-answer('urn:example:recursionCount'(1376,3)).
-answer('urn:example:recursionCount'(1377,4)).
-answer('urn:example:recursionCount'(1378,3)).
-answer('urn:example:recursionCount'(1379,2)).
-answer('urn:example:recursionCount'(1380,6)).
-answer('urn:example:recursionCount'(1381,5)).
-answer('urn:example:recursionCount'(1382,3)).
-answer('urn:example:recursionCount'(1383,4)).
-answer('urn:example:recursionCount'(1384,3)).
-answer('urn:example:recursionCount'(1385,5)).
-answer('urn:example:recursionCount'(1386,6)).
-answer('urn:example:recursionCount'(1387,3)).
-answer('urn:example:recursionCount'(1388,5)).
-answer('urn:example:recursionCount'(1389,7)).
-answer('urn:example:recursionCount'(1390,3)).
-answer('urn:example:recursionCount'(1391,6)).
-answer('urn:example:recursionCount'(1392,3)).
-answer('urn:example:recursionCount'(1393,6)).
-answer('urn:example:recursionCount'(1394,3)).
-answer('urn:example:recursionCount'(1395,6)).
-answer('urn:example:recursionCount'(1396,5)).
-answer('urn:example:recursionCount'(1397,2)).
-answer('urn:example:recursionCount'(1398,7)).
-answer('urn:example:recursionCount'(1399,2)).
-answer('urn:example:recursionCount'(1400,7)).
-answer('urn:example:recursionCount'(1401,4)).
-answer('urn:example:recursionCount'(1402,7)).
-answer('urn:example:recursionCount'(1403,2)).
-answer('urn:example:recursionCount'(1404,3)).
-answer('urn:example:recursionCount'(1405,5)).
-answer('urn:example:recursionCount'(1406,3)).
-answer('urn:example:recursionCount'(1407,6)).
-answer('urn:example:recursionCount'(1408,5)).
-answer('urn:example:recursionCount'(1409,3)).
-answer('urn:example:recursionCount'(1410,4)).
-answer('urn:example:recursionCount'(1411,6)).
-answer('urn:example:recursionCount'(1412,3)).
-answer('urn:example:recursionCount'(1413,5)).
-answer('urn:example:recursionCount'(1414,6)).
-answer('urn:example:recursionCount'(1415,3)).
-answer('urn:example:recursionCount'(1416,5)).
-answer('urn:example:recursionCount'(1417,3)).
-answer('urn:example:recursionCount'(1418,6)).
-answer('urn:example:recursionCount'(1419,5)).
-answer('urn:example:recursionCount'(1420,7)).
-answer('urn:example:recursionCount'(1421,3)).
-answer('urn:example:recursionCount'(1422,6)).
-answer('urn:example:recursionCount'(1423,3)).
-answer('urn:example:recursionCount'(1424,5)).
-answer('urn:example:recursionCount'(1425,2)).
-answer('urn:example:recursionCount'(1426,7)).
-answer('urn:example:recursionCount'(1427,1)).
-answer('urn:example:recursionCount'(1428,5)).
-answer('urn:example:recursionCount'(1429,6)).
-answer('urn:example:recursionCount'(1430,2)).
-answer('urn:example:recursionCount'(1431,5)).
-answer('urn:example:recursionCount'(1432,3)).
-answer('urn:example:recursionCount'(1433,6)).
-answer('urn:example:recursionCount'(1434,3)).
-answer('urn:example:recursionCount'(1435,7)).
-answer('urn:example:recursionCount'(1436,7)).
-answer('urn:example:recursionCount'(1437,7)).
-answer('urn:example:recursionCount'(1438,3)).
-answer('urn:example:recursionCount'(1439,3)).
-answer('urn:example:recursionCount'(1440,3)).
-answer('urn:example:recursionCount'(1441,6)).
-answer('urn:example:recursionCount'(1442,5)).
-answer('urn:example:recursionCount'(1443,3)).
-answer('urn:example:recursionCount'(1444,6)).
-answer('urn:example:recursionCount'(1445,4)).
-answer('urn:example:recursionCount'(1446,6)).
-answer('urn:example:recursionCount'(1447,6)).
-answer('urn:example:recursionCount'(1448,4)).
-answer('urn:example:recursionCount'(1449,6)).
-answer('urn:example:recursionCount'(1450,5)).
-answer('urn:example:recursionCount'(1451,3)).
-answer('urn:example:recursionCount'(1452,2)).
-answer('urn:example:recursionCount'(1453,7)).
-answer('urn:example:recursionCount'(1454,4)).
-answer('urn:example:recursionCount'(1455,7)).
-answer('urn:example:recursionCount'(1456,7)).
-answer('urn:example:recursionCount'(1457,7)).
-answer('urn:example:recursionCount'(1458,3)).
-answer('urn:example:recursionCount'(1459,3)).
-answer('urn:example:recursionCount'(1460,3)).
-answer('urn:example:recursionCount'(1461,5)).
-answer('urn:example:recursionCount'(1462,7)).
-answer('urn:example:recursionCount'(1463,7)).
-answer('urn:example:recursionCount'(1464,6)).
-answer('urn:example:recursionCount'(1465,7)).
-answer('urn:example:recursionCount'(1466,7)).
-answer('urn:example:recursionCount'(1467,1)).
-answer('urn:example:recursionCount'(1468,5)).
-answer('urn:example:recursionCount'(1469,6)).
-answer('urn:example:recursionCount'(1470,6)).
-answer('urn:example:recursionCount'(1471,3)).
-answer('urn:example:recursionCount'(1472,1)).
-answer('urn:example:recursionCount'(1473,7)).
-answer('urn:example:recursionCount'(1474,6)).
-answer('urn:example:recursionCount'(1475,7)).
-answer('urn:example:recursionCount'(1476,1)).
-answer('urn:example:recursionCount'(1477,3)).
-answer('urn:example:recursionCount'(1478,6)).
-answer('urn:example:recursionCount'(1479,5)).
-answer('urn:example:recursionCount'(1480,5)).
-answer('urn:example:recursionCount'(1481,6)).
-answer('urn:example:recursionCount'(1482,5)).
-answer('urn:example:recursionCount'(1483,3)).
-answer('urn:example:recursionCount'(1484,4)).
-answer('urn:example:recursionCount'(1485,3)).
-answer('urn:example:recursionCount'(1486,5)).
-answer('urn:example:recursionCount'(1487,6)).
-answer('urn:example:recursionCount'(1488,3)).
-answer('urn:example:recursionCount'(1489,2)).
-answer('urn:example:recursionCount'(1490,3)).
-answer('urn:example:recursionCount'(1491,5)).
-answer('urn:example:recursionCount'(1492,6)).
-answer('urn:example:recursionCount'(1493,3)).
-answer('urn:example:recursionCount'(1494,6)).
-answer('urn:example:recursionCount'(1495,3)).
-answer('urn:example:recursionCount'(1496,6)).
-answer('urn:example:recursionCount'(1497,5)).
-answer('urn:example:recursionCount'(1498,2)).
-answer('urn:example:recursionCount'(1499,7)).
-answer('urn:example:recursionCount'(1500,7)).
-answer('urn:example:recursionCount'(1501,6)).
-answer('urn:example:recursionCount'(1502,7)).
-answer('urn:example:recursionCount'(1503,7)).
-answer('urn:example:recursionCount'(1504,5)).
-answer('urn:example:recursionCount'(1505,5)).
-answer('urn:example:recursionCount'(1506,4)).
-answer('urn:example:recursionCount'(1507,3)).
-answer('urn:example:recursionCount'(1508,2)).
-answer('urn:example:recursionCount'(1509,7)).
-answer('urn:example:recursionCount'(1510,6)).
-answer('urn:example:recursionCount'(1511,4)).
-answer('urn:example:recursionCount'(1512,7)).
-answer('urn:example:recursionCount'(1513,2)).
-answer('urn:example:recursionCount'(1514,3)).
-answer('urn:example:recursionCount'(1515,4)).
-answer('urn:example:recursionCount'(1516,5)).
-answer('urn:example:recursionCount'(1517,4)).
-answer('urn:example:recursionCount'(1518,3)).
-answer('urn:example:recursionCount'(1519,2)).
-answer('urn:example:recursionCount'(1520,7)).
-answer('urn:example:recursionCount'(1521,7)).
-answer('urn:example:recursionCount'(1522,4)).
-answer('urn:example:recursionCount'(1523,7)).
-answer('urn:example:recursionCount'(1524,2)).
-answer('urn:example:recursionCount'(1525,3)).
-answer('urn:example:recursionCount'(1526,5)).
-answer('urn:example:recursionCount'(1527,3)).
-answer('urn:example:recursionCount'(1528,6)).
-answer('urn:example:recursionCount'(1529,5)).
-answer('urn:example:recursionCount'(1530,7)).
-answer('urn:example:recursionCount'(1531,2)).
-answer('urn:example:recursionCount'(1532,7)).
-answer('urn:example:recursionCount'(1533,4)).
-answer('urn:example:recursionCount'(1534,7)).
-answer('urn:example:recursionCount'(1535,2)).
-answer('urn:example:recursionCount'(1536,7)).
-answer('urn:example:recursionCount'(1537,1)).
-answer('urn:example:recursionCount'(1538,5)).
-answer('urn:example:recursionCount'(1539,6)).
-answer('urn:example:recursionCount'(1540,5)).
-answer('urn:example:recursionCount'(1541,3)).
-answer('urn:example:recursionCount'(1542,2)).
-answer('urn:example:recursionCount'(1543,7)).
-answer('urn:example:recursionCount'(1544,4)).
-answer('urn:example:recursionCount'(1545,7)).
-answer('urn:example:recursionCount'(1546,7)).
-answer('urn:example:recursionCount'(1547,7)).
-answer('urn:example:recursionCount'(1548,3)).
-answer('urn:example:recursionCount'(1549,3)).
-answer('urn:example:recursionCount'(1550,5)).
-answer('urn:example:recursionCount'(1551,4)).
-answer('urn:example:recursionCount'(1552,3)).
-answer('urn:example:recursionCount'(1553,2)).
-answer('urn:example:recursionCount'(1554,7)).
-answer('urn:example:recursionCount'(1555,4)).
-answer('urn:example:recursionCount'(1556,6)).
-answer('urn:example:recursionCount'(1557,6)).
-answer('urn:example:recursionCount'(1558,4)).
-answer('urn:example:recursionCount'(1559,6)).
-answer('urn:example:recursionCount'(1560,4)).
-answer('urn:example:recursionCount'(1561,5)).
-answer('urn:example:recursionCount'(1562,5)).
-answer('urn:example:recursionCount'(1563,7)).
-answer('urn:example:recursionCount'(1564,7)).
-answer('urn:example:recursionCount'(1565,6)).
-answer('urn:example:recursionCount'(1566,7)).
-answer('urn:example:recursionCount'(1567,7)).
-answer('urn:example:recursionCount'(1568,3)).
-answer('urn:example:recursionCount'(1569,3)).
-answer('urn:example:recursionCount'(1570,3)).
-answer('urn:example:recursionCount'(1571,4)).
-answer('urn:example:recursionCount'(1572,3)).
-answer('urn:example:recursionCount'(1573,1)).
-answer('urn:example:recursionCount'(1574,7)).
-answer('urn:example:recursionCount'(1575,6)).
-answer('urn:example:recursionCount'(1576,7)).
-answer('urn:example:recursionCount'(1577,1)).
-answer('urn:example:recursionCount'(1578,5)).
-answer('urn:example:recursionCount'(1579,6)).
-answer('urn:example:recursionCount'(1580,2)).
-answer('urn:example:recursionCount'(1581,3)).
-answer('urn:example:recursionCount'(1582,6)).
-answer('urn:example:recursionCount'(1583,5)).
-answer('urn:example:recursionCount'(1584,3)).
-answer('urn:example:recursionCount'(1585,4)).
-answer('urn:example:recursionCount'(1586,3)).
-answer('urn:example:recursionCount'(1587,5)).
-answer('urn:example:recursionCount'(1588,6)).
-answer('urn:example:recursionCount'(1589,5)).
-answer('urn:example:recursionCount'(1590,7)).
-answer('urn:example:recursionCount'(1591,2)).
-answer('urn:example:recursionCount'(1592,5)).
-answer('urn:example:recursionCount'(1593,6)).
-answer('urn:example:recursionCount'(1594,3)).
-answer('urn:example:recursionCount'(1595,6)).
-answer('urn:example:recursionCount'(1596,3)).
-answer('urn:example:recursionCount'(1597,6)).
-answer('urn:example:recursionCount'(1598,5)).
-answer('urn:example:recursionCount'(1599,2)).
-answer('urn:example:recursionCount'(1600,7)).
-answer('urn:example:recursionCount'(1601,6)).
-answer('urn:example:recursionCount'(1602,7)).
-answer('urn:example:recursionCount'(1603,1)).
-answer('urn:example:recursionCount'(1604,3)).
-answer('urn:example:recursionCount'(1605,4)).
-answer('urn:example:recursionCount'(1606,5)).
-answer('urn:example:recursionCount'(1607,5)).
-answer('urn:example:recursionCount'(1608,7)).
-answer('urn:example:recursionCount'(1609,7)).
-answer('urn:example:recursionCount'(1610,6)).
-answer('urn:example:recursionCount'(1611,6)).
-answer('urn:example:recursionCount'(1612,7)).
-answer('urn:example:recursionCount'(1613,7)).
-answer('urn:example:recursionCount'(1614,5)).
-answer('urn:example:recursionCount'(1615,5)).
-answer('urn:example:recursionCount'(1616,5)).
-answer('urn:example:recursionCount'(1617,5)).
-answer('urn:example:recursionCount'(1618,5)).
-answer('urn:example:recursionCount'(1619,7)).
-answer('urn:example:recursionCount'(1620,7)).
-answer('urn:example:recursionCount'(1621,7)).
-answer('urn:example:recursionCount'(1622,6)).
-answer('urn:example:recursionCount'(1623,7)).
-answer('urn:example:recursionCount'(1624,7)).
-answer('urn:example:recursionCount'(1625,5)).
-answer('urn:example:recursionCount'(1626,5)).
-answer('urn:example:recursionCount'(1627,4)).
-answer('urn:example:recursionCount'(1628,3)).
-answer('urn:example:recursionCount'(1629,2)).
-answer('urn:example:recursionCount'(1630,1)).
-answer('urn:example:recursionCount'(1631,7)).
-answer('urn:example:recursionCount'(1632,7)).
-answer('urn:example:recursionCount'(1633,6)).
-answer('urn:example:recursionCount'(1634,7)).
-answer('urn:example:recursionCount'(1635,7)).
-answer('urn:example:recursionCount'(1636,5)).
-answer('urn:example:recursionCount'(1637,3)).
-answer('urn:example:recursionCount'(1638,6)).
-answer('urn:example:recursionCount'(1639,5)).
-answer('urn:example:recursionCount'(1640,3)).
-answer('urn:example:recursionCount'(1641,5)).
-answer('urn:example:recursionCount'(1642,7)).
-answer('urn:example:recursionCount'(1643,7)).
-answer('urn:example:recursionCount'(1644,6)).
-answer('urn:example:recursionCount'(1645,7)).
-answer('urn:example:recursionCount'(1646,7)).
-answer('urn:example:recursionCount'(1647,1)).
-answer('urn:example:recursionCount'(1648,5)).
-answer('urn:example:recursionCount'(1649,6)).
-answer('urn:example:recursionCount'(1650,4)).
-answer('urn:example:recursionCount'(1651,5)).
-answer('urn:example:recursionCount'(1652,5)).
-answer('urn:example:recursionCount'(1653,7)).
-answer('urn:example:recursionCount'(1654,7)).
-answer('urn:example:recursionCount'(1655,6)).
-answer('urn:example:recursionCount'(1656,7)).
-answer('urn:example:recursionCount'(1657,7)).
-answer('urn:example:recursionCount'(1658,3)).
-answer('urn:example:recursionCount'(1659,3)).
-answer('urn:example:recursionCount'(1660,5)).
-answer('urn:example:recursionCount'(1661,5)).
-answer('urn:example:recursionCount'(1662,5)).
-answer('urn:example:recursionCount'(1663,5)).
-answer('urn:example:recursionCount'(1664,7)).
-answer('urn:example:recursionCount'(1665,7)).
-answer('urn:example:recursionCount'(1666,6)).
-answer('urn:example:recursionCount'(1667,6)).
-answer('urn:example:recursionCount'(1668,4)).
-answer('urn:example:recursionCount'(1669,6)).
-answer('urn:example:recursionCount'(1670,5)).
-answer('urn:example:recursionCount'(1671,5)).
-answer('urn:example:recursionCount'(1672,4)).
-answer('urn:example:recursionCount'(1673,3)).
-answer('urn:example:recursionCount'(1674,1)).
-answer('urn:example:recursionCount'(1675,7)).
-answer('urn:example:recursionCount'(1676,6)).
-answer('urn:example:recursionCount'(1677,7)).
-answer('urn:example:recursionCount'(1678,3)).
-answer('urn:example:recursionCount'(1679,3)).
-answer('urn:example:recursionCount'(1680,7)).
-answer('urn:example:recursionCount'(1681,5)).
-answer('urn:example:recursionCount'(1682,3)).
-answer('urn:example:recursionCount'(1683,6)).
-answer('urn:example:recursionCount'(1684,5)).
-answer('urn:example:recursionCount'(1685,3)).
-answer('urn:example:recursionCount'(1686,4)).
-answer('urn:example:recursionCount'(1687,3)).
-answer('urn:example:recursionCount'(1688,5)).
-answer('urn:example:recursionCount'(1689,6)).
-answer('urn:example:recursionCount'(1690,7)).
-answer('urn:example:recursionCount'(1691,7)).
-answer('urn:example:recursionCount'(1692,2)).
-answer('urn:example:recursionCount'(1693,5)).
-answer('urn:example:recursionCount'(1694,6)).
-answer('urn:example:recursionCount'(1695,3)).
-answer('urn:example:recursionCount'(1696,6)).
-answer('urn:example:recursionCount'(1697,3)).
-answer('urn:example:recursionCount'(1698,6)).
-answer('urn:example:recursionCount'(1699,5)).
-answer('urn:example:recursionCount'(1700,3)).
-answer('urn:example:recursionCount'(1701,4)).
-answer('urn:example:recursionCount'(1702,3)).
-answer('urn:example:recursionCount'(1703,5)).
-answer('urn:example:recursionCount'(1704,6)).
-answer('urn:example:recursionCount'(1705,3)).
-answer('urn:example:recursionCount'(1706,5)).
-answer('urn:example:recursionCount'(1707,3)).
-answer('urn:example:recursionCount'(1708,2)).
-answer('urn:example:recursionCount'(1709,7)).
-answer('urn:example:recursionCount'(1710,4)).
-answer('urn:example:recursionCount'(1711,6)).
-answer('urn:example:recursionCount'(1712,7)).
-answer('urn:example:recursionCount'(1713,1)).
-answer('urn:example:recursionCount'(1714,3)).
-answer('urn:example:recursionCount'(1715,4)).
-answer('urn:example:recursionCount'(1716,5)).
-answer('urn:example:recursionCount'(1717,4)).
-answer('urn:example:recursionCount'(1718,3)).
-answer('urn:example:recursionCount'(1719,2)).
-answer('urn:example:recursionCount'(1720,3)).
-answer('urn:example:recursionCount'(1721,7)).
-answer('urn:example:recursionCount'(1722,6)).
-answer('urn:example:recursionCount'(1723,7)).
-answer('urn:example:recursionCount'(1724,1)).
-answer('urn:example:recursionCount'(1725,3)).
-answer('urn:example:recursionCount'(1726,4)).
-answer('urn:example:recursionCount'(1727,5)).
-answer('urn:example:recursionCount'(1728,5)).
-answer('urn:example:recursionCount'(1729,7)).
-answer('urn:example:recursionCount'(1730,5)).
-answer('urn:example:recursionCount'(1731,1)).
-answer('urn:example:recursionCount'(1732,7)).
-answer('urn:example:recursionCount'(1733,6)).
-answer('urn:example:recursionCount'(1734,7)).
-answer('urn:example:recursionCount'(1735,1)).
-answer('urn:example:recursionCount'(1736,3)).
-answer('urn:example:recursionCount'(1737,4)).
-answer('urn:example:recursionCount'(1738,3)).
-answer('urn:example:recursionCount'(1739,2)).
-answer('urn:example:recursionCount'(1740,6)).
-answer('urn:example:recursionCount'(1741,3)).
-answer('urn:example:recursionCount'(1742,1)).
-answer('urn:example:recursionCount'(1743,7)).
-answer('urn:example:recursionCount'(1744,6)).
-answer('urn:example:recursionCount'(1745,7)).
-answer('urn:example:recursionCount'(1746,1)).
-answer('urn:example:recursionCount'(1747,3)).
-answer('urn:example:recursionCount'(1748,6)).
-answer('urn:example:recursionCount'(1749,5)).
-answer('urn:example:recursionCount'(1750,3)).
-answer('urn:example:recursionCount'(1751,4)).
-answer('urn:example:recursionCount'(1752,3)).
-answer('urn:example:recursionCount'(1753,1)).
-answer('urn:example:recursionCount'(1754,7)).
-answer('urn:example:recursionCount'(1755,6)).
-answer('urn:example:recursionCount'(1756,7)).
-answer('urn:example:recursionCount'(1757,1)).
-answer('urn:example:recursionCount'(1758,5)).
-answer('urn:example:recursionCount'(1759,6)).
-answer('urn:example:recursionCount'(1760,5)).
-answer('urn:example:recursionCount'(1761,5)).
-answer('urn:example:recursionCount'(1762,4)).
-answer('urn:example:recursionCount'(1763,3)).
-answer('urn:example:recursionCount'(1764,1)).
-answer('urn:example:recursionCount'(1765,7)).
-answer('urn:example:recursionCount'(1766,6)).
-answer('urn:example:recursionCount'(1767,7)).
-answer('urn:example:recursionCount'(1768,3)).
-answer('urn:example:recursionCount'(1769,3)).
-answer('urn:example:recursionCount'(1770,3)).
-answer('urn:example:recursionCount'(1771,4)).
-answer('urn:example:recursionCount'(1772,5)).
-answer('urn:example:recursionCount'(1773,4)).
-answer('urn:example:recursionCount'(1774,3)).
-answer('urn:example:recursionCount'(1775,1)).
-answer('urn:example:recursionCount'(1776,7)).
-answer('urn:example:recursionCount'(1777,6)).
-answer('urn:example:recursionCount'(1778,4)).
-answer('urn:example:recursionCount'(1779,6)).
-answer('urn:example:recursionCount'(1780,2)).
-answer('urn:example:recursionCount'(1781,3)).
-answer('urn:example:recursionCount'(1782,5)).
-answer('urn:example:recursionCount'(1783,3)).
-answer('urn:example:recursionCount'(1784,6)).
-answer('urn:example:recursionCount'(1785,5)).
-answer('urn:example:recursionCount'(1786,3)).
-answer('urn:example:recursionCount'(1787,4)).
-answer('urn:example:recursionCount'(1788,3)).
-answer('urn:example:recursionCount'(1789,3)).
-answer('urn:example:recursionCount'(1790,7)).
-answer('urn:example:recursionCount'(1791,2)).
-answer('urn:example:recursionCount'(1792,7)).
-answer('urn:example:recursionCount'(1793,2)).
-answer('urn:example:recursionCount'(1794,5)).
-answer('urn:example:recursionCount'(1795,6)).
-answer('urn:example:recursionCount'(1796,3)).
-answer('urn:example:recursionCount'(1797,6)).
-answer('urn:example:recursionCount'(1798,3)).
-answer('urn:example:recursionCount'(1799,6)).
-answer('urn:example:recursionCount'(1800,3)).
-answer('urn:example:recursionCount'(1801,6)).
-answer('urn:example:recursionCount'(1802,3)).
-answer('urn:example:recursionCount'(1803,6)).
-answer('urn:example:recursionCount'(1804,5)).
-answer('urn:example:recursionCount'(1805,2)).
-answer('urn:example:recursionCount'(1806,7)).
-answer('urn:example:recursionCount'(1807,2)).
-answer('urn:example:recursionCount'(1808,5)).
-answer('urn:example:recursionCount'(1809,3)).
-answer('urn:example:recursionCount'(1810,6)).
-answer('urn:example:recursionCount'(1811,4)).
-answer('urn:example:recursionCount'(1812,3)).
-answer('urn:example:recursionCount'(1813,5)).
-answer('urn:example:recursionCount'(1814,6)).
-answer('urn:example:recursionCount'(1815,3)).
-answer('urn:example:recursionCount'(1816,5)).
-answer('urn:example:recursionCount'(1817,3)).
-answer('urn:example:recursionCount'(1818,6)).
-answer('urn:example:recursionCount'(1819,5)).
-answer('urn:example:recursionCount'(1820,3)).
-answer('urn:example:recursionCount'(1821,3)).
-answer('urn:example:recursionCount'(1822,4)).
-answer('urn:example:recursionCount'(1823,3)).
-answer('urn:example:recursionCount'(1824,5)).
-answer('urn:example:recursionCount'(1825,6)).
-answer('urn:example:recursionCount'(1826,3)).
-answer('urn:example:recursionCount'(1827,5)).
-answer('urn:example:recursionCount'(1828,3)).
-answer('urn:example:recursionCount'(1829,2)).
-answer('urn:example:recursionCount'(1830,6)).
-answer('urn:example:recursionCount'(1831,5)).
-answer('urn:example:recursionCount'(1832,3)).
-answer('urn:example:recursionCount'(1833,4)).
-answer('urn:example:recursionCount'(1834,3)).
-answer('urn:example:recursionCount'(1835,5)).
-answer('urn:example:recursionCount'(1836,6)).
-answer('urn:example:recursionCount'(1837,3)).
-answer('urn:example:recursionCount'(1838,5)).
-answer('urn:example:recursionCount'(1839,7)).
-answer('urn:example:recursionCount'(1840,5)).
-answer('urn:example:recursionCount'(1841,6)).
-answer('urn:example:recursionCount'(1842,5)).
-answer('urn:example:recursionCount'(1843,3)).
-answer('urn:example:recursionCount'(1844,4)).
-answer('urn:example:recursionCount'(1845,3)).
-answer('urn:example:recursionCount'(1846,5)).
-answer('urn:example:recursionCount'(1847,6)).
-answer('urn:example:recursionCount'(1848,3)).
-answer('urn:example:recursionCount'(1849,2)).
-answer('urn:example:recursionCount'(1850,2)).
-answer('urn:example:recursionCount'(1851,3)).
-answer('urn:example:recursionCount'(1852,6)).
-answer('urn:example:recursionCount'(1853,5)).
-answer('urn:example:recursionCount'(1854,3)).
-answer('urn:example:recursionCount'(1855,4)).
-answer('urn:example:recursionCount'(1856,3)).
-answer('urn:example:recursionCount'(1857,5)).
-answer('urn:example:recursionCount'(1858,6)).
-answer('urn:example:recursionCount'(1859,5)).
-answer('urn:example:recursionCount'(1860,7)).
-answer('urn:example:recursionCount'(1861,5)).
-answer('urn:example:recursionCount'(1862,3)).
-answer('urn:example:recursionCount'(1863,6)).
-answer('urn:example:recursionCount'(1864,5)).
-answer('urn:example:recursionCount'(1865,3)).
-answer('urn:example:recursionCount'(1866,4)).
-answer('urn:example:recursionCount'(1867,3)).
-answer('urn:example:recursionCount'(1868,5)).
-answer('urn:example:recursionCount'(1869,6)).
-answer('urn:example:recursionCount'(1870,2)).
-answer('urn:example:recursionCount'(1871,3)).
-answer('urn:example:recursionCount'(1872,5)).
-answer('urn:example:recursionCount'(1873,3)).
-answer('urn:example:recursionCount'(1874,6)).
-answer('urn:example:recursionCount'(1875,5)).
-answer('urn:example:recursionCount'(1876,3)).
-answer('urn:example:recursionCount'(1877,4)).
-answer('urn:example:recursionCount'(1878,3)).
-answer('urn:example:recursionCount'(1879,3)).
-answer('urn:example:recursionCount'(1880,5)).
-answer('urn:example:recursionCount'(1881,6)).
-answer('urn:example:recursionCount'(1882,3)).
-answer('urn:example:recursionCount'(1883,5)).
-answer('urn:example:recursionCount'(1884,3)).
-answer('urn:example:recursionCount'(1885,6)).
-answer('urn:example:recursionCount'(1886,5)).
-answer('urn:example:recursionCount'(1887,3)).
-answer('urn:example:recursionCount'(1888,4)).
-answer('urn:example:recursionCount'(1889,6)).
-answer('urn:example:recursionCount'(1890,3)).
-answer('urn:example:recursionCount'(1891,5)).
-answer('urn:example:recursionCount'(1892,2)).
-answer('urn:example:recursionCount'(1893,7)).
-answer('urn:example:recursionCount'(1894,2)).
-answer('urn:example:recursionCount'(1895,5)).
-answer('urn:example:recursionCount'(1896,6)).
-answer('urn:example:recursionCount'(1897,3)).
-answer('urn:example:recursionCount'(1898,6)).
-answer('urn:example:recursionCount'(1899,3)).
-answer('urn:example:recursionCount'(1900,4)).
-answer('urn:example:recursionCount'(1901,4)).
-answer('urn:example:recursionCount'(1902,4)).
-answer('urn:example:recursionCount'(1903,3)).
-answer('urn:example:recursionCount'(1904,3)).
-answer('urn:example:recursionCount'(1905,7)).
-answer('urn:example:recursionCount'(1906,7)).
-answer('urn:example:recursionCount'(1907,7)).
-answer('urn:example:recursionCount'(1908,3)).
-answer('urn:example:recursionCount'(1909,3)).
-answer('urn:example:recursionCount'(1910,4)).
-answer('urn:example:recursionCount'(1911,6)).
-answer('urn:example:recursionCount'(1912,3)).
-answer('urn:example:recursionCount'(1913,6)).
-answer('urn:example:recursionCount'(1914,5)).
-answer('urn:example:recursionCount'(1915,2)).
-answer('urn:example:recursionCount'(1916,7)).
-answer('urn:example:recursionCount'(1917,2)).
-answer('urn:example:recursionCount'(1918,5)).
-answer('urn:example:recursionCount'(1919,6)).
-answer('urn:example:recursionCount'(1920,4)).
-answer('urn:example:recursionCount'(1921,3)).
-answer('urn:example:recursionCount'(1922,6)).
-answer('urn:example:recursionCount'(1923,3)).
-answer('urn:example:recursionCount'(1924,6)).
-answer('urn:example:recursionCount'(1925,5)).
-answer('urn:example:recursionCount'(1926,2)).
-answer('urn:example:recursionCount'(1927,7)).
-answer('urn:example:recursionCount'(1928,2)).
-answer('urn:example:recursionCount'(1929,5)).
-answer('urn:example:recursionCount'(1930,3)).
-answer('urn:example:recursionCount'(1931,6)).
-answer('urn:example:recursionCount'(1932,3)).
-answer('urn:example:recursionCount'(1933,6)).
-answer('urn:example:recursionCount'(1934,3)).
-answer('urn:example:recursionCount'(1935,6)).
-answer('urn:example:recursionCount'(1936,5)).
-answer('urn:example:recursionCount'(1937,2)).
-answer('urn:example:recursionCount'(1938,7)).
-answer('urn:example:recursionCount'(1939,2)).
-answer('urn:example:recursionCount'(1940,3)).
-answer('urn:example:recursionCount'(1941,5)).
-answer('urn:example:recursionCount'(1942,6)).
-answer('urn:example:recursionCount'(1943,3)).
-answer('urn:example:recursionCount'(1944,6)).
-answer('urn:example:recursionCount'(1945,3)).
-answer('urn:example:recursionCount'(1946,6)).
-answer('urn:example:recursionCount'(1947,5)).
-answer('urn:example:recursionCount'(1948,2)).
-answer('urn:example:recursionCount'(1949,7)).
-answer('urn:example:recursionCount'(1950,7)).
-answer('urn:example:recursionCount'(1951,2)).
-answer('urn:example:recursionCount'(1952,5)).
-answer('urn:example:recursionCount'(1953,6)).
-answer('urn:example:recursionCount'(1954,3)).
-answer('urn:example:recursionCount'(1955,6)).
-answer('urn:example:recursionCount'(1956,3)).
-answer('urn:example:recursionCount'(1957,6)).
-answer('urn:example:recursionCount'(1958,5)).
-answer('urn:example:recursionCount'(1959,2)).
-answer('urn:example:recursionCount'(1960,7)).
-answer('urn:example:recursionCount'(1961,7)).
-answer('urn:example:recursionCount'(1962,2)).
-answer('urn:example:recursionCount'(1963,5)).
-answer('urn:example:recursionCount'(1964,6)).
-answer('urn:example:recursionCount'(1965,3)).
-answer('urn:example:recursionCount'(1966,6)).
-answer('urn:example:recursionCount'(1967,3)).
-answer('urn:example:recursionCount'(1968,6)).
-answer('urn:example:recursionCount'(1969,5)).
-answer('urn:example:recursionCount'(1970,7)).
-answer('urn:example:recursionCount'(1971,2)).
-answer('urn:example:recursionCount'(1972,7)).
-answer('urn:example:recursionCount'(1973,2)).
-answer('urn:example:recursionCount'(1974,5)).
-answer('urn:example:recursionCount'(1975,6)).
-answer('urn:example:recursionCount'(1976,3)).
-answer('urn:example:recursionCount'(1977,6)).
-answer('urn:example:recursionCount'(1978,3)).
-answer('urn:example:recursionCount'(1979,6)).
-answer('urn:example:recursionCount'(1980,3)).
-answer('urn:example:recursionCount'(1981,5)).
-answer('urn:example:recursionCount'(1982,2)).
-answer('urn:example:recursionCount'(1983,7)).
-answer('urn:example:recursionCount'(1984,2)).
-answer('urn:example:recursionCount'(1985,5)).
-answer('urn:example:recursionCount'(1986,6)).
-answer('urn:example:recursionCount'(1987,3)).
-answer('urn:example:recursionCount'(1988,6)).
-answer('urn:example:recursionCount'(1989,3)).
-answer('urn:example:recursionCount'(1990,3)).
-answer('urn:example:recursionCount'(1991,6)).
-answer('urn:example:recursionCount'(1992,5)).
-answer('urn:example:recursionCount'(1993,2)).
-answer('urn:example:recursionCount'(1994,7)).
-answer('urn:example:recursionCount'(1995,2)).
-answer('urn:example:recursionCount'(1996,5)).
-answer('urn:example:recursionCount'(1997,6)).
-answer('urn:example:recursionCount'(1998,3)).
-answer('urn:example:recursionCount'(1999,6)).
-answer('urn:example:recursionCount'(2000,4)).
-answer('urn:example:recursionCount'(2001,3)).
-answer('urn:example:recursionCount'(2002,6)).
-answer('urn:example:recursionCount'(2003,5)).
-answer('urn:example:recursionCount'(2004,2)).
-answer('urn:example:recursionCount'(2005,7)).
-answer('urn:example:recursionCount'(2006,1)).
-answer('urn:example:recursionCount'(2007,5)).
-answer('urn:example:recursionCount'(2008,6)).
-answer('urn:example:recursionCount'(2009,3)).
-answer('urn:example:recursionCount'(2010,3)).
-answer('urn:example:recursionCount'(2011,4)).
-answer('urn:example:recursionCount'(2012,3)).
-answer('urn:example:recursionCount'(2013,3)).
-answer('urn:example:recursionCount'(2014,7)).
-answer('urn:example:recursionCount'(2015,7)).
-answer('urn:example:recursionCount'(2016,7)).
-answer('urn:example:recursionCount'(2017,3)).
-answer('urn:example:recursionCount'(2018,3)).
-answer('urn:example:recursionCount'(2019,4)).
-answer('urn:example:recursionCount'(2020,6)).
-answer('urn:example:recursionCount'(2021,3)).
-answer('urn:example:recursionCount'(2022,4)).
-answer('urn:example:recursionCount'(2023,6)).
-answer('urn:example:recursionCount'(2024,4)).
-answer('urn:example:recursionCount'(2025,6)).
-answer('urn:example:recursionCount'(2026,6)).
-answer('urn:example:recursionCount'(2027,4)).
-answer('urn:example:recursionCount'(2028,6)).
-answer('urn:example:recursionCount'(2029,4)).
-answer('urn:example:recursionCount'(2030,5)).
-answer('urn:example:recursionCount'(2031,3)).
-answer('urn:example:recursionCount'(2032,6)).
-answer('urn:example:recursionCount'(2033,3)).
-answer('urn:example:recursionCount'(2034,7)).
-answer('urn:example:recursionCount'(2035,7)).
-answer('urn:example:recursionCount'(2036,7)).
-answer('urn:example:recursionCount'(2037,3)).
-answer('urn:example:recursionCount'(2038,3)).
-answer('urn:example:recursionCount'(2039,4)).
-answer('urn:example:recursionCount'(2040,2)).
-answer('urn:example:recursionCount'(2041,7)).
-answer('urn:example:recursionCount'(2042,4)).
-answer('urn:example:recursionCount'(2043,7)).
-answer('urn:example:recursionCount'(2044,2)).
-answer('urn:example:recursionCount'(2045,7)).
-answer('urn:example:recursionCount'(2046,1)).
-answer('urn:example:recursionCount'(2047,5)).
-answer('urn:example:recursionCount'(2048,6)).
-answer('urn:example:recursionCount'(2049,3)).
-answer('urn:example:recursionCount'(2050,7)).
-answer('urn:example:recursionCount'(2051,7)).
-answer('urn:example:recursionCount'(2052,6)).
-answer('urn:example:recursionCount'(2053,7)).
-answer('urn:example:recursionCount'(2054,7)).
-answer('urn:example:recursionCount'(2055,5)).
-answer('urn:example:recursionCount'(2056,3)).
-answer('urn:example:recursionCount'(2057,6)).
-answer('urn:example:recursionCount'(2058,5)).
-answer('urn:example:recursionCount'(2059,3)).
-answer('urn:example:recursionCount'(2060,1)).
-answer('urn:example:recursionCount'(2061,7)).
-answer('urn:example:recursionCount'(2062,6)).
-answer('urn:example:recursionCount'(2063,7)).
-answer('urn:example:recursionCount'(2064,1)).
-answer('urn:example:recursionCount'(2065,3)).
-answer('urn:example:recursionCount'(2066,4)).
-answer('urn:example:recursionCount'(2067,3)).
-answer('urn:example:recursionCount'(2068,2)).
-answer('urn:example:recursionCount'(2069,7)).
-answer('urn:example:recursionCount'(2070,5)).
-answer('urn:example:recursionCount'(2071,3)).
-answer('urn:example:recursionCount'(2072,4)).
-answer('urn:example:recursionCount'(2073,3)).
-answer('urn:example:recursionCount'(2074,5)).
-answer('urn:example:recursionCount'(2075,6)).
-answer('urn:example:recursionCount'(2076,3)).
-answer('urn:example:recursionCount'(2077,5)).
-answer('urn:example:recursionCount'(2078,7)).
-answer('urn:example:recursionCount'(2079,7)).
-answer('urn:example:recursionCount'(2080,6)).
-answer('urn:example:recursionCount'(2081,3)).
-answer('urn:example:recursionCount'(2082,6)).
-answer('urn:example:recursionCount'(2083,3)).
-answer('urn:example:recursionCount'(2084,6)).
-answer('urn:example:recursionCount'(2085,5)).
-answer('urn:example:recursionCount'(2086,2)).
-answer('urn:example:recursionCount'(2087,7)).
-answer('urn:example:recursionCount'(2088,2)).
-answer('urn:example:recursionCount'(2089,7)).
-answer('urn:example:recursionCount'(2090,3)).
-answer('urn:example:recursionCount'(2091,4)).
-answer('urn:example:recursionCount'(2092,4)).
-answer('urn:example:recursionCount'(2093,4)).
-answer('urn:example:recursionCount'(2094,3)).
-answer('urn:example:recursionCount'(2095,3)).
-answer('urn:example:recursionCount'(2096,7)).
-answer('urn:example:recursionCount'(2097,7)).
-answer('urn:example:recursionCount'(2098,7)).
-answer('urn:example:recursionCount'(2099,3)).
-answer('urn:example:recursionCount'(2100,3)).
-answer('urn:example:recursionCount'(2101,4)).
-answer('urn:example:recursionCount'(2102,3)).
-answer('urn:example:recursionCount'(2103,3)).
-answer('urn:example:recursionCount'(2104,7)).
-answer('urn:example:recursionCount'(2105,7)).
-answer('urn:example:recursionCount'(2106,7)).
-answer('urn:example:recursionCount'(2107,3)).
-answer('urn:example:recursionCount'(2108,3)).
-answer('urn:example:recursionCount'(2109,4)).
-answer('urn:example:recursionCount'(2110,4)).
-answer('urn:example:recursionCount'(2111,5)).
-answer('urn:example:recursionCount'(2112,4)).
-answer('urn:example:recursionCount'(2113,3)).
-answer('urn:example:recursionCount'(2114,3)).
-answer('urn:example:recursionCount'(2115,7)).
-answer('urn:example:recursionCount'(2116,7)).
-answer('urn:example:recursionCount'(2117,7)).
-answer('urn:example:recursionCount'(2118,3)).
-answer('urn:example:recursionCount'(2119,3)).
-answer('urn:example:recursionCount'(2120,3)).
-answer('urn:example:recursionCount'(2121,4)).
-answer('urn:example:recursionCount'(2122,5)).
-answer('urn:example:recursionCount'(2123,4)).
-answer('urn:example:recursionCount'(2124,6)).
-answer('urn:example:recursionCount'(2125,4)).
-answer('urn:example:recursionCount'(2126,6)).
-answer('urn:example:recursionCount'(2127,6)).
-answer('urn:example:recursionCount'(2128,4)).
-answer('urn:example:recursionCount'(2129,6)).
-answer('urn:example:recursionCount'(2130,3)).
-answer('urn:example:recursionCount'(2131,3)).
-answer('urn:example:recursionCount'(2132,4)).
-answer('urn:example:recursionCount'(2133,3)).
-answer('urn:example:recursionCount'(2134,3)).
-answer('urn:example:recursionCount'(2135,7)).
-answer('urn:example:recursionCount'(2136,7)).
-answer('urn:example:recursionCount'(2137,7)).
-answer('urn:example:recursionCount'(2138,3)).
-answer('urn:example:recursionCount'(2139,3)).
-answer('urn:example:recursionCount'(2140,7)).
-answer('urn:example:recursionCount'(2141,3)).
-answer('urn:example:recursionCount'(2142,6)).
-answer('urn:example:recursionCount'(2143,3)).
-answer('urn:example:recursionCount'(2144,5)).
-answer('urn:example:recursionCount'(2145,2)).
-answer('urn:example:recursionCount'(2146,7)).
-answer('urn:example:recursionCount'(2147,1)).
-answer('urn:example:recursionCount'(2148,5)).
-answer('urn:example:recursionCount'(2149,6)).
-answer('urn:example:recursionCount'(2150,7)).
-answer('urn:example:recursionCount'(2151,7)).
-answer('urn:example:recursionCount'(2152,4)).
-answer('urn:example:recursionCount'(2153,7)).
-answer('urn:example:recursionCount'(2154,2)).
-answer('urn:example:recursionCount'(2155,3)).
-answer('urn:example:recursionCount'(2156,5)).
-answer('urn:example:recursionCount'(2157,3)).
-answer('urn:example:recursionCount'(2158,6)).
-answer('urn:example:recursionCount'(2159,5)).
-answer('urn:example:recursionCount'(2160,7)).
-answer('urn:example:recursionCount'(2161,7)).
-answer('urn:example:recursionCount'(2162,6)).
-answer('urn:example:recursionCount'(2163,7)).
-answer('urn:example:recursionCount'(2164,7)).
-answer('urn:example:recursionCount'(2165,5)).
-answer('urn:example:recursionCount'(2166,5)).
-answer('urn:example:recursionCount'(2167,4)).
-answer('urn:example:recursionCount'(2168,3)).
-answer('urn:example:recursionCount'(2169,2)).
-answer('urn:example:recursionCount'(2170,3)).
-answer('urn:example:recursionCount'(2171,7)).
-answer('urn:example:recursionCount'(2172,6)).
-answer('urn:example:recursionCount'(2173,7)).
-answer('urn:example:recursionCount'(2174,1)).
-answer('urn:example:recursionCount'(2175,3)).
-answer('urn:example:recursionCount'(2176,4)).
-answer('urn:example:recursionCount'(2177,5)).
-answer('urn:example:recursionCount'(2178,5)).
-answer('urn:example:recursionCount'(2179,7)).
-answer('urn:example:recursionCount'(2180,3)).
-answer('urn:example:recursionCount'(2181,3)).
-answer('urn:example:recursionCount'(2182,4)).
-answer('urn:example:recursionCount'(2183,3)).
-answer('urn:example:recursionCount'(2184,5)).
-answer('urn:example:recursionCount'(2185,6)).
-answer('urn:example:recursionCount'(2186,3)).
-answer('urn:example:recursionCount'(2187,5)).
-answer('urn:example:recursionCount'(2188,3)).
-answer('urn:example:recursionCount'(2189,2)).
-answer('urn:example:recursionCount'(2190,4)).
-answer('urn:example:recursionCount'(2191,3)).
-answer('urn:example:recursionCount'(2192,6)).
-answer('urn:example:recursionCount'(2193,3)).
-answer('urn:example:recursionCount'(2194,6)).
-answer('urn:example:recursionCount'(2195,5)).
-answer('urn:example:recursionCount'(2196,2)).
-answer('urn:example:recursionCount'(2197,7)).
-answer('urn:example:recursionCount'(2198,2)).
-answer('urn:example:recursionCount'(2199,5)).
-answer('urn:example:recursionCount'(2200,6)).
-answer('urn:example:recursionCount'(2201,3)).
-answer('urn:example:recursionCount'(2202,4)).
-answer('urn:example:recursionCount'(2203,6)).
-answer('urn:example:recursionCount'(2204,4)).
-answer('urn:example:recursionCount'(2205,6)).
-answer('urn:example:recursionCount'(2206,6)).
-answer('urn:example:recursionCount'(2207,4)).
-answer('urn:example:recursionCount'(2208,6)).
-answer('urn:example:recursionCount'(2209,4)).
-answer('urn:example:recursionCount'(2210,3)).
-answer('urn:example:recursionCount'(2211,4)).
-answer('urn:example:recursionCount'(2212,5)).
-answer('urn:example:recursionCount'(2213,4)).
-answer('urn:example:recursionCount'(2214,6)).
-answer('urn:example:recursionCount'(2215,4)).
-answer('urn:example:recursionCount'(2216,6)).
-answer('urn:example:recursionCount'(2217,6)).
-answer('urn:example:recursionCount'(2218,4)).
-answer('urn:example:recursionCount'(2219,6)).
-answer('urn:example:recursionCount'(2220,4)).
-answer('urn:example:recursionCount'(2221,5)).
-answer('urn:example:recursionCount'(2223,5)).
-answer('urn:example:recursionCount'(2224,4)).
-answer('urn:example:recursionCount'(2225,6)).
-answer('urn:example:recursionCount'(2226,4)).
-answer('urn:example:recursionCount'(2227,6)).
-answer('urn:example:recursionCount'(2228,6)).
-answer('urn:example:recursionCount'(2229,4)).
-answer('urn:example:recursionCount'(2230,6)).
-answer('urn:example:recursionCount'(2231,4)).
-answer('urn:example:recursionCount'(2232,5)).
-answer('urn:example:recursionCount'(2233,4)).
-answer('urn:example:recursionCount'(2234,3)).
-answer('urn:example:recursionCount'(2235,3)).
-answer('urn:example:recursionCount'(2236,7)).
-answer('urn:example:recursionCount'(2237,7)).
-answer('urn:example:recursionCount'(2238,7)).
-answer('urn:example:recursionCount'(2239,3)).
-answer('urn:example:recursionCount'(2240,4)).
-answer('urn:example:recursionCount'(2241,6)).
-answer('urn:example:recursionCount'(2242,4)).
-answer('urn:example:recursionCount'(2243,3)).
-answer('urn:example:recursionCount'(2244,6)).
-answer('urn:example:recursionCount'(2245,5)).
-answer('urn:example:recursionCount'(2246,2)).
-answer('urn:example:recursionCount'(2247,7)).
-answer('urn:example:recursionCount'(2248,1)).
-answer('urn:example:recursionCount'(2249,5)).
-answer('urn:example:recursionCount'(2250,6)).
-answer('urn:example:recursionCount'(2251,4)).
-answer('urn:example:recursionCount'(2252,6)).
-answer('urn:example:recursionCount'(2253,3)).
-answer('urn:example:recursionCount'(2254,5)).
-answer('urn:example:recursionCount'(2255,6)).
-answer('urn:example:recursionCount'(2256,3)).
-answer('urn:example:recursionCount'(2257,5)).
-answer('urn:example:recursionCount'(2258,3)).
-answer('urn:example:recursionCount'(2259,6)).
-answer('urn:example:recursionCount'(2260,6)).
-answer('urn:example:recursionCount'(2261,6)).
-answer('urn:example:recursionCount'(2262,4)).
-answer('urn:example:recursionCount'(2263,7)).
-answer('urn:example:recursionCount'(2264,2)).
-answer('urn:example:recursionCount'(2265,3)).
-answer('urn:example:recursionCount'(2266,4)).
-answer('urn:example:recursionCount'(2267,5)).
-answer('urn:example:recursionCount'(2268,4)).
-answer('urn:example:recursionCount'(2269,3)).
-answer('urn:example:recursionCount'(2270,4)).
-answer('urn:example:recursionCount'(2271,6)).
-answer('urn:example:recursionCount'(2272,6)).
-answer('urn:example:recursionCount'(2273,7)).
-answer('urn:example:recursionCount'(2274,7)).
-answer('urn:example:recursionCount'(2275,5)).
-answer('urn:example:recursionCount'(2276,5)).
-answer('urn:example:recursionCount'(2277,5)).
-answer('urn:example:recursionCount'(2278,5)).
-answer('urn:example:recursionCount'(2279,5)).
-answer('urn:example:recursionCount'(2280,6)).
-answer('urn:example:recursionCount'(2281,4)).
-answer('urn:example:recursionCount'(2282,6)).
-answer('urn:example:recursionCount'(2283,7)).
-answer('urn:example:recursionCount'(2284,1)).
-answer('urn:example:recursionCount'(2285,3)).
-answer('urn:example:recursionCount'(2286,4)).
-answer('urn:example:recursionCount'(2287,5)).
-answer('urn:example:recursionCount'(2288,4)).
-answer('urn:example:recursionCount'(2289,3)).
-answer('urn:example:recursionCount'(2290,4)).
-answer('urn:example:recursionCount'(2291,6)).
-answer('urn:example:recursionCount'(2292,4)).
-answer('urn:example:recursionCount'(2293,3)).
-answer('urn:example:recursionCount'(2294,5)).
-answer('urn:example:recursionCount'(2295,6)).
-answer('urn:example:recursionCount'(2296,3)).
-answer('urn:example:recursionCount'(2297,5)).
-answer('urn:example:recursionCount'(2298,3)).
-answer('urn:example:recursionCount'(2299,6)).
-answer('urn:example:recursionCount'(2300,5)).
-answer('urn:example:recursionCount'(2301,3)).
-answer('urn:example:recursionCount'(2302,6)).
-answer('urn:example:recursionCount'(2303,3)).
-answer('urn:example:recursionCount'(2304,7)).
-answer('urn:example:recursionCount'(2305,7)).
-answer('urn:example:recursionCount'(2306,7)).
-answer('urn:example:recursionCount'(2307,3)).
-answer('urn:example:recursionCount'(2308,3)).
-answer('urn:example:recursionCount'(2309,4)).
-answer('urn:example:recursionCount'(2310,3)).
-answer('urn:example:recursionCount'(2311,3)).
-answer('urn:example:recursionCount'(2312,4)).
-answer('urn:example:recursionCount'(2313,3)).
-answer('urn:example:recursionCount'(2314,3)).
-answer('urn:example:recursionCount'(2315,7)).
-answer('urn:example:recursionCount'(2316,7)).
-answer('urn:example:recursionCount'(2317,7)).
-answer('urn:example:recursionCount'(2318,3)).
-answer('urn:example:recursionCount'(2319,3)).
-answer('urn:example:recursionCount'(2320,6)).
-answer('urn:example:recursionCount'(2321,4)).
-answer('urn:example:recursionCount'(2322,5)).
-answer('urn:example:recursionCount'(2323,4)).
-answer('urn:example:recursionCount'(2324,3)).
-answer('urn:example:recursionCount'(2325,3)).
-answer('urn:example:recursionCount'(2326,7)).
-answer('urn:example:recursionCount'(2327,7)).
-answer('urn:example:recursionCount'(2328,7)).
-answer('urn:example:recursionCount'(2329,3)).
-answer('urn:example:recursionCount'(2330,3)).
-answer('urn:example:recursionCount'(2331,3)).
-answer('urn:example:recursionCount'(2332,4)).
-answer('urn:example:recursionCount'(2333,5)).
-answer('urn:example:recursionCount'(2334,4)).
-answer('urn:example:recursionCount'(2335,6)).
-answer('urn:example:recursionCount'(2336,4)).
-answer('urn:example:recursionCount'(2337,6)).
-answer('urn:example:recursionCount'(2338,6)).
-answer('urn:example:recursionCount'(2339,4)).
-answer('urn:example:recursionCount'(2340,7)).
-answer('urn:example:recursionCount'(2341,3)).
-answer('urn:example:recursionCount'(2342,3)).
-answer('urn:example:recursionCount'(2343,4)).
-answer('urn:example:recursionCount'(2344,3)).
-answer('urn:example:recursionCount'(2345,3)).
-answer('urn:example:recursionCount'(2346,7)).
-answer('urn:example:recursionCount'(2347,7)).
-answer('urn:example:recursionCount'(2348,7)).
-answer('urn:example:recursionCount'(2349,3)).
-answer('urn:example:recursionCount'(2350,7)).
-answer('urn:example:recursionCount'(2351,7)).
-answer('urn:example:recursionCount'(2352,3)).
-answer('urn:example:recursionCount'(2353,6)).
-answer('urn:example:recursionCount'(2354,3)).
-answer('urn:example:recursionCount'(2355,5)).
-answer('urn:example:recursionCount'(2356,2)).
-answer('urn:example:recursionCount'(2357,7)).
-answer('urn:example:recursionCount'(2358,1)).
-answer('urn:example:recursionCount'(2359,5)).
-answer('urn:example:recursionCount'(2360,7)).
-answer('urn:example:recursionCount'(2361,7)).
-answer('urn:example:recursionCount'(2362,7)).
-answer('urn:example:recursionCount'(2363,4)).
-answer('urn:example:recursionCount'(2364,7)).
-answer('urn:example:recursionCount'(2365,2)).
-answer('urn:example:recursionCount'(2366,3)).
-answer('urn:example:recursionCount'(2367,5)).
-answer('urn:example:recursionCount'(2368,3)).
-answer('urn:example:recursionCount'(2369,6)).
-answer('urn:example:recursionCount'(2370,3)).
-answer('urn:example:recursionCount'(2371,7)).
-answer('urn:example:recursionCount'(2372,7)).
-answer('urn:example:recursionCount'(2373,6)).
-answer('urn:example:recursionCount'(2374,7)).
-answer('urn:example:recursionCount'(2375,7)).
-answer('urn:example:recursionCount'(2376,5)).
-answer('urn:example:recursionCount'(2377,5)).
-answer('urn:example:recursionCount'(2378,4)).
-answer('urn:example:recursionCount'(2379,3)).
-answer('urn:example:recursionCount'(2380,3)).
-answer('urn:example:recursionCount'(2381,3)).
-answer('urn:example:recursionCount'(2382,7)).
-answer('urn:example:recursionCount'(2383,6)).
-answer('urn:example:recursionCount'(2384,7)).
-answer('urn:example:recursionCount'(2385,1)).
-answer('urn:example:recursionCount'(2386,3)).
-answer('urn:example:recursionCount'(2387,4)).
-answer('urn:example:recursionCount'(2388,5)).
-answer('urn:example:recursionCount'(2389,5)).
-answer('urn:example:recursionCount'(2390,4)).
-answer('urn:example:recursionCount'(2391,3)).
-answer('urn:example:recursionCount'(2392,3)).
-answer('urn:example:recursionCount'(2393,4)).
-answer('urn:example:recursionCount'(2394,3)).
-answer('urn:example:recursionCount'(2395,5)).
-answer('urn:example:recursionCount'(2396,6)).
-answer('urn:example:recursionCount'(2397,3)).
-answer('urn:example:recursionCount'(2398,5)).
-answer('urn:example:recursionCount'(2399,3)).
-answer('urn:example:recursionCount'(2400,2)).
-answer('urn:example:recursionCount'(2401,7)).
-answer('urn:example:recursionCount'(2402,4)).
-answer('urn:example:recursionCount'(2403,7)).
-answer('urn:example:recursionCount'(2404,2)).
-answer('urn:example:recursionCount'(2405,7)).
-answer('urn:example:recursionCount'(2406,1)).
-answer('urn:example:recursionCount'(2407,5)).
-answer('urn:example:recursionCount'(2408,6)).
-answer('urn:example:recursionCount'(2409,3)).
-answer('urn:example:recursionCount'(2410,7)).
-answer('urn:example:recursionCount'(2411,3)).
-answer('urn:example:recursionCount'(2412,6)).
-answer('urn:example:recursionCount'(2413,3)).
-answer('urn:example:recursionCount'(2414,5)).
-answer('urn:example:recursionCount'(2415,2)).
-answer('urn:example:recursionCount'(2416,7)).
-answer('urn:example:recursionCount'(2417,1)).
-answer('urn:example:recursionCount'(2418,5)).
-answer('urn:example:recursionCount'(2419,6)).
-answer('urn:example:recursionCount'(2420,4)).
-answer('urn:example:recursionCount'(2421,6)).
-answer('urn:example:recursionCount'(2422,4)).
-answer('urn:example:recursionCount'(2423,3)).
-answer('urn:example:recursionCount'(2424,6)).
-answer('urn:example:recursionCount'(2425,5)).
-answer('urn:example:recursionCount'(2426,2)).
-answer('urn:example:recursionCount'(2427,7)).
-answer('urn:example:recursionCount'(2428,1)).
-answer('urn:example:recursionCount'(2429,5)).
-answer('urn:example:recursionCount'(2430,7)).
-answer('urn:example:recursionCount'(2431,3)).
-answer('urn:example:recursionCount'(2432,3)).
-answer('urn:example:recursionCount'(2433,4)).
-answer('urn:example:recursionCount'(2434,3)).
-answer('urn:example:recursionCount'(2435,3)).
-answer('urn:example:recursionCount'(2436,7)).
-answer('urn:example:recursionCount'(2437,7)).
-answer('urn:example:recursionCount'(2438,7)).
-answer('urn:example:recursionCount'(2439,3)).
-answer('urn:example:recursionCount'(2440,2)).
-answer('urn:example:recursionCount'(2441,5)).
-answer('urn:example:recursionCount'(2442,6)).
-answer('urn:example:recursionCount'(2443,3)).
-answer('urn:example:recursionCount'(2444,4)).
-answer('urn:example:recursionCount'(2445,6)).
-answer('urn:example:recursionCount'(2446,4)).
-answer('urn:example:recursionCount'(2447,6)).
-answer('urn:example:recursionCount'(2448,6)).
-answer('urn:example:recursionCount'(2449,4)).
-answer('urn:example:recursionCount'(2450,7)).
-answer('urn:example:recursionCount'(2451,2)).
-answer('urn:example:recursionCount'(2452,5)).
-answer('urn:example:recursionCount'(2453,3)).
-answer('urn:example:recursionCount'(2454,6)).
-answer('urn:example:recursionCount'(2455,3)).
-answer('urn:example:recursionCount'(2456,7)).
-answer('urn:example:recursionCount'(2457,7)).
-answer('urn:example:recursionCount'(2458,7)).
-answer('urn:example:recursionCount'(2459,3)).
-answer('urn:example:recursionCount'(2460,1)).
-answer('urn:example:recursionCount'(2461,7)).
-answer('urn:example:recursionCount'(2462,2)).
-answer('urn:example:recursionCount'(2463,7)).
-answer('urn:example:recursionCount'(2464,4)).
-answer('urn:example:recursionCount'(2465,7)).
-answer('urn:example:recursionCount'(2466,2)).
-answer('urn:example:recursionCount'(2467,7)).
-answer('urn:example:recursionCount'(2468,1)).
-answer('urn:example:recursionCount'(2469,5)).
-answer('urn:example:recursionCount'(2470,5)).
-answer('urn:example:recursionCount'(2471,1)).
-answer('urn:example:recursionCount'(2472,7)).
-answer('urn:example:recursionCount'(2473,7)).
-answer('urn:example:recursionCount'(2474,6)).
-answer('urn:example:recursionCount'(2475,7)).
-answer('urn:example:recursionCount'(2476,7)).
-answer('urn:example:recursionCount'(2477,5)).
-answer('urn:example:recursionCount'(2478,3)).
-answer('urn:example:recursionCount'(2479,6)).
-answer('urn:example:recursionCount'(2480,6)).
-answer('urn:example:recursionCount'(2481,5)).
-answer('urn:example:recursionCount'(2482,1)).
-answer('urn:example:recursionCount'(2483,7)).
-answer('urn:example:recursionCount'(2484,6)).
-answer('urn:example:recursionCount'(2485,7)).
-answer('urn:example:recursionCount'(2486,1)).
-answer('urn:example:recursionCount'(2487,3)).
-answer('urn:example:recursionCount'(2488,4)).
-answer('urn:example:recursionCount'(2489,3)).
-answer('urn:example:recursionCount'(2490,3)).
-answer('urn:example:recursionCount'(2491,6)).
-answer('urn:example:recursionCount'(2492,5)).
-answer('urn:example:recursionCount'(2493,3)).
-answer('urn:example:recursionCount'(2494,4)).
-answer('urn:example:recursionCount'(2495,3)).
-answer('urn:example:recursionCount'(2496,5)).
-answer('urn:example:recursionCount'(2497,6)).
-answer('urn:example:recursionCount'(2498,3)).
-answer('urn:example:recursionCount'(2499,5)).
-answer('urn:example:recursionCount'(2500,7)).
-answer('urn:example:recursionCount'(2501,7)).
-answer('urn:example:recursionCount'(2502,6)).
-answer('urn:example:recursionCount'(2503,7)).
-answer('urn:example:recursionCount'(2504,7)).
-answer('urn:example:recursionCount'(2505,5)).
-answer('urn:example:recursionCount'(2506,3)).
-answer('urn:example:recursionCount'(2507,6)).
-answer('urn:example:recursionCount'(2508,5)).
-answer('urn:example:recursionCount'(2509,3)).
-answer('urn:example:recursionCount'(2510,7)).
-answer('urn:example:recursionCount'(2511,7)).
-answer('urn:example:recursionCount'(2512,4)).
-answer('urn:example:recursionCount'(2513,7)).
-answer('urn:example:recursionCount'(2514,2)).
-answer('urn:example:recursionCount'(2515,3)).
-answer('urn:example:recursionCount'(2516,5)).
-answer('urn:example:recursionCount'(2517,3)).
-answer('urn:example:recursionCount'(2518,6)).
-answer('urn:example:recursionCount'(2519,5)).
-answer('urn:example:recursionCount'(2520,6)).
-answer('urn:example:recursionCount'(2521,4)).
-answer('urn:example:recursionCount'(2522,6)).
-answer('urn:example:recursionCount'(2523,3)).
-answer('urn:example:recursionCount'(2524,5)).
-answer('urn:example:recursionCount'(2525,6)).
-answer('urn:example:recursionCount'(2526,3)).
-answer('urn:example:recursionCount'(2527,5)).
-answer('urn:example:recursionCount'(2528,3)).
-answer('urn:example:recursionCount'(2529,6)).
-answer('urn:example:recursionCount'(2530,7)).
-answer('urn:example:recursionCount'(2531,7)).
-answer('urn:example:recursionCount'(2532,3)).
-answer('urn:example:recursionCount'(2533,6)).
-answer('urn:example:recursionCount'(2534,3)).
-answer('urn:example:recursionCount'(2535,5)).
-answer('urn:example:recursionCount'(2536,2)).
-answer('urn:example:recursionCount'(2537,7)).
-answer('urn:example:recursionCount'(2538,1)).
-answer('urn:example:recursionCount'(2539,5)).
-answer('urn:example:recursionCount'(2540,7)).
-answer('urn:example:recursionCount'(2541,2)).
-answer('urn:example:recursionCount'(2542,5)).
-answer('urn:example:recursionCount'(2543,3)).
-answer('urn:example:recursionCount'(2544,6)).
-answer('urn:example:recursionCount'(2545,3)).
-answer('urn:example:recursionCount'(2546,7)).
-answer('urn:example:recursionCount'(2547,7)).
-answer('urn:example:recursionCount'(2548,7)).
-answer('urn:example:recursionCount'(2549,3)).
-answer('urn:example:recursionCount'(2550,5)).
-answer('urn:example:recursionCount'(2551,3)).
-answer('urn:example:recursionCount'(2552,6)).
-answer('urn:example:recursionCount'(2553,5)).
-answer('urn:example:recursionCount'(2554,3)).
-answer('urn:example:recursionCount'(2555,6)).
-answer('urn:example:recursionCount'(2556,4)).
-answer('urn:example:recursionCount'(2557,6)).
-answer('urn:example:recursionCount'(2558,6)).
-answer('urn:example:recursionCount'(2559,4)).
-answer('urn:example:recursionCount'(2560,3)).
-answer('urn:example:recursionCount'(2561,5)).
-answer('urn:example:recursionCount'(2562,3)).
-answer('urn:example:recursionCount'(2563,2)).
-answer('urn:example:recursionCount'(2564,7)).
-answer('urn:example:recursionCount'(2565,4)).
-answer('urn:example:recursionCount'(2566,7)).
-answer('urn:example:recursionCount'(2567,7)).
-answer('urn:example:recursionCount'(2568,7)).
-answer('urn:example:recursionCount'(2569,3)).
-answer('urn:example:recursionCount'(2570,6)).
-answer('urn:example:recursionCount'(2571,3)).
-answer('urn:example:recursionCount'(2572,5)).
-answer('urn:example:recursionCount'(2573,7)).
-answer('urn:example:recursionCount'(2574,7)).
-answer('urn:example:recursionCount'(2575,6)).
-answer('urn:example:recursionCount'(2576,7)).
-answer('urn:example:recursionCount'(2577,7)).
-answer('urn:example:recursionCount'(2578,1)).
-answer('urn:example:recursionCount'(2579,5)).
-answer('urn:example:recursionCount'(2580,5)).
-answer('urn:example:recursionCount'(2581,6)).
-answer('urn:example:recursionCount'(2582,3)).
-answer('urn:example:recursionCount'(2583,1)).
-answer('urn:example:recursionCount'(2584,7)).
-answer('urn:example:recursionCount'(2585,6)).
-answer('urn:example:recursionCount'(2586,7)).
-answer('urn:example:recursionCount'(2587,1)).
-answer('urn:example:recursionCount'(2588,3)).
-answer('urn:example:recursionCount'(2589,6)).
-answer('urn:example:recursionCount'(2590,3)).
-answer('urn:example:recursionCount'(2591,5)).
-answer('urn:example:recursionCount'(2592,6)).
-answer('urn:example:recursionCount'(2593,5)).
-answer('urn:example:recursionCount'(2594,3)).
-answer('urn:example:recursionCount'(2595,4)).
-answer('urn:example:recursionCount'(2596,3)).
-answer('urn:example:recursionCount'(2597,5)).
-answer('urn:example:recursionCount'(2598,6)).
-answer('urn:example:recursionCount'(2599,3)).
-answer('urn:example:recursionCount'(2600,1)).
-answer('urn:example:recursionCount'(2601,7)).
-answer('urn:example:recursionCount'(2602,6)).
-answer('urn:example:recursionCount'(2603,7)).
-answer('urn:example:recursionCount'(2604,1)).
-answer('urn:example:recursionCount'(2605,3)).
-answer('urn:example:recursionCount'(2606,4)).
-answer('urn:example:recursionCount'(2607,3)).
-answer('urn:example:recursionCount'(2608,2)).
-answer('urn:example:recursionCount'(2609,7)).
-answer('urn:example:recursionCount'(2610,7)).
-answer('urn:example:recursionCount'(2611,7)).
-answer('urn:example:recursionCount'(2612,6)).
-answer('urn:example:recursionCount'(2613,7)).
-answer('urn:example:recursionCount'(2614,7)).
-answer('urn:example:recursionCount'(2615,5)).
-answer('urn:example:recursionCount'(2616,5)).
-answer('urn:example:recursionCount'(2617,4)).
-answer('urn:example:recursionCount'(2618,3)).
-answer('urn:example:recursionCount'(2619,2)).
-answer('urn:example:recursionCount'(2620,6)).
-answer('urn:example:recursionCount'(2621,6)).
-answer('urn:example:recursionCount'(2622,4)).
-answer('urn:example:recursionCount'(2623,7)).
-answer('urn:example:recursionCount'(2624,2)).
-answer('urn:example:recursionCount'(2625,3)).
-answer('urn:example:recursionCount'(2626,4)).
-answer('urn:example:recursionCount'(2627,5)).
-answer('urn:example:recursionCount'(2628,4)).
-answer('urn:example:recursionCount'(2629,3)).
-answer('urn:example:recursionCount'(2630,7)).
-answer('urn:example:recursionCount'(2631,7)).
-answer('urn:example:recursionCount'(2632,7)).
-answer('urn:example:recursionCount'(2633,4)).
-answer('urn:example:recursionCount'(2634,7)).
-answer('urn:example:recursionCount'(2635,2)).
-answer('urn:example:recursionCount'(2636,3)).
-answer('urn:example:recursionCount'(2637,5)).
-answer('urn:example:recursionCount'(2638,3)).
-answer('urn:example:recursionCount'(2639,6)).
-answer('urn:example:recursionCount'(2640,1)).
-answer('urn:example:recursionCount'(2641,7)).
-answer('urn:example:recursionCount'(2642,2)).
-answer('urn:example:recursionCount'(2643,7)).
-answer('urn:example:recursionCount'(2644,4)).
-answer('urn:example:recursionCount'(2645,7)).
-answer('urn:example:recursionCount'(2646,2)).
-answer('urn:example:recursionCount'(2647,7)).
-answer('urn:example:recursionCount'(2648,1)).
-answer('urn:example:recursionCount'(2649,5)).
-answer('urn:example:recursionCount'(2650,3)).
-answer('urn:example:recursionCount'(2651,5)).
-answer('urn:example:recursionCount'(2652,3)).
-answer('urn:example:recursionCount'(2653,2)).
-answer('urn:example:recursionCount'(2654,7)).
-answer('urn:example:recursionCount'(2655,4)).
-answer('urn:example:recursionCount'(2656,7)).
-answer('urn:example:recursionCount'(2657,7)).
-answer('urn:example:recursionCount'(2658,7)).
-answer('urn:example:recursionCount'(2659,3)).
-answer('urn:example:recursionCount'(2660,4)).
-answer('urn:example:recursionCount'(2661,5)).
-answer('urn:example:recursionCount'(2662,4)).
-answer('urn:example:recursionCount'(2663,3)).
-answer('urn:example:recursionCount'(2664,2)).
-answer('urn:example:recursionCount'(2665,7)).
-answer('urn:example:recursionCount'(2666,4)).
-answer('urn:example:recursionCount'(2667,6)).
-answer('urn:example:recursionCount'(2668,6)).
-answer('urn:example:recursionCount'(2669,4)).
-answer('urn:example:recursionCount'(2670,3)).
-answer('urn:example:recursionCount'(2671,4)).
-answer('urn:example:recursionCount'(2672,5)).
-answer('urn:example:recursionCount'(2673,5)).
-answer('urn:example:recursionCount'(2674,7)).
-answer('urn:example:recursionCount'(2675,7)).
-answer('urn:example:recursionCount'(2676,6)).
-answer('urn:example:recursionCount'(2677,7)).
-answer('urn:example:recursionCount'(2678,7)).
-answer('urn:example:recursionCount'(2679,3)).
-answer('urn:example:recursionCount'(2680,2)).
-answer('urn:example:recursionCount'(2681,3)).
-answer('urn:example:recursionCount'(2682,4)).
-answer('urn:example:recursionCount'(2683,3)).
-answer('urn:example:recursionCount'(2684,1)).
-answer('urn:example:recursionCount'(2685,7)).
-answer('urn:example:recursionCount'(2686,6)).
-answer('urn:example:recursionCount'(2687,7)).
-answer('urn:example:recursionCount'(2688,1)).
-answer('urn:example:recursionCount'(2689,5)).
-answer('urn:example:recursionCount'(2690,7)).
-answer('urn:example:recursionCount'(2691,2)).
-answer('urn:example:recursionCount'(2692,3)).
-answer('urn:example:recursionCount'(2693,6)).
-answer('urn:example:recursionCount'(2694,5)).
-answer('urn:example:recursionCount'(2695,3)).
-answer('urn:example:recursionCount'(2696,4)).
-answer('urn:example:recursionCount'(2697,3)).
-answer('urn:example:recursionCount'(2698,5)).
-answer('urn:example:recursionCount'(2699,6)).
-answer('urn:example:recursionCount'(2700,5)).
-answer('urn:example:recursionCount'(2701,3)).
-answer('urn:example:recursionCount'(2702,4)).
-answer('urn:example:recursionCount'(2703,3)).
-answer('urn:example:recursionCount'(2704,5)).
-answer('urn:example:recursionCount'(2705,6)).
-answer('urn:example:recursionCount'(2706,3)).
-answer('urn:example:recursionCount'(2707,5)).
-answer('urn:example:recursionCount'(2708,7)).
-answer('urn:example:recursionCount'(2709,7)).
-answer('urn:example:recursionCount'(2710,3)).
-answer('urn:example:recursionCount'(2711,7)).
-answer('urn:example:recursionCount'(2712,6)).
-answer('urn:example:recursionCount'(2713,7)).
-answer('urn:example:recursionCount'(2714,1)).
-answer('urn:example:recursionCount'(2715,3)).
-answer('urn:example:recursionCount'(2716,4)).
-answer('urn:example:recursionCount'(2717,5)).
-answer('urn:example:recursionCount'(2718,5)).
-answer('urn:example:recursionCount'(2719,7)).
-answer('urn:example:recursionCount'(2720,4)).
-answer('urn:example:recursionCount'(2721,6)).
-answer('urn:example:recursionCount'(2722,6)).
-answer('urn:example:recursionCount'(2723,7)).
-answer('urn:example:recursionCount'(2724,7)).
-answer('urn:example:recursionCount'(2725,5)).
-answer('urn:example:recursionCount'(2726,5)).
-answer('urn:example:recursionCount'(2727,5)).
-answer('urn:example:recursionCount'(2728,5)).
-answer('urn:example:recursionCount'(2729,5)).
-answer('urn:example:recursionCount'(2730,3)).
-answer('urn:example:recursionCount'(2731,7)).
-answer('urn:example:recursionCount'(2732,7)).
-answer('urn:example:recursionCount'(2733,6)).
-answer('urn:example:recursionCount'(2734,7)).
-answer('urn:example:recursionCount'(2735,7)).
-answer('urn:example:recursionCount'(2736,5)).
-answer('urn:example:recursionCount'(2737,5)).
-answer('urn:example:recursionCount'(2738,4)).
-answer('urn:example:recursionCount'(2739,3)).
-answer('urn:example:recursionCount'(2740,5)).
-answer('urn:example:recursionCount'(2741,1)).
-answer('urn:example:recursionCount'(2742,7)).
-answer('urn:example:recursionCount'(2743,7)).
-answer('urn:example:recursionCount'(2744,6)).
-answer('urn:example:recursionCount'(2745,7)).
-answer('urn:example:recursionCount'(2746,7)).
-answer('urn:example:recursionCount'(2747,5)).
-answer('urn:example:recursionCount'(2748,3)).
-answer('urn:example:recursionCount'(2749,6)).
-answer('urn:example:recursionCount'(2750,6)).
-answer('urn:example:recursionCount'(2751,3)).
-answer('urn:example:recursionCount'(2752,5)).
-answer('urn:example:recursionCount'(2753,7)).
-answer('urn:example:recursionCount'(2754,7)).
-answer('urn:example:recursionCount'(2755,6)).
-answer('urn:example:recursionCount'(2756,7)).
-answer('urn:example:recursionCount'(2757,7)).
-answer('urn:example:recursionCount'(2758,1)).
-answer('urn:example:recursionCount'(2759,5)).
-answer('urn:example:recursionCount'(2760,3)).
-answer('urn:example:recursionCount'(2761,4)).
-answer('urn:example:recursionCount'(2762,5)).
-answer('urn:example:recursionCount'(2763,5)).
-answer('urn:example:recursionCount'(2764,7)).
-answer('urn:example:recursionCount'(2765,7)).
-answer('urn:example:recursionCount'(2766,6)).
-answer('urn:example:recursionCount'(2767,7)).
-answer('urn:example:recursionCount'(2768,7)).
-answer('urn:example:recursionCount'(2769,3)).
-answer('urn:example:recursionCount'(2770,5)).
-answer('urn:example:recursionCount'(2771,5)).
-answer('urn:example:recursionCount'(2772,5)).
-answer('urn:example:recursionCount'(2773,5)).
-answer('urn:example:recursionCount'(2774,5)).
-answer('urn:example:recursionCount'(2775,7)).
-answer('urn:example:recursionCount'(2776,7)).
-answer('urn:example:recursionCount'(2777,6)).
-answer('urn:example:recursionCount'(2778,6)).
-answer('urn:example:recursionCount'(2779,4)).
-answer('urn:example:recursionCount'(2780,7)).
-answer('urn:example:recursionCount'(2781,5)).
-answer('urn:example:recursionCount'(2782,5)).
-answer('urn:example:recursionCount'(2783,4)).
-answer('urn:example:recursionCount'(2784,3)).
-answer('urn:example:recursionCount'(2785,1)).
-answer('urn:example:recursionCount'(2786,7)).
-answer('urn:example:recursionCount'(2787,6)).
-answer('urn:example:recursionCount'(2788,7)).
-answer('urn:example:recursionCount'(2789,3)).
-answer('urn:example:recursionCount'(2790,7)).
-answer('urn:example:recursionCount'(2791,7)).
-answer('urn:example:recursionCount'(2792,5)).
-answer('urn:example:recursionCount'(2793,3)).
-answer('urn:example:recursionCount'(2794,6)).
-answer('urn:example:recursionCount'(2795,5)).
-answer('urn:example:recursionCount'(2796,3)).
-answer('urn:example:recursionCount'(2797,4)).
-answer('urn:example:recursionCount'(2798,3)).
-answer('urn:example:recursionCount'(2799,5)).
-answer('urn:example:recursionCount'(2800,6)).
-answer('urn:example:recursionCount'(2801,3)).
-answer('urn:example:recursionCount'(2802,6)).
-answer('urn:example:recursionCount'(2803,3)).
-answer('urn:example:recursionCount'(2804,6)).
-answer('urn:example:recursionCount'(2805,5)).
-answer('urn:example:recursionCount'(2806,2)).
-answer('urn:example:recursionCount'(2807,7)).
-answer('urn:example:recursionCount'(2808,2)).
-answer('urn:example:recursionCount'(2809,7)).
-answer('urn:example:recursionCount'(2810,3)).
-answer('urn:example:recursionCount'(2811,3)).
-answer('urn:example:recursionCount'(2812,4)).
-answer('urn:example:recursionCount'(2813,3)).
-answer('urn:example:recursionCount'(2814,5)).
-answer('urn:example:recursionCount'(2815,6)).
-answer('urn:example:recursionCount'(2816,3)).
-answer('urn:example:recursionCount'(2817,5)).
-answer('urn:example:recursionCount'(2818,3)).
-answer('urn:example:recursionCount'(2819,2)).
-answer('urn:example:recursionCount'(2820,6)).
-answer('urn:example:recursionCount'(2821,4)).
-answer('urn:example:recursionCount'(2822,6)).
-answer('urn:example:recursionCount'(2823,7)).
-answer('urn:example:recursionCount'(2824,1)).
-answer('urn:example:recursionCount'(2825,3)).
-answer('urn:example:recursionCount'(2826,4)).
-answer('urn:example:recursionCount'(2827,5)).
-answer('urn:example:recursionCount'(2828,4)).
-answer('urn:example:recursionCount'(2829,3)).
-answer('urn:example:recursionCount'(2830,3)).
-answer('urn:example:recursionCount'(2831,3)).
-answer('urn:example:recursionCount'(2832,7)).
-answer('urn:example:recursionCount'(2833,6)).
-answer('urn:example:recursionCount'(2834,7)).
-answer('urn:example:recursionCount'(2835,1)).
-answer('urn:example:recursionCount'(2836,3)).
-answer('urn:example:recursionCount'(2837,4)).
-answer('urn:example:recursionCount'(2838,5)).
-answer('urn:example:recursionCount'(2839,5)).
-answer('urn:example:recursionCount'(2840,6)).
-answer('urn:example:recursionCount'(2841,5)).
-answer('urn:example:recursionCount'(2842,1)).
-answer('urn:example:recursionCount'(2843,7)).
-answer('urn:example:recursionCount'(2844,6)).
-answer('urn:example:recursionCount'(2845,7)).
-answer('urn:example:recursionCount'(2846,1)).
-answer('urn:example:recursionCount'(2847,3)).
-answer('urn:example:recursionCount'(2848,4)).
-answer('urn:example:recursionCount'(2849,3)).
-answer('urn:example:recursionCount'(2850,5)).
-answer('urn:example:recursionCount'(2851,6)).
-answer('urn:example:recursionCount'(2852,3)).
-answer('urn:example:recursionCount'(2853,1)).
-answer('urn:example:recursionCount'(2854,7)).
-answer('urn:example:recursionCount'(2855,6)).
-answer('urn:example:recursionCount'(2856,7)).
-answer('urn:example:recursionCount'(2857,1)).
-answer('urn:example:recursionCount'(2858,3)).
-answer('urn:example:recursionCount'(2859,6)).
-answer('urn:example:recursionCount'(2860,2)).
-answer('urn:example:recursionCount'(2861,3)).
-answer('urn:example:recursionCount'(2862,4)).
-answer('urn:example:recursionCount'(2863,3)).
-answer('urn:example:recursionCount'(2864,1)).
-answer('urn:example:recursionCount'(2865,7)).
-answer('urn:example:recursionCount'(2866,6)).
-answer('urn:example:recursionCount'(2867,7)).
-answer('urn:example:recursionCount'(2868,1)).
-answer('urn:example:recursionCount'(2869,5)).
-answer('urn:example:recursionCount'(2870,7)).
-answer('urn:example:recursionCount'(2871,5)).
-answer('urn:example:recursionCount'(2872,5)).
-answer('urn:example:recursionCount'(2873,4)).
-answer('urn:example:recursionCount'(2874,3)).
-answer('urn:example:recursionCount'(2875,1)).
-answer('urn:example:recursionCount'(2876,7)).
-answer('urn:example:recursionCount'(2877,6)).
-answer('urn:example:recursionCount'(2878,7)).
-answer('urn:example:recursionCount'(2879,3)).
-answer('urn:example:recursionCount'(2880,2)).
-answer('urn:example:recursionCount'(2881,3)).
-answer('urn:example:recursionCount'(2882,4)).
-answer('urn:example:recursionCount'(2883,5)).
-answer('urn:example:recursionCount'(2884,4)).
-answer('urn:example:recursionCount'(2885,3)).
-answer('urn:example:recursionCount'(2886,1)).
-answer('urn:example:recursionCount'(2887,7)).
-answer('urn:example:recursionCount'(2888,6)).
-answer('urn:example:recursionCount'(2889,4)).
-answer('urn:example:recursionCount'(2890,7)).
-answer('urn:example:recursionCount'(2891,2)).
-answer('urn:example:recursionCount'(2892,3)).
-answer('urn:example:recursionCount'(2893,5)).
-answer('urn:example:recursionCount'(2894,3)).
-answer('urn:example:recursionCount'(2895,6)).
-answer('urn:example:recursionCount'(2896,5)).
-answer('urn:example:recursionCount'(2897,3)).
-answer('urn:example:recursionCount'(2898,4)).
-answer('urn:example:recursionCount'(2899,3)).
-answer('urn:example:recursionCount'(2900,3)).
-answer('urn:example:recursionCount'(2901,4)).
-answer('urn:example:recursionCount'(2902,4)).
-answer('urn:example:recursionCount'(2903,4)).
-answer('urn:example:recursionCount'(2904,3)).
-answer('urn:example:recursionCount'(2905,3)).
-answer('urn:example:recursionCount'(2906,7)).
-answer('urn:example:recursionCount'(2907,7)).
-answer('urn:example:recursionCount'(2908,7)).
-answer('urn:example:recursionCount'(2909,3)).
-answer('urn:example:recursionCount'(2910,4)).
-answer('urn:example:recursionCount'(2911,3)).
-answer('urn:example:recursionCount'(2912,6)).
-answer('urn:example:recursionCount'(2913,3)).
-answer('urn:example:recursionCount'(2914,6)).
-answer('urn:example:recursionCount'(2915,5)).
-answer('urn:example:recursionCount'(2916,2)).
-answer('urn:example:recursionCount'(2917,7)).
-answer('urn:example:recursionCount'(2918,2)).
-answer('urn:example:recursionCount'(2919,5)).
-answer('urn:example:recursionCount'(2920,4)).
-answer('urn:example:recursionCount'(2921,6)).
-answer('urn:example:recursionCount'(2922,4)).
-answer('urn:example:recursionCount'(2923,3)).
-answer('urn:example:recursionCount'(2924,5)).
-answer('urn:example:recursionCount'(2925,6)).
-answer('urn:example:recursionCount'(2926,3)).
-answer('urn:example:recursionCount'(2927,5)).
-answer('urn:example:recursionCount'(2928,3)).
-answer('urn:example:recursionCount'(2929,6)).
-answer('urn:example:recursionCount'(2930,4)).
-answer('urn:example:recursionCount'(2931,3)).
-answer('urn:example:recursionCount'(2932,3)).
-answer('urn:example:recursionCount'(2933,4)).
-answer('urn:example:recursionCount'(2934,3)).
-answer('urn:example:recursionCount'(2935,5)).
-answer('urn:example:recursionCount'(2936,6)).
-answer('urn:example:recursionCount'(2937,3)).
-answer('urn:example:recursionCount'(2938,5)).
-answer('urn:example:recursionCount'(2939,3)).
-answer('urn:example:recursionCount'(2940,3)).
-answer('urn:example:recursionCount'(2941,6)).
-answer('urn:example:recursionCount'(2942,5)).
-answer('urn:example:recursionCount'(2943,3)).
-answer('urn:example:recursionCount'(2944,4)).
-answer('urn:example:recursionCount'(2945,3)).
-answer('urn:example:recursionCount'(2946,5)).
-answer('urn:example:recursionCount'(2947,6)).
-answer('urn:example:recursionCount'(2948,3)).
-answer('urn:example:recursionCount'(2949,5)).
-answer('urn:example:recursionCount'(2950,3)).
-answer('urn:example:recursionCount'(2951,5)).
-answer('urn:example:recursionCount'(2952,6)).
-answer('urn:example:recursionCount'(2953,5)).
-answer('urn:example:recursionCount'(2954,3)).
-answer('urn:example:recursionCount'(2955,4)).
-answer('urn:example:recursionCount'(2956,3)).
-answer('urn:example:recursionCount'(2957,5)).
-answer('urn:example:recursionCount'(2958,6)).
-answer('urn:example:recursionCount'(2959,3)).
-answer('urn:example:recursionCount'(2960,7)).
-answer('urn:example:recursionCount'(2961,2)).
-answer('urn:example:recursionCount'(2962,3)).
-answer('urn:example:recursionCount'(2963,6)).
-answer('urn:example:recursionCount'(2964,5)).
-answer('urn:example:recursionCount'(2965,3)).
-answer('urn:example:recursionCount'(2966,4)).
-answer('urn:example:recursionCount'(2967,3)).
-answer('urn:example:recursionCount'(2968,5)).
-answer('urn:example:recursionCount'(2969,6)).
-answer('urn:example:recursionCount'(2970,7)).
-answer('urn:example:recursionCount'(2971,7)).
-answer('urn:example:recursionCount'(2972,5)).
-answer('urn:example:recursionCount'(2973,3)).
-answer('urn:example:recursionCount'(2974,6)).
-answer('urn:example:recursionCount'(2975,5)).
-answer('urn:example:recursionCount'(2976,3)).
-answer('urn:example:recursionCount'(2977,4)).
-answer('urn:example:recursionCount'(2978,3)).
-answer('urn:example:recursionCount'(2979,5)).
-answer('urn:example:recursionCount'(2980,7)).
-answer('urn:example:recursionCount'(2981,2)).
-answer('urn:example:recursionCount'(2982,3)).
-answer('urn:example:recursionCount'(2983,5)).
-answer('urn:example:recursionCount'(2984,3)).
-answer('urn:example:recursionCount'(2985,6)).
-answer('urn:example:recursionCount'(2986,5)).
-answer('urn:example:recursionCount'(2987,3)).
-answer('urn:example:recursionCount'(2988,4)).
-answer('urn:example:recursionCount'(2989,3)).
-answer('urn:example:recursionCount'(2990,3)).
-answer('urn:example:recursionCount'(2991,5)).
-answer('urn:example:recursionCount'(2992,6)).
-answer('urn:example:recursionCount'(2993,3)).
-answer('urn:example:recursionCount'(2994,5)).
-answer('urn:example:recursionCount'(2995,3)).
-answer('urn:example:recursionCount'(2996,6)).
-answer('urn:example:recursionCount'(2997,5)).
-answer('urn:example:recursionCount'(2998,3)).
-answer('urn:example:recursionCount'(2999,4)).
-answer('urn:example:recursionCount'(3000,6)).
-answer('urn:example:recursionCount'(3001,3)).
-answer('urn:example:recursionCount'(3002,5)).
-answer('urn:example:recursionCount'(3003,6)).
-answer('urn:example:recursionCount'(3004,3)).
-answer('urn:example:recursionCount'(3005,5)).
-answer('urn:example:recursionCount'(3006,3)).
-answer('urn:example:recursionCount'(3007,6)).
-answer('urn:example:recursionCount'(3008,5)).
-answer('urn:example:recursionCount'(3009,3)).
-answer('urn:example:recursionCount'(3010,3)).
-answer('urn:example:recursionCount'(3011,6)).
-answer('urn:example:recursionCount'(3012,3)).
-answer('urn:example:recursionCount'(3013,5)).
-answer('urn:example:recursionCount'(3014,2)).
-answer('urn:example:recursionCount'(3015,7)).
-answer('urn:example:recursionCount'(3016,1)).
-answer('urn:example:recursionCount'(3017,5)).
-answer('urn:example:recursionCount'(3018,6)).
-answer('urn:example:recursionCount'(3019,3)).
-answer('urn:example:recursionCount'(3020,5)).
-answer('urn:example:recursionCount'(3021,3)).
-answer('urn:example:recursionCount'(3022,6)).
-answer('urn:example:recursionCount'(3023,3)).
-answer('urn:example:recursionCount'(3024,7)).
-answer('urn:example:recursionCount'(3025,7)).
-answer('urn:example:recursionCount'(3026,7)).
-answer('urn:example:recursionCount'(3027,3)).
-answer('urn:example:recursionCount'(3028,3)).
-answer('urn:example:recursionCount'(3029,4)).
-answer('urn:example:recursionCount'(3030,6)).
-answer('urn:example:recursionCount'(3031,5)).
-answer('urn:example:recursionCount'(3032,3)).
-answer('urn:example:recursionCount'(3033,6)).
-answer('urn:example:recursionCount'(3034,4)).
-answer('urn:example:recursionCount'(3035,6)).
-answer('urn:example:recursionCount'(3036,6)).
-answer('urn:example:recursionCount'(3037,4)).
-answer('urn:example:recursionCount'(3038,6)).
-answer('urn:example:recursionCount'(3039,4)).
-answer('urn:example:recursionCount'(3040,3)).
-answer('urn:example:recursionCount'(3041,2)).
-answer('urn:example:recursionCount'(3042,7)).
-answer('urn:example:recursionCount'(3043,4)).
-answer('urn:example:recursionCount'(3044,7)).
-answer('urn:example:recursionCount'(3045,7)).
-answer('urn:example:recursionCount'(3046,7)).
-answer('urn:example:recursionCount'(3047,3)).
-answer('urn:example:recursionCount'(3048,3)).
-answer('urn:example:recursionCount'(3049,4)).
-answer('urn:example:recursionCount'(3050,5)).
-answer('urn:example:recursionCount'(3051,7)).
-answer('urn:example:recursionCount'(3052,7)).
-answer('urn:example:recursionCount'(3053,6)).
-answer('urn:example:recursionCount'(3054,7)).
-answer('urn:example:recursionCount'(3055,7)).
-answer('urn:example:recursionCount'(3056,1)).
-answer('urn:example:recursionCount'(3057,5)).
-answer('urn:example:recursionCount'(3058,6)).
-answer('urn:example:recursionCount'(3059,3)).
-answer('urn:example:recursionCount'(3060,3)).
-answer('urn:example:recursionCount'(3061,1)).
-answer('urn:example:recursionCount'(3062,7)).
-answer('urn:example:recursionCount'(3063,6)).
-answer('urn:example:recursionCount'(3064,7)).
-answer('urn:example:recursionCount'(3065,1)).
-answer('urn:example:recursionCount'(3066,3)).
-answer('urn:example:recursionCount'(3067,6)).
-answer('urn:example:recursionCount'(3068,5)).
-answer('urn:example:recursionCount'(3069,3)).
-answer('urn:example:recursionCount'(3070,6)).
-answer('urn:example:recursionCount'(3071,5)).
-answer('urn:example:recursionCount'(3072,3)).
-answer('urn:example:recursionCount'(3073,4)).
-answer('urn:example:recursionCount'(3074,3)).
-answer('urn:example:recursionCount'(3075,5)).
-answer('urn:example:recursionCount'(3076,6)).
-answer('urn:example:recursionCount'(3077,3)).
-answer('urn:example:recursionCount'(3078,2)).
-answer('urn:example:recursionCount'(3079,7)).
-answer('urn:example:recursionCount'(3080,5)).
-answer('urn:example:recursionCount'(3081,6)).
-answer('urn:example:recursionCount'(3082,3)).
-answer('urn:example:recursionCount'(3083,6)).
-answer('urn:example:recursionCount'(3084,3)).
-answer('urn:example:recursionCount'(3085,6)).
-answer('urn:example:recursionCount'(3086,5)).
-answer('urn:example:recursionCount'(3087,2)).
-answer('urn:example:recursionCount'(3088,7)).
-answer('urn:example:recursionCount'(3089,7)).
-answer('urn:example:recursionCount'(3090,3)).
-answer('urn:example:recursionCount'(3091,3)).
-answer('urn:example:recursionCount'(3092,4)).
-answer('urn:example:recursionCount'(3093,4)).
-answer('urn:example:recursionCount'(3094,4)).
-answer('urn:example:recursionCount'(3095,3)).
-answer('urn:example:recursionCount'(3096,3)).
-answer('urn:example:recursionCount'(3097,7)).
-answer('urn:example:recursionCount'(3098,7)).
-answer('urn:example:recursionCount'(3099,7)).
-answer('urn:example:recursionCount'(3100,3)).
-answer('urn:example:recursionCount'(3101,6)).
-answer('urn:example:recursionCount'(3102,3)).
-answer('urn:example:recursionCount'(3103,5)).
-answer('urn:example:recursionCount'(3104,2)).
-answer('urn:example:recursionCount'(3105,7)).
-answer('urn:example:recursionCount'(3106,1)).
-answer('urn:example:recursionCount'(3107,5)).
-answer('urn:example:recursionCount'(3108,6)).
-answer('urn:example:recursionCount'(3109,3)).
-answer('urn:example:recursionCount'(3110,6)).
-answer('urn:example:recursionCount'(3111,4)).
-answer('urn:example:recursionCount'(3112,3)).
-answer('urn:example:recursionCount'(3113,6)).
-answer('urn:example:recursionCount'(3114,5)).
-answer('urn:example:recursionCount'(3115,2)).
-answer('urn:example:recursionCount'(3116,7)).
-answer('urn:example:recursionCount'(3117,1)).
-answer('urn:example:recursionCount'(3118,5)).
-answer('urn:example:recursionCount'(3119,6)).
-answer('urn:example:recursionCount'(3120,3)).
-answer('urn:example:recursionCount'(3121,3)).
-answer('urn:example:recursionCount'(3122,4)).
-answer('urn:example:recursionCount'(3123,3)).
-answer('urn:example:recursionCount'(3124,3)).
-answer('urn:example:recursionCount'(3125,7)).
-answer('urn:example:recursionCount'(3126,7)).
-answer('urn:example:recursionCount'(3127,7)).
-answer('urn:example:recursionCount'(3128,3)).
-answer('urn:example:recursionCount'(3129,3)).
-answer('urn:example:recursionCount'(3130,5)).
-answer('urn:example:recursionCount'(3131,6)).
-answer('urn:example:recursionCount'(3132,3)).
-answer('urn:example:recursionCount'(3133,4)).
-answer('urn:example:recursionCount'(3134,6)).
-answer('urn:example:recursionCount'(3135,4)).
-answer('urn:example:recursionCount'(3136,6)).
-answer('urn:example:recursionCount'(3137,6)).
-answer('urn:example:recursionCount'(3138,4)).
-answer('urn:example:recursionCount'(3139,6)).
-answer('urn:example:recursionCount'(3140,2)).
-answer('urn:example:recursionCount'(3141,5)).
-answer('urn:example:recursionCount'(3142,3)).
-answer('urn:example:recursionCount'(3143,6)).
-answer('urn:example:recursionCount'(3144,3)).
-answer('urn:example:recursionCount'(3145,7)).
-answer('urn:example:recursionCount'(3146,7)).
-answer('urn:example:recursionCount'(3147,7)).
-answer('urn:example:recursionCount'(3148,3)).
-answer('urn:example:recursionCount'(3149,3)).
-answer('urn:example:recursionCount'(3150,7)).
-answer('urn:example:recursionCount'(3151,2)).
-answer('urn:example:recursionCount'(3152,7)).
-answer('urn:example:recursionCount'(3153,4)).
-answer('urn:example:recursionCount'(3154,7)).
-answer('urn:example:recursionCount'(3155,2)).
-answer('urn:example:recursionCount'(3156,7)).
-answer('urn:example:recursionCount'(3157,1)).
-answer('urn:example:recursionCount'(3158,5)).
-answer('urn:example:recursionCount'(3159,6)).
-answer('urn:example:recursionCount'(3160,1)).
-answer('urn:example:recursionCount'(3161,7)).
-answer('urn:example:recursionCount'(3162,7)).
-answer('urn:example:recursionCount'(3163,6)).
-answer('urn:example:recursionCount'(3164,7)).
-answer('urn:example:recursionCount'(3165,7)).
-answer('urn:example:recursionCount'(3166,5)).
-answer('urn:example:recursionCount'(3167,3)).
-answer('urn:example:recursionCount'(3168,6)).
-answer('urn:example:recursionCount'(3169,5)).
-answer('urn:example:recursionCount'(3170,5)).
-answer('urn:example:recursionCount'(3171,1)).
-answer('urn:example:recursionCount'(3172,7)).
-answer('urn:example:recursionCount'(3173,6)).
-answer('urn:example:recursionCount'(3174,7)).
-answer('urn:example:recursionCount'(3175,1)).
-answer('urn:example:recursionCount'(3176,3)).
-answer('urn:example:recursionCount'(3177,4)).
-answer('urn:example:recursionCount'(3178,3)).
-answer('urn:example:recursionCount'(3179,2)).
-answer('urn:example:recursionCount'(3180,6)).
-answer('urn:example:recursionCount'(3181,5)).
-answer('urn:example:recursionCount'(3182,3)).
-answer('urn:example:recursionCount'(3183,4)).
-answer('urn:example:recursionCount'(3184,3)).
-answer('urn:example:recursionCount'(3185,5)).
-answer('urn:example:recursionCount'(3186,6)).
-answer('urn:example:recursionCount'(3187,3)).
-answer('urn:example:recursionCount'(3188,5)).
-answer('urn:example:recursionCount'(3189,7)).
-answer('urn:example:recursionCount'(3190,3)).
-answer('urn:example:recursionCount'(3191,6)).
-answer('urn:example:recursionCount'(3192,3)).
-answer('urn:example:recursionCount'(3193,6)).
-answer('urn:example:recursionCount'(3194,3)).
-answer('urn:example:recursionCount'(3195,6)).
-answer('urn:example:recursionCount'(3196,5)).
-answer('urn:example:recursionCount'(3197,2)).
-answer('urn:example:recursionCount'(3198,7)).
-answer('urn:example:recursionCount'(3199,2)).
-answer('urn:example:recursionCount'(3200,5)).
-answer('urn:example:recursionCount'(3201,3)).
-answer('urn:example:recursionCount'(3202,6)).
-answer('urn:example:recursionCount'(3203,3)).
-answer('urn:example:recursionCount'(3204,7)).
-answer('urn:example:recursionCount'(3205,7)).
-answer('urn:example:recursionCount'(3206,7)).
-answer('urn:example:recursionCount'(3207,3)).
-answer('urn:example:recursionCount'(3208,3)).
-answer('urn:example:recursionCount'(3209,4)).
-answer('urn:example:recursionCount'(3210,3)).
-answer('urn:example:recursionCount'(3211,3)).
-answer('urn:example:recursionCount'(3212,4)).
-answer('urn:example:recursionCount'(3213,3)).
-answer('urn:example:recursionCount'(3214,3)).
-answer('urn:example:recursionCount'(3215,7)).
-answer('urn:example:recursionCount'(3216,7)).
-answer('urn:example:recursionCount'(3217,7)).
-answer('urn:example:recursionCount'(3218,3)).
-answer('urn:example:recursionCount'(3219,3)).
-answer('urn:example:recursionCount'(3220,6)).
-answer('urn:example:recursionCount'(3221,4)).
-answer('urn:example:recursionCount'(3222,5)).
-answer('urn:example:recursionCount'(3223,4)).
-answer('urn:example:recursionCount'(3224,3)).
-answer('urn:example:recursionCount'(3225,3)).
-answer('urn:example:recursionCount'(3226,7)).
-answer('urn:example:recursionCount'(3227,7)).
-answer('urn:example:recursionCount'(3228,7)).
-answer('urn:example:recursionCount'(3229,3)).
-answer('urn:example:recursionCount'(3230,3)).
-answer('urn:example:recursionCount'(3231,3)).
-answer('urn:example:recursionCount'(3232,4)).
-answer('urn:example:recursionCount'(3233,5)).
-answer('urn:example:recursionCount'(3234,4)).
-answer('urn:example:recursionCount'(3235,6)).
-answer('urn:example:recursionCount'(3236,4)).
-answer('urn:example:recursionCount'(3237,6)).
-answer('urn:example:recursionCount'(3238,6)).
-answer('urn:example:recursionCount'(3239,4)).
-answer('urn:example:recursionCount'(3240,7)).
-answer('urn:example:recursionCount'(3241,3)).
-answer('urn:example:recursionCount'(3242,3)).
-answer('urn:example:recursionCount'(3243,4)).
-answer('urn:example:recursionCount'(3244,3)).
-answer('urn:example:recursionCount'(3245,3)).
-answer('urn:example:recursionCount'(3246,7)).
-answer('urn:example:recursionCount'(3247,7)).
-answer('urn:example:recursionCount'(3248,7)).
-answer('urn:example:recursionCount'(3249,3)).
-answer('urn:example:recursionCount'(3250,7)).
-answer('urn:example:recursionCount'(3251,7)).
-answer('urn:example:recursionCount'(3252,3)).
-answer('urn:example:recursionCount'(3253,6)).
-answer('urn:example:recursionCount'(3254,3)).
-answer('urn:example:recursionCount'(3255,5)).
-answer('urn:example:recursionCount'(3256,2)).
-answer('urn:example:recursionCount'(3257,7)).
-answer('urn:example:recursionCount'(3258,1)).
-answer('urn:example:recursionCount'(3259,5)).
-answer('urn:example:recursionCount'(3260,7)).
-answer('urn:example:recursionCount'(3261,7)).
-answer('urn:example:recursionCount'(3262,7)).
-answer('urn:example:recursionCount'(3263,4)).
-answer('urn:example:recursionCount'(3264,7)).
-answer('urn:example:recursionCount'(3265,2)).
-answer('urn:example:recursionCount'(3266,3)).
-answer('urn:example:recursionCount'(3267,5)).
-answer('urn:example:recursionCount'(3268,3)).
-answer('urn:example:recursionCount'(3269,6)).
-answer('urn:example:recursionCount'(3270,3)).
-answer('urn:example:recursionCount'(3271,7)).
-answer('urn:example:recursionCount'(3272,7)).
-answer('urn:example:recursionCount'(3273,6)).
-answer('urn:example:recursionCount'(3274,7)).
-answer('urn:example:recursionCount'(3275,7)).
-answer('urn:example:recursionCount'(3276,5)).
-answer('urn:example:recursionCount'(3277,5)).
-answer('urn:example:recursionCount'(3278,4)).
-answer('urn:example:recursionCount'(3279,3)).
-answer('urn:example:recursionCount'(3280,3)).
-answer('urn:example:recursionCount'(3281,3)).
-answer('urn:example:recursionCount'(3282,7)).
-answer('urn:example:recursionCount'(3283,6)).
-answer('urn:example:recursionCount'(3284,7)).
-answer('urn:example:recursionCount'(3285,1)).
-answer('urn:example:recursionCount'(3286,3)).
-answer('urn:example:recursionCount'(3287,4)).
-answer('urn:example:recursionCount'(3288,5)).
-answer('urn:example:recursionCount'(3289,5)).
-answer('urn:example:recursionCount'(3290,4)).
-answer('urn:example:recursionCount'(3291,3)).
-answer('urn:example:recursionCount'(3292,3)).
-answer('urn:example:recursionCount'(3293,4)).
-answer('urn:example:recursionCount'(3294,3)).
-answer('urn:example:recursionCount'(3295,5)).
-answer('urn:example:recursionCount'(3296,6)).
-answer('urn:example:recursionCount'(3297,3)).
-answer('urn:example:recursionCount'(3298,5)).
-answer('urn:example:recursionCount'(3299,3)).
-answer('urn:example:recursionCount'(3300,6)).
-answer('urn:example:recursionCount'(3301,5)).
-answer('urn:example:recursionCount'(3302,3)).
-answer('urn:example:recursionCount'(3303,6)).
-answer('urn:example:recursionCount'(3304,4)).
-answer('urn:example:recursionCount'(3305,6)).
-answer('urn:example:recursionCount'(3306,6)).
-answer('urn:example:recursionCount'(3307,4)).
-answer('urn:example:recursionCount'(3308,6)).
-answer('urn:example:recursionCount'(3309,4)).
-answer('urn:example:recursionCount'(3310,5)).
-answer('urn:example:recursionCount'(3311,6)).
-answer('urn:example:recursionCount'(3312,3)).
-answer('urn:example:recursionCount'(3313,4)).
-answer('urn:example:recursionCount'(3314,6)).
-answer('urn:example:recursionCount'(3315,4)).
-answer('urn:example:recursionCount'(3316,6)).
-answer('urn:example:recursionCount'(3317,6)).
-answer('urn:example:recursionCount'(3318,4)).
-answer('urn:example:recursionCount'(3319,6)).
-answer('urn:example:recursionCount'(3320,3)).
-answer('urn:example:recursionCount'(3321,3)).
-answer('urn:example:recursionCount'(3322,4)).
-answer('urn:example:recursionCount'(3323,5)).
-answer('urn:example:recursionCount'(3324,4)).
-answer('urn:example:recursionCount'(3325,6)).
-answer('urn:example:recursionCount'(3326,4)).
-answer('urn:example:recursionCount'(3327,6)).
-answer('urn:example:recursionCount'(3328,6)).
-answer('urn:example:recursionCount'(3329,4)).
-answer('urn:example:recursionCount'(3330,6)).
-answer('urn:example:recursionCount'(3331,4)).
-answer('urn:example:recursionCount'(3332,5)).
-answer('urn:example:recursionCount'(3334,5)).
-answer('urn:example:recursionCount'(3335,4)).
-answer('urn:example:recursionCount'(3336,6)).
-answer('urn:example:recursionCount'(3337,4)).
-answer('urn:example:recursionCount'(3338,6)).
-answer('urn:example:recursionCount'(3339,6)).
-answer('urn:example:recursionCount'(3340,4)).
-answer('urn:example:recursionCount'(3341,6)).
-answer('urn:example:recursionCount'(3342,4)).
-answer('urn:example:recursionCount'(3343,5)).
-answer('urn:example:recursionCount'(3344,4)).
-answer('urn:example:recursionCount'(3345,3)).
-answer('urn:example:recursionCount'(3346,3)).
-answer('urn:example:recursionCount'(3347,7)).
-answer('urn:example:recursionCount'(3348,7)).
-answer('urn:example:recursionCount'(3349,7)).
-answer('urn:example:recursionCount'(3350,6)).
-answer('urn:example:recursionCount'(3351,4)).
-answer('urn:example:recursionCount'(3352,6)).
-answer('urn:example:recursionCount'(3353,4)).
-answer('urn:example:recursionCount'(3354,3)).
-answer('urn:example:recursionCount'(3355,6)).
-answer('urn:example:recursionCount'(3356,5)).
-answer('urn:example:recursionCount'(3357,2)).
-answer('urn:example:recursionCount'(3358,7)).
-answer('urn:example:recursionCount'(3359,1)).
-answer('urn:example:recursionCount'(3360,6)).
-answer('urn:example:recursionCount'(3361,6)).
-answer('urn:example:recursionCount'(3362,4)).
-answer('urn:example:recursionCount'(3363,6)).
-answer('urn:example:recursionCount'(3364,3)).
-answer('urn:example:recursionCount'(3365,5)).
-answer('urn:example:recursionCount'(3366,6)).
-answer('urn:example:recursionCount'(3367,3)).
-answer('urn:example:recursionCount'(3368,5)).
-answer('urn:example:recursionCount'(3369,3)).
-answer('urn:example:recursionCount'(3370,4)).
-answer('urn:example:recursionCount'(3371,6)).
-answer('urn:example:recursionCount'(3372,6)).
-answer('urn:example:recursionCount'(3373,4)).
-answer('urn:example:recursionCount'(3374,7)).
-answer('urn:example:recursionCount'(3375,2)).
-answer('urn:example:recursionCount'(3376,3)).
-answer('urn:example:recursionCount'(3377,4)).
-answer('urn:example:recursionCount'(3378,5)).
-answer('urn:example:recursionCount'(3379,4)).
-answer('urn:example:recursionCount'(3380,6)).
-answer('urn:example:recursionCount'(3381,4)).
-answer('urn:example:recursionCount'(3382,6)).
-answer('urn:example:recursionCount'(3383,6)).
-answer('urn:example:recursionCount'(3384,7)).
-answer('urn:example:recursionCount'(3385,7)).
-answer('urn:example:recursionCount'(3386,5)).
-answer('urn:example:recursionCount'(3387,5)).
-answer('urn:example:recursionCount'(3388,5)).
-answer('urn:example:recursionCount'(3389,5)).
-answer('urn:example:recursionCount'(3390,4)).
-answer('urn:example:recursionCount'(3391,6)).
-answer('urn:example:recursionCount'(3392,4)).
-answer('urn:example:recursionCount'(3393,6)).
-answer('urn:example:recursionCount'(3394,7)).
-answer('urn:example:recursionCount'(3395,1)).
-answer('urn:example:recursionCount'(3396,3)).
-answer('urn:example:recursionCount'(3397,4)).
-answer('urn:example:recursionCount'(3398,5)).
-answer('urn:example:recursionCount'(3399,4)).
-answer('urn:example:recursionCount'(3400,3)).
-answer('urn:example:recursionCount'(3401,2)).
-answer('urn:example:recursionCount'(3402,7)).
-answer('urn:example:recursionCount'(3403,4)).
-answer('urn:example:recursionCount'(3404,7)).
-answer('urn:example:recursionCount'(3405,7)).
-answer('urn:example:recursionCount'(3406,7)).
-answer('urn:example:recursionCount'(3407,3)).
-answer('urn:example:recursionCount'(3408,3)).
-answer('urn:example:recursionCount'(3409,4)).
-answer('urn:example:recursionCount'(3410,2)).
-answer('urn:example:recursionCount'(3411,5)).
-answer('urn:example:recursionCount'(3412,3)).
-answer('urn:example:recursionCount'(3413,6)).
-answer('urn:example:recursionCount'(3414,3)).
-answer('urn:example:recursionCount'(3415,7)).
-answer('urn:example:recursionCount'(3416,7)).
-answer('urn:example:recursionCount'(3417,7)).
-answer('urn:example:recursionCount'(3418,3)).
-answer('urn:example:recursionCount'(3419,3)).
-answer('urn:example:recursionCount'(3420,7)).
-answer('urn:example:recursionCount'(3421,3)).
-answer('urn:example:recursionCount'(3422,3)).
-answer('urn:example:recursionCount'(3423,4)).
-answer('urn:example:recursionCount'(3424,3)).
-answer('urn:example:recursionCount'(3425,3)).
-answer('urn:example:recursionCount'(3426,7)).
-answer('urn:example:recursionCount'(3427,7)).
-answer('urn:example:recursionCount'(3428,7)).
-answer('urn:example:recursionCount'(3429,3)).
-answer('urn:example:recursionCount'(3430,4)).
-answer('urn:example:recursionCount'(3431,6)).
-answer('urn:example:recursionCount'(3432,4)).
-answer('urn:example:recursionCount'(3433,5)).
-answer('urn:example:recursionCount'(3434,4)).
-answer('urn:example:recursionCount'(3435,3)).
-answer('urn:example:recursionCount'(3436,3)).
-answer('urn:example:recursionCount'(3437,7)).
-answer('urn:example:recursionCount'(3438,7)).
-answer('urn:example:recursionCount'(3439,7)).
-answer('urn:example:recursionCount'(3440,7)).
-answer('urn:example:recursionCount'(3441,3)).
-answer('urn:example:recursionCount'(3442,3)).
-answer('urn:example:recursionCount'(3443,4)).
-answer('urn:example:recursionCount'(3444,5)).
-answer('urn:example:recursionCount'(3445,4)).
-answer('urn:example:recursionCount'(3446,6)).
-answer('urn:example:recursionCount'(3447,4)).
-answer('urn:example:recursionCount'(3448,6)).
-answer('urn:example:recursionCount'(3449,6)).
-answer('urn:example:recursionCount'(3450,7)).
-answer('urn:example:recursionCount'(3451,7)).
-answer('urn:example:recursionCount'(3452,3)).
-answer('urn:example:recursionCount'(3453,3)).
-answer('urn:example:recursionCount'(3454,4)).
-answer('urn:example:recursionCount'(3455,3)).
-answer('urn:example:recursionCount'(3456,3)).
-answer('urn:example:recursionCount'(3457,7)).
-answer('urn:example:recursionCount'(3458,7)).
-answer('urn:example:recursionCount'(3459,7)).
-answer('urn:example:recursionCount'(3460,7)).
-answer('urn:example:recursionCount'(3461,7)).
-answer('urn:example:recursionCount'(3462,7)).
-answer('urn:example:recursionCount'(3463,3)).
-answer('urn:example:recursionCount'(3464,6)).
-answer('urn:example:recursionCount'(3465,3)).
-answer('urn:example:recursionCount'(3466,5)).
-answer('urn:example:recursionCount'(3467,2)).
-answer('urn:example:recursionCount'(3468,7)).
-answer('urn:example:recursionCount'(3469,1)).
-answer('urn:example:recursionCount'(3470,3)).
-answer('urn:example:recursionCount'(3471,7)).
-answer('urn:example:recursionCount'(3472,7)).
-answer('urn:example:recursionCount'(3473,7)).
-answer('urn:example:recursionCount'(3474,4)).
-answer('urn:example:recursionCount'(3475,7)).
-answer('urn:example:recursionCount'(3476,2)).
-answer('urn:example:recursionCount'(3477,3)).
-answer('urn:example:recursionCount'(3478,5)).
-answer('urn:example:recursionCount'(3479,3)).
-answer('urn:example:recursionCount'(3480,3)).
-answer('urn:example:recursionCount'(3481,3)).
-answer('urn:example:recursionCount'(3482,7)).
-answer('urn:example:recursionCount'(3483,7)).
-answer('urn:example:recursionCount'(3484,6)).
-answer('urn:example:recursionCount'(3485,7)).
-answer('urn:example:recursionCount'(3486,7)).
-answer('urn:example:recursionCount'(3487,5)).
-answer('urn:example:recursionCount'(3488,5)).
-answer('urn:example:recursionCount'(3489,4)).
-answer('urn:example:recursionCount'(3490,4)).
-answer('urn:example:recursionCount'(3491,3)).
-answer('urn:example:recursionCount'(3492,3)).
-answer('urn:example:recursionCount'(3493,7)).
-answer('urn:example:recursionCount'(3494,6)).
-answer('urn:example:recursionCount'(3495,7)).
-answer('urn:example:recursionCount'(3496,1)).
-answer('urn:example:recursionCount'(3497,3)).
-answer('urn:example:recursionCount'(3498,4)).
-answer('urn:example:recursionCount'(3499,5)).
-answer('urn:example:recursionCount'(3500,5)).
-answer('urn:example:recursionCount'(3501,7)).
-answer('urn:example:recursionCount'(3502,7)).
-answer('urn:example:recursionCount'(3503,6)).
-answer('urn:example:recursionCount'(3504,7)).
-answer('urn:example:recursionCount'(3505,7)).
-answer('urn:example:recursionCount'(3506,1)).
-answer('urn:example:recursionCount'(3507,5)).
-answer('urn:example:recursionCount'(3508,6)).
-answer('urn:example:recursionCount'(3509,3)).
-answer('urn:example:recursionCount'(3510,7)).
-answer('urn:example:recursionCount'(3511,2)).
-answer('urn:example:recursionCount'(3512,7)).
-answer('urn:example:recursionCount'(3513,4)).
-answer('urn:example:recursionCount'(3514,7)).
-answer('urn:example:recursionCount'(3515,2)).
-answer('urn:example:recursionCount'(3516,7)).
-answer('urn:example:recursionCount'(3517,1)).
-answer('urn:example:recursionCount'(3518,5)).
-answer('urn:example:recursionCount'(3519,6)).
-answer('urn:example:recursionCount'(3520,7)).
-answer('urn:example:recursionCount'(3521,7)).
-answer('urn:example:recursionCount'(3522,3)).
-answer('urn:example:recursionCount'(3523,6)).
-answer('urn:example:recursionCount'(3524,3)).
-answer('urn:example:recursionCount'(3525,5)).
-answer('urn:example:recursionCount'(3526,2)).
-answer('urn:example:recursionCount'(3527,7)).
-answer('urn:example:recursionCount'(3528,1)).
-answer('urn:example:recursionCount'(3529,5)).
-answer('urn:example:recursionCount'(3530,6)).
-answer('urn:example:recursionCount'(3531,4)).
-answer('urn:example:recursionCount'(3532,6)).
-answer('urn:example:recursionCount'(3533,4)).
-answer('urn:example:recursionCount'(3534,3)).
-answer('urn:example:recursionCount'(3535,6)).
-answer('urn:example:recursionCount'(3536,5)).
-answer('urn:example:recursionCount'(3537,2)).
-answer('urn:example:recursionCount'(3538,7)).
-answer('urn:example:recursionCount'(3539,1)).
-answer('urn:example:recursionCount'(3540,7)).
-answer('urn:example:recursionCount'(3541,7)).
-answer('urn:example:recursionCount'(3542,3)).
-answer('urn:example:recursionCount'(3543,3)).
-answer('urn:example:recursionCount'(3544,4)).
-answer('urn:example:recursionCount'(3545,3)).
-answer('urn:example:recursionCount'(3546,3)).
-answer('urn:example:recursionCount'(3547,7)).
-answer('urn:example:recursionCount'(3548,7)).
-answer('urn:example:recursionCount'(3549,7)).
-answer('urn:example:recursionCount'(3550,7)).
-answer('urn:example:recursionCount'(3551,2)).
-answer('urn:example:recursionCount'(3552,5)).
-answer('urn:example:recursionCount'(3553,6)).
-answer('urn:example:recursionCount'(3554,3)).
-answer('urn:example:recursionCount'(3555,4)).
-answer('urn:example:recursionCount'(3556,6)).
-answer('urn:example:recursionCount'(3557,4)).
-answer('urn:example:recursionCount'(3558,6)).
-answer('urn:example:recursionCount'(3559,6)).
-answer('urn:example:recursionCount'(3560,1)).
-answer('urn:example:recursionCount'(3561,7)).
-answer('urn:example:recursionCount'(3562,2)).
-answer('urn:example:recursionCount'(3563,5)).
-answer('urn:example:recursionCount'(3564,3)).
-answer('urn:example:recursionCount'(3565,6)).
-answer('urn:example:recursionCount'(3566,3)).
-answer('urn:example:recursionCount'(3567,7)).
-answer('urn:example:recursionCount'(3568,7)).
-answer('urn:example:recursionCount'(3569,7)).
-answer('urn:example:recursionCount'(3570,5)).
-answer('urn:example:recursionCount'(3571,1)).
-answer('urn:example:recursionCount'(3572,7)).
-answer('urn:example:recursionCount'(3573,2)).
-answer('urn:example:recursionCount'(3574,7)).
-answer('urn:example:recursionCount'(3575,4)).
-answer('urn:example:recursionCount'(3576,7)).
-answer('urn:example:recursionCount'(3577,2)).
-answer('urn:example:recursionCount'(3578,7)).
-answer('urn:example:recursionCount'(3579,1)).
-answer('urn:example:recursionCount'(3580,6)).
-answer('urn:example:recursionCount'(3581,5)).
-answer('urn:example:recursionCount'(3582,1)).
-answer('urn:example:recursionCount'(3583,7)).
-answer('urn:example:recursionCount'(3584,7)).
-answer('urn:example:recursionCount'(3585,6)).
-answer('urn:example:recursionCount'(3586,7)).
-answer('urn:example:recursionCount'(3587,7)).
-answer('urn:example:recursionCount'(3588,5)).
-answer('urn:example:recursionCount'(3589,3)).
-answer('urn:example:recursionCount'(3590,3)).
-answer('urn:example:recursionCount'(3591,6)).
-answer('urn:example:recursionCount'(3592,5)).
-answer('urn:example:recursionCount'(3593,1)).
-answer('urn:example:recursionCount'(3594,7)).
-answer('urn:example:recursionCount'(3595,6)).
-answer('urn:example:recursionCount'(3596,7)).
-answer('urn:example:recursionCount'(3597,1)).
-answer('urn:example:recursionCount'(3598,3)).
-answer('urn:example:recursionCount'(3599,4)).
-answer('urn:example:recursionCount'(3600,3)).
-answer('urn:example:recursionCount'(3601,1)).
-answer('urn:example:recursionCount'(3602,7)).
-answer('urn:example:recursionCount'(3603,6)).
-answer('urn:example:recursionCount'(3604,7)).
-answer('urn:example:recursionCount'(3605,1)).
-answer('urn:example:recursionCount'(3606,3)).
-answer('urn:example:recursionCount'(3607,6)).
-answer('urn:example:recursionCount'(3608,5)).
-answer('urn:example:recursionCount'(3609,3)).
-answer('urn:example:recursionCount'(3610,1)).
-answer('urn:example:recursionCount'(3611,7)).
-answer('urn:example:recursionCount'(3612,7)).
-answer('urn:example:recursionCount'(3613,6)).
-answer('urn:example:recursionCount'(3614,7)).
-answer('urn:example:recursionCount'(3615,7)).
-answer('urn:example:recursionCount'(3616,5)).
-answer('urn:example:recursionCount'(3617,3)).
-answer('urn:example:recursionCount'(3618,6)).
-answer('urn:example:recursionCount'(3619,5)).
-answer('urn:example:recursionCount'(3620,7)).
-answer('urn:example:recursionCount'(3621,7)).
-answer('urn:example:recursionCount'(3622,7)).
-answer('urn:example:recursionCount'(3623,4)).
-answer('urn:example:recursionCount'(3624,7)).
-answer('urn:example:recursionCount'(3625,2)).
-answer('urn:example:recursionCount'(3626,3)).
-answer('urn:example:recursionCount'(3627,5)).
-answer('urn:example:recursionCount'(3628,3)).
-answer('urn:example:recursionCount'(3629,6)).
-answer('urn:example:recursionCount'(3630,6)).
-answer('urn:example:recursionCount'(3631,6)).
-answer('urn:example:recursionCount'(3632,4)).
-answer('urn:example:recursionCount'(3633,6)).
-answer('urn:example:recursionCount'(3634,3)).
-answer('urn:example:recursionCount'(3635,5)).
-answer('urn:example:recursionCount'(3636,6)).
-answer('urn:example:recursionCount'(3637,3)).
-answer('urn:example:recursionCount'(3638,5)).
-answer('urn:example:recursionCount'(3639,3)).
-answer('urn:example:recursionCount'(3640,7)).
-answer('urn:example:recursionCount'(3641,7)).
-answer('urn:example:recursionCount'(3642,7)).
-answer('urn:example:recursionCount'(3643,3)).
-answer('urn:example:recursionCount'(3644,6)).
-answer('urn:example:recursionCount'(3645,3)).
-answer('urn:example:recursionCount'(3646,5)).
-answer('urn:example:recursionCount'(3647,2)).
-answer('urn:example:recursionCount'(3648,7)).
-answer('urn:example:recursionCount'(3649,1)).
-answer('urn:example:recursionCount'(3650,1)).
-answer('urn:example:recursionCount'(3651,7)).
-answer('urn:example:recursionCount'(3652,2)).
-answer('urn:example:recursionCount'(3653,5)).
-answer('urn:example:recursionCount'(3654,3)).
-answer('urn:example:recursionCount'(3655,6)).
-answer('urn:example:recursionCount'(3656,3)).
-answer('urn:example:recursionCount'(3657,7)).
-answer('urn:example:recursionCount'(3658,7)).
-answer('urn:example:recursionCount'(3659,7)).
-answer('urn:example:recursionCount'(3660,3)).
-answer('urn:example:recursionCount'(3661,5)).
-answer('urn:example:recursionCount'(3662,3)).
-answer('urn:example:recursionCount'(3663,6)).
-answer('urn:example:recursionCount'(3664,5)).
-answer('urn:example:recursionCount'(3665,3)).
-answer('urn:example:recursionCount'(3666,6)).
-answer('urn:example:recursionCount'(3667,4)).
-answer('urn:example:recursionCount'(3668,6)).
-answer('urn:example:recursionCount'(3669,6)).
-answer('urn:example:recursionCount'(3670,6)).
-answer('urn:example:recursionCount'(3671,3)).
-answer('urn:example:recursionCount'(3672,5)).
-answer('urn:example:recursionCount'(3673,3)).
-answer('urn:example:recursionCount'(3674,2)).
-answer('urn:example:recursionCount'(3675,7)).
-answer('urn:example:recursionCount'(3676,4)).
-answer('urn:example:recursionCount'(3677,7)).
-answer('urn:example:recursionCount'(3678,7)).
-answer('urn:example:recursionCount'(3679,7)).
-answer('urn:example:recursionCount'(3680,5)).
-answer('urn:example:recursionCount'(3681,6)).
-answer('urn:example:recursionCount'(3682,3)).
-answer('urn:example:recursionCount'(3683,5)).
-answer('urn:example:recursionCount'(3684,7)).
-answer('urn:example:recursionCount'(3685,7)).
-answer('urn:example:recursionCount'(3686,6)).
-answer('urn:example:recursionCount'(3687,7)).
-answer('urn:example:recursionCount'(3688,7)).
-answer('urn:example:recursionCount'(3689,1)).
-answer('urn:example:recursionCount'(3690,3)).
-answer('urn:example:recursionCount'(3691,5)).
-answer('urn:example:recursionCount'(3692,6)).
-answer('urn:example:recursionCount'(3693,3)).
-answer('urn:example:recursionCount'(3694,1)).
-answer('urn:example:recursionCount'(3695,7)).
-answer('urn:example:recursionCount'(3696,6)).
-answer('urn:example:recursionCount'(3697,7)).
-answer('urn:example:recursionCount'(3698,1)).
-answer('urn:example:recursionCount'(3699,3)).
-answer('urn:example:recursionCount'(3700,6)).
-answer('urn:example:recursionCount'(3701,5)).
-answer('urn:example:recursionCount'(3702,3)).
-answer('urn:example:recursionCount'(3703,4)).
-answer('urn:example:recursionCount'(3704,3)).
-answer('urn:example:recursionCount'(3705,5)).
-answer('urn:example:recursionCount'(3706,6)).
-answer('urn:example:recursionCount'(3707,3)).
-answer('urn:example:recursionCount'(3708,2)).
-answer('urn:example:recursionCount'(3709,7)).
-answer('urn:example:recursionCount'(3710,5)).
-answer('urn:example:recursionCount'(3711,1)).
-answer('urn:example:recursionCount'(3712,7)).
-answer('urn:example:recursionCount'(3713,6)).
-answer('urn:example:recursionCount'(3714,7)).
-answer('urn:example:recursionCount'(3715,1)).
-answer('urn:example:recursionCount'(3716,3)).
-answer('urn:example:recursionCount'(3717,4)).
-answer('urn:example:recursionCount'(3718,3)).
-answer('urn:example:recursionCount'(3719,2)).
-answer('urn:example:recursionCount'(3720,3)).
-answer('urn:example:recursionCount'(3721,7)).
-answer('urn:example:recursionCount'(3722,7)).
-answer('urn:example:recursionCount'(3723,6)).
-answer('urn:example:recursionCount'(3724,7)).
-answer('urn:example:recursionCount'(3725,7)).
-answer('urn:example:recursionCount'(3726,5)).
-answer('urn:example:recursionCount'(3727,5)).
-answer('urn:example:recursionCount'(3728,4)).
-answer('urn:example:recursionCount'(3729,3)).
-answer('urn:example:recursionCount'(3730,4)).
-answer('urn:example:recursionCount'(3731,6)).
-answer('urn:example:recursionCount'(3732,6)).
-answer('urn:example:recursionCount'(3733,4)).
-answer('urn:example:recursionCount'(3734,7)).
-answer('urn:example:recursionCount'(3735,2)).
-answer('urn:example:recursionCount'(3736,3)).
-answer('urn:example:recursionCount'(3737,4)).
-answer('urn:example:recursionCount'(3738,5)).
-answer('urn:example:recursionCount'(3739,4)).
-answer('urn:example:recursionCount'(3740,3)).
-answer('urn:example:recursionCount'(3741,7)).
-answer('urn:example:recursionCount'(3742,7)).
-answer('urn:example:recursionCount'(3743,7)).
-answer('urn:example:recursionCount'(3744,4)).
-answer('urn:example:recursionCount'(3745,7)).
-answer('urn:example:recursionCount'(3746,2)).
-answer('urn:example:recursionCount'(3747,3)).
-answer('urn:example:recursionCount'(3748,5)).
-answer('urn:example:recursionCount'(3749,3)).
-answer('urn:example:recursionCount'(3750,5)).
-answer('urn:example:recursionCount'(3751,1)).
-answer('urn:example:recursionCount'(3752,7)).
-answer('urn:example:recursionCount'(3753,2)).
-answer('urn:example:recursionCount'(3754,7)).
-answer('urn:example:recursionCount'(3755,4)).
-answer('urn:example:recursionCount'(3756,7)).
-answer('urn:example:recursionCount'(3757,2)).
-answer('urn:example:recursionCount'(3758,7)).
-answer('urn:example:recursionCount'(3759,1)).
-answer('urn:example:recursionCount'(3760,6)).
-answer('urn:example:recursionCount'(3761,3)).
-answer('urn:example:recursionCount'(3762,5)).
-answer('urn:example:recursionCount'(3763,3)).
-answer('urn:example:recursionCount'(3764,2)).
-answer('urn:example:recursionCount'(3765,7)).
-answer('urn:example:recursionCount'(3766,4)).
-answer('urn:example:recursionCount'(3767,7)).
-answer('urn:example:recursionCount'(3768,7)).
-answer('urn:example:recursionCount'(3769,7)).
-answer('urn:example:recursionCount'(3770,3)).
-answer('urn:example:recursionCount'(3771,4)).
-answer('urn:example:recursionCount'(3772,5)).
-answer('urn:example:recursionCount'(3773,4)).
-answer('urn:example:recursionCount'(3774,3)).
-answer('urn:example:recursionCount'(3775,2)).
-answer('urn:example:recursionCount'(3776,7)).
-answer('urn:example:recursionCount'(3777,4)).
-answer('urn:example:recursionCount'(3778,6)).
-answer('urn:example:recursionCount'(3779,6)).
-answer('urn:example:recursionCount'(3780,2)).
-answer('urn:example:recursionCount'(3781,3)).
-answer('urn:example:recursionCount'(3782,4)).
-answer('urn:example:recursionCount'(3783,5)).
-answer('urn:example:recursionCount'(3784,5)).
-answer('urn:example:recursionCount'(3785,7)).
-answer('urn:example:recursionCount'(3786,7)).
-answer('urn:example:recursionCount'(3787,6)).
-answer('urn:example:recursionCount'(3788,7)).
-answer('urn:example:recursionCount'(3789,7)).
-answer('urn:example:recursionCount'(3790,7)).
-answer('urn:example:recursionCount'(3791,2)).
-answer('urn:example:recursionCount'(3792,3)).
-answer('urn:example:recursionCount'(3793,4)).
-answer('urn:example:recursionCount'(3794,3)).
-answer('urn:example:recursionCount'(3795,1)).
-answer('urn:example:recursionCount'(3796,7)).
-answer('urn:example:recursionCount'(3797,6)).
-answer('urn:example:recursionCount'(3798,7)).
-answer('urn:example:recursionCount'(3799,1)).
-answer('urn:example:recursionCount'(3800,5)).
-answer('urn:example:recursionCount'(3801,6)).
-answer('urn:example:recursionCount'(3802,3)).
-answer('urn:example:recursionCount'(3803,6)).
-answer('urn:example:recursionCount'(3804,3)).
-answer('urn:example:recursionCount'(3805,6)).
-answer('urn:example:recursionCount'(3806,5)).
-answer('urn:example:recursionCount'(3807,2)).
-answer('urn:example:recursionCount'(3808,7)).
-answer('urn:example:recursionCount'(3809,7)).
-answer('urn:example:recursionCount'(3810,6)).
-answer('urn:example:recursionCount'(3811,5)).
-answer('urn:example:recursionCount'(3812,3)).
-answer('urn:example:recursionCount'(3813,4)).
-answer('urn:example:recursionCount'(3814,3)).
-answer('urn:example:recursionCount'(3815,5)).
-answer('urn:example:recursionCount'(3816,6)).
-answer('urn:example:recursionCount'(3817,3)).
-answer('urn:example:recursionCount'(3818,5)).
-answer('urn:example:recursionCount'(3819,7)).
-answer('urn:example:recursionCount'(3820,3)).
-answer('urn:example:recursionCount'(3821,3)).
-answer('urn:example:recursionCount'(3822,7)).
-answer('urn:example:recursionCount'(3823,6)).
-answer('urn:example:recursionCount'(3824,7)).
-answer('urn:example:recursionCount'(3825,1)).
-answer('urn:example:recursionCount'(3826,3)).
-answer('urn:example:recursionCount'(3827,4)).
-answer('urn:example:recursionCount'(3828,5)).
-answer('urn:example:recursionCount'(3829,5)).
-answer('urn:example:recursionCount'(3830,6)).
-answer('urn:example:recursionCount'(3831,4)).
-answer('urn:example:recursionCount'(3832,6)).
-answer('urn:example:recursionCount'(3833,6)).
-answer('urn:example:recursionCount'(3834,7)).
-answer('urn:example:recursionCount'(3835,7)).
-answer('urn:example:recursionCount'(3836,5)).
-answer('urn:example:recursionCount'(3837,5)).
-answer('urn:example:recursionCount'(3838,5)).
-answer('urn:example:recursionCount'(3839,5)).
-answer('urn:example:recursionCount'(3840,3)).
-answer('urn:example:recursionCount'(3841,3)).
-answer('urn:example:recursionCount'(3842,7)).
-answer('urn:example:recursionCount'(3843,7)).
-answer('urn:example:recursionCount'(3844,6)).
-answer('urn:example:recursionCount'(3845,7)).
-answer('urn:example:recursionCount'(3846,7)).
-answer('urn:example:recursionCount'(3847,5)).
-answer('urn:example:recursionCount'(3848,5)).
-answer('urn:example:recursionCount'(3849,4)).
-answer('urn:example:recursionCount'(3850,6)).
-answer('urn:example:recursionCount'(3851,5)).
-answer('urn:example:recursionCount'(3852,1)).
-answer('urn:example:recursionCount'(3853,7)).
-answer('urn:example:recursionCount'(3854,7)).
-answer('urn:example:recursionCount'(3855,6)).
-answer('urn:example:recursionCount'(3856,7)).
-answer('urn:example:recursionCount'(3857,7)).
-answer('urn:example:recursionCount'(3858,5)).
-answer('urn:example:recursionCount'(3859,3)).
-answer('urn:example:recursionCount'(3860,5)).
-answer('urn:example:recursionCount'(3861,6)).
-answer('urn:example:recursionCount'(3862,3)).
-answer('urn:example:recursionCount'(3863,5)).
-answer('urn:example:recursionCount'(3864,7)).
-answer('urn:example:recursionCount'(3865,7)).
-answer('urn:example:recursionCount'(3866,6)).
-answer('urn:example:recursionCount'(3867,7)).
-answer('urn:example:recursionCount'(3868,7)).
-answer('urn:example:recursionCount'(3869,1)).
-answer('urn:example:recursionCount'(3870,2)).
-answer('urn:example:recursionCount'(3871,3)).
-answer('urn:example:recursionCount'(3872,4)).
-answer('urn:example:recursionCount'(3873,5)).
-answer('urn:example:recursionCount'(3874,5)).
-answer('urn:example:recursionCount'(3875,7)).
-answer('urn:example:recursionCount'(3876,7)).
-answer('urn:example:recursionCount'(3877,6)).
-answer('urn:example:recursionCount'(3878,7)).
-answer('urn:example:recursionCount'(3879,7)).
-answer('urn:example:recursionCount'(3880,7)).
-answer('urn:example:recursionCount'(3881,5)).
-answer('urn:example:recursionCount'(3882,5)).
-answer('urn:example:recursionCount'(3883,5)).
-answer('urn:example:recursionCount'(3884,5)).
-answer('urn:example:recursionCount'(3885,5)).
-answer('urn:example:recursionCount'(3886,7)).
-answer('urn:example:recursionCount'(3887,7)).
-answer('urn:example:recursionCount'(3888,6)).
-answer('urn:example:recursionCount'(3889,6)).
-answer('urn:example:recursionCount'(3890,7)).
-answer('urn:example:recursionCount'(3891,7)).
-answer('urn:example:recursionCount'(3892,5)).
-answer('urn:example:recursionCount'(3893,5)).
-answer('urn:example:recursionCount'(3894,4)).
-answer('urn:example:recursionCount'(3895,3)).
-answer('urn:example:recursionCount'(3896,1)).
-answer('urn:example:recursionCount'(3897,7)).
-answer('urn:example:recursionCount'(3898,6)).
-answer('urn:example:recursionCount'(3899,7)).
-answer('urn:example:recursionCount'(3900,3)).
-answer('urn:example:recursionCount'(3901,3)).
-answer('urn:example:recursionCount'(3902,4)).
-answer('urn:example:recursionCount'(3903,4)).
-answer('urn:example:recursionCount'(3904,4)).
-answer('urn:example:recursionCount'(3905,3)).
-answer('urn:example:recursionCount'(3906,3)).
-answer('urn:example:recursionCount'(3907,7)).
-answer('urn:example:recursionCount'(3908,7)).
-answer('urn:example:recursionCount'(3909,7)).
-answer('urn:example:recursionCount'(3910,3)).
-answer('urn:example:recursionCount'(3911,6)).
-answer('urn:example:recursionCount'(3912,3)).
-answer('urn:example:recursionCount'(3913,6)).
-answer('urn:example:recursionCount'(3914,3)).
-answer('urn:example:recursionCount'(3915,6)).
-answer('urn:example:recursionCount'(3916,5)).
-answer('urn:example:recursionCount'(3917,2)).
-answer('urn:example:recursionCount'(3918,7)).
-answer('urn:example:recursionCount'(3919,2)).
-answer('urn:example:recursionCount'(3920,4)).
-answer('urn:example:recursionCount'(3921,3)).
-answer('urn:example:recursionCount'(3922,3)).
-answer('urn:example:recursionCount'(3923,4)).
-answer('urn:example:recursionCount'(3924,3)).
-answer('urn:example:recursionCount'(3925,5)).
-answer('urn:example:recursionCount'(3926,6)).
-answer('urn:example:recursionCount'(3927,3)).
-answer('urn:example:recursionCount'(3928,5)).
-answer('urn:example:recursionCount'(3929,3)).
-answer('urn:example:recursionCount'(3930,4)).
-answer('urn:example:recursionCount'(3931,6)).
-answer('urn:example:recursionCount'(3932,4)).
-answer('urn:example:recursionCount'(3933,6)).
-answer('urn:example:recursionCount'(3934,7)).
-answer('urn:example:recursionCount'(3935,1)).
-answer('urn:example:recursionCount'(3936,3)).
-answer('urn:example:recursionCount'(3937,4)).
-answer('urn:example:recursionCount'(3938,5)).
-answer('urn:example:recursionCount'(3939,4)).
-answer('urn:example:recursionCount'(3940,4)).
-answer('urn:example:recursionCount'(3941,3)).
-answer('urn:example:recursionCount'(3942,3)).
-answer('urn:example:recursionCount'(3943,7)).
-answer('urn:example:recursionCount'(3944,6)).
-answer('urn:example:recursionCount'(3945,7)).
-answer('urn:example:recursionCount'(3946,1)).
-answer('urn:example:recursionCount'(3947,3)).
-answer('urn:example:recursionCount'(3948,4)).
-answer('urn:example:recursionCount'(3949,5)).
-answer('urn:example:recursionCount'(3950,3)).
-answer('urn:example:recursionCount'(3951,6)).
-answer('urn:example:recursionCount'(3952,5)).
-answer('urn:example:recursionCount'(3953,1)).
-answer('urn:example:recursionCount'(3954,7)).
-answer('urn:example:recursionCount'(3955,6)).
-answer('urn:example:recursionCount'(3956,7)).
-answer('urn:example:recursionCount'(3957,1)).
-answer('urn:example:recursionCount'(3958,3)).
-answer('urn:example:recursionCount'(3959,4)).
-answer('urn:example:recursionCount'(3960,3)).
-answer('urn:example:recursionCount'(3961,5)).
-answer('urn:example:recursionCount'(3962,6)).
-answer('urn:example:recursionCount'(3963,3)).
-answer('urn:example:recursionCount'(3964,1)).
-answer('urn:example:recursionCount'(3965,7)).
-answer('urn:example:recursionCount'(3966,6)).
-answer('urn:example:recursionCount'(3967,7)).
-answer('urn:example:recursionCount'(3968,1)).
-answer('urn:example:recursionCount'(3969,3)).
-answer('urn:example:recursionCount'(3970,7)).
-answer('urn:example:recursionCount'(3971,2)).
-answer('urn:example:recursionCount'(3972,3)).
-answer('urn:example:recursionCount'(3973,4)).
-answer('urn:example:recursionCount'(3974,3)).
-answer('urn:example:recursionCount'(3975,1)).
-answer('urn:example:recursionCount'(3976,7)).
-answer('urn:example:recursionCount'(3977,6)).
-answer('urn:example:recursionCount'(3978,7)).
-answer('urn:example:recursionCount'(3979,1)).
-answer('urn:example:recursionCount'(3980,7)).
-answer('urn:example:recursionCount'(3981,7)).
-answer('urn:example:recursionCount'(3982,5)).
-answer('urn:example:recursionCount'(3983,5)).
-answer('urn:example:recursionCount'(3984,4)).
-answer('urn:example:recursionCount'(3985,3)).
-answer('urn:example:recursionCount'(3986,1)).
-answer('urn:example:recursionCount'(3987,7)).
-answer('urn:example:recursionCount'(3988,6)).
-answer('urn:example:recursionCount'(3989,7)).
-answer('urn:example:recursionCount'(3990,7)).
-answer('urn:example:recursionCount'(3991,2)).
-answer('urn:example:recursionCount'(3992,3)).
-answer('urn:example:recursionCount'(3993,4)).
-answer('urn:example:recursionCount'(3994,5)).
-answer('urn:example:recursionCount'(3995,4)).
-answer('urn:example:recursionCount'(3996,3)).
-answer('urn:example:recursionCount'(3997,1)).
-answer('urn:example:recursionCount'(3998,7)).
-answer('urn:example:recursionCount'(3999,6)).
-answer('urn:example:recursionCount'(4000,4)).
-answer('urn:example:recursionCount'(4001,7)).
-answer('urn:example:recursionCount'(4002,2)).
-answer('urn:example:recursionCount'(4003,3)).
-answer('urn:example:recursionCount'(4004,4)).
-answer('urn:example:recursionCount'(4005,5)).
-answer('urn:example:recursionCount'(4006,4)).
-answer('urn:example:recursionCount'(4007,3)).
-answer('urn:example:recursionCount'(4008,2)).
-answer('urn:example:recursionCount'(4009,7)).
-answer('urn:example:recursionCount'(4010,7)).
-answer('urn:example:recursionCount'(4011,4)).
-answer('urn:example:recursionCount'(4012,7)).
-answer('urn:example:recursionCount'(4013,2)).
-answer('urn:example:recursionCount'(4014,3)).
-answer('urn:example:recursionCount'(4015,5)).
-answer('urn:example:recursionCount'(4016,3)).
-answer('urn:example:recursionCount'(4017,6)).
-answer('urn:example:recursionCount'(4018,5)).
-answer('urn:example:recursionCount'(4019,3)).
-answer('urn:example:recursionCount'(4020,2)).
-answer('urn:example:recursionCount'(4021,7)).
-answer('urn:example:recursionCount'(4022,4)).
-answer('urn:example:recursionCount'(4023,7)).
-answer('urn:example:recursionCount'(4024,2)).
-answer('urn:example:recursionCount'(4025,7)).
-answer('urn:example:recursionCount'(4026,1)).
-answer('urn:example:recursionCount'(4027,5)).
-answer('urn:example:recursionCount'(4028,6)).
-answer('urn:example:recursionCount'(4029,3)).
-answer('urn:example:recursionCount'(4030,3)).
-answer('urn:example:recursionCount'(4031,2)).
-answer('urn:example:recursionCount'(4032,7)).
-answer('urn:example:recursionCount'(4033,4)).
-answer('urn:example:recursionCount'(4034,7)).
-answer('urn:example:recursionCount'(4035,7)).
-answer('urn:example:recursionCount'(4036,7)).
-answer('urn:example:recursionCount'(4037,3)).
-answer('urn:example:recursionCount'(4038,3)).
-answer('urn:example:recursionCount'(4039,4)).
-answer('urn:example:recursionCount'(4040,4)).
-answer('urn:example:recursionCount'(4041,3)).
-answer('urn:example:recursionCount'(4042,2)).
-answer('urn:example:recursionCount'(4043,7)).
-answer('urn:example:recursionCount'(4044,4)).
-answer('urn:example:recursionCount'(4045,6)).
-answer('urn:example:recursionCount'(4046,6)).
-answer('urn:example:recursionCount'(4047,4)).
-answer('urn:example:recursionCount'(4048,6)).
-answer('urn:example:recursionCount'(4049,4)).
-answer('urn:example:recursionCount'(4050,5)).
-answer('urn:example:recursionCount'(4051,5)).
-answer('urn:example:recursionCount'(4052,7)).
-answer('urn:example:recursionCount'(4053,7)).
-answer('urn:example:recursionCount'(4054,6)).
-answer('urn:example:recursionCount'(4055,7)).
-answer('urn:example:recursionCount'(4056,7)).
-answer('urn:example:recursionCount'(4057,3)).
-answer('urn:example:recursionCount'(4058,3)).
-answer('urn:example:recursionCount'(4059,4)).
-answer('urn:example:recursionCount'(4060,4)).
-answer('urn:example:recursionCount'(4061,3)).
-answer('urn:example:recursionCount'(4062,1)).
-answer('urn:example:recursionCount'(4063,7)).
-answer('urn:example:recursionCount'(4064,6)).
-answer('urn:example:recursionCount'(4065,7)).
-answer('urn:example:recursionCount'(4066,1)).
-answer('urn:example:recursionCount'(4067,5)).
-answer('urn:example:recursionCount'(4068,6)).
-answer('urn:example:recursionCount'(4069,3)).
-answer('urn:example:recursionCount'(4070,3)).
-answer('urn:example:recursionCount'(4071,6)).
-answer('urn:example:recursionCount'(4072,5)).
-answer('urn:example:recursionCount'(4073,3)).
-answer('urn:example:recursionCount'(4074,4)).
-answer('urn:example:recursionCount'(4075,3)).
-answer('urn:example:recursionCount'(4076,5)).
-answer('urn:example:recursionCount'(4077,6)).
-answer('urn:example:recursionCount'(4078,5)).
-answer('urn:example:recursionCount'(4079,3)).
-answer('urn:example:recursionCount'(4080,2)).
-answer('urn:example:recursionCount'(4081,5)).
-answer('urn:example:recursionCount'(4082,6)).
-answer('urn:example:recursionCount'(4083,3)).
-answer('urn:example:recursionCount'(4084,6)).
-answer('urn:example:recursionCount'(4085,3)).
-answer('urn:example:recursionCount'(4086,6)).
-answer('urn:example:recursionCount'(4087,5)).
-answer('urn:example:recursionCount'(4088,2)).
-answer('urn:example:recursionCount'(4089,7)).
-answer('urn:example:recursionCount'(4090,7)).
-answer('urn:example:recursionCount'(4091,3)).
-answer('urn:example:recursionCount'(4092,3)).
-answer('urn:example:recursionCount'(4093,4)).
-answer('urn:example:recursionCount'(4094,4)).
-answer('urn:example:recursionCount'(4095,4)).
-answer('urn:example:recursionCount'(4096,3)).
-answer('urn:example:recursionCount'(4097,3)).
-answer('urn:example:recursionCount'(4098,7)).
-answer('urn:example:recursionCount'(4099,7)).
-answer('urn:example:recursionCount'(4100,7)).
-answer('urn:example:recursionCount'(4101,4)).
-answer('urn:example:recursionCount'(4102,7)).
-answer('urn:example:recursionCount'(4103,2)).
-answer('urn:example:recursionCount'(4104,3)).
-answer('urn:example:recursionCount'(4105,5)).
-answer('urn:example:recursionCount'(4106,3)).
-answer('urn:example:recursionCount'(4107,6)).
-answer('urn:example:recursionCount'(4108,5)).
-answer('urn:example:recursionCount'(4109,3)).
-answer('urn:example:recursionCount'(4110,4)).
-answer('urn:example:recursionCount'(4111,6)).
-answer('urn:example:recursionCount'(4112,3)).
-answer('urn:example:recursionCount'(4113,5)).
-answer('urn:example:recursionCount'(4114,6)).
-answer('urn:example:recursionCount'(4115,3)).
-answer('urn:example:recursionCount'(4116,5)).
-answer('urn:example:recursionCount'(4117,3)).
-answer('urn:example:recursionCount'(4118,6)).
-answer('urn:example:recursionCount'(4119,5)).
-answer('urn:example:recursionCount'(4120,7)).
-answer('urn:example:recursionCount'(4121,3)).
-answer('urn:example:recursionCount'(4122,6)).
-answer('urn:example:recursionCount'(4123,3)).
-answer('urn:example:recursionCount'(4124,5)).
-answer('urn:example:recursionCount'(4125,2)).
-answer('urn:example:recursionCount'(4126,7)).
-answer('urn:example:recursionCount'(4127,1)).
-answer('urn:example:recursionCount'(4128,5)).
-answer('urn:example:recursionCount'(4129,6)).
-answer('urn:example:recursionCount'(4130,2)).
-answer('urn:example:recursionCount'(4131,5)).
-answer('urn:example:recursionCount'(4132,3)).
-answer('urn:example:recursionCount'(4133,6)).
-answer('urn:example:recursionCount'(4134,3)).
-answer('urn:example:recursionCount'(4135,7)).
-answer('urn:example:recursionCount'(4136,7)).
-answer('urn:example:recursionCount'(4137,7)).
-answer('urn:example:recursionCount'(4138,3)).
-answer('urn:example:recursionCount'(4139,3)).
-answer('urn:example:recursionCount'(4140,3)).
-answer('urn:example:recursionCount'(4141,6)).
-answer('urn:example:recursionCount'(4142,5)).
-answer('urn:example:recursionCount'(4143,3)).
-answer('urn:example:recursionCount'(4144,6)).
-answer('urn:example:recursionCount'(4145,4)).
-answer('urn:example:recursionCount'(4146,6)).
-answer('urn:example:recursionCount'(4147,6)).
-answer('urn:example:recursionCount'(4148,4)).
-answer('urn:example:recursionCount'(4149,6)).
-answer('urn:example:recursionCount'(4150,5)).
-answer('urn:example:recursionCount'(4151,3)).
-answer('urn:example:recursionCount'(4152,2)).
-answer('urn:example:recursionCount'(4153,7)).
-answer('urn:example:recursionCount'(4154,4)).
-answer('urn:example:recursionCount'(4155,7)).
-answer('urn:example:recursionCount'(4156,7)).
-answer('urn:example:recursionCount'(4157,7)).
-answer('urn:example:recursionCount'(4158,3)).
-answer('urn:example:recursionCount'(4159,3)).
-answer('urn:example:recursionCount'(4160,3)).
-answer('urn:example:recursionCount'(4161,5)).
-answer('urn:example:recursionCount'(4162,7)).
-answer('urn:example:recursionCount'(4163,7)).
-answer('urn:example:recursionCount'(4164,6)).
-answer('urn:example:recursionCount'(4165,7)).
-answer('urn:example:recursionCount'(4166,7)).
-answer('urn:example:recursionCount'(4167,1)).
-answer('urn:example:recursionCount'(4168,5)).
-answer('urn:example:recursionCount'(4169,6)).
-answer('urn:example:recursionCount'(4170,6)).
-answer('urn:example:recursionCount'(4171,3)).
-answer('urn:example:recursionCount'(4172,1)).
-answer('urn:example:recursionCount'(4173,7)).
-answer('urn:example:recursionCount'(4174,6)).
-answer('urn:example:recursionCount'(4175,7)).
-answer('urn:example:recursionCount'(4176,1)).
-answer('urn:example:recursionCount'(4177,3)).
-answer('urn:example:recursionCount'(4178,6)).
-answer('urn:example:recursionCount'(4179,5)).
-answer('urn:example:recursionCount'(4180,5)).
-answer('urn:example:recursionCount'(4181,6)).
-answer('urn:example:recursionCount'(4182,5)).
-answer('urn:example:recursionCount'(4183,3)).
-answer('urn:example:recursionCount'(4184,4)).
-answer('urn:example:recursionCount'(4185,3)).
-answer('urn:example:recursionCount'(4186,5)).
-answer('urn:example:recursionCount'(4187,6)).
-answer('urn:example:recursionCount'(4188,3)).
-answer('urn:example:recursionCount'(4189,2)).
-answer('urn:example:recursionCount'(4190,3)).
-answer('urn:example:recursionCount'(4191,5)).
-answer('urn:example:recursionCount'(4192,6)).
-answer('urn:example:recursionCount'(4193,3)).
-answer('urn:example:recursionCount'(4194,6)).
-answer('urn:example:recursionCount'(4195,3)).
-answer('urn:example:recursionCount'(4196,6)).
-answer('urn:example:recursionCount'(4197,5)).
-answer('urn:example:recursionCount'(4198,2)).
-answer('urn:example:recursionCount'(4199,7)).
-answer('urn:example:recursionCount'(4200,2)).
-answer('urn:example:recursionCount'(4201,7)).
-answer('urn:example:recursionCount'(4202,4)).
-answer('urn:example:recursionCount'(4203,7)).
-answer('urn:example:recursionCount'(4204,2)).
-answer('urn:example:recursionCount'(4205,7)).
-answer('urn:example:recursionCount'(4206,1)).
-answer('urn:example:recursionCount'(4207,5)).
-answer('urn:example:recursionCount'(4208,6)).
-answer('urn:example:recursionCount'(4209,3)).
-answer('urn:example:recursionCount'(4210,7)).
-answer('urn:example:recursionCount'(4211,3)).
-answer('urn:example:recursionCount'(4212,6)).
-answer('urn:example:recursionCount'(4213,3)).
-answer('urn:example:recursionCount'(4214,5)).
-answer('urn:example:recursionCount'(4215,2)).
-answer('urn:example:recursionCount'(4216,7)).
-answer('urn:example:recursionCount'(4217,1)).
-answer('urn:example:recursionCount'(4218,5)).
-answer('urn:example:recursionCount'(4219,6)).
-answer('urn:example:recursionCount'(4220,4)).
-answer('urn:example:recursionCount'(4221,6)).
-answer('urn:example:recursionCount'(4222,4)).
-answer('urn:example:recursionCount'(4223,3)).
-answer('urn:example:recursionCount'(4224,6)).
-answer('urn:example:recursionCount'(4225,5)).
-answer('urn:example:recursionCount'(4226,2)).
-answer('urn:example:recursionCount'(4227,7)).
-answer('urn:example:recursionCount'(4228,1)).
-answer('urn:example:recursionCount'(4229,5)).
-answer('urn:example:recursionCount'(4230,7)).
-answer('urn:example:recursionCount'(4231,3)).
-answer('urn:example:recursionCount'(4232,3)).
-answer('urn:example:recursionCount'(4233,4)).
-answer('urn:example:recursionCount'(4234,3)).
-answer('urn:example:recursionCount'(4235,3)).
-answer('urn:example:recursionCount'(4236,7)).
-answer('urn:example:recursionCount'(4237,7)).
-answer('urn:example:recursionCount'(4238,7)).
-answer('urn:example:recursionCount'(4239,3)).
-answer('urn:example:recursionCount'(4240,2)).
-answer('urn:example:recursionCount'(4241,5)).
-answer('urn:example:recursionCount'(4242,6)).
-answer('urn:example:recursionCount'(4243,3)).
-answer('urn:example:recursionCount'(4244,4)).
-answer('urn:example:recursionCount'(4245,6)).
-answer('urn:example:recursionCount'(4246,4)).
-answer('urn:example:recursionCount'(4247,6)).
-answer('urn:example:recursionCount'(4248,6)).
-answer('urn:example:recursionCount'(4249,4)).
-answer('urn:example:recursionCount'(4250,7)).
-answer('urn:example:recursionCount'(4251,2)).
-answer('urn:example:recursionCount'(4252,5)).
-answer('urn:example:recursionCount'(4253,3)).
-answer('urn:example:recursionCount'(4254,6)).
-answer('urn:example:recursionCount'(4255,3)).
-answer('urn:example:recursionCount'(4256,7)).
-answer('urn:example:recursionCount'(4257,7)).
-answer('urn:example:recursionCount'(4258,7)).
-answer('urn:example:recursionCount'(4259,3)).
-answer('urn:example:recursionCount'(4260,1)).
-answer('urn:example:recursionCount'(4261,7)).
-answer('urn:example:recursionCount'(4262,2)).
-answer('urn:example:recursionCount'(4263,7)).
-answer('urn:example:recursionCount'(4264,4)).
-answer('urn:example:recursionCount'(4265,7)).
-answer('urn:example:recursionCount'(4266,2)).
-answer('urn:example:recursionCount'(4267,7)).
-answer('urn:example:recursionCount'(4268,1)).
-answer('urn:example:recursionCount'(4269,5)).
-answer('urn:example:recursionCount'(4270,5)).
-answer('urn:example:recursionCount'(4271,1)).
-answer('urn:example:recursionCount'(4272,7)).
-answer('urn:example:recursionCount'(4273,7)).
-answer('urn:example:recursionCount'(4274,6)).
-answer('urn:example:recursionCount'(4275,7)).
-answer('urn:example:recursionCount'(4276,7)).
-answer('urn:example:recursionCount'(4277,5)).
-answer('urn:example:recursionCount'(4278,3)).
-answer('urn:example:recursionCount'(4279,6)).
-answer('urn:example:recursionCount'(4280,6)).
-answer('urn:example:recursionCount'(4281,5)).
-answer('urn:example:recursionCount'(4282,1)).
-answer('urn:example:recursionCount'(4283,7)).
-answer('urn:example:recursionCount'(4284,6)).
-answer('urn:example:recursionCount'(4285,7)).
-answer('urn:example:recursionCount'(4286,1)).
-answer('urn:example:recursionCount'(4287,3)).
-answer('urn:example:recursionCount'(4288,4)).
-answer('urn:example:recursionCount'(4289,3)).
-answer('urn:example:recursionCount'(4290,3)).
-answer('urn:example:recursionCount'(4291,6)).
-answer('urn:example:recursionCount'(4292,5)).
-answer('urn:example:recursionCount'(4293,3)).
-answer('urn:example:recursionCount'(4294,4)).
-answer('urn:example:recursionCount'(4295,3)).
-answer('urn:example:recursionCount'(4296,5)).
-answer('urn:example:recursionCount'(4297,6)).
-answer('urn:example:recursionCount'(4298,3)).
-answer('urn:example:recursionCount'(4299,5)).
-answer('urn:example:recursionCount'(4300,3)).
-answer('urn:example:recursionCount'(4301,2)).
-answer('urn:example:recursionCount'(4302,7)).
-answer('urn:example:recursionCount'(4303,4)).
-answer('urn:example:recursionCount'(4304,7)).
-answer('urn:example:recursionCount'(4305,7)).
-answer('urn:example:recursionCount'(4306,7)).
-answer('urn:example:recursionCount'(4307,3)).
-answer('urn:example:recursionCount'(4308,3)).
-answer('urn:example:recursionCount'(4309,4)).
-answer('urn:example:recursionCount'(4310,2)).
-answer('urn:example:recursionCount'(4311,5)).
-answer('urn:example:recursionCount'(4312,3)).
-answer('urn:example:recursionCount'(4313,6)).
-answer('urn:example:recursionCount'(4314,3)).
-answer('urn:example:recursionCount'(4315,7)).
-answer('urn:example:recursionCount'(4316,7)).
-answer('urn:example:recursionCount'(4317,7)).
-answer('urn:example:recursionCount'(4318,3)).
-answer('urn:example:recursionCount'(4319,3)).
-answer('urn:example:recursionCount'(4320,7)).
-answer('urn:example:recursionCount'(4321,3)).
-answer('urn:example:recursionCount'(4322,3)).
-answer('urn:example:recursionCount'(4323,4)).
-answer('urn:example:recursionCount'(4324,3)).
-answer('urn:example:recursionCount'(4325,3)).
-answer('urn:example:recursionCount'(4326,7)).
-answer('urn:example:recursionCount'(4327,7)).
-answer('urn:example:recursionCount'(4328,7)).
-answer('urn:example:recursionCount'(4329,3)).
-answer('urn:example:recursionCount'(4330,4)).
-answer('urn:example:recursionCount'(4331,6)).
-answer('urn:example:recursionCount'(4332,4)).
-answer('urn:example:recursionCount'(4333,5)).
-answer('urn:example:recursionCount'(4334,4)).
-answer('urn:example:recursionCount'(4335,3)).
-answer('urn:example:recursionCount'(4336,3)).
-answer('urn:example:recursionCount'(4337,7)).
-answer('urn:example:recursionCount'(4338,7)).
-answer('urn:example:recursionCount'(4339,7)).
-answer('urn:example:recursionCount'(4340,7)).
-answer('urn:example:recursionCount'(4341,3)).
-answer('urn:example:recursionCount'(4342,3)).
-answer('urn:example:recursionCount'(4343,4)).
-answer('urn:example:recursionCount'(4344,5)).
-answer('urn:example:recursionCount'(4345,4)).
-answer('urn:example:recursionCount'(4346,6)).
-answer('urn:example:recursionCount'(4347,4)).
-answer('urn:example:recursionCount'(4348,6)).
-answer('urn:example:recursionCount'(4349,6)).
-answer('urn:example:recursionCount'(4350,7)).
-answer('urn:example:recursionCount'(4351,7)).
-answer('urn:example:recursionCount'(4352,3)).
-answer('urn:example:recursionCount'(4353,3)).
-answer('urn:example:recursionCount'(4354,4)).
-answer('urn:example:recursionCount'(4355,3)).
-answer('urn:example:recursionCount'(4356,3)).
-answer('urn:example:recursionCount'(4357,7)).
-answer('urn:example:recursionCount'(4358,7)).
-answer('urn:example:recursionCount'(4359,7)).
-answer('urn:example:recursionCount'(4360,7)).
-answer('urn:example:recursionCount'(4361,7)).
-answer('urn:example:recursionCount'(4362,7)).
-answer('urn:example:recursionCount'(4363,3)).
-answer('urn:example:recursionCount'(4364,6)).
-answer('urn:example:recursionCount'(4365,3)).
-answer('urn:example:recursionCount'(4366,5)).
-answer('urn:example:recursionCount'(4367,2)).
-answer('urn:example:recursionCount'(4368,7)).
-answer('urn:example:recursionCount'(4369,1)).
-answer('urn:example:recursionCount'(4370,3)).
-answer('urn:example:recursionCount'(4371,7)).
-answer('urn:example:recursionCount'(4372,7)).
-answer('urn:example:recursionCount'(4373,7)).
-answer('urn:example:recursionCount'(4374,4)).
-answer('urn:example:recursionCount'(4375,7)).
-answer('urn:example:recursionCount'(4376,2)).
-answer('urn:example:recursionCount'(4377,3)).
-answer('urn:example:recursionCount'(4378,5)).
-answer('urn:example:recursionCount'(4379,3)).
-answer('urn:example:recursionCount'(4380,3)).
-answer('urn:example:recursionCount'(4381,3)).
-answer('urn:example:recursionCount'(4382,7)).
-answer('urn:example:recursionCount'(4383,7)).
-answer('urn:example:recursionCount'(4384,6)).
-answer('urn:example:recursionCount'(4385,7)).
-answer('urn:example:recursionCount'(4386,7)).
-answer('urn:example:recursionCount'(4387,5)).
-answer('urn:example:recursionCount'(4388,5)).
-answer('urn:example:recursionCount'(4389,4)).
-answer('urn:example:recursionCount'(4390,4)).
-answer('urn:example:recursionCount'(4391,3)).
-answer('urn:example:recursionCount'(4392,3)).
-answer('urn:example:recursionCount'(4393,7)).
-answer('urn:example:recursionCount'(4394,6)).
-answer('urn:example:recursionCount'(4395,7)).
-answer('urn:example:recursionCount'(4396,1)).
-answer('urn:example:recursionCount'(4397,3)).
-answer('urn:example:recursionCount'(4398,4)).
-answer('urn:example:recursionCount'(4399,5)).
-answer('urn:example:recursionCount'(4400,4)).
-answer('urn:example:recursionCount'(4401,3)).
-answer('urn:example:recursionCount'(4402,2)).
-answer('urn:example:recursionCount'(4403,7)).
-answer('urn:example:recursionCount'(4404,4)).
-answer('urn:example:recursionCount'(4405,6)).
-answer('urn:example:recursionCount'(4406,6)).
-answer('urn:example:recursionCount'(4407,4)).
-answer('urn:example:recursionCount'(4408,6)).
-answer('urn:example:recursionCount'(4409,4)).
-answer('urn:example:recursionCount'(4410,3)).
-answer('urn:example:recursionCount'(4411,6)).
-answer('urn:example:recursionCount'(4412,5)).
-answer('urn:example:recursionCount'(4413,3)).
-answer('urn:example:recursionCount'(4414,6)).
-answer('urn:example:recursionCount'(4415,4)).
-answer('urn:example:recursionCount'(4416,6)).
-answer('urn:example:recursionCount'(4417,6)).
-answer('urn:example:recursionCount'(4418,4)).
-answer('urn:example:recursionCount'(4419,6)).
-answer('urn:example:recursionCount'(4420,2)).
-answer('urn:example:recursionCount'(4421,5)).
-answer('urn:example:recursionCount'(4422,6)).
-answer('urn:example:recursionCount'(4423,3)).
-answer('urn:example:recursionCount'(4424,4)).
-answer('urn:example:recursionCount'(4425,6)).
-answer('urn:example:recursionCount'(4426,4)).
-answer('urn:example:recursionCount'(4427,6)).
-answer('urn:example:recursionCount'(4428,6)).
-answer('urn:example:recursionCount'(4429,4)).
-answer('urn:example:recursionCount'(4430,7)).
-answer('urn:example:recursionCount'(4431,3)).
-answer('urn:example:recursionCount'(4432,3)).
-answer('urn:example:recursionCount'(4433,4)).
-answer('urn:example:recursionCount'(4434,5)).
-answer('urn:example:recursionCount'(4435,4)).
-answer('urn:example:recursionCount'(4436,6)).
-answer('urn:example:recursionCount'(4437,4)).
-answer('urn:example:recursionCount'(4438,6)).
-answer('urn:example:recursionCount'(4439,6)).
-answer('urn:example:recursionCount'(4440,4)).
-answer('urn:example:recursionCount'(4441,6)).
-answer('urn:example:recursionCount'(4442,4)).
-answer('urn:example:recursionCount'(4443,5)).
-answer('urn:example:recursionCount'(4445,5)).
-answer('urn:example:recursionCount'(4446,4)).
-answer('urn:example:recursionCount'(4447,6)).
-answer('urn:example:recursionCount'(4448,4)).
-answer('urn:example:recursionCount'(4449,6)).
-answer('urn:example:recursionCount'(4450,6)).
-answer('urn:example:recursionCount'(4451,4)).
-answer('urn:example:recursionCount'(4452,6)).
-answer('urn:example:recursionCount'(4453,4)).
-answer('urn:example:recursionCount'(4454,5)).
-answer('urn:example:recursionCount'(4455,4)).
-answer('urn:example:recursionCount'(4456,3)).
-answer('urn:example:recursionCount'(4457,3)).
-answer('urn:example:recursionCount'(4458,7)).
-answer('urn:example:recursionCount'(4459,7)).
-answer('urn:example:recursionCount'(4460,6)).
-answer('urn:example:recursionCount'(4461,6)).
-answer('urn:example:recursionCount'(4462,4)).
-answer('urn:example:recursionCount'(4463,6)).
-answer('urn:example:recursionCount'(4464,4)).
-answer('urn:example:recursionCount'(4465,3)).
-answer('urn:example:recursionCount'(4466,6)).
-answer('urn:example:recursionCount'(4467,5)).
-answer('urn:example:recursionCount'(4468,2)).
-answer('urn:example:recursionCount'(4469,7)).
-answer('urn:example:recursionCount'(4470,4)).
-answer('urn:example:recursionCount'(4471,6)).
-answer('urn:example:recursionCount'(4472,6)).
-answer('urn:example:recursionCount'(4473,4)).
-answer('urn:example:recursionCount'(4474,6)).
-answer('urn:example:recursionCount'(4475,3)).
-answer('urn:example:recursionCount'(4476,5)).
-answer('urn:example:recursionCount'(4477,6)).
-answer('urn:example:recursionCount'(4478,3)).
-answer('urn:example:recursionCount'(4479,5)).
-answer('urn:example:recursionCount'(4480,6)).
-answer('urn:example:recursionCount'(4481,4)).
-answer('urn:example:recursionCount'(4482,6)).
-answer('urn:example:recursionCount'(4483,6)).
-answer('urn:example:recursionCount'(4484,4)).
-answer('urn:example:recursionCount'(4485,7)).
-answer('urn:example:recursionCount'(4486,2)).
-answer('urn:example:recursionCount'(4487,3)).
-answer('urn:example:recursionCount'(4488,4)).
-answer('urn:example:recursionCount'(4489,5)).
-answer('urn:example:recursionCount'(4490,4)).
-answer('urn:example:recursionCount'(4491,6)).
-answer('urn:example:recursionCount'(4492,4)).
-answer('urn:example:recursionCount'(4493,6)).
-answer('urn:example:recursionCount'(4494,6)).
-answer('urn:example:recursionCount'(4495,7)).
-answer('urn:example:recursionCount'(4496,7)).
-answer('urn:example:recursionCount'(4497,5)).
-answer('urn:example:recursionCount'(4498,5)).
-answer('urn:example:recursionCount'(4499,5)).
-answer('urn:example:recursionCount'(4500,5)).
-answer('urn:example:recursionCount'(4501,5)).
-answer('urn:example:recursionCount'(4502,7)).
-answer('urn:example:recursionCount'(4503,7)).
-answer('urn:example:recursionCount'(4504,6)).
-answer('urn:example:recursionCount'(4505,7)).
-answer('urn:example:recursionCount'(4506,7)).
-answer('urn:example:recursionCount'(4507,3)).
-answer('urn:example:recursionCount'(4508,3)).
-answer('urn:example:recursionCount'(4509,4)).
-answer('urn:example:recursionCount'(4510,5)).
-answer('urn:example:recursionCount'(4511,3)).
-answer('urn:example:recursionCount'(4512,2)).
-answer('urn:example:recursionCount'(4513,7)).
-answer('urn:example:recursionCount'(4514,4)).
-answer('urn:example:recursionCount'(4515,7)).
-answer('urn:example:recursionCount'(4516,7)).
-answer('urn:example:recursionCount'(4517,7)).
-answer('urn:example:recursionCount'(4518,3)).
-answer('urn:example:recursionCount'(4519,3)).
-answer('urn:example:recursionCount'(4520,7)).
-answer('urn:example:recursionCount'(4521,2)).
-answer('urn:example:recursionCount'(4522,5)).
-answer('urn:example:recursionCount'(4523,3)).
-answer('urn:example:recursionCount'(4524,6)).
-answer('urn:example:recursionCount'(4525,3)).
-answer('urn:example:recursionCount'(4526,7)).
-answer('urn:example:recursionCount'(4527,7)).
-answer('urn:example:recursionCount'(4528,7)).
-answer('urn:example:recursionCount'(4529,3)).
-answer('urn:example:recursionCount'(4530,7)).
-answer('urn:example:recursionCount'(4531,7)).
-answer('urn:example:recursionCount'(4532,3)).
-answer('urn:example:recursionCount'(4533,3)).
-answer('urn:example:recursionCount'(4534,4)).
-answer('urn:example:recursionCount'(4535,3)).
-answer('urn:example:recursionCount'(4536,3)).
-answer('urn:example:recursionCount'(4537,7)).
-answer('urn:example:recursionCount'(4538,7)).
-answer('urn:example:recursionCount'(4539,7)).
-answer('urn:example:recursionCount'(4540,6)).
-answer('urn:example:recursionCount'(4541,4)).
-answer('urn:example:recursionCount'(4542,6)).
-answer('urn:example:recursionCount'(4543,4)).
-answer('urn:example:recursionCount'(4544,5)).
-answer('urn:example:recursionCount'(4545,4)).
-answer('urn:example:recursionCount'(4546,3)).
-answer('urn:example:recursionCount'(4547,3)).
-answer('urn:example:recursionCount'(4548,7)).
-answer('urn:example:recursionCount'(4549,7)).
-answer('urn:example:recursionCount'(4550,7)).
-answer('urn:example:recursionCount'(4551,7)).
-answer('urn:example:recursionCount'(4552,3)).
-answer('urn:example:recursionCount'(4553,3)).
-answer('urn:example:recursionCount'(4554,4)).
-answer('urn:example:recursionCount'(4555,5)).
-answer('urn:example:recursionCount'(4556,4)).
-answer('urn:example:recursionCount'(4557,6)).
-answer('urn:example:recursionCount'(4558,4)).
-answer('urn:example:recursionCount'(4559,6)).
-answer('urn:example:recursionCount'(4560,7)).
-answer('urn:example:recursionCount'(4561,7)).
-answer('urn:example:recursionCount'(4562,7)).
-answer('urn:example:recursionCount'(4563,3)).
-answer('urn:example:recursionCount'(4564,3)).
-answer('urn:example:recursionCount'(4565,4)).
-answer('urn:example:recursionCount'(4566,3)).
-answer('urn:example:recursionCount'(4567,3)).
-answer('urn:example:recursionCount'(4568,7)).
-answer('urn:example:recursionCount'(4569,7)).
-answer('urn:example:recursionCount'(4570,3)).
-answer('urn:example:recursionCount'(4571,7)).
-answer('urn:example:recursionCount'(4572,7)).
-answer('urn:example:recursionCount'(4573,7)).
-answer('urn:example:recursionCount'(4574,3)).
-answer('urn:example:recursionCount'(4575,6)).
-answer('urn:example:recursionCount'(4576,3)).
-answer('urn:example:recursionCount'(4577,5)).
-answer('urn:example:recursionCount'(4578,2)).
-answer('urn:example:recursionCount'(4579,7)).
-answer('urn:example:recursionCount'(4580,3)).
-answer('urn:example:recursionCount'(4581,3)).
-answer('urn:example:recursionCount'(4582,7)).
-answer('urn:example:recursionCount'(4583,7)).
-answer('urn:example:recursionCount'(4584,7)).
-answer('urn:example:recursionCount'(4585,4)).
-answer('urn:example:recursionCount'(4586,7)).
-answer('urn:example:recursionCount'(4587,2)).
-answer('urn:example:recursionCount'(4588,3)).
-answer('urn:example:recursionCount'(4589,5)).
-answer('urn:example:recursionCount'(4590,4)).
-answer('urn:example:recursionCount'(4591,3)).
-answer('urn:example:recursionCount'(4592,3)).
-answer('urn:example:recursionCount'(4593,7)).
-answer('urn:example:recursionCount'(4594,7)).
-answer('urn:example:recursionCount'(4595,6)).
-answer('urn:example:recursionCount'(4596,7)).
-answer('urn:example:recursionCount'(4597,7)).
-answer('urn:example:recursionCount'(4598,5)).
-answer('urn:example:recursionCount'(4599,5)).
-answer('urn:example:recursionCount'(4600,4)).
-answer('urn:example:recursionCount'(4601,3)).
-answer('urn:example:recursionCount'(4602,1)).
-answer('urn:example:recursionCount'(4603,7)).
-answer('urn:example:recursionCount'(4604,6)).
-answer('urn:example:recursionCount'(4605,7)).
-answer('urn:example:recursionCount'(4606,1)).
-answer('urn:example:recursionCount'(4607,5)).
-answer('urn:example:recursionCount'(4608,6)).
-answer('urn:example:recursionCount'(4609,3)).
-answer('urn:example:recursionCount'(4610,3)).
-answer('urn:example:recursionCount'(4611,5)).
-answer('urn:example:recursionCount'(4612,7)).
-answer('urn:example:recursionCount'(4613,7)).
-answer('urn:example:recursionCount'(4614,6)).
-answer('urn:example:recursionCount'(4615,7)).
-answer('urn:example:recursionCount'(4616,7)).
-answer('urn:example:recursionCount'(4617,1)).
-answer('urn:example:recursionCount'(4618,5)).
-answer('urn:example:recursionCount'(4619,6)).
-answer('urn:example:recursionCount'(4620,1)).
-answer('urn:example:recursionCount'(4621,7)).
-answer('urn:example:recursionCount'(4622,2)).
-answer('urn:example:recursionCount'(4623,7)).
-answer('urn:example:recursionCount'(4624,4)).
-answer('urn:example:recursionCount'(4625,7)).
-answer('urn:example:recursionCount'(4626,2)).
-answer('urn:example:recursionCount'(4627,7)).
-answer('urn:example:recursionCount'(4628,1)).
-answer('urn:example:recursionCount'(4629,5)).
-answer('urn:example:recursionCount'(4630,7)).
-answer('urn:example:recursionCount'(4631,7)).
-answer('urn:example:recursionCount'(4632,7)).
-answer('urn:example:recursionCount'(4633,3)).
-answer('urn:example:recursionCount'(4634,6)).
-answer('urn:example:recursionCount'(4635,3)).
-answer('urn:example:recursionCount'(4636,5)).
-answer('urn:example:recursionCount'(4637,2)).
-answer('urn:example:recursionCount'(4638,7)).
-answer('urn:example:recursionCount'(4639,1)).
-answer('urn:example:recursionCount'(4640,6)).
-answer('urn:example:recursionCount'(4641,6)).
-answer('urn:example:recursionCount'(4642,4)).
-answer('urn:example:recursionCount'(4643,6)).
-answer('urn:example:recursionCount'(4644,4)).
-answer('urn:example:recursionCount'(4645,3)).
-answer('urn:example:recursionCount'(4646,6)).
-answer('urn:example:recursionCount'(4647,5)).
-answer('urn:example:recursionCount'(4648,2)).
-answer('urn:example:recursionCount'(4649,7)).
-answer('urn:example:recursionCount'(4650,7)).
-answer('urn:example:recursionCount'(4651,7)).
-answer('urn:example:recursionCount'(4652,7)).
-answer('urn:example:recursionCount'(4653,3)).
-answer('urn:example:recursionCount'(4654,3)).
-answer('urn:example:recursionCount'(4655,4)).
-answer('urn:example:recursionCount'(4656,3)).
-answer('urn:example:recursionCount'(4657,3)).
-answer('urn:example:recursionCount'(4658,7)).
-answer('urn:example:recursionCount'(4659,7)).
-answer('urn:example:recursionCount'(4660,1)).
-answer('urn:example:recursionCount'(4661,7)).
-answer('urn:example:recursionCount'(4662,2)).
-answer('urn:example:recursionCount'(4663,5)).
-answer('urn:example:recursionCount'(4664,6)).
-answer('urn:example:recursionCount'(4665,3)).
-answer('urn:example:recursionCount'(4666,4)).
-answer('urn:example:recursionCount'(4667,6)).
-answer('urn:example:recursionCount'(4668,4)).
-answer('urn:example:recursionCount'(4669,6)).
-answer('urn:example:recursionCount'(4670,5)).
-answer('urn:example:recursionCount'(4671,1)).
-answer('urn:example:recursionCount'(4672,7)).
-answer('urn:example:recursionCount'(4673,2)).
-answer('urn:example:recursionCount'(4674,5)).
-answer('urn:example:recursionCount'(4675,3)).
-answer('urn:example:recursionCount'(4676,6)).
-answer('urn:example:recursionCount'(4677,3)).
-answer('urn:example:recursionCount'(4678,7)).
-answer('urn:example:recursionCount'(4679,7)).
-answer('urn:example:recursionCount'(4680,6)).
-answer('urn:example:recursionCount'(4681,5)).
-answer('urn:example:recursionCount'(4682,1)).
-answer('urn:example:recursionCount'(4683,7)).
-answer('urn:example:recursionCount'(4684,2)).
-answer('urn:example:recursionCount'(4685,7)).
-answer('urn:example:recursionCount'(4686,4)).
-answer('urn:example:recursionCount'(4687,7)).
-answer('urn:example:recursionCount'(4688,2)).
-answer('urn:example:recursionCount'(4689,7)).
-answer('urn:example:recursionCount'(4690,3)).
-answer('urn:example:recursionCount'(4691,6)).
-answer('urn:example:recursionCount'(4692,5)).
-answer('urn:example:recursionCount'(4693,1)).
-answer('urn:example:recursionCount'(4694,7)).
-answer('urn:example:recursionCount'(4695,7)).
-answer('urn:example:recursionCount'(4696,6)).
-answer('urn:example:recursionCount'(4697,7)).
-answer('urn:example:recursionCount'(4698,7)).
-answer('urn:example:recursionCount'(4699,5)).
-answer('urn:example:recursionCount'(4700,3)).
-answer('urn:example:recursionCount'(4701,6)).
-answer('urn:example:recursionCount'(4702,5)).
-answer('urn:example:recursionCount'(4703,3)).
-answer('urn:example:recursionCount'(4704,4)).
-answer('urn:example:recursionCount'(4705,3)).
-answer('urn:example:recursionCount'(4706,5)).
-answer('urn:example:recursionCount'(4707,6)).
-answer('urn:example:recursionCount'(4708,5)).
-answer('urn:example:recursionCount'(4709,3)).
-answer('urn:example:recursionCount'(4710,6)).
-answer('urn:example:recursionCount'(4711,3)).
-answer('urn:example:recursionCount'(4712,1)).
-answer('urn:example:recursionCount'(4713,7)).
-answer('urn:example:recursionCount'(4714,6)).
-answer('urn:example:recursionCount'(4715,7)).
-answer('urn:example:recursionCount'(4716,1)).
-answer('urn:example:recursionCount'(4717,3)).
-answer('urn:example:recursionCount'(4718,6)).
-answer('urn:example:recursionCount'(4719,5)).
-answer('urn:example:recursionCount'(4720,5)).
-answer('urn:example:recursionCount'(4721,1)).
-answer('urn:example:recursionCount'(4722,7)).
-answer('urn:example:recursionCount'(4723,7)).
-answer('urn:example:recursionCount'(4724,6)).
-answer('urn:example:recursionCount'(4725,7)).
-answer('urn:example:recursionCount'(4726,7)).
-answer('urn:example:recursionCount'(4727,5)).
-answer('urn:example:recursionCount'(4728,3)).
-answer('urn:example:recursionCount'(4729,6)).
-answer('urn:example:recursionCount'(4730,3)).
-answer('urn:example:recursionCount'(4731,7)).
-answer('urn:example:recursionCount'(4732,7)).
-answer('urn:example:recursionCount'(4733,7)).
-answer('urn:example:recursionCount'(4734,4)).
-answer('urn:example:recursionCount'(4735,7)).
-answer('urn:example:recursionCount'(4736,2)).
-answer('urn:example:recursionCount'(4737,3)).
-answer('urn:example:recursionCount'(4738,5)).
-answer('urn:example:recursionCount'(4739,3)).
-answer('urn:example:recursionCount'(4740,4)).
-answer('urn:example:recursionCount'(4741,6)).
-answer('urn:example:recursionCount'(4742,6)).
-answer('urn:example:recursionCount'(4743,4)).
-answer('urn:example:recursionCount'(4744,6)).
-answer('urn:example:recursionCount'(4745,3)).
-answer('urn:example:recursionCount'(4746,5)).
-answer('urn:example:recursionCount'(4747,6)).
-answer('urn:example:recursionCount'(4748,3)).
-answer('urn:example:recursionCount'(4749,5)).
-answer('urn:example:recursionCount'(4750,3)).
-answer('urn:example:recursionCount'(4751,7)).
-answer('urn:example:recursionCount'(4752,7)).
-answer('urn:example:recursionCount'(4753,7)).
-answer('urn:example:recursionCount'(4754,3)).
-answer('urn:example:recursionCount'(4755,6)).
-answer('urn:example:recursionCount'(4756,3)).
-answer('urn:example:recursionCount'(4757,5)).
-answer('urn:example:recursionCount'(4758,2)).
-answer('urn:example:recursionCount'(4759,7)).
-answer('urn:example:recursionCount'(4760,5)).
-answer('urn:example:recursionCount'(4761,1)).
-answer('urn:example:recursionCount'(4762,7)).
-answer('urn:example:recursionCount'(4763,2)).
-answer('urn:example:recursionCount'(4764,5)).
-answer('urn:example:recursionCount'(4765,3)).
-answer('urn:example:recursionCount'(4766,6)).
-answer('urn:example:recursionCount'(4767,3)).
-answer('urn:example:recursionCount'(4768,7)).
-answer('urn:example:recursionCount'(4769,7)).
-answer('urn:example:recursionCount'(4770,6)).
-answer('urn:example:recursionCount'(4771,3)).
-answer('urn:example:recursionCount'(4772,5)).
-answer('urn:example:recursionCount'(4773,3)).
-answer('urn:example:recursionCount'(4774,6)).
-answer('urn:example:recursionCount'(4775,5)).
-answer('urn:example:recursionCount'(4776,3)).
-answer('urn:example:recursionCount'(4777,6)).
-answer('urn:example:recursionCount'(4778,4)).
-answer('urn:example:recursionCount'(4779,6)).
-answer('urn:example:recursionCount'(4780,5)).
-answer('urn:example:recursionCount'(4781,6)).
-answer('urn:example:recursionCount'(4782,3)).
-answer('urn:example:recursionCount'(4783,5)).
-answer('urn:example:recursionCount'(4784,3)).
-answer('urn:example:recursionCount'(4785,2)).
-answer('urn:example:recursionCount'(4786,7)).
-answer('urn:example:recursionCount'(4787,4)).
-answer('urn:example:recursionCount'(4788,7)).
-answer('urn:example:recursionCount'(4789,7)).
-answer('urn:example:recursionCount'(4790,3)).
-answer('urn:example:recursionCount'(4791,5)).
-answer('urn:example:recursionCount'(4792,6)).
-answer('urn:example:recursionCount'(4793,3)).
-answer('urn:example:recursionCount'(4794,5)).
-answer('urn:example:recursionCount'(4795,7)).
-answer('urn:example:recursionCount'(4796,7)).
-answer('urn:example:recursionCount'(4797,6)).
-answer('urn:example:recursionCount'(4798,7)).
-answer('urn:example:recursionCount'(4799,7)).
-answer('urn:example:recursionCount'(4800,2)).
-answer('urn:example:recursionCount'(4801,5)).
-answer('urn:example:recursionCount'(4802,6)).
-answer('urn:example:recursionCount'(4803,3)).
-answer('urn:example:recursionCount'(4804,6)).
-answer('urn:example:recursionCount'(4805,3)).
-answer('urn:example:recursionCount'(4806,6)).
-answer('urn:example:recursionCount'(4807,5)).
-answer('urn:example:recursionCount'(4808,2)).
-answer('urn:example:recursionCount'(4809,7)).
-answer('urn:example:recursionCount'(4810,5)).
-answer('urn:example:recursionCount'(4811,6)).
-answer('urn:example:recursionCount'(4812,5)).
-answer('urn:example:recursionCount'(4813,3)).
-answer('urn:example:recursionCount'(4814,4)).
-answer('urn:example:recursionCount'(4815,3)).
-answer('urn:example:recursionCount'(4816,5)).
-answer('urn:example:recursionCount'(4817,6)).
-answer('urn:example:recursionCount'(4818,3)).
-answer('urn:example:recursionCount'(4819,2)).
-answer('urn:example:recursionCount'(4820,6)).
-answer('urn:example:recursionCount'(4821,5)).
-answer('urn:example:recursionCount'(4822,1)).
-answer('urn:example:recursionCount'(4823,7)).
-answer('urn:example:recursionCount'(4824,6)).
-answer('urn:example:recursionCount'(4825,7)).
-answer('urn:example:recursionCount'(4826,1)).
-answer('urn:example:recursionCount'(4827,3)).
-answer('urn:example:recursionCount'(4828,4)).
-answer('urn:example:recursionCount'(4829,3)).
-answer('urn:example:recursionCount'(4830,3)).
-answer('urn:example:recursionCount'(4831,3)).
-answer('urn:example:recursionCount'(4832,7)).
-answer('urn:example:recursionCount'(4833,7)).
-answer('urn:example:recursionCount'(4834,6)).
-answer('urn:example:recursionCount'(4835,7)).
-answer('urn:example:recursionCount'(4836,7)).
-answer('urn:example:recursionCount'(4837,5)).
-answer('urn:example:recursionCount'(4838,5)).
-answer('urn:example:recursionCount'(4839,4)).
-answer('urn:example:recursionCount'(4840,6)).
-answer('urn:example:recursionCount'(4841,4)).
-answer('urn:example:recursionCount'(4842,6)).
-answer('urn:example:recursionCount'(4843,6)).
-answer('urn:example:recursionCount'(4844,4)).
-answer('urn:example:recursionCount'(4845,7)).
-answer('urn:example:recursionCount'(4846,2)).
-answer('urn:example:recursionCount'(4847,3)).
-answer('urn:example:recursionCount'(4848,4)).
-answer('urn:example:recursionCount'(4849,5)).
-answer('urn:example:recursionCount'(4850,3)).
-answer('urn:example:recursionCount'(4851,3)).
-answer('urn:example:recursionCount'(4852,7)).
-answer('urn:example:recursionCount'(4853,7)).
-answer('urn:example:recursionCount'(4854,7)).
-answer('urn:example:recursionCount'(4855,4)).
-answer('urn:example:recursionCount'(4856,7)).
-answer('urn:example:recursionCount'(4857,2)).
-answer('urn:example:recursionCount'(4858,3)).
-answer('urn:example:recursionCount'(4859,5)).
-answer('urn:example:recursionCount'(4860,6)).
-answer('urn:example:recursionCount'(4861,5)).
-answer('urn:example:recursionCount'(4862,1)).
-answer('urn:example:recursionCount'(4863,7)).
-answer('urn:example:recursionCount'(4864,2)).
-answer('urn:example:recursionCount'(4865,7)).
-answer('urn:example:recursionCount'(4866,4)).
-answer('urn:example:recursionCount'(4867,7)).
-answer('urn:example:recursionCount'(4868,2)).
-answer('urn:example:recursionCount'(4869,7)).
-answer('urn:example:recursionCount'(4870,5)).
-answer('urn:example:recursionCount'(4871,6)).
-answer('urn:example:recursionCount'(4872,3)).
-answer('urn:example:recursionCount'(4873,5)).
-answer('urn:example:recursionCount'(4874,3)).
-answer('urn:example:recursionCount'(4875,2)).
-answer('urn:example:recursionCount'(4876,7)).
-answer('urn:example:recursionCount'(4877,4)).
-answer('urn:example:recursionCount'(4878,7)).
-answer('urn:example:recursionCount'(4879,7)).
-answer('urn:example:recursionCount'(4880,2)).
-answer('urn:example:recursionCount'(4881,3)).
-answer('urn:example:recursionCount'(4882,4)).
-answer('urn:example:recursionCount'(4883,5)).
-answer('urn:example:recursionCount'(4884,4)).
-answer('urn:example:recursionCount'(4885,3)).
-answer('urn:example:recursionCount'(4886,2)).
-answer('urn:example:recursionCount'(4887,7)).
-answer('urn:example:recursionCount'(4888,4)).
-answer('urn:example:recursionCount'(4889,6)).
-answer('urn:example:recursionCount'(4890,7)).
-answer('urn:example:recursionCount'(4891,2)).
-answer('urn:example:recursionCount'(4892,3)).
-answer('urn:example:recursionCount'(4893,4)).
-answer('urn:example:recursionCount'(4894,5)).
-answer('urn:example:recursionCount'(4895,5)).
-answer('urn:example:recursionCount'(4896,7)).
-answer('urn:example:recursionCount'(4897,7)).
-answer('urn:example:recursionCount'(4898,6)).
-answer('urn:example:recursionCount'(4899,7)).
-answer('urn:example:recursionCount'(4900,7)).
-answer('urn:example:recursionCount'(4901,3)).
-answer('urn:example:recursionCount'(4902,3)).
-answer('urn:example:recursionCount'(4903,4)).
-answer('urn:example:recursionCount'(4904,4)).
-answer('urn:example:recursionCount'(4905,4)).
-answer('urn:example:recursionCount'(4906,3)).
-answer('urn:example:recursionCount'(4907,3)).
-answer('urn:example:recursionCount'(4908,7)).
-answer('urn:example:recursionCount'(4909,7)).
-answer('urn:example:recursionCount'(4910,3)).
-answer('urn:example:recursionCount'(4911,5)).
-answer('urn:example:recursionCount'(4912,6)).
-answer('urn:example:recursionCount'(4913,3)).
-answer('urn:example:recursionCount'(4914,6)).
-answer('urn:example:recursionCount'(4915,3)).
-answer('urn:example:recursionCount'(4916,6)).
-answer('urn:example:recursionCount'(4917,5)).
-answer('urn:example:recursionCount'(4918,2)).
-answer('urn:example:recursionCount'(4919,7)).
-answer('urn:example:recursionCount'(4920,3)).
-answer('urn:example:recursionCount'(4921,6)).
-answer('urn:example:recursionCount'(4922,5)).
-answer('urn:example:recursionCount'(4923,3)).
-answer('urn:example:recursionCount'(4924,4)).
-answer('urn:example:recursionCount'(4925,3)).
-answer('urn:example:recursionCount'(4926,5)).
-answer('urn:example:recursionCount'(4927,6)).
-answer('urn:example:recursionCount'(4928,3)).
-answer('urn:example:recursionCount'(4929,5)).
-answer('urn:example:recursionCount'(4930,4)).
-answer('urn:example:recursionCount'(4931,3)).
-answer('urn:example:recursionCount'(4932,3)).
-answer('urn:example:recursionCount'(4933,7)).
-answer('urn:example:recursionCount'(4934,6)).
-answer('urn:example:recursionCount'(4935,7)).
-answer('urn:example:recursionCount'(4936,1)).
-answer('urn:example:recursionCount'(4937,3)).
-answer('urn:example:recursionCount'(4938,4)).
-answer('urn:example:recursionCount'(4939,5)).
-answer('urn:example:recursionCount'(4940,4)).
-answer('urn:example:recursionCount'(4941,6)).
-answer('urn:example:recursionCount'(4942,4)).
-answer('urn:example:recursionCount'(4943,6)).
-answer('urn:example:recursionCount'(4944,6)).
-answer('urn:example:recursionCount'(4945,7)).
-answer('urn:example:recursionCount'(4946,7)).
-answer('urn:example:recursionCount'(4947,5)).
-answer('urn:example:recursionCount'(4948,5)).
-answer('urn:example:recursionCount'(4949,5)).
-answer('urn:example:recursionCount'(4950,4)).
-answer('urn:example:recursionCount'(4951,3)).
-answer('urn:example:recursionCount'(4952,3)).
-answer('urn:example:recursionCount'(4953,7)).
-answer('urn:example:recursionCount'(4954,7)).
-answer('urn:example:recursionCount'(4955,6)).
-answer('urn:example:recursionCount'(4956,7)).
-answer('urn:example:recursionCount'(4957,7)).
-answer('urn:example:recursionCount'(4958,5)).
-answer('urn:example:recursionCount'(4959,5)).
-answer('urn:example:recursionCount'(4960,3)).
-answer('urn:example:recursionCount'(4961,6)).
-answer('urn:example:recursionCount'(4962,5)).
-answer('urn:example:recursionCount'(4963,1)).
-answer('urn:example:recursionCount'(4964,7)).
-answer('urn:example:recursionCount'(4965,7)).
-answer('urn:example:recursionCount'(4966,6)).
-answer('urn:example:recursionCount'(4967,7)).
-answer('urn:example:recursionCount'(4968,7)).
-answer('urn:example:recursionCount'(4969,5)).
-answer('urn:example:recursionCount'(4970,3)).
-answer('urn:example:recursionCount'(4971,5)).
-answer('urn:example:recursionCount'(4972,6)).
-answer('urn:example:recursionCount'(4973,3)).
-answer('urn:example:recursionCount'(4974,5)).
-answer('urn:example:recursionCount'(4975,7)).
-answer('urn:example:recursionCount'(4976,7)).
-answer('urn:example:recursionCount'(4977,6)).
-answer('urn:example:recursionCount'(4978,7)).
-answer('urn:example:recursionCount'(4979,7)).
-answer('urn:example:recursionCount'(4980,7)).
-answer('urn:example:recursionCount'(4981,2)).
-answer('urn:example:recursionCount'(4982,3)).
-answer('urn:example:recursionCount'(4983,4)).
-answer('urn:example:recursionCount'(4984,5)).
-answer('urn:example:recursionCount'(4985,5)).
-answer('urn:example:recursionCount'(4986,7)).
-answer('urn:example:recursionCount'(4987,7)).
-answer('urn:example:recursionCount'(4988,6)).
-answer('urn:example:recursionCount'(4989,7)).
-answer('urn:example:recursionCount'(4990,7)).
-answer('urn:example:recursionCount'(4991,7)).
-answer('urn:example:recursionCount'(4992,5)).
-answer('urn:example:recursionCount'(4993,5)).
-answer('urn:example:recursionCount'(4994,5)).
-answer('urn:example:recursionCount'(4995,5)).
-answer('urn:example:recursionCount'(4996,5)).
-answer('urn:example:recursionCount'(4997,7)).
-answer('urn:example:recursionCount'(4998,7)).
-answer('urn:example:recursionCount'(4999,6)).
-answer('urn:example:recursionCount'(5000,6)).
-answer('urn:example:recursionCount'(5001,7)).
-answer('urn:example:recursionCount'(5002,7)).
-answer('urn:example:recursionCount'(5003,5)).
-answer('urn:example:recursionCount'(5004,5)).
-answer('urn:example:recursionCount'(5005,5)).
-answer('urn:example:recursionCount'(5006,5)).
-answer('urn:example:recursionCount'(5007,5)).
-answer('urn:example:recursionCount'(5008,7)).
-answer('urn:example:recursionCount'(5009,7)).
-answer('urn:example:recursionCount'(5010,7)).
-answer('urn:example:recursionCount'(5011,6)).
-answer('urn:example:recursionCount'(5012,7)).
-answer('urn:example:recursionCount'(5013,7)).
-answer('urn:example:recursionCount'(5014,5)).
-answer('urn:example:recursionCount'(5015,5)).
-answer('urn:example:recursionCount'(5016,4)).
-answer('urn:example:recursionCount'(5017,3)).
-answer('urn:example:recursionCount'(5018,2)).
-answer('urn:example:recursionCount'(5019,7)).
-answer('urn:example:recursionCount'(5020,7)).
-answer('urn:example:recursionCount'(5021,7)).
-answer('urn:example:recursionCount'(5022,6)).
-answer('urn:example:recursionCount'(5023,7)).
-answer('urn:example:recursionCount'(5024,7)).
-answer('urn:example:recursionCount'(5025,5)).
-answer('urn:example:recursionCount'(5026,3)).
-answer('urn:example:recursionCount'(5027,6)).
-answer('urn:example:recursionCount'(5028,5)).
-answer('urn:example:recursionCount'(5029,3)).
-answer('urn:example:recursionCount'(5030,5)).
-answer('urn:example:recursionCount'(5031,7)).
-answer('urn:example:recursionCount'(5032,7)).
-answer('urn:example:recursionCount'(5033,6)).
-answer('urn:example:recursionCount'(5034,7)).
-answer('urn:example:recursionCount'(5035,7)).
-answer('urn:example:recursionCount'(5036,1)).
-answer('urn:example:recursionCount'(5037,5)).
-answer('urn:example:recursionCount'(5038,6)).
-answer('urn:example:recursionCount'(5039,3)).
-answer('urn:example:recursionCount'(5040,5)).
-answer('urn:example:recursionCount'(5041,5)).
-answer('urn:example:recursionCount'(5042,7)).
-answer('urn:example:recursionCount'(5043,7)).
-answer('urn:example:recursionCount'(5044,6)).
-answer('urn:example:recursionCount'(5045,7)).
-answer('urn:example:recursionCount'(5046,7)).
-answer('urn:example:recursionCount'(5047,3)).
-answer('urn:example:recursionCount'(5048,3)).
-answer('urn:example:recursionCount'(5049,4)).
-answer('urn:example:recursionCount'(5050,5)).
-answer('urn:example:recursionCount'(5051,5)).
-answer('urn:example:recursionCount'(5052,5)).
-answer('urn:example:recursionCount'(5053,7)).
-answer('urn:example:recursionCount'(5054,7)).
-answer('urn:example:recursionCount'(5055,6)).
-answer('urn:example:recursionCount'(5056,6)).
-answer('urn:example:recursionCount'(5057,4)).
-answer('urn:example:recursionCount'(5058,6)).
-answer('urn:example:recursionCount'(5059,4)).
-answer('urn:example:recursionCount'(5060,5)).
-answer('urn:example:recursionCount'(5061,4)).
-answer('urn:example:recursionCount'(5062,3)).
-answer('urn:example:recursionCount'(5063,1)).
-answer('urn:example:recursionCount'(5064,7)).
-answer('urn:example:recursionCount'(5065,6)).
-answer('urn:example:recursionCount'(5066,7)).
-answer('urn:example:recursionCount'(5067,3)).
-answer('urn:example:recursionCount'(5068,3)).
-answer('urn:example:recursionCount'(5069,4)).
-answer('urn:example:recursionCount'(5070,5)).
-answer('urn:example:recursionCount'(5071,3)).
-answer('urn:example:recursionCount'(5072,6)).
-answer('urn:example:recursionCount'(5073,5)).
-answer('urn:example:recursionCount'(5074,3)).
-answer('urn:example:recursionCount'(5075,4)).
-answer('urn:example:recursionCount'(5076,3)).
-answer('urn:example:recursionCount'(5077,5)).
-answer('urn:example:recursionCount'(5078,6)).
-answer('urn:example:recursionCount'(5079,3)).
-answer('urn:example:recursionCount'(5080,7)).
-answer('urn:example:recursionCount'(5081,2)).
-answer('urn:example:recursionCount'(5082,5)).
-answer('urn:example:recursionCount'(5083,6)).
-answer('urn:example:recursionCount'(5084,3)).
-answer('urn:example:recursionCount'(5085,6)).
-answer('urn:example:recursionCount'(5086,3)).
-answer('urn:example:recursionCount'(5087,6)).
-answer('urn:example:recursionCount'(5088,5)).
-answer('urn:example:recursionCount'(5089,3)).
-answer('urn:example:recursionCount'(5090,7)).
-answer('urn:example:recursionCount'(5091,7)).
-answer('urn:example:recursionCount'(5092,3)).
-answer('urn:example:recursionCount'(5093,3)).
-answer('urn:example:recursionCount'(5094,4)).
-answer('urn:example:recursionCount'(5095,4)).
-answer('urn:example:recursionCount'(5096,4)).
-answer('urn:example:recursionCount'(5097,3)).
-answer('urn:example:recursionCount'(5098,3)).
-answer('urn:example:recursionCount'(5099,7)).
-answer('urn:example:recursionCount'(5100,7)).
-answer('urn:example:recursionCount'(5101,6)).
-answer('urn:example:recursionCount'(5102,7)).
-answer('urn:example:recursionCount'(5103,7)).
-answer('urn:example:recursionCount'(5104,5)).
-answer('urn:example:recursionCount'(5105,5)).
-answer('urn:example:recursionCount'(5106,4)).
-answer('urn:example:recursionCount'(5107,3)).
-answer('urn:example:recursionCount'(5108,2)).
-answer('urn:example:recursionCount'(5109,7)).
-answer('urn:example:recursionCount'(5110,6)).
-answer('urn:example:recursionCount'(5111,4)).
-answer('urn:example:recursionCount'(5112,7)).
-answer('urn:example:recursionCount'(5113,2)).
-answer('urn:example:recursionCount'(5114,3)).
-answer('urn:example:recursionCount'(5115,4)).
-answer('urn:example:recursionCount'(5116,5)).
-answer('urn:example:recursionCount'(5117,4)).
-answer('urn:example:recursionCount'(5118,3)).
-answer('urn:example:recursionCount'(5119,2)).
-answer('urn:example:recursionCount'(5120,7)).
-answer('urn:example:recursionCount'(5121,7)).
-answer('urn:example:recursionCount'(5122,4)).
-answer('urn:example:recursionCount'(5123,7)).
-answer('urn:example:recursionCount'(5124,2)).
-answer('urn:example:recursionCount'(5125,3)).
-answer('urn:example:recursionCount'(5126,5)).
-answer('urn:example:recursionCount'(5127,3)).
-answer('urn:example:recursionCount'(5128,6)).
-answer('urn:example:recursionCount'(5129,5)).
-answer('urn:example:recursionCount'(5130,7)).
-answer('urn:example:recursionCount'(5131,2)).
-answer('urn:example:recursionCount'(5132,7)).
-answer('urn:example:recursionCount'(5133,4)).
-answer('urn:example:recursionCount'(5134,7)).
-answer('urn:example:recursionCount'(5135,2)).
-answer('urn:example:recursionCount'(5136,7)).
-answer('urn:example:recursionCount'(5137,1)).
-answer('urn:example:recursionCount'(5138,5)).
-answer('urn:example:recursionCount'(5139,6)).
-answer('urn:example:recursionCount'(5140,5)).
-answer('urn:example:recursionCount'(5141,3)).
-answer('urn:example:recursionCount'(5142,2)).
-answer('urn:example:recursionCount'(5143,7)).
-answer('urn:example:recursionCount'(5144,4)).
-answer('urn:example:recursionCount'(5145,7)).
-answer('urn:example:recursionCount'(5146,7)).
-answer('urn:example:recursionCount'(5147,7)).
-answer('urn:example:recursionCount'(5148,3)).
-answer('urn:example:recursionCount'(5149,3)).
-answer('urn:example:recursionCount'(5150,5)).
-answer('urn:example:recursionCount'(5151,4)).
-answer('urn:example:recursionCount'(5152,3)).
-answer('urn:example:recursionCount'(5153,2)).
-answer('urn:example:recursionCount'(5154,7)).
-answer('urn:example:recursionCount'(5155,4)).
-answer('urn:example:recursionCount'(5156,6)).
-answer('urn:example:recursionCount'(5157,6)).
-answer('urn:example:recursionCount'(5158,4)).
-answer('urn:example:recursionCount'(5159,6)).
-answer('urn:example:recursionCount'(5160,4)).
-answer('urn:example:recursionCount'(5161,5)).
-answer('urn:example:recursionCount'(5162,5)).
-answer('urn:example:recursionCount'(5163,7)).
-answer('urn:example:recursionCount'(5164,7)).
-answer('urn:example:recursionCount'(5165,6)).
-answer('urn:example:recursionCount'(5166,7)).
-answer('urn:example:recursionCount'(5167,7)).
-answer('urn:example:recursionCount'(5168,3)).
-answer('urn:example:recursionCount'(5169,3)).
-answer('urn:example:recursionCount'(5170,3)).
-answer('urn:example:recursionCount'(5171,4)).
-answer('urn:example:recursionCount'(5172,3)).
-answer('urn:example:recursionCount'(5173,1)).
-answer('urn:example:recursionCount'(5174,7)).
-answer('urn:example:recursionCount'(5175,6)).
-answer('urn:example:recursionCount'(5176,7)).
-answer('urn:example:recursionCount'(5177,1)).
-answer('urn:example:recursionCount'(5178,5)).
-answer('urn:example:recursionCount'(5179,6)).
-answer('urn:example:recursionCount'(5180,2)).
-answer('urn:example:recursionCount'(5181,3)).
-answer('urn:example:recursionCount'(5182,6)).
-answer('urn:example:recursionCount'(5183,5)).
-answer('urn:example:recursionCount'(5184,3)).
-answer('urn:example:recursionCount'(5185,4)).
-answer('urn:example:recursionCount'(5186,3)).
-answer('urn:example:recursionCount'(5187,5)).
-answer('urn:example:recursionCount'(5188,6)).
-answer('urn:example:recursionCount'(5189,5)).
-answer('urn:example:recursionCount'(5190,7)).
-answer('urn:example:recursionCount'(5191,2)).
-answer('urn:example:recursionCount'(5192,5)).
-answer('urn:example:recursionCount'(5193,6)).
-answer('urn:example:recursionCount'(5194,3)).
-answer('urn:example:recursionCount'(5195,6)).
-answer('urn:example:recursionCount'(5196,3)).
-answer('urn:example:recursionCount'(5197,6)).
-answer('urn:example:recursionCount'(5198,5)).
-answer('urn:example:recursionCount'(5199,2)).
-answer('urn:example:recursionCount'(5200,7)).
-answer('urn:example:recursionCount'(5201,7)).
-answer('urn:example:recursionCount'(5202,6)).
-answer('urn:example:recursionCount'(5203,7)).
-answer('urn:example:recursionCount'(5204,7)).
-answer('urn:example:recursionCount'(5205,5)).
-answer('urn:example:recursionCount'(5206,3)).
-answer('urn:example:recursionCount'(5207,6)).
-answer('urn:example:recursionCount'(5208,5)).
-answer('urn:example:recursionCount'(5209,3)).
-answer('urn:example:recursionCount'(5210,7)).
-answer('urn:example:recursionCount'(5211,7)).
-answer('urn:example:recursionCount'(5212,4)).
-answer('urn:example:recursionCount'(5213,7)).
-answer('urn:example:recursionCount'(5214,2)).
-answer('urn:example:recursionCount'(5215,3)).
-answer('urn:example:recursionCount'(5216,5)).
-answer('urn:example:recursionCount'(5217,3)).
-answer('urn:example:recursionCount'(5218,6)).
-answer('urn:example:recursionCount'(5219,5)).
-answer('urn:example:recursionCount'(5220,6)).
-answer('urn:example:recursionCount'(5221,4)).
-answer('urn:example:recursionCount'(5222,6)).
-answer('urn:example:recursionCount'(5223,3)).
-answer('urn:example:recursionCount'(5224,5)).
-answer('urn:example:recursionCount'(5225,6)).
-answer('urn:example:recursionCount'(5226,3)).
-answer('urn:example:recursionCount'(5227,5)).
-answer('urn:example:recursionCount'(5228,3)).
-answer('urn:example:recursionCount'(5229,6)).
-answer('urn:example:recursionCount'(5230,7)).
-answer('urn:example:recursionCount'(5231,7)).
-answer('urn:example:recursionCount'(5232,3)).
-answer('urn:example:recursionCount'(5233,6)).
-answer('urn:example:recursionCount'(5234,3)).
-answer('urn:example:recursionCount'(5235,5)).
-answer('urn:example:recursionCount'(5236,2)).
-answer('urn:example:recursionCount'(5237,7)).
-answer('urn:example:recursionCount'(5238,1)).
-answer('urn:example:recursionCount'(5239,5)).
-answer('urn:example:recursionCount'(5240,7)).
-answer('urn:example:recursionCount'(5241,2)).
-answer('urn:example:recursionCount'(5242,5)).
-answer('urn:example:recursionCount'(5243,3)).
-answer('urn:example:recursionCount'(5244,6)).
-answer('urn:example:recursionCount'(5245,3)).
-answer('urn:example:recursionCount'(5246,7)).
-answer('urn:example:recursionCount'(5247,7)).
-answer('urn:example:recursionCount'(5248,7)).
-answer('urn:example:recursionCount'(5249,3)).
-answer('urn:example:recursionCount'(5250,5)).
-answer('urn:example:recursionCount'(5251,3)).
-answer('urn:example:recursionCount'(5252,6)).
-answer('urn:example:recursionCount'(5253,5)).
-answer('urn:example:recursionCount'(5254,3)).
-answer('urn:example:recursionCount'(5255,6)).
-answer('urn:example:recursionCount'(5256,4)).
-answer('urn:example:recursionCount'(5257,6)).
-answer('urn:example:recursionCount'(5258,6)).
-answer('urn:example:recursionCount'(5259,4)).
-answer('urn:example:recursionCount'(5260,3)).
-answer('urn:example:recursionCount'(5261,5)).
-answer('urn:example:recursionCount'(5262,3)).
-answer('urn:example:recursionCount'(5263,2)).
-answer('urn:example:recursionCount'(5264,7)).
-answer('urn:example:recursionCount'(5265,4)).
-answer('urn:example:recursionCount'(5266,7)).
-answer('urn:example:recursionCount'(5267,7)).
-answer('urn:example:recursionCount'(5268,7)).
-answer('urn:example:recursionCount'(5269,3)).
-answer('urn:example:recursionCount'(5270,6)).
-answer('urn:example:recursionCount'(5271,3)).
-answer('urn:example:recursionCount'(5272,5)).
-answer('urn:example:recursionCount'(5273,7)).
-answer('urn:example:recursionCount'(5274,7)).
-answer('urn:example:recursionCount'(5275,6)).
-answer('urn:example:recursionCount'(5276,7)).
-answer('urn:example:recursionCount'(5277,7)).
-answer('urn:example:recursionCount'(5278,1)).
-answer('urn:example:recursionCount'(5279,5)).
-answer('urn:example:recursionCount'(5280,5)).
-answer('urn:example:recursionCount'(5281,6)).
-answer('urn:example:recursionCount'(5282,3)).
-answer('urn:example:recursionCount'(5283,1)).
-answer('urn:example:recursionCount'(5284,7)).
-answer('urn:example:recursionCount'(5285,6)).
-answer('urn:example:recursionCount'(5286,7)).
-answer('urn:example:recursionCount'(5287,1)).
-answer('urn:example:recursionCount'(5288,3)).
-answer('urn:example:recursionCount'(5289,6)).
-answer('urn:example:recursionCount'(5290,3)).
-answer('urn:example:recursionCount'(5291,5)).
-answer('urn:example:recursionCount'(5292,6)).
-answer('urn:example:recursionCount'(5293,5)).
-answer('urn:example:recursionCount'(5294,3)).
-answer('urn:example:recursionCount'(5295,4)).
-answer('urn:example:recursionCount'(5296,3)).
-answer('urn:example:recursionCount'(5297,5)).
-answer('urn:example:recursionCount'(5298,6)).
-answer('urn:example:recursionCount'(5299,3)).
-answer('urn:example:recursionCount'(5300,5)).
-answer('urn:example:recursionCount'(5301,7)).
-answer('urn:example:recursionCount'(5302,7)).
-answer('urn:example:recursionCount'(5303,6)).
-answer('urn:example:recursionCount'(5304,7)).
-answer('urn:example:recursionCount'(5305,7)).
-answer('urn:example:recursionCount'(5306,1)).
-answer('urn:example:recursionCount'(5307,5)).
-answer('urn:example:recursionCount'(5308,6)).
-answer('urn:example:recursionCount'(5309,3)).
-answer('urn:example:recursionCount'(5310,7)).
-answer('urn:example:recursionCount'(5311,2)).
-answer('urn:example:recursionCount'(5312,7)).
-answer('urn:example:recursionCount'(5313,4)).
-answer('urn:example:recursionCount'(5314,7)).
-answer('urn:example:recursionCount'(5315,2)).
-answer('urn:example:recursionCount'(5316,7)).
-answer('urn:example:recursionCount'(5317,1)).
-answer('urn:example:recursionCount'(5318,5)).
-answer('urn:example:recursionCount'(5319,6)).
-answer('urn:example:recursionCount'(5320,7)).
-answer('urn:example:recursionCount'(5321,7)).
-answer('urn:example:recursionCount'(5322,3)).
-answer('urn:example:recursionCount'(5323,6)).
-answer('urn:example:recursionCount'(5324,3)).
-answer('urn:example:recursionCount'(5325,5)).
-answer('urn:example:recursionCount'(5326,2)).
-answer('urn:example:recursionCount'(5327,7)).
-answer('urn:example:recursionCount'(5328,1)).
-answer('urn:example:recursionCount'(5329,5)).
-answer('urn:example:recursionCount'(5330,6)).
-answer('urn:example:recursionCount'(5331,4)).
-answer('urn:example:recursionCount'(5332,6)).
-answer('urn:example:recursionCount'(5333,4)).
-answer('urn:example:recursionCount'(5334,3)).
-answer('urn:example:recursionCount'(5335,6)).
-answer('urn:example:recursionCount'(5336,5)).
-answer('urn:example:recursionCount'(5337,2)).
-answer('urn:example:recursionCount'(5338,7)).
-answer('urn:example:recursionCount'(5339,1)).
-answer('urn:example:recursionCount'(5340,7)).
-answer('urn:example:recursionCount'(5341,7)).
-answer('urn:example:recursionCount'(5342,3)).
-answer('urn:example:recursionCount'(5343,3)).
-answer('urn:example:recursionCount'(5344,4)).
-answer('urn:example:recursionCount'(5345,3)).
-answer('urn:example:recursionCount'(5346,3)).
-answer('urn:example:recursionCount'(5347,7)).
-answer('urn:example:recursionCount'(5348,7)).
-answer('urn:example:recursionCount'(5349,7)).
-answer('urn:example:recursionCount'(5350,7)).
-answer('urn:example:recursionCount'(5351,2)).
-answer('urn:example:recursionCount'(5352,5)).
-answer('urn:example:recursionCount'(5353,6)).
-answer('urn:example:recursionCount'(5354,3)).
-answer('urn:example:recursionCount'(5355,4)).
-answer('urn:example:recursionCount'(5356,6)).
-answer('urn:example:recursionCount'(5357,4)).
-answer('urn:example:recursionCount'(5358,6)).
-answer('urn:example:recursionCount'(5359,6)).
-answer('urn:example:recursionCount'(5360,1)).
-answer('urn:example:recursionCount'(5361,7)).
-answer('urn:example:recursionCount'(5362,2)).
-answer('urn:example:recursionCount'(5363,5)).
-answer('urn:example:recursionCount'(5364,3)).
-answer('urn:example:recursionCount'(5365,6)).
-answer('urn:example:recursionCount'(5366,3)).
-answer('urn:example:recursionCount'(5367,7)).
-answer('urn:example:recursionCount'(5368,7)).
-answer('urn:example:recursionCount'(5369,7)).
-answer('urn:example:recursionCount'(5370,5)).
-answer('urn:example:recursionCount'(5371,1)).
-answer('urn:example:recursionCount'(5372,7)).
-answer('urn:example:recursionCount'(5373,2)).
-answer('urn:example:recursionCount'(5374,7)).
-answer('urn:example:recursionCount'(5375,4)).
-answer('urn:example:recursionCount'(5376,7)).
-answer('urn:example:recursionCount'(5377,2)).
-answer('urn:example:recursionCount'(5378,7)).
-answer('urn:example:recursionCount'(5379,1)).
-answer('urn:example:recursionCount'(5380,6)).
-answer('urn:example:recursionCount'(5381,5)).
-answer('urn:example:recursionCount'(5382,1)).
-answer('urn:example:recursionCount'(5383,7)).
-answer('urn:example:recursionCount'(5384,7)).
-answer('urn:example:recursionCount'(5385,6)).
-answer('urn:example:recursionCount'(5386,7)).
-answer('urn:example:recursionCount'(5387,7)).
-answer('urn:example:recursionCount'(5388,5)).
-answer('urn:example:recursionCount'(5389,3)).
-answer('urn:example:recursionCount'(5390,3)).
-answer('urn:example:recursionCount'(5391,6)).
-answer('urn:example:recursionCount'(5392,5)).
-answer('urn:example:recursionCount'(5393,1)).
-answer('urn:example:recursionCount'(5394,7)).
-answer('urn:example:recursionCount'(5395,6)).
-answer('urn:example:recursionCount'(5396,7)).
-answer('urn:example:recursionCount'(5397,1)).
-answer('urn:example:recursionCount'(5398,3)).
-answer('urn:example:recursionCount'(5399,4)).
-answer('urn:example:recursionCount'(5400,5)).
-answer('urn:example:recursionCount'(5401,5)).
-answer('urn:example:recursionCount'(5402,7)).
-answer('urn:example:recursionCount'(5403,7)).
-answer('urn:example:recursionCount'(5404,6)).
-answer('urn:example:recursionCount'(5405,7)).
-answer('urn:example:recursionCount'(5406,7)).
-answer('urn:example:recursionCount'(5407,3)).
-answer('urn:example:recursionCount'(5408,3)).
-answer('urn:example:recursionCount'(5409,4)).
-answer('urn:example:recursionCount'(5410,5)).
-answer('urn:example:recursionCount'(5411,3)).
-answer('urn:example:recursionCount'(5412,2)).
-answer('urn:example:recursionCount'(5413,7)).
-answer('urn:example:recursionCount'(5414,4)).
-answer('urn:example:recursionCount'(5415,7)).
-answer('urn:example:recursionCount'(5416,7)).
-answer('urn:example:recursionCount'(5417,7)).
-answer('urn:example:recursionCount'(5418,3)).
-answer('urn:example:recursionCount'(5419,3)).
-answer('urn:example:recursionCount'(5420,7)).
-answer('urn:example:recursionCount'(5421,2)).
-answer('urn:example:recursionCount'(5422,5)).
-answer('urn:example:recursionCount'(5423,3)).
-answer('urn:example:recursionCount'(5424,6)).
-answer('urn:example:recursionCount'(5425,3)).
-answer('urn:example:recursionCount'(5426,7)).
-answer('urn:example:recursionCount'(5427,7)).
-answer('urn:example:recursionCount'(5428,7)).
-answer('urn:example:recursionCount'(5429,3)).
-answer('urn:example:recursionCount'(5430,7)).
-answer('urn:example:recursionCount'(5431,7)).
-answer('urn:example:recursionCount'(5432,3)).
-answer('urn:example:recursionCount'(5433,3)).
-answer('urn:example:recursionCount'(5434,4)).
-answer('urn:example:recursionCount'(5435,3)).
-answer('urn:example:recursionCount'(5436,3)).
-answer('urn:example:recursionCount'(5437,7)).
-answer('urn:example:recursionCount'(5438,7)).
-answer('urn:example:recursionCount'(5439,7)).
-answer('urn:example:recursionCount'(5440,6)).
-answer('urn:example:recursionCount'(5441,4)).
-answer('urn:example:recursionCount'(5442,6)).
-answer('urn:example:recursionCount'(5443,4)).
-answer('urn:example:recursionCount'(5444,5)).
-answer('urn:example:recursionCount'(5445,4)).
-answer('urn:example:recursionCount'(5446,3)).
-answer('urn:example:recursionCount'(5447,3)).
-answer('urn:example:recursionCount'(5448,7)).
-answer('urn:example:recursionCount'(5449,7)).
-answer('urn:example:recursionCount'(5450,7)).
-answer('urn:example:recursionCount'(5451,7)).
-answer('urn:example:recursionCount'(5452,3)).
-answer('urn:example:recursionCount'(5453,3)).
-answer('urn:example:recursionCount'(5454,4)).
-answer('urn:example:recursionCount'(5455,5)).
-answer('urn:example:recursionCount'(5456,4)).
-answer('urn:example:recursionCount'(5457,6)).
-answer('urn:example:recursionCount'(5458,4)).
-answer('urn:example:recursionCount'(5459,6)).
-answer('urn:example:recursionCount'(5460,7)).
-answer('urn:example:recursionCount'(5461,7)).
-answer('urn:example:recursionCount'(5462,7)).
-answer('urn:example:recursionCount'(5463,3)).
-answer('urn:example:recursionCount'(5464,3)).
-answer('urn:example:recursionCount'(5465,4)).
-answer('urn:example:recursionCount'(5466,3)).
-answer('urn:example:recursionCount'(5467,3)).
-answer('urn:example:recursionCount'(5468,7)).
-answer('urn:example:recursionCount'(5469,7)).
-answer('urn:example:recursionCount'(5470,3)).
-answer('urn:example:recursionCount'(5471,7)).
-answer('urn:example:recursionCount'(5472,7)).
-answer('urn:example:recursionCount'(5473,7)).
-answer('urn:example:recursionCount'(5474,3)).
-answer('urn:example:recursionCount'(5475,6)).
-answer('urn:example:recursionCount'(5476,3)).
-answer('urn:example:recursionCount'(5477,5)).
-answer('urn:example:recursionCount'(5478,2)).
-answer('urn:example:recursionCount'(5479,7)).
-answer('urn:example:recursionCount'(5480,3)).
-answer('urn:example:recursionCount'(5481,3)).
-answer('urn:example:recursionCount'(5482,7)).
-answer('urn:example:recursionCount'(5483,7)).
-answer('urn:example:recursionCount'(5484,7)).
-answer('urn:example:recursionCount'(5485,4)).
-answer('urn:example:recursionCount'(5486,7)).
-answer('urn:example:recursionCount'(5487,2)).
-answer('urn:example:recursionCount'(5488,3)).
-answer('urn:example:recursionCount'(5489,5)).
-answer('urn:example:recursionCount'(5490,4)).
-answer('urn:example:recursionCount'(5491,3)).
-answer('urn:example:recursionCount'(5492,3)).
-answer('urn:example:recursionCount'(5493,7)).
-answer('urn:example:recursionCount'(5494,7)).
-answer('urn:example:recursionCount'(5495,6)).
-answer('urn:example:recursionCount'(5496,7)).
-answer('urn:example:recursionCount'(5497,7)).
-answer('urn:example:recursionCount'(5498,5)).
-answer('urn:example:recursionCount'(5499,5)).
-answer('urn:example:recursionCount'(5500,5)).
-answer('urn:example:recursionCount'(5501,5)).
-answer('urn:example:recursionCount'(5502,5)).
-answer('urn:example:recursionCount'(5503,7)).
-answer('urn:example:recursionCount'(5504,7)).
-answer('urn:example:recursionCount'(5505,6)).
-answer('urn:example:recursionCount'(5506,6)).
-answer('urn:example:recursionCount'(5507,4)).
-answer('urn:example:recursionCount'(5508,6)).
-answer('urn:example:recursionCount'(5509,4)).
-answer('urn:example:recursionCount'(5510,5)).
-answer('urn:example:recursionCount'(5511,4)).
-answer('urn:example:recursionCount'(5512,3)).
-answer('urn:example:recursionCount'(5513,2)).
-answer('urn:example:recursionCount'(5514,7)).
-answer('urn:example:recursionCount'(5515,4)).
-answer('urn:example:recursionCount'(5516,6)).
-answer('urn:example:recursionCount'(5517,6)).
-answer('urn:example:recursionCount'(5518,4)).
-answer('urn:example:recursionCount'(5519,6)).
-answer('urn:example:recursionCount'(5520,5)).
-answer('urn:example:recursionCount'(5521,3)).
-answer('urn:example:recursionCount'(5522,6)).
-answer('urn:example:recursionCount'(5523,5)).
-answer('urn:example:recursionCount'(5524,3)).
-answer('urn:example:recursionCount'(5525,6)).
-answer('urn:example:recursionCount'(5526,4)).
-answer('urn:example:recursionCount'(5527,6)).
-answer('urn:example:recursionCount'(5528,6)).
-answer('urn:example:recursionCount'(5529,4)).
-answer('urn:example:recursionCount'(5530,7)).
-answer('urn:example:recursionCount'(5531,2)).
-answer('urn:example:recursionCount'(5532,5)).
-answer('urn:example:recursionCount'(5533,6)).
-answer('urn:example:recursionCount'(5534,3)).
-answer('urn:example:recursionCount'(5535,4)).
-answer('urn:example:recursionCount'(5536,6)).
-answer('urn:example:recursionCount'(5537,4)).
-answer('urn:example:recursionCount'(5538,6)).
-answer('urn:example:recursionCount'(5539,6)).
-answer('urn:example:recursionCount'(5540,7)).
-answer('urn:example:recursionCount'(5541,7)).
-answer('urn:example:recursionCount'(5542,3)).
-answer('urn:example:recursionCount'(5543,3)).
-answer('urn:example:recursionCount'(5544,4)).
-answer('urn:example:recursionCount'(5545,5)).
-answer('urn:example:recursionCount'(5546,4)).
-answer('urn:example:recursionCount'(5547,6)).
-answer('urn:example:recursionCount'(5548,4)).
-answer('urn:example:recursionCount'(5549,6)).
-answer('urn:example:recursionCount'(5550,6)).
-answer('urn:example:recursionCount'(5551,4)).
-answer('urn:example:recursionCount'(5552,6)).
-answer('urn:example:recursionCount'(5553,4)).
-answer('urn:example:recursionCount'(5554,5)).
-answer('urn:example:recursionCount'(5556,5)).
-answer('urn:example:recursionCount'(5557,4)).
-answer('urn:example:recursionCount'(5558,6)).
-answer('urn:example:recursionCount'(5559,4)).
-answer('urn:example:recursionCount'(5560,6)).
-answer('urn:example:recursionCount'(5561,6)).
-answer('urn:example:recursionCount'(5562,4)).
-answer('urn:example:recursionCount'(5563,6)).
-answer('urn:example:recursionCount'(5564,4)).
-answer('urn:example:recursionCount'(5565,5)).
-answer('urn:example:recursionCount'(5566,4)).
-answer('urn:example:recursionCount'(5567,3)).
-answer('urn:example:recursionCount'(5568,3)).
-answer('urn:example:recursionCount'(5569,7)).
-answer('urn:example:recursionCount'(5570,4)).
-answer('urn:example:recursionCount'(5571,6)).
-answer('urn:example:recursionCount'(5572,6)).
-answer('urn:example:recursionCount'(5573,4)).
-answer('urn:example:recursionCount'(5574,6)).
-answer('urn:example:recursionCount'(5575,4)).
-answer('urn:example:recursionCount'(5576,3)).
-answer('urn:example:recursionCount'(5577,6)).
-answer('urn:example:recursionCount'(5578,5)).
-answer('urn:example:recursionCount'(5579,2)).
-answer('urn:example:recursionCount'(5580,6)).
-answer('urn:example:recursionCount'(5581,4)).
-answer('urn:example:recursionCount'(5582,6)).
-answer('urn:example:recursionCount'(5583,6)).
-answer('urn:example:recursionCount'(5584,4)).
-answer('urn:example:recursionCount'(5585,6)).
-answer('urn:example:recursionCount'(5586,3)).
-answer('urn:example:recursionCount'(5587,5)).
-answer('urn:example:recursionCount'(5588,6)).
-answer('urn:example:recursionCount'(5589,3)).
-answer('urn:example:recursionCount'(5590,4)).
-answer('urn:example:recursionCount'(5591,6)).
-answer('urn:example:recursionCount'(5592,4)).
-answer('urn:example:recursionCount'(5593,6)).
-answer('urn:example:recursionCount'(5594,6)).
-answer('urn:example:recursionCount'(5595,4)).
-answer('urn:example:recursionCount'(5596,7)).
-answer('urn:example:recursionCount'(5597,2)).
-answer('urn:example:recursionCount'(5598,3)).
-answer('urn:example:recursionCount'(5599,4)).
-answer('urn:example:recursionCount'(5600,5)).
-answer('urn:example:recursionCount'(5601,4)).
-answer('urn:example:recursionCount'(5602,3)).
-answer('urn:example:recursionCount'(5603,1)).
-answer('urn:example:recursionCount'(5604,7)).
-answer('urn:example:recursionCount'(5605,6)).
-answer('urn:example:recursionCount'(5606,7)).
-answer('urn:example:recursionCount'(5607,3)).
-answer('urn:example:recursionCount'(5608,3)).
-answer('urn:example:recursionCount'(5609,4)).
-answer('urn:example:recursionCount'(5610,4)).
-answer('urn:example:recursionCount'(5611,5)).
-answer('urn:example:recursionCount'(5612,5)).
-answer('urn:example:recursionCount'(5613,7)).
-answer('urn:example:recursionCount'(5614,7)).
-answer('urn:example:recursionCount'(5615,6)).
-answer('urn:example:recursionCount'(5616,7)).
-answer('urn:example:recursionCount'(5617,7)).
-answer('urn:example:recursionCount'(5618,3)).
-answer('urn:example:recursionCount'(5619,3)).
-answer('urn:example:recursionCount'(5620,3)).
-answer('urn:example:recursionCount'(5621,5)).
-answer('urn:example:recursionCount'(5622,3)).
-answer('urn:example:recursionCount'(5623,2)).
-answer('urn:example:recursionCount'(5624,7)).
-answer('urn:example:recursionCount'(5625,4)).
-answer('urn:example:recursionCount'(5626,7)).
-answer('urn:example:recursionCount'(5627,7)).
-answer('urn:example:recursionCount'(5628,7)).
-answer('urn:example:recursionCount'(5629,3)).
-answer('urn:example:recursionCount'(5630,1)).
-answer('urn:example:recursionCount'(5631,7)).
-answer('urn:example:recursionCount'(5632,2)).
-answer('urn:example:recursionCount'(5633,5)).
-answer('urn:example:recursionCount'(5634,3)).
-answer('urn:example:recursionCount'(5635,6)).
-answer('urn:example:recursionCount'(5636,3)).
-answer('urn:example:recursionCount'(5637,7)).
-answer('urn:example:recursionCount'(5638,7)).
-answer('urn:example:recursionCount'(5639,7)).
-answer('urn:example:recursionCount'(5640,7)).
-answer('urn:example:recursionCount'(5641,7)).
-answer('urn:example:recursionCount'(5642,7)).
-answer('urn:example:recursionCount'(5643,3)).
-answer('urn:example:recursionCount'(5644,3)).
-answer('urn:example:recursionCount'(5645,4)).
-answer('urn:example:recursionCount'(5646,3)).
-answer('urn:example:recursionCount'(5647,3)).
-answer('urn:example:recursionCount'(5648,7)).
-answer('urn:example:recursionCount'(5649,7)).
-answer('urn:example:recursionCount'(5650,6)).
-answer('urn:example:recursionCount'(5651,6)).
-answer('urn:example:recursionCount'(5652,4)).
-answer('urn:example:recursionCount'(5653,6)).
-answer('urn:example:recursionCount'(5654,4)).
-answer('urn:example:recursionCount'(5655,5)).
-answer('urn:example:recursionCount'(5656,4)).
-answer('urn:example:recursionCount'(5657,3)).
-answer('urn:example:recursionCount'(5658,3)).
-answer('urn:example:recursionCount'(5659,7)).
-answer('urn:example:recursionCount'(5660,7)).
-answer('urn:example:recursionCount'(5661,7)).
-answer('urn:example:recursionCount'(5662,7)).
-answer('urn:example:recursionCount'(5663,3)).
-answer('urn:example:recursionCount'(5664,3)).
-answer('urn:example:recursionCount'(5665,4)).
-answer('urn:example:recursionCount'(5666,5)).
-answer('urn:example:recursionCount'(5667,4)).
-answer('urn:example:recursionCount'(5668,6)).
-answer('urn:example:recursionCount'(5669,4)).
-answer('urn:example:recursionCount'(5670,3)).
-answer('urn:example:recursionCount'(5671,7)).
-answer('urn:example:recursionCount'(5672,7)).
-answer('urn:example:recursionCount'(5673,7)).
-answer('urn:example:recursionCount'(5674,3)).
-answer('urn:example:recursionCount'(5675,3)).
-answer('urn:example:recursionCount'(5676,4)).
-answer('urn:example:recursionCount'(5677,3)).
-answer('urn:example:recursionCount'(5678,3)).
-answer('urn:example:recursionCount'(5679,7)).
-answer('urn:example:recursionCount'(5680,3)).
-answer('urn:example:recursionCount'(5681,3)).
-answer('urn:example:recursionCount'(5682,7)).
-answer('urn:example:recursionCount'(5683,7)).
-answer('urn:example:recursionCount'(5684,7)).
-answer('urn:example:recursionCount'(5685,3)).
-answer('urn:example:recursionCount'(5686,6)).
-answer('urn:example:recursionCount'(5687,3)).
-answer('urn:example:recursionCount'(5688,5)).
-answer('urn:example:recursionCount'(5689,2)).
-answer('urn:example:recursionCount'(5690,4)).
-answer('urn:example:recursionCount'(5691,3)).
-answer('urn:example:recursionCount'(5692,3)).
-answer('urn:example:recursionCount'(5693,7)).
-answer('urn:example:recursionCount'(5694,7)).
-answer('urn:example:recursionCount'(5695,7)).
-answer('urn:example:recursionCount'(5696,4)).
-answer('urn:example:recursionCount'(5697,7)).
-answer('urn:example:recursionCount'(5698,2)).
-answer('urn:example:recursionCount'(5699,3)).
-answer('urn:example:recursionCount'(5700,5)).
-answer('urn:example:recursionCount'(5701,3)).
-answer('urn:example:recursionCount'(5702,6)).
-answer('urn:example:recursionCount'(5703,5)).
-answer('urn:example:recursionCount'(5704,3)).
-answer('urn:example:recursionCount'(5705,4)).
-answer('urn:example:recursionCount'(5706,3)).
-answer('urn:example:recursionCount'(5707,5)).
-answer('urn:example:recursionCount'(5708,6)).
-answer('urn:example:recursionCount'(5709,3)).
-answer('urn:example:recursionCount'(5710,3)).
-answer('urn:example:recursionCount'(5711,4)).
-answer('urn:example:recursionCount'(5712,3)).
-answer('urn:example:recursionCount'(5713,1)).
-answer('urn:example:recursionCount'(5714,7)).
-answer('urn:example:recursionCount'(5715,6)).
-answer('urn:example:recursionCount'(5716,7)).
-answer('urn:example:recursionCount'(5717,1)).
-answer('urn:example:recursionCount'(5718,5)).
-answer('urn:example:recursionCount'(5719,6)).
-answer('urn:example:recursionCount'(5720,6)).
-answer('urn:example:recursionCount'(5721,3)).
-answer('urn:example:recursionCount'(5722,5)).
-answer('urn:example:recursionCount'(5723,7)).
-answer('urn:example:recursionCount'(5724,7)).
-answer('urn:example:recursionCount'(5725,6)).
-answer('urn:example:recursionCount'(5726,7)).
-answer('urn:example:recursionCount'(5727,7)).
-answer('urn:example:recursionCount'(5728,1)).
-answer('urn:example:recursionCount'(5729,5)).
-answer('urn:example:recursionCount'(5730,5)).
-answer('urn:example:recursionCount'(5731,1)).
-answer('urn:example:recursionCount'(5732,7)).
-answer('urn:example:recursionCount'(5733,2)).
-answer('urn:example:recursionCount'(5734,7)).
-answer('urn:example:recursionCount'(5735,4)).
-answer('urn:example:recursionCount'(5736,7)).
-answer('urn:example:recursionCount'(5737,2)).
-answer('urn:example:recursionCount'(5738,7)).
-answer('urn:example:recursionCount'(5739,1)).
-answer('urn:example:recursionCount'(5740,3)).
-answer('urn:example:recursionCount'(5741,7)).
-answer('urn:example:recursionCount'(5742,7)).
-answer('urn:example:recursionCount'(5743,7)).
-answer('urn:example:recursionCount'(5744,3)).
-answer('urn:example:recursionCount'(5745,6)).
-answer('urn:example:recursionCount'(5746,3)).
-answer('urn:example:recursionCount'(5747,5)).
-answer('urn:example:recursionCount'(5748,2)).
-answer('urn:example:recursionCount'(5749,7)).
-answer('urn:example:recursionCount'(5750,4)).
-answer('urn:example:recursionCount'(5751,6)).
-answer('urn:example:recursionCount'(5752,6)).
-answer('urn:example:recursionCount'(5753,4)).
-answer('urn:example:recursionCount'(5754,6)).
-answer('urn:example:recursionCount'(5755,4)).
-answer('urn:example:recursionCount'(5756,3)).
-answer('urn:example:recursionCount'(5757,6)).
-answer('urn:example:recursionCount'(5758,5)).
-answer('urn:example:recursionCount'(5759,2)).
-answer('urn:example:recursionCount'(5760,3)).
-answer('urn:example:recursionCount'(5761,7)).
-answer('urn:example:recursionCount'(5762,7)).
-answer('urn:example:recursionCount'(5763,7)).
-answer('urn:example:recursionCount'(5764,3)).
-answer('urn:example:recursionCount'(5765,3)).
-answer('urn:example:recursionCount'(5766,4)).
-answer('urn:example:recursionCount'(5767,3)).
-answer('urn:example:recursionCount'(5768,3)).
-answer('urn:example:recursionCount'(5769,7)).
-answer('urn:example:recursionCount'(5770,5)).
-answer('urn:example:recursionCount'(5771,1)).
-answer('urn:example:recursionCount'(5772,7)).
-answer('urn:example:recursionCount'(5773,2)).
-answer('urn:example:recursionCount'(5774,5)).
-answer('urn:example:recursionCount'(5775,6)).
-answer('urn:example:recursionCount'(5776,3)).
-answer('urn:example:recursionCount'(5777,4)).
-answer('urn:example:recursionCount'(5778,6)).
-answer('urn:example:recursionCount'(5779,4)).
-answer('urn:example:recursionCount'(5780,6)).
-answer('urn:example:recursionCount'(5781,5)).
-answer('urn:example:recursionCount'(5782,1)).
-answer('urn:example:recursionCount'(5783,7)).
-answer('urn:example:recursionCount'(5784,2)).
-answer('urn:example:recursionCount'(5785,5)).
-answer('urn:example:recursionCount'(5786,3)).
-answer('urn:example:recursionCount'(5787,6)).
-answer('urn:example:recursionCount'(5788,3)).
-answer('urn:example:recursionCount'(5789,7)).
-answer('urn:example:recursionCount'(5790,3)).
-answer('urn:example:recursionCount'(5791,6)).
-answer('urn:example:recursionCount'(5792,5)).
-answer('urn:example:recursionCount'(5793,1)).
-answer('urn:example:recursionCount'(5794,7)).
-answer('urn:example:recursionCount'(5795,2)).
-answer('urn:example:recursionCount'(5796,7)).
-answer('urn:example:recursionCount'(5797,4)).
-answer('urn:example:recursionCount'(5798,7)).
-answer('urn:example:recursionCount'(5799,2)).
-answer('urn:example:recursionCount'(5800,7)).
-answer('urn:example:recursionCount'(5801,2)).
-answer('urn:example:recursionCount'(5802,5)).
-answer('urn:example:recursionCount'(5803,6)).
-answer('urn:example:recursionCount'(5804,3)).
-answer('urn:example:recursionCount'(5805,6)).
-answer('urn:example:recursionCount'(5806,3)).
-answer('urn:example:recursionCount'(5807,6)).
-answer('urn:example:recursionCount'(5808,5)).
-answer('urn:example:recursionCount'(5809,3)).
-answer('urn:example:recursionCount'(5810,2)).
-answer('urn:example:recursionCount'(5811,3)).
-answer('urn:example:recursionCount'(5812,6)).
-answer('urn:example:recursionCount'(5813,5)).
-answer('urn:example:recursionCount'(5814,3)).
-answer('urn:example:recursionCount'(5815,4)).
-answer('urn:example:recursionCount'(5816,3)).
-answer('urn:example:recursionCount'(5817,5)).
-answer('urn:example:recursionCount'(5818,6)).
-answer('urn:example:recursionCount'(5819,5)).
-answer('urn:example:recursionCount'(5820,5)).
-answer('urn:example:recursionCount'(5821,6)).
-answer('urn:example:recursionCount'(5822,3)).
-answer('urn:example:recursionCount'(5823,1)).
-answer('urn:example:recursionCount'(5824,7)).
-answer('urn:example:recursionCount'(5825,6)).
-answer('urn:example:recursionCount'(5826,7)).
-answer('urn:example:recursionCount'(5827,1)).
-answer('urn:example:recursionCount'(5828,3)).
-answer('urn:example:recursionCount'(5829,6)).
-answer('urn:example:recursionCount'(5830,6)).
-answer('urn:example:recursionCount'(5831,5)).
-answer('urn:example:recursionCount'(5832,1)).
-answer('urn:example:recursionCount'(5833,7)).
-answer('urn:example:recursionCount'(5834,7)).
-answer('urn:example:recursionCount'(5835,6)).
-answer('urn:example:recursionCount'(5836,7)).
-answer('urn:example:recursionCount'(5837,7)).
-answer('urn:example:recursionCount'(5838,5)).
-answer('urn:example:recursionCount'(5839,3)).
-answer('urn:example:recursionCount'(5840,3)).
-answer('urn:example:recursionCount'(5841,3)).
-answer('urn:example:recursionCount'(5842,7)).
-answer('urn:example:recursionCount'(5843,7)).
-answer('urn:example:recursionCount'(5844,7)).
-answer('urn:example:recursionCount'(5845,4)).
-answer('urn:example:recursionCount'(5846,7)).
-answer('urn:example:recursionCount'(5847,2)).
-answer('urn:example:recursionCount'(5848,3)).
-answer('urn:example:recursionCount'(5849,5)).
-answer('urn:example:recursionCount'(5850,6)).
-answer('urn:example:recursionCount'(5851,4)).
-answer('urn:example:recursionCount'(5852,6)).
-answer('urn:example:recursionCount'(5853,6)).
-answer('urn:example:recursionCount'(5854,4)).
-answer('urn:example:recursionCount'(5855,6)).
-answer('urn:example:recursionCount'(5856,3)).
-answer('urn:example:recursionCount'(5857,5)).
-answer('urn:example:recursionCount'(5858,6)).
-answer('urn:example:recursionCount'(5859,3)).
-answer('urn:example:recursionCount'(5860,3)).
-answer('urn:example:recursionCount'(5861,3)).
-answer('urn:example:recursionCount'(5862,7)).
-answer('urn:example:recursionCount'(5863,7)).
-answer('urn:example:recursionCount'(5864,7)).
-answer('urn:example:recursionCount'(5865,3)).
-answer('urn:example:recursionCount'(5866,6)).
-answer('urn:example:recursionCount'(5867,3)).
-answer('urn:example:recursionCount'(5868,5)).
-answer('urn:example:recursionCount'(5869,2)).
-answer('urn:example:recursionCount'(5870,6)).
-answer('urn:example:recursionCount'(5871,5)).
-answer('urn:example:recursionCount'(5872,1)).
-answer('urn:example:recursionCount'(5873,7)).
-answer('urn:example:recursionCount'(5874,2)).
-answer('urn:example:recursionCount'(5875,5)).
-answer('urn:example:recursionCount'(5876,3)).
-answer('urn:example:recursionCount'(5877,6)).
-answer('urn:example:recursionCount'(5878,3)).
-answer('urn:example:recursionCount'(5879,7)).
-answer('urn:example:recursionCount'(5880,5)).
-answer('urn:example:recursionCount'(5881,6)).
-answer('urn:example:recursionCount'(5882,3)).
-answer('urn:example:recursionCount'(5883,5)).
-answer('urn:example:recursionCount'(5884,3)).
-answer('urn:example:recursionCount'(5885,6)).
-answer('urn:example:recursionCount'(5886,5)).
-answer('urn:example:recursionCount'(5887,3)).
-answer('urn:example:recursionCount'(5888,6)).
-answer('urn:example:recursionCount'(5889,4)).
-answer('urn:example:recursionCount'(5890,3)).
-answer('urn:example:recursionCount'(5891,5)).
-answer('urn:example:recursionCount'(5892,6)).
-answer('urn:example:recursionCount'(5893,3)).
-answer('urn:example:recursionCount'(5894,5)).
-answer('urn:example:recursionCount'(5895,3)).
-answer('urn:example:recursionCount'(5896,2)).
-answer('urn:example:recursionCount'(5897,7)).
-answer('urn:example:recursionCount'(5898,4)).
-answer('urn:example:recursionCount'(5899,7)).
-answer('urn:example:recursionCount'(5900,7)).
-answer('urn:example:recursionCount'(5901,7)).
-answer('urn:example:recursionCount'(5902,3)).
-answer('urn:example:recursionCount'(5903,3)).
-answer('urn:example:recursionCount'(5904,4)).
-answer('urn:example:recursionCount'(5905,4)).
-answer('urn:example:recursionCount'(5906,4)).
-answer('urn:example:recursionCount'(5907,3)).
-answer('urn:example:recursionCount'(5908,3)).
-answer('urn:example:recursionCount'(5909,7)).
-answer('urn:example:recursionCount'(5910,7)).
-answer('urn:example:recursionCount'(5911,2)).
-answer('urn:example:recursionCount'(5912,5)).
-answer('urn:example:recursionCount'(5913,6)).
-answer('urn:example:recursionCount'(5914,3)).
-answer('urn:example:recursionCount'(5915,6)).
-answer('urn:example:recursionCount'(5916,3)).
-answer('urn:example:recursionCount'(5917,6)).
-answer('urn:example:recursionCount'(5918,5)).
-answer('urn:example:recursionCount'(5919,2)).
-answer('urn:example:recursionCount'(5920,3)).
-answer('urn:example:recursionCount'(5921,5)).
-answer('urn:example:recursionCount'(5922,6)).
-answer('urn:example:recursionCount'(5923,5)).
-answer('urn:example:recursionCount'(5924,3)).
-answer('urn:example:recursionCount'(5925,4)).
-answer('urn:example:recursionCount'(5926,3)).
-answer('urn:example:recursionCount'(5927,5)).
-answer('urn:example:recursionCount'(5928,6)).
-answer('urn:example:recursionCount'(5929,3)).
-answer('urn:example:recursionCount'(5930,3)).
-answer('urn:example:recursionCount'(5931,6)).
-answer('urn:example:recursionCount'(5932,5)).
-answer('urn:example:recursionCount'(5933,1)).
-answer('urn:example:recursionCount'(5934,7)).
-answer('urn:example:recursionCount'(5935,6)).
-answer('urn:example:recursionCount'(5936,7)).
-answer('urn:example:recursionCount'(5937,1)).
-answer('urn:example:recursionCount'(5938,3)).
-answer('urn:example:recursionCount'(5939,4)).
-answer('urn:example:recursionCount'(5940,4)).
-answer('urn:example:recursionCount'(5941,3)).
-answer('urn:example:recursionCount'(5942,3)).
-answer('urn:example:recursionCount'(5943,7)).
-answer('urn:example:recursionCount'(5944,7)).
-answer('urn:example:recursionCount'(5945,6)).
-answer('urn:example:recursionCount'(5946,7)).
-answer('urn:example:recursionCount'(5947,7)).
-answer('urn:example:recursionCount'(5948,5)).
-answer('urn:example:recursionCount'(5949,5)).
-answer('urn:example:recursionCount'(5950,4)).
-answer('urn:example:recursionCount'(5951,6)).
-answer('urn:example:recursionCount'(5952,4)).
-answer('urn:example:recursionCount'(5953,6)).
-answer('urn:example:recursionCount'(5954,6)).
-answer('urn:example:recursionCount'(5955,4)).
-answer('urn:example:recursionCount'(5956,7)).
-answer('urn:example:recursionCount'(5957,2)).
-answer('urn:example:recursionCount'(5958,3)).
-answer('urn:example:recursionCount'(5959,4)).
-answer('urn:example:recursionCount'(5960,4)).
-answer('urn:example:recursionCount'(5961,3)).
-answer('urn:example:recursionCount'(5962,3)).
-answer('urn:example:recursionCount'(5963,7)).
-answer('urn:example:recursionCount'(5964,7)).
-answer('urn:example:recursionCount'(5965,7)).
-answer('urn:example:recursionCount'(5966,4)).
-answer('urn:example:recursionCount'(5967,7)).
-answer('urn:example:recursionCount'(5968,2)).
-answer('urn:example:recursionCount'(5969,3)).
-answer('urn:example:recursionCount'(5970,3)).
-answer('urn:example:recursionCount'(5971,6)).
-answer('urn:example:recursionCount'(5972,5)).
-answer('urn:example:recursionCount'(5973,1)).
-answer('urn:example:recursionCount'(5974,7)).
-answer('urn:example:recursionCount'(5975,2)).
-answer('urn:example:recursionCount'(5976,7)).
-answer('urn:example:recursionCount'(5977,4)).
-answer('urn:example:recursionCount'(5978,7)).
-answer('urn:example:recursionCount'(5979,2)).
-answer('urn:example:recursionCount'(5980,3)).
-answer('urn:example:recursionCount'(5981,5)).
-answer('urn:example:recursionCount'(5982,6)).
-answer('urn:example:recursionCount'(5983,3)).
-answer('urn:example:recursionCount'(5984,5)).
-answer('urn:example:recursionCount'(5985,3)).
-answer('urn:example:recursionCount'(5986,2)).
-answer('urn:example:recursionCount'(5987,7)).
-answer('urn:example:recursionCount'(5988,4)).
-answer('urn:example:recursionCount'(5989,7)).
-answer('urn:example:recursionCount'(5990,7)).
-answer('urn:example:recursionCount'(5991,2)).
-answer('urn:example:recursionCount'(5992,3)).
-answer('urn:example:recursionCount'(5993,4)).
-answer('urn:example:recursionCount'(5994,5)).
-answer('urn:example:recursionCount'(5995,4)).
-answer('urn:example:recursionCount'(5996,3)).
-answer('urn:example:recursionCount'(5997,2)).
-answer('urn:example:recursionCount'(5998,7)).
-answer('urn:example:recursionCount'(5999,4)).
-answer('urn:example:recursionCount'(6000,6)).
-answer('urn:example:recursionCount'(6001,7)).
-answer('urn:example:recursionCount'(6002,1)).
-answer('urn:example:recursionCount'(6003,3)).
-answer('urn:example:recursionCount'(6004,4)).
-answer('urn:example:recursionCount'(6005,5)).
-answer('urn:example:recursionCount'(6006,4)).
-answer('urn:example:recursionCount'(6007,3)).
-answer('urn:example:recursionCount'(6008,2)).
-answer('urn:example:recursionCount'(6009,7)).
-answer('urn:example:recursionCount'(6010,7)).
-answer('urn:example:recursionCount'(6011,6)).
-answer('urn:example:recursionCount'(6012,7)).
-answer('urn:example:recursionCount'(6013,1)).
-answer('urn:example:recursionCount'(6014,3)).
-answer('urn:example:recursionCount'(6015,4)).
-answer('urn:example:recursionCount'(6016,5)).
-answer('urn:example:recursionCount'(6017,5)).
-answer('urn:example:recursionCount'(6018,7)).
-answer('urn:example:recursionCount'(6019,7)).
-answer('urn:example:recursionCount'(6020,1)).
-answer('urn:example:recursionCount'(6021,7)).
-answer('urn:example:recursionCount'(6022,6)).
-answer('urn:example:recursionCount'(6023,7)).
-answer('urn:example:recursionCount'(6024,1)).
-answer('urn:example:recursionCount'(6025,3)).
-answer('urn:example:recursionCount'(6026,4)).
-answer('urn:example:recursionCount'(6027,3)).
-answer('urn:example:recursionCount'(6028,2)).
-answer('urn:example:recursionCount'(6029,7)).
-answer('urn:example:recursionCount'(6030,3)).
-answer('urn:example:recursionCount'(6031,1)).
-answer('urn:example:recursionCount'(6032,7)).
-answer('urn:example:recursionCount'(6033,6)).
-answer('urn:example:recursionCount'(6034,7)).
-answer('urn:example:recursionCount'(6035,1)).
-answer('urn:example:recursionCount'(6036,3)).
-answer('urn:example:recursionCount'(6037,6)).
-answer('urn:example:recursionCount'(6038,5)).
-answer('urn:example:recursionCount'(6039,3)).
-answer('urn:example:recursionCount'(6040,4)).
-answer('urn:example:recursionCount'(6041,3)).
-answer('urn:example:recursionCount'(6042,1)).
-answer('urn:example:recursionCount'(6043,7)).
-answer('urn:example:recursionCount'(6044,6)).
-answer('urn:example:recursionCount'(6045,7)).
-answer('urn:example:recursionCount'(6046,1)).
-answer('urn:example:recursionCount'(6047,5)).
-answer('urn:example:recursionCount'(6048,6)).
-answer('urn:example:recursionCount'(6049,3)).
-answer('urn:example:recursionCount'(6050,5)).
-answer('urn:example:recursionCount'(6051,4)).
-answer('urn:example:recursionCount'(6052,3)).
-answer('urn:example:recursionCount'(6053,1)).
-answer('urn:example:recursionCount'(6054,7)).
-answer('urn:example:recursionCount'(6055,6)).
-answer('urn:example:recursionCount'(6056,7)).
-answer('urn:example:recursionCount'(6057,3)).
-answer('urn:example:recursionCount'(6058,3)).
-answer('urn:example:recursionCount'(6059,4)).
-answer('urn:example:recursionCount'(6060,4)).
-answer('urn:example:recursionCount'(6061,5)).
-answer('urn:example:recursionCount'(6062,4)).
-answer('urn:example:recursionCount'(6063,3)).
-answer('urn:example:recursionCount'(6064,1)).
-answer('urn:example:recursionCount'(6065,7)).
-answer('urn:example:recursionCount'(6066,6)).
-answer('urn:example:recursionCount'(6067,4)).
-answer('urn:example:recursionCount'(6068,6)).
-answer('urn:example:recursionCount'(6069,4)).
-answer('urn:example:recursionCount'(6070,3)).
-answer('urn:example:recursionCount'(6071,5)).
-answer('urn:example:recursionCount'(6072,3)).
-answer('urn:example:recursionCount'(6073,6)).
-answer('urn:example:recursionCount'(6074,5)).
-answer('urn:example:recursionCount'(6075,3)).
-answer('urn:example:recursionCount'(6076,4)).
-answer('urn:example:recursionCount'(6077,3)).
-answer('urn:example:recursionCount'(6078,3)).
-answer('urn:example:recursionCount'(6079,4)).
-answer('urn:example:recursionCount'(6080,2)).
-answer('urn:example:recursionCount'(6081,7)).
-answer('urn:example:recursionCount'(6082,2)).
-answer('urn:example:recursionCount'(6083,5)).
-answer('urn:example:recursionCount'(6084,6)).
-answer('urn:example:recursionCount'(6085,3)).
-answer('urn:example:recursionCount'(6086,6)).
-answer('urn:example:recursionCount'(6087,3)).
-answer('urn:example:recursionCount'(6088,6)).
-answer('urn:example:recursionCount'(6089,3)).
-answer('urn:example:recursionCount'(6090,7)).
-answer('urn:example:recursionCount'(6091,7)).
-answer('urn:example:recursionCount'(6092,7)).
-answer('urn:example:recursionCount'(6093,3)).
-answer('urn:example:recursionCount'(6094,3)).
-answer('urn:example:recursionCount'(6095,4)).
-answer('urn:example:recursionCount'(6096,4)).
-answer('urn:example:recursionCount'(6097,4)).
-answer('urn:example:recursionCount'(6098,3)).
-answer('urn:example:recursionCount'(6099,3)).
-answer('urn:example:recursionCount'(6100,7)).
-answer('urn:example:recursionCount'(6101,6)).
-answer('urn:example:recursionCount'(6102,7)).
-answer('urn:example:recursionCount'(6103,1)).
-answer('urn:example:recursionCount'(6104,3)).
-answer('urn:example:recursionCount'(6105,4)).
-answer('urn:example:recursionCount'(6106,5)).
-answer('urn:example:recursionCount'(6107,5)).
-answer('urn:example:recursionCount'(6108,7)).
-answer('urn:example:recursionCount'(6109,7)).
-answer('urn:example:recursionCount'(6110,6)).
-answer('urn:example:recursionCount'(6111,6)).
-answer('urn:example:recursionCount'(6112,7)).
-answer('urn:example:recursionCount'(6113,7)).
-answer('urn:example:recursionCount'(6114,5)).
-answer('urn:example:recursionCount'(6115,5)).
-answer('urn:example:recursionCount'(6116,5)).
-answer('urn:example:recursionCount'(6117,5)).
-answer('urn:example:recursionCount'(6118,5)).
-answer('urn:example:recursionCount'(6119,7)).
-answer('urn:example:recursionCount'(6120,7)).
-answer('urn:example:recursionCount'(6121,7)).
-answer('urn:example:recursionCount'(6122,6)).
-answer('urn:example:recursionCount'(6123,7)).
-answer('urn:example:recursionCount'(6124,7)).
-answer('urn:example:recursionCount'(6125,5)).
-answer('urn:example:recursionCount'(6126,5)).
-answer('urn:example:recursionCount'(6127,4)).
-answer('urn:example:recursionCount'(6128,3)).
-answer('urn:example:recursionCount'(6129,2)).
-answer('urn:example:recursionCount'(6130,1)).
-answer('urn:example:recursionCount'(6131,7)).
-answer('urn:example:recursionCount'(6132,7)).
-answer('urn:example:recursionCount'(6133,6)).
-answer('urn:example:recursionCount'(6134,7)).
-answer('urn:example:recursionCount'(6135,7)).
-answer('urn:example:recursionCount'(6136,5)).
-answer('urn:example:recursionCount'(6137,3)).
-answer('urn:example:recursionCount'(6138,6)).
-answer('urn:example:recursionCount'(6139,5)).
-answer('urn:example:recursionCount'(6140,3)).
-answer('urn:example:recursionCount'(6141,5)).
-answer('urn:example:recursionCount'(6142,7)).
-answer('urn:example:recursionCount'(6143,7)).
-answer('urn:example:recursionCount'(6144,6)).
-answer('urn:example:recursionCount'(6145,7)).
-answer('urn:example:recursionCount'(6146,7)).
-answer('urn:example:recursionCount'(6147,1)).
-answer('urn:example:recursionCount'(6148,5)).
-answer('urn:example:recursionCount'(6149,6)).
-answer('urn:example:recursionCount'(6150,4)).
-answer('urn:example:recursionCount'(6151,5)).
-answer('urn:example:recursionCount'(6152,5)).
-answer('urn:example:recursionCount'(6153,7)).
-answer('urn:example:recursionCount'(6154,7)).
-answer('urn:example:recursionCount'(6155,6)).
-answer('urn:example:recursionCount'(6156,7)).
-answer('urn:example:recursionCount'(6157,7)).
-answer('urn:example:recursionCount'(6158,3)).
-answer('urn:example:recursionCount'(6159,3)).
-answer('urn:example:recursionCount'(6160,5)).
-answer('urn:example:recursionCount'(6161,5)).
-answer('urn:example:recursionCount'(6162,5)).
-answer('urn:example:recursionCount'(6163,5)).
-answer('urn:example:recursionCount'(6164,7)).
-answer('urn:example:recursionCount'(6165,7)).
-answer('urn:example:recursionCount'(6166,6)).
-answer('urn:example:recursionCount'(6167,6)).
-answer('urn:example:recursionCount'(6168,4)).
-answer('urn:example:recursionCount'(6169,6)).
-answer('urn:example:recursionCount'(6170,5)).
-answer('urn:example:recursionCount'(6171,5)).
-answer('urn:example:recursionCount'(6172,4)).
-answer('urn:example:recursionCount'(6173,3)).
-answer('urn:example:recursionCount'(6174,1)).
-answer('urn:example:recursionCount'(6175,7)).
-answer('urn:example:recursionCount'(6176,6)).
-answer('urn:example:recursionCount'(6177,7)).
-answer('urn:example:recursionCount'(6178,3)).
-answer('urn:example:recursionCount'(6179,3)).
-answer('urn:example:recursionCount'(6180,7)).
-answer('urn:example:recursionCount'(6181,5)).
-answer('urn:example:recursionCount'(6182,3)).
-answer('urn:example:recursionCount'(6183,6)).
-answer('urn:example:recursionCount'(6184,5)).
-answer('urn:example:recursionCount'(6185,3)).
-answer('urn:example:recursionCount'(6186,4)).
-answer('urn:example:recursionCount'(6187,3)).
-answer('urn:example:recursionCount'(6188,5)).
-answer('urn:example:recursionCount'(6189,6)).
-answer('urn:example:recursionCount'(6190,7)).
-answer('urn:example:recursionCount'(6191,7)).
-answer('urn:example:recursionCount'(6192,2)).
-answer('urn:example:recursionCount'(6193,5)).
-answer('urn:example:recursionCount'(6194,6)).
-answer('urn:example:recursionCount'(6195,3)).
-answer('urn:example:recursionCount'(6196,6)).
-answer('urn:example:recursionCount'(6197,3)).
-answer('urn:example:recursionCount'(6198,6)).
-answer('urn:example:recursionCount'(6199,5)).
-answer('urn:example:recursionCount'(6200,1)).
-answer('urn:example:recursionCount'(6201,7)).
-answer('urn:example:recursionCount'(6202,6)).
-answer('urn:example:recursionCount'(6203,7)).
-answer('urn:example:recursionCount'(6204,1)).
-answer('urn:example:recursionCount'(6205,3)).
-answer('urn:example:recursionCount'(6206,4)).
-answer('urn:example:recursionCount'(6207,3)).
-answer('urn:example:recursionCount'(6208,2)).
-answer('urn:example:recursionCount'(6209,7)).
-answer('urn:example:recursionCount'(6210,7)).
-answer('urn:example:recursionCount'(6211,7)).
-answer('urn:example:recursionCount'(6212,6)).
-answer('urn:example:recursionCount'(6213,7)).
-answer('urn:example:recursionCount'(6214,7)).
-answer('urn:example:recursionCount'(6215,5)).
-answer('urn:example:recursionCount'(6216,5)).
-answer('urn:example:recursionCount'(6217,4)).
-answer('urn:example:recursionCount'(6218,3)).
-answer('urn:example:recursionCount'(6219,2)).
-answer('urn:example:recursionCount'(6220,6)).
-answer('urn:example:recursionCount'(6221,6)).
-answer('urn:example:recursionCount'(6222,4)).
-answer('urn:example:recursionCount'(6223,7)).
-answer('urn:example:recursionCount'(6224,2)).
-answer('urn:example:recursionCount'(6225,3)).
-answer('urn:example:recursionCount'(6226,4)).
-answer('urn:example:recursionCount'(6227,5)).
-answer('urn:example:recursionCount'(6228,4)).
-answer('urn:example:recursionCount'(6229,3)).
-answer('urn:example:recursionCount'(6230,7)).
-answer('urn:example:recursionCount'(6231,7)).
-answer('urn:example:recursionCount'(6232,7)).
-answer('urn:example:recursionCount'(6233,4)).
-answer('urn:example:recursionCount'(6234,7)).
-answer('urn:example:recursionCount'(6235,2)).
-answer('urn:example:recursionCount'(6236,3)).
-answer('urn:example:recursionCount'(6237,5)).
-answer('urn:example:recursionCount'(6238,3)).
-answer('urn:example:recursionCount'(6239,6)).
-answer('urn:example:recursionCount'(6240,1)).
-answer('urn:example:recursionCount'(6241,7)).
-answer('urn:example:recursionCount'(6242,2)).
-answer('urn:example:recursionCount'(6243,7)).
-answer('urn:example:recursionCount'(6244,4)).
-answer('urn:example:recursionCount'(6245,7)).
-answer('urn:example:recursionCount'(6246,2)).
-answer('urn:example:recursionCount'(6247,7)).
-answer('urn:example:recursionCount'(6248,1)).
-answer('urn:example:recursionCount'(6249,5)).
-answer('urn:example:recursionCount'(6250,3)).
-answer('urn:example:recursionCount'(6251,5)).
-answer('urn:example:recursionCount'(6252,3)).
-answer('urn:example:recursionCount'(6253,2)).
-answer('urn:example:recursionCount'(6254,7)).
-answer('urn:example:recursionCount'(6255,4)).
-answer('urn:example:recursionCount'(6256,7)).
-answer('urn:example:recursionCount'(6257,7)).
-answer('urn:example:recursionCount'(6258,7)).
-answer('urn:example:recursionCount'(6259,3)).
-answer('urn:example:recursionCount'(6260,4)).
-answer('urn:example:recursionCount'(6261,5)).
-answer('urn:example:recursionCount'(6262,4)).
-answer('urn:example:recursionCount'(6263,3)).
-answer('urn:example:recursionCount'(6264,2)).
-answer('urn:example:recursionCount'(6265,7)).
-answer('urn:example:recursionCount'(6266,4)).
-answer('urn:example:recursionCount'(6267,6)).
-answer('urn:example:recursionCount'(6268,6)).
-answer('urn:example:recursionCount'(6269,4)).
-answer('urn:example:recursionCount'(6270,3)).
-answer('urn:example:recursionCount'(6271,4)).
-answer('urn:example:recursionCount'(6272,5)).
-answer('urn:example:recursionCount'(6273,5)).
-answer('urn:example:recursionCount'(6274,7)).
-answer('urn:example:recursionCount'(6275,7)).
-answer('urn:example:recursionCount'(6276,6)).
-answer('urn:example:recursionCount'(6277,7)).
-answer('urn:example:recursionCount'(6278,7)).
-answer('urn:example:recursionCount'(6279,3)).
-answer('urn:example:recursionCount'(6280,2)).
-answer('urn:example:recursionCount'(6281,3)).
-answer('urn:example:recursionCount'(6282,4)).
-answer('urn:example:recursionCount'(6283,3)).
-answer('urn:example:recursionCount'(6284,1)).
-answer('urn:example:recursionCount'(6285,7)).
-answer('urn:example:recursionCount'(6286,6)).
-answer('urn:example:recursionCount'(6287,7)).
-answer('urn:example:recursionCount'(6288,1)).
-answer('urn:example:recursionCount'(6289,5)).
-answer('urn:example:recursionCount'(6290,7)).
-answer('urn:example:recursionCount'(6291,2)).
-answer('urn:example:recursionCount'(6292,3)).
-answer('urn:example:recursionCount'(6293,6)).
-answer('urn:example:recursionCount'(6294,5)).
-answer('urn:example:recursionCount'(6295,3)).
-answer('urn:example:recursionCount'(6296,4)).
-answer('urn:example:recursionCount'(6297,3)).
-answer('urn:example:recursionCount'(6298,5)).
-answer('urn:example:recursionCount'(6299,6)).
-answer('urn:example:recursionCount'(6300,3)).
-answer('urn:example:recursionCount'(6301,1)).
-answer('urn:example:recursionCount'(6302,7)).
-answer('urn:example:recursionCount'(6303,6)).
-answer('urn:example:recursionCount'(6304,7)).
-answer('urn:example:recursionCount'(6305,1)).
-answer('urn:example:recursionCount'(6306,3)).
-answer('urn:example:recursionCount'(6307,6)).
-answer('urn:example:recursionCount'(6308,5)).
-answer('urn:example:recursionCount'(6309,3)).
-answer('urn:example:recursionCount'(6310,1)).
-answer('urn:example:recursionCount'(6311,7)).
-answer('urn:example:recursionCount'(6312,7)).
-answer('urn:example:recursionCount'(6313,6)).
-answer('urn:example:recursionCount'(6314,7)).
-answer('urn:example:recursionCount'(6315,7)).
-answer('urn:example:recursionCount'(6316,5)).
-answer('urn:example:recursionCount'(6317,3)).
-answer('urn:example:recursionCount'(6318,6)).
-answer('urn:example:recursionCount'(6319,5)).
-answer('urn:example:recursionCount'(6320,7)).
-answer('urn:example:recursionCount'(6321,7)).
-answer('urn:example:recursionCount'(6322,7)).
-answer('urn:example:recursionCount'(6323,4)).
-answer('urn:example:recursionCount'(6324,7)).
-answer('urn:example:recursionCount'(6325,2)).
-answer('urn:example:recursionCount'(6326,3)).
-answer('urn:example:recursionCount'(6327,5)).
-answer('urn:example:recursionCount'(6328,3)).
-answer('urn:example:recursionCount'(6329,6)).
-answer('urn:example:recursionCount'(6330,6)).
-answer('urn:example:recursionCount'(6331,6)).
-answer('urn:example:recursionCount'(6332,4)).
-answer('urn:example:recursionCount'(6333,6)).
-answer('urn:example:recursionCount'(6334,3)).
-answer('urn:example:recursionCount'(6335,5)).
-answer('urn:example:recursionCount'(6336,6)).
-answer('urn:example:recursionCount'(6337,3)).
-answer('urn:example:recursionCount'(6338,5)).
-answer('urn:example:recursionCount'(6339,3)).
-answer('urn:example:recursionCount'(6340,7)).
-answer('urn:example:recursionCount'(6341,7)).
-answer('urn:example:recursionCount'(6342,7)).
-answer('urn:example:recursionCount'(6343,3)).
-answer('urn:example:recursionCount'(6344,6)).
-answer('urn:example:recursionCount'(6345,3)).
-answer('urn:example:recursionCount'(6346,5)).
-answer('urn:example:recursionCount'(6347,2)).
-answer('urn:example:recursionCount'(6348,7)).
-answer('urn:example:recursionCount'(6349,1)).
-answer('urn:example:recursionCount'(6350,1)).
-answer('urn:example:recursionCount'(6351,7)).
-answer('urn:example:recursionCount'(6352,2)).
-answer('urn:example:recursionCount'(6353,5)).
-answer('urn:example:recursionCount'(6354,3)).
-answer('urn:example:recursionCount'(6355,6)).
-answer('urn:example:recursionCount'(6356,3)).
-answer('urn:example:recursionCount'(6357,7)).
-answer('urn:example:recursionCount'(6358,7)).
-answer('urn:example:recursionCount'(6359,7)).
-answer('urn:example:recursionCount'(6360,3)).
-answer('urn:example:recursionCount'(6361,5)).
-answer('urn:example:recursionCount'(6362,3)).
-answer('urn:example:recursionCount'(6363,6)).
-answer('urn:example:recursionCount'(6364,5)).
-answer('urn:example:recursionCount'(6365,3)).
-answer('urn:example:recursionCount'(6366,6)).
-answer('urn:example:recursionCount'(6367,4)).
-answer('urn:example:recursionCount'(6368,6)).
-answer('urn:example:recursionCount'(6369,6)).
-answer('urn:example:recursionCount'(6370,6)).
-answer('urn:example:recursionCount'(6371,3)).
-answer('urn:example:recursionCount'(6372,5)).
-answer('urn:example:recursionCount'(6373,3)).
-answer('urn:example:recursionCount'(6374,2)).
-answer('urn:example:recursionCount'(6375,7)).
-answer('urn:example:recursionCount'(6376,4)).
-answer('urn:example:recursionCount'(6377,7)).
-answer('urn:example:recursionCount'(6378,7)).
-answer('urn:example:recursionCount'(6379,7)).
-answer('urn:example:recursionCount'(6380,5)).
-answer('urn:example:recursionCount'(6381,6)).
-answer('urn:example:recursionCount'(6382,3)).
-answer('urn:example:recursionCount'(6383,5)).
-answer('urn:example:recursionCount'(6384,7)).
-answer('urn:example:recursionCount'(6385,7)).
-answer('urn:example:recursionCount'(6386,6)).
-answer('urn:example:recursionCount'(6387,7)).
-answer('urn:example:recursionCount'(6388,7)).
-answer('urn:example:recursionCount'(6389,1)).
-answer('urn:example:recursionCount'(6390,3)).
-answer('urn:example:recursionCount'(6391,5)).
-answer('urn:example:recursionCount'(6392,6)).
-answer('urn:example:recursionCount'(6393,3)).
-answer('urn:example:recursionCount'(6394,1)).
-answer('urn:example:recursionCount'(6395,7)).
-answer('urn:example:recursionCount'(6396,6)).
-answer('urn:example:recursionCount'(6397,7)).
-answer('urn:example:recursionCount'(6398,1)).
-answer('urn:example:recursionCount'(6399,3)).
-answer('urn:example:recursionCount'(6400,4)).
-answer('urn:example:recursionCount'(6401,3)).
-answer('urn:example:recursionCount'(6402,1)).
-answer('urn:example:recursionCount'(6403,7)).
-answer('urn:example:recursionCount'(6404,6)).
-answer('urn:example:recursionCount'(6405,7)).
-answer('urn:example:recursionCount'(6406,1)).
-answer('urn:example:recursionCount'(6407,5)).
-answer('urn:example:recursionCount'(6408,6)).
-answer('urn:example:recursionCount'(6409,3)).
-answer('urn:example:recursionCount'(6410,3)).
-answer('urn:example:recursionCount'(6411,5)).
-answer('urn:example:recursionCount'(6412,7)).
-answer('urn:example:recursionCount'(6413,7)).
-answer('urn:example:recursionCount'(6414,6)).
-answer('urn:example:recursionCount'(6415,7)).
-answer('urn:example:recursionCount'(6416,7)).
-answer('urn:example:recursionCount'(6417,1)).
-answer('urn:example:recursionCount'(6418,5)).
-answer('urn:example:recursionCount'(6419,6)).
-answer('urn:example:recursionCount'(6420,1)).
-answer('urn:example:recursionCount'(6421,7)).
-answer('urn:example:recursionCount'(6422,2)).
-answer('urn:example:recursionCount'(6423,7)).
-answer('urn:example:recursionCount'(6424,4)).
-answer('urn:example:recursionCount'(6425,7)).
-answer('urn:example:recursionCount'(6426,2)).
-answer('urn:example:recursionCount'(6427,7)).
-answer('urn:example:recursionCount'(6428,1)).
-answer('urn:example:recursionCount'(6429,5)).
-answer('urn:example:recursionCount'(6430,7)).
-answer('urn:example:recursionCount'(6431,7)).
-answer('urn:example:recursionCount'(6432,7)).
-answer('urn:example:recursionCount'(6433,3)).
-answer('urn:example:recursionCount'(6434,6)).
-answer('urn:example:recursionCount'(6435,3)).
-answer('urn:example:recursionCount'(6436,5)).
-answer('urn:example:recursionCount'(6437,2)).
-answer('urn:example:recursionCount'(6438,7)).
-answer('urn:example:recursionCount'(6439,1)).
-answer('urn:example:recursionCount'(6440,6)).
-answer('urn:example:recursionCount'(6441,6)).
-answer('urn:example:recursionCount'(6442,4)).
-answer('urn:example:recursionCount'(6443,6)).
-answer('urn:example:recursionCount'(6444,4)).
-answer('urn:example:recursionCount'(6445,3)).
-answer('urn:example:recursionCount'(6446,6)).
-answer('urn:example:recursionCount'(6447,5)).
-answer('urn:example:recursionCount'(6448,2)).
-answer('urn:example:recursionCount'(6449,7)).
-answer('urn:example:recursionCount'(6450,7)).
-answer('urn:example:recursionCount'(6451,7)).
-answer('urn:example:recursionCount'(6452,7)).
-answer('urn:example:recursionCount'(6453,3)).
-answer('urn:example:recursionCount'(6454,3)).
-answer('urn:example:recursionCount'(6455,4)).
-answer('urn:example:recursionCount'(6456,3)).
-answer('urn:example:recursionCount'(6457,3)).
-answer('urn:example:recursionCount'(6458,7)).
-answer('urn:example:recursionCount'(6459,7)).
-answer('urn:example:recursionCount'(6460,1)).
-answer('urn:example:recursionCount'(6461,7)).
-answer('urn:example:recursionCount'(6462,2)).
-answer('urn:example:recursionCount'(6463,5)).
-answer('urn:example:recursionCount'(6464,6)).
-answer('urn:example:recursionCount'(6465,3)).
-answer('urn:example:recursionCount'(6466,4)).
-answer('urn:example:recursionCount'(6467,6)).
-answer('urn:example:recursionCount'(6468,4)).
-answer('urn:example:recursionCount'(6469,6)).
-answer('urn:example:recursionCount'(6470,5)).
-answer('urn:example:recursionCount'(6471,1)).
-answer('urn:example:recursionCount'(6472,7)).
-answer('urn:example:recursionCount'(6473,2)).
-answer('urn:example:recursionCount'(6474,5)).
-answer('urn:example:recursionCount'(6475,3)).
-answer('urn:example:recursionCount'(6476,6)).
-answer('urn:example:recursionCount'(6477,3)).
-answer('urn:example:recursionCount'(6478,7)).
-answer('urn:example:recursionCount'(6479,7)).
-answer('urn:example:recursionCount'(6480,6)).
-answer('urn:example:recursionCount'(6481,5)).
-answer('urn:example:recursionCount'(6482,1)).
-answer('urn:example:recursionCount'(6483,7)).
-answer('urn:example:recursionCount'(6484,2)).
-answer('urn:example:recursionCount'(6485,7)).
-answer('urn:example:recursionCount'(6486,4)).
-answer('urn:example:recursionCount'(6487,7)).
-answer('urn:example:recursionCount'(6488,2)).
-answer('urn:example:recursionCount'(6489,7)).
-answer('urn:example:recursionCount'(6490,3)).
-answer('urn:example:recursionCount'(6491,6)).
-answer('urn:example:recursionCount'(6492,5)).
-answer('urn:example:recursionCount'(6493,1)).
-answer('urn:example:recursionCount'(6494,7)).
-answer('urn:example:recursionCount'(6495,7)).
-answer('urn:example:recursionCount'(6496,6)).
-answer('urn:example:recursionCount'(6497,7)).
-answer('urn:example:recursionCount'(6498,7)).
-answer('urn:example:recursionCount'(6499,5)).
-answer('urn:example:recursionCount'(6500,5)).
-answer('urn:example:recursionCount'(6501,4)).
-answer('urn:example:recursionCount'(6502,3)).
-answer('urn:example:recursionCount'(6503,1)).
-answer('urn:example:recursionCount'(6504,7)).
-answer('urn:example:recursionCount'(6505,6)).
-answer('urn:example:recursionCount'(6506,7)).
-answer('urn:example:recursionCount'(6507,3)).
-answer('urn:example:recursionCount'(6508,3)).
-answer('urn:example:recursionCount'(6509,4)).
-answer('urn:example:recursionCount'(6510,4)).
-answer('urn:example:recursionCount'(6511,5)).
-answer('urn:example:recursionCount'(6512,5)).
-answer('urn:example:recursionCount'(6513,7)).
-answer('urn:example:recursionCount'(6514,7)).
-answer('urn:example:recursionCount'(6515,6)).
-answer('urn:example:recursionCount'(6516,7)).
-answer('urn:example:recursionCount'(6517,7)).
-answer('urn:example:recursionCount'(6518,3)).
-answer('urn:example:recursionCount'(6519,3)).
-answer('urn:example:recursionCount'(6520,3)).
-answer('urn:example:recursionCount'(6521,5)).
-answer('urn:example:recursionCount'(6522,3)).
-answer('urn:example:recursionCount'(6523,2)).
-answer('urn:example:recursionCount'(6524,7)).
-answer('urn:example:recursionCount'(6525,4)).
-answer('urn:example:recursionCount'(6526,7)).
-answer('urn:example:recursionCount'(6527,7)).
-answer('urn:example:recursionCount'(6528,7)).
-answer('urn:example:recursionCount'(6529,3)).
-answer('urn:example:recursionCount'(6530,1)).
-answer('urn:example:recursionCount'(6531,7)).
-answer('urn:example:recursionCount'(6532,2)).
-answer('urn:example:recursionCount'(6533,5)).
-answer('urn:example:recursionCount'(6534,3)).
-answer('urn:example:recursionCount'(6535,6)).
-answer('urn:example:recursionCount'(6536,3)).
-answer('urn:example:recursionCount'(6537,7)).
-answer('urn:example:recursionCount'(6538,7)).
-answer('urn:example:recursionCount'(6539,7)).
-answer('urn:example:recursionCount'(6540,7)).
-answer('urn:example:recursionCount'(6541,7)).
-answer('urn:example:recursionCount'(6542,7)).
-answer('urn:example:recursionCount'(6543,3)).
-answer('urn:example:recursionCount'(6544,3)).
-answer('urn:example:recursionCount'(6545,4)).
-answer('urn:example:recursionCount'(6546,3)).
-answer('urn:example:recursionCount'(6547,3)).
-answer('urn:example:recursionCount'(6548,7)).
-answer('urn:example:recursionCount'(6549,7)).
-answer('urn:example:recursionCount'(6550,6)).
-answer('urn:example:recursionCount'(6551,6)).
-answer('urn:example:recursionCount'(6552,4)).
-answer('urn:example:recursionCount'(6553,6)).
-answer('urn:example:recursionCount'(6554,4)).
-answer('urn:example:recursionCount'(6555,5)).
-answer('urn:example:recursionCount'(6556,4)).
-answer('urn:example:recursionCount'(6557,3)).
-answer('urn:example:recursionCount'(6558,3)).
-answer('urn:example:recursionCount'(6559,7)).
-answer('urn:example:recursionCount'(6560,7)).
-answer('urn:example:recursionCount'(6561,7)).
-answer('urn:example:recursionCount'(6562,7)).
-answer('urn:example:recursionCount'(6563,3)).
-answer('urn:example:recursionCount'(6564,3)).
-answer('urn:example:recursionCount'(6565,4)).
-answer('urn:example:recursionCount'(6566,5)).
-answer('urn:example:recursionCount'(6567,4)).
-answer('urn:example:recursionCount'(6568,6)).
-answer('urn:example:recursionCount'(6569,4)).
-answer('urn:example:recursionCount'(6570,3)).
-answer('urn:example:recursionCount'(6571,7)).
-answer('urn:example:recursionCount'(6572,7)).
-answer('urn:example:recursionCount'(6573,7)).
-answer('urn:example:recursionCount'(6574,3)).
-answer('urn:example:recursionCount'(6575,3)).
-answer('urn:example:recursionCount'(6576,4)).
-answer('urn:example:recursionCount'(6577,3)).
-answer('urn:example:recursionCount'(6578,3)).
-answer('urn:example:recursionCount'(6579,7)).
-answer('urn:example:recursionCount'(6580,3)).
-answer('urn:example:recursionCount'(6581,3)).
-answer('urn:example:recursionCount'(6582,7)).
-answer('urn:example:recursionCount'(6583,7)).
-answer('urn:example:recursionCount'(6584,7)).
-answer('urn:example:recursionCount'(6585,3)).
-answer('urn:example:recursionCount'(6586,6)).
-answer('urn:example:recursionCount'(6587,3)).
-answer('urn:example:recursionCount'(6588,5)).
-answer('urn:example:recursionCount'(6589,2)).
-answer('urn:example:recursionCount'(6590,4)).
-answer('urn:example:recursionCount'(6591,3)).
-answer('urn:example:recursionCount'(6592,3)).
-answer('urn:example:recursionCount'(6593,7)).
-answer('urn:example:recursionCount'(6594,7)).
-answer('urn:example:recursionCount'(6595,7)).
-answer('urn:example:recursionCount'(6596,4)).
-answer('urn:example:recursionCount'(6597,7)).
-answer('urn:example:recursionCount'(6598,2)).
-answer('urn:example:recursionCount'(6599,3)).
-answer('urn:example:recursionCount'(6600,4)).
-answer('urn:example:recursionCount'(6601,5)).
-answer('urn:example:recursionCount'(6602,4)).
-answer('urn:example:recursionCount'(6603,3)).
-answer('urn:example:recursionCount'(6604,1)).
-answer('urn:example:recursionCount'(6605,7)).
-answer('urn:example:recursionCount'(6606,6)).
-answer('urn:example:recursionCount'(6607,4)).
-answer('urn:example:recursionCount'(6608,6)).
-answer('urn:example:recursionCount'(6609,4)).
-answer('urn:example:recursionCount'(6610,5)).
-answer('urn:example:recursionCount'(6611,5)).
-answer('urn:example:recursionCount'(6612,5)).
-answer('urn:example:recursionCount'(6613,5)).
-answer('urn:example:recursionCount'(6614,7)).
-answer('urn:example:recursionCount'(6615,7)).
-answer('urn:example:recursionCount'(6616,6)).
-answer('urn:example:recursionCount'(6617,6)).
-answer('urn:example:recursionCount'(6618,4)).
-answer('urn:example:recursionCount'(6619,6)).
-answer('urn:example:recursionCount'(6620,4)).
-answer('urn:example:recursionCount'(6621,5)).
-answer('urn:example:recursionCount'(6622,4)).
-answer('urn:example:recursionCount'(6623,3)).
-answer('urn:example:recursionCount'(6624,2)).
-answer('urn:example:recursionCount'(6625,7)).
-answer('urn:example:recursionCount'(6626,4)).
-answer('urn:example:recursionCount'(6627,6)).
-answer('urn:example:recursionCount'(6628,6)).
-answer('urn:example:recursionCount'(6629,4)).
-answer('urn:example:recursionCount'(6630,3)).
-answer('urn:example:recursionCount'(6631,5)).
-answer('urn:example:recursionCount'(6632,3)).
-answer('urn:example:recursionCount'(6633,6)).
-answer('urn:example:recursionCount'(6634,5)).
-answer('urn:example:recursionCount'(6635,3)).
-answer('urn:example:recursionCount'(6636,6)).
-answer('urn:example:recursionCount'(6637,4)).
-answer('urn:example:recursionCount'(6638,6)).
-answer('urn:example:recursionCount'(6639,6)).
-answer('urn:example:recursionCount'(6640,1)).
-answer('urn:example:recursionCount'(6641,7)).
-answer('urn:example:recursionCount'(6642,2)).
-answer('urn:example:recursionCount'(6643,5)).
-answer('urn:example:recursionCount'(6644,6)).
-answer('urn:example:recursionCount'(6645,3)).
-answer('urn:example:recursionCount'(6646,4)).
-answer('urn:example:recursionCount'(6647,6)).
-answer('urn:example:recursionCount'(6648,4)).
-answer('urn:example:recursionCount'(6649,6)).
-answer('urn:example:recursionCount'(6650,7)).
-answer('urn:example:recursionCount'(6651,7)).
-answer('urn:example:recursionCount'(6652,7)).
-answer('urn:example:recursionCount'(6653,3)).
-answer('urn:example:recursionCount'(6654,3)).
-answer('urn:example:recursionCount'(6655,4)).
-answer('urn:example:recursionCount'(6656,5)).
-answer('urn:example:recursionCount'(6657,4)).
-answer('urn:example:recursionCount'(6658,6)).
-answer('urn:example:recursionCount'(6659,4)).
-answer('urn:example:recursionCount'(6660,6)).
-answer('urn:example:recursionCount'(6661,6)).
-answer('urn:example:recursionCount'(6662,4)).
-answer('urn:example:recursionCount'(6663,6)).
-answer('urn:example:recursionCount'(6664,4)).
-answer('urn:example:recursionCount'(6665,5)).
-answer('urn:example:recursionCount'(6667,5)).
-answer('urn:example:recursionCount'(6668,4)).
-answer('urn:example:recursionCount'(6669,6)).
-answer('urn:example:recursionCount'(6670,4)).
-answer('urn:example:recursionCount'(6671,6)).
-answer('urn:example:recursionCount'(6672,6)).
-answer('urn:example:recursionCount'(6673,4)).
-answer('urn:example:recursionCount'(6674,6)).
-answer('urn:example:recursionCount'(6675,4)).
-answer('urn:example:recursionCount'(6676,5)).
-answer('urn:example:recursionCount'(6677,4)).
-answer('urn:example:recursionCount'(6678,3)).
-answer('urn:example:recursionCount'(6679,3)).
-answer('urn:example:recursionCount'(6680,6)).
-answer('urn:example:recursionCount'(6681,4)).
-answer('urn:example:recursionCount'(6682,6)).
-answer('urn:example:recursionCount'(6683,6)).
-answer('urn:example:recursionCount'(6684,4)).
-answer('urn:example:recursionCount'(6685,6)).
-answer('urn:example:recursionCount'(6686,4)).
-answer('urn:example:recursionCount'(6687,3)).
-answer('urn:example:recursionCount'(6688,6)).
-answer('urn:example:recursionCount'(6689,5)).
-answer('urn:example:recursionCount'(6690,4)).
-answer('urn:example:recursionCount'(6691,6)).
-answer('urn:example:recursionCount'(6692,4)).
-answer('urn:example:recursionCount'(6693,6)).
-answer('urn:example:recursionCount'(6694,6)).
-answer('urn:example:recursionCount'(6695,4)).
-answer('urn:example:recursionCount'(6696,6)).
-answer('urn:example:recursionCount'(6697,3)).
-answer('urn:example:recursionCount'(6698,5)).
-answer('urn:example:recursionCount'(6699,6)).
-answer('urn:example:recursionCount'(6700,3)).
-answer('urn:example:recursionCount'(6701,5)).
-answer('urn:example:recursionCount'(6702,3)).
-answer('urn:example:recursionCount'(6703,6)).
-answer('urn:example:recursionCount'(6704,5)).
-answer('urn:example:recursionCount'(6705,3)).
-answer('urn:example:recursionCount'(6706,4)).
-answer('urn:example:recursionCount'(6707,3)).
-answer('urn:example:recursionCount'(6708,3)).
-answer('urn:example:recursionCount'(6709,4)).
-answer('urn:example:recursionCount'(6710,5)).
-answer('urn:example:recursionCount'(6711,5)).
-answer('urn:example:recursionCount'(6712,4)).
-answer('urn:example:recursionCount'(6713,3)).
-answer('urn:example:recursionCount'(6714,1)).
-answer('urn:example:recursionCount'(6715,7)).
-answer('urn:example:recursionCount'(6716,6)).
-answer('urn:example:recursionCount'(6717,7)).
-answer('urn:example:recursionCount'(6718,3)).
-answer('urn:example:recursionCount'(6719,3)).
-answer('urn:example:recursionCount'(6720,3)).
-answer('urn:example:recursionCount'(6721,4)).
-answer('urn:example:recursionCount'(6722,5)).
-answer('urn:example:recursionCount'(6723,5)).
-answer('urn:example:recursionCount'(6724,7)).
-answer('urn:example:recursionCount'(6725,7)).
-answer('urn:example:recursionCount'(6726,6)).
-answer('urn:example:recursionCount'(6727,7)).
-answer('urn:example:recursionCount'(6728,7)).
-answer('urn:example:recursionCount'(6729,3)).
-answer('urn:example:recursionCount'(6730,6)).
-answer('urn:example:recursionCount'(6731,3)).
-answer('urn:example:recursionCount'(6732,5)).
-answer('urn:example:recursionCount'(6733,3)).
-answer('urn:example:recursionCount'(6734,2)).
-answer('urn:example:recursionCount'(6735,7)).
-answer('urn:example:recursionCount'(6736,4)).
-answer('urn:example:recursionCount'(6737,7)).
-answer('urn:example:recursionCount'(6738,7)).
-answer('urn:example:recursionCount'(6739,7)).
-answer('urn:example:recursionCount'(6740,5)).
-answer('urn:example:recursionCount'(6741,1)).
-answer('urn:example:recursionCount'(6742,7)).
-answer('urn:example:recursionCount'(6743,2)).
-answer('urn:example:recursionCount'(6744,5)).
-answer('urn:example:recursionCount'(6745,3)).
-answer('urn:example:recursionCount'(6746,6)).
-answer('urn:example:recursionCount'(6747,3)).
-answer('urn:example:recursionCount'(6748,7)).
-answer('urn:example:recursionCount'(6749,7)).
-answer('urn:example:recursionCount'(6750,3)).
-answer('urn:example:recursionCount'(6751,7)).
-answer('urn:example:recursionCount'(6752,7)).
-answer('urn:example:recursionCount'(6753,7)).
-answer('urn:example:recursionCount'(6754,3)).
-answer('urn:example:recursionCount'(6755,3)).
-answer('urn:example:recursionCount'(6756,4)).
-answer('urn:example:recursionCount'(6757,3)).
-answer('urn:example:recursionCount'(6758,3)).
-answer('urn:example:recursionCount'(6759,7)).
-answer('urn:example:recursionCount'(6760,4)).
-answer('urn:example:recursionCount'(6761,6)).
-answer('urn:example:recursionCount'(6762,6)).
-answer('urn:example:recursionCount'(6763,4)).
-answer('urn:example:recursionCount'(6764,6)).
-answer('urn:example:recursionCount'(6765,4)).
-answer('urn:example:recursionCount'(6766,5)).
-answer('urn:example:recursionCount'(6767,4)).
-answer('urn:example:recursionCount'(6768,3)).
-answer('urn:example:recursionCount'(6769,3)).
-answer('urn:example:recursionCount'(6770,3)).
-answer('urn:example:recursionCount'(6771,7)).
-answer('urn:example:recursionCount'(6772,7)).
-answer('urn:example:recursionCount'(6773,7)).
-answer('urn:example:recursionCount'(6774,3)).
-answer('urn:example:recursionCount'(6775,3)).
-answer('urn:example:recursionCount'(6776,4)).
-answer('urn:example:recursionCount'(6777,5)).
-answer('urn:example:recursionCount'(6778,4)).
-answer('urn:example:recursionCount'(6779,6)).
-answer('urn:example:recursionCount'(6780,3)).
-answer('urn:example:recursionCount'(6781,3)).
-answer('urn:example:recursionCount'(6782,7)).
-answer('urn:example:recursionCount'(6783,7)).
-answer('urn:example:recursionCount'(6784,7)).
-answer('urn:example:recursionCount'(6785,3)).
-answer('urn:example:recursionCount'(6786,3)).
-answer('urn:example:recursionCount'(6787,4)).
-answer('urn:example:recursionCount'(6788,3)).
-answer('urn:example:recursionCount'(6789,3)).
-answer('urn:example:recursionCount'(6790,4)).
-answer('urn:example:recursionCount'(6791,3)).
-answer('urn:example:recursionCount'(6792,3)).
-answer('urn:example:recursionCount'(6793,7)).
-answer('urn:example:recursionCount'(6794,7)).
-answer('urn:example:recursionCount'(6795,7)).
-answer('urn:example:recursionCount'(6796,3)).
-answer('urn:example:recursionCount'(6797,6)).
-answer('urn:example:recursionCount'(6798,3)).
-answer('urn:example:recursionCount'(6799,5)).
-answer('urn:example:recursionCount'(6800,2)).
-answer('urn:example:recursionCount'(6801,7)).
-answer('urn:example:recursionCount'(6802,2)).
-answer('urn:example:recursionCount'(6803,5)).
-answer('urn:example:recursionCount'(6804,6)).
-answer('urn:example:recursionCount'(6805,3)).
-answer('urn:example:recursionCount'(6806,6)).
-answer('urn:example:recursionCount'(6807,3)).
-answer('urn:example:recursionCount'(6808,6)).
-answer('urn:example:recursionCount'(6809,3)).
-answer('urn:example:recursionCount'(6810,7)).
-answer('urn:example:recursionCount'(6811,5)).
-answer('urn:example:recursionCount'(6812,3)).
-answer('urn:example:recursionCount'(6813,6)).
-answer('urn:example:recursionCount'(6814,5)).
-answer('urn:example:recursionCount'(6815,3)).
-answer('urn:example:recursionCount'(6816,4)).
-answer('urn:example:recursionCount'(6817,3)).
-answer('urn:example:recursionCount'(6818,5)).
-answer('urn:example:recursionCount'(6819,6)).
-answer('urn:example:recursionCount'(6820,2)).
-answer('urn:example:recursionCount'(6821,3)).
-answer('urn:example:recursionCount'(6822,4)).
-answer('urn:example:recursionCount'(6823,3)).
-answer('urn:example:recursionCount'(6824,1)).
-answer('urn:example:recursionCount'(6825,7)).
-answer('urn:example:recursionCount'(6826,6)).
-answer('urn:example:recursionCount'(6827,7)).
-answer('urn:example:recursionCount'(6828,1)).
-answer('urn:example:recursionCount'(6829,5)).
-answer('urn:example:recursionCount'(6830,5)).
-answer('urn:example:recursionCount'(6831,6)).
-answer('urn:example:recursionCount'(6832,3)).
-answer('urn:example:recursionCount'(6833,5)).
-answer('urn:example:recursionCount'(6834,7)).
-answer('urn:example:recursionCount'(6835,7)).
-answer('urn:example:recursionCount'(6836,6)).
-answer('urn:example:recursionCount'(6837,7)).
-answer('urn:example:recursionCount'(6838,7)).
-answer('urn:example:recursionCount'(6839,1)).
-answer('urn:example:recursionCount'(6840,6)).
-answer('urn:example:recursionCount'(6841,5)).
-answer('urn:example:recursionCount'(6842,1)).
-answer('urn:example:recursionCount'(6843,7)).
-answer('urn:example:recursionCount'(6844,2)).
-answer('urn:example:recursionCount'(6845,7)).
-answer('urn:example:recursionCount'(6846,4)).
-answer('urn:example:recursionCount'(6847,7)).
-answer('urn:example:recursionCount'(6848,2)).
-answer('urn:example:recursionCount'(6849,7)).
-answer('urn:example:recursionCount'(6850,3)).
-answer('urn:example:recursionCount'(6851,3)).
-answer('urn:example:recursionCount'(6852,7)).
-answer('urn:example:recursionCount'(6853,7)).
-answer('urn:example:recursionCount'(6854,7)).
-answer('urn:example:recursionCount'(6855,3)).
-answer('urn:example:recursionCount'(6856,6)).
-answer('urn:example:recursionCount'(6857,3)).
-answer('urn:example:recursionCount'(6858,5)).
-answer('urn:example:recursionCount'(6859,2)).
-answer('urn:example:recursionCount'(6860,6)).
-answer('urn:example:recursionCount'(6861,4)).
-answer('urn:example:recursionCount'(6862,6)).
-answer('urn:example:recursionCount'(6863,6)).
-answer('urn:example:recursionCount'(6864,4)).
-answer('urn:example:recursionCount'(6865,6)).
-answer('urn:example:recursionCount'(6866,4)).
-answer('urn:example:recursionCount'(6867,3)).
-answer('urn:example:recursionCount'(6868,6)).
-answer('urn:example:recursionCount'(6869,5)).
-answer('urn:example:recursionCount'(6870,3)).
-answer('urn:example:recursionCount'(6871,3)).
-answer('urn:example:recursionCount'(6872,7)).
-answer('urn:example:recursionCount'(6873,7)).
-answer('urn:example:recursionCount'(6874,7)).
-answer('urn:example:recursionCount'(6875,3)).
-answer('urn:example:recursionCount'(6876,3)).
-answer('urn:example:recursionCount'(6877,4)).
-answer('urn:example:recursionCount'(6878,3)).
-answer('urn:example:recursionCount'(6879,3)).
-answer('urn:example:recursionCount'(6880,6)).
-answer('urn:example:recursionCount'(6881,5)).
-answer('urn:example:recursionCount'(6882,1)).
-answer('urn:example:recursionCount'(6883,7)).
-answer('urn:example:recursionCount'(6884,2)).
-answer('urn:example:recursionCount'(6885,5)).
-answer('urn:example:recursionCount'(6886,6)).
-answer('urn:example:recursionCount'(6887,3)).
-answer('urn:example:recursionCount'(6888,4)).
-answer('urn:example:recursionCount'(6889,6)).
-answer('urn:example:recursionCount'(6890,3)).
-answer('urn:example:recursionCount'(6891,6)).
-answer('urn:example:recursionCount'(6892,5)).
-answer('urn:example:recursionCount'(6893,1)).
-answer('urn:example:recursionCount'(6894,7)).
-answer('urn:example:recursionCount'(6895,2)).
-answer('urn:example:recursionCount'(6896,5)).
-answer('urn:example:recursionCount'(6897,3)).
-answer('urn:example:recursionCount'(6898,6)).
-answer('urn:example:recursionCount'(6899,3)).
-answer('urn:example:recursionCount'(6900,7)).
-answer('urn:example:recursionCount'(6901,7)).
-answer('urn:example:recursionCount'(6902,7)).
-answer('urn:example:recursionCount'(6903,3)).
-answer('urn:example:recursionCount'(6904,3)).
-answer('urn:example:recursionCount'(6905,4)).
-answer('urn:example:recursionCount'(6906,4)).
-answer('urn:example:recursionCount'(6907,4)).
-answer('urn:example:recursionCount'(6908,3)).
-answer('urn:example:recursionCount'(6909,3)).
-answer('urn:example:recursionCount'(6910,7)).
-answer('urn:example:recursionCount'(6911,7)).
-answer('urn:example:recursionCount'(6912,2)).
-answer('urn:example:recursionCount'(6913,5)).
-answer('urn:example:recursionCount'(6914,6)).
-answer('urn:example:recursionCount'(6915,3)).
-answer('urn:example:recursionCount'(6916,6)).
-answer('urn:example:recursionCount'(6917,3)).
-answer('urn:example:recursionCount'(6918,6)).
-answer('urn:example:recursionCount'(6919,5)).
-answer('urn:example:recursionCount'(6920,7)).
-answer('urn:example:recursionCount'(6921,2)).
-answer('urn:example:recursionCount'(6922,3)).
-answer('urn:example:recursionCount'(6923,6)).
-answer('urn:example:recursionCount'(6924,5)).
-answer('urn:example:recursionCount'(6925,3)).
-answer('urn:example:recursionCount'(6926,4)).
-answer('urn:example:recursionCount'(6927,3)).
-answer('urn:example:recursionCount'(6928,5)).
-answer('urn:example:recursionCount'(6929,6)).
-answer('urn:example:recursionCount'(6930,3)).
-answer('urn:example:recursionCount'(6931,5)).
-answer('urn:example:recursionCount'(6932,6)).
-answer('urn:example:recursionCount'(6933,3)).
-answer('urn:example:recursionCount'(6934,1)).
-answer('urn:example:recursionCount'(6935,7)).
-answer('urn:example:recursionCount'(6936,6)).
-answer('urn:example:recursionCount'(6937,7)).
-answer('urn:example:recursionCount'(6938,1)).
-answer('urn:example:recursionCount'(6939,3)).
-answer('urn:example:recursionCount'(6940,3)).
-answer('urn:example:recursionCount'(6941,6)).
-answer('urn:example:recursionCount'(6942,5)).
-answer('urn:example:recursionCount'(6943,1)).
-answer('urn:example:recursionCount'(6944,7)).
-answer('urn:example:recursionCount'(6945,7)).
-answer('urn:example:recursionCount'(6946,6)).
-answer('urn:example:recursionCount'(6947,7)).
-answer('urn:example:recursionCount'(6948,7)).
-answer('urn:example:recursionCount'(6949,5)).
-answer('urn:example:recursionCount'(6950,4)).
-answer('urn:example:recursionCount'(6951,3)).
-answer('urn:example:recursionCount'(6952,3)).
-answer('urn:example:recursionCount'(6953,7)).
-answer('urn:example:recursionCount'(6954,7)).
-answer('urn:example:recursionCount'(6955,7)).
-answer('urn:example:recursionCount'(6956,4)).
-answer('urn:example:recursionCount'(6957,7)).
-answer('urn:example:recursionCount'(6958,2)).
-answer('urn:example:recursionCount'(6959,3)).
-answer('urn:example:recursionCount'(6960,4)).
-answer('urn:example:recursionCount'(6961,6)).
-answer('urn:example:recursionCount'(6962,4)).
-answer('urn:example:recursionCount'(6963,6)).
-answer('urn:example:recursionCount'(6964,6)).
-answer('urn:example:recursionCount'(6965,4)).
-answer('urn:example:recursionCount'(6966,6)).
-answer('urn:example:recursionCount'(6967,3)).
-answer('urn:example:recursionCount'(6968,5)).
-answer('urn:example:recursionCount'(6969,6)).
-answer('urn:example:recursionCount'(6970,4)).
-answer('urn:example:recursionCount'(6971,3)).
-answer('urn:example:recursionCount'(6972,3)).
-answer('urn:example:recursionCount'(6973,7)).
-answer('urn:example:recursionCount'(6974,7)).
-answer('urn:example:recursionCount'(6975,7)).
-answer('urn:example:recursionCount'(6976,3)).
-answer('urn:example:recursionCount'(6977,6)).
-answer('urn:example:recursionCount'(6978,3)).
-answer('urn:example:recursionCount'(6979,5)).
-answer('urn:example:recursionCount'(6980,3)).
-answer('urn:example:recursionCount'(6981,6)).
-answer('urn:example:recursionCount'(6982,5)).
-answer('urn:example:recursionCount'(6983,1)).
-answer('urn:example:recursionCount'(6984,7)).
-answer('urn:example:recursionCount'(6985,2)).
-answer('urn:example:recursionCount'(6986,5)).
-answer('urn:example:recursionCount'(6987,3)).
-answer('urn:example:recursionCount'(6988,6)).
-answer('urn:example:recursionCount'(6989,3)).
-answer('urn:example:recursionCount'(6990,3)).
-answer('urn:example:recursionCount'(6991,5)).
-answer('urn:example:recursionCount'(6992,6)).
-answer('urn:example:recursionCount'(6993,3)).
-answer('urn:example:recursionCount'(6994,5)).
-answer('urn:example:recursionCount'(6995,3)).
-answer('urn:example:recursionCount'(6996,6)).
-answer('urn:example:recursionCount'(6997,5)).
-answer('urn:example:recursionCount'(6998,3)).
-answer('urn:example:recursionCount'(6999,6)).
-answer('urn:example:recursionCount'(7000,4)).
-answer('urn:example:recursionCount'(7001,3)).
-answer('urn:example:recursionCount'(7002,5)).
-answer('urn:example:recursionCount'(7003,6)).
-answer('urn:example:recursionCount'(7004,3)).
-answer('urn:example:recursionCount'(7005,5)).
-answer('urn:example:recursionCount'(7006,3)).
-answer('urn:example:recursionCount'(7007,6)).
-answer('urn:example:recursionCount'(7008,5)).
-answer('urn:example:recursionCount'(7009,3)).
-answer('urn:example:recursionCount'(7010,3)).
-answer('urn:example:recursionCount'(7011,4)).
-answer('urn:example:recursionCount'(7012,3)).
-answer('urn:example:recursionCount'(7013,5)).
-answer('urn:example:recursionCount'(7014,6)).
-answer('urn:example:recursionCount'(7015,3)).
-answer('urn:example:recursionCount'(7016,5)).
-answer('urn:example:recursionCount'(7017,3)).
-answer('urn:example:recursionCount'(7018,2)).
-answer('urn:example:recursionCount'(7019,7)).
-answer('urn:example:recursionCount'(7020,5)).
-answer('urn:example:recursionCount'(7021,3)).
-answer('urn:example:recursionCount'(7022,4)).
-answer('urn:example:recursionCount'(7023,3)).
-answer('urn:example:recursionCount'(7024,5)).
-answer('urn:example:recursionCount'(7025,6)).
-answer('urn:example:recursionCount'(7026,3)).
-answer('urn:example:recursionCount'(7027,5)).
-answer('urn:example:recursionCount'(7028,7)).
-answer('urn:example:recursionCount'(7029,7)).
-answer('urn:example:recursionCount'(7030,6)).
-answer('urn:example:recursionCount'(7031,5)).
-answer('urn:example:recursionCount'(7032,3)).
-answer('urn:example:recursionCount'(7033,4)).
-answer('urn:example:recursionCount'(7034,3)).
-answer('urn:example:recursionCount'(7035,5)).
-answer('urn:example:recursionCount'(7036,6)).
-answer('urn:example:recursionCount'(7037,3)).
-answer('urn:example:recursionCount'(7038,2)).
-answer('urn:example:recursionCount'(7039,7)).
-answer('urn:example:recursionCount'(7040,3)).
-answer('urn:example:recursionCount'(7041,6)).
-answer('urn:example:recursionCount'(7042,5)).
-answer('urn:example:recursionCount'(7043,3)).
-answer('urn:example:recursionCount'(7044,4)).
-answer('urn:example:recursionCount'(7045,3)).
-answer('urn:example:recursionCount'(7046,5)).
-answer('urn:example:recursionCount'(7047,6)).
-answer('urn:example:recursionCount'(7048,5)).
-answer('urn:example:recursionCount'(7049,3)).
-answer('urn:example:recursionCount'(7050,5)).
-answer('urn:example:recursionCount'(7051,3)).
-answer('urn:example:recursionCount'(7052,6)).
-answer('urn:example:recursionCount'(7053,5)).
-answer('urn:example:recursionCount'(7054,3)).
-answer('urn:example:recursionCount'(7055,4)).
-answer('urn:example:recursionCount'(7056,3)).
-answer('urn:example:recursionCount'(7057,5)).
-answer('urn:example:recursionCount'(7058,6)).
-answer('urn:example:recursionCount'(7059,3)).
-answer('urn:example:recursionCount'(7060,3)).
-answer('urn:example:recursionCount'(7061,5)).
-answer('urn:example:recursionCount'(7062,3)).
-answer('urn:example:recursionCount'(7063,6)).
-answer('urn:example:recursionCount'(7064,5)).
-answer('urn:example:recursionCount'(7065,3)).
-answer('urn:example:recursionCount'(7066,4)).
-answer('urn:example:recursionCount'(7067,3)).
-answer('urn:example:recursionCount'(7068,3)).
-answer('urn:example:recursionCount'(7069,4)).
-answer('urn:example:recursionCount'(7070,6)).
-answer('urn:example:recursionCount'(7071,3)).
-answer('urn:example:recursionCount'(7072,5)).
-answer('urn:example:recursionCount'(7073,3)).
-answer('urn:example:recursionCount'(7074,6)).
-answer('urn:example:recursionCount'(7075,5)).
-answer('urn:example:recursionCount'(7076,3)).
-answer('urn:example:recursionCount'(7077,4)).
-answer('urn:example:recursionCount'(7078,6)).
-answer('urn:example:recursionCount'(7079,4)).
-answer('urn:example:recursionCount'(7080,5)).
-answer('urn:example:recursionCount'(7081,2)).
-answer('urn:example:recursionCount'(7082,7)).
-answer('urn:example:recursionCount'(7083,2)).
-answer('urn:example:recursionCount'(7084,5)).
-answer('urn:example:recursionCount'(7085,6)).
-answer('urn:example:recursionCount'(7086,3)).
-answer('urn:example:recursionCount'(7087,6)).
-answer('urn:example:recursionCount'(7088,3)).
-answer('urn:example:recursionCount'(7089,4)).
-answer('urn:example:recursionCount'(7090,3)).
-answer('urn:example:recursionCount'(7091,7)).
-answer('urn:example:recursionCount'(7092,7)).
-answer('urn:example:recursionCount'(7093,7)).
-answer('urn:example:recursionCount'(7094,3)).
-answer('urn:example:recursionCount'(7095,3)).
-answer('urn:example:recursionCount'(7096,4)).
-answer('urn:example:recursionCount'(7097,4)).
-answer('urn:example:recursionCount'(7098,4)).
-answer('urn:example:recursionCount'(7099,3)).
-answer('urn:example:recursionCount'(7100,3)).
-answer('urn:example:recursionCount'(7101,4)).
-answer('urn:example:recursionCount'(7102,3)).
-answer('urn:example:recursionCount'(7103,5)).
-answer('urn:example:recursionCount'(7104,6)).
-answer('urn:example:recursionCount'(7105,3)).
-answer('urn:example:recursionCount'(7106,5)).
-answer('urn:example:recursionCount'(7107,3)).
-answer('urn:example:recursionCount'(7108,2)).
-answer('urn:example:recursionCount'(7109,7)).
-answer('urn:example:recursionCount'(7110,4)).
-answer('urn:example:recursionCount'(7111,6)).
-answer('urn:example:recursionCount'(7112,7)).
-answer('urn:example:recursionCount'(7113,1)).
-answer('urn:example:recursionCount'(7114,3)).
-answer('urn:example:recursionCount'(7115,4)).
-answer('urn:example:recursionCount'(7116,5)).
-answer('urn:example:recursionCount'(7117,4)).
-answer('urn:example:recursionCount'(7118,3)).
-answer('urn:example:recursionCount'(7119,2)).
-answer('urn:example:recursionCount'(7120,3)).
-answer('urn:example:recursionCount'(7121,7)).
-answer('urn:example:recursionCount'(7122,6)).
-answer('urn:example:recursionCount'(7123,7)).
-answer('urn:example:recursionCount'(7124,1)).
-answer('urn:example:recursionCount'(7125,3)).
-answer('urn:example:recursionCount'(7126,4)).
-answer('urn:example:recursionCount'(7127,5)).
-answer('urn:example:recursionCount'(7128,5)).
-answer('urn:example:recursionCount'(7129,7)).
-answer('urn:example:recursionCount'(7130,5)).
-answer('urn:example:recursionCount'(7131,1)).
-answer('urn:example:recursionCount'(7132,7)).
-answer('urn:example:recursionCount'(7133,6)).
-answer('urn:example:recursionCount'(7134,7)).
-answer('urn:example:recursionCount'(7135,1)).
-answer('urn:example:recursionCount'(7136,3)).
-answer('urn:example:recursionCount'(7137,4)).
-answer('urn:example:recursionCount'(7138,3)).
-answer('urn:example:recursionCount'(7139,2)).
-answer('urn:example:recursionCount'(7140,6)).
-answer('urn:example:recursionCount'(7141,3)).
-answer('urn:example:recursionCount'(7142,1)).
-answer('urn:example:recursionCount'(7143,7)).
-answer('urn:example:recursionCount'(7144,6)).
-answer('urn:example:recursionCount'(7145,7)).
-answer('urn:example:recursionCount'(7146,1)).
-answer('urn:example:recursionCount'(7147,3)).
-answer('urn:example:recursionCount'(7148,6)).
-answer('urn:example:recursionCount'(7149,5)).
-answer('urn:example:recursionCount'(7150,3)).
-answer('urn:example:recursionCount'(7151,4)).
-answer('urn:example:recursionCount'(7152,3)).
-answer('urn:example:recursionCount'(7153,1)).
-answer('urn:example:recursionCount'(7154,7)).
-answer('urn:example:recursionCount'(7155,6)).
-answer('urn:example:recursionCount'(7156,7)).
-answer('urn:example:recursionCount'(7157,1)).
-answer('urn:example:recursionCount'(7158,5)).
-answer('urn:example:recursionCount'(7159,6)).
-answer('urn:example:recursionCount'(7160,5)).
-answer('urn:example:recursionCount'(7161,5)).
-answer('urn:example:recursionCount'(7162,4)).
-answer('urn:example:recursionCount'(7163,3)).
-answer('urn:example:recursionCount'(7164,1)).
-answer('urn:example:recursionCount'(7165,7)).
-answer('urn:example:recursionCount'(7166,6)).
-answer('urn:example:recursionCount'(7167,7)).
-answer('urn:example:recursionCount'(7168,3)).
-answer('urn:example:recursionCount'(7169,3)).
-answer('urn:example:recursionCount'(7170,3)).
-answer('urn:example:recursionCount'(7171,4)).
-answer('urn:example:recursionCount'(7172,5)).
-answer('urn:example:recursionCount'(7173,4)).
-answer('urn:example:recursionCount'(7174,3)).
-answer('urn:example:recursionCount'(7175,1)).
-answer('urn:example:recursionCount'(7176,7)).
-answer('urn:example:recursionCount'(7177,6)).
-answer('urn:example:recursionCount'(7178,4)).
-answer('urn:example:recursionCount'(7179,6)).
-answer('urn:example:recursionCount'(7180,2)).
-answer('urn:example:recursionCount'(7181,3)).
-answer('urn:example:recursionCount'(7182,5)).
-answer('urn:example:recursionCount'(7183,3)).
-answer('urn:example:recursionCount'(7184,6)).
-answer('urn:example:recursionCount'(7185,5)).
-answer('urn:example:recursionCount'(7186,3)).
-answer('urn:example:recursionCount'(7187,4)).
-answer('urn:example:recursionCount'(7188,3)).
-answer('urn:example:recursionCount'(7189,3)).
-answer('urn:example:recursionCount'(7190,7)).
-answer('urn:example:recursionCount'(7191,2)).
-answer('urn:example:recursionCount'(7192,7)).
-answer('urn:example:recursionCount'(7193,2)).
-answer('urn:example:recursionCount'(7194,5)).
-answer('urn:example:recursionCount'(7195,6)).
-answer('urn:example:recursionCount'(7196,3)).
-answer('urn:example:recursionCount'(7197,6)).
-answer('urn:example:recursionCount'(7198,3)).
-answer('urn:example:recursionCount'(7199,6)).
-answer('urn:example:recursionCount'(7200,5)).
-answer('urn:example:recursionCount'(7201,3)).
-answer('urn:example:recursionCount'(7202,4)).
-answer('urn:example:recursionCount'(7203,3)).
-answer('urn:example:recursionCount'(7204,5)).
-answer('urn:example:recursionCount'(7205,6)).
-answer('urn:example:recursionCount'(7206,3)).
-answer('urn:example:recursionCount'(7207,5)).
-answer('urn:example:recursionCount'(7208,7)).
-answer('urn:example:recursionCount'(7209,7)).
-answer('urn:example:recursionCount'(7210,3)).
-answer('urn:example:recursionCount'(7211,7)).
-answer('urn:example:recursionCount'(7212,6)).
-answer('urn:example:recursionCount'(7213,7)).
-answer('urn:example:recursionCount'(7214,1)).
-answer('urn:example:recursionCount'(7215,3)).
-answer('urn:example:recursionCount'(7216,4)).
-answer('urn:example:recursionCount'(7217,5)).
-answer('urn:example:recursionCount'(7218,5)).
-answer('urn:example:recursionCount'(7219,7)).
-answer('urn:example:recursionCount'(7220,4)).
-answer('urn:example:recursionCount'(7221,6)).
-answer('urn:example:recursionCount'(7222,6)).
-answer('urn:example:recursionCount'(7223,7)).
-answer('urn:example:recursionCount'(7224,7)).
-answer('urn:example:recursionCount'(7225,5)).
-answer('urn:example:recursionCount'(7226,5)).
-answer('urn:example:recursionCount'(7227,5)).
-answer('urn:example:recursionCount'(7228,5)).
-answer('urn:example:recursionCount'(7229,5)).
-answer('urn:example:recursionCount'(7230,3)).
-answer('urn:example:recursionCount'(7231,7)).
-answer('urn:example:recursionCount'(7232,7)).
-answer('urn:example:recursionCount'(7233,6)).
-answer('urn:example:recursionCount'(7234,7)).
-answer('urn:example:recursionCount'(7235,7)).
-answer('urn:example:recursionCount'(7236,5)).
-answer('urn:example:recursionCount'(7237,5)).
-answer('urn:example:recursionCount'(7238,4)).
-answer('urn:example:recursionCount'(7239,3)).
-answer('urn:example:recursionCount'(7240,5)).
-answer('urn:example:recursionCount'(7241,1)).
-answer('urn:example:recursionCount'(7242,7)).
-answer('urn:example:recursionCount'(7243,7)).
-answer('urn:example:recursionCount'(7244,6)).
-answer('urn:example:recursionCount'(7245,7)).
-answer('urn:example:recursionCount'(7246,7)).
-answer('urn:example:recursionCount'(7247,5)).
-answer('urn:example:recursionCount'(7248,3)).
-answer('urn:example:recursionCount'(7249,6)).
-answer('urn:example:recursionCount'(7250,6)).
-answer('urn:example:recursionCount'(7251,3)).
-answer('urn:example:recursionCount'(7252,5)).
-answer('urn:example:recursionCount'(7253,7)).
-answer('urn:example:recursionCount'(7254,7)).
-answer('urn:example:recursionCount'(7255,6)).
-answer('urn:example:recursionCount'(7256,7)).
-answer('urn:example:recursionCount'(7257,7)).
-answer('urn:example:recursionCount'(7258,1)).
-answer('urn:example:recursionCount'(7259,5)).
-answer('urn:example:recursionCount'(7260,3)).
-answer('urn:example:recursionCount'(7261,4)).
-answer('urn:example:recursionCount'(7262,5)).
-answer('urn:example:recursionCount'(7263,5)).
-answer('urn:example:recursionCount'(7264,7)).
-answer('urn:example:recursionCount'(7265,7)).
-answer('urn:example:recursionCount'(7266,6)).
-answer('urn:example:recursionCount'(7267,7)).
-answer('urn:example:recursionCount'(7268,7)).
-answer('urn:example:recursionCount'(7269,3)).
-answer('urn:example:recursionCount'(7270,5)).
-answer('urn:example:recursionCount'(7271,5)).
-answer('urn:example:recursionCount'(7272,5)).
-answer('urn:example:recursionCount'(7273,5)).
-answer('urn:example:recursionCount'(7274,5)).
-answer('urn:example:recursionCount'(7275,7)).
-answer('urn:example:recursionCount'(7276,7)).
-answer('urn:example:recursionCount'(7277,6)).
-answer('urn:example:recursionCount'(7278,6)).
-answer('urn:example:recursionCount'(7279,4)).
-answer('urn:example:recursionCount'(7280,7)).
-answer('urn:example:recursionCount'(7281,5)).
-answer('urn:example:recursionCount'(7282,5)).
-answer('urn:example:recursionCount'(7283,4)).
-answer('urn:example:recursionCount'(7284,3)).
-answer('urn:example:recursionCount'(7285,1)).
-answer('urn:example:recursionCount'(7286,7)).
-answer('urn:example:recursionCount'(7287,6)).
-answer('urn:example:recursionCount'(7288,7)).
-answer('urn:example:recursionCount'(7289,3)).
-answer('urn:example:recursionCount'(7290,7)).
-answer('urn:example:recursionCount'(7291,7)).
-answer('urn:example:recursionCount'(7292,5)).
-answer('urn:example:recursionCount'(7293,3)).
-answer('urn:example:recursionCount'(7294,6)).
-answer('urn:example:recursionCount'(7295,5)).
-answer('urn:example:recursionCount'(7296,3)).
-answer('urn:example:recursionCount'(7297,4)).
-answer('urn:example:recursionCount'(7298,3)).
-answer('urn:example:recursionCount'(7299,5)).
-answer('urn:example:recursionCount'(7300,6)).
-answer('urn:example:recursionCount'(7301,5)).
-answer('urn:example:recursionCount'(7302,3)).
-answer('urn:example:recursionCount'(7303,4)).
-answer('urn:example:recursionCount'(7304,3)).
-answer('urn:example:recursionCount'(7305,5)).
-answer('urn:example:recursionCount'(7306,6)).
-answer('urn:example:recursionCount'(7307,3)).
-answer('urn:example:recursionCount'(7308,2)).
-answer('urn:example:recursionCount'(7309,7)).
-answer('urn:example:recursionCount'(7310,5)).
-answer('urn:example:recursionCount'(7311,1)).
-answer('urn:example:recursionCount'(7312,7)).
-answer('urn:example:recursionCount'(7313,6)).
-answer('urn:example:recursionCount'(7314,7)).
-answer('urn:example:recursionCount'(7315,1)).
-answer('urn:example:recursionCount'(7316,3)).
-answer('urn:example:recursionCount'(7317,4)).
-answer('urn:example:recursionCount'(7318,3)).
-answer('urn:example:recursionCount'(7319,2)).
-answer('urn:example:recursionCount'(7320,3)).
-answer('urn:example:recursionCount'(7321,7)).
-answer('urn:example:recursionCount'(7322,7)).
-answer('urn:example:recursionCount'(7323,6)).
-answer('urn:example:recursionCount'(7324,7)).
-answer('urn:example:recursionCount'(7325,7)).
-answer('urn:example:recursionCount'(7326,5)).
-answer('urn:example:recursionCount'(7327,5)).
-answer('urn:example:recursionCount'(7328,4)).
-answer('urn:example:recursionCount'(7329,3)).
-answer('urn:example:recursionCount'(7330,4)).
-answer('urn:example:recursionCount'(7331,6)).
-answer('urn:example:recursionCount'(7332,6)).
-answer('urn:example:recursionCount'(7333,4)).
-answer('urn:example:recursionCount'(7334,7)).
-answer('urn:example:recursionCount'(7335,2)).
-answer('urn:example:recursionCount'(7336,3)).
-answer('urn:example:recursionCount'(7337,4)).
-answer('urn:example:recursionCount'(7338,5)).
-answer('urn:example:recursionCount'(7339,4)).
-answer('urn:example:recursionCount'(7340,3)).
-answer('urn:example:recursionCount'(7341,7)).
-answer('urn:example:recursionCount'(7342,7)).
-answer('urn:example:recursionCount'(7343,7)).
-answer('urn:example:recursionCount'(7344,4)).
-answer('urn:example:recursionCount'(7345,7)).
-answer('urn:example:recursionCount'(7346,2)).
-answer('urn:example:recursionCount'(7347,3)).
-answer('urn:example:recursionCount'(7348,5)).
-answer('urn:example:recursionCount'(7349,3)).
-answer('urn:example:recursionCount'(7350,5)).
-answer('urn:example:recursionCount'(7351,1)).
-answer('urn:example:recursionCount'(7352,7)).
-answer('urn:example:recursionCount'(7353,2)).
-answer('urn:example:recursionCount'(7354,7)).
-answer('urn:example:recursionCount'(7355,4)).
-answer('urn:example:recursionCount'(7356,7)).
-answer('urn:example:recursionCount'(7357,2)).
-answer('urn:example:recursionCount'(7358,7)).
-answer('urn:example:recursionCount'(7359,1)).
-answer('urn:example:recursionCount'(7360,6)).
-answer('urn:example:recursionCount'(7361,3)).
-answer('urn:example:recursionCount'(7362,5)).
-answer('urn:example:recursionCount'(7363,3)).
-answer('urn:example:recursionCount'(7364,2)).
-answer('urn:example:recursionCount'(7365,7)).
-answer('urn:example:recursionCount'(7366,4)).
-answer('urn:example:recursionCount'(7367,7)).
-answer('urn:example:recursionCount'(7368,7)).
-answer('urn:example:recursionCount'(7369,7)).
-answer('urn:example:recursionCount'(7370,3)).
-answer('urn:example:recursionCount'(7371,4)).
-answer('urn:example:recursionCount'(7372,5)).
-answer('urn:example:recursionCount'(7373,4)).
-answer('urn:example:recursionCount'(7374,3)).
-answer('urn:example:recursionCount'(7375,2)).
-answer('urn:example:recursionCount'(7376,7)).
-answer('urn:example:recursionCount'(7377,4)).
-answer('urn:example:recursionCount'(7378,6)).
-answer('urn:example:recursionCount'(7379,6)).
-answer('urn:example:recursionCount'(7380,2)).
-answer('urn:example:recursionCount'(7381,3)).
-answer('urn:example:recursionCount'(7382,4)).
-answer('urn:example:recursionCount'(7383,5)).
-answer('urn:example:recursionCount'(7384,5)).
-answer('urn:example:recursionCount'(7385,7)).
-answer('urn:example:recursionCount'(7386,7)).
-answer('urn:example:recursionCount'(7387,6)).
-answer('urn:example:recursionCount'(7388,7)).
-answer('urn:example:recursionCount'(7389,7)).
-answer('urn:example:recursionCount'(7390,7)).
-answer('urn:example:recursionCount'(7391,2)).
-answer('urn:example:recursionCount'(7392,3)).
-answer('urn:example:recursionCount'(7393,4)).
-answer('urn:example:recursionCount'(7394,3)).
-answer('urn:example:recursionCount'(7395,1)).
-answer('urn:example:recursionCount'(7396,7)).
-answer('urn:example:recursionCount'(7397,6)).
-answer('urn:example:recursionCount'(7398,7)).
-answer('urn:example:recursionCount'(7399,1)).
-answer('urn:example:recursionCount'(7400,3)).
-answer('urn:example:recursionCount'(7401,6)).
-answer('urn:example:recursionCount'(7402,5)).
-answer('urn:example:recursionCount'(7403,3)).
-answer('urn:example:recursionCount'(7404,4)).
-answer('urn:example:recursionCount'(7405,3)).
-answer('urn:example:recursionCount'(7406,5)).
-answer('urn:example:recursionCount'(7407,6)).
-answer('urn:example:recursionCount'(7408,5)).
-answer('urn:example:recursionCount'(7409,3)).
-answer('urn:example:recursionCount'(7410,6)).
-answer('urn:example:recursionCount'(7411,3)).
-answer('urn:example:recursionCount'(7412,1)).
-answer('urn:example:recursionCount'(7413,7)).
-answer('urn:example:recursionCount'(7414,6)).
-answer('urn:example:recursionCount'(7415,7)).
-answer('urn:example:recursionCount'(7416,1)).
-answer('urn:example:recursionCount'(7417,3)).
-answer('urn:example:recursionCount'(7418,6)).
-answer('urn:example:recursionCount'(7419,5)).
-answer('urn:example:recursionCount'(7420,5)).
-answer('urn:example:recursionCount'(7421,1)).
-answer('urn:example:recursionCount'(7422,7)).
-answer('urn:example:recursionCount'(7423,7)).
-answer('urn:example:recursionCount'(7424,6)).
-answer('urn:example:recursionCount'(7425,7)).
-answer('urn:example:recursionCount'(7426,7)).
-answer('urn:example:recursionCount'(7427,5)).
-answer('urn:example:recursionCount'(7428,3)).
-answer('urn:example:recursionCount'(7429,6)).
-answer('urn:example:recursionCount'(7430,3)).
-answer('urn:example:recursionCount'(7431,7)).
-answer('urn:example:recursionCount'(7432,7)).
-answer('urn:example:recursionCount'(7433,7)).
-answer('urn:example:recursionCount'(7434,4)).
-answer('urn:example:recursionCount'(7435,7)).
-answer('urn:example:recursionCount'(7436,2)).
-answer('urn:example:recursionCount'(7437,3)).
-answer('urn:example:recursionCount'(7438,5)).
-answer('urn:example:recursionCount'(7439,3)).
-answer('urn:example:recursionCount'(7440,4)).
-answer('urn:example:recursionCount'(7441,6)).
-answer('urn:example:recursionCount'(7442,6)).
-answer('urn:example:recursionCount'(7443,4)).
-answer('urn:example:recursionCount'(7444,6)).
-answer('urn:example:recursionCount'(7445,3)).
-answer('urn:example:recursionCount'(7446,5)).
-answer('urn:example:recursionCount'(7447,6)).
-answer('urn:example:recursionCount'(7448,3)).
-answer('urn:example:recursionCount'(7449,5)).
-answer('urn:example:recursionCount'(7450,3)).
-answer('urn:example:recursionCount'(7451,7)).
-answer('urn:example:recursionCount'(7452,7)).
-answer('urn:example:recursionCount'(7453,7)).
-answer('urn:example:recursionCount'(7454,3)).
-answer('urn:example:recursionCount'(7455,6)).
-answer('urn:example:recursionCount'(7456,3)).
-answer('urn:example:recursionCount'(7457,5)).
-answer('urn:example:recursionCount'(7458,2)).
-answer('urn:example:recursionCount'(7459,7)).
-answer('urn:example:recursionCount'(7460,5)).
-answer('urn:example:recursionCount'(7461,1)).
-answer('urn:example:recursionCount'(7462,7)).
-answer('urn:example:recursionCount'(7463,2)).
-answer('urn:example:recursionCount'(7464,5)).
-answer('urn:example:recursionCount'(7465,3)).
-answer('urn:example:recursionCount'(7466,6)).
-answer('urn:example:recursionCount'(7467,3)).
-answer('urn:example:recursionCount'(7468,7)).
-answer('urn:example:recursionCount'(7469,7)).
-answer('urn:example:recursionCount'(7470,6)).
-answer('urn:example:recursionCount'(7471,3)).
-answer('urn:example:recursionCount'(7472,5)).
-answer('urn:example:recursionCount'(7473,3)).
-answer('urn:example:recursionCount'(7474,6)).
-answer('urn:example:recursionCount'(7475,5)).
-answer('urn:example:recursionCount'(7476,3)).
-answer('urn:example:recursionCount'(7477,6)).
-answer('urn:example:recursionCount'(7478,4)).
-answer('urn:example:recursionCount'(7479,6)).
-answer('urn:example:recursionCount'(7480,5)).
-answer('urn:example:recursionCount'(7481,6)).
-answer('urn:example:recursionCount'(7482,3)).
-answer('urn:example:recursionCount'(7483,5)).
-answer('urn:example:recursionCount'(7484,3)).
-answer('urn:example:recursionCount'(7485,2)).
-answer('urn:example:recursionCount'(7486,7)).
-answer('urn:example:recursionCount'(7487,4)).
-answer('urn:example:recursionCount'(7488,7)).
-answer('urn:example:recursionCount'(7489,7)).
-answer('urn:example:recursionCount'(7490,3)).
-answer('urn:example:recursionCount'(7491,5)).
-answer('urn:example:recursionCount'(7492,6)).
-answer('urn:example:recursionCount'(7493,3)).
-answer('urn:example:recursionCount'(7494,5)).
-answer('urn:example:recursionCount'(7495,7)).
-answer('urn:example:recursionCount'(7496,7)).
-answer('urn:example:recursionCount'(7497,6)).
-answer('urn:example:recursionCount'(7498,7)).
-answer('urn:example:recursionCount'(7499,7)).
-answer('urn:example:recursionCount'(7500,5)).
-answer('urn:example:recursionCount'(7501,3)).
-answer('urn:example:recursionCount'(7502,6)).
-answer('urn:example:recursionCount'(7503,5)).
-answer('urn:example:recursionCount'(7504,3)).
-answer('urn:example:recursionCount'(7505,4)).
-answer('urn:example:recursionCount'(7506,3)).
-answer('urn:example:recursionCount'(7507,5)).
-answer('urn:example:recursionCount'(7508,6)).
-answer('urn:example:recursionCount'(7509,3)).
-answer('urn:example:recursionCount'(7510,3)).
-answer('urn:example:recursionCount'(7511,4)).
-answer('urn:example:recursionCount'(7512,3)).
-answer('urn:example:recursionCount'(7513,1)).
-answer('urn:example:recursionCount'(7514,7)).
-answer('urn:example:recursionCount'(7515,6)).
-answer('urn:example:recursionCount'(7516,7)).
-answer('urn:example:recursionCount'(7517,1)).
-answer('urn:example:recursionCount'(7518,5)).
-answer('urn:example:recursionCount'(7519,6)).
-answer('urn:example:recursionCount'(7520,6)).
-answer('urn:example:recursionCount'(7521,3)).
-answer('urn:example:recursionCount'(7522,5)).
-answer('urn:example:recursionCount'(7523,7)).
-answer('urn:example:recursionCount'(7524,7)).
-answer('urn:example:recursionCount'(7525,6)).
-answer('urn:example:recursionCount'(7526,7)).
-answer('urn:example:recursionCount'(7527,7)).
-answer('urn:example:recursionCount'(7528,1)).
-answer('urn:example:recursionCount'(7529,5)).
-answer('urn:example:recursionCount'(7530,5)).
-answer('urn:example:recursionCount'(7531,1)).
-answer('urn:example:recursionCount'(7532,7)).
-answer('urn:example:recursionCount'(7533,2)).
-answer('urn:example:recursionCount'(7534,7)).
-answer('urn:example:recursionCount'(7535,4)).
-answer('urn:example:recursionCount'(7536,7)).
-answer('urn:example:recursionCount'(7537,2)).
-answer('urn:example:recursionCount'(7538,7)).
-answer('urn:example:recursionCount'(7539,1)).
-answer('urn:example:recursionCount'(7540,3)).
-answer('urn:example:recursionCount'(7541,7)).
-answer('urn:example:recursionCount'(7542,7)).
-answer('urn:example:recursionCount'(7543,7)).
-answer('urn:example:recursionCount'(7544,3)).
-answer('urn:example:recursionCount'(7545,6)).
-answer('urn:example:recursionCount'(7546,3)).
-answer('urn:example:recursionCount'(7547,5)).
-answer('urn:example:recursionCount'(7548,2)).
-answer('urn:example:recursionCount'(7549,7)).
-answer('urn:example:recursionCount'(7550,4)).
-answer('urn:example:recursionCount'(7551,6)).
-answer('urn:example:recursionCount'(7552,6)).
-answer('urn:example:recursionCount'(7553,4)).
-answer('urn:example:recursionCount'(7554,6)).
-answer('urn:example:recursionCount'(7555,4)).
-answer('urn:example:recursionCount'(7556,3)).
-answer('urn:example:recursionCount'(7557,6)).
-answer('urn:example:recursionCount'(7558,5)).
-answer('urn:example:recursionCount'(7559,2)).
-answer('urn:example:recursionCount'(7560,3)).
-answer('urn:example:recursionCount'(7561,7)).
-answer('urn:example:recursionCount'(7562,7)).
-answer('urn:example:recursionCount'(7563,7)).
-answer('urn:example:recursionCount'(7564,3)).
-answer('urn:example:recursionCount'(7565,3)).
-answer('urn:example:recursionCount'(7566,4)).
-answer('urn:example:recursionCount'(7567,3)).
-answer('urn:example:recursionCount'(7568,3)).
-answer('urn:example:recursionCount'(7569,7)).
-answer('urn:example:recursionCount'(7570,5)).
-answer('urn:example:recursionCount'(7571,1)).
-answer('urn:example:recursionCount'(7572,7)).
-answer('urn:example:recursionCount'(7573,2)).
-answer('urn:example:recursionCount'(7574,5)).
-answer('urn:example:recursionCount'(7575,6)).
-answer('urn:example:recursionCount'(7576,3)).
-answer('urn:example:recursionCount'(7577,4)).
-answer('urn:example:recursionCount'(7578,6)).
-answer('urn:example:recursionCount'(7579,4)).
-answer('urn:example:recursionCount'(7580,6)).
-answer('urn:example:recursionCount'(7581,5)).
-answer('urn:example:recursionCount'(7582,1)).
-answer('urn:example:recursionCount'(7583,7)).
-answer('urn:example:recursionCount'(7584,2)).
-answer('urn:example:recursionCount'(7585,5)).
-answer('urn:example:recursionCount'(7586,3)).
-answer('urn:example:recursionCount'(7587,6)).
-answer('urn:example:recursionCount'(7588,3)).
-answer('urn:example:recursionCount'(7589,7)).
-answer('urn:example:recursionCount'(7590,3)).
-answer('urn:example:recursionCount'(7591,6)).
-answer('urn:example:recursionCount'(7592,5)).
-answer('urn:example:recursionCount'(7593,1)).
-answer('urn:example:recursionCount'(7594,7)).
-answer('urn:example:recursionCount'(7595,2)).
-answer('urn:example:recursionCount'(7596,7)).
-answer('urn:example:recursionCount'(7597,4)).
-answer('urn:example:recursionCount'(7598,7)).
-answer('urn:example:recursionCount'(7599,2)).
-answer('urn:example:recursionCount'(7600,3)).
-answer('urn:example:recursionCount'(7601,5)).
-answer('urn:example:recursionCount'(7602,3)).
-answer('urn:example:recursionCount'(7603,6)).
-answer('urn:example:recursionCount'(7604,5)).
-answer('urn:example:recursionCount'(7605,3)).
-answer('urn:example:recursionCount'(7606,4)).
-answer('urn:example:recursionCount'(7607,3)).
-answer('urn:example:recursionCount'(7608,3)).
-answer('urn:example:recursionCount'(7609,4)).
-answer('urn:example:recursionCount'(7610,5)).
-answer('urn:example:recursionCount'(7611,5)).
-answer('urn:example:recursionCount'(7612,4)).
-answer('urn:example:recursionCount'(7613,3)).
-answer('urn:example:recursionCount'(7614,1)).
-answer('urn:example:recursionCount'(7615,7)).
-answer('urn:example:recursionCount'(7616,6)).
-answer('urn:example:recursionCount'(7617,7)).
-answer('urn:example:recursionCount'(7618,3)).
-answer('urn:example:recursionCount'(7619,3)).
-answer('urn:example:recursionCount'(7620,3)).
-answer('urn:example:recursionCount'(7621,4)).
-answer('urn:example:recursionCount'(7622,5)).
-answer('urn:example:recursionCount'(7623,5)).
-answer('urn:example:recursionCount'(7624,7)).
-answer('urn:example:recursionCount'(7625,7)).
-answer('urn:example:recursionCount'(7626,6)).
-answer('urn:example:recursionCount'(7627,7)).
-answer('urn:example:recursionCount'(7628,7)).
-answer('urn:example:recursionCount'(7629,3)).
-answer('urn:example:recursionCount'(7630,6)).
-answer('urn:example:recursionCount'(7631,3)).
-answer('urn:example:recursionCount'(7632,5)).
-answer('urn:example:recursionCount'(7633,3)).
-answer('urn:example:recursionCount'(7634,2)).
-answer('urn:example:recursionCount'(7635,7)).
-answer('urn:example:recursionCount'(7636,4)).
-answer('urn:example:recursionCount'(7637,7)).
-answer('urn:example:recursionCount'(7638,7)).
-answer('urn:example:recursionCount'(7639,7)).
-answer('urn:example:recursionCount'(7640,5)).
-answer('urn:example:recursionCount'(7641,1)).
-answer('urn:example:recursionCount'(7642,7)).
-answer('urn:example:recursionCount'(7643,2)).
-answer('urn:example:recursionCount'(7644,5)).
-answer('urn:example:recursionCount'(7645,3)).
-answer('urn:example:recursionCount'(7646,6)).
-answer('urn:example:recursionCount'(7647,3)).
-answer('urn:example:recursionCount'(7648,7)).
-answer('urn:example:recursionCount'(7649,7)).
-answer('urn:example:recursionCount'(7650,3)).
-answer('urn:example:recursionCount'(7651,7)).
-answer('urn:example:recursionCount'(7652,7)).
-answer('urn:example:recursionCount'(7653,7)).
-answer('urn:example:recursionCount'(7654,3)).
-answer('urn:example:recursionCount'(7655,3)).
-answer('urn:example:recursionCount'(7656,4)).
-answer('urn:example:recursionCount'(7657,3)).
-answer('urn:example:recursionCount'(7658,3)).
-answer('urn:example:recursionCount'(7659,7)).
-answer('urn:example:recursionCount'(7660,4)).
-answer('urn:example:recursionCount'(7661,6)).
-answer('urn:example:recursionCount'(7662,6)).
-answer('urn:example:recursionCount'(7663,4)).
-answer('urn:example:recursionCount'(7664,6)).
-answer('urn:example:recursionCount'(7665,4)).
-answer('urn:example:recursionCount'(7666,5)).
-answer('urn:example:recursionCount'(7667,4)).
-answer('urn:example:recursionCount'(7668,3)).
-answer('urn:example:recursionCount'(7669,3)).
-answer('urn:example:recursionCount'(7670,3)).
-answer('urn:example:recursionCount'(7671,7)).
-answer('urn:example:recursionCount'(7672,7)).
-answer('urn:example:recursionCount'(7673,7)).
-answer('urn:example:recursionCount'(7674,3)).
-answer('urn:example:recursionCount'(7675,3)).
-answer('urn:example:recursionCount'(7676,4)).
-answer('urn:example:recursionCount'(7677,5)).
-answer('urn:example:recursionCount'(7678,4)).
-answer('urn:example:recursionCount'(7679,6)).
-answer('urn:example:recursionCount'(7680,3)).
-answer('urn:example:recursionCount'(7681,3)).
-answer('urn:example:recursionCount'(7682,7)).
-answer('urn:example:recursionCount'(7683,7)).
-answer('urn:example:recursionCount'(7684,7)).
-answer('urn:example:recursionCount'(7685,3)).
-answer('urn:example:recursionCount'(7686,3)).
-answer('urn:example:recursionCount'(7687,4)).
-answer('urn:example:recursionCount'(7688,3)).
-answer('urn:example:recursionCount'(7689,3)).
-answer('urn:example:recursionCount'(7690,4)).
-answer('urn:example:recursionCount'(7691,3)).
-answer('urn:example:recursionCount'(7692,3)).
-answer('urn:example:recursionCount'(7693,7)).
-answer('urn:example:recursionCount'(7694,7)).
-answer('urn:example:recursionCount'(7695,7)).
-answer('urn:example:recursionCount'(7696,3)).
-answer('urn:example:recursionCount'(7697,6)).
-answer('urn:example:recursionCount'(7698,3)).
-answer('urn:example:recursionCount'(7699,5)).
-answer('urn:example:recursionCount'(7700,6)).
-answer('urn:example:recursionCount'(7701,3)).
-answer('urn:example:recursionCount'(7702,5)).
-answer('urn:example:recursionCount'(7703,3)).
-answer('urn:example:recursionCount'(7704,6)).
-answer('urn:example:recursionCount'(7705,5)).
-answer('urn:example:recursionCount'(7706,3)).
-answer('urn:example:recursionCount'(7707,4)).
-answer('urn:example:recursionCount'(7708,6)).
-answer('urn:example:recursionCount'(7709,4)).
-answer('urn:example:recursionCount'(7710,3)).
-answer('urn:example:recursionCount'(7711,4)).
-answer('urn:example:recursionCount'(7712,5)).
-answer('urn:example:recursionCount'(7713,4)).
-answer('urn:example:recursionCount'(7714,3)).
-answer('urn:example:recursionCount'(7715,1)).
-answer('urn:example:recursionCount'(7716,7)).
-answer('urn:example:recursionCount'(7717,6)).
-answer('urn:example:recursionCount'(7718,4)).
-answer('urn:example:recursionCount'(7719,6)).
-answer('urn:example:recursionCount'(7720,5)).
-answer('urn:example:recursionCount'(7721,5)).
-answer('urn:example:recursionCount'(7722,5)).
-answer('urn:example:recursionCount'(7723,5)).
-answer('urn:example:recursionCount'(7724,5)).
-answer('urn:example:recursionCount'(7725,7)).
-answer('urn:example:recursionCount'(7726,7)).
-answer('urn:example:recursionCount'(7727,6)).
-answer('urn:example:recursionCount'(7728,6)).
-answer('urn:example:recursionCount'(7729,4)).
-answer('urn:example:recursionCount'(7730,3)).
-answer('urn:example:recursionCount'(7731,4)).
-answer('urn:example:recursionCount'(7732,5)).
-answer('urn:example:recursionCount'(7733,4)).
-answer('urn:example:recursionCount'(7734,3)).
-answer('urn:example:recursionCount'(7735,2)).
-answer('urn:example:recursionCount'(7736,7)).
-answer('urn:example:recursionCount'(7737,4)).
-answer('urn:example:recursionCount'(7738,6)).
-answer('urn:example:recursionCount'(7739,6)).
-answer('urn:example:recursionCount'(7740,6)).
-answer('urn:example:recursionCount'(7741,3)).
-answer('urn:example:recursionCount'(7742,5)).
-answer('urn:example:recursionCount'(7743,3)).
-answer('urn:example:recursionCount'(7744,6)).
-answer('urn:example:recursionCount'(7745,5)).
-answer('urn:example:recursionCount'(7746,3)).
-answer('urn:example:recursionCount'(7747,6)).
-answer('urn:example:recursionCount'(7748,4)).
-answer('urn:example:recursionCount'(7749,6)).
-answer('urn:example:recursionCount'(7750,5)).
-answer('urn:example:recursionCount'(7751,1)).
-answer('urn:example:recursionCount'(7752,7)).
-answer('urn:example:recursionCount'(7753,2)).
-answer('urn:example:recursionCount'(7754,5)).
-answer('urn:example:recursionCount'(7755,6)).
-answer('urn:example:recursionCount'(7756,3)).
-answer('urn:example:recursionCount'(7757,4)).
-answer('urn:example:recursionCount'(7758,6)).
-answer('urn:example:recursionCount'(7759,4)).
-answer('urn:example:recursionCount'(7760,3)).
-answer('urn:example:recursionCount'(7761,7)).
-answer('urn:example:recursionCount'(7762,7)).
-answer('urn:example:recursionCount'(7763,7)).
-answer('urn:example:recursionCount'(7764,3)).
-answer('urn:example:recursionCount'(7765,3)).
-answer('urn:example:recursionCount'(7766,4)).
-answer('urn:example:recursionCount'(7767,5)).
-answer('urn:example:recursionCount'(7768,4)).
-answer('urn:example:recursionCount'(7769,6)).
-answer('urn:example:recursionCount'(7770,4)).
-answer('urn:example:recursionCount'(7771,6)).
-answer('urn:example:recursionCount'(7772,6)).
-answer('urn:example:recursionCount'(7773,4)).
-answer('urn:example:recursionCount'(7774,6)).
-answer('urn:example:recursionCount'(7775,4)).
-answer('urn:example:recursionCount'(7776,5)).
-answer('urn:example:recursionCount'(7778,5)).
-answer('urn:example:recursionCount'(7779,4)).
-answer('urn:example:recursionCount'(7780,6)).
-answer('urn:example:recursionCount'(7781,4)).
-answer('urn:example:recursionCount'(7782,6)).
-answer('urn:example:recursionCount'(7783,6)).
-answer('urn:example:recursionCount'(7784,4)).
-answer('urn:example:recursionCount'(7785,6)).
-answer('urn:example:recursionCount'(7786,4)).
-answer('urn:example:recursionCount'(7787,5)).
-answer('urn:example:recursionCount'(7788,4)).
-answer('urn:example:recursionCount'(7789,3)).
-answer('urn:example:recursionCount'(7790,4)).
-answer('urn:example:recursionCount'(7791,6)).
-answer('urn:example:recursionCount'(7792,4)).
-answer('urn:example:recursionCount'(7793,6)).
-answer('urn:example:recursionCount'(7794,6)).
-answer('urn:example:recursionCount'(7795,4)).
-answer('urn:example:recursionCount'(7796,6)).
-answer('urn:example:recursionCount'(7797,4)).
-answer('urn:example:recursionCount'(7798,3)).
-answer('urn:example:recursionCount'(7799,6)).
-answer('urn:example:recursionCount'(7800,5)).
-answer('urn:example:recursionCount'(7801,2)).
-answer('urn:example:recursionCount'(7802,7)).
-answer('urn:example:recursionCount'(7803,2)).
-answer('urn:example:recursionCount'(7804,5)).
-answer('urn:example:recursionCount'(7805,6)).
-answer('urn:example:recursionCount'(7806,3)).
-answer('urn:example:recursionCount'(7807,6)).
-answer('urn:example:recursionCount'(7808,3)).
-answer('urn:example:recursionCount'(7809,4)).
-answer('urn:example:recursionCount'(7810,2)).
-answer('urn:example:recursionCount'(7811,3)).
-answer('urn:example:recursionCount'(7812,5)).
-answer('urn:example:recursionCount'(7813,3)).
-answer('urn:example:recursionCount'(7814,6)).
-answer('urn:example:recursionCount'(7815,5)).
-answer('urn:example:recursionCount'(7816,3)).
-answer('urn:example:recursionCount'(7817,4)).
-answer('urn:example:recursionCount'(7818,3)).
-answer('urn:example:recursionCount'(7819,3)).
-answer('urn:example:recursionCount'(7820,7)).
-answer('urn:example:recursionCount'(7821,5)).
-answer('urn:example:recursionCount'(7822,5)).
-answer('urn:example:recursionCount'(7823,4)).
-answer('urn:example:recursionCount'(7824,3)).
-answer('urn:example:recursionCount'(7825,1)).
-answer('urn:example:recursionCount'(7826,7)).
-answer('urn:example:recursionCount'(7827,6)).
-answer('urn:example:recursionCount'(7828,7)).
-answer('urn:example:recursionCount'(7829,3)).
-answer('urn:example:recursionCount'(7830,2)).
-answer('urn:example:recursionCount'(7831,3)).
-answer('urn:example:recursionCount'(7832,4)).
-answer('urn:example:recursionCount'(7833,5)).
-answer('urn:example:recursionCount'(7834,5)).
-answer('urn:example:recursionCount'(7835,7)).
-answer('urn:example:recursionCount'(7836,7)).
-answer('urn:example:recursionCount'(7837,6)).
-answer('urn:example:recursionCount'(7838,7)).
-answer('urn:example:recursionCount'(7839,7)).
-answer('urn:example:recursionCount'(7840,5)).
-answer('urn:example:recursionCount'(7841,6)).
-answer('urn:example:recursionCount'(7842,3)).
-answer('urn:example:recursionCount'(7843,5)).
-answer('urn:example:recursionCount'(7844,3)).
-answer('urn:example:recursionCount'(7845,2)).
-answer('urn:example:recursionCount'(7846,7)).
-answer('urn:example:recursionCount'(7847,4)).
-answer('urn:example:recursionCount'(7848,7)).
-answer('urn:example:recursionCount'(7849,7)).
-answer('urn:example:recursionCount'(7850,6)).
-answer('urn:example:recursionCount'(7851,5)).
-answer('urn:example:recursionCount'(7852,1)).
-answer('urn:example:recursionCount'(7853,7)).
-answer('urn:example:recursionCount'(7854,2)).
-answer('urn:example:recursionCount'(7855,5)).
-answer('urn:example:recursionCount'(7856,3)).
-answer('urn:example:recursionCount'(7857,6)).
-answer('urn:example:recursionCount'(7858,3)).
-answer('urn:example:recursionCount'(7859,7)).
-answer('urn:example:recursionCount'(7860,3)).
-answer('urn:example:recursionCount'(7861,3)).
-answer('urn:example:recursionCount'(7862,7)).
-answer('urn:example:recursionCount'(7863,7)).
-answer('urn:example:recursionCount'(7864,7)).
-answer('urn:example:recursionCount'(7865,3)).
-answer('urn:example:recursionCount'(7866,3)).
-answer('urn:example:recursionCount'(7867,4)).
-answer('urn:example:recursionCount'(7868,3)).
-answer('urn:example:recursionCount'(7869,3)).
-answer('urn:example:recursionCount'(7870,6)).
-answer('urn:example:recursionCount'(7871,4)).
-answer('urn:example:recursionCount'(7872,6)).
-answer('urn:example:recursionCount'(7873,6)).
-answer('urn:example:recursionCount'(7874,4)).
-answer('urn:example:recursionCount'(7875,6)).
-answer('urn:example:recursionCount'(7876,4)).
-answer('urn:example:recursionCount'(7877,5)).
-answer('urn:example:recursionCount'(7878,4)).
-answer('urn:example:recursionCount'(7879,3)).
-answer('urn:example:recursionCount'(7880,3)).
-answer('urn:example:recursionCount'(7881,3)).
-answer('urn:example:recursionCount'(7882,7)).
-answer('urn:example:recursionCount'(7883,7)).
-answer('urn:example:recursionCount'(7884,7)).
-answer('urn:example:recursionCount'(7885,3)).
-answer('urn:example:recursionCount'(7886,3)).
-answer('urn:example:recursionCount'(7887,4)).
-answer('urn:example:recursionCount'(7888,5)).
-answer('urn:example:recursionCount'(7889,4)).
-answer('urn:example:recursionCount'(7890,4)).
-answer('urn:example:recursionCount'(7891,3)).
-answer('urn:example:recursionCount'(7892,3)).
-answer('urn:example:recursionCount'(7893,7)).
-answer('urn:example:recursionCount'(7894,7)).
-answer('urn:example:recursionCount'(7895,7)).
-answer('urn:example:recursionCount'(7896,3)).
-answer('urn:example:recursionCount'(7897,3)).
-answer('urn:example:recursionCount'(7898,4)).
-answer('urn:example:recursionCount'(7899,3)).
-answer('urn:example:recursionCount'(7900,3)).
-answer('urn:example:recursionCount'(7901,7)).
-answer('urn:example:recursionCount'(7902,7)).
-answer('urn:example:recursionCount'(7903,7)).
-answer('urn:example:recursionCount'(7904,3)).
-answer('urn:example:recursionCount'(7905,3)).
-answer('urn:example:recursionCount'(7906,4)).
-answer('urn:example:recursionCount'(7907,4)).
-answer('urn:example:recursionCount'(7908,4)).
-answer('urn:example:recursionCount'(7909,3)).
-answer('urn:example:recursionCount'(7910,7)).
-answer('urn:example:recursionCount'(7911,2)).
-answer('urn:example:recursionCount'(7912,7)).
-answer('urn:example:recursionCount'(7913,2)).
-answer('urn:example:recursionCount'(7914,5)).
-answer('urn:example:recursionCount'(7915,6)).
-answer('urn:example:recursionCount'(7916,3)).
-answer('urn:example:recursionCount'(7917,6)).
-answer('urn:example:recursionCount'(7918,3)).
-answer('urn:example:recursionCount'(7919,6)).
-answer('urn:example:recursionCount'(7920,7)).
-answer('urn:example:recursionCount'(7921,7)).
-answer('urn:example:recursionCount'(7922,5)).
-answer('urn:example:recursionCount'(7923,3)).
-answer('urn:example:recursionCount'(7924,6)).
-answer('urn:example:recursionCount'(7925,5)).
-answer('urn:example:recursionCount'(7926,3)).
-answer('urn:example:recursionCount'(7927,4)).
-answer('urn:example:recursionCount'(7928,3)).
-answer('urn:example:recursionCount'(7929,5)).
-answer('urn:example:recursionCount'(7930,7)).
-answer('urn:example:recursionCount'(7931,2)).
-answer('urn:example:recursionCount'(7932,3)).
-answer('urn:example:recursionCount'(7933,4)).
-answer('urn:example:recursionCount'(7934,3)).
-answer('urn:example:recursionCount'(7935,1)).
-answer('urn:example:recursionCount'(7936,7)).
-answer('urn:example:recursionCount'(7937,6)).
-answer('urn:example:recursionCount'(7938,7)).
-answer('urn:example:recursionCount'(7939,1)).
-answer('urn:example:recursionCount'(7940,3)).
-answer('urn:example:recursionCount'(7941,5)).
-answer('urn:example:recursionCount'(7942,6)).
-answer('urn:example:recursionCount'(7943,3)).
-answer('urn:example:recursionCount'(7944,5)).
-answer('urn:example:recursionCount'(7945,7)).
-answer('urn:example:recursionCount'(7946,7)).
-answer('urn:example:recursionCount'(7947,6)).
-answer('urn:example:recursionCount'(7948,7)).
-answer('urn:example:recursionCount'(7949,7)).
-answer('urn:example:recursionCount'(7950,3)).
-answer('urn:example:recursionCount'(7951,6)).
-answer('urn:example:recursionCount'(7952,5)).
-answer('urn:example:recursionCount'(7953,1)).
-answer('urn:example:recursionCount'(7954,7)).
-answer('urn:example:recursionCount'(7955,2)).
-answer('urn:example:recursionCount'(7956,7)).
-answer('urn:example:recursionCount'(7957,4)).
-answer('urn:example:recursionCount'(7958,7)).
-answer('urn:example:recursionCount'(7959,2)).
-answer('urn:example:recursionCount'(7960,4)).
-answer('urn:example:recursionCount'(7961,3)).
-answer('urn:example:recursionCount'(7962,3)).
-answer('urn:example:recursionCount'(7963,7)).
-answer('urn:example:recursionCount'(7964,7)).
-answer('urn:example:recursionCount'(7965,7)).
-answer('urn:example:recursionCount'(7966,3)).
-answer('urn:example:recursionCount'(7967,6)).
-answer('urn:example:recursionCount'(7968,3)).
-answer('urn:example:recursionCount'(7969,5)).
-answer('urn:example:recursionCount'(7970,4)).
-answer('urn:example:recursionCount'(7971,6)).
-answer('urn:example:recursionCount'(7972,4)).
-answer('urn:example:recursionCount'(7973,6)).
-answer('urn:example:recursionCount'(7974,6)).
-answer('urn:example:recursionCount'(7975,4)).
-answer('urn:example:recursionCount'(7976,6)).
-answer('urn:example:recursionCount'(7977,4)).
-answer('urn:example:recursionCount'(7978,3)).
-answer('urn:example:recursionCount'(7979,6)).
-answer('urn:example:recursionCount'(7980,4)).
-answer('urn:example:recursionCount'(7981,3)).
-answer('urn:example:recursionCount'(7982,3)).
-answer('urn:example:recursionCount'(7983,7)).
-answer('urn:example:recursionCount'(7984,7)).
-answer('urn:example:recursionCount'(7985,7)).
-answer('urn:example:recursionCount'(7986,3)).
-answer('urn:example:recursionCount'(7987,3)).
-answer('urn:example:recursionCount'(7988,4)).
-answer('urn:example:recursionCount'(7989,3)).
-answer('urn:example:recursionCount'(7990,3)).
-answer('urn:example:recursionCount'(7991,6)).
-answer('urn:example:recursionCount'(7992,5)).
-answer('urn:example:recursionCount'(7993,1)).
-answer('urn:example:recursionCount'(7994,7)).
-answer('urn:example:recursionCount'(7995,2)).
-answer('urn:example:recursionCount'(7996,5)).
-answer('urn:example:recursionCount'(7997,6)).
-answer('urn:example:recursionCount'(7998,3)).
-answer('urn:example:recursionCount'(7999,4)).
-answer('urn:example:recursionCount'(8000,6)).
-answer('urn:example:recursionCount'(8001,3)).
-answer('urn:example:recursionCount'(8002,6)).
-answer('urn:example:recursionCount'(8003,5)).
-answer('urn:example:recursionCount'(8004,2)).
-answer('urn:example:recursionCount'(8005,7)).
-answer('urn:example:recursionCount'(8006,2)).
-answer('urn:example:recursionCount'(8007,5)).
-answer('urn:example:recursionCount'(8008,6)).
-answer('urn:example:recursionCount'(8009,3)).
-answer('urn:example:recursionCount'(8010,3)).
-answer('urn:example:recursionCount'(8011,6)).
-answer('urn:example:recursionCount'(8012,3)).
-answer('urn:example:recursionCount'(8013,6)).
-answer('urn:example:recursionCount'(8014,5)).
-answer('urn:example:recursionCount'(8015,2)).
-answer('urn:example:recursionCount'(8016,7)).
-answer('urn:example:recursionCount'(8017,2)).
-answer('urn:example:recursionCount'(8018,5)).
-answer('urn:example:recursionCount'(8019,3)).
-answer('urn:example:recursionCount'(8020,6)).
-answer('urn:example:recursionCount'(8021,3)).
-answer('urn:example:recursionCount'(8022,6)).
-answer('urn:example:recursionCount'(8023,3)).
-answer('urn:example:recursionCount'(8024,6)).
-answer('urn:example:recursionCount'(8025,5)).
-answer('urn:example:recursionCount'(8026,2)).
-answer('urn:example:recursionCount'(8027,7)).
-answer('urn:example:recursionCount'(8028,2)).
-answer('urn:example:recursionCount'(8029,7)).
-answer('urn:example:recursionCount'(8030,5)).
-answer('urn:example:recursionCount'(8031,6)).
-answer('urn:example:recursionCount'(8032,3)).
-answer('urn:example:recursionCount'(8033,6)).
-answer('urn:example:recursionCount'(8034,3)).
-answer('urn:example:recursionCount'(8035,6)).
-answer('urn:example:recursionCount'(8036,5)).
-answer('urn:example:recursionCount'(8037,2)).
-answer('urn:example:recursionCount'(8038,7)).
-answer('urn:example:recursionCount'(8039,7)).
-answer('urn:example:recursionCount'(8040,2)).
-answer('urn:example:recursionCount'(8041,5)).
-answer('urn:example:recursionCount'(8042,6)).
-answer('urn:example:recursionCount'(8043,3)).
-answer('urn:example:recursionCount'(8044,6)).
-answer('urn:example:recursionCount'(8045,3)).
-answer('urn:example:recursionCount'(8046,6)).
-answer('urn:example:recursionCount'(8047,5)).
-answer('urn:example:recursionCount'(8048,2)).
-answer('urn:example:recursionCount'(8049,7)).
-answer('urn:example:recursionCount'(8050,7)).
-answer('urn:example:recursionCount'(8051,2)).
-answer('urn:example:recursionCount'(8052,5)).
-answer('urn:example:recursionCount'(8053,6)).
-answer('urn:example:recursionCount'(8054,3)).
-answer('urn:example:recursionCount'(8055,6)).
-answer('urn:example:recursionCount'(8056,3)).
-answer('urn:example:recursionCount'(8057,6)).
-answer('urn:example:recursionCount'(8058,5)).
-answer('urn:example:recursionCount'(8059,3)).
-answer('urn:example:recursionCount'(8060,2)).
-answer('urn:example:recursionCount'(8061,7)).
-answer('urn:example:recursionCount'(8062,2)).
-answer('urn:example:recursionCount'(8063,5)).
-answer('urn:example:recursionCount'(8064,6)).
-answer('urn:example:recursionCount'(8065,3)).
-answer('urn:example:recursionCount'(8066,6)).
-answer('urn:example:recursionCount'(8067,3)).
-answer('urn:example:recursionCount'(8068,6)).
-answer('urn:example:recursionCount'(8069,3)).
-answer('urn:example:recursionCount'(8070,5)).
-answer('urn:example:recursionCount'(8071,2)).
-answer('urn:example:recursionCount'(8072,7)).
-answer('urn:example:recursionCount'(8073,2)).
-answer('urn:example:recursionCount'(8074,5)).
-answer('urn:example:recursionCount'(8075,6)).
-answer('urn:example:recursionCount'(8076,3)).
-answer('urn:example:recursionCount'(8077,6)).
-answer('urn:example:recursionCount'(8078,3)).
-answer('urn:example:recursionCount'(8079,4)).
-answer('urn:example:recursionCount'(8080,6)).
-answer('urn:example:recursionCount'(8081,5)).
-answer('urn:example:recursionCount'(8082,2)).
-answer('urn:example:recursionCount'(8083,7)).
-answer('urn:example:recursionCount'(8084,2)).
-answer('urn:example:recursionCount'(8085,5)).
-answer('urn:example:recursionCount'(8086,6)).
-answer('urn:example:recursionCount'(8087,3)).
-answer('urn:example:recursionCount'(8088,6)).
-answer('urn:example:recursionCount'(8089,4)).
-answer('urn:example:recursionCount'(8090,3)).
-answer('urn:example:recursionCount'(8091,3)).
-answer('urn:example:recursionCount'(8092,7)).
-answer('urn:example:recursionCount'(8093,7)).
-answer('urn:example:recursionCount'(8094,7)).
-answer('urn:example:recursionCount'(8095,3)).
-answer('urn:example:recursionCount'(8096,3)).
-answer('urn:example:recursionCount'(8097,4)).
-answer('urn:example:recursionCount'(8098,4)).
-answer('urn:example:recursionCount'(8099,4)).
-answer('urn:example:recursionCount'(8100,3)).
-answer('urn:example:recursionCount'(8101,6)).
-answer('urn:example:recursionCount'(8102,3)).
-answer('urn:example:recursionCount'(8103,6)).
-answer('urn:example:recursionCount'(8104,5)).
-answer('urn:example:recursionCount'(8105,2)).
-answer('urn:example:recursionCount'(8106,7)).
-answer('urn:example:recursionCount'(8107,2)).
-answer('urn:example:recursionCount'(8108,5)).
-answer('urn:example:recursionCount'(8109,3)).
-answer('urn:example:recursionCount'(8110,6)).
-answer('urn:example:recursionCount'(8111,4)).
-answer('urn:example:recursionCount'(8112,3)).
-answer('urn:example:recursionCount'(8113,5)).
-answer('urn:example:recursionCount'(8114,6)).
-answer('urn:example:recursionCount'(8115,3)).
-answer('urn:example:recursionCount'(8116,5)).
-answer('urn:example:recursionCount'(8117,3)).
-answer('urn:example:recursionCount'(8118,6)).
-answer('urn:example:recursionCount'(8119,5)).
-answer('urn:example:recursionCount'(8120,3)).
-answer('urn:example:recursionCount'(8121,3)).
-answer('urn:example:recursionCount'(8122,4)).
-answer('urn:example:recursionCount'(8123,3)).
-answer('urn:example:recursionCount'(8124,5)).
-answer('urn:example:recursionCount'(8125,6)).
-answer('urn:example:recursionCount'(8126,3)).
-answer('urn:example:recursionCount'(8127,5)).
-answer('urn:example:recursionCount'(8128,3)).
-answer('urn:example:recursionCount'(8129,2)).
-answer('urn:example:recursionCount'(8130,6)).
-answer('urn:example:recursionCount'(8131,5)).
-answer('urn:example:recursionCount'(8132,3)).
-answer('urn:example:recursionCount'(8133,4)).
-answer('urn:example:recursionCount'(8134,3)).
-answer('urn:example:recursionCount'(8135,5)).
-answer('urn:example:recursionCount'(8136,6)).
-answer('urn:example:recursionCount'(8137,3)).
-answer('urn:example:recursionCount'(8138,5)).
-answer('urn:example:recursionCount'(8139,7)).
-answer('urn:example:recursionCount'(8140,5)).
-answer('urn:example:recursionCount'(8141,6)).
-answer('urn:example:recursionCount'(8142,5)).
-answer('urn:example:recursionCount'(8143,3)).
-answer('urn:example:recursionCount'(8144,4)).
-answer('urn:example:recursionCount'(8145,3)).
-answer('urn:example:recursionCount'(8146,5)).
-answer('urn:example:recursionCount'(8147,6)).
-answer('urn:example:recursionCount'(8148,3)).
-answer('urn:example:recursionCount'(8149,2)).
-answer('urn:example:recursionCount'(8150,2)).
-answer('urn:example:recursionCount'(8151,3)).
-answer('urn:example:recursionCount'(8152,6)).
-answer('urn:example:recursionCount'(8153,5)).
-answer('urn:example:recursionCount'(8154,3)).
-answer('urn:example:recursionCount'(8155,4)).
-answer('urn:example:recursionCount'(8156,3)).
-answer('urn:example:recursionCount'(8157,5)).
-answer('urn:example:recursionCount'(8158,6)).
-answer('urn:example:recursionCount'(8159,5)).
-answer('urn:example:recursionCount'(8160,7)).
-answer('urn:example:recursionCount'(8161,5)).
-answer('urn:example:recursionCount'(8162,3)).
-answer('urn:example:recursionCount'(8163,6)).
-answer('urn:example:recursionCount'(8164,5)).
-answer('urn:example:recursionCount'(8165,3)).
-answer('urn:example:recursionCount'(8166,4)).
-answer('urn:example:recursionCount'(8167,3)).
-answer('urn:example:recursionCount'(8168,5)).
-answer('urn:example:recursionCount'(8169,6)).
-answer('urn:example:recursionCount'(8170,2)).
-answer('urn:example:recursionCount'(8171,3)).
-answer('urn:example:recursionCount'(8172,5)).
-answer('urn:example:recursionCount'(8173,3)).
-answer('urn:example:recursionCount'(8174,6)).
-answer('urn:example:recursionCount'(8175,5)).
-answer('urn:example:recursionCount'(8176,3)).
-answer('urn:example:recursionCount'(8177,4)).
-answer('urn:example:recursionCount'(8178,3)).
-answer('urn:example:recursionCount'(8179,3)).
-answer('urn:example:recursionCount'(8180,5)).
-answer('urn:example:recursionCount'(8181,6)).
-answer('urn:example:recursionCount'(8182,3)).
-answer('urn:example:recursionCount'(8183,5)).
-answer('urn:example:recursionCount'(8184,3)).
-answer('urn:example:recursionCount'(8185,6)).
-answer('urn:example:recursionCount'(8186,5)).
-answer('urn:example:recursionCount'(8187,3)).
-answer('urn:example:recursionCount'(8188,4)).
-answer('urn:example:recursionCount'(8189,6)).
-answer('urn:example:recursionCount'(8190,3)).
-answer('urn:example:recursionCount'(8191,5)).
-answer('urn:example:recursionCount'(8192,2)).
-answer('urn:example:recursionCount'(8193,7)).
-answer('urn:example:recursionCount'(8194,2)).
-answer('urn:example:recursionCount'(8195,5)).
-answer('urn:example:recursionCount'(8196,6)).
-answer('urn:example:recursionCount'(8197,3)).
-answer('urn:example:recursionCount'(8198,6)).
-answer('urn:example:recursionCount'(8199,3)).
-answer('urn:example:recursionCount'(8200,6)).
-answer('urn:example:recursionCount'(8201,3)).
-answer('urn:example:recursionCount'(8202,6)).
-answer('urn:example:recursionCount'(8203,3)).
-answer('urn:example:recursionCount'(8204,6)).
-answer('urn:example:recursionCount'(8205,5)).
-answer('urn:example:recursionCount'(8206,2)).
-answer('urn:example:recursionCount'(8207,7)).
-answer('urn:example:recursionCount'(8208,2)).
-answer('urn:example:recursionCount'(8209,7)).
-answer('urn:example:recursionCount'(8210,3)).
-answer('urn:example:recursionCount'(8211,3)).
-answer('urn:example:recursionCount'(8212,4)).
-answer('urn:example:recursionCount'(8213,3)).
-answer('urn:example:recursionCount'(8214,5)).
-answer('urn:example:recursionCount'(8215,6)).
-answer('urn:example:recursionCount'(8216,3)).
-answer('urn:example:recursionCount'(8217,5)).
-answer('urn:example:recursionCount'(8218,3)).
-answer('urn:example:recursionCount'(8219,2)).
-answer('urn:example:recursionCount'(8220,6)).
-answer('urn:example:recursionCount'(8221,4)).
-answer('urn:example:recursionCount'(8222,6)).
-answer('urn:example:recursionCount'(8223,7)).
-answer('urn:example:recursionCount'(8224,1)).
-answer('urn:example:recursionCount'(8225,3)).
-answer('urn:example:recursionCount'(8226,4)).
-answer('urn:example:recursionCount'(8227,5)).
-answer('urn:example:recursionCount'(8228,4)).
-answer('urn:example:recursionCount'(8229,3)).
-answer('urn:example:recursionCount'(8230,3)).
-answer('urn:example:recursionCount'(8231,3)).
-answer('urn:example:recursionCount'(8232,7)).
-answer('urn:example:recursionCount'(8233,6)).
-answer('urn:example:recursionCount'(8234,7)).
-answer('urn:example:recursionCount'(8235,1)).
-answer('urn:example:recursionCount'(8236,3)).
-answer('urn:example:recursionCount'(8237,4)).
-answer('urn:example:recursionCount'(8238,5)).
-answer('urn:example:recursionCount'(8239,5)).
-answer('urn:example:recursionCount'(8240,6)).
-answer('urn:example:recursionCount'(8241,5)).
-answer('urn:example:recursionCount'(8242,1)).
-answer('urn:example:recursionCount'(8243,7)).
-answer('urn:example:recursionCount'(8244,6)).
-answer('urn:example:recursionCount'(8245,7)).
-answer('urn:example:recursionCount'(8246,1)).
-answer('urn:example:recursionCount'(8247,3)).
-answer('urn:example:recursionCount'(8248,4)).
-answer('urn:example:recursionCount'(8249,3)).
-answer('urn:example:recursionCount'(8250,5)).
-answer('urn:example:recursionCount'(8251,6)).
-answer('urn:example:recursionCount'(8252,3)).
-answer('urn:example:recursionCount'(8253,1)).
-answer('urn:example:recursionCount'(8254,7)).
-answer('urn:example:recursionCount'(8255,6)).
-answer('urn:example:recursionCount'(8256,7)).
-answer('urn:example:recursionCount'(8257,1)).
-answer('urn:example:recursionCount'(8258,3)).
-answer('urn:example:recursionCount'(8259,6)).
-answer('urn:example:recursionCount'(8260,2)).
-answer('urn:example:recursionCount'(8261,3)).
-answer('urn:example:recursionCount'(8262,4)).
-answer('urn:example:recursionCount'(8263,3)).
-answer('urn:example:recursionCount'(8264,1)).
-answer('urn:example:recursionCount'(8265,7)).
-answer('urn:example:recursionCount'(8266,6)).
-answer('urn:example:recursionCount'(8267,7)).
-answer('urn:example:recursionCount'(8268,1)).
-answer('urn:example:recursionCount'(8269,5)).
-answer('urn:example:recursionCount'(8270,7)).
-answer('urn:example:recursionCount'(8271,5)).
-answer('urn:example:recursionCount'(8272,5)).
-answer('urn:example:recursionCount'(8273,4)).
-answer('urn:example:recursionCount'(8274,3)).
-answer('urn:example:recursionCount'(8275,1)).
-answer('urn:example:recursionCount'(8276,7)).
-answer('urn:example:recursionCount'(8277,6)).
-answer('urn:example:recursionCount'(8278,7)).
-answer('urn:example:recursionCount'(8279,3)).
-answer('urn:example:recursionCount'(8280,2)).
-answer('urn:example:recursionCount'(8281,3)).
-answer('urn:example:recursionCount'(8282,4)).
-answer('urn:example:recursionCount'(8283,5)).
-answer('urn:example:recursionCount'(8284,4)).
-answer('urn:example:recursionCount'(8285,3)).
-answer('urn:example:recursionCount'(8286,1)).
-answer('urn:example:recursionCount'(8287,7)).
-answer('urn:example:recursionCount'(8288,6)).
-answer('urn:example:recursionCount'(8289,4)).
-answer('urn:example:recursionCount'(8290,7)).
-answer('urn:example:recursionCount'(8291,2)).
-answer('urn:example:recursionCount'(8292,3)).
-answer('urn:example:recursionCount'(8293,5)).
-answer('urn:example:recursionCount'(8294,3)).
-answer('urn:example:recursionCount'(8295,6)).
-answer('urn:example:recursionCount'(8296,5)).
-answer('urn:example:recursionCount'(8297,3)).
-answer('urn:example:recursionCount'(8298,4)).
-answer('urn:example:recursionCount'(8299,3)).
-answer('urn:example:recursionCount'(8300,5)).
-answer('urn:example:recursionCount'(8301,6)).
-answer('urn:example:recursionCount'(8302,3)).
-answer('urn:example:recursionCount'(8303,6)).
-answer('urn:example:recursionCount'(8304,3)).
-answer('urn:example:recursionCount'(8305,6)).
-answer('urn:example:recursionCount'(8306,5)).
-answer('urn:example:recursionCount'(8307,2)).
-answer('urn:example:recursionCount'(8308,7)).
-answer('urn:example:recursionCount'(8309,7)).
-answer('urn:example:recursionCount'(8310,6)).
-answer('urn:example:recursionCount'(8311,5)).
-answer('urn:example:recursionCount'(8312,3)).
-answer('urn:example:recursionCount'(8313,4)).
-answer('urn:example:recursionCount'(8314,3)).
-answer('urn:example:recursionCount'(8315,5)).
-answer('urn:example:recursionCount'(8316,6)).
-answer('urn:example:recursionCount'(8317,3)).
-answer('urn:example:recursionCount'(8318,5)).
-answer('urn:example:recursionCount'(8319,7)).
-answer('urn:example:recursionCount'(8320,3)).
-answer('urn:example:recursionCount'(8321,3)).
-answer('urn:example:recursionCount'(8322,7)).
-answer('urn:example:recursionCount'(8323,6)).
-answer('urn:example:recursionCount'(8324,7)).
-answer('urn:example:recursionCount'(8325,1)).
-answer('urn:example:recursionCount'(8326,3)).
-answer('urn:example:recursionCount'(8327,4)).
-answer('urn:example:recursionCount'(8328,5)).
-answer('urn:example:recursionCount'(8329,5)).
-answer('urn:example:recursionCount'(8330,6)).
-answer('urn:example:recursionCount'(8331,4)).
-answer('urn:example:recursionCount'(8332,6)).
-answer('urn:example:recursionCount'(8333,6)).
-answer('urn:example:recursionCount'(8334,7)).
-answer('urn:example:recursionCount'(8335,7)).
-answer('urn:example:recursionCount'(8336,5)).
-answer('urn:example:recursionCount'(8337,5)).
-answer('urn:example:recursionCount'(8338,5)).
-answer('urn:example:recursionCount'(8339,5)).
-answer('urn:example:recursionCount'(8340,3)).
-answer('urn:example:recursionCount'(8341,3)).
-answer('urn:example:recursionCount'(8342,7)).
-answer('urn:example:recursionCount'(8343,7)).
-answer('urn:example:recursionCount'(8344,6)).
-answer('urn:example:recursionCount'(8345,7)).
-answer('urn:example:recursionCount'(8346,7)).
-answer('urn:example:recursionCount'(8347,5)).
-answer('urn:example:recursionCount'(8348,5)).
-answer('urn:example:recursionCount'(8349,4)).
-answer('urn:example:recursionCount'(8350,6)).
-answer('urn:example:recursionCount'(8351,5)).
-answer('urn:example:recursionCount'(8352,1)).
-answer('urn:example:recursionCount'(8353,7)).
-answer('urn:example:recursionCount'(8354,7)).
-answer('urn:example:recursionCount'(8355,6)).
-answer('urn:example:recursionCount'(8356,7)).
-answer('urn:example:recursionCount'(8357,7)).
-answer('urn:example:recursionCount'(8358,5)).
-answer('urn:example:recursionCount'(8359,3)).
-answer('urn:example:recursionCount'(8360,5)).
-answer('urn:example:recursionCount'(8361,6)).
-answer('urn:example:recursionCount'(8362,3)).
-answer('urn:example:recursionCount'(8363,5)).
-answer('urn:example:recursionCount'(8364,7)).
-answer('urn:example:recursionCount'(8365,7)).
-answer('urn:example:recursionCount'(8366,6)).
-answer('urn:example:recursionCount'(8367,7)).
-answer('urn:example:recursionCount'(8368,7)).
-answer('urn:example:recursionCount'(8369,1)).
-answer('urn:example:recursionCount'(8370,2)).
-answer('urn:example:recursionCount'(8371,3)).
-answer('urn:example:recursionCount'(8372,4)).
-answer('urn:example:recursionCount'(8373,5)).
-answer('urn:example:recursionCount'(8374,5)).
-answer('urn:example:recursionCount'(8375,7)).
-answer('urn:example:recursionCount'(8376,7)).
-answer('urn:example:recursionCount'(8377,6)).
-answer('urn:example:recursionCount'(8378,7)).
-answer('urn:example:recursionCount'(8379,7)).
-answer('urn:example:recursionCount'(8380,7)).
-answer('urn:example:recursionCount'(8381,5)).
-answer('urn:example:recursionCount'(8382,5)).
-answer('urn:example:recursionCount'(8383,5)).
-answer('urn:example:recursionCount'(8384,5)).
-answer('urn:example:recursionCount'(8385,5)).
-answer('urn:example:recursionCount'(8386,7)).
-answer('urn:example:recursionCount'(8387,7)).
-answer('urn:example:recursionCount'(8388,6)).
-answer('urn:example:recursionCount'(8389,6)).
-answer('urn:example:recursionCount'(8390,7)).
-answer('urn:example:recursionCount'(8391,7)).
-answer('urn:example:recursionCount'(8392,5)).
-answer('urn:example:recursionCount'(8393,5)).
-answer('urn:example:recursionCount'(8394,4)).
-answer('urn:example:recursionCount'(8395,3)).
-answer('urn:example:recursionCount'(8396,1)).
-answer('urn:example:recursionCount'(8397,7)).
-answer('urn:example:recursionCount'(8398,6)).
-answer('urn:example:recursionCount'(8399,7)).
-answer('urn:example:recursionCount'(8400,2)).
-answer('urn:example:recursionCount'(8401,5)).
-answer('urn:example:recursionCount'(8402,6)).
-answer('urn:example:recursionCount'(8403,3)).
-answer('urn:example:recursionCount'(8404,6)).
-answer('urn:example:recursionCount'(8405,3)).
-answer('urn:example:recursionCount'(8406,6)).
-answer('urn:example:recursionCount'(8407,5)).
-answer('urn:example:recursionCount'(8408,2)).
-answer('urn:example:recursionCount'(8409,7)).
-answer('urn:example:recursionCount'(8410,5)).
-answer('urn:example:recursionCount'(8411,6)).
-answer('urn:example:recursionCount'(8412,5)).
-answer('urn:example:recursionCount'(8413,3)).
-answer('urn:example:recursionCount'(8414,4)).
-answer('urn:example:recursionCount'(8415,3)).
-answer('urn:example:recursionCount'(8416,5)).
-answer('urn:example:recursionCount'(8417,6)).
-answer('urn:example:recursionCount'(8418,3)).
-answer('urn:example:recursionCount'(8419,2)).
-answer('urn:example:recursionCount'(8420,6)).
-answer('urn:example:recursionCount'(8421,5)).
-answer('urn:example:recursionCount'(8422,1)).
-answer('urn:example:recursionCount'(8423,7)).
-answer('urn:example:recursionCount'(8424,6)).
-answer('urn:example:recursionCount'(8425,7)).
-answer('urn:example:recursionCount'(8426,1)).
-answer('urn:example:recursionCount'(8427,3)).
-answer('urn:example:recursionCount'(8428,4)).
-answer('urn:example:recursionCount'(8429,3)).
-answer('urn:example:recursionCount'(8430,3)).
-answer('urn:example:recursionCount'(8431,3)).
-answer('urn:example:recursionCount'(8432,7)).
-answer('urn:example:recursionCount'(8433,7)).
-answer('urn:example:recursionCount'(8434,6)).
-answer('urn:example:recursionCount'(8435,7)).
-answer('urn:example:recursionCount'(8436,7)).
-answer('urn:example:recursionCount'(8437,5)).
-answer('urn:example:recursionCount'(8438,5)).
-answer('urn:example:recursionCount'(8439,4)).
-answer('urn:example:recursionCount'(8440,6)).
-answer('urn:example:recursionCount'(8441,4)).
-answer('urn:example:recursionCount'(8442,6)).
-answer('urn:example:recursionCount'(8443,6)).
-answer('urn:example:recursionCount'(8444,4)).
-answer('urn:example:recursionCount'(8445,7)).
-answer('urn:example:recursionCount'(8446,2)).
-answer('urn:example:recursionCount'(8447,3)).
-answer('urn:example:recursionCount'(8448,4)).
-answer('urn:example:recursionCount'(8449,5)).
-answer('urn:example:recursionCount'(8450,3)).
-answer('urn:example:recursionCount'(8451,3)).
-answer('urn:example:recursionCount'(8452,7)).
-answer('urn:example:recursionCount'(8453,7)).
-answer('urn:example:recursionCount'(8454,7)).
-answer('urn:example:recursionCount'(8455,4)).
-answer('urn:example:recursionCount'(8456,7)).
-answer('urn:example:recursionCount'(8457,2)).
-answer('urn:example:recursionCount'(8458,3)).
-answer('urn:example:recursionCount'(8459,5)).
-answer('urn:example:recursionCount'(8460,6)).
-answer('urn:example:recursionCount'(8461,5)).
-answer('urn:example:recursionCount'(8462,1)).
-answer('urn:example:recursionCount'(8463,7)).
-answer('urn:example:recursionCount'(8464,2)).
-answer('urn:example:recursionCount'(8465,7)).
-answer('urn:example:recursionCount'(8466,4)).
-answer('urn:example:recursionCount'(8467,7)).
-answer('urn:example:recursionCount'(8468,2)).
-answer('urn:example:recursionCount'(8469,7)).
-answer('urn:example:recursionCount'(8470,5)).
-answer('urn:example:recursionCount'(8471,6)).
-answer('urn:example:recursionCount'(8472,3)).
-answer('urn:example:recursionCount'(8473,5)).
-answer('urn:example:recursionCount'(8474,3)).
-answer('urn:example:recursionCount'(8475,2)).
-answer('urn:example:recursionCount'(8476,7)).
-answer('urn:example:recursionCount'(8477,4)).
-answer('urn:example:recursionCount'(8478,7)).
-answer('urn:example:recursionCount'(8479,7)).
-answer('urn:example:recursionCount'(8480,2)).
-answer('urn:example:recursionCount'(8481,3)).
-answer('urn:example:recursionCount'(8482,4)).
-answer('urn:example:recursionCount'(8483,5)).
-answer('urn:example:recursionCount'(8484,4)).
-answer('urn:example:recursionCount'(8485,3)).
-answer('urn:example:recursionCount'(8486,2)).
-answer('urn:example:recursionCount'(8487,7)).
-answer('urn:example:recursionCount'(8488,4)).
-answer('urn:example:recursionCount'(8489,6)).
-answer('urn:example:recursionCount'(8490,7)).
-answer('urn:example:recursionCount'(8491,2)).
-answer('urn:example:recursionCount'(8492,3)).
-answer('urn:example:recursionCount'(8493,4)).
-answer('urn:example:recursionCount'(8494,5)).
-answer('urn:example:recursionCount'(8495,5)).
-answer('urn:example:recursionCount'(8496,7)).
-answer('urn:example:recursionCount'(8497,7)).
-answer('urn:example:recursionCount'(8498,6)).
-answer('urn:example:recursionCount'(8499,7)).
-answer('urn:example:recursionCount'(8500,7)).
-answer('urn:example:recursionCount'(8501,2)).
-answer('urn:example:recursionCount'(8502,5)).
-answer('urn:example:recursionCount'(8503,6)).
-answer('urn:example:recursionCount'(8504,3)).
-answer('urn:example:recursionCount'(8505,6)).
-answer('urn:example:recursionCount'(8506,3)).
-answer('urn:example:recursionCount'(8507,6)).
-answer('urn:example:recursionCount'(8508,5)).
-answer('urn:example:recursionCount'(8509,3)).
-answer('urn:example:recursionCount'(8510,2)).
-answer('urn:example:recursionCount'(8511,3)).
-answer('urn:example:recursionCount'(8512,6)).
-answer('urn:example:recursionCount'(8513,5)).
-answer('urn:example:recursionCount'(8514,3)).
-answer('urn:example:recursionCount'(8515,4)).
-answer('urn:example:recursionCount'(8516,3)).
-answer('urn:example:recursionCount'(8517,5)).
-answer('urn:example:recursionCount'(8518,6)).
-answer('urn:example:recursionCount'(8519,5)).
-answer('urn:example:recursionCount'(8520,5)).
-answer('urn:example:recursionCount'(8521,6)).
-answer('urn:example:recursionCount'(8522,3)).
-answer('urn:example:recursionCount'(8523,1)).
-answer('urn:example:recursionCount'(8524,7)).
-answer('urn:example:recursionCount'(8525,6)).
-answer('urn:example:recursionCount'(8526,7)).
-answer('urn:example:recursionCount'(8527,1)).
-answer('urn:example:recursionCount'(8528,3)).
-answer('urn:example:recursionCount'(8529,6)).
-answer('urn:example:recursionCount'(8530,6)).
-answer('urn:example:recursionCount'(8531,5)).
-answer('urn:example:recursionCount'(8532,1)).
-answer('urn:example:recursionCount'(8533,7)).
-answer('urn:example:recursionCount'(8534,7)).
-answer('urn:example:recursionCount'(8535,6)).
-answer('urn:example:recursionCount'(8536,7)).
-answer('urn:example:recursionCount'(8537,7)).
-answer('urn:example:recursionCount'(8538,5)).
-answer('urn:example:recursionCount'(8539,3)).
-answer('urn:example:recursionCount'(8540,3)).
-answer('urn:example:recursionCount'(8541,3)).
-answer('urn:example:recursionCount'(8542,7)).
-answer('urn:example:recursionCount'(8543,7)).
-answer('urn:example:recursionCount'(8544,7)).
-answer('urn:example:recursionCount'(8545,4)).
-answer('urn:example:recursionCount'(8546,7)).
-answer('urn:example:recursionCount'(8547,2)).
-answer('urn:example:recursionCount'(8548,3)).
-answer('urn:example:recursionCount'(8549,5)).
-answer('urn:example:recursionCount'(8550,6)).
-answer('urn:example:recursionCount'(8551,4)).
-answer('urn:example:recursionCount'(8552,6)).
-answer('urn:example:recursionCount'(8553,6)).
-answer('urn:example:recursionCount'(8554,4)).
-answer('urn:example:recursionCount'(8555,6)).
-answer('urn:example:recursionCount'(8556,3)).
-answer('urn:example:recursionCount'(8557,5)).
-answer('urn:example:recursionCount'(8558,6)).
-answer('urn:example:recursionCount'(8559,3)).
-answer('urn:example:recursionCount'(8560,3)).
-answer('urn:example:recursionCount'(8561,3)).
-answer('urn:example:recursionCount'(8562,7)).
-answer('urn:example:recursionCount'(8563,7)).
-answer('urn:example:recursionCount'(8564,7)).
-answer('urn:example:recursionCount'(8565,3)).
-answer('urn:example:recursionCount'(8566,6)).
-answer('urn:example:recursionCount'(8567,3)).
-answer('urn:example:recursionCount'(8568,5)).
-answer('urn:example:recursionCount'(8569,2)).
-answer('urn:example:recursionCount'(8570,6)).
-answer('urn:example:recursionCount'(8571,5)).
-answer('urn:example:recursionCount'(8572,1)).
-answer('urn:example:recursionCount'(8573,7)).
-answer('urn:example:recursionCount'(8574,2)).
-answer('urn:example:recursionCount'(8575,5)).
-answer('urn:example:recursionCount'(8576,3)).
-answer('urn:example:recursionCount'(8577,6)).
-answer('urn:example:recursionCount'(8578,3)).
-answer('urn:example:recursionCount'(8579,7)).
-answer('urn:example:recursionCount'(8580,5)).
-answer('urn:example:recursionCount'(8581,6)).
-answer('urn:example:recursionCount'(8582,3)).
-answer('urn:example:recursionCount'(8583,5)).
-answer('urn:example:recursionCount'(8584,3)).
-answer('urn:example:recursionCount'(8585,6)).
-answer('urn:example:recursionCount'(8586,5)).
-answer('urn:example:recursionCount'(8587,3)).
-answer('urn:example:recursionCount'(8588,6)).
-answer('urn:example:recursionCount'(8589,4)).
-answer('urn:example:recursionCount'(8590,3)).
-answer('urn:example:recursionCount'(8591,5)).
-answer('urn:example:recursionCount'(8592,6)).
-answer('urn:example:recursionCount'(8593,3)).
-answer('urn:example:recursionCount'(8594,5)).
-answer('urn:example:recursionCount'(8595,3)).
-answer('urn:example:recursionCount'(8596,2)).
-answer('urn:example:recursionCount'(8597,7)).
-answer('urn:example:recursionCount'(8598,4)).
-answer('urn:example:recursionCount'(8599,7)).
-answer('urn:example:recursionCount'(8600,2)).
-answer('urn:example:recursionCount'(8601,7)).
-answer('urn:example:recursionCount'(8602,2)).
-answer('urn:example:recursionCount'(8603,5)).
-answer('urn:example:recursionCount'(8604,6)).
-answer('urn:example:recursionCount'(8605,3)).
-answer('urn:example:recursionCount'(8606,6)).
-answer('urn:example:recursionCount'(8607,3)).
-answer('urn:example:recursionCount'(8608,6)).
-answer('urn:example:recursionCount'(8609,3)).
-answer('urn:example:recursionCount'(8610,7)).
-answer('urn:example:recursionCount'(8611,5)).
-answer('urn:example:recursionCount'(8612,3)).
-answer('urn:example:recursionCount'(8613,6)).
-answer('urn:example:recursionCount'(8614,5)).
-answer('urn:example:recursionCount'(8615,3)).
-answer('urn:example:recursionCount'(8616,4)).
-answer('urn:example:recursionCount'(8617,3)).
-answer('urn:example:recursionCount'(8618,5)).
-answer('urn:example:recursionCount'(8619,6)).
-answer('urn:example:recursionCount'(8620,2)).
-answer('urn:example:recursionCount'(8621,3)).
-answer('urn:example:recursionCount'(8622,4)).
-answer('urn:example:recursionCount'(8623,3)).
-answer('urn:example:recursionCount'(8624,1)).
-answer('urn:example:recursionCount'(8625,7)).
-answer('urn:example:recursionCount'(8626,6)).
-answer('urn:example:recursionCount'(8627,7)).
-answer('urn:example:recursionCount'(8628,1)).
-answer('urn:example:recursionCount'(8629,5)).
-answer('urn:example:recursionCount'(8630,5)).
-answer('urn:example:recursionCount'(8631,6)).
-answer('urn:example:recursionCount'(8632,3)).
-answer('urn:example:recursionCount'(8633,5)).
-answer('urn:example:recursionCount'(8634,7)).
-answer('urn:example:recursionCount'(8635,7)).
-answer('urn:example:recursionCount'(8636,6)).
-answer('urn:example:recursionCount'(8637,7)).
-answer('urn:example:recursionCount'(8638,7)).
-answer('urn:example:recursionCount'(8639,1)).
-answer('urn:example:recursionCount'(8640,6)).
-answer('urn:example:recursionCount'(8641,5)).
-answer('urn:example:recursionCount'(8642,1)).
-answer('urn:example:recursionCount'(8643,7)).
-answer('urn:example:recursionCount'(8644,2)).
-answer('urn:example:recursionCount'(8645,7)).
-answer('urn:example:recursionCount'(8646,4)).
-answer('urn:example:recursionCount'(8647,7)).
-answer('urn:example:recursionCount'(8648,2)).
-answer('urn:example:recursionCount'(8649,7)).
-answer('urn:example:recursionCount'(8650,3)).
-answer('urn:example:recursionCount'(8651,3)).
-answer('urn:example:recursionCount'(8652,7)).
-answer('urn:example:recursionCount'(8653,7)).
-answer('urn:example:recursionCount'(8654,7)).
-answer('urn:example:recursionCount'(8655,3)).
-answer('urn:example:recursionCount'(8656,6)).
-answer('urn:example:recursionCount'(8657,3)).
-answer('urn:example:recursionCount'(8658,5)).
-answer('urn:example:recursionCount'(8659,2)).
-answer('urn:example:recursionCount'(8660,6)).
-answer('urn:example:recursionCount'(8661,4)).
-answer('urn:example:recursionCount'(8662,6)).
-answer('urn:example:recursionCount'(8663,6)).
-answer('urn:example:recursionCount'(8664,4)).
-answer('urn:example:recursionCount'(8665,6)).
-answer('urn:example:recursionCount'(8666,4)).
-answer('urn:example:recursionCount'(8667,3)).
-answer('urn:example:recursionCount'(8668,6)).
-answer('urn:example:recursionCount'(8669,5)).
-answer('urn:example:recursionCount'(8670,3)).
-answer('urn:example:recursionCount'(8671,3)).
-answer('urn:example:recursionCount'(8672,7)).
-answer('urn:example:recursionCount'(8673,7)).
-answer('urn:example:recursionCount'(8674,7)).
-answer('urn:example:recursionCount'(8675,3)).
-answer('urn:example:recursionCount'(8676,3)).
-answer('urn:example:recursionCount'(8677,4)).
-answer('urn:example:recursionCount'(8678,3)).
-answer('urn:example:recursionCount'(8679,3)).
-answer('urn:example:recursionCount'(8680,6)).
-answer('urn:example:recursionCount'(8681,5)).
-answer('urn:example:recursionCount'(8682,1)).
-answer('urn:example:recursionCount'(8683,7)).
-answer('urn:example:recursionCount'(8684,2)).
-answer('urn:example:recursionCount'(8685,5)).
-answer('urn:example:recursionCount'(8686,6)).
-answer('urn:example:recursionCount'(8687,3)).
-answer('urn:example:recursionCount'(8688,4)).
-answer('urn:example:recursionCount'(8689,6)).
-answer('urn:example:recursionCount'(8690,3)).
-answer('urn:example:recursionCount'(8691,6)).
-answer('urn:example:recursionCount'(8692,5)).
-answer('urn:example:recursionCount'(8693,1)).
-answer('urn:example:recursionCount'(8694,7)).
-answer('urn:example:recursionCount'(8695,2)).
-answer('urn:example:recursionCount'(8696,5)).
-answer('urn:example:recursionCount'(8697,3)).
-answer('urn:example:recursionCount'(8698,6)).
-answer('urn:example:recursionCount'(8699,3)).
-answer('urn:example:recursionCount'(8700,5)).
-answer('urn:example:recursionCount'(8701,2)).
-answer('urn:example:recursionCount'(8702,7)).
-answer('urn:example:recursionCount'(8703,2)).
-answer('urn:example:recursionCount'(8704,5)).
-answer('urn:example:recursionCount'(8705,6)).
-answer('urn:example:recursionCount'(8706,3)).
-answer('urn:example:recursionCount'(8707,6)).
-answer('urn:example:recursionCount'(8708,3)).
-answer('urn:example:recursionCount'(8709,4)).
-answer('urn:example:recursionCount'(8710,2)).
-answer('urn:example:recursionCount'(8711,3)).
-answer('urn:example:recursionCount'(8712,5)).
-answer('urn:example:recursionCount'(8713,3)).
-answer('urn:example:recursionCount'(8714,6)).
-answer('urn:example:recursionCount'(8715,5)).
-answer('urn:example:recursionCount'(8716,3)).
-answer('urn:example:recursionCount'(8717,4)).
-answer('urn:example:recursionCount'(8718,3)).
-answer('urn:example:recursionCount'(8719,3)).
-answer('urn:example:recursionCount'(8720,7)).
-answer('urn:example:recursionCount'(8721,5)).
-answer('urn:example:recursionCount'(8722,5)).
-answer('urn:example:recursionCount'(8723,4)).
-answer('urn:example:recursionCount'(8724,3)).
-answer('urn:example:recursionCount'(8725,1)).
-answer('urn:example:recursionCount'(8726,7)).
-answer('urn:example:recursionCount'(8727,6)).
-answer('urn:example:recursionCount'(8728,7)).
-answer('urn:example:recursionCount'(8729,3)).
-answer('urn:example:recursionCount'(8730,2)).
-answer('urn:example:recursionCount'(8731,3)).
-answer('urn:example:recursionCount'(8732,4)).
-answer('urn:example:recursionCount'(8733,5)).
-answer('urn:example:recursionCount'(8734,5)).
-answer('urn:example:recursionCount'(8735,7)).
-answer('urn:example:recursionCount'(8736,7)).
-answer('urn:example:recursionCount'(8737,6)).
-answer('urn:example:recursionCount'(8738,7)).
-answer('urn:example:recursionCount'(8739,7)).
-answer('urn:example:recursionCount'(8740,5)).
-answer('urn:example:recursionCount'(8741,6)).
-answer('urn:example:recursionCount'(8742,3)).
-answer('urn:example:recursionCount'(8743,5)).
-answer('urn:example:recursionCount'(8744,3)).
-answer('urn:example:recursionCount'(8745,2)).
-answer('urn:example:recursionCount'(8746,7)).
-answer('urn:example:recursionCount'(8747,4)).
-answer('urn:example:recursionCount'(8748,7)).
-answer('urn:example:recursionCount'(8749,7)).
-answer('urn:example:recursionCount'(8750,6)).
-answer('urn:example:recursionCount'(8751,5)).
-answer('urn:example:recursionCount'(8752,1)).
-answer('urn:example:recursionCount'(8753,7)).
-answer('urn:example:recursionCount'(8754,2)).
-answer('urn:example:recursionCount'(8755,5)).
-answer('urn:example:recursionCount'(8756,3)).
-answer('urn:example:recursionCount'(8757,6)).
-answer('urn:example:recursionCount'(8758,3)).
-answer('urn:example:recursionCount'(8759,7)).
-answer('urn:example:recursionCount'(8760,3)).
-answer('urn:example:recursionCount'(8761,3)).
-answer('urn:example:recursionCount'(8762,7)).
-answer('urn:example:recursionCount'(8763,7)).
-answer('urn:example:recursionCount'(8764,7)).
-answer('urn:example:recursionCount'(8765,3)).
-answer('urn:example:recursionCount'(8766,3)).
-answer('urn:example:recursionCount'(8767,4)).
-answer('urn:example:recursionCount'(8768,3)).
-answer('urn:example:recursionCount'(8769,3)).
-answer('urn:example:recursionCount'(8770,6)).
-answer('urn:example:recursionCount'(8771,4)).
-answer('urn:example:recursionCount'(8772,6)).
-answer('urn:example:recursionCount'(8773,6)).
-answer('urn:example:recursionCount'(8774,4)).
-answer('urn:example:recursionCount'(8775,6)).
-answer('urn:example:recursionCount'(8776,4)).
-answer('urn:example:recursionCount'(8777,5)).
-answer('urn:example:recursionCount'(8778,4)).
-answer('urn:example:recursionCount'(8779,3)).
-answer('urn:example:recursionCount'(8780,3)).
-answer('urn:example:recursionCount'(8781,3)).
-answer('urn:example:recursionCount'(8782,7)).
-answer('urn:example:recursionCount'(8783,7)).
-answer('urn:example:recursionCount'(8784,7)).
-answer('urn:example:recursionCount'(8785,3)).
-answer('urn:example:recursionCount'(8786,3)).
-answer('urn:example:recursionCount'(8787,4)).
-answer('urn:example:recursionCount'(8788,5)).
-answer('urn:example:recursionCount'(8789,4)).
-answer('urn:example:recursionCount'(8790,4)).
-answer('urn:example:recursionCount'(8791,3)).
-answer('urn:example:recursionCount'(8792,3)).
-answer('urn:example:recursionCount'(8793,7)).
-answer('urn:example:recursionCount'(8794,7)).
-answer('urn:example:recursionCount'(8795,7)).
-answer('urn:example:recursionCount'(8796,3)).
-answer('urn:example:recursionCount'(8797,3)).
-answer('urn:example:recursionCount'(8798,4)).
-answer('urn:example:recursionCount'(8799,3)).
-answer('urn:example:recursionCount'(8800,6)).
-answer('urn:example:recursionCount'(8801,5)).
-answer('urn:example:recursionCount'(8802,2)).
-answer('urn:example:recursionCount'(8803,7)).
-answer('urn:example:recursionCount'(8804,2)).
-answer('urn:example:recursionCount'(8805,5)).
-answer('urn:example:recursionCount'(8806,6)).
-answer('urn:example:recursionCount'(8807,3)).
-answer('urn:example:recursionCount'(8808,6)).
-answer('urn:example:recursionCount'(8809,4)).
-answer('urn:example:recursionCount'(8810,5)).
-answer('urn:example:recursionCount'(8811,6)).
-answer('urn:example:recursionCount'(8812,3)).
-answer('urn:example:recursionCount'(8813,5)).
-answer('urn:example:recursionCount'(8814,3)).
-answer('urn:example:recursionCount'(8815,6)).
-answer('urn:example:recursionCount'(8816,5)).
-answer('urn:example:recursionCount'(8817,3)).
-answer('urn:example:recursionCount'(8818,4)).
-answer('urn:example:recursionCount'(8819,6)).
-answer('urn:example:recursionCount'(8820,2)).
-answer('urn:example:recursionCount'(8821,3)).
-answer('urn:example:recursionCount'(8822,4)).
-answer('urn:example:recursionCount'(8823,5)).
-answer('urn:example:recursionCount'(8824,4)).
-answer('urn:example:recursionCount'(8825,3)).
-answer('urn:example:recursionCount'(8826,1)).
-answer('urn:example:recursionCount'(8827,7)).
-answer('urn:example:recursionCount'(8828,6)).
-answer('urn:example:recursionCount'(8829,4)).
-answer('urn:example:recursionCount'(8830,7)).
-answer('urn:example:recursionCount'(8831,5)).
-answer('urn:example:recursionCount'(8832,5)).
-answer('urn:example:recursionCount'(8833,5)).
-answer('urn:example:recursionCount'(8834,5)).
-answer('urn:example:recursionCount'(8835,5)).
-answer('urn:example:recursionCount'(8836,7)).
-answer('urn:example:recursionCount'(8837,7)).
-answer('urn:example:recursionCount'(8838,6)).
-answer('urn:example:recursionCount'(8839,6)).
-answer('urn:example:recursionCount'(8840,2)).
-answer('urn:example:recursionCount'(8841,3)).
-answer('urn:example:recursionCount'(8842,4)).
-answer('urn:example:recursionCount'(8843,5)).
-answer('urn:example:recursionCount'(8844,4)).
-answer('urn:example:recursionCount'(8845,3)).
-answer('urn:example:recursionCount'(8846,2)).
-answer('urn:example:recursionCount'(8847,7)).
-answer('urn:example:recursionCount'(8848,4)).
-answer('urn:example:recursionCount'(8849,6)).
-answer('urn:example:recursionCount'(8850,5)).
-answer('urn:example:recursionCount'(8851,6)).
-answer('urn:example:recursionCount'(8852,3)).
-answer('urn:example:recursionCount'(8853,5)).
-answer('urn:example:recursionCount'(8854,3)).
-answer('urn:example:recursionCount'(8855,6)).
-answer('urn:example:recursionCount'(8856,5)).
-answer('urn:example:recursionCount'(8857,3)).
-answer('urn:example:recursionCount'(8858,6)).
-answer('urn:example:recursionCount'(8859,4)).
-answer('urn:example:recursionCount'(8860,6)).
-answer('urn:example:recursionCount'(8861,5)).
-answer('urn:example:recursionCount'(8862,1)).
-answer('urn:example:recursionCount'(8863,7)).
-answer('urn:example:recursionCount'(8864,2)).
-answer('urn:example:recursionCount'(8865,5)).
-answer('urn:example:recursionCount'(8866,6)).
-answer('urn:example:recursionCount'(8867,3)).
-answer('urn:example:recursionCount'(8868,4)).
-answer('urn:example:recursionCount'(8869,6)).
-answer('urn:example:recursionCount'(8870,3)).
-answer('urn:example:recursionCount'(8871,3)).
-answer('urn:example:recursionCount'(8872,7)).
-answer('urn:example:recursionCount'(8873,7)).
-answer('urn:example:recursionCount'(8874,7)).
-answer('urn:example:recursionCount'(8875,3)).
-answer('urn:example:recursionCount'(8876,3)).
-answer('urn:example:recursionCount'(8877,4)).
-answer('urn:example:recursionCount'(8878,5)).
-answer('urn:example:recursionCount'(8879,4)).
-answer('urn:example:recursionCount'(8880,6)).
-answer('urn:example:recursionCount'(8881,4)).
-answer('urn:example:recursionCount'(8882,6)).
-answer('urn:example:recursionCount'(8883,6)).
-answer('urn:example:recursionCount'(8884,4)).
-answer('urn:example:recursionCount'(8885,6)).
-answer('urn:example:recursionCount'(8886,4)).
-answer('urn:example:recursionCount'(8887,5)).
-answer('urn:example:recursionCount'(8889,5)).
-answer('urn:example:recursionCount'(8890,4)).
-answer('urn:example:recursionCount'(8891,6)).
-answer('urn:example:recursionCount'(8892,4)).
-answer('urn:example:recursionCount'(8893,6)).
-answer('urn:example:recursionCount'(8894,6)).
-answer('urn:example:recursionCount'(8895,4)).
-answer('urn:example:recursionCount'(8896,6)).
-answer('urn:example:recursionCount'(8897,4)).
-answer('urn:example:recursionCount'(8898,5)).
-answer('urn:example:recursionCount'(8899,4)).
-answer('urn:example:recursionCount'(8900,3)).
-answer('urn:example:recursionCount'(8901,3)).
-answer('urn:example:recursionCount'(8902,7)).
-answer('urn:example:recursionCount'(8903,7)).
-answer('urn:example:recursionCount'(8904,7)).
-answer('urn:example:recursionCount'(8905,3)).
-answer('urn:example:recursionCount'(8906,3)).
-answer('urn:example:recursionCount'(8907,4)).
-answer('urn:example:recursionCount'(8908,4)).
-answer('urn:example:recursionCount'(8909,4)).
-answer('urn:example:recursionCount'(8910,3)).
-answer('urn:example:recursionCount'(8911,5)).
-answer('urn:example:recursionCount'(8912,2)).
-answer('urn:example:recursionCount'(8913,7)).
-answer('urn:example:recursionCount'(8914,2)).
-answer('urn:example:recursionCount'(8915,5)).
-answer('urn:example:recursionCount'(8916,6)).
-answer('urn:example:recursionCount'(8917,3)).
-answer('urn:example:recursionCount'(8918,6)).
-answer('urn:example:recursionCount'(8919,3)).
-answer('urn:example:recursionCount'(8920,7)).
-answer('urn:example:recursionCount'(8921,2)).
-answer('urn:example:recursionCount'(8922,3)).
-answer('urn:example:recursionCount'(8923,5)).
-answer('urn:example:recursionCount'(8924,3)).
-answer('urn:example:recursionCount'(8925,6)).
-answer('urn:example:recursionCount'(8926,5)).
-answer('urn:example:recursionCount'(8927,3)).
-answer('urn:example:recursionCount'(8928,4)).
-answer('urn:example:recursionCount'(8929,3)).
-answer('urn:example:recursionCount'(8930,7)).
-answer('urn:example:recursionCount'(8931,7)).
-answer('urn:example:recursionCount'(8932,5)).
-answer('urn:example:recursionCount'(8933,5)).
-answer('urn:example:recursionCount'(8934,4)).
-answer('urn:example:recursionCount'(8935,3)).
-answer('urn:example:recursionCount'(8936,1)).
-answer('urn:example:recursionCount'(8937,7)).
-answer('urn:example:recursionCount'(8938,6)).
-answer('urn:example:recursionCount'(8939,7)).
-answer('urn:example:recursionCount'(8940,7)).
-answer('urn:example:recursionCount'(8941,2)).
-answer('urn:example:recursionCount'(8942,3)).
-answer('urn:example:recursionCount'(8943,4)).
-answer('urn:example:recursionCount'(8944,5)).
-answer('urn:example:recursionCount'(8945,5)).
-answer('urn:example:recursionCount'(8946,7)).
-answer('urn:example:recursionCount'(8947,7)).
-answer('urn:example:recursionCount'(8948,6)).
-answer('urn:example:recursionCount'(8949,7)).
-answer('urn:example:recursionCount'(8950,3)).
-answer('urn:example:recursionCount'(8951,5)).
-answer('urn:example:recursionCount'(8952,6)).
-answer('urn:example:recursionCount'(8953,3)).
-answer('urn:example:recursionCount'(8954,5)).
-answer('urn:example:recursionCount'(8955,3)).
-answer('urn:example:recursionCount'(8956,2)).
-answer('urn:example:recursionCount'(8957,7)).
-answer('urn:example:recursionCount'(8958,4)).
-answer('urn:example:recursionCount'(8959,7)).
-answer('urn:example:recursionCount'(8960,3)).
-answer('urn:example:recursionCount'(8961,6)).
-answer('urn:example:recursionCount'(8962,5)).
-answer('urn:example:recursionCount'(8963,1)).
-answer('urn:example:recursionCount'(8964,7)).
-answer('urn:example:recursionCount'(8965,2)).
-answer('urn:example:recursionCount'(8966,5)).
-answer('urn:example:recursionCount'(8967,3)).
-answer('urn:example:recursionCount'(8968,6)).
-answer('urn:example:recursionCount'(8969,3)).
-answer('urn:example:recursionCount'(8970,4)).
-answer('urn:example:recursionCount'(8971,3)).
-answer('urn:example:recursionCount'(8972,3)).
-answer('urn:example:recursionCount'(8973,7)).
-answer('urn:example:recursionCount'(8974,7)).
-answer('urn:example:recursionCount'(8975,7)).
-answer('urn:example:recursionCount'(8976,3)).
-answer('urn:example:recursionCount'(8977,3)).
-answer('urn:example:recursionCount'(8978,4)).
-answer('urn:example:recursionCount'(8979,3)).
-answer('urn:example:recursionCount'(8980,4)).
-answer('urn:example:recursionCount'(8981,6)).
-answer('urn:example:recursionCount'(8982,4)).
-answer('urn:example:recursionCount'(8983,6)).
-answer('urn:example:recursionCount'(8984,6)).
-answer('urn:example:recursionCount'(8985,4)).
-answer('urn:example:recursionCount'(8986,6)).
-answer('urn:example:recursionCount'(8987,4)).
-answer('urn:example:recursionCount'(8988,5)).
-answer('urn:example:recursionCount'(8989,4)).
-answer('urn:example:recursionCount'(8990,4)).
-answer('urn:example:recursionCount'(8991,3)).
-answer('urn:example:recursionCount'(8992,3)).
-answer('urn:example:recursionCount'(8993,7)).
-answer('urn:example:recursionCount'(8994,7)).
-answer('urn:example:recursionCount'(8995,7)).
-answer('urn:example:recursionCount'(8996,3)).
-answer('urn:example:recursionCount'(8997,3)).
-answer('urn:example:recursionCount'(8998,4)).
-answer('urn:example:recursionCount'(8999,5)).
-answer('urn:example:recursionCount'(9000,4)).
-answer('urn:example:recursionCount'(9001,4)).
-answer('urn:example:recursionCount'(9002,3)).
-answer('urn:example:recursionCount'(9003,3)).
-answer('urn:example:recursionCount'(9004,7)).
-answer('urn:example:recursionCount'(9005,7)).
-answer('urn:example:recursionCount'(9006,7)).
-answer('urn:example:recursionCount'(9007,3)).
-answer('urn:example:recursionCount'(9008,3)).
-answer('urn:example:recursionCount'(9009,4)).
-answer('urn:example:recursionCount'(9010,4)).
-answer('urn:example:recursionCount'(9011,4)).
-answer('urn:example:recursionCount'(9012,4)).
-answer('urn:example:recursionCount'(9013,3)).
-answer('urn:example:recursionCount'(9014,3)).
-answer('urn:example:recursionCount'(9015,7)).
-answer('urn:example:recursionCount'(9016,7)).
-answer('urn:example:recursionCount'(9017,7)).
-answer('urn:example:recursionCount'(9018,3)).
-answer('urn:example:recursionCount'(9019,3)).
-answer('urn:example:recursionCount'(9020,3)).
-answer('urn:example:recursionCount'(9021,4)).
-answer('urn:example:recursionCount'(9022,4)).
-answer('urn:example:recursionCount'(9023,4)).
-answer('urn:example:recursionCount'(9024,3)).
-answer('urn:example:recursionCount'(9025,3)).
-answer('urn:example:recursionCount'(9026,7)).
-answer('urn:example:recursionCount'(9027,7)).
-answer('urn:example:recursionCount'(9028,7)).
-answer('urn:example:recursionCount'(9029,3)).
-answer('urn:example:recursionCount'(9030,3)).
-answer('urn:example:recursionCount'(9031,3)).
-answer('urn:example:recursionCount'(9032,4)).
-answer('urn:example:recursionCount'(9033,4)).
-answer('urn:example:recursionCount'(9034,4)).
-answer('urn:example:recursionCount'(9035,3)).
-answer('urn:example:recursionCount'(9036,3)).
-answer('urn:example:recursionCount'(9037,7)).
-answer('urn:example:recursionCount'(9038,7)).
-answer('urn:example:recursionCount'(9039,7)).
-answer('urn:example:recursionCount'(9040,7)).
-answer('urn:example:recursionCount'(9041,3)).
-answer('urn:example:recursionCount'(9042,3)).
-answer('urn:example:recursionCount'(9043,4)).
-answer('urn:example:recursionCount'(9044,4)).
-answer('urn:example:recursionCount'(9045,4)).
-answer('urn:example:recursionCount'(9046,3)).
-answer('urn:example:recursionCount'(9047,3)).
-answer('urn:example:recursionCount'(9048,7)).
-answer('urn:example:recursionCount'(9049,7)).
-answer('urn:example:recursionCount'(9050,7)).
-answer('urn:example:recursionCount'(9051,7)).
-answer('urn:example:recursionCount'(9052,3)).
-answer('urn:example:recursionCount'(9053,3)).
-answer('urn:example:recursionCount'(9054,4)).
-answer('urn:example:recursionCount'(9055,4)).
-answer('urn:example:recursionCount'(9056,4)).
-answer('urn:example:recursionCount'(9057,3)).
-answer('urn:example:recursionCount'(9058,3)).
-answer('urn:example:recursionCount'(9059,7)).
-answer('urn:example:recursionCount'(9060,7)).
-answer('urn:example:recursionCount'(9061,7)).
-answer('urn:example:recursionCount'(9062,7)).
-answer('urn:example:recursionCount'(9063,3)).
-answer('urn:example:recursionCount'(9064,3)).
-answer('urn:example:recursionCount'(9065,4)).
-answer('urn:example:recursionCount'(9066,4)).
-answer('urn:example:recursionCount'(9067,4)).
-answer('urn:example:recursionCount'(9068,3)).
-answer('urn:example:recursionCount'(9069,3)).
-answer('urn:example:recursionCount'(9070,3)).
-answer('urn:example:recursionCount'(9071,7)).
-answer('urn:example:recursionCount'(9072,7)).
-answer('urn:example:recursionCount'(9073,7)).
-answer('urn:example:recursionCount'(9074,3)).
-answer('urn:example:recursionCount'(9075,3)).
-answer('urn:example:recursionCount'(9076,4)).
-answer('urn:example:recursionCount'(9077,4)).
-answer('urn:example:recursionCount'(9078,4)).
-answer('urn:example:recursionCount'(9079,3)).
-answer('urn:example:recursionCount'(9080,3)).
-answer('urn:example:recursionCount'(9081,3)).
-answer('urn:example:recursionCount'(9082,7)).
-answer('urn:example:recursionCount'(9083,7)).
-answer('urn:example:recursionCount'(9084,7)).
-answer('urn:example:recursionCount'(9085,3)).
-answer('urn:example:recursionCount'(9086,3)).
-answer('urn:example:recursionCount'(9087,4)).
-answer('urn:example:recursionCount'(9088,4)).
-answer('urn:example:recursionCount'(9089,4)).
-answer('urn:example:recursionCount'(9090,4)).
-answer('urn:example:recursionCount'(9091,3)).
-answer('urn:example:recursionCount'(9092,3)).
-answer('urn:example:recursionCount'(9093,7)).
-answer('urn:example:recursionCount'(9094,7)).
-answer('urn:example:recursionCount'(9095,7)).
-answer('urn:example:recursionCount'(9096,3)).
-answer('urn:example:recursionCount'(9097,3)).
-answer('urn:example:recursionCount'(9098,4)).
-answer('urn:example:recursionCount'(9099,4)).
-answer('urn:example:recursionCount'(9100,4)).
-answer('urn:example:recursionCount'(9101,4)).
-answer('urn:example:recursionCount'(9102,4)).
-answer('urn:example:recursionCount'(9103,3)).
-answer('urn:example:recursionCount'(9104,3)).
-answer('urn:example:recursionCount'(9105,7)).
-answer('urn:example:recursionCount'(9106,7)).
-answer('urn:example:recursionCount'(9107,7)).
-answer('urn:example:recursionCount'(9108,3)).
-answer('urn:example:recursionCount'(9109,3)).
-answer('urn:example:recursionCount'(9110,4)).
-answer('urn:example:recursionCount'(9111,6)).
-answer('urn:example:recursionCount'(9112,3)).
-answer('urn:example:recursionCount'(9113,6)).
-answer('urn:example:recursionCount'(9114,5)).
-answer('urn:example:recursionCount'(9115,2)).
-answer('urn:example:recursionCount'(9116,7)).
-answer('urn:example:recursionCount'(9117,2)).
-answer('urn:example:recursionCount'(9118,5)).
-answer('urn:example:recursionCount'(9119,6)).
-answer('urn:example:recursionCount'(9120,4)).
-answer('urn:example:recursionCount'(9121,3)).
-answer('urn:example:recursionCount'(9122,6)).
-answer('urn:example:recursionCount'(9123,3)).
-answer('urn:example:recursionCount'(9124,6)).
-answer('urn:example:recursionCount'(9125,5)).
-answer('urn:example:recursionCount'(9126,2)).
-answer('urn:example:recursionCount'(9127,7)).
-answer('urn:example:recursionCount'(9128,2)).
-answer('urn:example:recursionCount'(9129,5)).
-answer('urn:example:recursionCount'(9130,3)).
-answer('urn:example:recursionCount'(9131,6)).
-answer('urn:example:recursionCount'(9132,3)).
-answer('urn:example:recursionCount'(9133,6)).
-answer('urn:example:recursionCount'(9134,3)).
-answer('urn:example:recursionCount'(9135,6)).
-answer('urn:example:recursionCount'(9136,5)).
-answer('urn:example:recursionCount'(9137,2)).
-answer('urn:example:recursionCount'(9138,7)).
-answer('urn:example:recursionCount'(9139,2)).
-answer('urn:example:recursionCount'(9140,3)).
-answer('urn:example:recursionCount'(9141,5)).
-answer('urn:example:recursionCount'(9142,6)).
-answer('urn:example:recursionCount'(9143,3)).
-answer('urn:example:recursionCount'(9144,6)).
-answer('urn:example:recursionCount'(9145,3)).
-answer('urn:example:recursionCount'(9146,6)).
-answer('urn:example:recursionCount'(9147,5)).
-answer('urn:example:recursionCount'(9148,2)).
-answer('urn:example:recursionCount'(9149,7)).
-answer('urn:example:recursionCount'(9150,7)).
-answer('urn:example:recursionCount'(9151,2)).
-answer('urn:example:recursionCount'(9152,5)).
-answer('urn:example:recursionCount'(9153,6)).
-answer('urn:example:recursionCount'(9154,3)).
-answer('urn:example:recursionCount'(9155,6)).
-answer('urn:example:recursionCount'(9156,3)).
-answer('urn:example:recursionCount'(9157,6)).
-answer('urn:example:recursionCount'(9158,5)).
-answer('urn:example:recursionCount'(9159,2)).
-answer('urn:example:recursionCount'(9160,7)).
-answer('urn:example:recursionCount'(9161,7)).
-answer('urn:example:recursionCount'(9162,2)).
-answer('urn:example:recursionCount'(9163,5)).
-answer('urn:example:recursionCount'(9164,6)).
-answer('urn:example:recursionCount'(9165,3)).
-answer('urn:example:recursionCount'(9166,6)).
-answer('urn:example:recursionCount'(9167,3)).
-answer('urn:example:recursionCount'(9168,6)).
-answer('urn:example:recursionCount'(9169,5)).
-answer('urn:example:recursionCount'(9170,7)).
-answer('urn:example:recursionCount'(9171,2)).
-answer('urn:example:recursionCount'(9172,7)).
-answer('urn:example:recursionCount'(9173,2)).
-answer('urn:example:recursionCount'(9174,5)).
-answer('urn:example:recursionCount'(9175,6)).
-answer('urn:example:recursionCount'(9176,3)).
-answer('urn:example:recursionCount'(9177,6)).
-answer('urn:example:recursionCount'(9178,3)).
-answer('urn:example:recursionCount'(9179,6)).
-answer('urn:example:recursionCount'(9180,3)).
-answer('urn:example:recursionCount'(9181,5)).
-answer('urn:example:recursionCount'(9182,2)).
-answer('urn:example:recursionCount'(9183,7)).
-answer('urn:example:recursionCount'(9184,2)).
-answer('urn:example:recursionCount'(9185,5)).
-answer('urn:example:recursionCount'(9186,6)).
-answer('urn:example:recursionCount'(9187,3)).
-answer('urn:example:recursionCount'(9188,6)).
-answer('urn:example:recursionCount'(9189,3)).
-answer('urn:example:recursionCount'(9190,3)).
-answer('urn:example:recursionCount'(9191,6)).
-answer('urn:example:recursionCount'(9192,5)).
-answer('urn:example:recursionCount'(9193,2)).
-answer('urn:example:recursionCount'(9194,7)).
-answer('urn:example:recursionCount'(9195,2)).
-answer('urn:example:recursionCount'(9196,5)).
-answer('urn:example:recursionCount'(9197,6)).
-answer('urn:example:recursionCount'(9198,3)).
-answer('urn:example:recursionCount'(9199,6)).
-answer('urn:example:recursionCount'(9200,3)).
-answer('urn:example:recursionCount'(9201,4)).
-answer('urn:example:recursionCount'(9202,4)).
-answer('urn:example:recursionCount'(9203,4)).
-answer('urn:example:recursionCount'(9204,3)).
-answer('urn:example:recursionCount'(9205,3)).
-answer('urn:example:recursionCount'(9206,7)).
-answer('urn:example:recursionCount'(9207,7)).
-answer('urn:example:recursionCount'(9208,7)).
-answer('urn:example:recursionCount'(9209,3)).
-answer('urn:example:recursionCount'(9210,4)).
-answer('urn:example:recursionCount'(9211,3)).
-answer('urn:example:recursionCount'(9212,6)).
-answer('urn:example:recursionCount'(9213,3)).
-answer('urn:example:recursionCount'(9214,6)).
-answer('urn:example:recursionCount'(9215,5)).
-answer('urn:example:recursionCount'(9216,2)).
-answer('urn:example:recursionCount'(9217,7)).
-answer('urn:example:recursionCount'(9218,2)).
-answer('urn:example:recursionCount'(9219,5)).
-answer('urn:example:recursionCount'(9220,4)).
-answer('urn:example:recursionCount'(9221,6)).
-answer('urn:example:recursionCount'(9222,4)).
-answer('urn:example:recursionCount'(9223,3)).
-answer('urn:example:recursionCount'(9224,5)).
-answer('urn:example:recursionCount'(9225,6)).
-answer('urn:example:recursionCount'(9226,3)).
-answer('urn:example:recursionCount'(9227,5)).
-answer('urn:example:recursionCount'(9228,3)).
-answer('urn:example:recursionCount'(9229,6)).
-answer('urn:example:recursionCount'(9230,4)).
-answer('urn:example:recursionCount'(9231,3)).
-answer('urn:example:recursionCount'(9232,3)).
-answer('urn:example:recursionCount'(9233,4)).
-answer('urn:example:recursionCount'(9234,3)).
-answer('urn:example:recursionCount'(9235,5)).
-answer('urn:example:recursionCount'(9236,6)).
-answer('urn:example:recursionCount'(9237,3)).
-answer('urn:example:recursionCount'(9238,5)).
-answer('urn:example:recursionCount'(9239,3)).
-answer('urn:example:recursionCount'(9240,3)).
-answer('urn:example:recursionCount'(9241,6)).
-answer('urn:example:recursionCount'(9242,5)).
-answer('urn:example:recursionCount'(9243,3)).
-answer('urn:example:recursionCount'(9244,4)).
-answer('urn:example:recursionCount'(9245,3)).
-answer('urn:example:recursionCount'(9246,5)).
-answer('urn:example:recursionCount'(9247,6)).
-answer('urn:example:recursionCount'(9248,3)).
-answer('urn:example:recursionCount'(9249,5)).
-answer('urn:example:recursionCount'(9250,3)).
-answer('urn:example:recursionCount'(9251,5)).
-answer('urn:example:recursionCount'(9252,6)).
-answer('urn:example:recursionCount'(9253,5)).
-answer('urn:example:recursionCount'(9254,3)).
-answer('urn:example:recursionCount'(9255,4)).
-answer('urn:example:recursionCount'(9256,3)).
-answer('urn:example:recursionCount'(9257,5)).
-answer('urn:example:recursionCount'(9258,6)).
-answer('urn:example:recursionCount'(9259,3)).
-answer('urn:example:recursionCount'(9260,7)).
-answer('urn:example:recursionCount'(9261,2)).
-answer('urn:example:recursionCount'(9262,3)).
-answer('urn:example:recursionCount'(9263,6)).
-answer('urn:example:recursionCount'(9264,5)).
-answer('urn:example:recursionCount'(9265,3)).
-answer('urn:example:recursionCount'(9266,4)).
-answer('urn:example:recursionCount'(9267,3)).
-answer('urn:example:recursionCount'(9268,5)).
-answer('urn:example:recursionCount'(9269,6)).
-answer('urn:example:recursionCount'(9270,7)).
-answer('urn:example:recursionCount'(9271,7)).
-answer('urn:example:recursionCount'(9272,5)).
-answer('urn:example:recursionCount'(9273,3)).
-answer('urn:example:recursionCount'(9274,6)).
-answer('urn:example:recursionCount'(9275,5)).
-answer('urn:example:recursionCount'(9276,3)).
-answer('urn:example:recursionCount'(9277,4)).
-answer('urn:example:recursionCount'(9278,3)).
-answer('urn:example:recursionCount'(9279,5)).
-answer('urn:example:recursionCount'(9280,7)).
-answer('urn:example:recursionCount'(9281,2)).
-answer('urn:example:recursionCount'(9282,3)).
-answer('urn:example:recursionCount'(9283,5)).
-answer('urn:example:recursionCount'(9284,3)).
-answer('urn:example:recursionCount'(9285,6)).
-answer('urn:example:recursionCount'(9286,5)).
-answer('urn:example:recursionCount'(9287,3)).
-answer('urn:example:recursionCount'(9288,4)).
-answer('urn:example:recursionCount'(9289,3)).
-answer('urn:example:recursionCount'(9290,3)).
-answer('urn:example:recursionCount'(9291,5)).
-answer('urn:example:recursionCount'(9292,6)).
-answer('urn:example:recursionCount'(9293,3)).
-answer('urn:example:recursionCount'(9294,5)).
-answer('urn:example:recursionCount'(9295,3)).
-answer('urn:example:recursionCount'(9296,6)).
-answer('urn:example:recursionCount'(9297,5)).
-answer('urn:example:recursionCount'(9298,3)).
-answer('urn:example:recursionCount'(9299,4)).
-answer('urn:example:recursionCount'(9300,3)).
-answer('urn:example:recursionCount'(9301,3)).
-answer('urn:example:recursionCount'(9302,4)).
-answer('urn:example:recursionCount'(9303,4)).
-answer('urn:example:recursionCount'(9304,4)).
-answer('urn:example:recursionCount'(9305,3)).
-answer('urn:example:recursionCount'(9306,3)).
-answer('urn:example:recursionCount'(9307,7)).
-answer('urn:example:recursionCount'(9308,7)).
-answer('urn:example:recursionCount'(9309,7)).
-answer('urn:example:recursionCount'(9310,3)).
-answer('urn:example:recursionCount'(9311,6)).
-answer('urn:example:recursionCount'(9312,3)).
-answer('urn:example:recursionCount'(9313,6)).
-answer('urn:example:recursionCount'(9314,3)).
-answer('urn:example:recursionCount'(9315,6)).
-answer('urn:example:recursionCount'(9316,5)).
-answer('urn:example:recursionCount'(9317,2)).
-answer('urn:example:recursionCount'(9318,7)).
-answer('urn:example:recursionCount'(9319,2)).
-answer('urn:example:recursionCount'(9320,4)).
-answer('urn:example:recursionCount'(9321,3)).
-answer('urn:example:recursionCount'(9322,3)).
-answer('urn:example:recursionCount'(9323,4)).
-answer('urn:example:recursionCount'(9324,3)).
-answer('urn:example:recursionCount'(9325,5)).
-answer('urn:example:recursionCount'(9326,6)).
-answer('urn:example:recursionCount'(9327,3)).
-answer('urn:example:recursionCount'(9328,5)).
-answer('urn:example:recursionCount'(9329,3)).
-answer('urn:example:recursionCount'(9330,4)).
-answer('urn:example:recursionCount'(9331,6)).
-answer('urn:example:recursionCount'(9332,4)).
-answer('urn:example:recursionCount'(9333,6)).
-answer('urn:example:recursionCount'(9334,7)).
-answer('urn:example:recursionCount'(9335,1)).
-answer('urn:example:recursionCount'(9336,3)).
-answer('urn:example:recursionCount'(9337,4)).
-answer('urn:example:recursionCount'(9338,5)).
-answer('urn:example:recursionCount'(9339,4)).
-answer('urn:example:recursionCount'(9340,4)).
-answer('urn:example:recursionCount'(9341,3)).
-answer('urn:example:recursionCount'(9342,3)).
-answer('urn:example:recursionCount'(9343,7)).
-answer('urn:example:recursionCount'(9344,6)).
-answer('urn:example:recursionCount'(9345,7)).
-answer('urn:example:recursionCount'(9346,1)).
-answer('urn:example:recursionCount'(9347,3)).
-answer('urn:example:recursionCount'(9348,4)).
-answer('urn:example:recursionCount'(9349,5)).
-answer('urn:example:recursionCount'(9350,3)).
-answer('urn:example:recursionCount'(9351,6)).
-answer('urn:example:recursionCount'(9352,5)).
-answer('urn:example:recursionCount'(9353,1)).
-answer('urn:example:recursionCount'(9354,7)).
-answer('urn:example:recursionCount'(9355,6)).
-answer('urn:example:recursionCount'(9356,7)).
-answer('urn:example:recursionCount'(9357,1)).
-answer('urn:example:recursionCount'(9358,3)).
-answer('urn:example:recursionCount'(9359,4)).
-answer('urn:example:recursionCount'(9360,3)).
-answer('urn:example:recursionCount'(9361,5)).
-answer('urn:example:recursionCount'(9362,6)).
-answer('urn:example:recursionCount'(9363,3)).
-answer('urn:example:recursionCount'(9364,1)).
-answer('urn:example:recursionCount'(9365,7)).
-answer('urn:example:recursionCount'(9366,6)).
-answer('urn:example:recursionCount'(9367,7)).
-answer('urn:example:recursionCount'(9368,1)).
-answer('urn:example:recursionCount'(9369,3)).
-answer('urn:example:recursionCount'(9370,7)).
-answer('urn:example:recursionCount'(9371,2)).
-answer('urn:example:recursionCount'(9372,3)).
-answer('urn:example:recursionCount'(9373,4)).
-answer('urn:example:recursionCount'(9374,3)).
-answer('urn:example:recursionCount'(9375,1)).
-answer('urn:example:recursionCount'(9376,7)).
-answer('urn:example:recursionCount'(9377,6)).
-answer('urn:example:recursionCount'(9378,7)).
-answer('urn:example:recursionCount'(9379,1)).
-answer('urn:example:recursionCount'(9380,7)).
-answer('urn:example:recursionCount'(9381,7)).
-answer('urn:example:recursionCount'(9382,5)).
-answer('urn:example:recursionCount'(9383,5)).
-answer('urn:example:recursionCount'(9384,4)).
-answer('urn:example:recursionCount'(9385,3)).
-answer('urn:example:recursionCount'(9386,1)).
-answer('urn:example:recursionCount'(9387,7)).
-answer('urn:example:recursionCount'(9388,6)).
-answer('urn:example:recursionCount'(9389,7)).
-answer('urn:example:recursionCount'(9390,7)).
-answer('urn:example:recursionCount'(9391,2)).
-answer('urn:example:recursionCount'(9392,3)).
-answer('urn:example:recursionCount'(9393,4)).
-answer('urn:example:recursionCount'(9394,5)).
-answer('urn:example:recursionCount'(9395,4)).
-answer('urn:example:recursionCount'(9396,3)).
-answer('urn:example:recursionCount'(9397,1)).
-answer('urn:example:recursionCount'(9398,7)).
-answer('urn:example:recursionCount'(9399,6)).
-answer('urn:example:recursionCount'(9400,7)).
-answer('urn:example:recursionCount'(9401,3)).
-answer('urn:example:recursionCount'(9402,3)).
-answer('urn:example:recursionCount'(9403,4)).
-answer('urn:example:recursionCount'(9404,4)).
-answer('urn:example:recursionCount'(9405,4)).
-answer('urn:example:recursionCount'(9406,3)).
-answer('urn:example:recursionCount'(9407,3)).
-answer('urn:example:recursionCount'(9408,7)).
-answer('urn:example:recursionCount'(9409,7)).
-answer('urn:example:recursionCount'(9410,3)).
-answer('urn:example:recursionCount'(9411,5)).
-answer('urn:example:recursionCount'(9412,6)).
-answer('urn:example:recursionCount'(9413,3)).
-answer('urn:example:recursionCount'(9414,6)).
-answer('urn:example:recursionCount'(9415,3)).
-answer('urn:example:recursionCount'(9416,6)).
-answer('urn:example:recursionCount'(9417,5)).
-answer('urn:example:recursionCount'(9418,2)).
-answer('urn:example:recursionCount'(9419,7)).
-answer('urn:example:recursionCount'(9420,3)).
-answer('urn:example:recursionCount'(9421,6)).
-answer('urn:example:recursionCount'(9422,5)).
-answer('urn:example:recursionCount'(9423,3)).
-answer('urn:example:recursionCount'(9424,4)).
-answer('urn:example:recursionCount'(9425,3)).
-answer('urn:example:recursionCount'(9426,5)).
-answer('urn:example:recursionCount'(9427,6)).
-answer('urn:example:recursionCount'(9428,3)).
-answer('urn:example:recursionCount'(9429,5)).
-answer('urn:example:recursionCount'(9430,4)).
-answer('urn:example:recursionCount'(9431,3)).
-answer('urn:example:recursionCount'(9432,3)).
-answer('urn:example:recursionCount'(9433,7)).
-answer('urn:example:recursionCount'(9434,6)).
-answer('urn:example:recursionCount'(9435,7)).
-answer('urn:example:recursionCount'(9436,1)).
-answer('urn:example:recursionCount'(9437,3)).
-answer('urn:example:recursionCount'(9438,4)).
-answer('urn:example:recursionCount'(9439,5)).
-answer('urn:example:recursionCount'(9440,4)).
-answer('urn:example:recursionCount'(9441,6)).
-answer('urn:example:recursionCount'(9442,4)).
-answer('urn:example:recursionCount'(9443,6)).
-answer('urn:example:recursionCount'(9444,6)).
-answer('urn:example:recursionCount'(9445,7)).
-answer('urn:example:recursionCount'(9446,7)).
-answer('urn:example:recursionCount'(9447,5)).
-answer('urn:example:recursionCount'(9448,5)).
-answer('urn:example:recursionCount'(9449,5)).
-answer('urn:example:recursionCount'(9450,4)).
-answer('urn:example:recursionCount'(9451,3)).
-answer('urn:example:recursionCount'(9452,3)).
-answer('urn:example:recursionCount'(9453,7)).
-answer('urn:example:recursionCount'(9454,7)).
-answer('urn:example:recursionCount'(9455,6)).
-answer('urn:example:recursionCount'(9456,7)).
-answer('urn:example:recursionCount'(9457,7)).
-answer('urn:example:recursionCount'(9458,5)).
-answer('urn:example:recursionCount'(9459,5)).
-answer('urn:example:recursionCount'(9460,3)).
-answer('urn:example:recursionCount'(9461,6)).
-answer('urn:example:recursionCount'(9462,5)).
-answer('urn:example:recursionCount'(9463,1)).
-answer('urn:example:recursionCount'(9464,7)).
-answer('urn:example:recursionCount'(9465,7)).
-answer('urn:example:recursionCount'(9466,6)).
-answer('urn:example:recursionCount'(9467,7)).
-answer('urn:example:recursionCount'(9468,7)).
-answer('urn:example:recursionCount'(9469,5)).
-answer('urn:example:recursionCount'(9470,3)).
-answer('urn:example:recursionCount'(9471,5)).
-answer('urn:example:recursionCount'(9472,6)).
-answer('urn:example:recursionCount'(9473,3)).
-answer('urn:example:recursionCount'(9474,5)).
-answer('urn:example:recursionCount'(9475,7)).
-answer('urn:example:recursionCount'(9476,7)).
-answer('urn:example:recursionCount'(9477,6)).
-answer('urn:example:recursionCount'(9478,7)).
-answer('urn:example:recursionCount'(9479,7)).
-answer('urn:example:recursionCount'(9480,7)).
-answer('urn:example:recursionCount'(9481,2)).
-answer('urn:example:recursionCount'(9482,3)).
-answer('urn:example:recursionCount'(9483,4)).
-answer('urn:example:recursionCount'(9484,5)).
-answer('urn:example:recursionCount'(9485,5)).
-answer('urn:example:recursionCount'(9486,7)).
-answer('urn:example:recursionCount'(9487,7)).
-answer('urn:example:recursionCount'(9488,6)).
-answer('urn:example:recursionCount'(9489,7)).
-answer('urn:example:recursionCount'(9490,7)).
-answer('urn:example:recursionCount'(9491,7)).
-answer('urn:example:recursionCount'(9492,5)).
-answer('urn:example:recursionCount'(9493,5)).
-answer('urn:example:recursionCount'(9494,5)).
-answer('urn:example:recursionCount'(9495,5)).
-answer('urn:example:recursionCount'(9496,5)).
-answer('urn:example:recursionCount'(9497,7)).
-answer('urn:example:recursionCount'(9498,7)).
-answer('urn:example:recursionCount'(9499,6)).
-answer('urn:example:recursionCount'(9500,7)).
-answer('urn:example:recursionCount'(9501,7)).
-answer('urn:example:recursionCount'(9502,3)).
-answer('urn:example:recursionCount'(9503,3)).
-answer('urn:example:recursionCount'(9504,4)).
-answer('urn:example:recursionCount'(9505,4)).
-answer('urn:example:recursionCount'(9506,4)).
-answer('urn:example:recursionCount'(9507,3)).
-answer('urn:example:recursionCount'(9508,3)).
-answer('urn:example:recursionCount'(9509,7)).
-answer('urn:example:recursionCount'(9510,7)).
-answer('urn:example:recursionCount'(9511,2)).
-answer('urn:example:recursionCount'(9512,5)).
-answer('urn:example:recursionCount'(9513,6)).
-answer('urn:example:recursionCount'(9514,3)).
-answer('urn:example:recursionCount'(9515,6)).
-answer('urn:example:recursionCount'(9516,3)).
-answer('urn:example:recursionCount'(9517,6)).
-answer('urn:example:recursionCount'(9518,5)).
-answer('urn:example:recursionCount'(9519,2)).
-answer('urn:example:recursionCount'(9520,3)).
-answer('urn:example:recursionCount'(9521,5)).
-answer('urn:example:recursionCount'(9522,6)).
-answer('urn:example:recursionCount'(9523,5)).
-answer('urn:example:recursionCount'(9524,3)).
-answer('urn:example:recursionCount'(9525,4)).
-answer('urn:example:recursionCount'(9526,3)).
-answer('urn:example:recursionCount'(9527,5)).
-answer('urn:example:recursionCount'(9528,6)).
-answer('urn:example:recursionCount'(9529,3)).
-answer('urn:example:recursionCount'(9530,3)).
-answer('urn:example:recursionCount'(9531,6)).
-answer('urn:example:recursionCount'(9532,5)).
-answer('urn:example:recursionCount'(9533,1)).
-answer('urn:example:recursionCount'(9534,7)).
-answer('urn:example:recursionCount'(9535,6)).
-answer('urn:example:recursionCount'(9536,7)).
-answer('urn:example:recursionCount'(9537,1)).
-answer('urn:example:recursionCount'(9538,3)).
-answer('urn:example:recursionCount'(9539,4)).
-answer('urn:example:recursionCount'(9540,4)).
-answer('urn:example:recursionCount'(9541,3)).
-answer('urn:example:recursionCount'(9542,3)).
-answer('urn:example:recursionCount'(9543,7)).
-answer('urn:example:recursionCount'(9544,7)).
-answer('urn:example:recursionCount'(9545,6)).
-answer('urn:example:recursionCount'(9546,7)).
-answer('urn:example:recursionCount'(9547,7)).
-answer('urn:example:recursionCount'(9548,5)).
-answer('urn:example:recursionCount'(9549,5)).
-answer('urn:example:recursionCount'(9550,4)).
-answer('urn:example:recursionCount'(9551,6)).
-answer('urn:example:recursionCount'(9552,4)).
-answer('urn:example:recursionCount'(9553,6)).
-answer('urn:example:recursionCount'(9554,6)).
-answer('urn:example:recursionCount'(9555,4)).
-answer('urn:example:recursionCount'(9556,7)).
-answer('urn:example:recursionCount'(9557,2)).
-answer('urn:example:recursionCount'(9558,3)).
-answer('urn:example:recursionCount'(9559,4)).
-answer('urn:example:recursionCount'(9560,4)).
-answer('urn:example:recursionCount'(9561,3)).
-answer('urn:example:recursionCount'(9562,3)).
-answer('urn:example:recursionCount'(9563,7)).
-answer('urn:example:recursionCount'(9564,7)).
-answer('urn:example:recursionCount'(9565,7)).
-answer('urn:example:recursionCount'(9566,4)).
-answer('urn:example:recursionCount'(9567,7)).
-answer('urn:example:recursionCount'(9568,2)).
-answer('urn:example:recursionCount'(9569,3)).
-answer('urn:example:recursionCount'(9570,3)).
-answer('urn:example:recursionCount'(9571,6)).
-answer('urn:example:recursionCount'(9572,5)).
-answer('urn:example:recursionCount'(9573,1)).
-answer('urn:example:recursionCount'(9574,7)).
-answer('urn:example:recursionCount'(9575,2)).
-answer('urn:example:recursionCount'(9576,7)).
-answer('urn:example:recursionCount'(9577,4)).
-answer('urn:example:recursionCount'(9578,7)).
-answer('urn:example:recursionCount'(9579,2)).
-answer('urn:example:recursionCount'(9580,3)).
-answer('urn:example:recursionCount'(9581,5)).
-answer('urn:example:recursionCount'(9582,6)).
-answer('urn:example:recursionCount'(9583,3)).
-answer('urn:example:recursionCount'(9584,5)).
-answer('urn:example:recursionCount'(9585,3)).
-answer('urn:example:recursionCount'(9586,2)).
-answer('urn:example:recursionCount'(9587,7)).
-answer('urn:example:recursionCount'(9588,4)).
-answer('urn:example:recursionCount'(9589,7)).
-answer('urn:example:recursionCount'(9590,7)).
-answer('urn:example:recursionCount'(9591,2)).
-answer('urn:example:recursionCount'(9592,3)).
-answer('urn:example:recursionCount'(9593,4)).
-answer('urn:example:recursionCount'(9594,5)).
-answer('urn:example:recursionCount'(9595,4)).
-answer('urn:example:recursionCount'(9596,3)).
-answer('urn:example:recursionCount'(9597,2)).
-answer('urn:example:recursionCount'(9598,7)).
-answer('urn:example:recursionCount'(9599,4)).
-answer('urn:example:recursionCount'(9600,7)).
-answer('urn:example:recursionCount'(9601,7)).
-answer('urn:example:recursionCount'(9602,7)).
-answer('urn:example:recursionCount'(9603,3)).
-answer('urn:example:recursionCount'(9604,3)).
-answer('urn:example:recursionCount'(9605,4)).
-answer('urn:example:recursionCount'(9606,4)).
-answer('urn:example:recursionCount'(9607,4)).
-answer('urn:example:recursionCount'(9608,3)).
-answer('urn:example:recursionCount'(9609,3)).
-answer('urn:example:recursionCount'(9610,7)).
-answer('urn:example:recursionCount'(9611,7)).
-answer('urn:example:recursionCount'(9612,2)).
-answer('urn:example:recursionCount'(9613,5)).
-answer('urn:example:recursionCount'(9614,6)).
-answer('urn:example:recursionCount'(9615,3)).
-answer('urn:example:recursionCount'(9616,6)).
-answer('urn:example:recursionCount'(9617,3)).
-answer('urn:example:recursionCount'(9618,6)).
-answer('urn:example:recursionCount'(9619,5)).
-answer('urn:example:recursionCount'(9620,7)).
-answer('urn:example:recursionCount'(9621,2)).
-answer('urn:example:recursionCount'(9622,3)).
-answer('urn:example:recursionCount'(9623,6)).
-answer('urn:example:recursionCount'(9624,5)).
-answer('urn:example:recursionCount'(9625,3)).
-answer('urn:example:recursionCount'(9626,4)).
-answer('urn:example:recursionCount'(9627,3)).
-answer('urn:example:recursionCount'(9628,5)).
-answer('urn:example:recursionCount'(9629,6)).
-answer('urn:example:recursionCount'(9630,3)).
-answer('urn:example:recursionCount'(9631,5)).
-answer('urn:example:recursionCount'(9632,6)).
-answer('urn:example:recursionCount'(9633,3)).
-answer('urn:example:recursionCount'(9634,1)).
-answer('urn:example:recursionCount'(9635,7)).
-answer('urn:example:recursionCount'(9636,6)).
-answer('urn:example:recursionCount'(9637,7)).
-answer('urn:example:recursionCount'(9638,1)).
-answer('urn:example:recursionCount'(9639,3)).
-answer('urn:example:recursionCount'(9640,3)).
-answer('urn:example:recursionCount'(9641,6)).
-answer('urn:example:recursionCount'(9642,5)).
-answer('urn:example:recursionCount'(9643,1)).
-answer('urn:example:recursionCount'(9644,7)).
-answer('urn:example:recursionCount'(9645,7)).
-answer('urn:example:recursionCount'(9646,6)).
-answer('urn:example:recursionCount'(9647,7)).
-answer('urn:example:recursionCount'(9648,7)).
-answer('urn:example:recursionCount'(9649,5)).
-answer('urn:example:recursionCount'(9650,4)).
-answer('urn:example:recursionCount'(9651,3)).
-answer('urn:example:recursionCount'(9652,3)).
-answer('urn:example:recursionCount'(9653,7)).
-answer('urn:example:recursionCount'(9654,7)).
-answer('urn:example:recursionCount'(9655,7)).
-answer('urn:example:recursionCount'(9656,4)).
-answer('urn:example:recursionCount'(9657,7)).
-answer('urn:example:recursionCount'(9658,2)).
-answer('urn:example:recursionCount'(9659,3)).
-answer('urn:example:recursionCount'(9660,4)).
-answer('urn:example:recursionCount'(9661,6)).
-answer('urn:example:recursionCount'(9662,4)).
-answer('urn:example:recursionCount'(9663,6)).
-answer('urn:example:recursionCount'(9664,6)).
-answer('urn:example:recursionCount'(9665,4)).
-answer('urn:example:recursionCount'(9666,6)).
-answer('urn:example:recursionCount'(9667,3)).
-answer('urn:example:recursionCount'(9668,5)).
-answer('urn:example:recursionCount'(9669,6)).
-answer('urn:example:recursionCount'(9670,4)).
-answer('urn:example:recursionCount'(9671,3)).
-answer('urn:example:recursionCount'(9672,3)).
-answer('urn:example:recursionCount'(9673,7)).
-answer('urn:example:recursionCount'(9674,7)).
-answer('urn:example:recursionCount'(9675,7)).
-answer('urn:example:recursionCount'(9676,3)).
-answer('urn:example:recursionCount'(9677,6)).
-answer('urn:example:recursionCount'(9678,3)).
-answer('urn:example:recursionCount'(9679,5)).
-answer('urn:example:recursionCount'(9680,3)).
-answer('urn:example:recursionCount'(9681,6)).
-answer('urn:example:recursionCount'(9682,5)).
-answer('urn:example:recursionCount'(9683,1)).
-answer('urn:example:recursionCount'(9684,7)).
-answer('urn:example:recursionCount'(9685,2)).
-answer('urn:example:recursionCount'(9686,5)).
-answer('urn:example:recursionCount'(9687,3)).
-answer('urn:example:recursionCount'(9688,6)).
-answer('urn:example:recursionCount'(9689,3)).
-answer('urn:example:recursionCount'(9690,3)).
-answer('urn:example:recursionCount'(9691,5)).
-answer('urn:example:recursionCount'(9692,6)).
-answer('urn:example:recursionCount'(9693,3)).
-answer('urn:example:recursionCount'(9694,5)).
-answer('urn:example:recursionCount'(9695,3)).
-answer('urn:example:recursionCount'(9696,6)).
-answer('urn:example:recursionCount'(9697,5)).
-answer('urn:example:recursionCount'(9698,3)).
-answer('urn:example:recursionCount'(9699,6)).
-answer('urn:example:recursionCount'(9700,3)).
-answer('urn:example:recursionCount'(9701,7)).
-answer('urn:example:recursionCount'(9702,7)).
-answer('urn:example:recursionCount'(9703,7)).
-answer('urn:example:recursionCount'(9704,3)).
-answer('urn:example:recursionCount'(9705,3)).
-answer('urn:example:recursionCount'(9706,4)).
-answer('urn:example:recursionCount'(9707,4)).
-answer('urn:example:recursionCount'(9708,4)).
-answer('urn:example:recursionCount'(9709,3)).
-answer('urn:example:recursionCount'(9710,7)).
-answer('urn:example:recursionCount'(9711,2)).
-answer('urn:example:recursionCount'(9712,7)).
-answer('urn:example:recursionCount'(9713,2)).
-answer('urn:example:recursionCount'(9714,5)).
-answer('urn:example:recursionCount'(9715,6)).
-answer('urn:example:recursionCount'(9716,3)).
-answer('urn:example:recursionCount'(9717,6)).
-answer('urn:example:recursionCount'(9718,3)).
-answer('urn:example:recursionCount'(9719,6)).
-answer('urn:example:recursionCount'(9720,7)).
-answer('urn:example:recursionCount'(9721,7)).
-answer('urn:example:recursionCount'(9722,5)).
-answer('urn:example:recursionCount'(9723,3)).
-answer('urn:example:recursionCount'(9724,6)).
-answer('urn:example:recursionCount'(9725,5)).
-answer('urn:example:recursionCount'(9726,3)).
-answer('urn:example:recursionCount'(9727,4)).
-answer('urn:example:recursionCount'(9728,3)).
-answer('urn:example:recursionCount'(9729,5)).
-answer('urn:example:recursionCount'(9730,7)).
-answer('urn:example:recursionCount'(9731,2)).
-answer('urn:example:recursionCount'(9732,3)).
-answer('urn:example:recursionCount'(9733,4)).
-answer('urn:example:recursionCount'(9734,3)).
-answer('urn:example:recursionCount'(9735,1)).
-answer('urn:example:recursionCount'(9736,7)).
-answer('urn:example:recursionCount'(9737,6)).
-answer('urn:example:recursionCount'(9738,7)).
-answer('urn:example:recursionCount'(9739,1)).
-answer('urn:example:recursionCount'(9740,3)).
-answer('urn:example:recursionCount'(9741,5)).
-answer('urn:example:recursionCount'(9742,6)).
-answer('urn:example:recursionCount'(9743,3)).
-answer('urn:example:recursionCount'(9744,5)).
-answer('urn:example:recursionCount'(9745,7)).
-answer('urn:example:recursionCount'(9746,7)).
-answer('urn:example:recursionCount'(9747,6)).
-answer('urn:example:recursionCount'(9748,7)).
-answer('urn:example:recursionCount'(9749,7)).
-answer('urn:example:recursionCount'(9750,3)).
-answer('urn:example:recursionCount'(9751,6)).
-answer('urn:example:recursionCount'(9752,5)).
-answer('urn:example:recursionCount'(9753,1)).
-answer('urn:example:recursionCount'(9754,7)).
-answer('urn:example:recursionCount'(9755,2)).
-answer('urn:example:recursionCount'(9756,7)).
-answer('urn:example:recursionCount'(9757,4)).
-answer('urn:example:recursionCount'(9758,7)).
-answer('urn:example:recursionCount'(9759,2)).
-answer('urn:example:recursionCount'(9760,4)).
-answer('urn:example:recursionCount'(9761,3)).
-answer('urn:example:recursionCount'(9762,3)).
-answer('urn:example:recursionCount'(9763,7)).
-answer('urn:example:recursionCount'(9764,7)).
-answer('urn:example:recursionCount'(9765,7)).
-answer('urn:example:recursionCount'(9766,3)).
-answer('urn:example:recursionCount'(9767,6)).
-answer('urn:example:recursionCount'(9768,3)).
-answer('urn:example:recursionCount'(9769,5)).
-answer('urn:example:recursionCount'(9770,4)).
-answer('urn:example:recursionCount'(9771,6)).
-answer('urn:example:recursionCount'(9772,4)).
-answer('urn:example:recursionCount'(9773,6)).
-answer('urn:example:recursionCount'(9774,6)).
-answer('urn:example:recursionCount'(9775,4)).
-answer('urn:example:recursionCount'(9776,6)).
-answer('urn:example:recursionCount'(9777,4)).
-answer('urn:example:recursionCount'(9778,3)).
-answer('urn:example:recursionCount'(9779,6)).
-answer('urn:example:recursionCount'(9780,4)).
-answer('urn:example:recursionCount'(9781,3)).
-answer('urn:example:recursionCount'(9782,3)).
-answer('urn:example:recursionCount'(9783,7)).
-answer('urn:example:recursionCount'(9784,7)).
-answer('urn:example:recursionCount'(9785,7)).
-answer('urn:example:recursionCount'(9786,3)).
-answer('urn:example:recursionCount'(9787,3)).
-answer('urn:example:recursionCount'(9788,4)).
-answer('urn:example:recursionCount'(9789,3)).
-answer('urn:example:recursionCount'(9790,3)).
-answer('urn:example:recursionCount'(9791,6)).
-answer('urn:example:recursionCount'(9792,5)).
-answer('urn:example:recursionCount'(9793,1)).
-answer('urn:example:recursionCount'(9794,7)).
-answer('urn:example:recursionCount'(9795,2)).
-answer('urn:example:recursionCount'(9796,5)).
-answer('urn:example:recursionCount'(9797,6)).
-answer('urn:example:recursionCount'(9798,3)).
-answer('urn:example:recursionCount'(9799,4)).
-answer('urn:example:recursionCount'(9800,3)).
-answer('urn:example:recursionCount'(9801,3)).
-answer('urn:example:recursionCount'(9802,7)).
-answer('urn:example:recursionCount'(9803,7)).
-answer('urn:example:recursionCount'(9804,7)).
-answer('urn:example:recursionCount'(9805,3)).
-answer('urn:example:recursionCount'(9806,3)).
-answer('urn:example:recursionCount'(9807,4)).
-answer('urn:example:recursionCount'(9808,4)).
-answer('urn:example:recursionCount'(9809,4)).
-answer('urn:example:recursionCount'(9810,3)).
-answer('urn:example:recursionCount'(9811,5)).
-answer('urn:example:recursionCount'(9812,2)).
-answer('urn:example:recursionCount'(9813,7)).
-answer('urn:example:recursionCount'(9814,2)).
-answer('urn:example:recursionCount'(9815,5)).
-answer('urn:example:recursionCount'(9816,6)).
-answer('urn:example:recursionCount'(9817,3)).
-answer('urn:example:recursionCount'(9818,6)).
-answer('urn:example:recursionCount'(9819,3)).
-answer('urn:example:recursionCount'(9820,7)).
-answer('urn:example:recursionCount'(9821,2)).
-answer('urn:example:recursionCount'(9822,3)).
-answer('urn:example:recursionCount'(9823,5)).
-answer('urn:example:recursionCount'(9824,3)).
-answer('urn:example:recursionCount'(9825,6)).
-answer('urn:example:recursionCount'(9826,5)).
-answer('urn:example:recursionCount'(9827,3)).
-answer('urn:example:recursionCount'(9828,4)).
-answer('urn:example:recursionCount'(9829,3)).
-answer('urn:example:recursionCount'(9830,7)).
-answer('urn:example:recursionCount'(9831,7)).
-answer('urn:example:recursionCount'(9832,5)).
-answer('urn:example:recursionCount'(9833,5)).
-answer('urn:example:recursionCount'(9834,4)).
-answer('urn:example:recursionCount'(9835,3)).
-answer('urn:example:recursionCount'(9836,1)).
-answer('urn:example:recursionCount'(9837,7)).
-answer('urn:example:recursionCount'(9838,6)).
-answer('urn:example:recursionCount'(9839,7)).
-answer('urn:example:recursionCount'(9840,7)).
-answer('urn:example:recursionCount'(9841,2)).
-answer('urn:example:recursionCount'(9842,3)).
-answer('urn:example:recursionCount'(9843,4)).
-answer('urn:example:recursionCount'(9844,5)).
-answer('urn:example:recursionCount'(9845,5)).
-answer('urn:example:recursionCount'(9846,7)).
-answer('urn:example:recursionCount'(9847,7)).
-answer('urn:example:recursionCount'(9848,6)).
-answer('urn:example:recursionCount'(9849,7)).
-answer('urn:example:recursionCount'(9850,3)).
-answer('urn:example:recursionCount'(9851,5)).
-answer('urn:example:recursionCount'(9852,6)).
-answer('urn:example:recursionCount'(9853,3)).
-answer('urn:example:recursionCount'(9854,5)).
-answer('urn:example:recursionCount'(9855,3)).
-answer('urn:example:recursionCount'(9856,2)).
-answer('urn:example:recursionCount'(9857,7)).
-answer('urn:example:recursionCount'(9858,4)).
-answer('urn:example:recursionCount'(9859,7)).
-answer('urn:example:recursionCount'(9860,3)).
-answer('urn:example:recursionCount'(9861,6)).
-answer('urn:example:recursionCount'(9862,5)).
-answer('urn:example:recursionCount'(9863,1)).
-answer('urn:example:recursionCount'(9864,7)).
-answer('urn:example:recursionCount'(9865,2)).
-answer('urn:example:recursionCount'(9866,5)).
-answer('urn:example:recursionCount'(9867,3)).
-answer('urn:example:recursionCount'(9868,6)).
-answer('urn:example:recursionCount'(9869,3)).
-answer('urn:example:recursionCount'(9870,4)).
-answer('urn:example:recursionCount'(9871,3)).
-answer('urn:example:recursionCount'(9872,3)).
-answer('urn:example:recursionCount'(9873,7)).
-answer('urn:example:recursionCount'(9874,7)).
-answer('urn:example:recursionCount'(9875,7)).
-answer('urn:example:recursionCount'(9876,3)).
-answer('urn:example:recursionCount'(9877,3)).
-answer('urn:example:recursionCount'(9878,4)).
-answer('urn:example:recursionCount'(9879,3)).
-answer('urn:example:recursionCount'(9880,4)).
-answer('urn:example:recursionCount'(9881,6)).
-answer('urn:example:recursionCount'(9882,4)).
-answer('urn:example:recursionCount'(9883,6)).
-answer('urn:example:recursionCount'(9884,6)).
-answer('urn:example:recursionCount'(9885,4)).
-answer('urn:example:recursionCount'(9886,6)).
-answer('urn:example:recursionCount'(9887,4)).
-answer('urn:example:recursionCount'(9888,5)).
-answer('urn:example:recursionCount'(9889,4)).
-answer('urn:example:recursionCount'(9890,4)).
-answer('urn:example:recursionCount'(9891,3)).
-answer('urn:example:recursionCount'(9892,3)).
-answer('urn:example:recursionCount'(9893,7)).
-answer('urn:example:recursionCount'(9894,7)).
-answer('urn:example:recursionCount'(9895,7)).
-answer('urn:example:recursionCount'(9896,3)).
-answer('urn:example:recursionCount'(9897,3)).
-answer('urn:example:recursionCount'(9898,4)).
-answer('urn:example:recursionCount'(9899,5)).
-answer('urn:example:recursionCount'(9900,4)).
-answer('urn:example:recursionCount'(9901,3)).
-answer('urn:example:recursionCount'(9902,3)).
-answer('urn:example:recursionCount'(9903,7)).
-answer('urn:example:recursionCount'(9904,7)).
-answer('urn:example:recursionCount'(9905,7)).
-answer('urn:example:recursionCount'(9906,3)).
-answer('urn:example:recursionCount'(9907,3)).
-answer('urn:example:recursionCount'(9908,4)).
-answer('urn:example:recursionCount'(9909,4)).
-answer('urn:example:recursionCount'(9910,3)).
-answer('urn:example:recursionCount'(9911,6)).
-answer('urn:example:recursionCount'(9912,5)).
-answer('urn:example:recursionCount'(9913,2)).
-answer('urn:example:recursionCount'(9914,7)).
-answer('urn:example:recursionCount'(9915,2)).
-answer('urn:example:recursionCount'(9916,5)).
-answer('urn:example:recursionCount'(9917,6)).
-answer('urn:example:recursionCount'(9918,3)).
-answer('urn:example:recursionCount'(9919,6)).
-answer('urn:example:recursionCount'(9920,3)).
-answer('urn:example:recursionCount'(9921,5)).
-answer('urn:example:recursionCount'(9922,6)).
-answer('urn:example:recursionCount'(9923,3)).
-answer('urn:example:recursionCount'(9924,5)).
-answer('urn:example:recursionCount'(9925,3)).
-answer('urn:example:recursionCount'(9926,6)).
-answer('urn:example:recursionCount'(9927,5)).
-answer('urn:example:recursionCount'(9928,3)).
-answer('urn:example:recursionCount'(9929,4)).
-answer('urn:example:recursionCount'(9930,7)).
-answer('urn:example:recursionCount'(9931,2)).
-answer('urn:example:recursionCount'(9932,3)).
-answer('urn:example:recursionCount'(9933,4)).
-answer('urn:example:recursionCount'(9934,5)).
-answer('urn:example:recursionCount'(9935,4)).
-answer('urn:example:recursionCount'(9936,3)).
-answer('urn:example:recursionCount'(9937,1)).
-answer('urn:example:recursionCount'(9938,7)).
-answer('urn:example:recursionCount'(9939,6)).
-answer('urn:example:recursionCount'(9940,7)).
-answer('urn:example:recursionCount'(9941,7)).
-answer('urn:example:recursionCount'(9942,5)).
-answer('urn:example:recursionCount'(9943,5)).
-answer('urn:example:recursionCount'(9944,5)).
-answer('urn:example:recursionCount'(9945,5)).
-answer('urn:example:recursionCount'(9946,5)).
-answer('urn:example:recursionCount'(9947,7)).
-answer('urn:example:recursionCount'(9948,7)).
-answer('urn:example:recursionCount'(9949,6)).
-answer('urn:example:recursionCount'(9950,7)).
-answer('urn:example:recursionCount'(9951,2)).
-answer('urn:example:recursionCount'(9952,3)).
-answer('urn:example:recursionCount'(9953,4)).
-answer('urn:example:recursionCount'(9954,5)).
-answer('urn:example:recursionCount'(9955,4)).
-answer('urn:example:recursionCount'(9956,3)).
-answer('urn:example:recursionCount'(9957,2)).
-answer('urn:example:recursionCount'(9958,7)).
-answer('urn:example:recursionCount'(9959,4)).
-answer('urn:example:recursionCount'(9960,3)).
-answer('urn:example:recursionCount'(9961,5)).
-answer('urn:example:recursionCount'(9962,6)).
-answer('urn:example:recursionCount'(9963,3)).
-answer('urn:example:recursionCount'(9964,5)).
-answer('urn:example:recursionCount'(9965,3)).
-answer('urn:example:recursionCount'(9966,6)).
-answer('urn:example:recursionCount'(9967,5)).
-answer('urn:example:recursionCount'(9968,3)).
-answer('urn:example:recursionCount'(9969,6)).
-answer('urn:example:recursionCount'(9970,3)).
-answer('urn:example:recursionCount'(9971,6)).
-answer('urn:example:recursionCount'(9972,5)).
-answer('urn:example:recursionCount'(9973,1)).
-answer('urn:example:recursionCount'(9974,7)).
-answer('urn:example:recursionCount'(9975,2)).
-answer('urn:example:recursionCount'(9976,5)).
-answer('urn:example:recursionCount'(9977,6)).
-answer('urn:example:recursionCount'(9978,3)).
-answer('urn:example:recursionCount'(9979,4)).
-answer('urn:example:recursionCount'(9980,4)).
-answer('urn:example:recursionCount'(9981,3)).
-answer('urn:example:recursionCount'(9982,3)).
-answer('urn:example:recursionCount'(9983,7)).
-answer('urn:example:recursionCount'(9984,7)).
-answer('urn:example:recursionCount'(9985,7)).
-answer('urn:example:recursionCount'(9986,3)).
-answer('urn:example:recursionCount'(9987,3)).
-answer('urn:example:recursionCount'(9988,4)).
-answer('urn:example:recursionCount'(9989,5)).
-answer('urn:example:recursionCount'(9990,4)).
-answer('urn:example:recursionCount'(9991,6)).
-answer('urn:example:recursionCount'(9992,4)).
-answer('urn:example:recursionCount'(9993,6)).
-answer('urn:example:recursionCount'(9994,6)).
-answer('urn:example:recursionCount'(9995,4)).
-answer('urn:example:recursionCount'(9996,6)).
-answer('urn:example:recursionCount'(9997,4)).
-answer('urn:example:recursionCount'(9998,5)).
+answer('urn:example:recursionCount'(1, 5)).
+answer('urn:example:recursionCount'(2, 4)).
+answer('urn:example:recursionCount'(3, 6)).
+answer('urn:example:recursionCount'(4, 4)).
+answer('urn:example:recursionCount'(5, 6)).
+answer('urn:example:recursionCount'(6, 6)).
+answer('urn:example:recursionCount'(7, 4)).
+answer('urn:example:recursionCount'(8, 6)).
+answer('urn:example:recursionCount'(9, 4)).
+answer('urn:example:recursionCount'(10, 5)).
+answer('urn:example:recursionCount'(11, 4)).
+answer('urn:example:recursionCount'(12, 3)).
+answer('urn:example:recursionCount'(13, 3)).
+answer('urn:example:recursionCount'(14, 7)).
+answer('urn:example:recursionCount'(15, 7)).
+answer('urn:example:recursionCount'(16, 7)).
+answer('urn:example:recursionCount'(17, 3)).
+answer('urn:example:recursionCount'(18, 3)).
+answer('urn:example:recursionCount'(19, 4)).
+answer('urn:example:recursionCount'(20, 4)).
+answer('urn:example:recursionCount'(21, 3)).
+answer('urn:example:recursionCount'(22, 6)).
+answer('urn:example:recursionCount'(23, 5)).
+answer('urn:example:recursionCount'(24, 2)).
+answer('urn:example:recursionCount'(25, 7)).
+answer('urn:example:recursionCount'(26, 1)).
+answer('urn:example:recursionCount'(27, 5)).
+answer('urn:example:recursionCount'(28, 6)).
+answer('urn:example:recursionCount'(29, 3)).
+answer('urn:example:recursionCount'(30, 6)).
+answer('urn:example:recursionCount'(31, 3)).
+answer('urn:example:recursionCount'(32, 5)).
+answer('urn:example:recursionCount'(33, 6)).
+answer('urn:example:recursionCount'(34, 3)).
+answer('urn:example:recursionCount'(35, 5)).
+answer('urn:example:recursionCount'(36, 3)).
+answer('urn:example:recursionCount'(37, 6)).
+answer('urn:example:recursionCount'(38, 5)).
+answer('urn:example:recursionCount'(39, 3)).
+answer('urn:example:recursionCount'(40, 4)).
+answer('urn:example:recursionCount'(41, 7)).
+answer('urn:example:recursionCount'(42, 2)).
+answer('urn:example:recursionCount'(43, 3)).
+answer('urn:example:recursionCount'(44, 4)).
+answer('urn:example:recursionCount'(45, 5)).
+answer('urn:example:recursionCount'(46, 4)).
+answer('urn:example:recursionCount'(47, 3)).
+answer('urn:example:recursionCount'(48, 2)).
+answer('urn:example:recursionCount'(49, 7)).
+answer('urn:example:recursionCount'(50, 6)).
+answer('urn:example:recursionCount'(51, 7)).
+answer('urn:example:recursionCount'(52, 7)).
+answer('urn:example:recursionCount'(53, 5)).
+answer('urn:example:recursionCount'(54, 5)).
+answer('urn:example:recursionCount'(55, 5)).
+answer('urn:example:recursionCount'(56, 5)).
+answer('urn:example:recursionCount'(57, 5)).
+answer('urn:example:recursionCount'(58, 7)).
+answer('urn:example:recursionCount'(59, 7)).
+answer('urn:example:recursionCount'(60, 6)).
+answer('urn:example:recursionCount'(61, 7)).
+answer('urn:example:recursionCount'(62, 1)).
+answer('urn:example:recursionCount'(63, 3)).
+answer('urn:example:recursionCount'(64, 4)).
+answer('urn:example:recursionCount'(65, 5)).
+answer('urn:example:recursionCount'(66, 4)).
+answer('urn:example:recursionCount'(67, 3)).
+answer('urn:example:recursionCount'(68, 2)).
+answer('urn:example:recursionCount'(69, 7)).
+answer('urn:example:recursionCount'(70, 4)).
+answer('urn:example:recursionCount'(71, 3)).
+answer('urn:example:recursionCount'(72, 5)).
+answer('urn:example:recursionCount'(73, 6)).
+answer('urn:example:recursionCount'(74, 3)).
+answer('urn:example:recursionCount'(75, 5)).
+answer('urn:example:recursionCount'(76, 3)).
+answer('urn:example:recursionCount'(77, 6)).
+answer('urn:example:recursionCount'(78, 5)).
+answer('urn:example:recursionCount'(79, 3)).
+answer('urn:example:recursionCount'(80, 6)).
+answer('urn:example:recursionCount'(81, 3)).
+answer('urn:example:recursionCount'(82, 6)).
+answer('urn:example:recursionCount'(83, 5)).
+answer('urn:example:recursionCount'(84, 2)).
+answer('urn:example:recursionCount'(85, 7)).
+answer('urn:example:recursionCount'(86, 2)).
+answer('urn:example:recursionCount'(87, 5)).
+answer('urn:example:recursionCount'(88, 6)).
+answer('urn:example:recursionCount'(89, 3)).
+answer('urn:example:recursionCount'(90, 4)).
+answer('urn:example:recursionCount'(91, 4)).
+answer('urn:example:recursionCount'(92, 3)).
+answer('urn:example:recursionCount'(93, 3)).
+answer('urn:example:recursionCount'(94, 7)).
+answer('urn:example:recursionCount'(95, 7)).
+answer('urn:example:recursionCount'(96, 7)).
+answer('urn:example:recursionCount'(97, 3)).
+answer('urn:example:recursionCount'(98, 3)).
+answer('urn:example:recursionCount'(99, 4)).
+answer('urn:example:recursionCount'(100, 5)).
+answer('urn:example:recursionCount'(101, 4)).
+answer('urn:example:recursionCount'(102, 3)).
+answer('urn:example:recursionCount'(103, 3)).
+answer('urn:example:recursionCount'(104, 7)).
+answer('urn:example:recursionCount'(105, 7)).
+answer('urn:example:recursionCount'(106, 7)).
+answer('urn:example:recursionCount'(107, 3)).
+answer('urn:example:recursionCount'(108, 3)).
+answer('urn:example:recursionCount'(109, 4)).
+answer('urn:example:recursionCount'(110, 4)).
+answer('urn:example:recursionCount'(111, 5)).
+answer('urn:example:recursionCount'(112, 4)).
+answer('urn:example:recursionCount'(113, 6)).
+answer('urn:example:recursionCount'(114, 4)).
+answer('urn:example:recursionCount'(115, 6)).
+answer('urn:example:recursionCount'(116, 6)).
+answer('urn:example:recursionCount'(117, 4)).
+answer('urn:example:recursionCount'(118, 6)).
+answer('urn:example:recursionCount'(119, 4)).
+answer('urn:example:recursionCount'(120, 3)).
+answer('urn:example:recursionCount'(121, 4)).
+answer('urn:example:recursionCount'(122, 3)).
+answer('urn:example:recursionCount'(123, 3)).
+answer('urn:example:recursionCount'(124, 7)).
+answer('urn:example:recursionCount'(125, 7)).
+answer('urn:example:recursionCount'(126, 7)).
+answer('urn:example:recursionCount'(127, 3)).
+answer('urn:example:recursionCount'(128, 3)).
+answer('urn:example:recursionCount'(129, 4)).
+answer('urn:example:recursionCount'(130, 3)).
+answer('urn:example:recursionCount'(131, 6)).
+answer('urn:example:recursionCount'(132, 3)).
+answer('urn:example:recursionCount'(133, 5)).
+answer('urn:example:recursionCount'(134, 2)).
+answer('urn:example:recursionCount'(135, 7)).
+answer('urn:example:recursionCount'(136, 1)).
+answer('urn:example:recursionCount'(137, 5)).
+answer('urn:example:recursionCount'(138, 6)).
+answer('urn:example:recursionCount'(139, 3)).
+answer('urn:example:recursionCount'(140, 7)).
+answer('urn:example:recursionCount'(141, 4)).
+answer('urn:example:recursionCount'(142, 7)).
+answer('urn:example:recursionCount'(143, 2)).
+answer('urn:example:recursionCount'(144, 3)).
+answer('urn:example:recursionCount'(145, 5)).
+answer('urn:example:recursionCount'(146, 3)).
+answer('urn:example:recursionCount'(147, 6)).
+answer('urn:example:recursionCount'(148, 5)).
+answer('urn:example:recursionCount'(149, 3)).
+answer('urn:example:recursionCount'(150, 7)).
+answer('urn:example:recursionCount'(151, 6)).
+answer('urn:example:recursionCount'(152, 7)).
+answer('urn:example:recursionCount'(153, 7)).
+answer('urn:example:recursionCount'(154, 5)).
+answer('urn:example:recursionCount'(155, 5)).
+answer('urn:example:recursionCount'(156, 4)).
+answer('urn:example:recursionCount'(157, 3)).
+answer('urn:example:recursionCount'(158, 2)).
+answer('urn:example:recursionCount'(159, 7)).
+answer('urn:example:recursionCount'(160, 7)).
+answer('urn:example:recursionCount'(161, 6)).
+answer('urn:example:recursionCount'(162, 7)).
+answer('urn:example:recursionCount'(163, 1)).
+answer('urn:example:recursionCount'(164, 3)).
+answer('urn:example:recursionCount'(165, 4)).
+answer('urn:example:recursionCount'(166, 5)).
+answer('urn:example:recursionCount'(167, 5)).
+answer('urn:example:recursionCount'(168, 7)).
+answer('urn:example:recursionCount'(169, 7)).
+answer('urn:example:recursionCount'(170, 3)).
+answer('urn:example:recursionCount'(171, 4)).
+answer('urn:example:recursionCount'(172, 3)).
+answer('urn:example:recursionCount'(173, 5)).
+answer('urn:example:recursionCount'(174, 6)).
+answer('urn:example:recursionCount'(175, 3)).
+answer('urn:example:recursionCount'(176, 5)).
+answer('urn:example:recursionCount'(177, 3)).
+answer('urn:example:recursionCount'(178, 2)).
+answer('urn:example:recursionCount'(179, 7)).
+answer('urn:example:recursionCount'(180, 3)).
+answer('urn:example:recursionCount'(181, 6)).
+answer('urn:example:recursionCount'(182, 3)).
+answer('urn:example:recursionCount'(183, 6)).
+answer('urn:example:recursionCount'(184, 5)).
+answer('urn:example:recursionCount'(185, 2)).
+answer('urn:example:recursionCount'(186, 7)).
+answer('urn:example:recursionCount'(187, 2)).
+answer('urn:example:recursionCount'(188, 5)).
+answer('urn:example:recursionCount'(189, 3)).
+answer('urn:example:recursionCount'(190, 4)).
+answer('urn:example:recursionCount'(191, 4)).
+answer('urn:example:recursionCount'(192, 4)).
+answer('urn:example:recursionCount'(193, 3)).
+answer('urn:example:recursionCount'(194, 3)).
+answer('urn:example:recursionCount'(195, 7)).
+answer('urn:example:recursionCount'(196, 7)).
+answer('urn:example:recursionCount'(197, 7)).
+answer('urn:example:recursionCount'(198, 3)).
+answer('urn:example:recursionCount'(199, 3)).
+answer('urn:example:recursionCount'(200, 4)).
+answer('urn:example:recursionCount'(201, 3)).
+answer('urn:example:recursionCount'(202, 6)).
+answer('urn:example:recursionCount'(203, 5)).
+answer('urn:example:recursionCount'(204, 2)).
+answer('urn:example:recursionCount'(205, 7)).
+answer('urn:example:recursionCount'(206, 1)).
+answer('urn:example:recursionCount'(207, 5)).
+answer('urn:example:recursionCount'(208, 6)).
+answer('urn:example:recursionCount'(209, 3)).
+answer('urn:example:recursionCount'(210, 3)).
+answer('urn:example:recursionCount'(211, 4)).
+answer('urn:example:recursionCount'(212, 3)).
+answer('urn:example:recursionCount'(213, 3)).
+answer('urn:example:recursionCount'(214, 7)).
+answer('urn:example:recursionCount'(215, 7)).
+answer('urn:example:recursionCount'(216, 7)).
+answer('urn:example:recursionCount'(217, 3)).
+answer('urn:example:recursionCount'(218, 3)).
+answer('urn:example:recursionCount'(219, 4)).
+answer('urn:example:recursionCount'(220, 6)).
+answer('urn:example:recursionCount'(221, 3)).
+answer('urn:example:recursionCount'(222, 4)).
+answer('urn:example:recursionCount'(223, 6)).
+answer('urn:example:recursionCount'(224, 4)).
+answer('urn:example:recursionCount'(225, 6)).
+answer('urn:example:recursionCount'(226, 6)).
+answer('urn:example:recursionCount'(227, 4)).
+answer('urn:example:recursionCount'(228, 6)).
+answer('urn:example:recursionCount'(229, 4)).
+answer('urn:example:recursionCount'(230, 5)).
+answer('urn:example:recursionCount'(231, 3)).
+answer('urn:example:recursionCount'(232, 6)).
+answer('urn:example:recursionCount'(233, 3)).
+answer('urn:example:recursionCount'(234, 7)).
+answer('urn:example:recursionCount'(235, 7)).
+answer('urn:example:recursionCount'(236, 7)).
+answer('urn:example:recursionCount'(237, 3)).
+answer('urn:example:recursionCount'(238, 3)).
+answer('urn:example:recursionCount'(239, 4)).
+answer('urn:example:recursionCount'(240, 2)).
+answer('urn:example:recursionCount'(241, 7)).
+answer('urn:example:recursionCount'(242, 4)).
+answer('urn:example:recursionCount'(243, 7)).
+answer('urn:example:recursionCount'(244, 2)).
+answer('urn:example:recursionCount'(245, 7)).
+answer('urn:example:recursionCount'(246, 1)).
+answer('urn:example:recursionCount'(247, 5)).
+answer('urn:example:recursionCount'(248, 6)).
+answer('urn:example:recursionCount'(249, 3)).
+answer('urn:example:recursionCount'(250, 7)).
+answer('urn:example:recursionCount'(251, 7)).
+answer('urn:example:recursionCount'(252, 6)).
+answer('urn:example:recursionCount'(253, 7)).
+answer('urn:example:recursionCount'(254, 7)).
+answer('urn:example:recursionCount'(255, 5)).
+answer('urn:example:recursionCount'(256, 3)).
+answer('urn:example:recursionCount'(257, 6)).
+answer('urn:example:recursionCount'(258, 5)).
+answer('urn:example:recursionCount'(259, 3)).
+answer('urn:example:recursionCount'(260, 1)).
+answer('urn:example:recursionCount'(261, 7)).
+answer('urn:example:recursionCount'(262, 6)).
+answer('urn:example:recursionCount'(263, 7)).
+answer('urn:example:recursionCount'(264, 1)).
+answer('urn:example:recursionCount'(265, 3)).
+answer('urn:example:recursionCount'(266, 4)).
+answer('urn:example:recursionCount'(267, 3)).
+answer('urn:example:recursionCount'(268, 2)).
+answer('urn:example:recursionCount'(269, 7)).
+answer('urn:example:recursionCount'(270, 5)).
+answer('urn:example:recursionCount'(271, 3)).
+answer('urn:example:recursionCount'(272, 4)).
+answer('urn:example:recursionCount'(273, 3)).
+answer('urn:example:recursionCount'(274, 5)).
+answer('urn:example:recursionCount'(275, 6)).
+answer('urn:example:recursionCount'(276, 3)).
+answer('urn:example:recursionCount'(277, 5)).
+answer('urn:example:recursionCount'(278, 7)).
+answer('urn:example:recursionCount'(279, 7)).
+answer('urn:example:recursionCount'(280, 6)).
+answer('urn:example:recursionCount'(281, 3)).
+answer('urn:example:recursionCount'(282, 6)).
+answer('urn:example:recursionCount'(283, 3)).
+answer('urn:example:recursionCount'(284, 6)).
+answer('urn:example:recursionCount'(285, 5)).
+answer('urn:example:recursionCount'(286, 2)).
+answer('urn:example:recursionCount'(287, 7)).
+answer('urn:example:recursionCount'(288, 2)).
+answer('urn:example:recursionCount'(289, 7)).
+answer('urn:example:recursionCount'(290, 3)).
+answer('urn:example:recursionCount'(291, 4)).
+answer('urn:example:recursionCount'(292, 4)).
+answer('urn:example:recursionCount'(293, 4)).
+answer('urn:example:recursionCount'(294, 3)).
+answer('urn:example:recursionCount'(295, 3)).
+answer('urn:example:recursionCount'(296, 7)).
+answer('urn:example:recursionCount'(297, 7)).
+answer('urn:example:recursionCount'(298, 7)).
+answer('urn:example:recursionCount'(299, 3)).
+answer('urn:example:recursionCount'(300, 6)).
+answer('urn:example:recursionCount'(301, 3)).
+answer('urn:example:recursionCount'(302, 5)).
+answer('urn:example:recursionCount'(303, 6)).
+answer('urn:example:recursionCount'(304, 3)).
+answer('urn:example:recursionCount'(305, 5)).
+answer('urn:example:recursionCount'(306, 3)).
+answer('urn:example:recursionCount'(307, 6)).
+answer('urn:example:recursionCount'(308, 5)).
+answer('urn:example:recursionCount'(309, 3)).
+answer('urn:example:recursionCount'(310, 3)).
+answer('urn:example:recursionCount'(311, 6)).
+answer('urn:example:recursionCount'(312, 3)).
+answer('urn:example:recursionCount'(313, 5)).
+answer('urn:example:recursionCount'(314, 2)).
+answer('urn:example:recursionCount'(315, 7)).
+answer('urn:example:recursionCount'(316, 1)).
+answer('urn:example:recursionCount'(317, 5)).
+answer('urn:example:recursionCount'(318, 6)).
+answer('urn:example:recursionCount'(319, 3)).
+answer('urn:example:recursionCount'(320, 5)).
+answer('urn:example:recursionCount'(321, 3)).
+answer('urn:example:recursionCount'(322, 6)).
+answer('urn:example:recursionCount'(323, 3)).
+answer('urn:example:recursionCount'(324, 7)).
+answer('urn:example:recursionCount'(325, 7)).
+answer('urn:example:recursionCount'(326, 7)).
+answer('urn:example:recursionCount'(327, 3)).
+answer('urn:example:recursionCount'(328, 3)).
+answer('urn:example:recursionCount'(329, 4)).
+answer('urn:example:recursionCount'(330, 6)).
+answer('urn:example:recursionCount'(331, 5)).
+answer('urn:example:recursionCount'(332, 3)).
+answer('urn:example:recursionCount'(333, 6)).
+answer('urn:example:recursionCount'(334, 4)).
+answer('urn:example:recursionCount'(335, 6)).
+answer('urn:example:recursionCount'(336, 6)).
+answer('urn:example:recursionCount'(337, 4)).
+answer('urn:example:recursionCount'(338, 6)).
+answer('urn:example:recursionCount'(339, 4)).
+answer('urn:example:recursionCount'(340, 3)).
+answer('urn:example:recursionCount'(341, 2)).
+answer('urn:example:recursionCount'(342, 7)).
+answer('urn:example:recursionCount'(343, 4)).
+answer('urn:example:recursionCount'(344, 7)).
+answer('urn:example:recursionCount'(345, 7)).
+answer('urn:example:recursionCount'(346, 7)).
+answer('urn:example:recursionCount'(347, 3)).
+answer('urn:example:recursionCount'(348, 3)).
+answer('urn:example:recursionCount'(349, 4)).
+answer('urn:example:recursionCount'(350, 5)).
+answer('urn:example:recursionCount'(351, 7)).
+answer('urn:example:recursionCount'(352, 7)).
+answer('urn:example:recursionCount'(353, 6)).
+answer('urn:example:recursionCount'(354, 7)).
+answer('urn:example:recursionCount'(355, 7)).
+answer('urn:example:recursionCount'(356, 1)).
+answer('urn:example:recursionCount'(357, 5)).
+answer('urn:example:recursionCount'(358, 6)).
+answer('urn:example:recursionCount'(359, 3)).
+answer('urn:example:recursionCount'(360, 3)).
+answer('urn:example:recursionCount'(361, 1)).
+answer('urn:example:recursionCount'(362, 7)).
+answer('urn:example:recursionCount'(363, 6)).
+answer('urn:example:recursionCount'(364, 7)).
+answer('urn:example:recursionCount'(365, 1)).
+answer('urn:example:recursionCount'(366, 3)).
+answer('urn:example:recursionCount'(367, 6)).
+answer('urn:example:recursionCount'(368, 5)).
+answer('urn:example:recursionCount'(369, 3)).
+answer('urn:example:recursionCount'(370, 6)).
+answer('urn:example:recursionCount'(371, 5)).
+answer('urn:example:recursionCount'(372, 3)).
+answer('urn:example:recursionCount'(373, 4)).
+answer('urn:example:recursionCount'(374, 3)).
+answer('urn:example:recursionCount'(375, 5)).
+answer('urn:example:recursionCount'(376, 6)).
+answer('urn:example:recursionCount'(377, 3)).
+answer('urn:example:recursionCount'(378, 2)).
+answer('urn:example:recursionCount'(379, 7)).
+answer('urn:example:recursionCount'(380, 5)).
+answer('urn:example:recursionCount'(381, 6)).
+answer('urn:example:recursionCount'(382, 3)).
+answer('urn:example:recursionCount'(383, 6)).
+answer('urn:example:recursionCount'(384, 3)).
+answer('urn:example:recursionCount'(385, 6)).
+answer('urn:example:recursionCount'(386, 5)).
+answer('urn:example:recursionCount'(387, 2)).
+answer('urn:example:recursionCount'(388, 7)).
+answer('urn:example:recursionCount'(389, 7)).
+answer('urn:example:recursionCount'(390, 3)).
+answer('urn:example:recursionCount'(391, 3)).
+answer('urn:example:recursionCount'(392, 4)).
+answer('urn:example:recursionCount'(393, 4)).
+answer('urn:example:recursionCount'(394, 4)).
+answer('urn:example:recursionCount'(395, 3)).
+answer('urn:example:recursionCount'(396, 3)).
+answer('urn:example:recursionCount'(397, 7)).
+answer('urn:example:recursionCount'(398, 7)).
+answer('urn:example:recursionCount'(399, 7)).
+answer('urn:example:recursionCount'(400, 4)).
+answer('urn:example:recursionCount'(401, 7)).
+answer('urn:example:recursionCount'(402, 2)).
+answer('urn:example:recursionCount'(403, 3)).
+answer('urn:example:recursionCount'(404, 4)).
+answer('urn:example:recursionCount'(405, 5)).
+answer('urn:example:recursionCount'(406, 4)).
+answer('urn:example:recursionCount'(407, 3)).
+answer('urn:example:recursionCount'(408, 2)).
+answer('urn:example:recursionCount'(409, 7)).
+answer('urn:example:recursionCount'(410, 7)).
+answer('urn:example:recursionCount'(411, 4)).
+answer('urn:example:recursionCount'(412, 7)).
+answer('urn:example:recursionCount'(413, 2)).
+answer('urn:example:recursionCount'(414, 3)).
+answer('urn:example:recursionCount'(415, 5)).
+answer('urn:example:recursionCount'(416, 3)).
+answer('urn:example:recursionCount'(417, 6)).
+answer('urn:example:recursionCount'(418, 5)).
+answer('urn:example:recursionCount'(419, 3)).
+answer('urn:example:recursionCount'(420, 2)).
+answer('urn:example:recursionCount'(421, 7)).
+answer('urn:example:recursionCount'(422, 4)).
+answer('urn:example:recursionCount'(423, 7)).
+answer('urn:example:recursionCount'(424, 2)).
+answer('urn:example:recursionCount'(425, 7)).
+answer('urn:example:recursionCount'(426, 1)).
+answer('urn:example:recursionCount'(427, 5)).
+answer('urn:example:recursionCount'(428, 6)).
+answer('urn:example:recursionCount'(429, 3)).
+answer('urn:example:recursionCount'(430, 3)).
+answer('urn:example:recursionCount'(431, 2)).
+answer('urn:example:recursionCount'(432, 7)).
+answer('urn:example:recursionCount'(433, 4)).
+answer('urn:example:recursionCount'(434, 7)).
+answer('urn:example:recursionCount'(435, 7)).
+answer('urn:example:recursionCount'(436, 7)).
+answer('urn:example:recursionCount'(437, 3)).
+answer('urn:example:recursionCount'(438, 3)).
+answer('urn:example:recursionCount'(439, 4)).
+answer('urn:example:recursionCount'(440, 4)).
+answer('urn:example:recursionCount'(441, 3)).
+answer('urn:example:recursionCount'(442, 2)).
+answer('urn:example:recursionCount'(443, 7)).
+answer('urn:example:recursionCount'(444, 4)).
+answer('urn:example:recursionCount'(445, 6)).
+answer('urn:example:recursionCount'(446, 6)).
+answer('urn:example:recursionCount'(447, 4)).
+answer('urn:example:recursionCount'(448, 6)).
+answer('urn:example:recursionCount'(449, 4)).
+answer('urn:example:recursionCount'(450, 5)).
+answer('urn:example:recursionCount'(451, 5)).
+answer('urn:example:recursionCount'(452, 7)).
+answer('urn:example:recursionCount'(453, 7)).
+answer('urn:example:recursionCount'(454, 6)).
+answer('urn:example:recursionCount'(455, 7)).
+answer('urn:example:recursionCount'(456, 7)).
+answer('urn:example:recursionCount'(457, 3)).
+answer('urn:example:recursionCount'(458, 3)).
+answer('urn:example:recursionCount'(459, 4)).
+answer('urn:example:recursionCount'(460, 4)).
+answer('urn:example:recursionCount'(461, 3)).
+answer('urn:example:recursionCount'(462, 1)).
+answer('urn:example:recursionCount'(463, 7)).
+answer('urn:example:recursionCount'(464, 6)).
+answer('urn:example:recursionCount'(465, 7)).
+answer('urn:example:recursionCount'(466, 1)).
+answer('urn:example:recursionCount'(467, 5)).
+answer('urn:example:recursionCount'(468, 6)).
+answer('urn:example:recursionCount'(469, 3)).
+answer('urn:example:recursionCount'(470, 3)).
+answer('urn:example:recursionCount'(471, 6)).
+answer('urn:example:recursionCount'(472, 5)).
+answer('urn:example:recursionCount'(473, 3)).
+answer('urn:example:recursionCount'(474, 4)).
+answer('urn:example:recursionCount'(475, 3)).
+answer('urn:example:recursionCount'(476, 5)).
+answer('urn:example:recursionCount'(477, 6)).
+answer('urn:example:recursionCount'(478, 5)).
+answer('urn:example:recursionCount'(479, 3)).
+answer('urn:example:recursionCount'(480, 2)).
+answer('urn:example:recursionCount'(481, 5)).
+answer('urn:example:recursionCount'(482, 6)).
+answer('urn:example:recursionCount'(483, 3)).
+answer('urn:example:recursionCount'(484, 6)).
+answer('urn:example:recursionCount'(485, 3)).
+answer('urn:example:recursionCount'(486, 6)).
+answer('urn:example:recursionCount'(487, 5)).
+answer('urn:example:recursionCount'(488, 2)).
+answer('urn:example:recursionCount'(489, 7)).
+answer('urn:example:recursionCount'(490, 7)).
+answer('urn:example:recursionCount'(491, 3)).
+answer('urn:example:recursionCount'(492, 3)).
+answer('urn:example:recursionCount'(493, 4)).
+answer('urn:example:recursionCount'(494, 4)).
+answer('urn:example:recursionCount'(495, 4)).
+answer('urn:example:recursionCount'(496, 3)).
+answer('urn:example:recursionCount'(497, 3)).
+answer('urn:example:recursionCount'(498, 7)).
+answer('urn:example:recursionCount'(499, 7)).
+answer('urn:example:recursionCount'(500, 6)).
+answer('urn:example:recursionCount'(501, 7)).
+answer('urn:example:recursionCount'(502, 7)).
+answer('urn:example:recursionCount'(503, 5)).
+answer('urn:example:recursionCount'(504, 5)).
+answer('urn:example:recursionCount'(505, 5)).
+answer('urn:example:recursionCount'(506, 5)).
+answer('urn:example:recursionCount'(507, 5)).
+answer('urn:example:recursionCount'(508, 7)).
+answer('urn:example:recursionCount'(509, 7)).
+answer('urn:example:recursionCount'(510, 7)).
+answer('urn:example:recursionCount'(511, 6)).
+answer('urn:example:recursionCount'(512, 7)).
+answer('urn:example:recursionCount'(513, 7)).
+answer('urn:example:recursionCount'(514, 5)).
+answer('urn:example:recursionCount'(515, 5)).
+answer('urn:example:recursionCount'(516, 4)).
+answer('urn:example:recursionCount'(517, 3)).
+answer('urn:example:recursionCount'(518, 2)).
+answer('urn:example:recursionCount'(519, 7)).
+answer('urn:example:recursionCount'(520, 7)).
+answer('urn:example:recursionCount'(521, 7)).
+answer('urn:example:recursionCount'(522, 6)).
+answer('urn:example:recursionCount'(523, 7)).
+answer('urn:example:recursionCount'(524, 7)).
+answer('urn:example:recursionCount'(525, 5)).
+answer('urn:example:recursionCount'(526, 3)).
+answer('urn:example:recursionCount'(527, 6)).
+answer('urn:example:recursionCount'(528, 5)).
+answer('urn:example:recursionCount'(529, 3)).
+answer('urn:example:recursionCount'(530, 5)).
+answer('urn:example:recursionCount'(531, 7)).
+answer('urn:example:recursionCount'(532, 7)).
+answer('urn:example:recursionCount'(533, 6)).
+answer('urn:example:recursionCount'(534, 7)).
+answer('urn:example:recursionCount'(535, 7)).
+answer('urn:example:recursionCount'(536, 1)).
+answer('urn:example:recursionCount'(537, 5)).
+answer('urn:example:recursionCount'(538, 6)).
+answer('urn:example:recursionCount'(539, 3)).
+answer('urn:example:recursionCount'(540, 5)).
+answer('urn:example:recursionCount'(541, 5)).
+answer('urn:example:recursionCount'(542, 7)).
+answer('urn:example:recursionCount'(543, 7)).
+answer('urn:example:recursionCount'(544, 6)).
+answer('urn:example:recursionCount'(545, 7)).
+answer('urn:example:recursionCount'(546, 7)).
+answer('urn:example:recursionCount'(547, 3)).
+answer('urn:example:recursionCount'(548, 3)).
+answer('urn:example:recursionCount'(549, 4)).
+answer('urn:example:recursionCount'(550, 5)).
+answer('urn:example:recursionCount'(551, 5)).
+answer('urn:example:recursionCount'(552, 5)).
+answer('urn:example:recursionCount'(553, 7)).
+answer('urn:example:recursionCount'(554, 7)).
+answer('urn:example:recursionCount'(555, 6)).
+answer('urn:example:recursionCount'(556, 6)).
+answer('urn:example:recursionCount'(557, 4)).
+answer('urn:example:recursionCount'(558, 6)).
+answer('urn:example:recursionCount'(559, 4)).
+answer('urn:example:recursionCount'(560, 5)).
+answer('urn:example:recursionCount'(561, 4)).
+answer('urn:example:recursionCount'(562, 3)).
+answer('urn:example:recursionCount'(563, 1)).
+answer('urn:example:recursionCount'(564, 7)).
+answer('urn:example:recursionCount'(565, 6)).
+answer('urn:example:recursionCount'(566, 7)).
+answer('urn:example:recursionCount'(567, 3)).
+answer('urn:example:recursionCount'(568, 3)).
+answer('urn:example:recursionCount'(569, 4)).
+answer('urn:example:recursionCount'(570, 5)).
+answer('urn:example:recursionCount'(571, 3)).
+answer('urn:example:recursionCount'(572, 6)).
+answer('urn:example:recursionCount'(573, 5)).
+answer('urn:example:recursionCount'(574, 3)).
+answer('urn:example:recursionCount'(575, 4)).
+answer('urn:example:recursionCount'(576, 3)).
+answer('urn:example:recursionCount'(577, 5)).
+answer('urn:example:recursionCount'(578, 6)).
+answer('urn:example:recursionCount'(579, 3)).
+answer('urn:example:recursionCount'(580, 7)).
+answer('urn:example:recursionCount'(581, 2)).
+answer('urn:example:recursionCount'(582, 5)).
+answer('urn:example:recursionCount'(583, 6)).
+answer('urn:example:recursionCount'(584, 3)).
+answer('urn:example:recursionCount'(585, 6)).
+answer('urn:example:recursionCount'(586, 3)).
+answer('urn:example:recursionCount'(587, 6)).
+answer('urn:example:recursionCount'(588, 5)).
+answer('urn:example:recursionCount'(589, 3)).
+answer('urn:example:recursionCount'(590, 7)).
+answer('urn:example:recursionCount'(591, 7)).
+answer('urn:example:recursionCount'(592, 3)).
+answer('urn:example:recursionCount'(593, 3)).
+answer('urn:example:recursionCount'(594, 4)).
+answer('urn:example:recursionCount'(595, 4)).
+answer('urn:example:recursionCount'(596, 4)).
+answer('urn:example:recursionCount'(597, 3)).
+answer('urn:example:recursionCount'(598, 3)).
+answer('urn:example:recursionCount'(599, 7)).
+answer('urn:example:recursionCount'(600, 6)).
+answer('urn:example:recursionCount'(601, 7)).
+answer('urn:example:recursionCount'(602, 1)).
+answer('urn:example:recursionCount'(603, 3)).
+answer('urn:example:recursionCount'(604, 4)).
+answer('urn:example:recursionCount'(605, 5)).
+answer('urn:example:recursionCount'(606, 4)).
+answer('urn:example:recursionCount'(607, 3)).
+answer('urn:example:recursionCount'(608, 2)).
+answer('urn:example:recursionCount'(609, 7)).
+answer('urn:example:recursionCount'(610, 7)).
+answer('urn:example:recursionCount'(611, 6)).
+answer('urn:example:recursionCount'(612, 7)).
+answer('urn:example:recursionCount'(613, 1)).
+answer('urn:example:recursionCount'(614, 3)).
+answer('urn:example:recursionCount'(615, 4)).
+answer('urn:example:recursionCount'(616, 5)).
+answer('urn:example:recursionCount'(617, 5)).
+answer('urn:example:recursionCount'(618, 7)).
+answer('urn:example:recursionCount'(619, 7)).
+answer('urn:example:recursionCount'(620, 1)).
+answer('urn:example:recursionCount'(621, 7)).
+answer('urn:example:recursionCount'(622, 6)).
+answer('urn:example:recursionCount'(623, 7)).
+answer('urn:example:recursionCount'(624, 1)).
+answer('urn:example:recursionCount'(625, 3)).
+answer('urn:example:recursionCount'(626, 4)).
+answer('urn:example:recursionCount'(627, 3)).
+answer('urn:example:recursionCount'(628, 2)).
+answer('urn:example:recursionCount'(629, 7)).
+answer('urn:example:recursionCount'(630, 3)).
+answer('urn:example:recursionCount'(631, 1)).
+answer('urn:example:recursionCount'(632, 7)).
+answer('urn:example:recursionCount'(633, 6)).
+answer('urn:example:recursionCount'(634, 7)).
+answer('urn:example:recursionCount'(635, 1)).
+answer('urn:example:recursionCount'(636, 3)).
+answer('urn:example:recursionCount'(637, 6)).
+answer('urn:example:recursionCount'(638, 5)).
+answer('urn:example:recursionCount'(639, 3)).
+answer('urn:example:recursionCount'(640, 4)).
+answer('urn:example:recursionCount'(641, 3)).
+answer('urn:example:recursionCount'(642, 1)).
+answer('urn:example:recursionCount'(643, 7)).
+answer('urn:example:recursionCount'(644, 6)).
+answer('urn:example:recursionCount'(645, 7)).
+answer('urn:example:recursionCount'(646, 1)).
+answer('urn:example:recursionCount'(647, 5)).
+answer('urn:example:recursionCount'(648, 6)).
+answer('urn:example:recursionCount'(649, 3)).
+answer('urn:example:recursionCount'(650, 5)).
+answer('urn:example:recursionCount'(651, 4)).
+answer('urn:example:recursionCount'(652, 3)).
+answer('urn:example:recursionCount'(653, 1)).
+answer('urn:example:recursionCount'(654, 7)).
+answer('urn:example:recursionCount'(655, 6)).
+answer('urn:example:recursionCount'(656, 7)).
+answer('urn:example:recursionCount'(657, 3)).
+answer('urn:example:recursionCount'(658, 3)).
+answer('urn:example:recursionCount'(659, 4)).
+answer('urn:example:recursionCount'(660, 4)).
+answer('urn:example:recursionCount'(661, 5)).
+answer('urn:example:recursionCount'(662, 4)).
+answer('urn:example:recursionCount'(663, 3)).
+answer('urn:example:recursionCount'(664, 1)).
+answer('urn:example:recursionCount'(665, 7)).
+answer('urn:example:recursionCount'(666, 6)).
+answer('urn:example:recursionCount'(667, 4)).
+answer('urn:example:recursionCount'(668, 6)).
+answer('urn:example:recursionCount'(669, 4)).
+answer('urn:example:recursionCount'(670, 3)).
+answer('urn:example:recursionCount'(671, 5)).
+answer('urn:example:recursionCount'(672, 3)).
+answer('urn:example:recursionCount'(673, 6)).
+answer('urn:example:recursionCount'(674, 5)).
+answer('urn:example:recursionCount'(675, 3)).
+answer('urn:example:recursionCount'(676, 4)).
+answer('urn:example:recursionCount'(677, 3)).
+answer('urn:example:recursionCount'(678, 3)).
+answer('urn:example:recursionCount'(679, 4)).
+answer('urn:example:recursionCount'(680, 2)).
+answer('urn:example:recursionCount'(681, 7)).
+answer('urn:example:recursionCount'(682, 2)).
+answer('urn:example:recursionCount'(683, 5)).
+answer('urn:example:recursionCount'(684, 6)).
+answer('urn:example:recursionCount'(685, 3)).
+answer('urn:example:recursionCount'(686, 6)).
+answer('urn:example:recursionCount'(687, 3)).
+answer('urn:example:recursionCount'(688, 6)).
+answer('urn:example:recursionCount'(689, 3)).
+answer('urn:example:recursionCount'(690, 7)).
+answer('urn:example:recursionCount'(691, 7)).
+answer('urn:example:recursionCount'(692, 7)).
+answer('urn:example:recursionCount'(693, 3)).
+answer('urn:example:recursionCount'(694, 3)).
+answer('urn:example:recursionCount'(695, 4)).
+answer('urn:example:recursionCount'(696, 4)).
+answer('urn:example:recursionCount'(697, 4)).
+answer('urn:example:recursionCount'(698, 3)).
+answer('urn:example:recursionCount'(699, 3)).
+answer('urn:example:recursionCount'(700, 4)).
+answer('urn:example:recursionCount'(701, 3)).
+answer('urn:example:recursionCount'(702, 5)).
+answer('urn:example:recursionCount'(703, 6)).
+answer('urn:example:recursionCount'(704, 3)).
+answer('urn:example:recursionCount'(705, 5)).
+answer('urn:example:recursionCount'(706, 3)).
+answer('urn:example:recursionCount'(707, 6)).
+answer('urn:example:recursionCount'(708, 5)).
+answer('urn:example:recursionCount'(709, 3)).
+answer('urn:example:recursionCount'(710, 3)).
+answer('urn:example:recursionCount'(711, 4)).
+answer('urn:example:recursionCount'(712, 3)).
+answer('urn:example:recursionCount'(713, 5)).
+answer('urn:example:recursionCount'(714, 6)).
+answer('urn:example:recursionCount'(715, 3)).
+answer('urn:example:recursionCount'(716, 5)).
+answer('urn:example:recursionCount'(717, 3)).
+answer('urn:example:recursionCount'(718, 2)).
+answer('urn:example:recursionCount'(719, 7)).
+answer('urn:example:recursionCount'(720, 5)).
+answer('urn:example:recursionCount'(721, 3)).
+answer('urn:example:recursionCount'(722, 4)).
+answer('urn:example:recursionCount'(723, 3)).
+answer('urn:example:recursionCount'(724, 5)).
+answer('urn:example:recursionCount'(725, 6)).
+answer('urn:example:recursionCount'(726, 3)).
+answer('urn:example:recursionCount'(727, 5)).
+answer('urn:example:recursionCount'(728, 7)).
+answer('urn:example:recursionCount'(729, 7)).
+answer('urn:example:recursionCount'(730, 6)).
+answer('urn:example:recursionCount'(731, 5)).
+answer('urn:example:recursionCount'(732, 3)).
+answer('urn:example:recursionCount'(733, 4)).
+answer('urn:example:recursionCount'(734, 3)).
+answer('urn:example:recursionCount'(735, 5)).
+answer('urn:example:recursionCount'(736, 6)).
+answer('urn:example:recursionCount'(737, 3)).
+answer('urn:example:recursionCount'(738, 2)).
+answer('urn:example:recursionCount'(739, 7)).
+answer('urn:example:recursionCount'(740, 3)).
+answer('urn:example:recursionCount'(741, 6)).
+answer('urn:example:recursionCount'(742, 5)).
+answer('urn:example:recursionCount'(743, 3)).
+answer('urn:example:recursionCount'(744, 4)).
+answer('urn:example:recursionCount'(745, 3)).
+answer('urn:example:recursionCount'(746, 5)).
+answer('urn:example:recursionCount'(747, 6)).
+answer('urn:example:recursionCount'(748, 5)).
+answer('urn:example:recursionCount'(749, 3)).
+answer('urn:example:recursionCount'(750, 5)).
+answer('urn:example:recursionCount'(751, 3)).
+answer('urn:example:recursionCount'(752, 6)).
+answer('urn:example:recursionCount'(753, 5)).
+answer('urn:example:recursionCount'(754, 3)).
+answer('urn:example:recursionCount'(755, 4)).
+answer('urn:example:recursionCount'(756, 3)).
+answer('urn:example:recursionCount'(757, 5)).
+answer('urn:example:recursionCount'(758, 6)).
+answer('urn:example:recursionCount'(759, 3)).
+answer('urn:example:recursionCount'(760, 3)).
+answer('urn:example:recursionCount'(761, 5)).
+answer('urn:example:recursionCount'(762, 3)).
+answer('urn:example:recursionCount'(763, 6)).
+answer('urn:example:recursionCount'(764, 5)).
+answer('urn:example:recursionCount'(765, 3)).
+answer('urn:example:recursionCount'(766, 4)).
+answer('urn:example:recursionCount'(767, 3)).
+answer('urn:example:recursionCount'(768, 3)).
+answer('urn:example:recursionCount'(769, 4)).
+answer('urn:example:recursionCount'(770, 6)).
+answer('urn:example:recursionCount'(771, 3)).
+answer('urn:example:recursionCount'(772, 5)).
+answer('urn:example:recursionCount'(773, 3)).
+answer('urn:example:recursionCount'(774, 6)).
+answer('urn:example:recursionCount'(775, 5)).
+answer('urn:example:recursionCount'(776, 3)).
+answer('urn:example:recursionCount'(777, 4)).
+answer('urn:example:recursionCount'(778, 6)).
+answer('urn:example:recursionCount'(779, 4)).
+answer('urn:example:recursionCount'(780, 5)).
+answer('urn:example:recursionCount'(781, 2)).
+answer('urn:example:recursionCount'(782, 7)).
+answer('urn:example:recursionCount'(783, 2)).
+answer('urn:example:recursionCount'(784, 5)).
+answer('urn:example:recursionCount'(785, 6)).
+answer('urn:example:recursionCount'(786, 3)).
+answer('urn:example:recursionCount'(787, 6)).
+answer('urn:example:recursionCount'(788, 3)).
+answer('urn:example:recursionCount'(789, 4)).
+answer('urn:example:recursionCount'(790, 3)).
+answer('urn:example:recursionCount'(791, 7)).
+answer('urn:example:recursionCount'(792, 7)).
+answer('urn:example:recursionCount'(793, 7)).
+answer('urn:example:recursionCount'(794, 3)).
+answer('urn:example:recursionCount'(795, 3)).
+answer('urn:example:recursionCount'(796, 4)).
+answer('urn:example:recursionCount'(797, 4)).
+answer('urn:example:recursionCount'(798, 4)).
+answer('urn:example:recursionCount'(799, 3)).
+answer('urn:example:recursionCount'(800, 6)).
+answer('urn:example:recursionCount'(801, 3)).
+answer('urn:example:recursionCount'(802, 6)).
+answer('urn:example:recursionCount'(803, 5)).
+answer('urn:example:recursionCount'(804, 2)).
+answer('urn:example:recursionCount'(805, 7)).
+answer('urn:example:recursionCount'(806, 2)).
+answer('urn:example:recursionCount'(807, 5)).
+answer('urn:example:recursionCount'(808, 6)).
+answer('urn:example:recursionCount'(809, 3)).
+answer('urn:example:recursionCount'(810, 3)).
+answer('urn:example:recursionCount'(811, 6)).
+answer('urn:example:recursionCount'(812, 3)).
+answer('urn:example:recursionCount'(813, 6)).
+answer('urn:example:recursionCount'(814, 5)).
+answer('urn:example:recursionCount'(815, 2)).
+answer('urn:example:recursionCount'(816, 7)).
+answer('urn:example:recursionCount'(817, 2)).
+answer('urn:example:recursionCount'(818, 5)).
+answer('urn:example:recursionCount'(819, 3)).
+answer('urn:example:recursionCount'(820, 6)).
+answer('urn:example:recursionCount'(821, 3)).
+answer('urn:example:recursionCount'(822, 6)).
+answer('urn:example:recursionCount'(823, 3)).
+answer('urn:example:recursionCount'(824, 6)).
+answer('urn:example:recursionCount'(825, 5)).
+answer('urn:example:recursionCount'(826, 2)).
+answer('urn:example:recursionCount'(827, 7)).
+answer('urn:example:recursionCount'(828, 2)).
+answer('urn:example:recursionCount'(829, 7)).
+answer('urn:example:recursionCount'(830, 5)).
+answer('urn:example:recursionCount'(831, 6)).
+answer('urn:example:recursionCount'(832, 3)).
+answer('urn:example:recursionCount'(833, 6)).
+answer('urn:example:recursionCount'(834, 3)).
+answer('urn:example:recursionCount'(835, 6)).
+answer('urn:example:recursionCount'(836, 5)).
+answer('urn:example:recursionCount'(837, 2)).
+answer('urn:example:recursionCount'(838, 7)).
+answer('urn:example:recursionCount'(839, 7)).
+answer('urn:example:recursionCount'(840, 2)).
+answer('urn:example:recursionCount'(841, 5)).
+answer('urn:example:recursionCount'(842, 6)).
+answer('urn:example:recursionCount'(843, 3)).
+answer('urn:example:recursionCount'(844, 6)).
+answer('urn:example:recursionCount'(845, 3)).
+answer('urn:example:recursionCount'(846, 6)).
+answer('urn:example:recursionCount'(847, 5)).
+answer('urn:example:recursionCount'(848, 2)).
+answer('urn:example:recursionCount'(849, 7)).
+answer('urn:example:recursionCount'(850, 7)).
+answer('urn:example:recursionCount'(851, 2)).
+answer('urn:example:recursionCount'(852, 5)).
+answer('urn:example:recursionCount'(853, 6)).
+answer('urn:example:recursionCount'(854, 3)).
+answer('urn:example:recursionCount'(855, 6)).
+answer('urn:example:recursionCount'(856, 3)).
+answer('urn:example:recursionCount'(857, 6)).
+answer('urn:example:recursionCount'(858, 5)).
+answer('urn:example:recursionCount'(859, 3)).
+answer('urn:example:recursionCount'(860, 2)).
+answer('urn:example:recursionCount'(861, 7)).
+answer('urn:example:recursionCount'(862, 2)).
+answer('urn:example:recursionCount'(863, 5)).
+answer('urn:example:recursionCount'(864, 6)).
+answer('urn:example:recursionCount'(865, 3)).
+answer('urn:example:recursionCount'(866, 6)).
+answer('urn:example:recursionCount'(867, 3)).
+answer('urn:example:recursionCount'(868, 6)).
+answer('urn:example:recursionCount'(869, 3)).
+answer('urn:example:recursionCount'(870, 5)).
+answer('urn:example:recursionCount'(871, 2)).
+answer('urn:example:recursionCount'(872, 7)).
+answer('urn:example:recursionCount'(873, 2)).
+answer('urn:example:recursionCount'(874, 5)).
+answer('urn:example:recursionCount'(875, 6)).
+answer('urn:example:recursionCount'(876, 3)).
+answer('urn:example:recursionCount'(877, 6)).
+answer('urn:example:recursionCount'(878, 3)).
+answer('urn:example:recursionCount'(879, 4)).
+answer('urn:example:recursionCount'(880, 6)).
+answer('urn:example:recursionCount'(881, 5)).
+answer('urn:example:recursionCount'(882, 2)).
+answer('urn:example:recursionCount'(883, 7)).
+answer('urn:example:recursionCount'(884, 2)).
+answer('urn:example:recursionCount'(885, 5)).
+answer('urn:example:recursionCount'(886, 6)).
+answer('urn:example:recursionCount'(887, 3)).
+answer('urn:example:recursionCount'(888, 6)).
+answer('urn:example:recursionCount'(889, 4)).
+answer('urn:example:recursionCount'(890, 3)).
+answer('urn:example:recursionCount'(891, 3)).
+answer('urn:example:recursionCount'(892, 7)).
+answer('urn:example:recursionCount'(893, 7)).
+answer('urn:example:recursionCount'(894, 7)).
+answer('urn:example:recursionCount'(895, 3)).
+answer('urn:example:recursionCount'(896, 3)).
+answer('urn:example:recursionCount'(897, 4)).
+answer('urn:example:recursionCount'(898, 4)).
+answer('urn:example:recursionCount'(899, 4)).
+answer('urn:example:recursionCount'(900, 4)).
+answer('urn:example:recursionCount'(901, 4)).
+answer('urn:example:recursionCount'(902, 3)).
+answer('urn:example:recursionCount'(903, 3)).
+answer('urn:example:recursionCount'(904, 7)).
+answer('urn:example:recursionCount'(905, 7)).
+answer('urn:example:recursionCount'(906, 7)).
+answer('urn:example:recursionCount'(907, 3)).
+answer('urn:example:recursionCount'(908, 3)).
+answer('urn:example:recursionCount'(909, 4)).
+answer('urn:example:recursionCount'(910, 4)).
+answer('urn:example:recursionCount'(911, 4)).
+answer('urn:example:recursionCount'(912, 4)).
+answer('urn:example:recursionCount'(913, 3)).
+answer('urn:example:recursionCount'(914, 3)).
+answer('urn:example:recursionCount'(915, 7)).
+answer('urn:example:recursionCount'(916, 7)).
+answer('urn:example:recursionCount'(917, 7)).
+answer('urn:example:recursionCount'(918, 3)).
+answer('urn:example:recursionCount'(919, 3)).
+answer('urn:example:recursionCount'(920, 3)).
+answer('urn:example:recursionCount'(921, 4)).
+answer('urn:example:recursionCount'(922, 4)).
+answer('urn:example:recursionCount'(923, 4)).
+answer('urn:example:recursionCount'(924, 3)).
+answer('urn:example:recursionCount'(925, 3)).
+answer('urn:example:recursionCount'(926, 7)).
+answer('urn:example:recursionCount'(927, 7)).
+answer('urn:example:recursionCount'(928, 7)).
+answer('urn:example:recursionCount'(929, 3)).
+answer('urn:example:recursionCount'(930, 3)).
+answer('urn:example:recursionCount'(931, 3)).
+answer('urn:example:recursionCount'(932, 4)).
+answer('urn:example:recursionCount'(933, 4)).
+answer('urn:example:recursionCount'(934, 4)).
+answer('urn:example:recursionCount'(935, 3)).
+answer('urn:example:recursionCount'(936, 3)).
+answer('urn:example:recursionCount'(937, 7)).
+answer('urn:example:recursionCount'(938, 7)).
+answer('urn:example:recursionCount'(939, 7)).
+answer('urn:example:recursionCount'(940, 7)).
+answer('urn:example:recursionCount'(941, 3)).
+answer('urn:example:recursionCount'(942, 3)).
+answer('urn:example:recursionCount'(943, 4)).
+answer('urn:example:recursionCount'(944, 4)).
+answer('urn:example:recursionCount'(945, 4)).
+answer('urn:example:recursionCount'(946, 3)).
+answer('urn:example:recursionCount'(947, 3)).
+answer('urn:example:recursionCount'(948, 7)).
+answer('urn:example:recursionCount'(949, 7)).
+answer('urn:example:recursionCount'(950, 7)).
+answer('urn:example:recursionCount'(951, 7)).
+answer('urn:example:recursionCount'(952, 3)).
+answer('urn:example:recursionCount'(953, 3)).
+answer('urn:example:recursionCount'(954, 4)).
+answer('urn:example:recursionCount'(955, 4)).
+answer('urn:example:recursionCount'(956, 4)).
+answer('urn:example:recursionCount'(957, 3)).
+answer('urn:example:recursionCount'(958, 3)).
+answer('urn:example:recursionCount'(959, 7)).
+answer('urn:example:recursionCount'(960, 7)).
+answer('urn:example:recursionCount'(961, 7)).
+answer('urn:example:recursionCount'(962, 7)).
+answer('urn:example:recursionCount'(963, 3)).
+answer('urn:example:recursionCount'(964, 3)).
+answer('urn:example:recursionCount'(965, 4)).
+answer('urn:example:recursionCount'(966, 4)).
+answer('urn:example:recursionCount'(967, 4)).
+answer('urn:example:recursionCount'(968, 3)).
+answer('urn:example:recursionCount'(969, 3)).
+answer('urn:example:recursionCount'(970, 3)).
+answer('urn:example:recursionCount'(971, 7)).
+answer('urn:example:recursionCount'(972, 7)).
+answer('urn:example:recursionCount'(973, 7)).
+answer('urn:example:recursionCount'(974, 3)).
+answer('urn:example:recursionCount'(975, 3)).
+answer('urn:example:recursionCount'(976, 4)).
+answer('urn:example:recursionCount'(977, 4)).
+answer('urn:example:recursionCount'(978, 4)).
+answer('urn:example:recursionCount'(979, 3)).
+answer('urn:example:recursionCount'(980, 3)).
+answer('urn:example:recursionCount'(981, 3)).
+answer('urn:example:recursionCount'(982, 7)).
+answer('urn:example:recursionCount'(983, 7)).
+answer('urn:example:recursionCount'(984, 7)).
+answer('urn:example:recursionCount'(985, 3)).
+answer('urn:example:recursionCount'(986, 3)).
+answer('urn:example:recursionCount'(987, 4)).
+answer('urn:example:recursionCount'(988, 4)).
+answer('urn:example:recursionCount'(989, 4)).
+answer('urn:example:recursionCount'(990, 4)).
+answer('urn:example:recursionCount'(991, 3)).
+answer('urn:example:recursionCount'(992, 3)).
+answer('urn:example:recursionCount'(993, 7)).
+answer('urn:example:recursionCount'(994, 7)).
+answer('urn:example:recursionCount'(995, 7)).
+answer('urn:example:recursionCount'(996, 3)).
+answer('urn:example:recursionCount'(997, 3)).
+answer('urn:example:recursionCount'(998, 4)).
+answer('urn:example:recursionCount'(999, 4)).
+answer('urn:example:recursionCount'(1000, 5)).
+answer('urn:example:recursionCount'(1001, 4)).
+answer('urn:example:recursionCount'(1002, 3)).
+answer('urn:example:recursionCount'(1003, 3)).
+answer('urn:example:recursionCount'(1004, 7)).
+answer('urn:example:recursionCount'(1005, 7)).
+answer('urn:example:recursionCount'(1006, 7)).
+answer('urn:example:recursionCount'(1007, 3)).
+answer('urn:example:recursionCount'(1008, 3)).
+answer('urn:example:recursionCount'(1009, 4)).
+answer('urn:example:recursionCount'(1010, 4)).
+answer('urn:example:recursionCount'(1011, 5)).
+answer('urn:example:recursionCount'(1012, 4)).
+answer('urn:example:recursionCount'(1013, 6)).
+answer('urn:example:recursionCount'(1014, 4)).
+answer('urn:example:recursionCount'(1015, 6)).
+answer('urn:example:recursionCount'(1016, 6)).
+answer('urn:example:recursionCount'(1017, 4)).
+answer('urn:example:recursionCount'(1018, 6)).
+answer('urn:example:recursionCount'(1019, 4)).
+answer('urn:example:recursionCount'(1020, 3)).
+answer('urn:example:recursionCount'(1021, 4)).
+answer('urn:example:recursionCount'(1022, 3)).
+answer('urn:example:recursionCount'(1023, 3)).
+answer('urn:example:recursionCount'(1024, 7)).
+answer('urn:example:recursionCount'(1025, 7)).
+answer('urn:example:recursionCount'(1026, 7)).
+answer('urn:example:recursionCount'(1027, 3)).
+answer('urn:example:recursionCount'(1028, 3)).
+answer('urn:example:recursionCount'(1029, 4)).
+answer('urn:example:recursionCount'(1030, 3)).
+answer('urn:example:recursionCount'(1031, 6)).
+answer('urn:example:recursionCount'(1032, 3)).
+answer('urn:example:recursionCount'(1033, 5)).
+answer('urn:example:recursionCount'(1034, 2)).
+answer('urn:example:recursionCount'(1035, 7)).
+answer('urn:example:recursionCount'(1036, 1)).
+answer('urn:example:recursionCount'(1037, 5)).
+answer('urn:example:recursionCount'(1038, 6)).
+answer('urn:example:recursionCount'(1039, 3)).
+answer('urn:example:recursionCount'(1040, 7)).
+answer('urn:example:recursionCount'(1041, 4)).
+answer('urn:example:recursionCount'(1042, 7)).
+answer('urn:example:recursionCount'(1043, 2)).
+answer('urn:example:recursionCount'(1044, 3)).
+answer('urn:example:recursionCount'(1045, 5)).
+answer('urn:example:recursionCount'(1046, 3)).
+answer('urn:example:recursionCount'(1047, 6)).
+answer('urn:example:recursionCount'(1048, 5)).
+answer('urn:example:recursionCount'(1049, 3)).
+answer('urn:example:recursionCount'(1050, 7)).
+answer('urn:example:recursionCount'(1051, 6)).
+answer('urn:example:recursionCount'(1052, 7)).
+answer('urn:example:recursionCount'(1053, 7)).
+answer('urn:example:recursionCount'(1054, 5)).
+answer('urn:example:recursionCount'(1055, 5)).
+answer('urn:example:recursionCount'(1056, 4)).
+answer('urn:example:recursionCount'(1057, 3)).
+answer('urn:example:recursionCount'(1058, 2)).
+answer('urn:example:recursionCount'(1059, 7)).
+answer('urn:example:recursionCount'(1060, 7)).
+answer('urn:example:recursionCount'(1061, 6)).
+answer('urn:example:recursionCount'(1062, 7)).
+answer('urn:example:recursionCount'(1063, 1)).
+answer('urn:example:recursionCount'(1064, 3)).
+answer('urn:example:recursionCount'(1065, 4)).
+answer('urn:example:recursionCount'(1066, 5)).
+answer('urn:example:recursionCount'(1067, 5)).
+answer('urn:example:recursionCount'(1068, 7)).
+answer('urn:example:recursionCount'(1069, 7)).
+answer('urn:example:recursionCount'(1070, 3)).
+answer('urn:example:recursionCount'(1071, 4)).
+answer('urn:example:recursionCount'(1072, 3)).
+answer('urn:example:recursionCount'(1073, 5)).
+answer('urn:example:recursionCount'(1074, 6)).
+answer('urn:example:recursionCount'(1075, 3)).
+answer('urn:example:recursionCount'(1076, 5)).
+answer('urn:example:recursionCount'(1077, 3)).
+answer('urn:example:recursionCount'(1078, 2)).
+answer('urn:example:recursionCount'(1079, 7)).
+answer('urn:example:recursionCount'(1080, 3)).
+answer('urn:example:recursionCount'(1081, 6)).
+answer('urn:example:recursionCount'(1082, 3)).
+answer('urn:example:recursionCount'(1083, 6)).
+answer('urn:example:recursionCount'(1084, 5)).
+answer('urn:example:recursionCount'(1085, 2)).
+answer('urn:example:recursionCount'(1086, 7)).
+answer('urn:example:recursionCount'(1087, 2)).
+answer('urn:example:recursionCount'(1088, 5)).
+answer('urn:example:recursionCount'(1089, 3)).
+answer('urn:example:recursionCount'(1090, 4)).
+answer('urn:example:recursionCount'(1091, 4)).
+answer('urn:example:recursionCount'(1092, 4)).
+answer('urn:example:recursionCount'(1093, 3)).
+answer('urn:example:recursionCount'(1094, 3)).
+answer('urn:example:recursionCount'(1095, 7)).
+answer('urn:example:recursionCount'(1096, 7)).
+answer('urn:example:recursionCount'(1097, 7)).
+answer('urn:example:recursionCount'(1098, 3)).
+answer('urn:example:recursionCount'(1099, 3)).
+answer('urn:example:recursionCount'(1100, 4)).
+answer('urn:example:recursionCount'(1101, 5)).
+answer('urn:example:recursionCount'(1102, 4)).
+answer('urn:example:recursionCount'(1103, 6)).
+answer('urn:example:recursionCount'(1104, 4)).
+answer('urn:example:recursionCount'(1105, 6)).
+answer('urn:example:recursionCount'(1106, 6)).
+answer('urn:example:recursionCount'(1107, 4)).
+answer('urn:example:recursionCount'(1108, 6)).
+answer('urn:example:recursionCount'(1109, 4)).
+answer('urn:example:recursionCount'(1110, 5)).
+answer('urn:example:recursionCount'(1112, 5)).
+answer('urn:example:recursionCount'(1113, 4)).
+answer('urn:example:recursionCount'(1114, 6)).
+answer('urn:example:recursionCount'(1115, 4)).
+answer('urn:example:recursionCount'(1116, 6)).
+answer('urn:example:recursionCount'(1117, 6)).
+answer('urn:example:recursionCount'(1118, 4)).
+answer('urn:example:recursionCount'(1119, 6)).
+answer('urn:example:recursionCount'(1120, 4)).
+answer('urn:example:recursionCount'(1121, 5)).
+answer('urn:example:recursionCount'(1122, 4)).
+answer('urn:example:recursionCount'(1123, 3)).
+answer('urn:example:recursionCount'(1124, 3)).
+answer('urn:example:recursionCount'(1125, 7)).
+answer('urn:example:recursionCount'(1126, 7)).
+answer('urn:example:recursionCount'(1127, 7)).
+answer('urn:example:recursionCount'(1128, 3)).
+answer('urn:example:recursionCount'(1129, 3)).
+answer('urn:example:recursionCount'(1130, 6)).
+answer('urn:example:recursionCount'(1131, 4)).
+answer('urn:example:recursionCount'(1132, 3)).
+answer('urn:example:recursionCount'(1133, 6)).
+answer('urn:example:recursionCount'(1134, 5)).
+answer('urn:example:recursionCount'(1135, 2)).
+answer('urn:example:recursionCount'(1136, 7)).
+answer('urn:example:recursionCount'(1137, 1)).
+answer('urn:example:recursionCount'(1138, 5)).
+answer('urn:example:recursionCount'(1139, 6)).
+answer('urn:example:recursionCount'(1140, 4)).
+answer('urn:example:recursionCount'(1141, 6)).
+answer('urn:example:recursionCount'(1142, 3)).
+answer('urn:example:recursionCount'(1143, 5)).
+answer('urn:example:recursionCount'(1144, 6)).
+answer('urn:example:recursionCount'(1145, 3)).
+answer('urn:example:recursionCount'(1146, 5)).
+answer('urn:example:recursionCount'(1147, 3)).
+answer('urn:example:recursionCount'(1148, 6)).
+answer('urn:example:recursionCount'(1149, 5)).
+answer('urn:example:recursionCount'(1150, 6)).
+answer('urn:example:recursionCount'(1151, 4)).
+answer('urn:example:recursionCount'(1152, 7)).
+answer('urn:example:recursionCount'(1153, 2)).
+answer('urn:example:recursionCount'(1154, 3)).
+answer('urn:example:recursionCount'(1155, 4)).
+answer('urn:example:recursionCount'(1156, 5)).
+answer('urn:example:recursionCount'(1157, 4)).
+answer('urn:example:recursionCount'(1158, 3)).
+answer('urn:example:recursionCount'(1159, 2)).
+answer('urn:example:recursionCount'(1160, 6)).
+answer('urn:example:recursionCount'(1161, 6)).
+answer('urn:example:recursionCount'(1162, 7)).
+answer('urn:example:recursionCount'(1163, 7)).
+answer('urn:example:recursionCount'(1164, 5)).
+answer('urn:example:recursionCount'(1165, 5)).
+answer('urn:example:recursionCount'(1166, 5)).
+answer('urn:example:recursionCount'(1167, 5)).
+answer('urn:example:recursionCount'(1168, 5)).
+answer('urn:example:recursionCount'(1169, 7)).
+answer('urn:example:recursionCount'(1170, 4)).
+answer('urn:example:recursionCount'(1171, 6)).
+answer('urn:example:recursionCount'(1172, 7)).
+answer('urn:example:recursionCount'(1173, 1)).
+answer('urn:example:recursionCount'(1174, 3)).
+answer('urn:example:recursionCount'(1175, 4)).
+answer('urn:example:recursionCount'(1176, 5)).
+answer('urn:example:recursionCount'(1177, 4)).
+answer('urn:example:recursionCount'(1178, 3)).
+answer('urn:example:recursionCount'(1179, 2)).
+answer('urn:example:recursionCount'(1180, 6)).
+answer('urn:example:recursionCount'(1181, 4)).
+answer('urn:example:recursionCount'(1182, 3)).
+answer('urn:example:recursionCount'(1183, 5)).
+answer('urn:example:recursionCount'(1184, 6)).
+answer('urn:example:recursionCount'(1185, 3)).
+answer('urn:example:recursionCount'(1186, 5)).
+answer('urn:example:recursionCount'(1187, 3)).
+answer('urn:example:recursionCount'(1188, 6)).
+answer('urn:example:recursionCount'(1189, 5)).
+answer('urn:example:recursionCount'(1190, 4)).
+answer('urn:example:recursionCount'(1191, 6)).
+answer('urn:example:recursionCount'(1192, 3)).
+answer('urn:example:recursionCount'(1193, 6)).
+answer('urn:example:recursionCount'(1194, 5)).
+answer('urn:example:recursionCount'(1195, 2)).
+answer('urn:example:recursionCount'(1196, 7)).
+answer('urn:example:recursionCount'(1197, 2)).
+answer('urn:example:recursionCount'(1198, 5)).
+answer('urn:example:recursionCount'(1199, 6)).
+answer('urn:example:recursionCount'(1200, 3)).
+answer('urn:example:recursionCount'(1201, 4)).
+answer('urn:example:recursionCount'(1202, 3)).
+answer('urn:example:recursionCount'(1203, 3)).
+answer('urn:example:recursionCount'(1204, 7)).
+answer('urn:example:recursionCount'(1205, 7)).
+answer('urn:example:recursionCount'(1206, 7)).
+answer('urn:example:recursionCount'(1207, 3)).
+answer('urn:example:recursionCount'(1208, 3)).
+answer('urn:example:recursionCount'(1209, 4)).
+answer('urn:example:recursionCount'(1210, 4)).
+answer('urn:example:recursionCount'(1211, 5)).
+answer('urn:example:recursionCount'(1212, 4)).
+answer('urn:example:recursionCount'(1213, 3)).
+answer('urn:example:recursionCount'(1214, 3)).
+answer('urn:example:recursionCount'(1215, 7)).
+answer('urn:example:recursionCount'(1216, 7)).
+answer('urn:example:recursionCount'(1217, 7)).
+answer('urn:example:recursionCount'(1218, 3)).
+answer('urn:example:recursionCount'(1219, 3)).
+answer('urn:example:recursionCount'(1220, 3)).
+answer('urn:example:recursionCount'(1221, 4)).
+answer('urn:example:recursionCount'(1222, 5)).
+answer('urn:example:recursionCount'(1223, 4)).
+answer('urn:example:recursionCount'(1224, 6)).
+answer('urn:example:recursionCount'(1225, 4)).
+answer('urn:example:recursionCount'(1226, 6)).
+answer('urn:example:recursionCount'(1227, 6)).
+answer('urn:example:recursionCount'(1228, 4)).
+answer('urn:example:recursionCount'(1229, 6)).
+answer('urn:example:recursionCount'(1230, 3)).
+answer('urn:example:recursionCount'(1231, 3)).
+answer('urn:example:recursionCount'(1232, 4)).
+answer('urn:example:recursionCount'(1233, 3)).
+answer('urn:example:recursionCount'(1234, 3)).
+answer('urn:example:recursionCount'(1235, 7)).
+answer('urn:example:recursionCount'(1236, 7)).
+answer('urn:example:recursionCount'(1237, 7)).
+answer('urn:example:recursionCount'(1238, 3)).
+answer('urn:example:recursionCount'(1239, 3)).
+answer('urn:example:recursionCount'(1240, 7)).
+answer('urn:example:recursionCount'(1241, 3)).
+answer('urn:example:recursionCount'(1242, 6)).
+answer('urn:example:recursionCount'(1243, 3)).
+answer('urn:example:recursionCount'(1244, 5)).
+answer('urn:example:recursionCount'(1245, 2)).
+answer('urn:example:recursionCount'(1246, 7)).
+answer('urn:example:recursionCount'(1247, 1)).
+answer('urn:example:recursionCount'(1248, 5)).
+answer('urn:example:recursionCount'(1249, 6)).
+answer('urn:example:recursionCount'(1250, 7)).
+answer('urn:example:recursionCount'(1251, 7)).
+answer('urn:example:recursionCount'(1252, 4)).
+answer('urn:example:recursionCount'(1253, 7)).
+answer('urn:example:recursionCount'(1254, 2)).
+answer('urn:example:recursionCount'(1255, 3)).
+answer('urn:example:recursionCount'(1256, 5)).
+answer('urn:example:recursionCount'(1257, 3)).
+answer('urn:example:recursionCount'(1258, 6)).
+answer('urn:example:recursionCount'(1259, 5)).
+answer('urn:example:recursionCount'(1260, 7)).
+answer('urn:example:recursionCount'(1261, 7)).
+answer('urn:example:recursionCount'(1262, 6)).
+answer('urn:example:recursionCount'(1263, 7)).
+answer('urn:example:recursionCount'(1264, 7)).
+answer('urn:example:recursionCount'(1265, 5)).
+answer('urn:example:recursionCount'(1266, 5)).
+answer('urn:example:recursionCount'(1267, 4)).
+answer('urn:example:recursionCount'(1268, 3)).
+answer('urn:example:recursionCount'(1269, 2)).
+answer('urn:example:recursionCount'(1270, 3)).
+answer('urn:example:recursionCount'(1271, 7)).
+answer('urn:example:recursionCount'(1272, 6)).
+answer('urn:example:recursionCount'(1273, 7)).
+answer('urn:example:recursionCount'(1274, 1)).
+answer('urn:example:recursionCount'(1275, 3)).
+answer('urn:example:recursionCount'(1276, 4)).
+answer('urn:example:recursionCount'(1277, 5)).
+answer('urn:example:recursionCount'(1278, 5)).
+answer('urn:example:recursionCount'(1279, 7)).
+answer('urn:example:recursionCount'(1280, 3)).
+answer('urn:example:recursionCount'(1281, 3)).
+answer('urn:example:recursionCount'(1282, 4)).
+answer('urn:example:recursionCount'(1283, 3)).
+answer('urn:example:recursionCount'(1284, 5)).
+answer('urn:example:recursionCount'(1285, 6)).
+answer('urn:example:recursionCount'(1286, 3)).
+answer('urn:example:recursionCount'(1287, 5)).
+answer('urn:example:recursionCount'(1288, 3)).
+answer('urn:example:recursionCount'(1289, 2)).
+answer('urn:example:recursionCount'(1290, 4)).
+answer('urn:example:recursionCount'(1291, 3)).
+answer('urn:example:recursionCount'(1292, 6)).
+answer('urn:example:recursionCount'(1293, 3)).
+answer('urn:example:recursionCount'(1294, 6)).
+answer('urn:example:recursionCount'(1295, 5)).
+answer('urn:example:recursionCount'(1296, 2)).
+answer('urn:example:recursionCount'(1297, 7)).
+answer('urn:example:recursionCount'(1298, 2)).
+answer('urn:example:recursionCount'(1299, 5)).
+answer('urn:example:recursionCount'(1300, 3)).
+answer('urn:example:recursionCount'(1301, 6)).
+answer('urn:example:recursionCount'(1302, 3)).
+answer('urn:example:recursionCount'(1303, 5)).
+answer('urn:example:recursionCount'(1304, 2)).
+answer('urn:example:recursionCount'(1305, 7)).
+answer('urn:example:recursionCount'(1306, 1)).
+answer('urn:example:recursionCount'(1307, 5)).
+answer('urn:example:recursionCount'(1308, 6)).
+answer('urn:example:recursionCount'(1309, 3)).
+answer('urn:example:recursionCount'(1310, 6)).
+answer('urn:example:recursionCount'(1311, 4)).
+answer('urn:example:recursionCount'(1312, 3)).
+answer('urn:example:recursionCount'(1313, 6)).
+answer('urn:example:recursionCount'(1314, 5)).
+answer('urn:example:recursionCount'(1315, 2)).
+answer('urn:example:recursionCount'(1316, 7)).
+answer('urn:example:recursionCount'(1317, 1)).
+answer('urn:example:recursionCount'(1318, 5)).
+answer('urn:example:recursionCount'(1319, 6)).
+answer('urn:example:recursionCount'(1320, 3)).
+answer('urn:example:recursionCount'(1321, 3)).
+answer('urn:example:recursionCount'(1322, 4)).
+answer('urn:example:recursionCount'(1323, 3)).
+answer('urn:example:recursionCount'(1324, 3)).
+answer('urn:example:recursionCount'(1325, 7)).
+answer('urn:example:recursionCount'(1326, 7)).
+answer('urn:example:recursionCount'(1327, 7)).
+answer('urn:example:recursionCount'(1328, 3)).
+answer('urn:example:recursionCount'(1329, 3)).
+answer('urn:example:recursionCount'(1330, 5)).
+answer('urn:example:recursionCount'(1331, 6)).
+answer('urn:example:recursionCount'(1332, 3)).
+answer('urn:example:recursionCount'(1333, 4)).
+answer('urn:example:recursionCount'(1334, 6)).
+answer('urn:example:recursionCount'(1335, 4)).
+answer('urn:example:recursionCount'(1336, 6)).
+answer('urn:example:recursionCount'(1337, 6)).
+answer('urn:example:recursionCount'(1338, 4)).
+answer('urn:example:recursionCount'(1339, 6)).
+answer('urn:example:recursionCount'(1340, 2)).
+answer('urn:example:recursionCount'(1341, 5)).
+answer('urn:example:recursionCount'(1342, 3)).
+answer('urn:example:recursionCount'(1343, 6)).
+answer('urn:example:recursionCount'(1344, 3)).
+answer('urn:example:recursionCount'(1345, 7)).
+answer('urn:example:recursionCount'(1346, 7)).
+answer('urn:example:recursionCount'(1347, 7)).
+answer('urn:example:recursionCount'(1348, 3)).
+answer('urn:example:recursionCount'(1349, 3)).
+answer('urn:example:recursionCount'(1350, 7)).
+answer('urn:example:recursionCount'(1351, 2)).
+answer('urn:example:recursionCount'(1352, 7)).
+answer('urn:example:recursionCount'(1353, 4)).
+answer('urn:example:recursionCount'(1354, 7)).
+answer('urn:example:recursionCount'(1355, 2)).
+answer('urn:example:recursionCount'(1356, 7)).
+answer('urn:example:recursionCount'(1357, 1)).
+answer('urn:example:recursionCount'(1358, 5)).
+answer('urn:example:recursionCount'(1359, 6)).
+answer('urn:example:recursionCount'(1360, 1)).
+answer('urn:example:recursionCount'(1361, 7)).
+answer('urn:example:recursionCount'(1362, 7)).
+answer('urn:example:recursionCount'(1363, 6)).
+answer('urn:example:recursionCount'(1364, 7)).
+answer('urn:example:recursionCount'(1365, 7)).
+answer('urn:example:recursionCount'(1366, 5)).
+answer('urn:example:recursionCount'(1367, 3)).
+answer('urn:example:recursionCount'(1368, 6)).
+answer('urn:example:recursionCount'(1369, 5)).
+answer('urn:example:recursionCount'(1370, 5)).
+answer('urn:example:recursionCount'(1371, 1)).
+answer('urn:example:recursionCount'(1372, 7)).
+answer('urn:example:recursionCount'(1373, 6)).
+answer('urn:example:recursionCount'(1374, 7)).
+answer('urn:example:recursionCount'(1375, 1)).
+answer('urn:example:recursionCount'(1376, 3)).
+answer('urn:example:recursionCount'(1377, 4)).
+answer('urn:example:recursionCount'(1378, 3)).
+answer('urn:example:recursionCount'(1379, 2)).
+answer('urn:example:recursionCount'(1380, 6)).
+answer('urn:example:recursionCount'(1381, 5)).
+answer('urn:example:recursionCount'(1382, 3)).
+answer('urn:example:recursionCount'(1383, 4)).
+answer('urn:example:recursionCount'(1384, 3)).
+answer('urn:example:recursionCount'(1385, 5)).
+answer('urn:example:recursionCount'(1386, 6)).
+answer('urn:example:recursionCount'(1387, 3)).
+answer('urn:example:recursionCount'(1388, 5)).
+answer('urn:example:recursionCount'(1389, 7)).
+answer('urn:example:recursionCount'(1390, 3)).
+answer('urn:example:recursionCount'(1391, 6)).
+answer('urn:example:recursionCount'(1392, 3)).
+answer('urn:example:recursionCount'(1393, 6)).
+answer('urn:example:recursionCount'(1394, 3)).
+answer('urn:example:recursionCount'(1395, 6)).
+answer('urn:example:recursionCount'(1396, 5)).
+answer('urn:example:recursionCount'(1397, 2)).
+answer('urn:example:recursionCount'(1398, 7)).
+answer('urn:example:recursionCount'(1399, 2)).
+answer('urn:example:recursionCount'(1400, 7)).
+answer('urn:example:recursionCount'(1401, 4)).
+answer('urn:example:recursionCount'(1402, 7)).
+answer('urn:example:recursionCount'(1403, 2)).
+answer('urn:example:recursionCount'(1404, 3)).
+answer('urn:example:recursionCount'(1405, 5)).
+answer('urn:example:recursionCount'(1406, 3)).
+answer('urn:example:recursionCount'(1407, 6)).
+answer('urn:example:recursionCount'(1408, 5)).
+answer('urn:example:recursionCount'(1409, 3)).
+answer('urn:example:recursionCount'(1410, 4)).
+answer('urn:example:recursionCount'(1411, 6)).
+answer('urn:example:recursionCount'(1412, 3)).
+answer('urn:example:recursionCount'(1413, 5)).
+answer('urn:example:recursionCount'(1414, 6)).
+answer('urn:example:recursionCount'(1415, 3)).
+answer('urn:example:recursionCount'(1416, 5)).
+answer('urn:example:recursionCount'(1417, 3)).
+answer('urn:example:recursionCount'(1418, 6)).
+answer('urn:example:recursionCount'(1419, 5)).
+answer('urn:example:recursionCount'(1420, 7)).
+answer('urn:example:recursionCount'(1421, 3)).
+answer('urn:example:recursionCount'(1422, 6)).
+answer('urn:example:recursionCount'(1423, 3)).
+answer('urn:example:recursionCount'(1424, 5)).
+answer('urn:example:recursionCount'(1425, 2)).
+answer('urn:example:recursionCount'(1426, 7)).
+answer('urn:example:recursionCount'(1427, 1)).
+answer('urn:example:recursionCount'(1428, 5)).
+answer('urn:example:recursionCount'(1429, 6)).
+answer('urn:example:recursionCount'(1430, 2)).
+answer('urn:example:recursionCount'(1431, 5)).
+answer('urn:example:recursionCount'(1432, 3)).
+answer('urn:example:recursionCount'(1433, 6)).
+answer('urn:example:recursionCount'(1434, 3)).
+answer('urn:example:recursionCount'(1435, 7)).
+answer('urn:example:recursionCount'(1436, 7)).
+answer('urn:example:recursionCount'(1437, 7)).
+answer('urn:example:recursionCount'(1438, 3)).
+answer('urn:example:recursionCount'(1439, 3)).
+answer('urn:example:recursionCount'(1440, 3)).
+answer('urn:example:recursionCount'(1441, 6)).
+answer('urn:example:recursionCount'(1442, 5)).
+answer('urn:example:recursionCount'(1443, 3)).
+answer('urn:example:recursionCount'(1444, 6)).
+answer('urn:example:recursionCount'(1445, 4)).
+answer('urn:example:recursionCount'(1446, 6)).
+answer('urn:example:recursionCount'(1447, 6)).
+answer('urn:example:recursionCount'(1448, 4)).
+answer('urn:example:recursionCount'(1449, 6)).
+answer('urn:example:recursionCount'(1450, 5)).
+answer('urn:example:recursionCount'(1451, 3)).
+answer('urn:example:recursionCount'(1452, 2)).
+answer('urn:example:recursionCount'(1453, 7)).
+answer('urn:example:recursionCount'(1454, 4)).
+answer('urn:example:recursionCount'(1455, 7)).
+answer('urn:example:recursionCount'(1456, 7)).
+answer('urn:example:recursionCount'(1457, 7)).
+answer('urn:example:recursionCount'(1458, 3)).
+answer('urn:example:recursionCount'(1459, 3)).
+answer('urn:example:recursionCount'(1460, 3)).
+answer('urn:example:recursionCount'(1461, 5)).
+answer('urn:example:recursionCount'(1462, 7)).
+answer('urn:example:recursionCount'(1463, 7)).
+answer('urn:example:recursionCount'(1464, 6)).
+answer('urn:example:recursionCount'(1465, 7)).
+answer('urn:example:recursionCount'(1466, 7)).
+answer('urn:example:recursionCount'(1467, 1)).
+answer('urn:example:recursionCount'(1468, 5)).
+answer('urn:example:recursionCount'(1469, 6)).
+answer('urn:example:recursionCount'(1470, 6)).
+answer('urn:example:recursionCount'(1471, 3)).
+answer('urn:example:recursionCount'(1472, 1)).
+answer('urn:example:recursionCount'(1473, 7)).
+answer('urn:example:recursionCount'(1474, 6)).
+answer('urn:example:recursionCount'(1475, 7)).
+answer('urn:example:recursionCount'(1476, 1)).
+answer('urn:example:recursionCount'(1477, 3)).
+answer('urn:example:recursionCount'(1478, 6)).
+answer('urn:example:recursionCount'(1479, 5)).
+answer('urn:example:recursionCount'(1480, 5)).
+answer('urn:example:recursionCount'(1481, 6)).
+answer('urn:example:recursionCount'(1482, 5)).
+answer('urn:example:recursionCount'(1483, 3)).
+answer('urn:example:recursionCount'(1484, 4)).
+answer('urn:example:recursionCount'(1485, 3)).
+answer('urn:example:recursionCount'(1486, 5)).
+answer('urn:example:recursionCount'(1487, 6)).
+answer('urn:example:recursionCount'(1488, 3)).
+answer('urn:example:recursionCount'(1489, 2)).
+answer('urn:example:recursionCount'(1490, 3)).
+answer('urn:example:recursionCount'(1491, 5)).
+answer('urn:example:recursionCount'(1492, 6)).
+answer('urn:example:recursionCount'(1493, 3)).
+answer('urn:example:recursionCount'(1494, 6)).
+answer('urn:example:recursionCount'(1495, 3)).
+answer('urn:example:recursionCount'(1496, 6)).
+answer('urn:example:recursionCount'(1497, 5)).
+answer('urn:example:recursionCount'(1498, 2)).
+answer('urn:example:recursionCount'(1499, 7)).
+answer('urn:example:recursionCount'(1500, 7)).
+answer('urn:example:recursionCount'(1501, 6)).
+answer('urn:example:recursionCount'(1502, 7)).
+answer('urn:example:recursionCount'(1503, 7)).
+answer('urn:example:recursionCount'(1504, 5)).
+answer('urn:example:recursionCount'(1505, 5)).
+answer('urn:example:recursionCount'(1506, 4)).
+answer('urn:example:recursionCount'(1507, 3)).
+answer('urn:example:recursionCount'(1508, 2)).
+answer('urn:example:recursionCount'(1509, 7)).
+answer('urn:example:recursionCount'(1510, 6)).
+answer('urn:example:recursionCount'(1511, 4)).
+answer('urn:example:recursionCount'(1512, 7)).
+answer('urn:example:recursionCount'(1513, 2)).
+answer('urn:example:recursionCount'(1514, 3)).
+answer('urn:example:recursionCount'(1515, 4)).
+answer('urn:example:recursionCount'(1516, 5)).
+answer('urn:example:recursionCount'(1517, 4)).
+answer('urn:example:recursionCount'(1518, 3)).
+answer('urn:example:recursionCount'(1519, 2)).
+answer('urn:example:recursionCount'(1520, 7)).
+answer('urn:example:recursionCount'(1521, 7)).
+answer('urn:example:recursionCount'(1522, 4)).
+answer('urn:example:recursionCount'(1523, 7)).
+answer('urn:example:recursionCount'(1524, 2)).
+answer('urn:example:recursionCount'(1525, 3)).
+answer('urn:example:recursionCount'(1526, 5)).
+answer('urn:example:recursionCount'(1527, 3)).
+answer('urn:example:recursionCount'(1528, 6)).
+answer('urn:example:recursionCount'(1529, 5)).
+answer('urn:example:recursionCount'(1530, 7)).
+answer('urn:example:recursionCount'(1531, 2)).
+answer('urn:example:recursionCount'(1532, 7)).
+answer('urn:example:recursionCount'(1533, 4)).
+answer('urn:example:recursionCount'(1534, 7)).
+answer('urn:example:recursionCount'(1535, 2)).
+answer('urn:example:recursionCount'(1536, 7)).
+answer('urn:example:recursionCount'(1537, 1)).
+answer('urn:example:recursionCount'(1538, 5)).
+answer('urn:example:recursionCount'(1539, 6)).
+answer('urn:example:recursionCount'(1540, 5)).
+answer('urn:example:recursionCount'(1541, 3)).
+answer('urn:example:recursionCount'(1542, 2)).
+answer('urn:example:recursionCount'(1543, 7)).
+answer('urn:example:recursionCount'(1544, 4)).
+answer('urn:example:recursionCount'(1545, 7)).
+answer('urn:example:recursionCount'(1546, 7)).
+answer('urn:example:recursionCount'(1547, 7)).
+answer('urn:example:recursionCount'(1548, 3)).
+answer('urn:example:recursionCount'(1549, 3)).
+answer('urn:example:recursionCount'(1550, 5)).
+answer('urn:example:recursionCount'(1551, 4)).
+answer('urn:example:recursionCount'(1552, 3)).
+answer('urn:example:recursionCount'(1553, 2)).
+answer('urn:example:recursionCount'(1554, 7)).
+answer('urn:example:recursionCount'(1555, 4)).
+answer('urn:example:recursionCount'(1556, 6)).
+answer('urn:example:recursionCount'(1557, 6)).
+answer('urn:example:recursionCount'(1558, 4)).
+answer('urn:example:recursionCount'(1559, 6)).
+answer('urn:example:recursionCount'(1560, 4)).
+answer('urn:example:recursionCount'(1561, 5)).
+answer('urn:example:recursionCount'(1562, 5)).
+answer('urn:example:recursionCount'(1563, 7)).
+answer('urn:example:recursionCount'(1564, 7)).
+answer('urn:example:recursionCount'(1565, 6)).
+answer('urn:example:recursionCount'(1566, 7)).
+answer('urn:example:recursionCount'(1567, 7)).
+answer('urn:example:recursionCount'(1568, 3)).
+answer('urn:example:recursionCount'(1569, 3)).
+answer('urn:example:recursionCount'(1570, 3)).
+answer('urn:example:recursionCount'(1571, 4)).
+answer('urn:example:recursionCount'(1572, 3)).
+answer('urn:example:recursionCount'(1573, 1)).
+answer('urn:example:recursionCount'(1574, 7)).
+answer('urn:example:recursionCount'(1575, 6)).
+answer('urn:example:recursionCount'(1576, 7)).
+answer('urn:example:recursionCount'(1577, 1)).
+answer('urn:example:recursionCount'(1578, 5)).
+answer('urn:example:recursionCount'(1579, 6)).
+answer('urn:example:recursionCount'(1580, 2)).
+answer('urn:example:recursionCount'(1581, 3)).
+answer('urn:example:recursionCount'(1582, 6)).
+answer('urn:example:recursionCount'(1583, 5)).
+answer('urn:example:recursionCount'(1584, 3)).
+answer('urn:example:recursionCount'(1585, 4)).
+answer('urn:example:recursionCount'(1586, 3)).
+answer('urn:example:recursionCount'(1587, 5)).
+answer('urn:example:recursionCount'(1588, 6)).
+answer('urn:example:recursionCount'(1589, 5)).
+answer('urn:example:recursionCount'(1590, 7)).
+answer('urn:example:recursionCount'(1591, 2)).
+answer('urn:example:recursionCount'(1592, 5)).
+answer('urn:example:recursionCount'(1593, 6)).
+answer('urn:example:recursionCount'(1594, 3)).
+answer('urn:example:recursionCount'(1595, 6)).
+answer('urn:example:recursionCount'(1596, 3)).
+answer('urn:example:recursionCount'(1597, 6)).
+answer('urn:example:recursionCount'(1598, 5)).
+answer('urn:example:recursionCount'(1599, 2)).
+answer('urn:example:recursionCount'(1600, 7)).
+answer('urn:example:recursionCount'(1601, 6)).
+answer('urn:example:recursionCount'(1602, 7)).
+answer('urn:example:recursionCount'(1603, 1)).
+answer('urn:example:recursionCount'(1604, 3)).
+answer('urn:example:recursionCount'(1605, 4)).
+answer('urn:example:recursionCount'(1606, 5)).
+answer('urn:example:recursionCount'(1607, 5)).
+answer('urn:example:recursionCount'(1608, 7)).
+answer('urn:example:recursionCount'(1609, 7)).
+answer('urn:example:recursionCount'(1610, 6)).
+answer('urn:example:recursionCount'(1611, 6)).
+answer('urn:example:recursionCount'(1612, 7)).
+answer('urn:example:recursionCount'(1613, 7)).
+answer('urn:example:recursionCount'(1614, 5)).
+answer('urn:example:recursionCount'(1615, 5)).
+answer('urn:example:recursionCount'(1616, 5)).
+answer('urn:example:recursionCount'(1617, 5)).
+answer('urn:example:recursionCount'(1618, 5)).
+answer('urn:example:recursionCount'(1619, 7)).
+answer('urn:example:recursionCount'(1620, 7)).
+answer('urn:example:recursionCount'(1621, 7)).
+answer('urn:example:recursionCount'(1622, 6)).
+answer('urn:example:recursionCount'(1623, 7)).
+answer('urn:example:recursionCount'(1624, 7)).
+answer('urn:example:recursionCount'(1625, 5)).
+answer('urn:example:recursionCount'(1626, 5)).
+answer('urn:example:recursionCount'(1627, 4)).
+answer('urn:example:recursionCount'(1628, 3)).
+answer('urn:example:recursionCount'(1629, 2)).
+answer('urn:example:recursionCount'(1630, 1)).
+answer('urn:example:recursionCount'(1631, 7)).
+answer('urn:example:recursionCount'(1632, 7)).
+answer('urn:example:recursionCount'(1633, 6)).
+answer('urn:example:recursionCount'(1634, 7)).
+answer('urn:example:recursionCount'(1635, 7)).
+answer('urn:example:recursionCount'(1636, 5)).
+answer('urn:example:recursionCount'(1637, 3)).
+answer('urn:example:recursionCount'(1638, 6)).
+answer('urn:example:recursionCount'(1639, 5)).
+answer('urn:example:recursionCount'(1640, 3)).
+answer('urn:example:recursionCount'(1641, 5)).
+answer('urn:example:recursionCount'(1642, 7)).
+answer('urn:example:recursionCount'(1643, 7)).
+answer('urn:example:recursionCount'(1644, 6)).
+answer('urn:example:recursionCount'(1645, 7)).
+answer('urn:example:recursionCount'(1646, 7)).
+answer('urn:example:recursionCount'(1647, 1)).
+answer('urn:example:recursionCount'(1648, 5)).
+answer('urn:example:recursionCount'(1649, 6)).
+answer('urn:example:recursionCount'(1650, 4)).
+answer('urn:example:recursionCount'(1651, 5)).
+answer('urn:example:recursionCount'(1652, 5)).
+answer('urn:example:recursionCount'(1653, 7)).
+answer('urn:example:recursionCount'(1654, 7)).
+answer('urn:example:recursionCount'(1655, 6)).
+answer('urn:example:recursionCount'(1656, 7)).
+answer('urn:example:recursionCount'(1657, 7)).
+answer('urn:example:recursionCount'(1658, 3)).
+answer('urn:example:recursionCount'(1659, 3)).
+answer('urn:example:recursionCount'(1660, 5)).
+answer('urn:example:recursionCount'(1661, 5)).
+answer('urn:example:recursionCount'(1662, 5)).
+answer('urn:example:recursionCount'(1663, 5)).
+answer('urn:example:recursionCount'(1664, 7)).
+answer('urn:example:recursionCount'(1665, 7)).
+answer('urn:example:recursionCount'(1666, 6)).
+answer('urn:example:recursionCount'(1667, 6)).
+answer('urn:example:recursionCount'(1668, 4)).
+answer('urn:example:recursionCount'(1669, 6)).
+answer('urn:example:recursionCount'(1670, 5)).
+answer('urn:example:recursionCount'(1671, 5)).
+answer('urn:example:recursionCount'(1672, 4)).
+answer('urn:example:recursionCount'(1673, 3)).
+answer('urn:example:recursionCount'(1674, 1)).
+answer('urn:example:recursionCount'(1675, 7)).
+answer('urn:example:recursionCount'(1676, 6)).
+answer('urn:example:recursionCount'(1677, 7)).
+answer('urn:example:recursionCount'(1678, 3)).
+answer('urn:example:recursionCount'(1679, 3)).
+answer('urn:example:recursionCount'(1680, 7)).
+answer('urn:example:recursionCount'(1681, 5)).
+answer('urn:example:recursionCount'(1682, 3)).
+answer('urn:example:recursionCount'(1683, 6)).
+answer('urn:example:recursionCount'(1684, 5)).
+answer('urn:example:recursionCount'(1685, 3)).
+answer('urn:example:recursionCount'(1686, 4)).
+answer('urn:example:recursionCount'(1687, 3)).
+answer('urn:example:recursionCount'(1688, 5)).
+answer('urn:example:recursionCount'(1689, 6)).
+answer('urn:example:recursionCount'(1690, 7)).
+answer('urn:example:recursionCount'(1691, 7)).
+answer('urn:example:recursionCount'(1692, 2)).
+answer('urn:example:recursionCount'(1693, 5)).
+answer('urn:example:recursionCount'(1694, 6)).
+answer('urn:example:recursionCount'(1695, 3)).
+answer('urn:example:recursionCount'(1696, 6)).
+answer('urn:example:recursionCount'(1697, 3)).
+answer('urn:example:recursionCount'(1698, 6)).
+answer('urn:example:recursionCount'(1699, 5)).
+answer('urn:example:recursionCount'(1700, 3)).
+answer('urn:example:recursionCount'(1701, 4)).
+answer('urn:example:recursionCount'(1702, 3)).
+answer('urn:example:recursionCount'(1703, 5)).
+answer('urn:example:recursionCount'(1704, 6)).
+answer('urn:example:recursionCount'(1705, 3)).
+answer('urn:example:recursionCount'(1706, 5)).
+answer('urn:example:recursionCount'(1707, 3)).
+answer('urn:example:recursionCount'(1708, 2)).
+answer('urn:example:recursionCount'(1709, 7)).
+answer('urn:example:recursionCount'(1710, 4)).
+answer('urn:example:recursionCount'(1711, 6)).
+answer('urn:example:recursionCount'(1712, 7)).
+answer('urn:example:recursionCount'(1713, 1)).
+answer('urn:example:recursionCount'(1714, 3)).
+answer('urn:example:recursionCount'(1715, 4)).
+answer('urn:example:recursionCount'(1716, 5)).
+answer('urn:example:recursionCount'(1717, 4)).
+answer('urn:example:recursionCount'(1718, 3)).
+answer('urn:example:recursionCount'(1719, 2)).
+answer('urn:example:recursionCount'(1720, 3)).
+answer('urn:example:recursionCount'(1721, 7)).
+answer('urn:example:recursionCount'(1722, 6)).
+answer('urn:example:recursionCount'(1723, 7)).
+answer('urn:example:recursionCount'(1724, 1)).
+answer('urn:example:recursionCount'(1725, 3)).
+answer('urn:example:recursionCount'(1726, 4)).
+answer('urn:example:recursionCount'(1727, 5)).
+answer('urn:example:recursionCount'(1728, 5)).
+answer('urn:example:recursionCount'(1729, 7)).
+answer('urn:example:recursionCount'(1730, 5)).
+answer('urn:example:recursionCount'(1731, 1)).
+answer('urn:example:recursionCount'(1732, 7)).
+answer('urn:example:recursionCount'(1733, 6)).
+answer('urn:example:recursionCount'(1734, 7)).
+answer('urn:example:recursionCount'(1735, 1)).
+answer('urn:example:recursionCount'(1736, 3)).
+answer('urn:example:recursionCount'(1737, 4)).
+answer('urn:example:recursionCount'(1738, 3)).
+answer('urn:example:recursionCount'(1739, 2)).
+answer('urn:example:recursionCount'(1740, 6)).
+answer('urn:example:recursionCount'(1741, 3)).
+answer('urn:example:recursionCount'(1742, 1)).
+answer('urn:example:recursionCount'(1743, 7)).
+answer('urn:example:recursionCount'(1744, 6)).
+answer('urn:example:recursionCount'(1745, 7)).
+answer('urn:example:recursionCount'(1746, 1)).
+answer('urn:example:recursionCount'(1747, 3)).
+answer('urn:example:recursionCount'(1748, 6)).
+answer('urn:example:recursionCount'(1749, 5)).
+answer('urn:example:recursionCount'(1750, 3)).
+answer('urn:example:recursionCount'(1751, 4)).
+answer('urn:example:recursionCount'(1752, 3)).
+answer('urn:example:recursionCount'(1753, 1)).
+answer('urn:example:recursionCount'(1754, 7)).
+answer('urn:example:recursionCount'(1755, 6)).
+answer('urn:example:recursionCount'(1756, 7)).
+answer('urn:example:recursionCount'(1757, 1)).
+answer('urn:example:recursionCount'(1758, 5)).
+answer('urn:example:recursionCount'(1759, 6)).
+answer('urn:example:recursionCount'(1760, 5)).
+answer('urn:example:recursionCount'(1761, 5)).
+answer('urn:example:recursionCount'(1762, 4)).
+answer('urn:example:recursionCount'(1763, 3)).
+answer('urn:example:recursionCount'(1764, 1)).
+answer('urn:example:recursionCount'(1765, 7)).
+answer('urn:example:recursionCount'(1766, 6)).
+answer('urn:example:recursionCount'(1767, 7)).
+answer('urn:example:recursionCount'(1768, 3)).
+answer('urn:example:recursionCount'(1769, 3)).
+answer('urn:example:recursionCount'(1770, 3)).
+answer('urn:example:recursionCount'(1771, 4)).
+answer('urn:example:recursionCount'(1772, 5)).
+answer('urn:example:recursionCount'(1773, 4)).
+answer('urn:example:recursionCount'(1774, 3)).
+answer('urn:example:recursionCount'(1775, 1)).
+answer('urn:example:recursionCount'(1776, 7)).
+answer('urn:example:recursionCount'(1777, 6)).
+answer('urn:example:recursionCount'(1778, 4)).
+answer('urn:example:recursionCount'(1779, 6)).
+answer('urn:example:recursionCount'(1780, 2)).
+answer('urn:example:recursionCount'(1781, 3)).
+answer('urn:example:recursionCount'(1782, 5)).
+answer('urn:example:recursionCount'(1783, 3)).
+answer('urn:example:recursionCount'(1784, 6)).
+answer('urn:example:recursionCount'(1785, 5)).
+answer('urn:example:recursionCount'(1786, 3)).
+answer('urn:example:recursionCount'(1787, 4)).
+answer('urn:example:recursionCount'(1788, 3)).
+answer('urn:example:recursionCount'(1789, 3)).
+answer('urn:example:recursionCount'(1790, 7)).
+answer('urn:example:recursionCount'(1791, 2)).
+answer('urn:example:recursionCount'(1792, 7)).
+answer('urn:example:recursionCount'(1793, 2)).
+answer('urn:example:recursionCount'(1794, 5)).
+answer('urn:example:recursionCount'(1795, 6)).
+answer('urn:example:recursionCount'(1796, 3)).
+answer('urn:example:recursionCount'(1797, 6)).
+answer('urn:example:recursionCount'(1798, 3)).
+answer('urn:example:recursionCount'(1799, 6)).
+answer('urn:example:recursionCount'(1800, 3)).
+answer('urn:example:recursionCount'(1801, 6)).
+answer('urn:example:recursionCount'(1802, 3)).
+answer('urn:example:recursionCount'(1803, 6)).
+answer('urn:example:recursionCount'(1804, 5)).
+answer('urn:example:recursionCount'(1805, 2)).
+answer('urn:example:recursionCount'(1806, 7)).
+answer('urn:example:recursionCount'(1807, 2)).
+answer('urn:example:recursionCount'(1808, 5)).
+answer('urn:example:recursionCount'(1809, 3)).
+answer('urn:example:recursionCount'(1810, 6)).
+answer('urn:example:recursionCount'(1811, 4)).
+answer('urn:example:recursionCount'(1812, 3)).
+answer('urn:example:recursionCount'(1813, 5)).
+answer('urn:example:recursionCount'(1814, 6)).
+answer('urn:example:recursionCount'(1815, 3)).
+answer('urn:example:recursionCount'(1816, 5)).
+answer('urn:example:recursionCount'(1817, 3)).
+answer('urn:example:recursionCount'(1818, 6)).
+answer('urn:example:recursionCount'(1819, 5)).
+answer('urn:example:recursionCount'(1820, 3)).
+answer('urn:example:recursionCount'(1821, 3)).
+answer('urn:example:recursionCount'(1822, 4)).
+answer('urn:example:recursionCount'(1823, 3)).
+answer('urn:example:recursionCount'(1824, 5)).
+answer('urn:example:recursionCount'(1825, 6)).
+answer('urn:example:recursionCount'(1826, 3)).
+answer('urn:example:recursionCount'(1827, 5)).
+answer('urn:example:recursionCount'(1828, 3)).
+answer('urn:example:recursionCount'(1829, 2)).
+answer('urn:example:recursionCount'(1830, 6)).
+answer('urn:example:recursionCount'(1831, 5)).
+answer('urn:example:recursionCount'(1832, 3)).
+answer('urn:example:recursionCount'(1833, 4)).
+answer('urn:example:recursionCount'(1834, 3)).
+answer('urn:example:recursionCount'(1835, 5)).
+answer('urn:example:recursionCount'(1836, 6)).
+answer('urn:example:recursionCount'(1837, 3)).
+answer('urn:example:recursionCount'(1838, 5)).
+answer('urn:example:recursionCount'(1839, 7)).
+answer('urn:example:recursionCount'(1840, 5)).
+answer('urn:example:recursionCount'(1841, 6)).
+answer('urn:example:recursionCount'(1842, 5)).
+answer('urn:example:recursionCount'(1843, 3)).
+answer('urn:example:recursionCount'(1844, 4)).
+answer('urn:example:recursionCount'(1845, 3)).
+answer('urn:example:recursionCount'(1846, 5)).
+answer('urn:example:recursionCount'(1847, 6)).
+answer('urn:example:recursionCount'(1848, 3)).
+answer('urn:example:recursionCount'(1849, 2)).
+answer('urn:example:recursionCount'(1850, 2)).
+answer('urn:example:recursionCount'(1851, 3)).
+answer('urn:example:recursionCount'(1852, 6)).
+answer('urn:example:recursionCount'(1853, 5)).
+answer('urn:example:recursionCount'(1854, 3)).
+answer('urn:example:recursionCount'(1855, 4)).
+answer('urn:example:recursionCount'(1856, 3)).
+answer('urn:example:recursionCount'(1857, 5)).
+answer('urn:example:recursionCount'(1858, 6)).
+answer('urn:example:recursionCount'(1859, 5)).
+answer('urn:example:recursionCount'(1860, 7)).
+answer('urn:example:recursionCount'(1861, 5)).
+answer('urn:example:recursionCount'(1862, 3)).
+answer('urn:example:recursionCount'(1863, 6)).
+answer('urn:example:recursionCount'(1864, 5)).
+answer('urn:example:recursionCount'(1865, 3)).
+answer('urn:example:recursionCount'(1866, 4)).
+answer('urn:example:recursionCount'(1867, 3)).
+answer('urn:example:recursionCount'(1868, 5)).
+answer('urn:example:recursionCount'(1869, 6)).
+answer('urn:example:recursionCount'(1870, 2)).
+answer('urn:example:recursionCount'(1871, 3)).
+answer('urn:example:recursionCount'(1872, 5)).
+answer('urn:example:recursionCount'(1873, 3)).
+answer('urn:example:recursionCount'(1874, 6)).
+answer('urn:example:recursionCount'(1875, 5)).
+answer('urn:example:recursionCount'(1876, 3)).
+answer('urn:example:recursionCount'(1877, 4)).
+answer('urn:example:recursionCount'(1878, 3)).
+answer('urn:example:recursionCount'(1879, 3)).
+answer('urn:example:recursionCount'(1880, 5)).
+answer('urn:example:recursionCount'(1881, 6)).
+answer('urn:example:recursionCount'(1882, 3)).
+answer('urn:example:recursionCount'(1883, 5)).
+answer('urn:example:recursionCount'(1884, 3)).
+answer('urn:example:recursionCount'(1885, 6)).
+answer('urn:example:recursionCount'(1886, 5)).
+answer('urn:example:recursionCount'(1887, 3)).
+answer('urn:example:recursionCount'(1888, 4)).
+answer('urn:example:recursionCount'(1889, 6)).
+answer('urn:example:recursionCount'(1890, 3)).
+answer('urn:example:recursionCount'(1891, 5)).
+answer('urn:example:recursionCount'(1892, 2)).
+answer('urn:example:recursionCount'(1893, 7)).
+answer('urn:example:recursionCount'(1894, 2)).
+answer('urn:example:recursionCount'(1895, 5)).
+answer('urn:example:recursionCount'(1896, 6)).
+answer('urn:example:recursionCount'(1897, 3)).
+answer('urn:example:recursionCount'(1898, 6)).
+answer('urn:example:recursionCount'(1899, 3)).
+answer('urn:example:recursionCount'(1900, 4)).
+answer('urn:example:recursionCount'(1901, 4)).
+answer('urn:example:recursionCount'(1902, 4)).
+answer('urn:example:recursionCount'(1903, 3)).
+answer('urn:example:recursionCount'(1904, 3)).
+answer('urn:example:recursionCount'(1905, 7)).
+answer('urn:example:recursionCount'(1906, 7)).
+answer('urn:example:recursionCount'(1907, 7)).
+answer('urn:example:recursionCount'(1908, 3)).
+answer('urn:example:recursionCount'(1909, 3)).
+answer('urn:example:recursionCount'(1910, 4)).
+answer('urn:example:recursionCount'(1911, 6)).
+answer('urn:example:recursionCount'(1912, 3)).
+answer('urn:example:recursionCount'(1913, 6)).
+answer('urn:example:recursionCount'(1914, 5)).
+answer('urn:example:recursionCount'(1915, 2)).
+answer('urn:example:recursionCount'(1916, 7)).
+answer('urn:example:recursionCount'(1917, 2)).
+answer('urn:example:recursionCount'(1918, 5)).
+answer('urn:example:recursionCount'(1919, 6)).
+answer('urn:example:recursionCount'(1920, 4)).
+answer('urn:example:recursionCount'(1921, 3)).
+answer('urn:example:recursionCount'(1922, 6)).
+answer('urn:example:recursionCount'(1923, 3)).
+answer('urn:example:recursionCount'(1924, 6)).
+answer('urn:example:recursionCount'(1925, 5)).
+answer('urn:example:recursionCount'(1926, 2)).
+answer('urn:example:recursionCount'(1927, 7)).
+answer('urn:example:recursionCount'(1928, 2)).
+answer('urn:example:recursionCount'(1929, 5)).
+answer('urn:example:recursionCount'(1930, 3)).
+answer('urn:example:recursionCount'(1931, 6)).
+answer('urn:example:recursionCount'(1932, 3)).
+answer('urn:example:recursionCount'(1933, 6)).
+answer('urn:example:recursionCount'(1934, 3)).
+answer('urn:example:recursionCount'(1935, 6)).
+answer('urn:example:recursionCount'(1936, 5)).
+answer('urn:example:recursionCount'(1937, 2)).
+answer('urn:example:recursionCount'(1938, 7)).
+answer('urn:example:recursionCount'(1939, 2)).
+answer('urn:example:recursionCount'(1940, 3)).
+answer('urn:example:recursionCount'(1941, 5)).
+answer('urn:example:recursionCount'(1942, 6)).
+answer('urn:example:recursionCount'(1943, 3)).
+answer('urn:example:recursionCount'(1944, 6)).
+answer('urn:example:recursionCount'(1945, 3)).
+answer('urn:example:recursionCount'(1946, 6)).
+answer('urn:example:recursionCount'(1947, 5)).
+answer('urn:example:recursionCount'(1948, 2)).
+answer('urn:example:recursionCount'(1949, 7)).
+answer('urn:example:recursionCount'(1950, 7)).
+answer('urn:example:recursionCount'(1951, 2)).
+answer('urn:example:recursionCount'(1952, 5)).
+answer('urn:example:recursionCount'(1953, 6)).
+answer('urn:example:recursionCount'(1954, 3)).
+answer('urn:example:recursionCount'(1955, 6)).
+answer('urn:example:recursionCount'(1956, 3)).
+answer('urn:example:recursionCount'(1957, 6)).
+answer('urn:example:recursionCount'(1958, 5)).
+answer('urn:example:recursionCount'(1959, 2)).
+answer('urn:example:recursionCount'(1960, 7)).
+answer('urn:example:recursionCount'(1961, 7)).
+answer('urn:example:recursionCount'(1962, 2)).
+answer('urn:example:recursionCount'(1963, 5)).
+answer('urn:example:recursionCount'(1964, 6)).
+answer('urn:example:recursionCount'(1965, 3)).
+answer('urn:example:recursionCount'(1966, 6)).
+answer('urn:example:recursionCount'(1967, 3)).
+answer('urn:example:recursionCount'(1968, 6)).
+answer('urn:example:recursionCount'(1969, 5)).
+answer('urn:example:recursionCount'(1970, 7)).
+answer('urn:example:recursionCount'(1971, 2)).
+answer('urn:example:recursionCount'(1972, 7)).
+answer('urn:example:recursionCount'(1973, 2)).
+answer('urn:example:recursionCount'(1974, 5)).
+answer('urn:example:recursionCount'(1975, 6)).
+answer('urn:example:recursionCount'(1976, 3)).
+answer('urn:example:recursionCount'(1977, 6)).
+answer('urn:example:recursionCount'(1978, 3)).
+answer('urn:example:recursionCount'(1979, 6)).
+answer('urn:example:recursionCount'(1980, 3)).
+answer('urn:example:recursionCount'(1981, 5)).
+answer('urn:example:recursionCount'(1982, 2)).
+answer('urn:example:recursionCount'(1983, 7)).
+answer('urn:example:recursionCount'(1984, 2)).
+answer('urn:example:recursionCount'(1985, 5)).
+answer('urn:example:recursionCount'(1986, 6)).
+answer('urn:example:recursionCount'(1987, 3)).
+answer('urn:example:recursionCount'(1988, 6)).
+answer('urn:example:recursionCount'(1989, 3)).
+answer('urn:example:recursionCount'(1990, 3)).
+answer('urn:example:recursionCount'(1991, 6)).
+answer('urn:example:recursionCount'(1992, 5)).
+answer('urn:example:recursionCount'(1993, 2)).
+answer('urn:example:recursionCount'(1994, 7)).
+answer('urn:example:recursionCount'(1995, 2)).
+answer('urn:example:recursionCount'(1996, 5)).
+answer('urn:example:recursionCount'(1997, 6)).
+answer('urn:example:recursionCount'(1998, 3)).
+answer('urn:example:recursionCount'(1999, 6)).
+answer('urn:example:recursionCount'(2000, 4)).
+answer('urn:example:recursionCount'(2001, 3)).
+answer('urn:example:recursionCount'(2002, 6)).
+answer('urn:example:recursionCount'(2003, 5)).
+answer('urn:example:recursionCount'(2004, 2)).
+answer('urn:example:recursionCount'(2005, 7)).
+answer('urn:example:recursionCount'(2006, 1)).
+answer('urn:example:recursionCount'(2007, 5)).
+answer('urn:example:recursionCount'(2008, 6)).
+answer('urn:example:recursionCount'(2009, 3)).
+answer('urn:example:recursionCount'(2010, 3)).
+answer('urn:example:recursionCount'(2011, 4)).
+answer('urn:example:recursionCount'(2012, 3)).
+answer('urn:example:recursionCount'(2013, 3)).
+answer('urn:example:recursionCount'(2014, 7)).
+answer('urn:example:recursionCount'(2015, 7)).
+answer('urn:example:recursionCount'(2016, 7)).
+answer('urn:example:recursionCount'(2017, 3)).
+answer('urn:example:recursionCount'(2018, 3)).
+answer('urn:example:recursionCount'(2019, 4)).
+answer('urn:example:recursionCount'(2020, 6)).
+answer('urn:example:recursionCount'(2021, 3)).
+answer('urn:example:recursionCount'(2022, 4)).
+answer('urn:example:recursionCount'(2023, 6)).
+answer('urn:example:recursionCount'(2024, 4)).
+answer('urn:example:recursionCount'(2025, 6)).
+answer('urn:example:recursionCount'(2026, 6)).
+answer('urn:example:recursionCount'(2027, 4)).
+answer('urn:example:recursionCount'(2028, 6)).
+answer('urn:example:recursionCount'(2029, 4)).
+answer('urn:example:recursionCount'(2030, 5)).
+answer('urn:example:recursionCount'(2031, 3)).
+answer('urn:example:recursionCount'(2032, 6)).
+answer('urn:example:recursionCount'(2033, 3)).
+answer('urn:example:recursionCount'(2034, 7)).
+answer('urn:example:recursionCount'(2035, 7)).
+answer('urn:example:recursionCount'(2036, 7)).
+answer('urn:example:recursionCount'(2037, 3)).
+answer('urn:example:recursionCount'(2038, 3)).
+answer('urn:example:recursionCount'(2039, 4)).
+answer('urn:example:recursionCount'(2040, 2)).
+answer('urn:example:recursionCount'(2041, 7)).
+answer('urn:example:recursionCount'(2042, 4)).
+answer('urn:example:recursionCount'(2043, 7)).
+answer('urn:example:recursionCount'(2044, 2)).
+answer('urn:example:recursionCount'(2045, 7)).
+answer('urn:example:recursionCount'(2046, 1)).
+answer('urn:example:recursionCount'(2047, 5)).
+answer('urn:example:recursionCount'(2048, 6)).
+answer('urn:example:recursionCount'(2049, 3)).
+answer('urn:example:recursionCount'(2050, 7)).
+answer('urn:example:recursionCount'(2051, 7)).
+answer('urn:example:recursionCount'(2052, 6)).
+answer('urn:example:recursionCount'(2053, 7)).
+answer('urn:example:recursionCount'(2054, 7)).
+answer('urn:example:recursionCount'(2055, 5)).
+answer('urn:example:recursionCount'(2056, 3)).
+answer('urn:example:recursionCount'(2057, 6)).
+answer('urn:example:recursionCount'(2058, 5)).
+answer('urn:example:recursionCount'(2059, 3)).
+answer('urn:example:recursionCount'(2060, 1)).
+answer('urn:example:recursionCount'(2061, 7)).
+answer('urn:example:recursionCount'(2062, 6)).
+answer('urn:example:recursionCount'(2063, 7)).
+answer('urn:example:recursionCount'(2064, 1)).
+answer('urn:example:recursionCount'(2065, 3)).
+answer('urn:example:recursionCount'(2066, 4)).
+answer('urn:example:recursionCount'(2067, 3)).
+answer('urn:example:recursionCount'(2068, 2)).
+answer('urn:example:recursionCount'(2069, 7)).
+answer('urn:example:recursionCount'(2070, 5)).
+answer('urn:example:recursionCount'(2071, 3)).
+answer('urn:example:recursionCount'(2072, 4)).
+answer('urn:example:recursionCount'(2073, 3)).
+answer('urn:example:recursionCount'(2074, 5)).
+answer('urn:example:recursionCount'(2075, 6)).
+answer('urn:example:recursionCount'(2076, 3)).
+answer('urn:example:recursionCount'(2077, 5)).
+answer('urn:example:recursionCount'(2078, 7)).
+answer('urn:example:recursionCount'(2079, 7)).
+answer('urn:example:recursionCount'(2080, 6)).
+answer('urn:example:recursionCount'(2081, 3)).
+answer('urn:example:recursionCount'(2082, 6)).
+answer('urn:example:recursionCount'(2083, 3)).
+answer('urn:example:recursionCount'(2084, 6)).
+answer('urn:example:recursionCount'(2085, 5)).
+answer('urn:example:recursionCount'(2086, 2)).
+answer('urn:example:recursionCount'(2087, 7)).
+answer('urn:example:recursionCount'(2088, 2)).
+answer('urn:example:recursionCount'(2089, 7)).
+answer('urn:example:recursionCount'(2090, 3)).
+answer('urn:example:recursionCount'(2091, 4)).
+answer('urn:example:recursionCount'(2092, 4)).
+answer('urn:example:recursionCount'(2093, 4)).
+answer('urn:example:recursionCount'(2094, 3)).
+answer('urn:example:recursionCount'(2095, 3)).
+answer('urn:example:recursionCount'(2096, 7)).
+answer('urn:example:recursionCount'(2097, 7)).
+answer('urn:example:recursionCount'(2098, 7)).
+answer('urn:example:recursionCount'(2099, 3)).
+answer('urn:example:recursionCount'(2100, 3)).
+answer('urn:example:recursionCount'(2101, 4)).
+answer('urn:example:recursionCount'(2102, 3)).
+answer('urn:example:recursionCount'(2103, 3)).
+answer('urn:example:recursionCount'(2104, 7)).
+answer('urn:example:recursionCount'(2105, 7)).
+answer('urn:example:recursionCount'(2106, 7)).
+answer('urn:example:recursionCount'(2107, 3)).
+answer('urn:example:recursionCount'(2108, 3)).
+answer('urn:example:recursionCount'(2109, 4)).
+answer('urn:example:recursionCount'(2110, 4)).
+answer('urn:example:recursionCount'(2111, 5)).
+answer('urn:example:recursionCount'(2112, 4)).
+answer('urn:example:recursionCount'(2113, 3)).
+answer('urn:example:recursionCount'(2114, 3)).
+answer('urn:example:recursionCount'(2115, 7)).
+answer('urn:example:recursionCount'(2116, 7)).
+answer('urn:example:recursionCount'(2117, 7)).
+answer('urn:example:recursionCount'(2118, 3)).
+answer('urn:example:recursionCount'(2119, 3)).
+answer('urn:example:recursionCount'(2120, 3)).
+answer('urn:example:recursionCount'(2121, 4)).
+answer('urn:example:recursionCount'(2122, 5)).
+answer('urn:example:recursionCount'(2123, 4)).
+answer('urn:example:recursionCount'(2124, 6)).
+answer('urn:example:recursionCount'(2125, 4)).
+answer('urn:example:recursionCount'(2126, 6)).
+answer('urn:example:recursionCount'(2127, 6)).
+answer('urn:example:recursionCount'(2128, 4)).
+answer('urn:example:recursionCount'(2129, 6)).
+answer('urn:example:recursionCount'(2130, 3)).
+answer('urn:example:recursionCount'(2131, 3)).
+answer('urn:example:recursionCount'(2132, 4)).
+answer('urn:example:recursionCount'(2133, 3)).
+answer('urn:example:recursionCount'(2134, 3)).
+answer('urn:example:recursionCount'(2135, 7)).
+answer('urn:example:recursionCount'(2136, 7)).
+answer('urn:example:recursionCount'(2137, 7)).
+answer('urn:example:recursionCount'(2138, 3)).
+answer('urn:example:recursionCount'(2139, 3)).
+answer('urn:example:recursionCount'(2140, 7)).
+answer('urn:example:recursionCount'(2141, 3)).
+answer('urn:example:recursionCount'(2142, 6)).
+answer('urn:example:recursionCount'(2143, 3)).
+answer('urn:example:recursionCount'(2144, 5)).
+answer('urn:example:recursionCount'(2145, 2)).
+answer('urn:example:recursionCount'(2146, 7)).
+answer('urn:example:recursionCount'(2147, 1)).
+answer('urn:example:recursionCount'(2148, 5)).
+answer('urn:example:recursionCount'(2149, 6)).
+answer('urn:example:recursionCount'(2150, 7)).
+answer('urn:example:recursionCount'(2151, 7)).
+answer('urn:example:recursionCount'(2152, 4)).
+answer('urn:example:recursionCount'(2153, 7)).
+answer('urn:example:recursionCount'(2154, 2)).
+answer('urn:example:recursionCount'(2155, 3)).
+answer('urn:example:recursionCount'(2156, 5)).
+answer('urn:example:recursionCount'(2157, 3)).
+answer('urn:example:recursionCount'(2158, 6)).
+answer('urn:example:recursionCount'(2159, 5)).
+answer('urn:example:recursionCount'(2160, 7)).
+answer('urn:example:recursionCount'(2161, 7)).
+answer('urn:example:recursionCount'(2162, 6)).
+answer('urn:example:recursionCount'(2163, 7)).
+answer('urn:example:recursionCount'(2164, 7)).
+answer('urn:example:recursionCount'(2165, 5)).
+answer('urn:example:recursionCount'(2166, 5)).
+answer('urn:example:recursionCount'(2167, 4)).
+answer('urn:example:recursionCount'(2168, 3)).
+answer('urn:example:recursionCount'(2169, 2)).
+answer('urn:example:recursionCount'(2170, 3)).
+answer('urn:example:recursionCount'(2171, 7)).
+answer('urn:example:recursionCount'(2172, 6)).
+answer('urn:example:recursionCount'(2173, 7)).
+answer('urn:example:recursionCount'(2174, 1)).
+answer('urn:example:recursionCount'(2175, 3)).
+answer('urn:example:recursionCount'(2176, 4)).
+answer('urn:example:recursionCount'(2177, 5)).
+answer('urn:example:recursionCount'(2178, 5)).
+answer('urn:example:recursionCount'(2179, 7)).
+answer('urn:example:recursionCount'(2180, 3)).
+answer('urn:example:recursionCount'(2181, 3)).
+answer('urn:example:recursionCount'(2182, 4)).
+answer('urn:example:recursionCount'(2183, 3)).
+answer('urn:example:recursionCount'(2184, 5)).
+answer('urn:example:recursionCount'(2185, 6)).
+answer('urn:example:recursionCount'(2186, 3)).
+answer('urn:example:recursionCount'(2187, 5)).
+answer('urn:example:recursionCount'(2188, 3)).
+answer('urn:example:recursionCount'(2189, 2)).
+answer('urn:example:recursionCount'(2190, 4)).
+answer('urn:example:recursionCount'(2191, 3)).
+answer('urn:example:recursionCount'(2192, 6)).
+answer('urn:example:recursionCount'(2193, 3)).
+answer('urn:example:recursionCount'(2194, 6)).
+answer('urn:example:recursionCount'(2195, 5)).
+answer('urn:example:recursionCount'(2196, 2)).
+answer('urn:example:recursionCount'(2197, 7)).
+answer('urn:example:recursionCount'(2198, 2)).
+answer('urn:example:recursionCount'(2199, 5)).
+answer('urn:example:recursionCount'(2200, 6)).
+answer('urn:example:recursionCount'(2201, 3)).
+answer('urn:example:recursionCount'(2202, 4)).
+answer('urn:example:recursionCount'(2203, 6)).
+answer('urn:example:recursionCount'(2204, 4)).
+answer('urn:example:recursionCount'(2205, 6)).
+answer('urn:example:recursionCount'(2206, 6)).
+answer('urn:example:recursionCount'(2207, 4)).
+answer('urn:example:recursionCount'(2208, 6)).
+answer('urn:example:recursionCount'(2209, 4)).
+answer('urn:example:recursionCount'(2210, 3)).
+answer('urn:example:recursionCount'(2211, 4)).
+answer('urn:example:recursionCount'(2212, 5)).
+answer('urn:example:recursionCount'(2213, 4)).
+answer('urn:example:recursionCount'(2214, 6)).
+answer('urn:example:recursionCount'(2215, 4)).
+answer('urn:example:recursionCount'(2216, 6)).
+answer('urn:example:recursionCount'(2217, 6)).
+answer('urn:example:recursionCount'(2218, 4)).
+answer('urn:example:recursionCount'(2219, 6)).
+answer('urn:example:recursionCount'(2220, 4)).
+answer('urn:example:recursionCount'(2221, 5)).
+answer('urn:example:recursionCount'(2223, 5)).
+answer('urn:example:recursionCount'(2224, 4)).
+answer('urn:example:recursionCount'(2225, 6)).
+answer('urn:example:recursionCount'(2226, 4)).
+answer('urn:example:recursionCount'(2227, 6)).
+answer('urn:example:recursionCount'(2228, 6)).
+answer('urn:example:recursionCount'(2229, 4)).
+answer('urn:example:recursionCount'(2230, 6)).
+answer('urn:example:recursionCount'(2231, 4)).
+answer('urn:example:recursionCount'(2232, 5)).
+answer('urn:example:recursionCount'(2233, 4)).
+answer('urn:example:recursionCount'(2234, 3)).
+answer('urn:example:recursionCount'(2235, 3)).
+answer('urn:example:recursionCount'(2236, 7)).
+answer('urn:example:recursionCount'(2237, 7)).
+answer('urn:example:recursionCount'(2238, 7)).
+answer('urn:example:recursionCount'(2239, 3)).
+answer('urn:example:recursionCount'(2240, 4)).
+answer('urn:example:recursionCount'(2241, 6)).
+answer('urn:example:recursionCount'(2242, 4)).
+answer('urn:example:recursionCount'(2243, 3)).
+answer('urn:example:recursionCount'(2244, 6)).
+answer('urn:example:recursionCount'(2245, 5)).
+answer('urn:example:recursionCount'(2246, 2)).
+answer('urn:example:recursionCount'(2247, 7)).
+answer('urn:example:recursionCount'(2248, 1)).
+answer('urn:example:recursionCount'(2249, 5)).
+answer('urn:example:recursionCount'(2250, 6)).
+answer('urn:example:recursionCount'(2251, 4)).
+answer('urn:example:recursionCount'(2252, 6)).
+answer('urn:example:recursionCount'(2253, 3)).
+answer('urn:example:recursionCount'(2254, 5)).
+answer('urn:example:recursionCount'(2255, 6)).
+answer('urn:example:recursionCount'(2256, 3)).
+answer('urn:example:recursionCount'(2257, 5)).
+answer('urn:example:recursionCount'(2258, 3)).
+answer('urn:example:recursionCount'(2259, 6)).
+answer('urn:example:recursionCount'(2260, 6)).
+answer('urn:example:recursionCount'(2261, 6)).
+answer('urn:example:recursionCount'(2262, 4)).
+answer('urn:example:recursionCount'(2263, 7)).
+answer('urn:example:recursionCount'(2264, 2)).
+answer('urn:example:recursionCount'(2265, 3)).
+answer('urn:example:recursionCount'(2266, 4)).
+answer('urn:example:recursionCount'(2267, 5)).
+answer('urn:example:recursionCount'(2268, 4)).
+answer('urn:example:recursionCount'(2269, 3)).
+answer('urn:example:recursionCount'(2270, 4)).
+answer('urn:example:recursionCount'(2271, 6)).
+answer('urn:example:recursionCount'(2272, 6)).
+answer('urn:example:recursionCount'(2273, 7)).
+answer('urn:example:recursionCount'(2274, 7)).
+answer('urn:example:recursionCount'(2275, 5)).
+answer('urn:example:recursionCount'(2276, 5)).
+answer('urn:example:recursionCount'(2277, 5)).
+answer('urn:example:recursionCount'(2278, 5)).
+answer('urn:example:recursionCount'(2279, 5)).
+answer('urn:example:recursionCount'(2280, 6)).
+answer('urn:example:recursionCount'(2281, 4)).
+answer('urn:example:recursionCount'(2282, 6)).
+answer('urn:example:recursionCount'(2283, 7)).
+answer('urn:example:recursionCount'(2284, 1)).
+answer('urn:example:recursionCount'(2285, 3)).
+answer('urn:example:recursionCount'(2286, 4)).
+answer('urn:example:recursionCount'(2287, 5)).
+answer('urn:example:recursionCount'(2288, 4)).
+answer('urn:example:recursionCount'(2289, 3)).
+answer('urn:example:recursionCount'(2290, 4)).
+answer('urn:example:recursionCount'(2291, 6)).
+answer('urn:example:recursionCount'(2292, 4)).
+answer('urn:example:recursionCount'(2293, 3)).
+answer('urn:example:recursionCount'(2294, 5)).
+answer('urn:example:recursionCount'(2295, 6)).
+answer('urn:example:recursionCount'(2296, 3)).
+answer('urn:example:recursionCount'(2297, 5)).
+answer('urn:example:recursionCount'(2298, 3)).
+answer('urn:example:recursionCount'(2299, 6)).
+answer('urn:example:recursionCount'(2300, 5)).
+answer('urn:example:recursionCount'(2301, 3)).
+answer('urn:example:recursionCount'(2302, 6)).
+answer('urn:example:recursionCount'(2303, 3)).
+answer('urn:example:recursionCount'(2304, 7)).
+answer('urn:example:recursionCount'(2305, 7)).
+answer('urn:example:recursionCount'(2306, 7)).
+answer('urn:example:recursionCount'(2307, 3)).
+answer('urn:example:recursionCount'(2308, 3)).
+answer('urn:example:recursionCount'(2309, 4)).
+answer('urn:example:recursionCount'(2310, 3)).
+answer('urn:example:recursionCount'(2311, 3)).
+answer('urn:example:recursionCount'(2312, 4)).
+answer('urn:example:recursionCount'(2313, 3)).
+answer('urn:example:recursionCount'(2314, 3)).
+answer('urn:example:recursionCount'(2315, 7)).
+answer('urn:example:recursionCount'(2316, 7)).
+answer('urn:example:recursionCount'(2317, 7)).
+answer('urn:example:recursionCount'(2318, 3)).
+answer('urn:example:recursionCount'(2319, 3)).
+answer('urn:example:recursionCount'(2320, 6)).
+answer('urn:example:recursionCount'(2321, 4)).
+answer('urn:example:recursionCount'(2322, 5)).
+answer('urn:example:recursionCount'(2323, 4)).
+answer('urn:example:recursionCount'(2324, 3)).
+answer('urn:example:recursionCount'(2325, 3)).
+answer('urn:example:recursionCount'(2326, 7)).
+answer('urn:example:recursionCount'(2327, 7)).
+answer('urn:example:recursionCount'(2328, 7)).
+answer('urn:example:recursionCount'(2329, 3)).
+answer('urn:example:recursionCount'(2330, 3)).
+answer('urn:example:recursionCount'(2331, 3)).
+answer('urn:example:recursionCount'(2332, 4)).
+answer('urn:example:recursionCount'(2333, 5)).
+answer('urn:example:recursionCount'(2334, 4)).
+answer('urn:example:recursionCount'(2335, 6)).
+answer('urn:example:recursionCount'(2336, 4)).
+answer('urn:example:recursionCount'(2337, 6)).
+answer('urn:example:recursionCount'(2338, 6)).
+answer('urn:example:recursionCount'(2339, 4)).
+answer('urn:example:recursionCount'(2340, 7)).
+answer('urn:example:recursionCount'(2341, 3)).
+answer('urn:example:recursionCount'(2342, 3)).
+answer('urn:example:recursionCount'(2343, 4)).
+answer('urn:example:recursionCount'(2344, 3)).
+answer('urn:example:recursionCount'(2345, 3)).
+answer('urn:example:recursionCount'(2346, 7)).
+answer('urn:example:recursionCount'(2347, 7)).
+answer('urn:example:recursionCount'(2348, 7)).
+answer('urn:example:recursionCount'(2349, 3)).
+answer('urn:example:recursionCount'(2350, 7)).
+answer('urn:example:recursionCount'(2351, 7)).
+answer('urn:example:recursionCount'(2352, 3)).
+answer('urn:example:recursionCount'(2353, 6)).
+answer('urn:example:recursionCount'(2354, 3)).
+answer('urn:example:recursionCount'(2355, 5)).
+answer('urn:example:recursionCount'(2356, 2)).
+answer('urn:example:recursionCount'(2357, 7)).
+answer('urn:example:recursionCount'(2358, 1)).
+answer('urn:example:recursionCount'(2359, 5)).
+answer('urn:example:recursionCount'(2360, 7)).
+answer('urn:example:recursionCount'(2361, 7)).
+answer('urn:example:recursionCount'(2362, 7)).
+answer('urn:example:recursionCount'(2363, 4)).
+answer('urn:example:recursionCount'(2364, 7)).
+answer('urn:example:recursionCount'(2365, 2)).
+answer('urn:example:recursionCount'(2366, 3)).
+answer('urn:example:recursionCount'(2367, 5)).
+answer('urn:example:recursionCount'(2368, 3)).
+answer('urn:example:recursionCount'(2369, 6)).
+answer('urn:example:recursionCount'(2370, 3)).
+answer('urn:example:recursionCount'(2371, 7)).
+answer('urn:example:recursionCount'(2372, 7)).
+answer('urn:example:recursionCount'(2373, 6)).
+answer('urn:example:recursionCount'(2374, 7)).
+answer('urn:example:recursionCount'(2375, 7)).
+answer('urn:example:recursionCount'(2376, 5)).
+answer('urn:example:recursionCount'(2377, 5)).
+answer('urn:example:recursionCount'(2378, 4)).
+answer('urn:example:recursionCount'(2379, 3)).
+answer('urn:example:recursionCount'(2380, 3)).
+answer('urn:example:recursionCount'(2381, 3)).
+answer('urn:example:recursionCount'(2382, 7)).
+answer('urn:example:recursionCount'(2383, 6)).
+answer('urn:example:recursionCount'(2384, 7)).
+answer('urn:example:recursionCount'(2385, 1)).
+answer('urn:example:recursionCount'(2386, 3)).
+answer('urn:example:recursionCount'(2387, 4)).
+answer('urn:example:recursionCount'(2388, 5)).
+answer('urn:example:recursionCount'(2389, 5)).
+answer('urn:example:recursionCount'(2390, 4)).
+answer('urn:example:recursionCount'(2391, 3)).
+answer('urn:example:recursionCount'(2392, 3)).
+answer('urn:example:recursionCount'(2393, 4)).
+answer('urn:example:recursionCount'(2394, 3)).
+answer('urn:example:recursionCount'(2395, 5)).
+answer('urn:example:recursionCount'(2396, 6)).
+answer('urn:example:recursionCount'(2397, 3)).
+answer('urn:example:recursionCount'(2398, 5)).
+answer('urn:example:recursionCount'(2399, 3)).
+answer('urn:example:recursionCount'(2400, 2)).
+answer('urn:example:recursionCount'(2401, 7)).
+answer('urn:example:recursionCount'(2402, 4)).
+answer('urn:example:recursionCount'(2403, 7)).
+answer('urn:example:recursionCount'(2404, 2)).
+answer('urn:example:recursionCount'(2405, 7)).
+answer('urn:example:recursionCount'(2406, 1)).
+answer('urn:example:recursionCount'(2407, 5)).
+answer('urn:example:recursionCount'(2408, 6)).
+answer('urn:example:recursionCount'(2409, 3)).
+answer('urn:example:recursionCount'(2410, 7)).
+answer('urn:example:recursionCount'(2411, 3)).
+answer('urn:example:recursionCount'(2412, 6)).
+answer('urn:example:recursionCount'(2413, 3)).
+answer('urn:example:recursionCount'(2414, 5)).
+answer('urn:example:recursionCount'(2415, 2)).
+answer('urn:example:recursionCount'(2416, 7)).
+answer('urn:example:recursionCount'(2417, 1)).
+answer('urn:example:recursionCount'(2418, 5)).
+answer('urn:example:recursionCount'(2419, 6)).
+answer('urn:example:recursionCount'(2420, 4)).
+answer('urn:example:recursionCount'(2421, 6)).
+answer('urn:example:recursionCount'(2422, 4)).
+answer('urn:example:recursionCount'(2423, 3)).
+answer('urn:example:recursionCount'(2424, 6)).
+answer('urn:example:recursionCount'(2425, 5)).
+answer('urn:example:recursionCount'(2426, 2)).
+answer('urn:example:recursionCount'(2427, 7)).
+answer('urn:example:recursionCount'(2428, 1)).
+answer('urn:example:recursionCount'(2429, 5)).
+answer('urn:example:recursionCount'(2430, 7)).
+answer('urn:example:recursionCount'(2431, 3)).
+answer('urn:example:recursionCount'(2432, 3)).
+answer('urn:example:recursionCount'(2433, 4)).
+answer('urn:example:recursionCount'(2434, 3)).
+answer('urn:example:recursionCount'(2435, 3)).
+answer('urn:example:recursionCount'(2436, 7)).
+answer('urn:example:recursionCount'(2437, 7)).
+answer('urn:example:recursionCount'(2438, 7)).
+answer('urn:example:recursionCount'(2439, 3)).
+answer('urn:example:recursionCount'(2440, 2)).
+answer('urn:example:recursionCount'(2441, 5)).
+answer('urn:example:recursionCount'(2442, 6)).
+answer('urn:example:recursionCount'(2443, 3)).
+answer('urn:example:recursionCount'(2444, 4)).
+answer('urn:example:recursionCount'(2445, 6)).
+answer('urn:example:recursionCount'(2446, 4)).
+answer('urn:example:recursionCount'(2447, 6)).
+answer('urn:example:recursionCount'(2448, 6)).
+answer('urn:example:recursionCount'(2449, 4)).
+answer('urn:example:recursionCount'(2450, 7)).
+answer('urn:example:recursionCount'(2451, 2)).
+answer('urn:example:recursionCount'(2452, 5)).
+answer('urn:example:recursionCount'(2453, 3)).
+answer('urn:example:recursionCount'(2454, 6)).
+answer('urn:example:recursionCount'(2455, 3)).
+answer('urn:example:recursionCount'(2456, 7)).
+answer('urn:example:recursionCount'(2457, 7)).
+answer('urn:example:recursionCount'(2458, 7)).
+answer('urn:example:recursionCount'(2459, 3)).
+answer('urn:example:recursionCount'(2460, 1)).
+answer('urn:example:recursionCount'(2461, 7)).
+answer('urn:example:recursionCount'(2462, 2)).
+answer('urn:example:recursionCount'(2463, 7)).
+answer('urn:example:recursionCount'(2464, 4)).
+answer('urn:example:recursionCount'(2465, 7)).
+answer('urn:example:recursionCount'(2466, 2)).
+answer('urn:example:recursionCount'(2467, 7)).
+answer('urn:example:recursionCount'(2468, 1)).
+answer('urn:example:recursionCount'(2469, 5)).
+answer('urn:example:recursionCount'(2470, 5)).
+answer('urn:example:recursionCount'(2471, 1)).
+answer('urn:example:recursionCount'(2472, 7)).
+answer('urn:example:recursionCount'(2473, 7)).
+answer('urn:example:recursionCount'(2474, 6)).
+answer('urn:example:recursionCount'(2475, 7)).
+answer('urn:example:recursionCount'(2476, 7)).
+answer('urn:example:recursionCount'(2477, 5)).
+answer('urn:example:recursionCount'(2478, 3)).
+answer('urn:example:recursionCount'(2479, 6)).
+answer('urn:example:recursionCount'(2480, 6)).
+answer('urn:example:recursionCount'(2481, 5)).
+answer('urn:example:recursionCount'(2482, 1)).
+answer('urn:example:recursionCount'(2483, 7)).
+answer('urn:example:recursionCount'(2484, 6)).
+answer('urn:example:recursionCount'(2485, 7)).
+answer('urn:example:recursionCount'(2486, 1)).
+answer('urn:example:recursionCount'(2487, 3)).
+answer('urn:example:recursionCount'(2488, 4)).
+answer('urn:example:recursionCount'(2489, 3)).
+answer('urn:example:recursionCount'(2490, 3)).
+answer('urn:example:recursionCount'(2491, 6)).
+answer('urn:example:recursionCount'(2492, 5)).
+answer('urn:example:recursionCount'(2493, 3)).
+answer('urn:example:recursionCount'(2494, 4)).
+answer('urn:example:recursionCount'(2495, 3)).
+answer('urn:example:recursionCount'(2496, 5)).
+answer('urn:example:recursionCount'(2497, 6)).
+answer('urn:example:recursionCount'(2498, 3)).
+answer('urn:example:recursionCount'(2499, 5)).
+answer('urn:example:recursionCount'(2500, 7)).
+answer('urn:example:recursionCount'(2501, 7)).
+answer('urn:example:recursionCount'(2502, 6)).
+answer('urn:example:recursionCount'(2503, 7)).
+answer('urn:example:recursionCount'(2504, 7)).
+answer('urn:example:recursionCount'(2505, 5)).
+answer('urn:example:recursionCount'(2506, 3)).
+answer('urn:example:recursionCount'(2507, 6)).
+answer('urn:example:recursionCount'(2508, 5)).
+answer('urn:example:recursionCount'(2509, 3)).
+answer('urn:example:recursionCount'(2510, 7)).
+answer('urn:example:recursionCount'(2511, 7)).
+answer('urn:example:recursionCount'(2512, 4)).
+answer('urn:example:recursionCount'(2513, 7)).
+answer('urn:example:recursionCount'(2514, 2)).
+answer('urn:example:recursionCount'(2515, 3)).
+answer('urn:example:recursionCount'(2516, 5)).
+answer('urn:example:recursionCount'(2517, 3)).
+answer('urn:example:recursionCount'(2518, 6)).
+answer('urn:example:recursionCount'(2519, 5)).
+answer('urn:example:recursionCount'(2520, 6)).
+answer('urn:example:recursionCount'(2521, 4)).
+answer('urn:example:recursionCount'(2522, 6)).
+answer('urn:example:recursionCount'(2523, 3)).
+answer('urn:example:recursionCount'(2524, 5)).
+answer('urn:example:recursionCount'(2525, 6)).
+answer('urn:example:recursionCount'(2526, 3)).
+answer('urn:example:recursionCount'(2527, 5)).
+answer('urn:example:recursionCount'(2528, 3)).
+answer('urn:example:recursionCount'(2529, 6)).
+answer('urn:example:recursionCount'(2530, 7)).
+answer('urn:example:recursionCount'(2531, 7)).
+answer('urn:example:recursionCount'(2532, 3)).
+answer('urn:example:recursionCount'(2533, 6)).
+answer('urn:example:recursionCount'(2534, 3)).
+answer('urn:example:recursionCount'(2535, 5)).
+answer('urn:example:recursionCount'(2536, 2)).
+answer('urn:example:recursionCount'(2537, 7)).
+answer('urn:example:recursionCount'(2538, 1)).
+answer('urn:example:recursionCount'(2539, 5)).
+answer('urn:example:recursionCount'(2540, 7)).
+answer('urn:example:recursionCount'(2541, 2)).
+answer('urn:example:recursionCount'(2542, 5)).
+answer('urn:example:recursionCount'(2543, 3)).
+answer('urn:example:recursionCount'(2544, 6)).
+answer('urn:example:recursionCount'(2545, 3)).
+answer('urn:example:recursionCount'(2546, 7)).
+answer('urn:example:recursionCount'(2547, 7)).
+answer('urn:example:recursionCount'(2548, 7)).
+answer('urn:example:recursionCount'(2549, 3)).
+answer('urn:example:recursionCount'(2550, 5)).
+answer('urn:example:recursionCount'(2551, 3)).
+answer('urn:example:recursionCount'(2552, 6)).
+answer('urn:example:recursionCount'(2553, 5)).
+answer('urn:example:recursionCount'(2554, 3)).
+answer('urn:example:recursionCount'(2555, 6)).
+answer('urn:example:recursionCount'(2556, 4)).
+answer('urn:example:recursionCount'(2557, 6)).
+answer('urn:example:recursionCount'(2558, 6)).
+answer('urn:example:recursionCount'(2559, 4)).
+answer('urn:example:recursionCount'(2560, 3)).
+answer('urn:example:recursionCount'(2561, 5)).
+answer('urn:example:recursionCount'(2562, 3)).
+answer('urn:example:recursionCount'(2563, 2)).
+answer('urn:example:recursionCount'(2564, 7)).
+answer('urn:example:recursionCount'(2565, 4)).
+answer('urn:example:recursionCount'(2566, 7)).
+answer('urn:example:recursionCount'(2567, 7)).
+answer('urn:example:recursionCount'(2568, 7)).
+answer('urn:example:recursionCount'(2569, 3)).
+answer('urn:example:recursionCount'(2570, 6)).
+answer('urn:example:recursionCount'(2571, 3)).
+answer('urn:example:recursionCount'(2572, 5)).
+answer('urn:example:recursionCount'(2573, 7)).
+answer('urn:example:recursionCount'(2574, 7)).
+answer('urn:example:recursionCount'(2575, 6)).
+answer('urn:example:recursionCount'(2576, 7)).
+answer('urn:example:recursionCount'(2577, 7)).
+answer('urn:example:recursionCount'(2578, 1)).
+answer('urn:example:recursionCount'(2579, 5)).
+answer('urn:example:recursionCount'(2580, 5)).
+answer('urn:example:recursionCount'(2581, 6)).
+answer('urn:example:recursionCount'(2582, 3)).
+answer('urn:example:recursionCount'(2583, 1)).
+answer('urn:example:recursionCount'(2584, 7)).
+answer('urn:example:recursionCount'(2585, 6)).
+answer('urn:example:recursionCount'(2586, 7)).
+answer('urn:example:recursionCount'(2587, 1)).
+answer('urn:example:recursionCount'(2588, 3)).
+answer('urn:example:recursionCount'(2589, 6)).
+answer('urn:example:recursionCount'(2590, 3)).
+answer('urn:example:recursionCount'(2591, 5)).
+answer('urn:example:recursionCount'(2592, 6)).
+answer('urn:example:recursionCount'(2593, 5)).
+answer('urn:example:recursionCount'(2594, 3)).
+answer('urn:example:recursionCount'(2595, 4)).
+answer('urn:example:recursionCount'(2596, 3)).
+answer('urn:example:recursionCount'(2597, 5)).
+answer('urn:example:recursionCount'(2598, 6)).
+answer('urn:example:recursionCount'(2599, 3)).
+answer('urn:example:recursionCount'(2600, 1)).
+answer('urn:example:recursionCount'(2601, 7)).
+answer('urn:example:recursionCount'(2602, 6)).
+answer('urn:example:recursionCount'(2603, 7)).
+answer('urn:example:recursionCount'(2604, 1)).
+answer('urn:example:recursionCount'(2605, 3)).
+answer('urn:example:recursionCount'(2606, 4)).
+answer('urn:example:recursionCount'(2607, 3)).
+answer('urn:example:recursionCount'(2608, 2)).
+answer('urn:example:recursionCount'(2609, 7)).
+answer('urn:example:recursionCount'(2610, 7)).
+answer('urn:example:recursionCount'(2611, 7)).
+answer('urn:example:recursionCount'(2612, 6)).
+answer('urn:example:recursionCount'(2613, 7)).
+answer('urn:example:recursionCount'(2614, 7)).
+answer('urn:example:recursionCount'(2615, 5)).
+answer('urn:example:recursionCount'(2616, 5)).
+answer('urn:example:recursionCount'(2617, 4)).
+answer('urn:example:recursionCount'(2618, 3)).
+answer('urn:example:recursionCount'(2619, 2)).
+answer('urn:example:recursionCount'(2620, 6)).
+answer('urn:example:recursionCount'(2621, 6)).
+answer('urn:example:recursionCount'(2622, 4)).
+answer('urn:example:recursionCount'(2623, 7)).
+answer('urn:example:recursionCount'(2624, 2)).
+answer('urn:example:recursionCount'(2625, 3)).
+answer('urn:example:recursionCount'(2626, 4)).
+answer('urn:example:recursionCount'(2627, 5)).
+answer('urn:example:recursionCount'(2628, 4)).
+answer('urn:example:recursionCount'(2629, 3)).
+answer('urn:example:recursionCount'(2630, 7)).
+answer('urn:example:recursionCount'(2631, 7)).
+answer('urn:example:recursionCount'(2632, 7)).
+answer('urn:example:recursionCount'(2633, 4)).
+answer('urn:example:recursionCount'(2634, 7)).
+answer('urn:example:recursionCount'(2635, 2)).
+answer('urn:example:recursionCount'(2636, 3)).
+answer('urn:example:recursionCount'(2637, 5)).
+answer('urn:example:recursionCount'(2638, 3)).
+answer('urn:example:recursionCount'(2639, 6)).
+answer('urn:example:recursionCount'(2640, 1)).
+answer('urn:example:recursionCount'(2641, 7)).
+answer('urn:example:recursionCount'(2642, 2)).
+answer('urn:example:recursionCount'(2643, 7)).
+answer('urn:example:recursionCount'(2644, 4)).
+answer('urn:example:recursionCount'(2645, 7)).
+answer('urn:example:recursionCount'(2646, 2)).
+answer('urn:example:recursionCount'(2647, 7)).
+answer('urn:example:recursionCount'(2648, 1)).
+answer('urn:example:recursionCount'(2649, 5)).
+answer('urn:example:recursionCount'(2650, 3)).
+answer('urn:example:recursionCount'(2651, 5)).
+answer('urn:example:recursionCount'(2652, 3)).
+answer('urn:example:recursionCount'(2653, 2)).
+answer('urn:example:recursionCount'(2654, 7)).
+answer('urn:example:recursionCount'(2655, 4)).
+answer('urn:example:recursionCount'(2656, 7)).
+answer('urn:example:recursionCount'(2657, 7)).
+answer('urn:example:recursionCount'(2658, 7)).
+answer('urn:example:recursionCount'(2659, 3)).
+answer('urn:example:recursionCount'(2660, 4)).
+answer('urn:example:recursionCount'(2661, 5)).
+answer('urn:example:recursionCount'(2662, 4)).
+answer('urn:example:recursionCount'(2663, 3)).
+answer('urn:example:recursionCount'(2664, 2)).
+answer('urn:example:recursionCount'(2665, 7)).
+answer('urn:example:recursionCount'(2666, 4)).
+answer('urn:example:recursionCount'(2667, 6)).
+answer('urn:example:recursionCount'(2668, 6)).
+answer('urn:example:recursionCount'(2669, 4)).
+answer('urn:example:recursionCount'(2670, 3)).
+answer('urn:example:recursionCount'(2671, 4)).
+answer('urn:example:recursionCount'(2672, 5)).
+answer('urn:example:recursionCount'(2673, 5)).
+answer('urn:example:recursionCount'(2674, 7)).
+answer('urn:example:recursionCount'(2675, 7)).
+answer('urn:example:recursionCount'(2676, 6)).
+answer('urn:example:recursionCount'(2677, 7)).
+answer('urn:example:recursionCount'(2678, 7)).
+answer('urn:example:recursionCount'(2679, 3)).
+answer('urn:example:recursionCount'(2680, 2)).
+answer('urn:example:recursionCount'(2681, 3)).
+answer('urn:example:recursionCount'(2682, 4)).
+answer('urn:example:recursionCount'(2683, 3)).
+answer('urn:example:recursionCount'(2684, 1)).
+answer('urn:example:recursionCount'(2685, 7)).
+answer('urn:example:recursionCount'(2686, 6)).
+answer('urn:example:recursionCount'(2687, 7)).
+answer('urn:example:recursionCount'(2688, 1)).
+answer('urn:example:recursionCount'(2689, 5)).
+answer('urn:example:recursionCount'(2690, 7)).
+answer('urn:example:recursionCount'(2691, 2)).
+answer('urn:example:recursionCount'(2692, 3)).
+answer('urn:example:recursionCount'(2693, 6)).
+answer('urn:example:recursionCount'(2694, 5)).
+answer('urn:example:recursionCount'(2695, 3)).
+answer('urn:example:recursionCount'(2696, 4)).
+answer('urn:example:recursionCount'(2697, 3)).
+answer('urn:example:recursionCount'(2698, 5)).
+answer('urn:example:recursionCount'(2699, 6)).
+answer('urn:example:recursionCount'(2700, 5)).
+answer('urn:example:recursionCount'(2701, 3)).
+answer('urn:example:recursionCount'(2702, 4)).
+answer('urn:example:recursionCount'(2703, 3)).
+answer('urn:example:recursionCount'(2704, 5)).
+answer('urn:example:recursionCount'(2705, 6)).
+answer('urn:example:recursionCount'(2706, 3)).
+answer('urn:example:recursionCount'(2707, 5)).
+answer('urn:example:recursionCount'(2708, 7)).
+answer('urn:example:recursionCount'(2709, 7)).
+answer('urn:example:recursionCount'(2710, 3)).
+answer('urn:example:recursionCount'(2711, 7)).
+answer('urn:example:recursionCount'(2712, 6)).
+answer('urn:example:recursionCount'(2713, 7)).
+answer('urn:example:recursionCount'(2714, 1)).
+answer('urn:example:recursionCount'(2715, 3)).
+answer('urn:example:recursionCount'(2716, 4)).
+answer('urn:example:recursionCount'(2717, 5)).
+answer('urn:example:recursionCount'(2718, 5)).
+answer('urn:example:recursionCount'(2719, 7)).
+answer('urn:example:recursionCount'(2720, 4)).
+answer('urn:example:recursionCount'(2721, 6)).
+answer('urn:example:recursionCount'(2722, 6)).
+answer('urn:example:recursionCount'(2723, 7)).
+answer('urn:example:recursionCount'(2724, 7)).
+answer('urn:example:recursionCount'(2725, 5)).
+answer('urn:example:recursionCount'(2726, 5)).
+answer('urn:example:recursionCount'(2727, 5)).
+answer('urn:example:recursionCount'(2728, 5)).
+answer('urn:example:recursionCount'(2729, 5)).
+answer('urn:example:recursionCount'(2730, 3)).
+answer('urn:example:recursionCount'(2731, 7)).
+answer('urn:example:recursionCount'(2732, 7)).
+answer('urn:example:recursionCount'(2733, 6)).
+answer('urn:example:recursionCount'(2734, 7)).
+answer('urn:example:recursionCount'(2735, 7)).
+answer('urn:example:recursionCount'(2736, 5)).
+answer('urn:example:recursionCount'(2737, 5)).
+answer('urn:example:recursionCount'(2738, 4)).
+answer('urn:example:recursionCount'(2739, 3)).
+answer('urn:example:recursionCount'(2740, 5)).
+answer('urn:example:recursionCount'(2741, 1)).
+answer('urn:example:recursionCount'(2742, 7)).
+answer('urn:example:recursionCount'(2743, 7)).
+answer('urn:example:recursionCount'(2744, 6)).
+answer('urn:example:recursionCount'(2745, 7)).
+answer('urn:example:recursionCount'(2746, 7)).
+answer('urn:example:recursionCount'(2747, 5)).
+answer('urn:example:recursionCount'(2748, 3)).
+answer('urn:example:recursionCount'(2749, 6)).
+answer('urn:example:recursionCount'(2750, 6)).
+answer('urn:example:recursionCount'(2751, 3)).
+answer('urn:example:recursionCount'(2752, 5)).
+answer('urn:example:recursionCount'(2753, 7)).
+answer('urn:example:recursionCount'(2754, 7)).
+answer('urn:example:recursionCount'(2755, 6)).
+answer('urn:example:recursionCount'(2756, 7)).
+answer('urn:example:recursionCount'(2757, 7)).
+answer('urn:example:recursionCount'(2758, 1)).
+answer('urn:example:recursionCount'(2759, 5)).
+answer('urn:example:recursionCount'(2760, 3)).
+answer('urn:example:recursionCount'(2761, 4)).
+answer('urn:example:recursionCount'(2762, 5)).
+answer('urn:example:recursionCount'(2763, 5)).
+answer('urn:example:recursionCount'(2764, 7)).
+answer('urn:example:recursionCount'(2765, 7)).
+answer('urn:example:recursionCount'(2766, 6)).
+answer('urn:example:recursionCount'(2767, 7)).
+answer('urn:example:recursionCount'(2768, 7)).
+answer('urn:example:recursionCount'(2769, 3)).
+answer('urn:example:recursionCount'(2770, 5)).
+answer('urn:example:recursionCount'(2771, 5)).
+answer('urn:example:recursionCount'(2772, 5)).
+answer('urn:example:recursionCount'(2773, 5)).
+answer('urn:example:recursionCount'(2774, 5)).
+answer('urn:example:recursionCount'(2775, 7)).
+answer('urn:example:recursionCount'(2776, 7)).
+answer('urn:example:recursionCount'(2777, 6)).
+answer('urn:example:recursionCount'(2778, 6)).
+answer('urn:example:recursionCount'(2779, 4)).
+answer('urn:example:recursionCount'(2780, 7)).
+answer('urn:example:recursionCount'(2781, 5)).
+answer('urn:example:recursionCount'(2782, 5)).
+answer('urn:example:recursionCount'(2783, 4)).
+answer('urn:example:recursionCount'(2784, 3)).
+answer('urn:example:recursionCount'(2785, 1)).
+answer('urn:example:recursionCount'(2786, 7)).
+answer('urn:example:recursionCount'(2787, 6)).
+answer('urn:example:recursionCount'(2788, 7)).
+answer('urn:example:recursionCount'(2789, 3)).
+answer('urn:example:recursionCount'(2790, 7)).
+answer('urn:example:recursionCount'(2791, 7)).
+answer('urn:example:recursionCount'(2792, 5)).
+answer('urn:example:recursionCount'(2793, 3)).
+answer('urn:example:recursionCount'(2794, 6)).
+answer('urn:example:recursionCount'(2795, 5)).
+answer('urn:example:recursionCount'(2796, 3)).
+answer('urn:example:recursionCount'(2797, 4)).
+answer('urn:example:recursionCount'(2798, 3)).
+answer('urn:example:recursionCount'(2799, 5)).
+answer('urn:example:recursionCount'(2800, 6)).
+answer('urn:example:recursionCount'(2801, 3)).
+answer('urn:example:recursionCount'(2802, 6)).
+answer('urn:example:recursionCount'(2803, 3)).
+answer('urn:example:recursionCount'(2804, 6)).
+answer('urn:example:recursionCount'(2805, 5)).
+answer('urn:example:recursionCount'(2806, 2)).
+answer('urn:example:recursionCount'(2807, 7)).
+answer('urn:example:recursionCount'(2808, 2)).
+answer('urn:example:recursionCount'(2809, 7)).
+answer('urn:example:recursionCount'(2810, 3)).
+answer('urn:example:recursionCount'(2811, 3)).
+answer('urn:example:recursionCount'(2812, 4)).
+answer('urn:example:recursionCount'(2813, 3)).
+answer('urn:example:recursionCount'(2814, 5)).
+answer('urn:example:recursionCount'(2815, 6)).
+answer('urn:example:recursionCount'(2816, 3)).
+answer('urn:example:recursionCount'(2817, 5)).
+answer('urn:example:recursionCount'(2818, 3)).
+answer('urn:example:recursionCount'(2819, 2)).
+answer('urn:example:recursionCount'(2820, 6)).
+answer('urn:example:recursionCount'(2821, 4)).
+answer('urn:example:recursionCount'(2822, 6)).
+answer('urn:example:recursionCount'(2823, 7)).
+answer('urn:example:recursionCount'(2824, 1)).
+answer('urn:example:recursionCount'(2825, 3)).
+answer('urn:example:recursionCount'(2826, 4)).
+answer('urn:example:recursionCount'(2827, 5)).
+answer('urn:example:recursionCount'(2828, 4)).
+answer('urn:example:recursionCount'(2829, 3)).
+answer('urn:example:recursionCount'(2830, 3)).
+answer('urn:example:recursionCount'(2831, 3)).
+answer('urn:example:recursionCount'(2832, 7)).
+answer('urn:example:recursionCount'(2833, 6)).
+answer('urn:example:recursionCount'(2834, 7)).
+answer('urn:example:recursionCount'(2835, 1)).
+answer('urn:example:recursionCount'(2836, 3)).
+answer('urn:example:recursionCount'(2837, 4)).
+answer('urn:example:recursionCount'(2838, 5)).
+answer('urn:example:recursionCount'(2839, 5)).
+answer('urn:example:recursionCount'(2840, 6)).
+answer('urn:example:recursionCount'(2841, 5)).
+answer('urn:example:recursionCount'(2842, 1)).
+answer('urn:example:recursionCount'(2843, 7)).
+answer('urn:example:recursionCount'(2844, 6)).
+answer('urn:example:recursionCount'(2845, 7)).
+answer('urn:example:recursionCount'(2846, 1)).
+answer('urn:example:recursionCount'(2847, 3)).
+answer('urn:example:recursionCount'(2848, 4)).
+answer('urn:example:recursionCount'(2849, 3)).
+answer('urn:example:recursionCount'(2850, 5)).
+answer('urn:example:recursionCount'(2851, 6)).
+answer('urn:example:recursionCount'(2852, 3)).
+answer('urn:example:recursionCount'(2853, 1)).
+answer('urn:example:recursionCount'(2854, 7)).
+answer('urn:example:recursionCount'(2855, 6)).
+answer('urn:example:recursionCount'(2856, 7)).
+answer('urn:example:recursionCount'(2857, 1)).
+answer('urn:example:recursionCount'(2858, 3)).
+answer('urn:example:recursionCount'(2859, 6)).
+answer('urn:example:recursionCount'(2860, 2)).
+answer('urn:example:recursionCount'(2861, 3)).
+answer('urn:example:recursionCount'(2862, 4)).
+answer('urn:example:recursionCount'(2863, 3)).
+answer('urn:example:recursionCount'(2864, 1)).
+answer('urn:example:recursionCount'(2865, 7)).
+answer('urn:example:recursionCount'(2866, 6)).
+answer('urn:example:recursionCount'(2867, 7)).
+answer('urn:example:recursionCount'(2868, 1)).
+answer('urn:example:recursionCount'(2869, 5)).
+answer('urn:example:recursionCount'(2870, 7)).
+answer('urn:example:recursionCount'(2871, 5)).
+answer('urn:example:recursionCount'(2872, 5)).
+answer('urn:example:recursionCount'(2873, 4)).
+answer('urn:example:recursionCount'(2874, 3)).
+answer('urn:example:recursionCount'(2875, 1)).
+answer('urn:example:recursionCount'(2876, 7)).
+answer('urn:example:recursionCount'(2877, 6)).
+answer('urn:example:recursionCount'(2878, 7)).
+answer('urn:example:recursionCount'(2879, 3)).
+answer('urn:example:recursionCount'(2880, 2)).
+answer('urn:example:recursionCount'(2881, 3)).
+answer('urn:example:recursionCount'(2882, 4)).
+answer('urn:example:recursionCount'(2883, 5)).
+answer('urn:example:recursionCount'(2884, 4)).
+answer('urn:example:recursionCount'(2885, 3)).
+answer('urn:example:recursionCount'(2886, 1)).
+answer('urn:example:recursionCount'(2887, 7)).
+answer('urn:example:recursionCount'(2888, 6)).
+answer('urn:example:recursionCount'(2889, 4)).
+answer('urn:example:recursionCount'(2890, 7)).
+answer('urn:example:recursionCount'(2891, 2)).
+answer('urn:example:recursionCount'(2892, 3)).
+answer('urn:example:recursionCount'(2893, 5)).
+answer('urn:example:recursionCount'(2894, 3)).
+answer('urn:example:recursionCount'(2895, 6)).
+answer('urn:example:recursionCount'(2896, 5)).
+answer('urn:example:recursionCount'(2897, 3)).
+answer('urn:example:recursionCount'(2898, 4)).
+answer('urn:example:recursionCount'(2899, 3)).
+answer('urn:example:recursionCount'(2900, 3)).
+answer('urn:example:recursionCount'(2901, 4)).
+answer('urn:example:recursionCount'(2902, 4)).
+answer('urn:example:recursionCount'(2903, 4)).
+answer('urn:example:recursionCount'(2904, 3)).
+answer('urn:example:recursionCount'(2905, 3)).
+answer('urn:example:recursionCount'(2906, 7)).
+answer('urn:example:recursionCount'(2907, 7)).
+answer('urn:example:recursionCount'(2908, 7)).
+answer('urn:example:recursionCount'(2909, 3)).
+answer('urn:example:recursionCount'(2910, 4)).
+answer('urn:example:recursionCount'(2911, 3)).
+answer('urn:example:recursionCount'(2912, 6)).
+answer('urn:example:recursionCount'(2913, 3)).
+answer('urn:example:recursionCount'(2914, 6)).
+answer('urn:example:recursionCount'(2915, 5)).
+answer('urn:example:recursionCount'(2916, 2)).
+answer('urn:example:recursionCount'(2917, 7)).
+answer('urn:example:recursionCount'(2918, 2)).
+answer('urn:example:recursionCount'(2919, 5)).
+answer('urn:example:recursionCount'(2920, 4)).
+answer('urn:example:recursionCount'(2921, 6)).
+answer('urn:example:recursionCount'(2922, 4)).
+answer('urn:example:recursionCount'(2923, 3)).
+answer('urn:example:recursionCount'(2924, 5)).
+answer('urn:example:recursionCount'(2925, 6)).
+answer('urn:example:recursionCount'(2926, 3)).
+answer('urn:example:recursionCount'(2927, 5)).
+answer('urn:example:recursionCount'(2928, 3)).
+answer('urn:example:recursionCount'(2929, 6)).
+answer('urn:example:recursionCount'(2930, 4)).
+answer('urn:example:recursionCount'(2931, 3)).
+answer('urn:example:recursionCount'(2932, 3)).
+answer('urn:example:recursionCount'(2933, 4)).
+answer('urn:example:recursionCount'(2934, 3)).
+answer('urn:example:recursionCount'(2935, 5)).
+answer('urn:example:recursionCount'(2936, 6)).
+answer('urn:example:recursionCount'(2937, 3)).
+answer('urn:example:recursionCount'(2938, 5)).
+answer('urn:example:recursionCount'(2939, 3)).
+answer('urn:example:recursionCount'(2940, 3)).
+answer('urn:example:recursionCount'(2941, 6)).
+answer('urn:example:recursionCount'(2942, 5)).
+answer('urn:example:recursionCount'(2943, 3)).
+answer('urn:example:recursionCount'(2944, 4)).
+answer('urn:example:recursionCount'(2945, 3)).
+answer('urn:example:recursionCount'(2946, 5)).
+answer('urn:example:recursionCount'(2947, 6)).
+answer('urn:example:recursionCount'(2948, 3)).
+answer('urn:example:recursionCount'(2949, 5)).
+answer('urn:example:recursionCount'(2950, 3)).
+answer('urn:example:recursionCount'(2951, 5)).
+answer('urn:example:recursionCount'(2952, 6)).
+answer('urn:example:recursionCount'(2953, 5)).
+answer('urn:example:recursionCount'(2954, 3)).
+answer('urn:example:recursionCount'(2955, 4)).
+answer('urn:example:recursionCount'(2956, 3)).
+answer('urn:example:recursionCount'(2957, 5)).
+answer('urn:example:recursionCount'(2958, 6)).
+answer('urn:example:recursionCount'(2959, 3)).
+answer('urn:example:recursionCount'(2960, 7)).
+answer('urn:example:recursionCount'(2961, 2)).
+answer('urn:example:recursionCount'(2962, 3)).
+answer('urn:example:recursionCount'(2963, 6)).
+answer('urn:example:recursionCount'(2964, 5)).
+answer('urn:example:recursionCount'(2965, 3)).
+answer('urn:example:recursionCount'(2966, 4)).
+answer('urn:example:recursionCount'(2967, 3)).
+answer('urn:example:recursionCount'(2968, 5)).
+answer('urn:example:recursionCount'(2969, 6)).
+answer('urn:example:recursionCount'(2970, 7)).
+answer('urn:example:recursionCount'(2971, 7)).
+answer('urn:example:recursionCount'(2972, 5)).
+answer('urn:example:recursionCount'(2973, 3)).
+answer('urn:example:recursionCount'(2974, 6)).
+answer('urn:example:recursionCount'(2975, 5)).
+answer('urn:example:recursionCount'(2976, 3)).
+answer('urn:example:recursionCount'(2977, 4)).
+answer('urn:example:recursionCount'(2978, 3)).
+answer('urn:example:recursionCount'(2979, 5)).
+answer('urn:example:recursionCount'(2980, 7)).
+answer('urn:example:recursionCount'(2981, 2)).
+answer('urn:example:recursionCount'(2982, 3)).
+answer('urn:example:recursionCount'(2983, 5)).
+answer('urn:example:recursionCount'(2984, 3)).
+answer('urn:example:recursionCount'(2985, 6)).
+answer('urn:example:recursionCount'(2986, 5)).
+answer('urn:example:recursionCount'(2987, 3)).
+answer('urn:example:recursionCount'(2988, 4)).
+answer('urn:example:recursionCount'(2989, 3)).
+answer('urn:example:recursionCount'(2990, 3)).
+answer('urn:example:recursionCount'(2991, 5)).
+answer('urn:example:recursionCount'(2992, 6)).
+answer('urn:example:recursionCount'(2993, 3)).
+answer('urn:example:recursionCount'(2994, 5)).
+answer('urn:example:recursionCount'(2995, 3)).
+answer('urn:example:recursionCount'(2996, 6)).
+answer('urn:example:recursionCount'(2997, 5)).
+answer('urn:example:recursionCount'(2998, 3)).
+answer('urn:example:recursionCount'(2999, 4)).
+answer('urn:example:recursionCount'(3000, 6)).
+answer('urn:example:recursionCount'(3001, 3)).
+answer('urn:example:recursionCount'(3002, 5)).
+answer('urn:example:recursionCount'(3003, 6)).
+answer('urn:example:recursionCount'(3004, 3)).
+answer('urn:example:recursionCount'(3005, 5)).
+answer('urn:example:recursionCount'(3006, 3)).
+answer('urn:example:recursionCount'(3007, 6)).
+answer('urn:example:recursionCount'(3008, 5)).
+answer('urn:example:recursionCount'(3009, 3)).
+answer('urn:example:recursionCount'(3010, 3)).
+answer('urn:example:recursionCount'(3011, 6)).
+answer('urn:example:recursionCount'(3012, 3)).
+answer('urn:example:recursionCount'(3013, 5)).
+answer('urn:example:recursionCount'(3014, 2)).
+answer('urn:example:recursionCount'(3015, 7)).
+answer('urn:example:recursionCount'(3016, 1)).
+answer('urn:example:recursionCount'(3017, 5)).
+answer('urn:example:recursionCount'(3018, 6)).
+answer('urn:example:recursionCount'(3019, 3)).
+answer('urn:example:recursionCount'(3020, 5)).
+answer('urn:example:recursionCount'(3021, 3)).
+answer('urn:example:recursionCount'(3022, 6)).
+answer('urn:example:recursionCount'(3023, 3)).
+answer('urn:example:recursionCount'(3024, 7)).
+answer('urn:example:recursionCount'(3025, 7)).
+answer('urn:example:recursionCount'(3026, 7)).
+answer('urn:example:recursionCount'(3027, 3)).
+answer('urn:example:recursionCount'(3028, 3)).
+answer('urn:example:recursionCount'(3029, 4)).
+answer('urn:example:recursionCount'(3030, 6)).
+answer('urn:example:recursionCount'(3031, 5)).
+answer('urn:example:recursionCount'(3032, 3)).
+answer('urn:example:recursionCount'(3033, 6)).
+answer('urn:example:recursionCount'(3034, 4)).
+answer('urn:example:recursionCount'(3035, 6)).
+answer('urn:example:recursionCount'(3036, 6)).
+answer('urn:example:recursionCount'(3037, 4)).
+answer('urn:example:recursionCount'(3038, 6)).
+answer('urn:example:recursionCount'(3039, 4)).
+answer('urn:example:recursionCount'(3040, 3)).
+answer('urn:example:recursionCount'(3041, 2)).
+answer('urn:example:recursionCount'(3042, 7)).
+answer('urn:example:recursionCount'(3043, 4)).
+answer('urn:example:recursionCount'(3044, 7)).
+answer('urn:example:recursionCount'(3045, 7)).
+answer('urn:example:recursionCount'(3046, 7)).
+answer('urn:example:recursionCount'(3047, 3)).
+answer('urn:example:recursionCount'(3048, 3)).
+answer('urn:example:recursionCount'(3049, 4)).
+answer('urn:example:recursionCount'(3050, 5)).
+answer('urn:example:recursionCount'(3051, 7)).
+answer('urn:example:recursionCount'(3052, 7)).
+answer('urn:example:recursionCount'(3053, 6)).
+answer('urn:example:recursionCount'(3054, 7)).
+answer('urn:example:recursionCount'(3055, 7)).
+answer('urn:example:recursionCount'(3056, 1)).
+answer('urn:example:recursionCount'(3057, 5)).
+answer('urn:example:recursionCount'(3058, 6)).
+answer('urn:example:recursionCount'(3059, 3)).
+answer('urn:example:recursionCount'(3060, 3)).
+answer('urn:example:recursionCount'(3061, 1)).
+answer('urn:example:recursionCount'(3062, 7)).
+answer('urn:example:recursionCount'(3063, 6)).
+answer('urn:example:recursionCount'(3064, 7)).
+answer('urn:example:recursionCount'(3065, 1)).
+answer('urn:example:recursionCount'(3066, 3)).
+answer('urn:example:recursionCount'(3067, 6)).
+answer('urn:example:recursionCount'(3068, 5)).
+answer('urn:example:recursionCount'(3069, 3)).
+answer('urn:example:recursionCount'(3070, 6)).
+answer('urn:example:recursionCount'(3071, 5)).
+answer('urn:example:recursionCount'(3072, 3)).
+answer('urn:example:recursionCount'(3073, 4)).
+answer('urn:example:recursionCount'(3074, 3)).
+answer('urn:example:recursionCount'(3075, 5)).
+answer('urn:example:recursionCount'(3076, 6)).
+answer('urn:example:recursionCount'(3077, 3)).
+answer('urn:example:recursionCount'(3078, 2)).
+answer('urn:example:recursionCount'(3079, 7)).
+answer('urn:example:recursionCount'(3080, 5)).
+answer('urn:example:recursionCount'(3081, 6)).
+answer('urn:example:recursionCount'(3082, 3)).
+answer('urn:example:recursionCount'(3083, 6)).
+answer('urn:example:recursionCount'(3084, 3)).
+answer('urn:example:recursionCount'(3085, 6)).
+answer('urn:example:recursionCount'(3086, 5)).
+answer('urn:example:recursionCount'(3087, 2)).
+answer('urn:example:recursionCount'(3088, 7)).
+answer('urn:example:recursionCount'(3089, 7)).
+answer('urn:example:recursionCount'(3090, 3)).
+answer('urn:example:recursionCount'(3091, 3)).
+answer('urn:example:recursionCount'(3092, 4)).
+answer('urn:example:recursionCount'(3093, 4)).
+answer('urn:example:recursionCount'(3094, 4)).
+answer('urn:example:recursionCount'(3095, 3)).
+answer('urn:example:recursionCount'(3096, 3)).
+answer('urn:example:recursionCount'(3097, 7)).
+answer('urn:example:recursionCount'(3098, 7)).
+answer('urn:example:recursionCount'(3099, 7)).
+answer('urn:example:recursionCount'(3100, 3)).
+answer('urn:example:recursionCount'(3101, 6)).
+answer('urn:example:recursionCount'(3102, 3)).
+answer('urn:example:recursionCount'(3103, 5)).
+answer('urn:example:recursionCount'(3104, 2)).
+answer('urn:example:recursionCount'(3105, 7)).
+answer('urn:example:recursionCount'(3106, 1)).
+answer('urn:example:recursionCount'(3107, 5)).
+answer('urn:example:recursionCount'(3108, 6)).
+answer('urn:example:recursionCount'(3109, 3)).
+answer('urn:example:recursionCount'(3110, 6)).
+answer('urn:example:recursionCount'(3111, 4)).
+answer('urn:example:recursionCount'(3112, 3)).
+answer('urn:example:recursionCount'(3113, 6)).
+answer('urn:example:recursionCount'(3114, 5)).
+answer('urn:example:recursionCount'(3115, 2)).
+answer('urn:example:recursionCount'(3116, 7)).
+answer('urn:example:recursionCount'(3117, 1)).
+answer('urn:example:recursionCount'(3118, 5)).
+answer('urn:example:recursionCount'(3119, 6)).
+answer('urn:example:recursionCount'(3120, 3)).
+answer('urn:example:recursionCount'(3121, 3)).
+answer('urn:example:recursionCount'(3122, 4)).
+answer('urn:example:recursionCount'(3123, 3)).
+answer('urn:example:recursionCount'(3124, 3)).
+answer('urn:example:recursionCount'(3125, 7)).
+answer('urn:example:recursionCount'(3126, 7)).
+answer('urn:example:recursionCount'(3127, 7)).
+answer('urn:example:recursionCount'(3128, 3)).
+answer('urn:example:recursionCount'(3129, 3)).
+answer('urn:example:recursionCount'(3130, 5)).
+answer('urn:example:recursionCount'(3131, 6)).
+answer('urn:example:recursionCount'(3132, 3)).
+answer('urn:example:recursionCount'(3133, 4)).
+answer('urn:example:recursionCount'(3134, 6)).
+answer('urn:example:recursionCount'(3135, 4)).
+answer('urn:example:recursionCount'(3136, 6)).
+answer('urn:example:recursionCount'(3137, 6)).
+answer('urn:example:recursionCount'(3138, 4)).
+answer('urn:example:recursionCount'(3139, 6)).
+answer('urn:example:recursionCount'(3140, 2)).
+answer('urn:example:recursionCount'(3141, 5)).
+answer('urn:example:recursionCount'(3142, 3)).
+answer('urn:example:recursionCount'(3143, 6)).
+answer('urn:example:recursionCount'(3144, 3)).
+answer('urn:example:recursionCount'(3145, 7)).
+answer('urn:example:recursionCount'(3146, 7)).
+answer('urn:example:recursionCount'(3147, 7)).
+answer('urn:example:recursionCount'(3148, 3)).
+answer('urn:example:recursionCount'(3149, 3)).
+answer('urn:example:recursionCount'(3150, 7)).
+answer('urn:example:recursionCount'(3151, 2)).
+answer('urn:example:recursionCount'(3152, 7)).
+answer('urn:example:recursionCount'(3153, 4)).
+answer('urn:example:recursionCount'(3154, 7)).
+answer('urn:example:recursionCount'(3155, 2)).
+answer('urn:example:recursionCount'(3156, 7)).
+answer('urn:example:recursionCount'(3157, 1)).
+answer('urn:example:recursionCount'(3158, 5)).
+answer('urn:example:recursionCount'(3159, 6)).
+answer('urn:example:recursionCount'(3160, 1)).
+answer('urn:example:recursionCount'(3161, 7)).
+answer('urn:example:recursionCount'(3162, 7)).
+answer('urn:example:recursionCount'(3163, 6)).
+answer('urn:example:recursionCount'(3164, 7)).
+answer('urn:example:recursionCount'(3165, 7)).
+answer('urn:example:recursionCount'(3166, 5)).
+answer('urn:example:recursionCount'(3167, 3)).
+answer('urn:example:recursionCount'(3168, 6)).
+answer('urn:example:recursionCount'(3169, 5)).
+answer('urn:example:recursionCount'(3170, 5)).
+answer('urn:example:recursionCount'(3171, 1)).
+answer('urn:example:recursionCount'(3172, 7)).
+answer('urn:example:recursionCount'(3173, 6)).
+answer('urn:example:recursionCount'(3174, 7)).
+answer('urn:example:recursionCount'(3175, 1)).
+answer('urn:example:recursionCount'(3176, 3)).
+answer('urn:example:recursionCount'(3177, 4)).
+answer('urn:example:recursionCount'(3178, 3)).
+answer('urn:example:recursionCount'(3179, 2)).
+answer('urn:example:recursionCount'(3180, 6)).
+answer('urn:example:recursionCount'(3181, 5)).
+answer('urn:example:recursionCount'(3182, 3)).
+answer('urn:example:recursionCount'(3183, 4)).
+answer('urn:example:recursionCount'(3184, 3)).
+answer('urn:example:recursionCount'(3185, 5)).
+answer('urn:example:recursionCount'(3186, 6)).
+answer('urn:example:recursionCount'(3187, 3)).
+answer('urn:example:recursionCount'(3188, 5)).
+answer('urn:example:recursionCount'(3189, 7)).
+answer('urn:example:recursionCount'(3190, 3)).
+answer('urn:example:recursionCount'(3191, 6)).
+answer('urn:example:recursionCount'(3192, 3)).
+answer('urn:example:recursionCount'(3193, 6)).
+answer('urn:example:recursionCount'(3194, 3)).
+answer('urn:example:recursionCount'(3195, 6)).
+answer('urn:example:recursionCount'(3196, 5)).
+answer('urn:example:recursionCount'(3197, 2)).
+answer('urn:example:recursionCount'(3198, 7)).
+answer('urn:example:recursionCount'(3199, 2)).
+answer('urn:example:recursionCount'(3200, 5)).
+answer('urn:example:recursionCount'(3201, 3)).
+answer('urn:example:recursionCount'(3202, 6)).
+answer('urn:example:recursionCount'(3203, 3)).
+answer('urn:example:recursionCount'(3204, 7)).
+answer('urn:example:recursionCount'(3205, 7)).
+answer('urn:example:recursionCount'(3206, 7)).
+answer('urn:example:recursionCount'(3207, 3)).
+answer('urn:example:recursionCount'(3208, 3)).
+answer('urn:example:recursionCount'(3209, 4)).
+answer('urn:example:recursionCount'(3210, 3)).
+answer('urn:example:recursionCount'(3211, 3)).
+answer('urn:example:recursionCount'(3212, 4)).
+answer('urn:example:recursionCount'(3213, 3)).
+answer('urn:example:recursionCount'(3214, 3)).
+answer('urn:example:recursionCount'(3215, 7)).
+answer('urn:example:recursionCount'(3216, 7)).
+answer('urn:example:recursionCount'(3217, 7)).
+answer('urn:example:recursionCount'(3218, 3)).
+answer('urn:example:recursionCount'(3219, 3)).
+answer('urn:example:recursionCount'(3220, 6)).
+answer('urn:example:recursionCount'(3221, 4)).
+answer('urn:example:recursionCount'(3222, 5)).
+answer('urn:example:recursionCount'(3223, 4)).
+answer('urn:example:recursionCount'(3224, 3)).
+answer('urn:example:recursionCount'(3225, 3)).
+answer('urn:example:recursionCount'(3226, 7)).
+answer('urn:example:recursionCount'(3227, 7)).
+answer('urn:example:recursionCount'(3228, 7)).
+answer('urn:example:recursionCount'(3229, 3)).
+answer('urn:example:recursionCount'(3230, 3)).
+answer('urn:example:recursionCount'(3231, 3)).
+answer('urn:example:recursionCount'(3232, 4)).
+answer('urn:example:recursionCount'(3233, 5)).
+answer('urn:example:recursionCount'(3234, 4)).
+answer('urn:example:recursionCount'(3235, 6)).
+answer('urn:example:recursionCount'(3236, 4)).
+answer('urn:example:recursionCount'(3237, 6)).
+answer('urn:example:recursionCount'(3238, 6)).
+answer('urn:example:recursionCount'(3239, 4)).
+answer('urn:example:recursionCount'(3240, 7)).
+answer('urn:example:recursionCount'(3241, 3)).
+answer('urn:example:recursionCount'(3242, 3)).
+answer('urn:example:recursionCount'(3243, 4)).
+answer('urn:example:recursionCount'(3244, 3)).
+answer('urn:example:recursionCount'(3245, 3)).
+answer('urn:example:recursionCount'(3246, 7)).
+answer('urn:example:recursionCount'(3247, 7)).
+answer('urn:example:recursionCount'(3248, 7)).
+answer('urn:example:recursionCount'(3249, 3)).
+answer('urn:example:recursionCount'(3250, 7)).
+answer('urn:example:recursionCount'(3251, 7)).
+answer('urn:example:recursionCount'(3252, 3)).
+answer('urn:example:recursionCount'(3253, 6)).
+answer('urn:example:recursionCount'(3254, 3)).
+answer('urn:example:recursionCount'(3255, 5)).
+answer('urn:example:recursionCount'(3256, 2)).
+answer('urn:example:recursionCount'(3257, 7)).
+answer('urn:example:recursionCount'(3258, 1)).
+answer('urn:example:recursionCount'(3259, 5)).
+answer('urn:example:recursionCount'(3260, 7)).
+answer('urn:example:recursionCount'(3261, 7)).
+answer('urn:example:recursionCount'(3262, 7)).
+answer('urn:example:recursionCount'(3263, 4)).
+answer('urn:example:recursionCount'(3264, 7)).
+answer('urn:example:recursionCount'(3265, 2)).
+answer('urn:example:recursionCount'(3266, 3)).
+answer('urn:example:recursionCount'(3267, 5)).
+answer('urn:example:recursionCount'(3268, 3)).
+answer('urn:example:recursionCount'(3269, 6)).
+answer('urn:example:recursionCount'(3270, 3)).
+answer('urn:example:recursionCount'(3271, 7)).
+answer('urn:example:recursionCount'(3272, 7)).
+answer('urn:example:recursionCount'(3273, 6)).
+answer('urn:example:recursionCount'(3274, 7)).
+answer('urn:example:recursionCount'(3275, 7)).
+answer('urn:example:recursionCount'(3276, 5)).
+answer('urn:example:recursionCount'(3277, 5)).
+answer('urn:example:recursionCount'(3278, 4)).
+answer('urn:example:recursionCount'(3279, 3)).
+answer('urn:example:recursionCount'(3280, 3)).
+answer('urn:example:recursionCount'(3281, 3)).
+answer('urn:example:recursionCount'(3282, 7)).
+answer('urn:example:recursionCount'(3283, 6)).
+answer('urn:example:recursionCount'(3284, 7)).
+answer('urn:example:recursionCount'(3285, 1)).
+answer('urn:example:recursionCount'(3286, 3)).
+answer('urn:example:recursionCount'(3287, 4)).
+answer('urn:example:recursionCount'(3288, 5)).
+answer('urn:example:recursionCount'(3289, 5)).
+answer('urn:example:recursionCount'(3290, 4)).
+answer('urn:example:recursionCount'(3291, 3)).
+answer('urn:example:recursionCount'(3292, 3)).
+answer('urn:example:recursionCount'(3293, 4)).
+answer('urn:example:recursionCount'(3294, 3)).
+answer('urn:example:recursionCount'(3295, 5)).
+answer('urn:example:recursionCount'(3296, 6)).
+answer('urn:example:recursionCount'(3297, 3)).
+answer('urn:example:recursionCount'(3298, 5)).
+answer('urn:example:recursionCount'(3299, 3)).
+answer('urn:example:recursionCount'(3300, 6)).
+answer('urn:example:recursionCount'(3301, 5)).
+answer('urn:example:recursionCount'(3302, 3)).
+answer('urn:example:recursionCount'(3303, 6)).
+answer('urn:example:recursionCount'(3304, 4)).
+answer('urn:example:recursionCount'(3305, 6)).
+answer('urn:example:recursionCount'(3306, 6)).
+answer('urn:example:recursionCount'(3307, 4)).
+answer('urn:example:recursionCount'(3308, 6)).
+answer('urn:example:recursionCount'(3309, 4)).
+answer('urn:example:recursionCount'(3310, 5)).
+answer('urn:example:recursionCount'(3311, 6)).
+answer('urn:example:recursionCount'(3312, 3)).
+answer('urn:example:recursionCount'(3313, 4)).
+answer('urn:example:recursionCount'(3314, 6)).
+answer('urn:example:recursionCount'(3315, 4)).
+answer('urn:example:recursionCount'(3316, 6)).
+answer('urn:example:recursionCount'(3317, 6)).
+answer('urn:example:recursionCount'(3318, 4)).
+answer('urn:example:recursionCount'(3319, 6)).
+answer('urn:example:recursionCount'(3320, 3)).
+answer('urn:example:recursionCount'(3321, 3)).
+answer('urn:example:recursionCount'(3322, 4)).
+answer('urn:example:recursionCount'(3323, 5)).
+answer('urn:example:recursionCount'(3324, 4)).
+answer('urn:example:recursionCount'(3325, 6)).
+answer('urn:example:recursionCount'(3326, 4)).
+answer('urn:example:recursionCount'(3327, 6)).
+answer('urn:example:recursionCount'(3328, 6)).
+answer('urn:example:recursionCount'(3329, 4)).
+answer('urn:example:recursionCount'(3330, 6)).
+answer('urn:example:recursionCount'(3331, 4)).
+answer('urn:example:recursionCount'(3332, 5)).
+answer('urn:example:recursionCount'(3334, 5)).
+answer('urn:example:recursionCount'(3335, 4)).
+answer('urn:example:recursionCount'(3336, 6)).
+answer('urn:example:recursionCount'(3337, 4)).
+answer('urn:example:recursionCount'(3338, 6)).
+answer('urn:example:recursionCount'(3339, 6)).
+answer('urn:example:recursionCount'(3340, 4)).
+answer('urn:example:recursionCount'(3341, 6)).
+answer('urn:example:recursionCount'(3342, 4)).
+answer('urn:example:recursionCount'(3343, 5)).
+answer('urn:example:recursionCount'(3344, 4)).
+answer('urn:example:recursionCount'(3345, 3)).
+answer('urn:example:recursionCount'(3346, 3)).
+answer('urn:example:recursionCount'(3347, 7)).
+answer('urn:example:recursionCount'(3348, 7)).
+answer('urn:example:recursionCount'(3349, 7)).
+answer('urn:example:recursionCount'(3350, 6)).
+answer('urn:example:recursionCount'(3351, 4)).
+answer('urn:example:recursionCount'(3352, 6)).
+answer('urn:example:recursionCount'(3353, 4)).
+answer('urn:example:recursionCount'(3354, 3)).
+answer('urn:example:recursionCount'(3355, 6)).
+answer('urn:example:recursionCount'(3356, 5)).
+answer('urn:example:recursionCount'(3357, 2)).
+answer('urn:example:recursionCount'(3358, 7)).
+answer('urn:example:recursionCount'(3359, 1)).
+answer('urn:example:recursionCount'(3360, 6)).
+answer('urn:example:recursionCount'(3361, 6)).
+answer('urn:example:recursionCount'(3362, 4)).
+answer('urn:example:recursionCount'(3363, 6)).
+answer('urn:example:recursionCount'(3364, 3)).
+answer('urn:example:recursionCount'(3365, 5)).
+answer('urn:example:recursionCount'(3366, 6)).
+answer('urn:example:recursionCount'(3367, 3)).
+answer('urn:example:recursionCount'(3368, 5)).
+answer('urn:example:recursionCount'(3369, 3)).
+answer('urn:example:recursionCount'(3370, 4)).
+answer('urn:example:recursionCount'(3371, 6)).
+answer('urn:example:recursionCount'(3372, 6)).
+answer('urn:example:recursionCount'(3373, 4)).
+answer('urn:example:recursionCount'(3374, 7)).
+answer('urn:example:recursionCount'(3375, 2)).
+answer('urn:example:recursionCount'(3376, 3)).
+answer('urn:example:recursionCount'(3377, 4)).
+answer('urn:example:recursionCount'(3378, 5)).
+answer('urn:example:recursionCount'(3379, 4)).
+answer('urn:example:recursionCount'(3380, 6)).
+answer('urn:example:recursionCount'(3381, 4)).
+answer('urn:example:recursionCount'(3382, 6)).
+answer('urn:example:recursionCount'(3383, 6)).
+answer('urn:example:recursionCount'(3384, 7)).
+answer('urn:example:recursionCount'(3385, 7)).
+answer('urn:example:recursionCount'(3386, 5)).
+answer('urn:example:recursionCount'(3387, 5)).
+answer('urn:example:recursionCount'(3388, 5)).
+answer('urn:example:recursionCount'(3389, 5)).
+answer('urn:example:recursionCount'(3390, 4)).
+answer('urn:example:recursionCount'(3391, 6)).
+answer('urn:example:recursionCount'(3392, 4)).
+answer('urn:example:recursionCount'(3393, 6)).
+answer('urn:example:recursionCount'(3394, 7)).
+answer('urn:example:recursionCount'(3395, 1)).
+answer('urn:example:recursionCount'(3396, 3)).
+answer('urn:example:recursionCount'(3397, 4)).
+answer('urn:example:recursionCount'(3398, 5)).
+answer('urn:example:recursionCount'(3399, 4)).
+answer('urn:example:recursionCount'(3400, 3)).
+answer('urn:example:recursionCount'(3401, 2)).
+answer('urn:example:recursionCount'(3402, 7)).
+answer('urn:example:recursionCount'(3403, 4)).
+answer('urn:example:recursionCount'(3404, 7)).
+answer('urn:example:recursionCount'(3405, 7)).
+answer('urn:example:recursionCount'(3406, 7)).
+answer('urn:example:recursionCount'(3407, 3)).
+answer('urn:example:recursionCount'(3408, 3)).
+answer('urn:example:recursionCount'(3409, 4)).
+answer('urn:example:recursionCount'(3410, 2)).
+answer('urn:example:recursionCount'(3411, 5)).
+answer('urn:example:recursionCount'(3412, 3)).
+answer('urn:example:recursionCount'(3413, 6)).
+answer('urn:example:recursionCount'(3414, 3)).
+answer('urn:example:recursionCount'(3415, 7)).
+answer('urn:example:recursionCount'(3416, 7)).
+answer('urn:example:recursionCount'(3417, 7)).
+answer('urn:example:recursionCount'(3418, 3)).
+answer('urn:example:recursionCount'(3419, 3)).
+answer('urn:example:recursionCount'(3420, 7)).
+answer('urn:example:recursionCount'(3421, 3)).
+answer('urn:example:recursionCount'(3422, 3)).
+answer('urn:example:recursionCount'(3423, 4)).
+answer('urn:example:recursionCount'(3424, 3)).
+answer('urn:example:recursionCount'(3425, 3)).
+answer('urn:example:recursionCount'(3426, 7)).
+answer('urn:example:recursionCount'(3427, 7)).
+answer('urn:example:recursionCount'(3428, 7)).
+answer('urn:example:recursionCount'(3429, 3)).
+answer('urn:example:recursionCount'(3430, 4)).
+answer('urn:example:recursionCount'(3431, 6)).
+answer('urn:example:recursionCount'(3432, 4)).
+answer('urn:example:recursionCount'(3433, 5)).
+answer('urn:example:recursionCount'(3434, 4)).
+answer('urn:example:recursionCount'(3435, 3)).
+answer('urn:example:recursionCount'(3436, 3)).
+answer('urn:example:recursionCount'(3437, 7)).
+answer('urn:example:recursionCount'(3438, 7)).
+answer('urn:example:recursionCount'(3439, 7)).
+answer('urn:example:recursionCount'(3440, 7)).
+answer('urn:example:recursionCount'(3441, 3)).
+answer('urn:example:recursionCount'(3442, 3)).
+answer('urn:example:recursionCount'(3443, 4)).
+answer('urn:example:recursionCount'(3444, 5)).
+answer('urn:example:recursionCount'(3445, 4)).
+answer('urn:example:recursionCount'(3446, 6)).
+answer('urn:example:recursionCount'(3447, 4)).
+answer('urn:example:recursionCount'(3448, 6)).
+answer('urn:example:recursionCount'(3449, 6)).
+answer('urn:example:recursionCount'(3450, 7)).
+answer('urn:example:recursionCount'(3451, 7)).
+answer('urn:example:recursionCount'(3452, 3)).
+answer('urn:example:recursionCount'(3453, 3)).
+answer('urn:example:recursionCount'(3454, 4)).
+answer('urn:example:recursionCount'(3455, 3)).
+answer('urn:example:recursionCount'(3456, 3)).
+answer('urn:example:recursionCount'(3457, 7)).
+answer('urn:example:recursionCount'(3458, 7)).
+answer('urn:example:recursionCount'(3459, 7)).
+answer('urn:example:recursionCount'(3460, 7)).
+answer('urn:example:recursionCount'(3461, 7)).
+answer('urn:example:recursionCount'(3462, 7)).
+answer('urn:example:recursionCount'(3463, 3)).
+answer('urn:example:recursionCount'(3464, 6)).
+answer('urn:example:recursionCount'(3465, 3)).
+answer('urn:example:recursionCount'(3466, 5)).
+answer('urn:example:recursionCount'(3467, 2)).
+answer('urn:example:recursionCount'(3468, 7)).
+answer('urn:example:recursionCount'(3469, 1)).
+answer('urn:example:recursionCount'(3470, 3)).
+answer('urn:example:recursionCount'(3471, 7)).
+answer('urn:example:recursionCount'(3472, 7)).
+answer('urn:example:recursionCount'(3473, 7)).
+answer('urn:example:recursionCount'(3474, 4)).
+answer('urn:example:recursionCount'(3475, 7)).
+answer('urn:example:recursionCount'(3476, 2)).
+answer('urn:example:recursionCount'(3477, 3)).
+answer('urn:example:recursionCount'(3478, 5)).
+answer('urn:example:recursionCount'(3479, 3)).
+answer('urn:example:recursionCount'(3480, 3)).
+answer('urn:example:recursionCount'(3481, 3)).
+answer('urn:example:recursionCount'(3482, 7)).
+answer('urn:example:recursionCount'(3483, 7)).
+answer('urn:example:recursionCount'(3484, 6)).
+answer('urn:example:recursionCount'(3485, 7)).
+answer('urn:example:recursionCount'(3486, 7)).
+answer('urn:example:recursionCount'(3487, 5)).
+answer('urn:example:recursionCount'(3488, 5)).
+answer('urn:example:recursionCount'(3489, 4)).
+answer('urn:example:recursionCount'(3490, 4)).
+answer('urn:example:recursionCount'(3491, 3)).
+answer('urn:example:recursionCount'(3492, 3)).
+answer('urn:example:recursionCount'(3493, 7)).
+answer('urn:example:recursionCount'(3494, 6)).
+answer('urn:example:recursionCount'(3495, 7)).
+answer('urn:example:recursionCount'(3496, 1)).
+answer('urn:example:recursionCount'(3497, 3)).
+answer('urn:example:recursionCount'(3498, 4)).
+answer('urn:example:recursionCount'(3499, 5)).
+answer('urn:example:recursionCount'(3500, 5)).
+answer('urn:example:recursionCount'(3501, 7)).
+answer('urn:example:recursionCount'(3502, 7)).
+answer('urn:example:recursionCount'(3503, 6)).
+answer('urn:example:recursionCount'(3504, 7)).
+answer('urn:example:recursionCount'(3505, 7)).
+answer('urn:example:recursionCount'(3506, 1)).
+answer('urn:example:recursionCount'(3507, 5)).
+answer('urn:example:recursionCount'(3508, 6)).
+answer('urn:example:recursionCount'(3509, 3)).
+answer('urn:example:recursionCount'(3510, 7)).
+answer('urn:example:recursionCount'(3511, 2)).
+answer('urn:example:recursionCount'(3512, 7)).
+answer('urn:example:recursionCount'(3513, 4)).
+answer('urn:example:recursionCount'(3514, 7)).
+answer('urn:example:recursionCount'(3515, 2)).
+answer('urn:example:recursionCount'(3516, 7)).
+answer('urn:example:recursionCount'(3517, 1)).
+answer('urn:example:recursionCount'(3518, 5)).
+answer('urn:example:recursionCount'(3519, 6)).
+answer('urn:example:recursionCount'(3520, 7)).
+answer('urn:example:recursionCount'(3521, 7)).
+answer('urn:example:recursionCount'(3522, 3)).
+answer('urn:example:recursionCount'(3523, 6)).
+answer('urn:example:recursionCount'(3524, 3)).
+answer('urn:example:recursionCount'(3525, 5)).
+answer('urn:example:recursionCount'(3526, 2)).
+answer('urn:example:recursionCount'(3527, 7)).
+answer('urn:example:recursionCount'(3528, 1)).
+answer('urn:example:recursionCount'(3529, 5)).
+answer('urn:example:recursionCount'(3530, 6)).
+answer('urn:example:recursionCount'(3531, 4)).
+answer('urn:example:recursionCount'(3532, 6)).
+answer('urn:example:recursionCount'(3533, 4)).
+answer('urn:example:recursionCount'(3534, 3)).
+answer('urn:example:recursionCount'(3535, 6)).
+answer('urn:example:recursionCount'(3536, 5)).
+answer('urn:example:recursionCount'(3537, 2)).
+answer('urn:example:recursionCount'(3538, 7)).
+answer('urn:example:recursionCount'(3539, 1)).
+answer('urn:example:recursionCount'(3540, 7)).
+answer('urn:example:recursionCount'(3541, 7)).
+answer('urn:example:recursionCount'(3542, 3)).
+answer('urn:example:recursionCount'(3543, 3)).
+answer('urn:example:recursionCount'(3544, 4)).
+answer('urn:example:recursionCount'(3545, 3)).
+answer('urn:example:recursionCount'(3546, 3)).
+answer('urn:example:recursionCount'(3547, 7)).
+answer('urn:example:recursionCount'(3548, 7)).
+answer('urn:example:recursionCount'(3549, 7)).
+answer('urn:example:recursionCount'(3550, 7)).
+answer('urn:example:recursionCount'(3551, 2)).
+answer('urn:example:recursionCount'(3552, 5)).
+answer('urn:example:recursionCount'(3553, 6)).
+answer('urn:example:recursionCount'(3554, 3)).
+answer('urn:example:recursionCount'(3555, 4)).
+answer('urn:example:recursionCount'(3556, 6)).
+answer('urn:example:recursionCount'(3557, 4)).
+answer('urn:example:recursionCount'(3558, 6)).
+answer('urn:example:recursionCount'(3559, 6)).
+answer('urn:example:recursionCount'(3560, 1)).
+answer('urn:example:recursionCount'(3561, 7)).
+answer('urn:example:recursionCount'(3562, 2)).
+answer('urn:example:recursionCount'(3563, 5)).
+answer('urn:example:recursionCount'(3564, 3)).
+answer('urn:example:recursionCount'(3565, 6)).
+answer('urn:example:recursionCount'(3566, 3)).
+answer('urn:example:recursionCount'(3567, 7)).
+answer('urn:example:recursionCount'(3568, 7)).
+answer('urn:example:recursionCount'(3569, 7)).
+answer('urn:example:recursionCount'(3570, 5)).
+answer('urn:example:recursionCount'(3571, 1)).
+answer('urn:example:recursionCount'(3572, 7)).
+answer('urn:example:recursionCount'(3573, 2)).
+answer('urn:example:recursionCount'(3574, 7)).
+answer('urn:example:recursionCount'(3575, 4)).
+answer('urn:example:recursionCount'(3576, 7)).
+answer('urn:example:recursionCount'(3577, 2)).
+answer('urn:example:recursionCount'(3578, 7)).
+answer('urn:example:recursionCount'(3579, 1)).
+answer('urn:example:recursionCount'(3580, 6)).
+answer('urn:example:recursionCount'(3581, 5)).
+answer('urn:example:recursionCount'(3582, 1)).
+answer('urn:example:recursionCount'(3583, 7)).
+answer('urn:example:recursionCount'(3584, 7)).
+answer('urn:example:recursionCount'(3585, 6)).
+answer('urn:example:recursionCount'(3586, 7)).
+answer('urn:example:recursionCount'(3587, 7)).
+answer('urn:example:recursionCount'(3588, 5)).
+answer('urn:example:recursionCount'(3589, 3)).
+answer('urn:example:recursionCount'(3590, 3)).
+answer('urn:example:recursionCount'(3591, 6)).
+answer('urn:example:recursionCount'(3592, 5)).
+answer('urn:example:recursionCount'(3593, 1)).
+answer('urn:example:recursionCount'(3594, 7)).
+answer('urn:example:recursionCount'(3595, 6)).
+answer('urn:example:recursionCount'(3596, 7)).
+answer('urn:example:recursionCount'(3597, 1)).
+answer('urn:example:recursionCount'(3598, 3)).
+answer('urn:example:recursionCount'(3599, 4)).
+answer('urn:example:recursionCount'(3600, 3)).
+answer('urn:example:recursionCount'(3601, 1)).
+answer('urn:example:recursionCount'(3602, 7)).
+answer('urn:example:recursionCount'(3603, 6)).
+answer('urn:example:recursionCount'(3604, 7)).
+answer('urn:example:recursionCount'(3605, 1)).
+answer('urn:example:recursionCount'(3606, 3)).
+answer('urn:example:recursionCount'(3607, 6)).
+answer('urn:example:recursionCount'(3608, 5)).
+answer('urn:example:recursionCount'(3609, 3)).
+answer('urn:example:recursionCount'(3610, 1)).
+answer('urn:example:recursionCount'(3611, 7)).
+answer('urn:example:recursionCount'(3612, 7)).
+answer('urn:example:recursionCount'(3613, 6)).
+answer('urn:example:recursionCount'(3614, 7)).
+answer('urn:example:recursionCount'(3615, 7)).
+answer('urn:example:recursionCount'(3616, 5)).
+answer('urn:example:recursionCount'(3617, 3)).
+answer('urn:example:recursionCount'(3618, 6)).
+answer('urn:example:recursionCount'(3619, 5)).
+answer('urn:example:recursionCount'(3620, 7)).
+answer('urn:example:recursionCount'(3621, 7)).
+answer('urn:example:recursionCount'(3622, 7)).
+answer('urn:example:recursionCount'(3623, 4)).
+answer('urn:example:recursionCount'(3624, 7)).
+answer('urn:example:recursionCount'(3625, 2)).
+answer('urn:example:recursionCount'(3626, 3)).
+answer('urn:example:recursionCount'(3627, 5)).
+answer('urn:example:recursionCount'(3628, 3)).
+answer('urn:example:recursionCount'(3629, 6)).
+answer('urn:example:recursionCount'(3630, 6)).
+answer('urn:example:recursionCount'(3631, 6)).
+answer('urn:example:recursionCount'(3632, 4)).
+answer('urn:example:recursionCount'(3633, 6)).
+answer('urn:example:recursionCount'(3634, 3)).
+answer('urn:example:recursionCount'(3635, 5)).
+answer('urn:example:recursionCount'(3636, 6)).
+answer('urn:example:recursionCount'(3637, 3)).
+answer('urn:example:recursionCount'(3638, 5)).
+answer('urn:example:recursionCount'(3639, 3)).
+answer('urn:example:recursionCount'(3640, 7)).
+answer('urn:example:recursionCount'(3641, 7)).
+answer('urn:example:recursionCount'(3642, 7)).
+answer('urn:example:recursionCount'(3643, 3)).
+answer('urn:example:recursionCount'(3644, 6)).
+answer('urn:example:recursionCount'(3645, 3)).
+answer('urn:example:recursionCount'(3646, 5)).
+answer('urn:example:recursionCount'(3647, 2)).
+answer('urn:example:recursionCount'(3648, 7)).
+answer('urn:example:recursionCount'(3649, 1)).
+answer('urn:example:recursionCount'(3650, 1)).
+answer('urn:example:recursionCount'(3651, 7)).
+answer('urn:example:recursionCount'(3652, 2)).
+answer('urn:example:recursionCount'(3653, 5)).
+answer('urn:example:recursionCount'(3654, 3)).
+answer('urn:example:recursionCount'(3655, 6)).
+answer('urn:example:recursionCount'(3656, 3)).
+answer('urn:example:recursionCount'(3657, 7)).
+answer('urn:example:recursionCount'(3658, 7)).
+answer('urn:example:recursionCount'(3659, 7)).
+answer('urn:example:recursionCount'(3660, 3)).
+answer('urn:example:recursionCount'(3661, 5)).
+answer('urn:example:recursionCount'(3662, 3)).
+answer('urn:example:recursionCount'(3663, 6)).
+answer('urn:example:recursionCount'(3664, 5)).
+answer('urn:example:recursionCount'(3665, 3)).
+answer('urn:example:recursionCount'(3666, 6)).
+answer('urn:example:recursionCount'(3667, 4)).
+answer('urn:example:recursionCount'(3668, 6)).
+answer('urn:example:recursionCount'(3669, 6)).
+answer('urn:example:recursionCount'(3670, 6)).
+answer('urn:example:recursionCount'(3671, 3)).
+answer('urn:example:recursionCount'(3672, 5)).
+answer('urn:example:recursionCount'(3673, 3)).
+answer('urn:example:recursionCount'(3674, 2)).
+answer('urn:example:recursionCount'(3675, 7)).
+answer('urn:example:recursionCount'(3676, 4)).
+answer('urn:example:recursionCount'(3677, 7)).
+answer('urn:example:recursionCount'(3678, 7)).
+answer('urn:example:recursionCount'(3679, 7)).
+answer('urn:example:recursionCount'(3680, 5)).
+answer('urn:example:recursionCount'(3681, 6)).
+answer('urn:example:recursionCount'(3682, 3)).
+answer('urn:example:recursionCount'(3683, 5)).
+answer('urn:example:recursionCount'(3684, 7)).
+answer('urn:example:recursionCount'(3685, 7)).
+answer('urn:example:recursionCount'(3686, 6)).
+answer('urn:example:recursionCount'(3687, 7)).
+answer('urn:example:recursionCount'(3688, 7)).
+answer('urn:example:recursionCount'(3689, 1)).
+answer('urn:example:recursionCount'(3690, 3)).
+answer('urn:example:recursionCount'(3691, 5)).
+answer('urn:example:recursionCount'(3692, 6)).
+answer('urn:example:recursionCount'(3693, 3)).
+answer('urn:example:recursionCount'(3694, 1)).
+answer('urn:example:recursionCount'(3695, 7)).
+answer('urn:example:recursionCount'(3696, 6)).
+answer('urn:example:recursionCount'(3697, 7)).
+answer('urn:example:recursionCount'(3698, 1)).
+answer('urn:example:recursionCount'(3699, 3)).
+answer('urn:example:recursionCount'(3700, 6)).
+answer('urn:example:recursionCount'(3701, 5)).
+answer('urn:example:recursionCount'(3702, 3)).
+answer('urn:example:recursionCount'(3703, 4)).
+answer('urn:example:recursionCount'(3704, 3)).
+answer('urn:example:recursionCount'(3705, 5)).
+answer('urn:example:recursionCount'(3706, 6)).
+answer('urn:example:recursionCount'(3707, 3)).
+answer('urn:example:recursionCount'(3708, 2)).
+answer('urn:example:recursionCount'(3709, 7)).
+answer('urn:example:recursionCount'(3710, 5)).
+answer('urn:example:recursionCount'(3711, 1)).
+answer('urn:example:recursionCount'(3712, 7)).
+answer('urn:example:recursionCount'(3713, 6)).
+answer('urn:example:recursionCount'(3714, 7)).
+answer('urn:example:recursionCount'(3715, 1)).
+answer('urn:example:recursionCount'(3716, 3)).
+answer('urn:example:recursionCount'(3717, 4)).
+answer('urn:example:recursionCount'(3718, 3)).
+answer('urn:example:recursionCount'(3719, 2)).
+answer('urn:example:recursionCount'(3720, 3)).
+answer('urn:example:recursionCount'(3721, 7)).
+answer('urn:example:recursionCount'(3722, 7)).
+answer('urn:example:recursionCount'(3723, 6)).
+answer('urn:example:recursionCount'(3724, 7)).
+answer('urn:example:recursionCount'(3725, 7)).
+answer('urn:example:recursionCount'(3726, 5)).
+answer('urn:example:recursionCount'(3727, 5)).
+answer('urn:example:recursionCount'(3728, 4)).
+answer('urn:example:recursionCount'(3729, 3)).
+answer('urn:example:recursionCount'(3730, 4)).
+answer('urn:example:recursionCount'(3731, 6)).
+answer('urn:example:recursionCount'(3732, 6)).
+answer('urn:example:recursionCount'(3733, 4)).
+answer('urn:example:recursionCount'(3734, 7)).
+answer('urn:example:recursionCount'(3735, 2)).
+answer('urn:example:recursionCount'(3736, 3)).
+answer('urn:example:recursionCount'(3737, 4)).
+answer('urn:example:recursionCount'(3738, 5)).
+answer('urn:example:recursionCount'(3739, 4)).
+answer('urn:example:recursionCount'(3740, 3)).
+answer('urn:example:recursionCount'(3741, 7)).
+answer('urn:example:recursionCount'(3742, 7)).
+answer('urn:example:recursionCount'(3743, 7)).
+answer('urn:example:recursionCount'(3744, 4)).
+answer('urn:example:recursionCount'(3745, 7)).
+answer('urn:example:recursionCount'(3746, 2)).
+answer('urn:example:recursionCount'(3747, 3)).
+answer('urn:example:recursionCount'(3748, 5)).
+answer('urn:example:recursionCount'(3749, 3)).
+answer('urn:example:recursionCount'(3750, 5)).
+answer('urn:example:recursionCount'(3751, 1)).
+answer('urn:example:recursionCount'(3752, 7)).
+answer('urn:example:recursionCount'(3753, 2)).
+answer('urn:example:recursionCount'(3754, 7)).
+answer('urn:example:recursionCount'(3755, 4)).
+answer('urn:example:recursionCount'(3756, 7)).
+answer('urn:example:recursionCount'(3757, 2)).
+answer('urn:example:recursionCount'(3758, 7)).
+answer('urn:example:recursionCount'(3759, 1)).
+answer('urn:example:recursionCount'(3760, 6)).
+answer('urn:example:recursionCount'(3761, 3)).
+answer('urn:example:recursionCount'(3762, 5)).
+answer('urn:example:recursionCount'(3763, 3)).
+answer('urn:example:recursionCount'(3764, 2)).
+answer('urn:example:recursionCount'(3765, 7)).
+answer('urn:example:recursionCount'(3766, 4)).
+answer('urn:example:recursionCount'(3767, 7)).
+answer('urn:example:recursionCount'(3768, 7)).
+answer('urn:example:recursionCount'(3769, 7)).
+answer('urn:example:recursionCount'(3770, 3)).
+answer('urn:example:recursionCount'(3771, 4)).
+answer('urn:example:recursionCount'(3772, 5)).
+answer('urn:example:recursionCount'(3773, 4)).
+answer('urn:example:recursionCount'(3774, 3)).
+answer('urn:example:recursionCount'(3775, 2)).
+answer('urn:example:recursionCount'(3776, 7)).
+answer('urn:example:recursionCount'(3777, 4)).
+answer('urn:example:recursionCount'(3778, 6)).
+answer('urn:example:recursionCount'(3779, 6)).
+answer('urn:example:recursionCount'(3780, 2)).
+answer('urn:example:recursionCount'(3781, 3)).
+answer('urn:example:recursionCount'(3782, 4)).
+answer('urn:example:recursionCount'(3783, 5)).
+answer('urn:example:recursionCount'(3784, 5)).
+answer('urn:example:recursionCount'(3785, 7)).
+answer('urn:example:recursionCount'(3786, 7)).
+answer('urn:example:recursionCount'(3787, 6)).
+answer('urn:example:recursionCount'(3788, 7)).
+answer('urn:example:recursionCount'(3789, 7)).
+answer('urn:example:recursionCount'(3790, 7)).
+answer('urn:example:recursionCount'(3791, 2)).
+answer('urn:example:recursionCount'(3792, 3)).
+answer('urn:example:recursionCount'(3793, 4)).
+answer('urn:example:recursionCount'(3794, 3)).
+answer('urn:example:recursionCount'(3795, 1)).
+answer('urn:example:recursionCount'(3796, 7)).
+answer('urn:example:recursionCount'(3797, 6)).
+answer('urn:example:recursionCount'(3798, 7)).
+answer('urn:example:recursionCount'(3799, 1)).
+answer('urn:example:recursionCount'(3800, 5)).
+answer('urn:example:recursionCount'(3801, 6)).
+answer('urn:example:recursionCount'(3802, 3)).
+answer('urn:example:recursionCount'(3803, 6)).
+answer('urn:example:recursionCount'(3804, 3)).
+answer('urn:example:recursionCount'(3805, 6)).
+answer('urn:example:recursionCount'(3806, 5)).
+answer('urn:example:recursionCount'(3807, 2)).
+answer('urn:example:recursionCount'(3808, 7)).
+answer('urn:example:recursionCount'(3809, 7)).
+answer('urn:example:recursionCount'(3810, 6)).
+answer('urn:example:recursionCount'(3811, 5)).
+answer('urn:example:recursionCount'(3812, 3)).
+answer('urn:example:recursionCount'(3813, 4)).
+answer('urn:example:recursionCount'(3814, 3)).
+answer('urn:example:recursionCount'(3815, 5)).
+answer('urn:example:recursionCount'(3816, 6)).
+answer('urn:example:recursionCount'(3817, 3)).
+answer('urn:example:recursionCount'(3818, 5)).
+answer('urn:example:recursionCount'(3819, 7)).
+answer('urn:example:recursionCount'(3820, 3)).
+answer('urn:example:recursionCount'(3821, 3)).
+answer('urn:example:recursionCount'(3822, 7)).
+answer('urn:example:recursionCount'(3823, 6)).
+answer('urn:example:recursionCount'(3824, 7)).
+answer('urn:example:recursionCount'(3825, 1)).
+answer('urn:example:recursionCount'(3826, 3)).
+answer('urn:example:recursionCount'(3827, 4)).
+answer('urn:example:recursionCount'(3828, 5)).
+answer('urn:example:recursionCount'(3829, 5)).
+answer('urn:example:recursionCount'(3830, 6)).
+answer('urn:example:recursionCount'(3831, 4)).
+answer('urn:example:recursionCount'(3832, 6)).
+answer('urn:example:recursionCount'(3833, 6)).
+answer('urn:example:recursionCount'(3834, 7)).
+answer('urn:example:recursionCount'(3835, 7)).
+answer('urn:example:recursionCount'(3836, 5)).
+answer('urn:example:recursionCount'(3837, 5)).
+answer('urn:example:recursionCount'(3838, 5)).
+answer('urn:example:recursionCount'(3839, 5)).
+answer('urn:example:recursionCount'(3840, 3)).
+answer('urn:example:recursionCount'(3841, 3)).
+answer('urn:example:recursionCount'(3842, 7)).
+answer('urn:example:recursionCount'(3843, 7)).
+answer('urn:example:recursionCount'(3844, 6)).
+answer('urn:example:recursionCount'(3845, 7)).
+answer('urn:example:recursionCount'(3846, 7)).
+answer('urn:example:recursionCount'(3847, 5)).
+answer('urn:example:recursionCount'(3848, 5)).
+answer('urn:example:recursionCount'(3849, 4)).
+answer('urn:example:recursionCount'(3850, 6)).
+answer('urn:example:recursionCount'(3851, 5)).
+answer('urn:example:recursionCount'(3852, 1)).
+answer('urn:example:recursionCount'(3853, 7)).
+answer('urn:example:recursionCount'(3854, 7)).
+answer('urn:example:recursionCount'(3855, 6)).
+answer('urn:example:recursionCount'(3856, 7)).
+answer('urn:example:recursionCount'(3857, 7)).
+answer('urn:example:recursionCount'(3858, 5)).
+answer('urn:example:recursionCount'(3859, 3)).
+answer('urn:example:recursionCount'(3860, 5)).
+answer('urn:example:recursionCount'(3861, 6)).
+answer('urn:example:recursionCount'(3862, 3)).
+answer('urn:example:recursionCount'(3863, 5)).
+answer('urn:example:recursionCount'(3864, 7)).
+answer('urn:example:recursionCount'(3865, 7)).
+answer('urn:example:recursionCount'(3866, 6)).
+answer('urn:example:recursionCount'(3867, 7)).
+answer('urn:example:recursionCount'(3868, 7)).
+answer('urn:example:recursionCount'(3869, 1)).
+answer('urn:example:recursionCount'(3870, 2)).
+answer('urn:example:recursionCount'(3871, 3)).
+answer('urn:example:recursionCount'(3872, 4)).
+answer('urn:example:recursionCount'(3873, 5)).
+answer('urn:example:recursionCount'(3874, 5)).
+answer('urn:example:recursionCount'(3875, 7)).
+answer('urn:example:recursionCount'(3876, 7)).
+answer('urn:example:recursionCount'(3877, 6)).
+answer('urn:example:recursionCount'(3878, 7)).
+answer('urn:example:recursionCount'(3879, 7)).
+answer('urn:example:recursionCount'(3880, 7)).
+answer('urn:example:recursionCount'(3881, 5)).
+answer('urn:example:recursionCount'(3882, 5)).
+answer('urn:example:recursionCount'(3883, 5)).
+answer('urn:example:recursionCount'(3884, 5)).
+answer('urn:example:recursionCount'(3885, 5)).
+answer('urn:example:recursionCount'(3886, 7)).
+answer('urn:example:recursionCount'(3887, 7)).
+answer('urn:example:recursionCount'(3888, 6)).
+answer('urn:example:recursionCount'(3889, 6)).
+answer('urn:example:recursionCount'(3890, 7)).
+answer('urn:example:recursionCount'(3891, 7)).
+answer('urn:example:recursionCount'(3892, 5)).
+answer('urn:example:recursionCount'(3893, 5)).
+answer('urn:example:recursionCount'(3894, 4)).
+answer('urn:example:recursionCount'(3895, 3)).
+answer('urn:example:recursionCount'(3896, 1)).
+answer('urn:example:recursionCount'(3897, 7)).
+answer('urn:example:recursionCount'(3898, 6)).
+answer('urn:example:recursionCount'(3899, 7)).
+answer('urn:example:recursionCount'(3900, 3)).
+answer('urn:example:recursionCount'(3901, 3)).
+answer('urn:example:recursionCount'(3902, 4)).
+answer('urn:example:recursionCount'(3903, 4)).
+answer('urn:example:recursionCount'(3904, 4)).
+answer('urn:example:recursionCount'(3905, 3)).
+answer('urn:example:recursionCount'(3906, 3)).
+answer('urn:example:recursionCount'(3907, 7)).
+answer('urn:example:recursionCount'(3908, 7)).
+answer('urn:example:recursionCount'(3909, 7)).
+answer('urn:example:recursionCount'(3910, 3)).
+answer('urn:example:recursionCount'(3911, 6)).
+answer('urn:example:recursionCount'(3912, 3)).
+answer('urn:example:recursionCount'(3913, 6)).
+answer('urn:example:recursionCount'(3914, 3)).
+answer('urn:example:recursionCount'(3915, 6)).
+answer('urn:example:recursionCount'(3916, 5)).
+answer('urn:example:recursionCount'(3917, 2)).
+answer('urn:example:recursionCount'(3918, 7)).
+answer('urn:example:recursionCount'(3919, 2)).
+answer('urn:example:recursionCount'(3920, 4)).
+answer('urn:example:recursionCount'(3921, 3)).
+answer('urn:example:recursionCount'(3922, 3)).
+answer('urn:example:recursionCount'(3923, 4)).
+answer('urn:example:recursionCount'(3924, 3)).
+answer('urn:example:recursionCount'(3925, 5)).
+answer('urn:example:recursionCount'(3926, 6)).
+answer('urn:example:recursionCount'(3927, 3)).
+answer('urn:example:recursionCount'(3928, 5)).
+answer('urn:example:recursionCount'(3929, 3)).
+answer('urn:example:recursionCount'(3930, 4)).
+answer('urn:example:recursionCount'(3931, 6)).
+answer('urn:example:recursionCount'(3932, 4)).
+answer('urn:example:recursionCount'(3933, 6)).
+answer('urn:example:recursionCount'(3934, 7)).
+answer('urn:example:recursionCount'(3935, 1)).
+answer('urn:example:recursionCount'(3936, 3)).
+answer('urn:example:recursionCount'(3937, 4)).
+answer('urn:example:recursionCount'(3938, 5)).
+answer('urn:example:recursionCount'(3939, 4)).
+answer('urn:example:recursionCount'(3940, 4)).
+answer('urn:example:recursionCount'(3941, 3)).
+answer('urn:example:recursionCount'(3942, 3)).
+answer('urn:example:recursionCount'(3943, 7)).
+answer('urn:example:recursionCount'(3944, 6)).
+answer('urn:example:recursionCount'(3945, 7)).
+answer('urn:example:recursionCount'(3946, 1)).
+answer('urn:example:recursionCount'(3947, 3)).
+answer('urn:example:recursionCount'(3948, 4)).
+answer('urn:example:recursionCount'(3949, 5)).
+answer('urn:example:recursionCount'(3950, 3)).
+answer('urn:example:recursionCount'(3951, 6)).
+answer('urn:example:recursionCount'(3952, 5)).
+answer('urn:example:recursionCount'(3953, 1)).
+answer('urn:example:recursionCount'(3954, 7)).
+answer('urn:example:recursionCount'(3955, 6)).
+answer('urn:example:recursionCount'(3956, 7)).
+answer('urn:example:recursionCount'(3957, 1)).
+answer('urn:example:recursionCount'(3958, 3)).
+answer('urn:example:recursionCount'(3959, 4)).
+answer('urn:example:recursionCount'(3960, 3)).
+answer('urn:example:recursionCount'(3961, 5)).
+answer('urn:example:recursionCount'(3962, 6)).
+answer('urn:example:recursionCount'(3963, 3)).
+answer('urn:example:recursionCount'(3964, 1)).
+answer('urn:example:recursionCount'(3965, 7)).
+answer('urn:example:recursionCount'(3966, 6)).
+answer('urn:example:recursionCount'(3967, 7)).
+answer('urn:example:recursionCount'(3968, 1)).
+answer('urn:example:recursionCount'(3969, 3)).
+answer('urn:example:recursionCount'(3970, 7)).
+answer('urn:example:recursionCount'(3971, 2)).
+answer('urn:example:recursionCount'(3972, 3)).
+answer('urn:example:recursionCount'(3973, 4)).
+answer('urn:example:recursionCount'(3974, 3)).
+answer('urn:example:recursionCount'(3975, 1)).
+answer('urn:example:recursionCount'(3976, 7)).
+answer('urn:example:recursionCount'(3977, 6)).
+answer('urn:example:recursionCount'(3978, 7)).
+answer('urn:example:recursionCount'(3979, 1)).
+answer('urn:example:recursionCount'(3980, 7)).
+answer('urn:example:recursionCount'(3981, 7)).
+answer('urn:example:recursionCount'(3982, 5)).
+answer('urn:example:recursionCount'(3983, 5)).
+answer('urn:example:recursionCount'(3984, 4)).
+answer('urn:example:recursionCount'(3985, 3)).
+answer('urn:example:recursionCount'(3986, 1)).
+answer('urn:example:recursionCount'(3987, 7)).
+answer('urn:example:recursionCount'(3988, 6)).
+answer('urn:example:recursionCount'(3989, 7)).
+answer('urn:example:recursionCount'(3990, 7)).
+answer('urn:example:recursionCount'(3991, 2)).
+answer('urn:example:recursionCount'(3992, 3)).
+answer('urn:example:recursionCount'(3993, 4)).
+answer('urn:example:recursionCount'(3994, 5)).
+answer('urn:example:recursionCount'(3995, 4)).
+answer('urn:example:recursionCount'(3996, 3)).
+answer('urn:example:recursionCount'(3997, 1)).
+answer('urn:example:recursionCount'(3998, 7)).
+answer('urn:example:recursionCount'(3999, 6)).
+answer('urn:example:recursionCount'(4000, 4)).
+answer('urn:example:recursionCount'(4001, 7)).
+answer('urn:example:recursionCount'(4002, 2)).
+answer('urn:example:recursionCount'(4003, 3)).
+answer('urn:example:recursionCount'(4004, 4)).
+answer('urn:example:recursionCount'(4005, 5)).
+answer('urn:example:recursionCount'(4006, 4)).
+answer('urn:example:recursionCount'(4007, 3)).
+answer('urn:example:recursionCount'(4008, 2)).
+answer('urn:example:recursionCount'(4009, 7)).
+answer('urn:example:recursionCount'(4010, 7)).
+answer('urn:example:recursionCount'(4011, 4)).
+answer('urn:example:recursionCount'(4012, 7)).
+answer('urn:example:recursionCount'(4013, 2)).
+answer('urn:example:recursionCount'(4014, 3)).
+answer('urn:example:recursionCount'(4015, 5)).
+answer('urn:example:recursionCount'(4016, 3)).
+answer('urn:example:recursionCount'(4017, 6)).
+answer('urn:example:recursionCount'(4018, 5)).
+answer('urn:example:recursionCount'(4019, 3)).
+answer('urn:example:recursionCount'(4020, 2)).
+answer('urn:example:recursionCount'(4021, 7)).
+answer('urn:example:recursionCount'(4022, 4)).
+answer('urn:example:recursionCount'(4023, 7)).
+answer('urn:example:recursionCount'(4024, 2)).
+answer('urn:example:recursionCount'(4025, 7)).
+answer('urn:example:recursionCount'(4026, 1)).
+answer('urn:example:recursionCount'(4027, 5)).
+answer('urn:example:recursionCount'(4028, 6)).
+answer('urn:example:recursionCount'(4029, 3)).
+answer('urn:example:recursionCount'(4030, 3)).
+answer('urn:example:recursionCount'(4031, 2)).
+answer('urn:example:recursionCount'(4032, 7)).
+answer('urn:example:recursionCount'(4033, 4)).
+answer('urn:example:recursionCount'(4034, 7)).
+answer('urn:example:recursionCount'(4035, 7)).
+answer('urn:example:recursionCount'(4036, 7)).
+answer('urn:example:recursionCount'(4037, 3)).
+answer('urn:example:recursionCount'(4038, 3)).
+answer('urn:example:recursionCount'(4039, 4)).
+answer('urn:example:recursionCount'(4040, 4)).
+answer('urn:example:recursionCount'(4041, 3)).
+answer('urn:example:recursionCount'(4042, 2)).
+answer('urn:example:recursionCount'(4043, 7)).
+answer('urn:example:recursionCount'(4044, 4)).
+answer('urn:example:recursionCount'(4045, 6)).
+answer('urn:example:recursionCount'(4046, 6)).
+answer('urn:example:recursionCount'(4047, 4)).
+answer('urn:example:recursionCount'(4048, 6)).
+answer('urn:example:recursionCount'(4049, 4)).
+answer('urn:example:recursionCount'(4050, 5)).
+answer('urn:example:recursionCount'(4051, 5)).
+answer('urn:example:recursionCount'(4052, 7)).
+answer('urn:example:recursionCount'(4053, 7)).
+answer('urn:example:recursionCount'(4054, 6)).
+answer('urn:example:recursionCount'(4055, 7)).
+answer('urn:example:recursionCount'(4056, 7)).
+answer('urn:example:recursionCount'(4057, 3)).
+answer('urn:example:recursionCount'(4058, 3)).
+answer('urn:example:recursionCount'(4059, 4)).
+answer('urn:example:recursionCount'(4060, 4)).
+answer('urn:example:recursionCount'(4061, 3)).
+answer('urn:example:recursionCount'(4062, 1)).
+answer('urn:example:recursionCount'(4063, 7)).
+answer('urn:example:recursionCount'(4064, 6)).
+answer('urn:example:recursionCount'(4065, 7)).
+answer('urn:example:recursionCount'(4066, 1)).
+answer('urn:example:recursionCount'(4067, 5)).
+answer('urn:example:recursionCount'(4068, 6)).
+answer('urn:example:recursionCount'(4069, 3)).
+answer('urn:example:recursionCount'(4070, 3)).
+answer('urn:example:recursionCount'(4071, 6)).
+answer('urn:example:recursionCount'(4072, 5)).
+answer('urn:example:recursionCount'(4073, 3)).
+answer('urn:example:recursionCount'(4074, 4)).
+answer('urn:example:recursionCount'(4075, 3)).
+answer('urn:example:recursionCount'(4076, 5)).
+answer('urn:example:recursionCount'(4077, 6)).
+answer('urn:example:recursionCount'(4078, 5)).
+answer('urn:example:recursionCount'(4079, 3)).
+answer('urn:example:recursionCount'(4080, 2)).
+answer('urn:example:recursionCount'(4081, 5)).
+answer('urn:example:recursionCount'(4082, 6)).
+answer('urn:example:recursionCount'(4083, 3)).
+answer('urn:example:recursionCount'(4084, 6)).
+answer('urn:example:recursionCount'(4085, 3)).
+answer('urn:example:recursionCount'(4086, 6)).
+answer('urn:example:recursionCount'(4087, 5)).
+answer('urn:example:recursionCount'(4088, 2)).
+answer('urn:example:recursionCount'(4089, 7)).
+answer('urn:example:recursionCount'(4090, 7)).
+answer('urn:example:recursionCount'(4091, 3)).
+answer('urn:example:recursionCount'(4092, 3)).
+answer('urn:example:recursionCount'(4093, 4)).
+answer('urn:example:recursionCount'(4094, 4)).
+answer('urn:example:recursionCount'(4095, 4)).
+answer('urn:example:recursionCount'(4096, 3)).
+answer('urn:example:recursionCount'(4097, 3)).
+answer('urn:example:recursionCount'(4098, 7)).
+answer('urn:example:recursionCount'(4099, 7)).
+answer('urn:example:recursionCount'(4100, 7)).
+answer('urn:example:recursionCount'(4101, 4)).
+answer('urn:example:recursionCount'(4102, 7)).
+answer('urn:example:recursionCount'(4103, 2)).
+answer('urn:example:recursionCount'(4104, 3)).
+answer('urn:example:recursionCount'(4105, 5)).
+answer('urn:example:recursionCount'(4106, 3)).
+answer('urn:example:recursionCount'(4107, 6)).
+answer('urn:example:recursionCount'(4108, 5)).
+answer('urn:example:recursionCount'(4109, 3)).
+answer('urn:example:recursionCount'(4110, 4)).
+answer('urn:example:recursionCount'(4111, 6)).
+answer('urn:example:recursionCount'(4112, 3)).
+answer('urn:example:recursionCount'(4113, 5)).
+answer('urn:example:recursionCount'(4114, 6)).
+answer('urn:example:recursionCount'(4115, 3)).
+answer('urn:example:recursionCount'(4116, 5)).
+answer('urn:example:recursionCount'(4117, 3)).
+answer('urn:example:recursionCount'(4118, 6)).
+answer('urn:example:recursionCount'(4119, 5)).
+answer('urn:example:recursionCount'(4120, 7)).
+answer('urn:example:recursionCount'(4121, 3)).
+answer('urn:example:recursionCount'(4122, 6)).
+answer('urn:example:recursionCount'(4123, 3)).
+answer('urn:example:recursionCount'(4124, 5)).
+answer('urn:example:recursionCount'(4125, 2)).
+answer('urn:example:recursionCount'(4126, 7)).
+answer('urn:example:recursionCount'(4127, 1)).
+answer('urn:example:recursionCount'(4128, 5)).
+answer('urn:example:recursionCount'(4129, 6)).
+answer('urn:example:recursionCount'(4130, 2)).
+answer('urn:example:recursionCount'(4131, 5)).
+answer('urn:example:recursionCount'(4132, 3)).
+answer('urn:example:recursionCount'(4133, 6)).
+answer('urn:example:recursionCount'(4134, 3)).
+answer('urn:example:recursionCount'(4135, 7)).
+answer('urn:example:recursionCount'(4136, 7)).
+answer('urn:example:recursionCount'(4137, 7)).
+answer('urn:example:recursionCount'(4138, 3)).
+answer('urn:example:recursionCount'(4139, 3)).
+answer('urn:example:recursionCount'(4140, 3)).
+answer('urn:example:recursionCount'(4141, 6)).
+answer('urn:example:recursionCount'(4142, 5)).
+answer('urn:example:recursionCount'(4143, 3)).
+answer('urn:example:recursionCount'(4144, 6)).
+answer('urn:example:recursionCount'(4145, 4)).
+answer('urn:example:recursionCount'(4146, 6)).
+answer('urn:example:recursionCount'(4147, 6)).
+answer('urn:example:recursionCount'(4148, 4)).
+answer('urn:example:recursionCount'(4149, 6)).
+answer('urn:example:recursionCount'(4150, 5)).
+answer('urn:example:recursionCount'(4151, 3)).
+answer('urn:example:recursionCount'(4152, 2)).
+answer('urn:example:recursionCount'(4153, 7)).
+answer('urn:example:recursionCount'(4154, 4)).
+answer('urn:example:recursionCount'(4155, 7)).
+answer('urn:example:recursionCount'(4156, 7)).
+answer('urn:example:recursionCount'(4157, 7)).
+answer('urn:example:recursionCount'(4158, 3)).
+answer('urn:example:recursionCount'(4159, 3)).
+answer('urn:example:recursionCount'(4160, 3)).
+answer('urn:example:recursionCount'(4161, 5)).
+answer('urn:example:recursionCount'(4162, 7)).
+answer('urn:example:recursionCount'(4163, 7)).
+answer('urn:example:recursionCount'(4164, 6)).
+answer('urn:example:recursionCount'(4165, 7)).
+answer('urn:example:recursionCount'(4166, 7)).
+answer('urn:example:recursionCount'(4167, 1)).
+answer('urn:example:recursionCount'(4168, 5)).
+answer('urn:example:recursionCount'(4169, 6)).
+answer('urn:example:recursionCount'(4170, 6)).
+answer('urn:example:recursionCount'(4171, 3)).
+answer('urn:example:recursionCount'(4172, 1)).
+answer('urn:example:recursionCount'(4173, 7)).
+answer('urn:example:recursionCount'(4174, 6)).
+answer('urn:example:recursionCount'(4175, 7)).
+answer('urn:example:recursionCount'(4176, 1)).
+answer('urn:example:recursionCount'(4177, 3)).
+answer('urn:example:recursionCount'(4178, 6)).
+answer('urn:example:recursionCount'(4179, 5)).
+answer('urn:example:recursionCount'(4180, 5)).
+answer('urn:example:recursionCount'(4181, 6)).
+answer('urn:example:recursionCount'(4182, 5)).
+answer('urn:example:recursionCount'(4183, 3)).
+answer('urn:example:recursionCount'(4184, 4)).
+answer('urn:example:recursionCount'(4185, 3)).
+answer('urn:example:recursionCount'(4186, 5)).
+answer('urn:example:recursionCount'(4187, 6)).
+answer('urn:example:recursionCount'(4188, 3)).
+answer('urn:example:recursionCount'(4189, 2)).
+answer('urn:example:recursionCount'(4190, 3)).
+answer('urn:example:recursionCount'(4191, 5)).
+answer('urn:example:recursionCount'(4192, 6)).
+answer('urn:example:recursionCount'(4193, 3)).
+answer('urn:example:recursionCount'(4194, 6)).
+answer('urn:example:recursionCount'(4195, 3)).
+answer('urn:example:recursionCount'(4196, 6)).
+answer('urn:example:recursionCount'(4197, 5)).
+answer('urn:example:recursionCount'(4198, 2)).
+answer('urn:example:recursionCount'(4199, 7)).
+answer('urn:example:recursionCount'(4200, 2)).
+answer('urn:example:recursionCount'(4201, 7)).
+answer('urn:example:recursionCount'(4202, 4)).
+answer('urn:example:recursionCount'(4203, 7)).
+answer('urn:example:recursionCount'(4204, 2)).
+answer('urn:example:recursionCount'(4205, 7)).
+answer('urn:example:recursionCount'(4206, 1)).
+answer('urn:example:recursionCount'(4207, 5)).
+answer('urn:example:recursionCount'(4208, 6)).
+answer('urn:example:recursionCount'(4209, 3)).
+answer('urn:example:recursionCount'(4210, 7)).
+answer('urn:example:recursionCount'(4211, 3)).
+answer('urn:example:recursionCount'(4212, 6)).
+answer('urn:example:recursionCount'(4213, 3)).
+answer('urn:example:recursionCount'(4214, 5)).
+answer('urn:example:recursionCount'(4215, 2)).
+answer('urn:example:recursionCount'(4216, 7)).
+answer('urn:example:recursionCount'(4217, 1)).
+answer('urn:example:recursionCount'(4218, 5)).
+answer('urn:example:recursionCount'(4219, 6)).
+answer('urn:example:recursionCount'(4220, 4)).
+answer('urn:example:recursionCount'(4221, 6)).
+answer('urn:example:recursionCount'(4222, 4)).
+answer('urn:example:recursionCount'(4223, 3)).
+answer('urn:example:recursionCount'(4224, 6)).
+answer('urn:example:recursionCount'(4225, 5)).
+answer('urn:example:recursionCount'(4226, 2)).
+answer('urn:example:recursionCount'(4227, 7)).
+answer('urn:example:recursionCount'(4228, 1)).
+answer('urn:example:recursionCount'(4229, 5)).
+answer('urn:example:recursionCount'(4230, 7)).
+answer('urn:example:recursionCount'(4231, 3)).
+answer('urn:example:recursionCount'(4232, 3)).
+answer('urn:example:recursionCount'(4233, 4)).
+answer('urn:example:recursionCount'(4234, 3)).
+answer('urn:example:recursionCount'(4235, 3)).
+answer('urn:example:recursionCount'(4236, 7)).
+answer('urn:example:recursionCount'(4237, 7)).
+answer('urn:example:recursionCount'(4238, 7)).
+answer('urn:example:recursionCount'(4239, 3)).
+answer('urn:example:recursionCount'(4240, 2)).
+answer('urn:example:recursionCount'(4241, 5)).
+answer('urn:example:recursionCount'(4242, 6)).
+answer('urn:example:recursionCount'(4243, 3)).
+answer('urn:example:recursionCount'(4244, 4)).
+answer('urn:example:recursionCount'(4245, 6)).
+answer('urn:example:recursionCount'(4246, 4)).
+answer('urn:example:recursionCount'(4247, 6)).
+answer('urn:example:recursionCount'(4248, 6)).
+answer('urn:example:recursionCount'(4249, 4)).
+answer('urn:example:recursionCount'(4250, 7)).
+answer('urn:example:recursionCount'(4251, 2)).
+answer('urn:example:recursionCount'(4252, 5)).
+answer('urn:example:recursionCount'(4253, 3)).
+answer('urn:example:recursionCount'(4254, 6)).
+answer('urn:example:recursionCount'(4255, 3)).
+answer('urn:example:recursionCount'(4256, 7)).
+answer('urn:example:recursionCount'(4257, 7)).
+answer('urn:example:recursionCount'(4258, 7)).
+answer('urn:example:recursionCount'(4259, 3)).
+answer('urn:example:recursionCount'(4260, 1)).
+answer('urn:example:recursionCount'(4261, 7)).
+answer('urn:example:recursionCount'(4262, 2)).
+answer('urn:example:recursionCount'(4263, 7)).
+answer('urn:example:recursionCount'(4264, 4)).
+answer('urn:example:recursionCount'(4265, 7)).
+answer('urn:example:recursionCount'(4266, 2)).
+answer('urn:example:recursionCount'(4267, 7)).
+answer('urn:example:recursionCount'(4268, 1)).
+answer('urn:example:recursionCount'(4269, 5)).
+answer('urn:example:recursionCount'(4270, 5)).
+answer('urn:example:recursionCount'(4271, 1)).
+answer('urn:example:recursionCount'(4272, 7)).
+answer('urn:example:recursionCount'(4273, 7)).
+answer('urn:example:recursionCount'(4274, 6)).
+answer('urn:example:recursionCount'(4275, 7)).
+answer('urn:example:recursionCount'(4276, 7)).
+answer('urn:example:recursionCount'(4277, 5)).
+answer('urn:example:recursionCount'(4278, 3)).
+answer('urn:example:recursionCount'(4279, 6)).
+answer('urn:example:recursionCount'(4280, 6)).
+answer('urn:example:recursionCount'(4281, 5)).
+answer('urn:example:recursionCount'(4282, 1)).
+answer('urn:example:recursionCount'(4283, 7)).
+answer('urn:example:recursionCount'(4284, 6)).
+answer('urn:example:recursionCount'(4285, 7)).
+answer('urn:example:recursionCount'(4286, 1)).
+answer('urn:example:recursionCount'(4287, 3)).
+answer('urn:example:recursionCount'(4288, 4)).
+answer('urn:example:recursionCount'(4289, 3)).
+answer('urn:example:recursionCount'(4290, 3)).
+answer('urn:example:recursionCount'(4291, 6)).
+answer('urn:example:recursionCount'(4292, 5)).
+answer('urn:example:recursionCount'(4293, 3)).
+answer('urn:example:recursionCount'(4294, 4)).
+answer('urn:example:recursionCount'(4295, 3)).
+answer('urn:example:recursionCount'(4296, 5)).
+answer('urn:example:recursionCount'(4297, 6)).
+answer('urn:example:recursionCount'(4298, 3)).
+answer('urn:example:recursionCount'(4299, 5)).
+answer('urn:example:recursionCount'(4300, 3)).
+answer('urn:example:recursionCount'(4301, 2)).
+answer('urn:example:recursionCount'(4302, 7)).
+answer('urn:example:recursionCount'(4303, 4)).
+answer('urn:example:recursionCount'(4304, 7)).
+answer('urn:example:recursionCount'(4305, 7)).
+answer('urn:example:recursionCount'(4306, 7)).
+answer('urn:example:recursionCount'(4307, 3)).
+answer('urn:example:recursionCount'(4308, 3)).
+answer('urn:example:recursionCount'(4309, 4)).
+answer('urn:example:recursionCount'(4310, 2)).
+answer('urn:example:recursionCount'(4311, 5)).
+answer('urn:example:recursionCount'(4312, 3)).
+answer('urn:example:recursionCount'(4313, 6)).
+answer('urn:example:recursionCount'(4314, 3)).
+answer('urn:example:recursionCount'(4315, 7)).
+answer('urn:example:recursionCount'(4316, 7)).
+answer('urn:example:recursionCount'(4317, 7)).
+answer('urn:example:recursionCount'(4318, 3)).
+answer('urn:example:recursionCount'(4319, 3)).
+answer('urn:example:recursionCount'(4320, 7)).
+answer('urn:example:recursionCount'(4321, 3)).
+answer('urn:example:recursionCount'(4322, 3)).
+answer('urn:example:recursionCount'(4323, 4)).
+answer('urn:example:recursionCount'(4324, 3)).
+answer('urn:example:recursionCount'(4325, 3)).
+answer('urn:example:recursionCount'(4326, 7)).
+answer('urn:example:recursionCount'(4327, 7)).
+answer('urn:example:recursionCount'(4328, 7)).
+answer('urn:example:recursionCount'(4329, 3)).
+answer('urn:example:recursionCount'(4330, 4)).
+answer('urn:example:recursionCount'(4331, 6)).
+answer('urn:example:recursionCount'(4332, 4)).
+answer('urn:example:recursionCount'(4333, 5)).
+answer('urn:example:recursionCount'(4334, 4)).
+answer('urn:example:recursionCount'(4335, 3)).
+answer('urn:example:recursionCount'(4336, 3)).
+answer('urn:example:recursionCount'(4337, 7)).
+answer('urn:example:recursionCount'(4338, 7)).
+answer('urn:example:recursionCount'(4339, 7)).
+answer('urn:example:recursionCount'(4340, 7)).
+answer('urn:example:recursionCount'(4341, 3)).
+answer('urn:example:recursionCount'(4342, 3)).
+answer('urn:example:recursionCount'(4343, 4)).
+answer('urn:example:recursionCount'(4344, 5)).
+answer('urn:example:recursionCount'(4345, 4)).
+answer('urn:example:recursionCount'(4346, 6)).
+answer('urn:example:recursionCount'(4347, 4)).
+answer('urn:example:recursionCount'(4348, 6)).
+answer('urn:example:recursionCount'(4349, 6)).
+answer('urn:example:recursionCount'(4350, 7)).
+answer('urn:example:recursionCount'(4351, 7)).
+answer('urn:example:recursionCount'(4352, 3)).
+answer('urn:example:recursionCount'(4353, 3)).
+answer('urn:example:recursionCount'(4354, 4)).
+answer('urn:example:recursionCount'(4355, 3)).
+answer('urn:example:recursionCount'(4356, 3)).
+answer('urn:example:recursionCount'(4357, 7)).
+answer('urn:example:recursionCount'(4358, 7)).
+answer('urn:example:recursionCount'(4359, 7)).
+answer('urn:example:recursionCount'(4360, 7)).
+answer('urn:example:recursionCount'(4361, 7)).
+answer('urn:example:recursionCount'(4362, 7)).
+answer('urn:example:recursionCount'(4363, 3)).
+answer('urn:example:recursionCount'(4364, 6)).
+answer('urn:example:recursionCount'(4365, 3)).
+answer('urn:example:recursionCount'(4366, 5)).
+answer('urn:example:recursionCount'(4367, 2)).
+answer('urn:example:recursionCount'(4368, 7)).
+answer('urn:example:recursionCount'(4369, 1)).
+answer('urn:example:recursionCount'(4370, 3)).
+answer('urn:example:recursionCount'(4371, 7)).
+answer('urn:example:recursionCount'(4372, 7)).
+answer('urn:example:recursionCount'(4373, 7)).
+answer('urn:example:recursionCount'(4374, 4)).
+answer('urn:example:recursionCount'(4375, 7)).
+answer('urn:example:recursionCount'(4376, 2)).
+answer('urn:example:recursionCount'(4377, 3)).
+answer('urn:example:recursionCount'(4378, 5)).
+answer('urn:example:recursionCount'(4379, 3)).
+answer('urn:example:recursionCount'(4380, 3)).
+answer('urn:example:recursionCount'(4381, 3)).
+answer('urn:example:recursionCount'(4382, 7)).
+answer('urn:example:recursionCount'(4383, 7)).
+answer('urn:example:recursionCount'(4384, 6)).
+answer('urn:example:recursionCount'(4385, 7)).
+answer('urn:example:recursionCount'(4386, 7)).
+answer('urn:example:recursionCount'(4387, 5)).
+answer('urn:example:recursionCount'(4388, 5)).
+answer('urn:example:recursionCount'(4389, 4)).
+answer('urn:example:recursionCount'(4390, 4)).
+answer('urn:example:recursionCount'(4391, 3)).
+answer('urn:example:recursionCount'(4392, 3)).
+answer('urn:example:recursionCount'(4393, 7)).
+answer('urn:example:recursionCount'(4394, 6)).
+answer('urn:example:recursionCount'(4395, 7)).
+answer('urn:example:recursionCount'(4396, 1)).
+answer('urn:example:recursionCount'(4397, 3)).
+answer('urn:example:recursionCount'(4398, 4)).
+answer('urn:example:recursionCount'(4399, 5)).
+answer('urn:example:recursionCount'(4400, 4)).
+answer('urn:example:recursionCount'(4401, 3)).
+answer('urn:example:recursionCount'(4402, 2)).
+answer('urn:example:recursionCount'(4403, 7)).
+answer('urn:example:recursionCount'(4404, 4)).
+answer('urn:example:recursionCount'(4405, 6)).
+answer('urn:example:recursionCount'(4406, 6)).
+answer('urn:example:recursionCount'(4407, 4)).
+answer('urn:example:recursionCount'(4408, 6)).
+answer('urn:example:recursionCount'(4409, 4)).
+answer('urn:example:recursionCount'(4410, 3)).
+answer('urn:example:recursionCount'(4411, 6)).
+answer('urn:example:recursionCount'(4412, 5)).
+answer('urn:example:recursionCount'(4413, 3)).
+answer('urn:example:recursionCount'(4414, 6)).
+answer('urn:example:recursionCount'(4415, 4)).
+answer('urn:example:recursionCount'(4416, 6)).
+answer('urn:example:recursionCount'(4417, 6)).
+answer('urn:example:recursionCount'(4418, 4)).
+answer('urn:example:recursionCount'(4419, 6)).
+answer('urn:example:recursionCount'(4420, 2)).
+answer('urn:example:recursionCount'(4421, 5)).
+answer('urn:example:recursionCount'(4422, 6)).
+answer('urn:example:recursionCount'(4423, 3)).
+answer('urn:example:recursionCount'(4424, 4)).
+answer('urn:example:recursionCount'(4425, 6)).
+answer('urn:example:recursionCount'(4426, 4)).
+answer('urn:example:recursionCount'(4427, 6)).
+answer('urn:example:recursionCount'(4428, 6)).
+answer('urn:example:recursionCount'(4429, 4)).
+answer('urn:example:recursionCount'(4430, 7)).
+answer('urn:example:recursionCount'(4431, 3)).
+answer('urn:example:recursionCount'(4432, 3)).
+answer('urn:example:recursionCount'(4433, 4)).
+answer('urn:example:recursionCount'(4434, 5)).
+answer('urn:example:recursionCount'(4435, 4)).
+answer('urn:example:recursionCount'(4436, 6)).
+answer('urn:example:recursionCount'(4437, 4)).
+answer('urn:example:recursionCount'(4438, 6)).
+answer('urn:example:recursionCount'(4439, 6)).
+answer('urn:example:recursionCount'(4440, 4)).
+answer('urn:example:recursionCount'(4441, 6)).
+answer('urn:example:recursionCount'(4442, 4)).
+answer('urn:example:recursionCount'(4443, 5)).
+answer('urn:example:recursionCount'(4445, 5)).
+answer('urn:example:recursionCount'(4446, 4)).
+answer('urn:example:recursionCount'(4447, 6)).
+answer('urn:example:recursionCount'(4448, 4)).
+answer('urn:example:recursionCount'(4449, 6)).
+answer('urn:example:recursionCount'(4450, 6)).
+answer('urn:example:recursionCount'(4451, 4)).
+answer('urn:example:recursionCount'(4452, 6)).
+answer('urn:example:recursionCount'(4453, 4)).
+answer('urn:example:recursionCount'(4454, 5)).
+answer('urn:example:recursionCount'(4455, 4)).
+answer('urn:example:recursionCount'(4456, 3)).
+answer('urn:example:recursionCount'(4457, 3)).
+answer('urn:example:recursionCount'(4458, 7)).
+answer('urn:example:recursionCount'(4459, 7)).
+answer('urn:example:recursionCount'(4460, 6)).
+answer('urn:example:recursionCount'(4461, 6)).
+answer('urn:example:recursionCount'(4462, 4)).
+answer('urn:example:recursionCount'(4463, 6)).
+answer('urn:example:recursionCount'(4464, 4)).
+answer('urn:example:recursionCount'(4465, 3)).
+answer('urn:example:recursionCount'(4466, 6)).
+answer('urn:example:recursionCount'(4467, 5)).
+answer('urn:example:recursionCount'(4468, 2)).
+answer('urn:example:recursionCount'(4469, 7)).
+answer('urn:example:recursionCount'(4470, 4)).
+answer('urn:example:recursionCount'(4471, 6)).
+answer('urn:example:recursionCount'(4472, 6)).
+answer('urn:example:recursionCount'(4473, 4)).
+answer('urn:example:recursionCount'(4474, 6)).
+answer('urn:example:recursionCount'(4475, 3)).
+answer('urn:example:recursionCount'(4476, 5)).
+answer('urn:example:recursionCount'(4477, 6)).
+answer('urn:example:recursionCount'(4478, 3)).
+answer('urn:example:recursionCount'(4479, 5)).
+answer('urn:example:recursionCount'(4480, 6)).
+answer('urn:example:recursionCount'(4481, 4)).
+answer('urn:example:recursionCount'(4482, 6)).
+answer('urn:example:recursionCount'(4483, 6)).
+answer('urn:example:recursionCount'(4484, 4)).
+answer('urn:example:recursionCount'(4485, 7)).
+answer('urn:example:recursionCount'(4486, 2)).
+answer('urn:example:recursionCount'(4487, 3)).
+answer('urn:example:recursionCount'(4488, 4)).
+answer('urn:example:recursionCount'(4489, 5)).
+answer('urn:example:recursionCount'(4490, 4)).
+answer('urn:example:recursionCount'(4491, 6)).
+answer('urn:example:recursionCount'(4492, 4)).
+answer('urn:example:recursionCount'(4493, 6)).
+answer('urn:example:recursionCount'(4494, 6)).
+answer('urn:example:recursionCount'(4495, 7)).
+answer('urn:example:recursionCount'(4496, 7)).
+answer('urn:example:recursionCount'(4497, 5)).
+answer('urn:example:recursionCount'(4498, 5)).
+answer('urn:example:recursionCount'(4499, 5)).
+answer('urn:example:recursionCount'(4500, 5)).
+answer('urn:example:recursionCount'(4501, 5)).
+answer('urn:example:recursionCount'(4502, 7)).
+answer('urn:example:recursionCount'(4503, 7)).
+answer('urn:example:recursionCount'(4504, 6)).
+answer('urn:example:recursionCount'(4505, 7)).
+answer('urn:example:recursionCount'(4506, 7)).
+answer('urn:example:recursionCount'(4507, 3)).
+answer('urn:example:recursionCount'(4508, 3)).
+answer('urn:example:recursionCount'(4509, 4)).
+answer('urn:example:recursionCount'(4510, 5)).
+answer('urn:example:recursionCount'(4511, 3)).
+answer('urn:example:recursionCount'(4512, 2)).
+answer('urn:example:recursionCount'(4513, 7)).
+answer('urn:example:recursionCount'(4514, 4)).
+answer('urn:example:recursionCount'(4515, 7)).
+answer('urn:example:recursionCount'(4516, 7)).
+answer('urn:example:recursionCount'(4517, 7)).
+answer('urn:example:recursionCount'(4518, 3)).
+answer('urn:example:recursionCount'(4519, 3)).
+answer('urn:example:recursionCount'(4520, 7)).
+answer('urn:example:recursionCount'(4521, 2)).
+answer('urn:example:recursionCount'(4522, 5)).
+answer('urn:example:recursionCount'(4523, 3)).
+answer('urn:example:recursionCount'(4524, 6)).
+answer('urn:example:recursionCount'(4525, 3)).
+answer('urn:example:recursionCount'(4526, 7)).
+answer('urn:example:recursionCount'(4527, 7)).
+answer('urn:example:recursionCount'(4528, 7)).
+answer('urn:example:recursionCount'(4529, 3)).
+answer('urn:example:recursionCount'(4530, 7)).
+answer('urn:example:recursionCount'(4531, 7)).
+answer('urn:example:recursionCount'(4532, 3)).
+answer('urn:example:recursionCount'(4533, 3)).
+answer('urn:example:recursionCount'(4534, 4)).
+answer('urn:example:recursionCount'(4535, 3)).
+answer('urn:example:recursionCount'(4536, 3)).
+answer('urn:example:recursionCount'(4537, 7)).
+answer('urn:example:recursionCount'(4538, 7)).
+answer('urn:example:recursionCount'(4539, 7)).
+answer('urn:example:recursionCount'(4540, 6)).
+answer('urn:example:recursionCount'(4541, 4)).
+answer('urn:example:recursionCount'(4542, 6)).
+answer('urn:example:recursionCount'(4543, 4)).
+answer('urn:example:recursionCount'(4544, 5)).
+answer('urn:example:recursionCount'(4545, 4)).
+answer('urn:example:recursionCount'(4546, 3)).
+answer('urn:example:recursionCount'(4547, 3)).
+answer('urn:example:recursionCount'(4548, 7)).
+answer('urn:example:recursionCount'(4549, 7)).
+answer('urn:example:recursionCount'(4550, 7)).
+answer('urn:example:recursionCount'(4551, 7)).
+answer('urn:example:recursionCount'(4552, 3)).
+answer('urn:example:recursionCount'(4553, 3)).
+answer('urn:example:recursionCount'(4554, 4)).
+answer('urn:example:recursionCount'(4555, 5)).
+answer('urn:example:recursionCount'(4556, 4)).
+answer('urn:example:recursionCount'(4557, 6)).
+answer('urn:example:recursionCount'(4558, 4)).
+answer('urn:example:recursionCount'(4559, 6)).
+answer('urn:example:recursionCount'(4560, 7)).
+answer('urn:example:recursionCount'(4561, 7)).
+answer('urn:example:recursionCount'(4562, 7)).
+answer('urn:example:recursionCount'(4563, 3)).
+answer('urn:example:recursionCount'(4564, 3)).
+answer('urn:example:recursionCount'(4565, 4)).
+answer('urn:example:recursionCount'(4566, 3)).
+answer('urn:example:recursionCount'(4567, 3)).
+answer('urn:example:recursionCount'(4568, 7)).
+answer('urn:example:recursionCount'(4569, 7)).
+answer('urn:example:recursionCount'(4570, 3)).
+answer('urn:example:recursionCount'(4571, 7)).
+answer('urn:example:recursionCount'(4572, 7)).
+answer('urn:example:recursionCount'(4573, 7)).
+answer('urn:example:recursionCount'(4574, 3)).
+answer('urn:example:recursionCount'(4575, 6)).
+answer('urn:example:recursionCount'(4576, 3)).
+answer('urn:example:recursionCount'(4577, 5)).
+answer('urn:example:recursionCount'(4578, 2)).
+answer('urn:example:recursionCount'(4579, 7)).
+answer('urn:example:recursionCount'(4580, 3)).
+answer('urn:example:recursionCount'(4581, 3)).
+answer('urn:example:recursionCount'(4582, 7)).
+answer('urn:example:recursionCount'(4583, 7)).
+answer('urn:example:recursionCount'(4584, 7)).
+answer('urn:example:recursionCount'(4585, 4)).
+answer('urn:example:recursionCount'(4586, 7)).
+answer('urn:example:recursionCount'(4587, 2)).
+answer('urn:example:recursionCount'(4588, 3)).
+answer('urn:example:recursionCount'(4589, 5)).
+answer('urn:example:recursionCount'(4590, 4)).
+answer('urn:example:recursionCount'(4591, 3)).
+answer('urn:example:recursionCount'(4592, 3)).
+answer('urn:example:recursionCount'(4593, 7)).
+answer('urn:example:recursionCount'(4594, 7)).
+answer('urn:example:recursionCount'(4595, 6)).
+answer('urn:example:recursionCount'(4596, 7)).
+answer('urn:example:recursionCount'(4597, 7)).
+answer('urn:example:recursionCount'(4598, 5)).
+answer('urn:example:recursionCount'(4599, 5)).
+answer('urn:example:recursionCount'(4600, 4)).
+answer('urn:example:recursionCount'(4601, 3)).
+answer('urn:example:recursionCount'(4602, 1)).
+answer('urn:example:recursionCount'(4603, 7)).
+answer('urn:example:recursionCount'(4604, 6)).
+answer('urn:example:recursionCount'(4605, 7)).
+answer('urn:example:recursionCount'(4606, 1)).
+answer('urn:example:recursionCount'(4607, 5)).
+answer('urn:example:recursionCount'(4608, 6)).
+answer('urn:example:recursionCount'(4609, 3)).
+answer('urn:example:recursionCount'(4610, 3)).
+answer('urn:example:recursionCount'(4611, 5)).
+answer('urn:example:recursionCount'(4612, 7)).
+answer('urn:example:recursionCount'(4613, 7)).
+answer('urn:example:recursionCount'(4614, 6)).
+answer('urn:example:recursionCount'(4615, 7)).
+answer('urn:example:recursionCount'(4616, 7)).
+answer('urn:example:recursionCount'(4617, 1)).
+answer('urn:example:recursionCount'(4618, 5)).
+answer('urn:example:recursionCount'(4619, 6)).
+answer('urn:example:recursionCount'(4620, 1)).
+answer('urn:example:recursionCount'(4621, 7)).
+answer('urn:example:recursionCount'(4622, 2)).
+answer('urn:example:recursionCount'(4623, 7)).
+answer('urn:example:recursionCount'(4624, 4)).
+answer('urn:example:recursionCount'(4625, 7)).
+answer('urn:example:recursionCount'(4626, 2)).
+answer('urn:example:recursionCount'(4627, 7)).
+answer('urn:example:recursionCount'(4628, 1)).
+answer('urn:example:recursionCount'(4629, 5)).
+answer('urn:example:recursionCount'(4630, 7)).
+answer('urn:example:recursionCount'(4631, 7)).
+answer('urn:example:recursionCount'(4632, 7)).
+answer('urn:example:recursionCount'(4633, 3)).
+answer('urn:example:recursionCount'(4634, 6)).
+answer('urn:example:recursionCount'(4635, 3)).
+answer('urn:example:recursionCount'(4636, 5)).
+answer('urn:example:recursionCount'(4637, 2)).
+answer('urn:example:recursionCount'(4638, 7)).
+answer('urn:example:recursionCount'(4639, 1)).
+answer('urn:example:recursionCount'(4640, 6)).
+answer('urn:example:recursionCount'(4641, 6)).
+answer('urn:example:recursionCount'(4642, 4)).
+answer('urn:example:recursionCount'(4643, 6)).
+answer('urn:example:recursionCount'(4644, 4)).
+answer('urn:example:recursionCount'(4645, 3)).
+answer('urn:example:recursionCount'(4646, 6)).
+answer('urn:example:recursionCount'(4647, 5)).
+answer('urn:example:recursionCount'(4648, 2)).
+answer('urn:example:recursionCount'(4649, 7)).
+answer('urn:example:recursionCount'(4650, 7)).
+answer('urn:example:recursionCount'(4651, 7)).
+answer('urn:example:recursionCount'(4652, 7)).
+answer('urn:example:recursionCount'(4653, 3)).
+answer('urn:example:recursionCount'(4654, 3)).
+answer('urn:example:recursionCount'(4655, 4)).
+answer('urn:example:recursionCount'(4656, 3)).
+answer('urn:example:recursionCount'(4657, 3)).
+answer('urn:example:recursionCount'(4658, 7)).
+answer('urn:example:recursionCount'(4659, 7)).
+answer('urn:example:recursionCount'(4660, 1)).
+answer('urn:example:recursionCount'(4661, 7)).
+answer('urn:example:recursionCount'(4662, 2)).
+answer('urn:example:recursionCount'(4663, 5)).
+answer('urn:example:recursionCount'(4664, 6)).
+answer('urn:example:recursionCount'(4665, 3)).
+answer('urn:example:recursionCount'(4666, 4)).
+answer('urn:example:recursionCount'(4667, 6)).
+answer('urn:example:recursionCount'(4668, 4)).
+answer('urn:example:recursionCount'(4669, 6)).
+answer('urn:example:recursionCount'(4670, 5)).
+answer('urn:example:recursionCount'(4671, 1)).
+answer('urn:example:recursionCount'(4672, 7)).
+answer('urn:example:recursionCount'(4673, 2)).
+answer('urn:example:recursionCount'(4674, 5)).
+answer('urn:example:recursionCount'(4675, 3)).
+answer('urn:example:recursionCount'(4676, 6)).
+answer('urn:example:recursionCount'(4677, 3)).
+answer('urn:example:recursionCount'(4678, 7)).
+answer('urn:example:recursionCount'(4679, 7)).
+answer('urn:example:recursionCount'(4680, 6)).
+answer('urn:example:recursionCount'(4681, 5)).
+answer('urn:example:recursionCount'(4682, 1)).
+answer('urn:example:recursionCount'(4683, 7)).
+answer('urn:example:recursionCount'(4684, 2)).
+answer('urn:example:recursionCount'(4685, 7)).
+answer('urn:example:recursionCount'(4686, 4)).
+answer('urn:example:recursionCount'(4687, 7)).
+answer('urn:example:recursionCount'(4688, 2)).
+answer('urn:example:recursionCount'(4689, 7)).
+answer('urn:example:recursionCount'(4690, 3)).
+answer('urn:example:recursionCount'(4691, 6)).
+answer('urn:example:recursionCount'(4692, 5)).
+answer('urn:example:recursionCount'(4693, 1)).
+answer('urn:example:recursionCount'(4694, 7)).
+answer('urn:example:recursionCount'(4695, 7)).
+answer('urn:example:recursionCount'(4696, 6)).
+answer('urn:example:recursionCount'(4697, 7)).
+answer('urn:example:recursionCount'(4698, 7)).
+answer('urn:example:recursionCount'(4699, 5)).
+answer('urn:example:recursionCount'(4700, 3)).
+answer('urn:example:recursionCount'(4701, 6)).
+answer('urn:example:recursionCount'(4702, 5)).
+answer('urn:example:recursionCount'(4703, 3)).
+answer('urn:example:recursionCount'(4704, 4)).
+answer('urn:example:recursionCount'(4705, 3)).
+answer('urn:example:recursionCount'(4706, 5)).
+answer('urn:example:recursionCount'(4707, 6)).
+answer('urn:example:recursionCount'(4708, 5)).
+answer('urn:example:recursionCount'(4709, 3)).
+answer('urn:example:recursionCount'(4710, 6)).
+answer('urn:example:recursionCount'(4711, 3)).
+answer('urn:example:recursionCount'(4712, 1)).
+answer('urn:example:recursionCount'(4713, 7)).
+answer('urn:example:recursionCount'(4714, 6)).
+answer('urn:example:recursionCount'(4715, 7)).
+answer('urn:example:recursionCount'(4716, 1)).
+answer('urn:example:recursionCount'(4717, 3)).
+answer('urn:example:recursionCount'(4718, 6)).
+answer('urn:example:recursionCount'(4719, 5)).
+answer('urn:example:recursionCount'(4720, 5)).
+answer('urn:example:recursionCount'(4721, 1)).
+answer('urn:example:recursionCount'(4722, 7)).
+answer('urn:example:recursionCount'(4723, 7)).
+answer('urn:example:recursionCount'(4724, 6)).
+answer('urn:example:recursionCount'(4725, 7)).
+answer('urn:example:recursionCount'(4726, 7)).
+answer('urn:example:recursionCount'(4727, 5)).
+answer('urn:example:recursionCount'(4728, 3)).
+answer('urn:example:recursionCount'(4729, 6)).
+answer('urn:example:recursionCount'(4730, 3)).
+answer('urn:example:recursionCount'(4731, 7)).
+answer('urn:example:recursionCount'(4732, 7)).
+answer('urn:example:recursionCount'(4733, 7)).
+answer('urn:example:recursionCount'(4734, 4)).
+answer('urn:example:recursionCount'(4735, 7)).
+answer('urn:example:recursionCount'(4736, 2)).
+answer('urn:example:recursionCount'(4737, 3)).
+answer('urn:example:recursionCount'(4738, 5)).
+answer('urn:example:recursionCount'(4739, 3)).
+answer('urn:example:recursionCount'(4740, 4)).
+answer('urn:example:recursionCount'(4741, 6)).
+answer('urn:example:recursionCount'(4742, 6)).
+answer('urn:example:recursionCount'(4743, 4)).
+answer('urn:example:recursionCount'(4744, 6)).
+answer('urn:example:recursionCount'(4745, 3)).
+answer('urn:example:recursionCount'(4746, 5)).
+answer('urn:example:recursionCount'(4747, 6)).
+answer('urn:example:recursionCount'(4748, 3)).
+answer('urn:example:recursionCount'(4749, 5)).
+answer('urn:example:recursionCount'(4750, 3)).
+answer('urn:example:recursionCount'(4751, 7)).
+answer('urn:example:recursionCount'(4752, 7)).
+answer('urn:example:recursionCount'(4753, 7)).
+answer('urn:example:recursionCount'(4754, 3)).
+answer('urn:example:recursionCount'(4755, 6)).
+answer('urn:example:recursionCount'(4756, 3)).
+answer('urn:example:recursionCount'(4757, 5)).
+answer('urn:example:recursionCount'(4758, 2)).
+answer('urn:example:recursionCount'(4759, 7)).
+answer('urn:example:recursionCount'(4760, 5)).
+answer('urn:example:recursionCount'(4761, 1)).
+answer('urn:example:recursionCount'(4762, 7)).
+answer('urn:example:recursionCount'(4763, 2)).
+answer('urn:example:recursionCount'(4764, 5)).
+answer('urn:example:recursionCount'(4765, 3)).
+answer('urn:example:recursionCount'(4766, 6)).
+answer('urn:example:recursionCount'(4767, 3)).
+answer('urn:example:recursionCount'(4768, 7)).
+answer('urn:example:recursionCount'(4769, 7)).
+answer('urn:example:recursionCount'(4770, 6)).
+answer('urn:example:recursionCount'(4771, 3)).
+answer('urn:example:recursionCount'(4772, 5)).
+answer('urn:example:recursionCount'(4773, 3)).
+answer('urn:example:recursionCount'(4774, 6)).
+answer('urn:example:recursionCount'(4775, 5)).
+answer('urn:example:recursionCount'(4776, 3)).
+answer('urn:example:recursionCount'(4777, 6)).
+answer('urn:example:recursionCount'(4778, 4)).
+answer('urn:example:recursionCount'(4779, 6)).
+answer('urn:example:recursionCount'(4780, 5)).
+answer('urn:example:recursionCount'(4781, 6)).
+answer('urn:example:recursionCount'(4782, 3)).
+answer('urn:example:recursionCount'(4783, 5)).
+answer('urn:example:recursionCount'(4784, 3)).
+answer('urn:example:recursionCount'(4785, 2)).
+answer('urn:example:recursionCount'(4786, 7)).
+answer('urn:example:recursionCount'(4787, 4)).
+answer('urn:example:recursionCount'(4788, 7)).
+answer('urn:example:recursionCount'(4789, 7)).
+answer('urn:example:recursionCount'(4790, 3)).
+answer('urn:example:recursionCount'(4791, 5)).
+answer('urn:example:recursionCount'(4792, 6)).
+answer('urn:example:recursionCount'(4793, 3)).
+answer('urn:example:recursionCount'(4794, 5)).
+answer('urn:example:recursionCount'(4795, 7)).
+answer('urn:example:recursionCount'(4796, 7)).
+answer('urn:example:recursionCount'(4797, 6)).
+answer('urn:example:recursionCount'(4798, 7)).
+answer('urn:example:recursionCount'(4799, 7)).
+answer('urn:example:recursionCount'(4800, 2)).
+answer('urn:example:recursionCount'(4801, 5)).
+answer('urn:example:recursionCount'(4802, 6)).
+answer('urn:example:recursionCount'(4803, 3)).
+answer('urn:example:recursionCount'(4804, 6)).
+answer('urn:example:recursionCount'(4805, 3)).
+answer('urn:example:recursionCount'(4806, 6)).
+answer('urn:example:recursionCount'(4807, 5)).
+answer('urn:example:recursionCount'(4808, 2)).
+answer('urn:example:recursionCount'(4809, 7)).
+answer('urn:example:recursionCount'(4810, 5)).
+answer('urn:example:recursionCount'(4811, 6)).
+answer('urn:example:recursionCount'(4812, 5)).
+answer('urn:example:recursionCount'(4813, 3)).
+answer('urn:example:recursionCount'(4814, 4)).
+answer('urn:example:recursionCount'(4815, 3)).
+answer('urn:example:recursionCount'(4816, 5)).
+answer('urn:example:recursionCount'(4817, 6)).
+answer('urn:example:recursionCount'(4818, 3)).
+answer('urn:example:recursionCount'(4819, 2)).
+answer('urn:example:recursionCount'(4820, 6)).
+answer('urn:example:recursionCount'(4821, 5)).
+answer('urn:example:recursionCount'(4822, 1)).
+answer('urn:example:recursionCount'(4823, 7)).
+answer('urn:example:recursionCount'(4824, 6)).
+answer('urn:example:recursionCount'(4825, 7)).
+answer('urn:example:recursionCount'(4826, 1)).
+answer('urn:example:recursionCount'(4827, 3)).
+answer('urn:example:recursionCount'(4828, 4)).
+answer('urn:example:recursionCount'(4829, 3)).
+answer('urn:example:recursionCount'(4830, 3)).
+answer('urn:example:recursionCount'(4831, 3)).
+answer('urn:example:recursionCount'(4832, 7)).
+answer('urn:example:recursionCount'(4833, 7)).
+answer('urn:example:recursionCount'(4834, 6)).
+answer('urn:example:recursionCount'(4835, 7)).
+answer('urn:example:recursionCount'(4836, 7)).
+answer('urn:example:recursionCount'(4837, 5)).
+answer('urn:example:recursionCount'(4838, 5)).
+answer('urn:example:recursionCount'(4839, 4)).
+answer('urn:example:recursionCount'(4840, 6)).
+answer('urn:example:recursionCount'(4841, 4)).
+answer('urn:example:recursionCount'(4842, 6)).
+answer('urn:example:recursionCount'(4843, 6)).
+answer('urn:example:recursionCount'(4844, 4)).
+answer('urn:example:recursionCount'(4845, 7)).
+answer('urn:example:recursionCount'(4846, 2)).
+answer('urn:example:recursionCount'(4847, 3)).
+answer('urn:example:recursionCount'(4848, 4)).
+answer('urn:example:recursionCount'(4849, 5)).
+answer('urn:example:recursionCount'(4850, 3)).
+answer('urn:example:recursionCount'(4851, 3)).
+answer('urn:example:recursionCount'(4852, 7)).
+answer('urn:example:recursionCount'(4853, 7)).
+answer('urn:example:recursionCount'(4854, 7)).
+answer('urn:example:recursionCount'(4855, 4)).
+answer('urn:example:recursionCount'(4856, 7)).
+answer('urn:example:recursionCount'(4857, 2)).
+answer('urn:example:recursionCount'(4858, 3)).
+answer('urn:example:recursionCount'(4859, 5)).
+answer('urn:example:recursionCount'(4860, 6)).
+answer('urn:example:recursionCount'(4861, 5)).
+answer('urn:example:recursionCount'(4862, 1)).
+answer('urn:example:recursionCount'(4863, 7)).
+answer('urn:example:recursionCount'(4864, 2)).
+answer('urn:example:recursionCount'(4865, 7)).
+answer('urn:example:recursionCount'(4866, 4)).
+answer('urn:example:recursionCount'(4867, 7)).
+answer('urn:example:recursionCount'(4868, 2)).
+answer('urn:example:recursionCount'(4869, 7)).
+answer('urn:example:recursionCount'(4870, 5)).
+answer('urn:example:recursionCount'(4871, 6)).
+answer('urn:example:recursionCount'(4872, 3)).
+answer('urn:example:recursionCount'(4873, 5)).
+answer('urn:example:recursionCount'(4874, 3)).
+answer('urn:example:recursionCount'(4875, 2)).
+answer('urn:example:recursionCount'(4876, 7)).
+answer('urn:example:recursionCount'(4877, 4)).
+answer('urn:example:recursionCount'(4878, 7)).
+answer('urn:example:recursionCount'(4879, 7)).
+answer('urn:example:recursionCount'(4880, 2)).
+answer('urn:example:recursionCount'(4881, 3)).
+answer('urn:example:recursionCount'(4882, 4)).
+answer('urn:example:recursionCount'(4883, 5)).
+answer('urn:example:recursionCount'(4884, 4)).
+answer('urn:example:recursionCount'(4885, 3)).
+answer('urn:example:recursionCount'(4886, 2)).
+answer('urn:example:recursionCount'(4887, 7)).
+answer('urn:example:recursionCount'(4888, 4)).
+answer('urn:example:recursionCount'(4889, 6)).
+answer('urn:example:recursionCount'(4890, 7)).
+answer('urn:example:recursionCount'(4891, 2)).
+answer('urn:example:recursionCount'(4892, 3)).
+answer('urn:example:recursionCount'(4893, 4)).
+answer('urn:example:recursionCount'(4894, 5)).
+answer('urn:example:recursionCount'(4895, 5)).
+answer('urn:example:recursionCount'(4896, 7)).
+answer('urn:example:recursionCount'(4897, 7)).
+answer('urn:example:recursionCount'(4898, 6)).
+answer('urn:example:recursionCount'(4899, 7)).
+answer('urn:example:recursionCount'(4900, 7)).
+answer('urn:example:recursionCount'(4901, 3)).
+answer('urn:example:recursionCount'(4902, 3)).
+answer('urn:example:recursionCount'(4903, 4)).
+answer('urn:example:recursionCount'(4904, 4)).
+answer('urn:example:recursionCount'(4905, 4)).
+answer('urn:example:recursionCount'(4906, 3)).
+answer('urn:example:recursionCount'(4907, 3)).
+answer('urn:example:recursionCount'(4908, 7)).
+answer('urn:example:recursionCount'(4909, 7)).
+answer('urn:example:recursionCount'(4910, 3)).
+answer('urn:example:recursionCount'(4911, 5)).
+answer('urn:example:recursionCount'(4912, 6)).
+answer('urn:example:recursionCount'(4913, 3)).
+answer('urn:example:recursionCount'(4914, 6)).
+answer('urn:example:recursionCount'(4915, 3)).
+answer('urn:example:recursionCount'(4916, 6)).
+answer('urn:example:recursionCount'(4917, 5)).
+answer('urn:example:recursionCount'(4918, 2)).
+answer('urn:example:recursionCount'(4919, 7)).
+answer('urn:example:recursionCount'(4920, 3)).
+answer('urn:example:recursionCount'(4921, 6)).
+answer('urn:example:recursionCount'(4922, 5)).
+answer('urn:example:recursionCount'(4923, 3)).
+answer('urn:example:recursionCount'(4924, 4)).
+answer('urn:example:recursionCount'(4925, 3)).
+answer('urn:example:recursionCount'(4926, 5)).
+answer('urn:example:recursionCount'(4927, 6)).
+answer('urn:example:recursionCount'(4928, 3)).
+answer('urn:example:recursionCount'(4929, 5)).
+answer('urn:example:recursionCount'(4930, 4)).
+answer('urn:example:recursionCount'(4931, 3)).
+answer('urn:example:recursionCount'(4932, 3)).
+answer('urn:example:recursionCount'(4933, 7)).
+answer('urn:example:recursionCount'(4934, 6)).
+answer('urn:example:recursionCount'(4935, 7)).
+answer('urn:example:recursionCount'(4936, 1)).
+answer('urn:example:recursionCount'(4937, 3)).
+answer('urn:example:recursionCount'(4938, 4)).
+answer('urn:example:recursionCount'(4939, 5)).
+answer('urn:example:recursionCount'(4940, 4)).
+answer('urn:example:recursionCount'(4941, 6)).
+answer('urn:example:recursionCount'(4942, 4)).
+answer('urn:example:recursionCount'(4943, 6)).
+answer('urn:example:recursionCount'(4944, 6)).
+answer('urn:example:recursionCount'(4945, 7)).
+answer('urn:example:recursionCount'(4946, 7)).
+answer('urn:example:recursionCount'(4947, 5)).
+answer('urn:example:recursionCount'(4948, 5)).
+answer('urn:example:recursionCount'(4949, 5)).
+answer('urn:example:recursionCount'(4950, 4)).
+answer('urn:example:recursionCount'(4951, 3)).
+answer('urn:example:recursionCount'(4952, 3)).
+answer('urn:example:recursionCount'(4953, 7)).
+answer('urn:example:recursionCount'(4954, 7)).
+answer('urn:example:recursionCount'(4955, 6)).
+answer('urn:example:recursionCount'(4956, 7)).
+answer('urn:example:recursionCount'(4957, 7)).
+answer('urn:example:recursionCount'(4958, 5)).
+answer('urn:example:recursionCount'(4959, 5)).
+answer('urn:example:recursionCount'(4960, 3)).
+answer('urn:example:recursionCount'(4961, 6)).
+answer('urn:example:recursionCount'(4962, 5)).
+answer('urn:example:recursionCount'(4963, 1)).
+answer('urn:example:recursionCount'(4964, 7)).
+answer('urn:example:recursionCount'(4965, 7)).
+answer('urn:example:recursionCount'(4966, 6)).
+answer('urn:example:recursionCount'(4967, 7)).
+answer('urn:example:recursionCount'(4968, 7)).
+answer('urn:example:recursionCount'(4969, 5)).
+answer('urn:example:recursionCount'(4970, 3)).
+answer('urn:example:recursionCount'(4971, 5)).
+answer('urn:example:recursionCount'(4972, 6)).
+answer('urn:example:recursionCount'(4973, 3)).
+answer('urn:example:recursionCount'(4974, 5)).
+answer('urn:example:recursionCount'(4975, 7)).
+answer('urn:example:recursionCount'(4976, 7)).
+answer('urn:example:recursionCount'(4977, 6)).
+answer('urn:example:recursionCount'(4978, 7)).
+answer('urn:example:recursionCount'(4979, 7)).
+answer('urn:example:recursionCount'(4980, 7)).
+answer('urn:example:recursionCount'(4981, 2)).
+answer('urn:example:recursionCount'(4982, 3)).
+answer('urn:example:recursionCount'(4983, 4)).
+answer('urn:example:recursionCount'(4984, 5)).
+answer('urn:example:recursionCount'(4985, 5)).
+answer('urn:example:recursionCount'(4986, 7)).
+answer('urn:example:recursionCount'(4987, 7)).
+answer('urn:example:recursionCount'(4988, 6)).
+answer('urn:example:recursionCount'(4989, 7)).
+answer('urn:example:recursionCount'(4990, 7)).
+answer('urn:example:recursionCount'(4991, 7)).
+answer('urn:example:recursionCount'(4992, 5)).
+answer('urn:example:recursionCount'(4993, 5)).
+answer('urn:example:recursionCount'(4994, 5)).
+answer('urn:example:recursionCount'(4995, 5)).
+answer('urn:example:recursionCount'(4996, 5)).
+answer('urn:example:recursionCount'(4997, 7)).
+answer('urn:example:recursionCount'(4998, 7)).
+answer('urn:example:recursionCount'(4999, 6)).
+answer('urn:example:recursionCount'(5000, 6)).
+answer('urn:example:recursionCount'(5001, 7)).
+answer('urn:example:recursionCount'(5002, 7)).
+answer('urn:example:recursionCount'(5003, 5)).
+answer('urn:example:recursionCount'(5004, 5)).
+answer('urn:example:recursionCount'(5005, 5)).
+answer('urn:example:recursionCount'(5006, 5)).
+answer('urn:example:recursionCount'(5007, 5)).
+answer('urn:example:recursionCount'(5008, 7)).
+answer('urn:example:recursionCount'(5009, 7)).
+answer('urn:example:recursionCount'(5010, 7)).
+answer('urn:example:recursionCount'(5011, 6)).
+answer('urn:example:recursionCount'(5012, 7)).
+answer('urn:example:recursionCount'(5013, 7)).
+answer('urn:example:recursionCount'(5014, 5)).
+answer('urn:example:recursionCount'(5015, 5)).
+answer('urn:example:recursionCount'(5016, 4)).
+answer('urn:example:recursionCount'(5017, 3)).
+answer('urn:example:recursionCount'(5018, 2)).
+answer('urn:example:recursionCount'(5019, 7)).
+answer('urn:example:recursionCount'(5020, 7)).
+answer('urn:example:recursionCount'(5021, 7)).
+answer('urn:example:recursionCount'(5022, 6)).
+answer('urn:example:recursionCount'(5023, 7)).
+answer('urn:example:recursionCount'(5024, 7)).
+answer('urn:example:recursionCount'(5025, 5)).
+answer('urn:example:recursionCount'(5026, 3)).
+answer('urn:example:recursionCount'(5027, 6)).
+answer('urn:example:recursionCount'(5028, 5)).
+answer('urn:example:recursionCount'(5029, 3)).
+answer('urn:example:recursionCount'(5030, 5)).
+answer('urn:example:recursionCount'(5031, 7)).
+answer('urn:example:recursionCount'(5032, 7)).
+answer('urn:example:recursionCount'(5033, 6)).
+answer('urn:example:recursionCount'(5034, 7)).
+answer('urn:example:recursionCount'(5035, 7)).
+answer('urn:example:recursionCount'(5036, 1)).
+answer('urn:example:recursionCount'(5037, 5)).
+answer('urn:example:recursionCount'(5038, 6)).
+answer('urn:example:recursionCount'(5039, 3)).
+answer('urn:example:recursionCount'(5040, 5)).
+answer('urn:example:recursionCount'(5041, 5)).
+answer('urn:example:recursionCount'(5042, 7)).
+answer('urn:example:recursionCount'(5043, 7)).
+answer('urn:example:recursionCount'(5044, 6)).
+answer('urn:example:recursionCount'(5045, 7)).
+answer('urn:example:recursionCount'(5046, 7)).
+answer('urn:example:recursionCount'(5047, 3)).
+answer('urn:example:recursionCount'(5048, 3)).
+answer('urn:example:recursionCount'(5049, 4)).
+answer('urn:example:recursionCount'(5050, 5)).
+answer('urn:example:recursionCount'(5051, 5)).
+answer('urn:example:recursionCount'(5052, 5)).
+answer('urn:example:recursionCount'(5053, 7)).
+answer('urn:example:recursionCount'(5054, 7)).
+answer('urn:example:recursionCount'(5055, 6)).
+answer('urn:example:recursionCount'(5056, 6)).
+answer('urn:example:recursionCount'(5057, 4)).
+answer('urn:example:recursionCount'(5058, 6)).
+answer('urn:example:recursionCount'(5059, 4)).
+answer('urn:example:recursionCount'(5060, 5)).
+answer('urn:example:recursionCount'(5061, 4)).
+answer('urn:example:recursionCount'(5062, 3)).
+answer('urn:example:recursionCount'(5063, 1)).
+answer('urn:example:recursionCount'(5064, 7)).
+answer('urn:example:recursionCount'(5065, 6)).
+answer('urn:example:recursionCount'(5066, 7)).
+answer('urn:example:recursionCount'(5067, 3)).
+answer('urn:example:recursionCount'(5068, 3)).
+answer('urn:example:recursionCount'(5069, 4)).
+answer('urn:example:recursionCount'(5070, 5)).
+answer('urn:example:recursionCount'(5071, 3)).
+answer('urn:example:recursionCount'(5072, 6)).
+answer('urn:example:recursionCount'(5073, 5)).
+answer('urn:example:recursionCount'(5074, 3)).
+answer('urn:example:recursionCount'(5075, 4)).
+answer('urn:example:recursionCount'(5076, 3)).
+answer('urn:example:recursionCount'(5077, 5)).
+answer('urn:example:recursionCount'(5078, 6)).
+answer('urn:example:recursionCount'(5079, 3)).
+answer('urn:example:recursionCount'(5080, 7)).
+answer('urn:example:recursionCount'(5081, 2)).
+answer('urn:example:recursionCount'(5082, 5)).
+answer('urn:example:recursionCount'(5083, 6)).
+answer('urn:example:recursionCount'(5084, 3)).
+answer('urn:example:recursionCount'(5085, 6)).
+answer('urn:example:recursionCount'(5086, 3)).
+answer('urn:example:recursionCount'(5087, 6)).
+answer('urn:example:recursionCount'(5088, 5)).
+answer('urn:example:recursionCount'(5089, 3)).
+answer('urn:example:recursionCount'(5090, 7)).
+answer('urn:example:recursionCount'(5091, 7)).
+answer('urn:example:recursionCount'(5092, 3)).
+answer('urn:example:recursionCount'(5093, 3)).
+answer('urn:example:recursionCount'(5094, 4)).
+answer('urn:example:recursionCount'(5095, 4)).
+answer('urn:example:recursionCount'(5096, 4)).
+answer('urn:example:recursionCount'(5097, 3)).
+answer('urn:example:recursionCount'(5098, 3)).
+answer('urn:example:recursionCount'(5099, 7)).
+answer('urn:example:recursionCount'(5100, 7)).
+answer('urn:example:recursionCount'(5101, 6)).
+answer('urn:example:recursionCount'(5102, 7)).
+answer('urn:example:recursionCount'(5103, 7)).
+answer('urn:example:recursionCount'(5104, 5)).
+answer('urn:example:recursionCount'(5105, 5)).
+answer('urn:example:recursionCount'(5106, 4)).
+answer('urn:example:recursionCount'(5107, 3)).
+answer('urn:example:recursionCount'(5108, 2)).
+answer('urn:example:recursionCount'(5109, 7)).
+answer('urn:example:recursionCount'(5110, 6)).
+answer('urn:example:recursionCount'(5111, 4)).
+answer('urn:example:recursionCount'(5112, 7)).
+answer('urn:example:recursionCount'(5113, 2)).
+answer('urn:example:recursionCount'(5114, 3)).
+answer('urn:example:recursionCount'(5115, 4)).
+answer('urn:example:recursionCount'(5116, 5)).
+answer('urn:example:recursionCount'(5117, 4)).
+answer('urn:example:recursionCount'(5118, 3)).
+answer('urn:example:recursionCount'(5119, 2)).
+answer('urn:example:recursionCount'(5120, 7)).
+answer('urn:example:recursionCount'(5121, 7)).
+answer('urn:example:recursionCount'(5122, 4)).
+answer('urn:example:recursionCount'(5123, 7)).
+answer('urn:example:recursionCount'(5124, 2)).
+answer('urn:example:recursionCount'(5125, 3)).
+answer('urn:example:recursionCount'(5126, 5)).
+answer('urn:example:recursionCount'(5127, 3)).
+answer('urn:example:recursionCount'(5128, 6)).
+answer('urn:example:recursionCount'(5129, 5)).
+answer('urn:example:recursionCount'(5130, 7)).
+answer('urn:example:recursionCount'(5131, 2)).
+answer('urn:example:recursionCount'(5132, 7)).
+answer('urn:example:recursionCount'(5133, 4)).
+answer('urn:example:recursionCount'(5134, 7)).
+answer('urn:example:recursionCount'(5135, 2)).
+answer('urn:example:recursionCount'(5136, 7)).
+answer('urn:example:recursionCount'(5137, 1)).
+answer('urn:example:recursionCount'(5138, 5)).
+answer('urn:example:recursionCount'(5139, 6)).
+answer('urn:example:recursionCount'(5140, 5)).
+answer('urn:example:recursionCount'(5141, 3)).
+answer('urn:example:recursionCount'(5142, 2)).
+answer('urn:example:recursionCount'(5143, 7)).
+answer('urn:example:recursionCount'(5144, 4)).
+answer('urn:example:recursionCount'(5145, 7)).
+answer('urn:example:recursionCount'(5146, 7)).
+answer('urn:example:recursionCount'(5147, 7)).
+answer('urn:example:recursionCount'(5148, 3)).
+answer('urn:example:recursionCount'(5149, 3)).
+answer('urn:example:recursionCount'(5150, 5)).
+answer('urn:example:recursionCount'(5151, 4)).
+answer('urn:example:recursionCount'(5152, 3)).
+answer('urn:example:recursionCount'(5153, 2)).
+answer('urn:example:recursionCount'(5154, 7)).
+answer('urn:example:recursionCount'(5155, 4)).
+answer('urn:example:recursionCount'(5156, 6)).
+answer('urn:example:recursionCount'(5157, 6)).
+answer('urn:example:recursionCount'(5158, 4)).
+answer('urn:example:recursionCount'(5159, 6)).
+answer('urn:example:recursionCount'(5160, 4)).
+answer('urn:example:recursionCount'(5161, 5)).
+answer('urn:example:recursionCount'(5162, 5)).
+answer('urn:example:recursionCount'(5163, 7)).
+answer('urn:example:recursionCount'(5164, 7)).
+answer('urn:example:recursionCount'(5165, 6)).
+answer('urn:example:recursionCount'(5166, 7)).
+answer('urn:example:recursionCount'(5167, 7)).
+answer('urn:example:recursionCount'(5168, 3)).
+answer('urn:example:recursionCount'(5169, 3)).
+answer('urn:example:recursionCount'(5170, 3)).
+answer('urn:example:recursionCount'(5171, 4)).
+answer('urn:example:recursionCount'(5172, 3)).
+answer('urn:example:recursionCount'(5173, 1)).
+answer('urn:example:recursionCount'(5174, 7)).
+answer('urn:example:recursionCount'(5175, 6)).
+answer('urn:example:recursionCount'(5176, 7)).
+answer('urn:example:recursionCount'(5177, 1)).
+answer('urn:example:recursionCount'(5178, 5)).
+answer('urn:example:recursionCount'(5179, 6)).
+answer('urn:example:recursionCount'(5180, 2)).
+answer('urn:example:recursionCount'(5181, 3)).
+answer('urn:example:recursionCount'(5182, 6)).
+answer('urn:example:recursionCount'(5183, 5)).
+answer('urn:example:recursionCount'(5184, 3)).
+answer('urn:example:recursionCount'(5185, 4)).
+answer('urn:example:recursionCount'(5186, 3)).
+answer('urn:example:recursionCount'(5187, 5)).
+answer('urn:example:recursionCount'(5188, 6)).
+answer('urn:example:recursionCount'(5189, 5)).
+answer('urn:example:recursionCount'(5190, 7)).
+answer('urn:example:recursionCount'(5191, 2)).
+answer('urn:example:recursionCount'(5192, 5)).
+answer('urn:example:recursionCount'(5193, 6)).
+answer('urn:example:recursionCount'(5194, 3)).
+answer('urn:example:recursionCount'(5195, 6)).
+answer('urn:example:recursionCount'(5196, 3)).
+answer('urn:example:recursionCount'(5197, 6)).
+answer('urn:example:recursionCount'(5198, 5)).
+answer('urn:example:recursionCount'(5199, 2)).
+answer('urn:example:recursionCount'(5200, 7)).
+answer('urn:example:recursionCount'(5201, 7)).
+answer('urn:example:recursionCount'(5202, 6)).
+answer('urn:example:recursionCount'(5203, 7)).
+answer('urn:example:recursionCount'(5204, 7)).
+answer('urn:example:recursionCount'(5205, 5)).
+answer('urn:example:recursionCount'(5206, 3)).
+answer('urn:example:recursionCount'(5207, 6)).
+answer('urn:example:recursionCount'(5208, 5)).
+answer('urn:example:recursionCount'(5209, 3)).
+answer('urn:example:recursionCount'(5210, 7)).
+answer('urn:example:recursionCount'(5211, 7)).
+answer('urn:example:recursionCount'(5212, 4)).
+answer('urn:example:recursionCount'(5213, 7)).
+answer('urn:example:recursionCount'(5214, 2)).
+answer('urn:example:recursionCount'(5215, 3)).
+answer('urn:example:recursionCount'(5216, 5)).
+answer('urn:example:recursionCount'(5217, 3)).
+answer('urn:example:recursionCount'(5218, 6)).
+answer('urn:example:recursionCount'(5219, 5)).
+answer('urn:example:recursionCount'(5220, 6)).
+answer('urn:example:recursionCount'(5221, 4)).
+answer('urn:example:recursionCount'(5222, 6)).
+answer('urn:example:recursionCount'(5223, 3)).
+answer('urn:example:recursionCount'(5224, 5)).
+answer('urn:example:recursionCount'(5225, 6)).
+answer('urn:example:recursionCount'(5226, 3)).
+answer('urn:example:recursionCount'(5227, 5)).
+answer('urn:example:recursionCount'(5228, 3)).
+answer('urn:example:recursionCount'(5229, 6)).
+answer('urn:example:recursionCount'(5230, 7)).
+answer('urn:example:recursionCount'(5231, 7)).
+answer('urn:example:recursionCount'(5232, 3)).
+answer('urn:example:recursionCount'(5233, 6)).
+answer('urn:example:recursionCount'(5234, 3)).
+answer('urn:example:recursionCount'(5235, 5)).
+answer('urn:example:recursionCount'(5236, 2)).
+answer('urn:example:recursionCount'(5237, 7)).
+answer('urn:example:recursionCount'(5238, 1)).
+answer('urn:example:recursionCount'(5239, 5)).
+answer('urn:example:recursionCount'(5240, 7)).
+answer('urn:example:recursionCount'(5241, 2)).
+answer('urn:example:recursionCount'(5242, 5)).
+answer('urn:example:recursionCount'(5243, 3)).
+answer('urn:example:recursionCount'(5244, 6)).
+answer('urn:example:recursionCount'(5245, 3)).
+answer('urn:example:recursionCount'(5246, 7)).
+answer('urn:example:recursionCount'(5247, 7)).
+answer('urn:example:recursionCount'(5248, 7)).
+answer('urn:example:recursionCount'(5249, 3)).
+answer('urn:example:recursionCount'(5250, 5)).
+answer('urn:example:recursionCount'(5251, 3)).
+answer('urn:example:recursionCount'(5252, 6)).
+answer('urn:example:recursionCount'(5253, 5)).
+answer('urn:example:recursionCount'(5254, 3)).
+answer('urn:example:recursionCount'(5255, 6)).
+answer('urn:example:recursionCount'(5256, 4)).
+answer('urn:example:recursionCount'(5257, 6)).
+answer('urn:example:recursionCount'(5258, 6)).
+answer('urn:example:recursionCount'(5259, 4)).
+answer('urn:example:recursionCount'(5260, 3)).
+answer('urn:example:recursionCount'(5261, 5)).
+answer('urn:example:recursionCount'(5262, 3)).
+answer('urn:example:recursionCount'(5263, 2)).
+answer('urn:example:recursionCount'(5264, 7)).
+answer('urn:example:recursionCount'(5265, 4)).
+answer('urn:example:recursionCount'(5266, 7)).
+answer('urn:example:recursionCount'(5267, 7)).
+answer('urn:example:recursionCount'(5268, 7)).
+answer('urn:example:recursionCount'(5269, 3)).
+answer('urn:example:recursionCount'(5270, 6)).
+answer('urn:example:recursionCount'(5271, 3)).
+answer('urn:example:recursionCount'(5272, 5)).
+answer('urn:example:recursionCount'(5273, 7)).
+answer('urn:example:recursionCount'(5274, 7)).
+answer('urn:example:recursionCount'(5275, 6)).
+answer('urn:example:recursionCount'(5276, 7)).
+answer('urn:example:recursionCount'(5277, 7)).
+answer('urn:example:recursionCount'(5278, 1)).
+answer('urn:example:recursionCount'(5279, 5)).
+answer('urn:example:recursionCount'(5280, 5)).
+answer('urn:example:recursionCount'(5281, 6)).
+answer('urn:example:recursionCount'(5282, 3)).
+answer('urn:example:recursionCount'(5283, 1)).
+answer('urn:example:recursionCount'(5284, 7)).
+answer('urn:example:recursionCount'(5285, 6)).
+answer('urn:example:recursionCount'(5286, 7)).
+answer('urn:example:recursionCount'(5287, 1)).
+answer('urn:example:recursionCount'(5288, 3)).
+answer('urn:example:recursionCount'(5289, 6)).
+answer('urn:example:recursionCount'(5290, 3)).
+answer('urn:example:recursionCount'(5291, 5)).
+answer('urn:example:recursionCount'(5292, 6)).
+answer('urn:example:recursionCount'(5293, 5)).
+answer('urn:example:recursionCount'(5294, 3)).
+answer('urn:example:recursionCount'(5295, 4)).
+answer('urn:example:recursionCount'(5296, 3)).
+answer('urn:example:recursionCount'(5297, 5)).
+answer('urn:example:recursionCount'(5298, 6)).
+answer('urn:example:recursionCount'(5299, 3)).
+answer('urn:example:recursionCount'(5300, 5)).
+answer('urn:example:recursionCount'(5301, 7)).
+answer('urn:example:recursionCount'(5302, 7)).
+answer('urn:example:recursionCount'(5303, 6)).
+answer('urn:example:recursionCount'(5304, 7)).
+answer('urn:example:recursionCount'(5305, 7)).
+answer('urn:example:recursionCount'(5306, 1)).
+answer('urn:example:recursionCount'(5307, 5)).
+answer('urn:example:recursionCount'(5308, 6)).
+answer('urn:example:recursionCount'(5309, 3)).
+answer('urn:example:recursionCount'(5310, 7)).
+answer('urn:example:recursionCount'(5311, 2)).
+answer('urn:example:recursionCount'(5312, 7)).
+answer('urn:example:recursionCount'(5313, 4)).
+answer('urn:example:recursionCount'(5314, 7)).
+answer('urn:example:recursionCount'(5315, 2)).
+answer('urn:example:recursionCount'(5316, 7)).
+answer('urn:example:recursionCount'(5317, 1)).
+answer('urn:example:recursionCount'(5318, 5)).
+answer('urn:example:recursionCount'(5319, 6)).
+answer('urn:example:recursionCount'(5320, 7)).
+answer('urn:example:recursionCount'(5321, 7)).
+answer('urn:example:recursionCount'(5322, 3)).
+answer('urn:example:recursionCount'(5323, 6)).
+answer('urn:example:recursionCount'(5324, 3)).
+answer('urn:example:recursionCount'(5325, 5)).
+answer('urn:example:recursionCount'(5326, 2)).
+answer('urn:example:recursionCount'(5327, 7)).
+answer('urn:example:recursionCount'(5328, 1)).
+answer('urn:example:recursionCount'(5329, 5)).
+answer('urn:example:recursionCount'(5330, 6)).
+answer('urn:example:recursionCount'(5331, 4)).
+answer('urn:example:recursionCount'(5332, 6)).
+answer('urn:example:recursionCount'(5333, 4)).
+answer('urn:example:recursionCount'(5334, 3)).
+answer('urn:example:recursionCount'(5335, 6)).
+answer('urn:example:recursionCount'(5336, 5)).
+answer('urn:example:recursionCount'(5337, 2)).
+answer('urn:example:recursionCount'(5338, 7)).
+answer('urn:example:recursionCount'(5339, 1)).
+answer('urn:example:recursionCount'(5340, 7)).
+answer('urn:example:recursionCount'(5341, 7)).
+answer('urn:example:recursionCount'(5342, 3)).
+answer('urn:example:recursionCount'(5343, 3)).
+answer('urn:example:recursionCount'(5344, 4)).
+answer('urn:example:recursionCount'(5345, 3)).
+answer('urn:example:recursionCount'(5346, 3)).
+answer('urn:example:recursionCount'(5347, 7)).
+answer('urn:example:recursionCount'(5348, 7)).
+answer('urn:example:recursionCount'(5349, 7)).
+answer('urn:example:recursionCount'(5350, 7)).
+answer('urn:example:recursionCount'(5351, 2)).
+answer('urn:example:recursionCount'(5352, 5)).
+answer('urn:example:recursionCount'(5353, 6)).
+answer('urn:example:recursionCount'(5354, 3)).
+answer('urn:example:recursionCount'(5355, 4)).
+answer('urn:example:recursionCount'(5356, 6)).
+answer('urn:example:recursionCount'(5357, 4)).
+answer('urn:example:recursionCount'(5358, 6)).
+answer('urn:example:recursionCount'(5359, 6)).
+answer('urn:example:recursionCount'(5360, 1)).
+answer('urn:example:recursionCount'(5361, 7)).
+answer('urn:example:recursionCount'(5362, 2)).
+answer('urn:example:recursionCount'(5363, 5)).
+answer('urn:example:recursionCount'(5364, 3)).
+answer('urn:example:recursionCount'(5365, 6)).
+answer('urn:example:recursionCount'(5366, 3)).
+answer('urn:example:recursionCount'(5367, 7)).
+answer('urn:example:recursionCount'(5368, 7)).
+answer('urn:example:recursionCount'(5369, 7)).
+answer('urn:example:recursionCount'(5370, 5)).
+answer('urn:example:recursionCount'(5371, 1)).
+answer('urn:example:recursionCount'(5372, 7)).
+answer('urn:example:recursionCount'(5373, 2)).
+answer('urn:example:recursionCount'(5374, 7)).
+answer('urn:example:recursionCount'(5375, 4)).
+answer('urn:example:recursionCount'(5376, 7)).
+answer('urn:example:recursionCount'(5377, 2)).
+answer('urn:example:recursionCount'(5378, 7)).
+answer('urn:example:recursionCount'(5379, 1)).
+answer('urn:example:recursionCount'(5380, 6)).
+answer('urn:example:recursionCount'(5381, 5)).
+answer('urn:example:recursionCount'(5382, 1)).
+answer('urn:example:recursionCount'(5383, 7)).
+answer('urn:example:recursionCount'(5384, 7)).
+answer('urn:example:recursionCount'(5385, 6)).
+answer('urn:example:recursionCount'(5386, 7)).
+answer('urn:example:recursionCount'(5387, 7)).
+answer('urn:example:recursionCount'(5388, 5)).
+answer('urn:example:recursionCount'(5389, 3)).
+answer('urn:example:recursionCount'(5390, 3)).
+answer('urn:example:recursionCount'(5391, 6)).
+answer('urn:example:recursionCount'(5392, 5)).
+answer('urn:example:recursionCount'(5393, 1)).
+answer('urn:example:recursionCount'(5394, 7)).
+answer('urn:example:recursionCount'(5395, 6)).
+answer('urn:example:recursionCount'(5396, 7)).
+answer('urn:example:recursionCount'(5397, 1)).
+answer('urn:example:recursionCount'(5398, 3)).
+answer('urn:example:recursionCount'(5399, 4)).
+answer('urn:example:recursionCount'(5400, 5)).
+answer('urn:example:recursionCount'(5401, 5)).
+answer('urn:example:recursionCount'(5402, 7)).
+answer('urn:example:recursionCount'(5403, 7)).
+answer('urn:example:recursionCount'(5404, 6)).
+answer('urn:example:recursionCount'(5405, 7)).
+answer('urn:example:recursionCount'(5406, 7)).
+answer('urn:example:recursionCount'(5407, 3)).
+answer('urn:example:recursionCount'(5408, 3)).
+answer('urn:example:recursionCount'(5409, 4)).
+answer('urn:example:recursionCount'(5410, 5)).
+answer('urn:example:recursionCount'(5411, 3)).
+answer('urn:example:recursionCount'(5412, 2)).
+answer('urn:example:recursionCount'(5413, 7)).
+answer('urn:example:recursionCount'(5414, 4)).
+answer('urn:example:recursionCount'(5415, 7)).
+answer('urn:example:recursionCount'(5416, 7)).
+answer('urn:example:recursionCount'(5417, 7)).
+answer('urn:example:recursionCount'(5418, 3)).
+answer('urn:example:recursionCount'(5419, 3)).
+answer('urn:example:recursionCount'(5420, 7)).
+answer('urn:example:recursionCount'(5421, 2)).
+answer('urn:example:recursionCount'(5422, 5)).
+answer('urn:example:recursionCount'(5423, 3)).
+answer('urn:example:recursionCount'(5424, 6)).
+answer('urn:example:recursionCount'(5425, 3)).
+answer('urn:example:recursionCount'(5426, 7)).
+answer('urn:example:recursionCount'(5427, 7)).
+answer('urn:example:recursionCount'(5428, 7)).
+answer('urn:example:recursionCount'(5429, 3)).
+answer('urn:example:recursionCount'(5430, 7)).
+answer('urn:example:recursionCount'(5431, 7)).
+answer('urn:example:recursionCount'(5432, 3)).
+answer('urn:example:recursionCount'(5433, 3)).
+answer('urn:example:recursionCount'(5434, 4)).
+answer('urn:example:recursionCount'(5435, 3)).
+answer('urn:example:recursionCount'(5436, 3)).
+answer('urn:example:recursionCount'(5437, 7)).
+answer('urn:example:recursionCount'(5438, 7)).
+answer('urn:example:recursionCount'(5439, 7)).
+answer('urn:example:recursionCount'(5440, 6)).
+answer('urn:example:recursionCount'(5441, 4)).
+answer('urn:example:recursionCount'(5442, 6)).
+answer('urn:example:recursionCount'(5443, 4)).
+answer('urn:example:recursionCount'(5444, 5)).
+answer('urn:example:recursionCount'(5445, 4)).
+answer('urn:example:recursionCount'(5446, 3)).
+answer('urn:example:recursionCount'(5447, 3)).
+answer('urn:example:recursionCount'(5448, 7)).
+answer('urn:example:recursionCount'(5449, 7)).
+answer('urn:example:recursionCount'(5450, 7)).
+answer('urn:example:recursionCount'(5451, 7)).
+answer('urn:example:recursionCount'(5452, 3)).
+answer('urn:example:recursionCount'(5453, 3)).
+answer('urn:example:recursionCount'(5454, 4)).
+answer('urn:example:recursionCount'(5455, 5)).
+answer('urn:example:recursionCount'(5456, 4)).
+answer('urn:example:recursionCount'(5457, 6)).
+answer('urn:example:recursionCount'(5458, 4)).
+answer('urn:example:recursionCount'(5459, 6)).
+answer('urn:example:recursionCount'(5460, 7)).
+answer('urn:example:recursionCount'(5461, 7)).
+answer('urn:example:recursionCount'(5462, 7)).
+answer('urn:example:recursionCount'(5463, 3)).
+answer('urn:example:recursionCount'(5464, 3)).
+answer('urn:example:recursionCount'(5465, 4)).
+answer('urn:example:recursionCount'(5466, 3)).
+answer('urn:example:recursionCount'(5467, 3)).
+answer('urn:example:recursionCount'(5468, 7)).
+answer('urn:example:recursionCount'(5469, 7)).
+answer('urn:example:recursionCount'(5470, 3)).
+answer('urn:example:recursionCount'(5471, 7)).
+answer('urn:example:recursionCount'(5472, 7)).
+answer('urn:example:recursionCount'(5473, 7)).
+answer('urn:example:recursionCount'(5474, 3)).
+answer('urn:example:recursionCount'(5475, 6)).
+answer('urn:example:recursionCount'(5476, 3)).
+answer('urn:example:recursionCount'(5477, 5)).
+answer('urn:example:recursionCount'(5478, 2)).
+answer('urn:example:recursionCount'(5479, 7)).
+answer('urn:example:recursionCount'(5480, 3)).
+answer('urn:example:recursionCount'(5481, 3)).
+answer('urn:example:recursionCount'(5482, 7)).
+answer('urn:example:recursionCount'(5483, 7)).
+answer('urn:example:recursionCount'(5484, 7)).
+answer('urn:example:recursionCount'(5485, 4)).
+answer('urn:example:recursionCount'(5486, 7)).
+answer('urn:example:recursionCount'(5487, 2)).
+answer('urn:example:recursionCount'(5488, 3)).
+answer('urn:example:recursionCount'(5489, 5)).
+answer('urn:example:recursionCount'(5490, 4)).
+answer('urn:example:recursionCount'(5491, 3)).
+answer('urn:example:recursionCount'(5492, 3)).
+answer('urn:example:recursionCount'(5493, 7)).
+answer('urn:example:recursionCount'(5494, 7)).
+answer('urn:example:recursionCount'(5495, 6)).
+answer('urn:example:recursionCount'(5496, 7)).
+answer('urn:example:recursionCount'(5497, 7)).
+answer('urn:example:recursionCount'(5498, 5)).
+answer('urn:example:recursionCount'(5499, 5)).
+answer('urn:example:recursionCount'(5500, 5)).
+answer('urn:example:recursionCount'(5501, 5)).
+answer('urn:example:recursionCount'(5502, 5)).
+answer('urn:example:recursionCount'(5503, 7)).
+answer('urn:example:recursionCount'(5504, 7)).
+answer('urn:example:recursionCount'(5505, 6)).
+answer('urn:example:recursionCount'(5506, 6)).
+answer('urn:example:recursionCount'(5507, 4)).
+answer('urn:example:recursionCount'(5508, 6)).
+answer('urn:example:recursionCount'(5509, 4)).
+answer('urn:example:recursionCount'(5510, 5)).
+answer('urn:example:recursionCount'(5511, 4)).
+answer('urn:example:recursionCount'(5512, 3)).
+answer('urn:example:recursionCount'(5513, 2)).
+answer('urn:example:recursionCount'(5514, 7)).
+answer('urn:example:recursionCount'(5515, 4)).
+answer('urn:example:recursionCount'(5516, 6)).
+answer('urn:example:recursionCount'(5517, 6)).
+answer('urn:example:recursionCount'(5518, 4)).
+answer('urn:example:recursionCount'(5519, 6)).
+answer('urn:example:recursionCount'(5520, 5)).
+answer('urn:example:recursionCount'(5521, 3)).
+answer('urn:example:recursionCount'(5522, 6)).
+answer('urn:example:recursionCount'(5523, 5)).
+answer('urn:example:recursionCount'(5524, 3)).
+answer('urn:example:recursionCount'(5525, 6)).
+answer('urn:example:recursionCount'(5526, 4)).
+answer('urn:example:recursionCount'(5527, 6)).
+answer('urn:example:recursionCount'(5528, 6)).
+answer('urn:example:recursionCount'(5529, 4)).
+answer('urn:example:recursionCount'(5530, 7)).
+answer('urn:example:recursionCount'(5531, 2)).
+answer('urn:example:recursionCount'(5532, 5)).
+answer('urn:example:recursionCount'(5533, 6)).
+answer('urn:example:recursionCount'(5534, 3)).
+answer('urn:example:recursionCount'(5535, 4)).
+answer('urn:example:recursionCount'(5536, 6)).
+answer('urn:example:recursionCount'(5537, 4)).
+answer('urn:example:recursionCount'(5538, 6)).
+answer('urn:example:recursionCount'(5539, 6)).
+answer('urn:example:recursionCount'(5540, 7)).
+answer('urn:example:recursionCount'(5541, 7)).
+answer('urn:example:recursionCount'(5542, 3)).
+answer('urn:example:recursionCount'(5543, 3)).
+answer('urn:example:recursionCount'(5544, 4)).
+answer('urn:example:recursionCount'(5545, 5)).
+answer('urn:example:recursionCount'(5546, 4)).
+answer('urn:example:recursionCount'(5547, 6)).
+answer('urn:example:recursionCount'(5548, 4)).
+answer('urn:example:recursionCount'(5549, 6)).
+answer('urn:example:recursionCount'(5550, 6)).
+answer('urn:example:recursionCount'(5551, 4)).
+answer('urn:example:recursionCount'(5552, 6)).
+answer('urn:example:recursionCount'(5553, 4)).
+answer('urn:example:recursionCount'(5554, 5)).
+answer('urn:example:recursionCount'(5556, 5)).
+answer('urn:example:recursionCount'(5557, 4)).
+answer('urn:example:recursionCount'(5558, 6)).
+answer('urn:example:recursionCount'(5559, 4)).
+answer('urn:example:recursionCount'(5560, 6)).
+answer('urn:example:recursionCount'(5561, 6)).
+answer('urn:example:recursionCount'(5562, 4)).
+answer('urn:example:recursionCount'(5563, 6)).
+answer('urn:example:recursionCount'(5564, 4)).
+answer('urn:example:recursionCount'(5565, 5)).
+answer('urn:example:recursionCount'(5566, 4)).
+answer('urn:example:recursionCount'(5567, 3)).
+answer('urn:example:recursionCount'(5568, 3)).
+answer('urn:example:recursionCount'(5569, 7)).
+answer('urn:example:recursionCount'(5570, 4)).
+answer('urn:example:recursionCount'(5571, 6)).
+answer('urn:example:recursionCount'(5572, 6)).
+answer('urn:example:recursionCount'(5573, 4)).
+answer('urn:example:recursionCount'(5574, 6)).
+answer('urn:example:recursionCount'(5575, 4)).
+answer('urn:example:recursionCount'(5576, 3)).
+answer('urn:example:recursionCount'(5577, 6)).
+answer('urn:example:recursionCount'(5578, 5)).
+answer('urn:example:recursionCount'(5579, 2)).
+answer('urn:example:recursionCount'(5580, 6)).
+answer('urn:example:recursionCount'(5581, 4)).
+answer('urn:example:recursionCount'(5582, 6)).
+answer('urn:example:recursionCount'(5583, 6)).
+answer('urn:example:recursionCount'(5584, 4)).
+answer('urn:example:recursionCount'(5585, 6)).
+answer('urn:example:recursionCount'(5586, 3)).
+answer('urn:example:recursionCount'(5587, 5)).
+answer('urn:example:recursionCount'(5588, 6)).
+answer('urn:example:recursionCount'(5589, 3)).
+answer('urn:example:recursionCount'(5590, 4)).
+answer('urn:example:recursionCount'(5591, 6)).
+answer('urn:example:recursionCount'(5592, 4)).
+answer('urn:example:recursionCount'(5593, 6)).
+answer('urn:example:recursionCount'(5594, 6)).
+answer('urn:example:recursionCount'(5595, 4)).
+answer('urn:example:recursionCount'(5596, 7)).
+answer('urn:example:recursionCount'(5597, 2)).
+answer('urn:example:recursionCount'(5598, 3)).
+answer('urn:example:recursionCount'(5599, 4)).
+answer('urn:example:recursionCount'(5600, 5)).
+answer('urn:example:recursionCount'(5601, 4)).
+answer('urn:example:recursionCount'(5602, 3)).
+answer('urn:example:recursionCount'(5603, 1)).
+answer('urn:example:recursionCount'(5604, 7)).
+answer('urn:example:recursionCount'(5605, 6)).
+answer('urn:example:recursionCount'(5606, 7)).
+answer('urn:example:recursionCount'(5607, 3)).
+answer('urn:example:recursionCount'(5608, 3)).
+answer('urn:example:recursionCount'(5609, 4)).
+answer('urn:example:recursionCount'(5610, 4)).
+answer('urn:example:recursionCount'(5611, 5)).
+answer('urn:example:recursionCount'(5612, 5)).
+answer('urn:example:recursionCount'(5613, 7)).
+answer('urn:example:recursionCount'(5614, 7)).
+answer('urn:example:recursionCount'(5615, 6)).
+answer('urn:example:recursionCount'(5616, 7)).
+answer('urn:example:recursionCount'(5617, 7)).
+answer('urn:example:recursionCount'(5618, 3)).
+answer('urn:example:recursionCount'(5619, 3)).
+answer('urn:example:recursionCount'(5620, 3)).
+answer('urn:example:recursionCount'(5621, 5)).
+answer('urn:example:recursionCount'(5622, 3)).
+answer('urn:example:recursionCount'(5623, 2)).
+answer('urn:example:recursionCount'(5624, 7)).
+answer('urn:example:recursionCount'(5625, 4)).
+answer('urn:example:recursionCount'(5626, 7)).
+answer('urn:example:recursionCount'(5627, 7)).
+answer('urn:example:recursionCount'(5628, 7)).
+answer('urn:example:recursionCount'(5629, 3)).
+answer('urn:example:recursionCount'(5630, 1)).
+answer('urn:example:recursionCount'(5631, 7)).
+answer('urn:example:recursionCount'(5632, 2)).
+answer('urn:example:recursionCount'(5633, 5)).
+answer('urn:example:recursionCount'(5634, 3)).
+answer('urn:example:recursionCount'(5635, 6)).
+answer('urn:example:recursionCount'(5636, 3)).
+answer('urn:example:recursionCount'(5637, 7)).
+answer('urn:example:recursionCount'(5638, 7)).
+answer('urn:example:recursionCount'(5639, 7)).
+answer('urn:example:recursionCount'(5640, 7)).
+answer('urn:example:recursionCount'(5641, 7)).
+answer('urn:example:recursionCount'(5642, 7)).
+answer('urn:example:recursionCount'(5643, 3)).
+answer('urn:example:recursionCount'(5644, 3)).
+answer('urn:example:recursionCount'(5645, 4)).
+answer('urn:example:recursionCount'(5646, 3)).
+answer('urn:example:recursionCount'(5647, 3)).
+answer('urn:example:recursionCount'(5648, 7)).
+answer('urn:example:recursionCount'(5649, 7)).
+answer('urn:example:recursionCount'(5650, 6)).
+answer('urn:example:recursionCount'(5651, 6)).
+answer('urn:example:recursionCount'(5652, 4)).
+answer('urn:example:recursionCount'(5653, 6)).
+answer('urn:example:recursionCount'(5654, 4)).
+answer('urn:example:recursionCount'(5655, 5)).
+answer('urn:example:recursionCount'(5656, 4)).
+answer('urn:example:recursionCount'(5657, 3)).
+answer('urn:example:recursionCount'(5658, 3)).
+answer('urn:example:recursionCount'(5659, 7)).
+answer('urn:example:recursionCount'(5660, 7)).
+answer('urn:example:recursionCount'(5661, 7)).
+answer('urn:example:recursionCount'(5662, 7)).
+answer('urn:example:recursionCount'(5663, 3)).
+answer('urn:example:recursionCount'(5664, 3)).
+answer('urn:example:recursionCount'(5665, 4)).
+answer('urn:example:recursionCount'(5666, 5)).
+answer('urn:example:recursionCount'(5667, 4)).
+answer('urn:example:recursionCount'(5668, 6)).
+answer('urn:example:recursionCount'(5669, 4)).
+answer('urn:example:recursionCount'(5670, 3)).
+answer('urn:example:recursionCount'(5671, 7)).
+answer('urn:example:recursionCount'(5672, 7)).
+answer('urn:example:recursionCount'(5673, 7)).
+answer('urn:example:recursionCount'(5674, 3)).
+answer('urn:example:recursionCount'(5675, 3)).
+answer('urn:example:recursionCount'(5676, 4)).
+answer('urn:example:recursionCount'(5677, 3)).
+answer('urn:example:recursionCount'(5678, 3)).
+answer('urn:example:recursionCount'(5679, 7)).
+answer('urn:example:recursionCount'(5680, 3)).
+answer('urn:example:recursionCount'(5681, 3)).
+answer('urn:example:recursionCount'(5682, 7)).
+answer('urn:example:recursionCount'(5683, 7)).
+answer('urn:example:recursionCount'(5684, 7)).
+answer('urn:example:recursionCount'(5685, 3)).
+answer('urn:example:recursionCount'(5686, 6)).
+answer('urn:example:recursionCount'(5687, 3)).
+answer('urn:example:recursionCount'(5688, 5)).
+answer('urn:example:recursionCount'(5689, 2)).
+answer('urn:example:recursionCount'(5690, 4)).
+answer('urn:example:recursionCount'(5691, 3)).
+answer('urn:example:recursionCount'(5692, 3)).
+answer('urn:example:recursionCount'(5693, 7)).
+answer('urn:example:recursionCount'(5694, 7)).
+answer('urn:example:recursionCount'(5695, 7)).
+answer('urn:example:recursionCount'(5696, 4)).
+answer('urn:example:recursionCount'(5697, 7)).
+answer('urn:example:recursionCount'(5698, 2)).
+answer('urn:example:recursionCount'(5699, 3)).
+answer('urn:example:recursionCount'(5700, 5)).
+answer('urn:example:recursionCount'(5701, 3)).
+answer('urn:example:recursionCount'(5702, 6)).
+answer('urn:example:recursionCount'(5703, 5)).
+answer('urn:example:recursionCount'(5704, 3)).
+answer('urn:example:recursionCount'(5705, 4)).
+answer('urn:example:recursionCount'(5706, 3)).
+answer('urn:example:recursionCount'(5707, 5)).
+answer('urn:example:recursionCount'(5708, 6)).
+answer('urn:example:recursionCount'(5709, 3)).
+answer('urn:example:recursionCount'(5710, 3)).
+answer('urn:example:recursionCount'(5711, 4)).
+answer('urn:example:recursionCount'(5712, 3)).
+answer('urn:example:recursionCount'(5713, 1)).
+answer('urn:example:recursionCount'(5714, 7)).
+answer('urn:example:recursionCount'(5715, 6)).
+answer('urn:example:recursionCount'(5716, 7)).
+answer('urn:example:recursionCount'(5717, 1)).
+answer('urn:example:recursionCount'(5718, 5)).
+answer('urn:example:recursionCount'(5719, 6)).
+answer('urn:example:recursionCount'(5720, 6)).
+answer('urn:example:recursionCount'(5721, 3)).
+answer('urn:example:recursionCount'(5722, 5)).
+answer('urn:example:recursionCount'(5723, 7)).
+answer('urn:example:recursionCount'(5724, 7)).
+answer('urn:example:recursionCount'(5725, 6)).
+answer('urn:example:recursionCount'(5726, 7)).
+answer('urn:example:recursionCount'(5727, 7)).
+answer('urn:example:recursionCount'(5728, 1)).
+answer('urn:example:recursionCount'(5729, 5)).
+answer('urn:example:recursionCount'(5730, 5)).
+answer('urn:example:recursionCount'(5731, 1)).
+answer('urn:example:recursionCount'(5732, 7)).
+answer('urn:example:recursionCount'(5733, 2)).
+answer('urn:example:recursionCount'(5734, 7)).
+answer('urn:example:recursionCount'(5735, 4)).
+answer('urn:example:recursionCount'(5736, 7)).
+answer('urn:example:recursionCount'(5737, 2)).
+answer('urn:example:recursionCount'(5738, 7)).
+answer('urn:example:recursionCount'(5739, 1)).
+answer('urn:example:recursionCount'(5740, 3)).
+answer('urn:example:recursionCount'(5741, 7)).
+answer('urn:example:recursionCount'(5742, 7)).
+answer('urn:example:recursionCount'(5743, 7)).
+answer('urn:example:recursionCount'(5744, 3)).
+answer('urn:example:recursionCount'(5745, 6)).
+answer('urn:example:recursionCount'(5746, 3)).
+answer('urn:example:recursionCount'(5747, 5)).
+answer('urn:example:recursionCount'(5748, 2)).
+answer('urn:example:recursionCount'(5749, 7)).
+answer('urn:example:recursionCount'(5750, 4)).
+answer('urn:example:recursionCount'(5751, 6)).
+answer('urn:example:recursionCount'(5752, 6)).
+answer('urn:example:recursionCount'(5753, 4)).
+answer('urn:example:recursionCount'(5754, 6)).
+answer('urn:example:recursionCount'(5755, 4)).
+answer('urn:example:recursionCount'(5756, 3)).
+answer('urn:example:recursionCount'(5757, 6)).
+answer('urn:example:recursionCount'(5758, 5)).
+answer('urn:example:recursionCount'(5759, 2)).
+answer('urn:example:recursionCount'(5760, 3)).
+answer('urn:example:recursionCount'(5761, 7)).
+answer('urn:example:recursionCount'(5762, 7)).
+answer('urn:example:recursionCount'(5763, 7)).
+answer('urn:example:recursionCount'(5764, 3)).
+answer('urn:example:recursionCount'(5765, 3)).
+answer('urn:example:recursionCount'(5766, 4)).
+answer('urn:example:recursionCount'(5767, 3)).
+answer('urn:example:recursionCount'(5768, 3)).
+answer('urn:example:recursionCount'(5769, 7)).
+answer('urn:example:recursionCount'(5770, 5)).
+answer('urn:example:recursionCount'(5771, 1)).
+answer('urn:example:recursionCount'(5772, 7)).
+answer('urn:example:recursionCount'(5773, 2)).
+answer('urn:example:recursionCount'(5774, 5)).
+answer('urn:example:recursionCount'(5775, 6)).
+answer('urn:example:recursionCount'(5776, 3)).
+answer('urn:example:recursionCount'(5777, 4)).
+answer('urn:example:recursionCount'(5778, 6)).
+answer('urn:example:recursionCount'(5779, 4)).
+answer('urn:example:recursionCount'(5780, 6)).
+answer('urn:example:recursionCount'(5781, 5)).
+answer('urn:example:recursionCount'(5782, 1)).
+answer('urn:example:recursionCount'(5783, 7)).
+answer('urn:example:recursionCount'(5784, 2)).
+answer('urn:example:recursionCount'(5785, 5)).
+answer('urn:example:recursionCount'(5786, 3)).
+answer('urn:example:recursionCount'(5787, 6)).
+answer('urn:example:recursionCount'(5788, 3)).
+answer('urn:example:recursionCount'(5789, 7)).
+answer('urn:example:recursionCount'(5790, 3)).
+answer('urn:example:recursionCount'(5791, 6)).
+answer('urn:example:recursionCount'(5792, 5)).
+answer('urn:example:recursionCount'(5793, 1)).
+answer('urn:example:recursionCount'(5794, 7)).
+answer('urn:example:recursionCount'(5795, 2)).
+answer('urn:example:recursionCount'(5796, 7)).
+answer('urn:example:recursionCount'(5797, 4)).
+answer('urn:example:recursionCount'(5798, 7)).
+answer('urn:example:recursionCount'(5799, 2)).
+answer('urn:example:recursionCount'(5800, 7)).
+answer('urn:example:recursionCount'(5801, 2)).
+answer('urn:example:recursionCount'(5802, 5)).
+answer('urn:example:recursionCount'(5803, 6)).
+answer('urn:example:recursionCount'(5804, 3)).
+answer('urn:example:recursionCount'(5805, 6)).
+answer('urn:example:recursionCount'(5806, 3)).
+answer('urn:example:recursionCount'(5807, 6)).
+answer('urn:example:recursionCount'(5808, 5)).
+answer('urn:example:recursionCount'(5809, 3)).
+answer('urn:example:recursionCount'(5810, 2)).
+answer('urn:example:recursionCount'(5811, 3)).
+answer('urn:example:recursionCount'(5812, 6)).
+answer('urn:example:recursionCount'(5813, 5)).
+answer('urn:example:recursionCount'(5814, 3)).
+answer('urn:example:recursionCount'(5815, 4)).
+answer('urn:example:recursionCount'(5816, 3)).
+answer('urn:example:recursionCount'(5817, 5)).
+answer('urn:example:recursionCount'(5818, 6)).
+answer('urn:example:recursionCount'(5819, 5)).
+answer('urn:example:recursionCount'(5820, 5)).
+answer('urn:example:recursionCount'(5821, 6)).
+answer('urn:example:recursionCount'(5822, 3)).
+answer('urn:example:recursionCount'(5823, 1)).
+answer('urn:example:recursionCount'(5824, 7)).
+answer('urn:example:recursionCount'(5825, 6)).
+answer('urn:example:recursionCount'(5826, 7)).
+answer('urn:example:recursionCount'(5827, 1)).
+answer('urn:example:recursionCount'(5828, 3)).
+answer('urn:example:recursionCount'(5829, 6)).
+answer('urn:example:recursionCount'(5830, 6)).
+answer('urn:example:recursionCount'(5831, 5)).
+answer('urn:example:recursionCount'(5832, 1)).
+answer('urn:example:recursionCount'(5833, 7)).
+answer('urn:example:recursionCount'(5834, 7)).
+answer('urn:example:recursionCount'(5835, 6)).
+answer('urn:example:recursionCount'(5836, 7)).
+answer('urn:example:recursionCount'(5837, 7)).
+answer('urn:example:recursionCount'(5838, 5)).
+answer('urn:example:recursionCount'(5839, 3)).
+answer('urn:example:recursionCount'(5840, 3)).
+answer('urn:example:recursionCount'(5841, 3)).
+answer('urn:example:recursionCount'(5842, 7)).
+answer('urn:example:recursionCount'(5843, 7)).
+answer('urn:example:recursionCount'(5844, 7)).
+answer('urn:example:recursionCount'(5845, 4)).
+answer('urn:example:recursionCount'(5846, 7)).
+answer('urn:example:recursionCount'(5847, 2)).
+answer('urn:example:recursionCount'(5848, 3)).
+answer('urn:example:recursionCount'(5849, 5)).
+answer('urn:example:recursionCount'(5850, 6)).
+answer('urn:example:recursionCount'(5851, 4)).
+answer('urn:example:recursionCount'(5852, 6)).
+answer('urn:example:recursionCount'(5853, 6)).
+answer('urn:example:recursionCount'(5854, 4)).
+answer('urn:example:recursionCount'(5855, 6)).
+answer('urn:example:recursionCount'(5856, 3)).
+answer('urn:example:recursionCount'(5857, 5)).
+answer('urn:example:recursionCount'(5858, 6)).
+answer('urn:example:recursionCount'(5859, 3)).
+answer('urn:example:recursionCount'(5860, 3)).
+answer('urn:example:recursionCount'(5861, 3)).
+answer('urn:example:recursionCount'(5862, 7)).
+answer('urn:example:recursionCount'(5863, 7)).
+answer('urn:example:recursionCount'(5864, 7)).
+answer('urn:example:recursionCount'(5865, 3)).
+answer('urn:example:recursionCount'(5866, 6)).
+answer('urn:example:recursionCount'(5867, 3)).
+answer('urn:example:recursionCount'(5868, 5)).
+answer('urn:example:recursionCount'(5869, 2)).
+answer('urn:example:recursionCount'(5870, 6)).
+answer('urn:example:recursionCount'(5871, 5)).
+answer('urn:example:recursionCount'(5872, 1)).
+answer('urn:example:recursionCount'(5873, 7)).
+answer('urn:example:recursionCount'(5874, 2)).
+answer('urn:example:recursionCount'(5875, 5)).
+answer('urn:example:recursionCount'(5876, 3)).
+answer('urn:example:recursionCount'(5877, 6)).
+answer('urn:example:recursionCount'(5878, 3)).
+answer('urn:example:recursionCount'(5879, 7)).
+answer('urn:example:recursionCount'(5880, 5)).
+answer('urn:example:recursionCount'(5881, 6)).
+answer('urn:example:recursionCount'(5882, 3)).
+answer('urn:example:recursionCount'(5883, 5)).
+answer('urn:example:recursionCount'(5884, 3)).
+answer('urn:example:recursionCount'(5885, 6)).
+answer('urn:example:recursionCount'(5886, 5)).
+answer('urn:example:recursionCount'(5887, 3)).
+answer('urn:example:recursionCount'(5888, 6)).
+answer('urn:example:recursionCount'(5889, 4)).
+answer('urn:example:recursionCount'(5890, 3)).
+answer('urn:example:recursionCount'(5891, 5)).
+answer('urn:example:recursionCount'(5892, 6)).
+answer('urn:example:recursionCount'(5893, 3)).
+answer('urn:example:recursionCount'(5894, 5)).
+answer('urn:example:recursionCount'(5895, 3)).
+answer('urn:example:recursionCount'(5896, 2)).
+answer('urn:example:recursionCount'(5897, 7)).
+answer('urn:example:recursionCount'(5898, 4)).
+answer('urn:example:recursionCount'(5899, 7)).
+answer('urn:example:recursionCount'(5900, 7)).
+answer('urn:example:recursionCount'(5901, 7)).
+answer('urn:example:recursionCount'(5902, 3)).
+answer('urn:example:recursionCount'(5903, 3)).
+answer('urn:example:recursionCount'(5904, 4)).
+answer('urn:example:recursionCount'(5905, 4)).
+answer('urn:example:recursionCount'(5906, 4)).
+answer('urn:example:recursionCount'(5907, 3)).
+answer('urn:example:recursionCount'(5908, 3)).
+answer('urn:example:recursionCount'(5909, 7)).
+answer('urn:example:recursionCount'(5910, 7)).
+answer('urn:example:recursionCount'(5911, 2)).
+answer('urn:example:recursionCount'(5912, 5)).
+answer('urn:example:recursionCount'(5913, 6)).
+answer('urn:example:recursionCount'(5914, 3)).
+answer('urn:example:recursionCount'(5915, 6)).
+answer('urn:example:recursionCount'(5916, 3)).
+answer('urn:example:recursionCount'(5917, 6)).
+answer('urn:example:recursionCount'(5918, 5)).
+answer('urn:example:recursionCount'(5919, 2)).
+answer('urn:example:recursionCount'(5920, 3)).
+answer('urn:example:recursionCount'(5921, 5)).
+answer('urn:example:recursionCount'(5922, 6)).
+answer('urn:example:recursionCount'(5923, 5)).
+answer('urn:example:recursionCount'(5924, 3)).
+answer('urn:example:recursionCount'(5925, 4)).
+answer('urn:example:recursionCount'(5926, 3)).
+answer('urn:example:recursionCount'(5927, 5)).
+answer('urn:example:recursionCount'(5928, 6)).
+answer('urn:example:recursionCount'(5929, 3)).
+answer('urn:example:recursionCount'(5930, 3)).
+answer('urn:example:recursionCount'(5931, 6)).
+answer('urn:example:recursionCount'(5932, 5)).
+answer('urn:example:recursionCount'(5933, 1)).
+answer('urn:example:recursionCount'(5934, 7)).
+answer('urn:example:recursionCount'(5935, 6)).
+answer('urn:example:recursionCount'(5936, 7)).
+answer('urn:example:recursionCount'(5937, 1)).
+answer('urn:example:recursionCount'(5938, 3)).
+answer('urn:example:recursionCount'(5939, 4)).
+answer('urn:example:recursionCount'(5940, 4)).
+answer('urn:example:recursionCount'(5941, 3)).
+answer('urn:example:recursionCount'(5942, 3)).
+answer('urn:example:recursionCount'(5943, 7)).
+answer('urn:example:recursionCount'(5944, 7)).
+answer('urn:example:recursionCount'(5945, 6)).
+answer('urn:example:recursionCount'(5946, 7)).
+answer('urn:example:recursionCount'(5947, 7)).
+answer('urn:example:recursionCount'(5948, 5)).
+answer('urn:example:recursionCount'(5949, 5)).
+answer('urn:example:recursionCount'(5950, 4)).
+answer('urn:example:recursionCount'(5951, 6)).
+answer('urn:example:recursionCount'(5952, 4)).
+answer('urn:example:recursionCount'(5953, 6)).
+answer('urn:example:recursionCount'(5954, 6)).
+answer('urn:example:recursionCount'(5955, 4)).
+answer('urn:example:recursionCount'(5956, 7)).
+answer('urn:example:recursionCount'(5957, 2)).
+answer('urn:example:recursionCount'(5958, 3)).
+answer('urn:example:recursionCount'(5959, 4)).
+answer('urn:example:recursionCount'(5960, 4)).
+answer('urn:example:recursionCount'(5961, 3)).
+answer('urn:example:recursionCount'(5962, 3)).
+answer('urn:example:recursionCount'(5963, 7)).
+answer('urn:example:recursionCount'(5964, 7)).
+answer('urn:example:recursionCount'(5965, 7)).
+answer('urn:example:recursionCount'(5966, 4)).
+answer('urn:example:recursionCount'(5967, 7)).
+answer('urn:example:recursionCount'(5968, 2)).
+answer('urn:example:recursionCount'(5969, 3)).
+answer('urn:example:recursionCount'(5970, 3)).
+answer('urn:example:recursionCount'(5971, 6)).
+answer('urn:example:recursionCount'(5972, 5)).
+answer('urn:example:recursionCount'(5973, 1)).
+answer('urn:example:recursionCount'(5974, 7)).
+answer('urn:example:recursionCount'(5975, 2)).
+answer('urn:example:recursionCount'(5976, 7)).
+answer('urn:example:recursionCount'(5977, 4)).
+answer('urn:example:recursionCount'(5978, 7)).
+answer('urn:example:recursionCount'(5979, 2)).
+answer('urn:example:recursionCount'(5980, 3)).
+answer('urn:example:recursionCount'(5981, 5)).
+answer('urn:example:recursionCount'(5982, 6)).
+answer('urn:example:recursionCount'(5983, 3)).
+answer('urn:example:recursionCount'(5984, 5)).
+answer('urn:example:recursionCount'(5985, 3)).
+answer('urn:example:recursionCount'(5986, 2)).
+answer('urn:example:recursionCount'(5987, 7)).
+answer('urn:example:recursionCount'(5988, 4)).
+answer('urn:example:recursionCount'(5989, 7)).
+answer('urn:example:recursionCount'(5990, 7)).
+answer('urn:example:recursionCount'(5991, 2)).
+answer('urn:example:recursionCount'(5992, 3)).
+answer('urn:example:recursionCount'(5993, 4)).
+answer('urn:example:recursionCount'(5994, 5)).
+answer('urn:example:recursionCount'(5995, 4)).
+answer('urn:example:recursionCount'(5996, 3)).
+answer('urn:example:recursionCount'(5997, 2)).
+answer('urn:example:recursionCount'(5998, 7)).
+answer('urn:example:recursionCount'(5999, 4)).
+answer('urn:example:recursionCount'(6000, 6)).
+answer('urn:example:recursionCount'(6001, 7)).
+answer('urn:example:recursionCount'(6002, 1)).
+answer('urn:example:recursionCount'(6003, 3)).
+answer('urn:example:recursionCount'(6004, 4)).
+answer('urn:example:recursionCount'(6005, 5)).
+answer('urn:example:recursionCount'(6006, 4)).
+answer('urn:example:recursionCount'(6007, 3)).
+answer('urn:example:recursionCount'(6008, 2)).
+answer('urn:example:recursionCount'(6009, 7)).
+answer('urn:example:recursionCount'(6010, 7)).
+answer('urn:example:recursionCount'(6011, 6)).
+answer('urn:example:recursionCount'(6012, 7)).
+answer('urn:example:recursionCount'(6013, 1)).
+answer('urn:example:recursionCount'(6014, 3)).
+answer('urn:example:recursionCount'(6015, 4)).
+answer('urn:example:recursionCount'(6016, 5)).
+answer('urn:example:recursionCount'(6017, 5)).
+answer('urn:example:recursionCount'(6018, 7)).
+answer('urn:example:recursionCount'(6019, 7)).
+answer('urn:example:recursionCount'(6020, 1)).
+answer('urn:example:recursionCount'(6021, 7)).
+answer('urn:example:recursionCount'(6022, 6)).
+answer('urn:example:recursionCount'(6023, 7)).
+answer('urn:example:recursionCount'(6024, 1)).
+answer('urn:example:recursionCount'(6025, 3)).
+answer('urn:example:recursionCount'(6026, 4)).
+answer('urn:example:recursionCount'(6027, 3)).
+answer('urn:example:recursionCount'(6028, 2)).
+answer('urn:example:recursionCount'(6029, 7)).
+answer('urn:example:recursionCount'(6030, 3)).
+answer('urn:example:recursionCount'(6031, 1)).
+answer('urn:example:recursionCount'(6032, 7)).
+answer('urn:example:recursionCount'(6033, 6)).
+answer('urn:example:recursionCount'(6034, 7)).
+answer('urn:example:recursionCount'(6035, 1)).
+answer('urn:example:recursionCount'(6036, 3)).
+answer('urn:example:recursionCount'(6037, 6)).
+answer('urn:example:recursionCount'(6038, 5)).
+answer('urn:example:recursionCount'(6039, 3)).
+answer('urn:example:recursionCount'(6040, 4)).
+answer('urn:example:recursionCount'(6041, 3)).
+answer('urn:example:recursionCount'(6042, 1)).
+answer('urn:example:recursionCount'(6043, 7)).
+answer('urn:example:recursionCount'(6044, 6)).
+answer('urn:example:recursionCount'(6045, 7)).
+answer('urn:example:recursionCount'(6046, 1)).
+answer('urn:example:recursionCount'(6047, 5)).
+answer('urn:example:recursionCount'(6048, 6)).
+answer('urn:example:recursionCount'(6049, 3)).
+answer('urn:example:recursionCount'(6050, 5)).
+answer('urn:example:recursionCount'(6051, 4)).
+answer('urn:example:recursionCount'(6052, 3)).
+answer('urn:example:recursionCount'(6053, 1)).
+answer('urn:example:recursionCount'(6054, 7)).
+answer('urn:example:recursionCount'(6055, 6)).
+answer('urn:example:recursionCount'(6056, 7)).
+answer('urn:example:recursionCount'(6057, 3)).
+answer('urn:example:recursionCount'(6058, 3)).
+answer('urn:example:recursionCount'(6059, 4)).
+answer('urn:example:recursionCount'(6060, 4)).
+answer('urn:example:recursionCount'(6061, 5)).
+answer('urn:example:recursionCount'(6062, 4)).
+answer('urn:example:recursionCount'(6063, 3)).
+answer('urn:example:recursionCount'(6064, 1)).
+answer('urn:example:recursionCount'(6065, 7)).
+answer('urn:example:recursionCount'(6066, 6)).
+answer('urn:example:recursionCount'(6067, 4)).
+answer('urn:example:recursionCount'(6068, 6)).
+answer('urn:example:recursionCount'(6069, 4)).
+answer('urn:example:recursionCount'(6070, 3)).
+answer('urn:example:recursionCount'(6071, 5)).
+answer('urn:example:recursionCount'(6072, 3)).
+answer('urn:example:recursionCount'(6073, 6)).
+answer('urn:example:recursionCount'(6074, 5)).
+answer('urn:example:recursionCount'(6075, 3)).
+answer('urn:example:recursionCount'(6076, 4)).
+answer('urn:example:recursionCount'(6077, 3)).
+answer('urn:example:recursionCount'(6078, 3)).
+answer('urn:example:recursionCount'(6079, 4)).
+answer('urn:example:recursionCount'(6080, 2)).
+answer('urn:example:recursionCount'(6081, 7)).
+answer('urn:example:recursionCount'(6082, 2)).
+answer('urn:example:recursionCount'(6083, 5)).
+answer('urn:example:recursionCount'(6084, 6)).
+answer('urn:example:recursionCount'(6085, 3)).
+answer('urn:example:recursionCount'(6086, 6)).
+answer('urn:example:recursionCount'(6087, 3)).
+answer('urn:example:recursionCount'(6088, 6)).
+answer('urn:example:recursionCount'(6089, 3)).
+answer('urn:example:recursionCount'(6090, 7)).
+answer('urn:example:recursionCount'(6091, 7)).
+answer('urn:example:recursionCount'(6092, 7)).
+answer('urn:example:recursionCount'(6093, 3)).
+answer('urn:example:recursionCount'(6094, 3)).
+answer('urn:example:recursionCount'(6095, 4)).
+answer('urn:example:recursionCount'(6096, 4)).
+answer('urn:example:recursionCount'(6097, 4)).
+answer('urn:example:recursionCount'(6098, 3)).
+answer('urn:example:recursionCount'(6099, 3)).
+answer('urn:example:recursionCount'(6100, 7)).
+answer('urn:example:recursionCount'(6101, 6)).
+answer('urn:example:recursionCount'(6102, 7)).
+answer('urn:example:recursionCount'(6103, 1)).
+answer('urn:example:recursionCount'(6104, 3)).
+answer('urn:example:recursionCount'(6105, 4)).
+answer('urn:example:recursionCount'(6106, 5)).
+answer('urn:example:recursionCount'(6107, 5)).
+answer('urn:example:recursionCount'(6108, 7)).
+answer('urn:example:recursionCount'(6109, 7)).
+answer('urn:example:recursionCount'(6110, 6)).
+answer('urn:example:recursionCount'(6111, 6)).
+answer('urn:example:recursionCount'(6112, 7)).
+answer('urn:example:recursionCount'(6113, 7)).
+answer('urn:example:recursionCount'(6114, 5)).
+answer('urn:example:recursionCount'(6115, 5)).
+answer('urn:example:recursionCount'(6116, 5)).
+answer('urn:example:recursionCount'(6117, 5)).
+answer('urn:example:recursionCount'(6118, 5)).
+answer('urn:example:recursionCount'(6119, 7)).
+answer('urn:example:recursionCount'(6120, 7)).
+answer('urn:example:recursionCount'(6121, 7)).
+answer('urn:example:recursionCount'(6122, 6)).
+answer('urn:example:recursionCount'(6123, 7)).
+answer('urn:example:recursionCount'(6124, 7)).
+answer('urn:example:recursionCount'(6125, 5)).
+answer('urn:example:recursionCount'(6126, 5)).
+answer('urn:example:recursionCount'(6127, 4)).
+answer('urn:example:recursionCount'(6128, 3)).
+answer('urn:example:recursionCount'(6129, 2)).
+answer('urn:example:recursionCount'(6130, 1)).
+answer('urn:example:recursionCount'(6131, 7)).
+answer('urn:example:recursionCount'(6132, 7)).
+answer('urn:example:recursionCount'(6133, 6)).
+answer('urn:example:recursionCount'(6134, 7)).
+answer('urn:example:recursionCount'(6135, 7)).
+answer('urn:example:recursionCount'(6136, 5)).
+answer('urn:example:recursionCount'(6137, 3)).
+answer('urn:example:recursionCount'(6138, 6)).
+answer('urn:example:recursionCount'(6139, 5)).
+answer('urn:example:recursionCount'(6140, 3)).
+answer('urn:example:recursionCount'(6141, 5)).
+answer('urn:example:recursionCount'(6142, 7)).
+answer('urn:example:recursionCount'(6143, 7)).
+answer('urn:example:recursionCount'(6144, 6)).
+answer('urn:example:recursionCount'(6145, 7)).
+answer('urn:example:recursionCount'(6146, 7)).
+answer('urn:example:recursionCount'(6147, 1)).
+answer('urn:example:recursionCount'(6148, 5)).
+answer('urn:example:recursionCount'(6149, 6)).
+answer('urn:example:recursionCount'(6150, 4)).
+answer('urn:example:recursionCount'(6151, 5)).
+answer('urn:example:recursionCount'(6152, 5)).
+answer('urn:example:recursionCount'(6153, 7)).
+answer('urn:example:recursionCount'(6154, 7)).
+answer('urn:example:recursionCount'(6155, 6)).
+answer('urn:example:recursionCount'(6156, 7)).
+answer('urn:example:recursionCount'(6157, 7)).
+answer('urn:example:recursionCount'(6158, 3)).
+answer('urn:example:recursionCount'(6159, 3)).
+answer('urn:example:recursionCount'(6160, 5)).
+answer('urn:example:recursionCount'(6161, 5)).
+answer('urn:example:recursionCount'(6162, 5)).
+answer('urn:example:recursionCount'(6163, 5)).
+answer('urn:example:recursionCount'(6164, 7)).
+answer('urn:example:recursionCount'(6165, 7)).
+answer('urn:example:recursionCount'(6166, 6)).
+answer('urn:example:recursionCount'(6167, 6)).
+answer('urn:example:recursionCount'(6168, 4)).
+answer('urn:example:recursionCount'(6169, 6)).
+answer('urn:example:recursionCount'(6170, 5)).
+answer('urn:example:recursionCount'(6171, 5)).
+answer('urn:example:recursionCount'(6172, 4)).
+answer('urn:example:recursionCount'(6173, 3)).
+answer('urn:example:recursionCount'(6174, 1)).
+answer('urn:example:recursionCount'(6175, 7)).
+answer('urn:example:recursionCount'(6176, 6)).
+answer('urn:example:recursionCount'(6177, 7)).
+answer('urn:example:recursionCount'(6178, 3)).
+answer('urn:example:recursionCount'(6179, 3)).
+answer('urn:example:recursionCount'(6180, 7)).
+answer('urn:example:recursionCount'(6181, 5)).
+answer('urn:example:recursionCount'(6182, 3)).
+answer('urn:example:recursionCount'(6183, 6)).
+answer('urn:example:recursionCount'(6184, 5)).
+answer('urn:example:recursionCount'(6185, 3)).
+answer('urn:example:recursionCount'(6186, 4)).
+answer('urn:example:recursionCount'(6187, 3)).
+answer('urn:example:recursionCount'(6188, 5)).
+answer('urn:example:recursionCount'(6189, 6)).
+answer('urn:example:recursionCount'(6190, 7)).
+answer('urn:example:recursionCount'(6191, 7)).
+answer('urn:example:recursionCount'(6192, 2)).
+answer('urn:example:recursionCount'(6193, 5)).
+answer('urn:example:recursionCount'(6194, 6)).
+answer('urn:example:recursionCount'(6195, 3)).
+answer('urn:example:recursionCount'(6196, 6)).
+answer('urn:example:recursionCount'(6197, 3)).
+answer('urn:example:recursionCount'(6198, 6)).
+answer('urn:example:recursionCount'(6199, 5)).
+answer('urn:example:recursionCount'(6200, 1)).
+answer('urn:example:recursionCount'(6201, 7)).
+answer('urn:example:recursionCount'(6202, 6)).
+answer('urn:example:recursionCount'(6203, 7)).
+answer('urn:example:recursionCount'(6204, 1)).
+answer('urn:example:recursionCount'(6205, 3)).
+answer('urn:example:recursionCount'(6206, 4)).
+answer('urn:example:recursionCount'(6207, 3)).
+answer('urn:example:recursionCount'(6208, 2)).
+answer('urn:example:recursionCount'(6209, 7)).
+answer('urn:example:recursionCount'(6210, 7)).
+answer('urn:example:recursionCount'(6211, 7)).
+answer('urn:example:recursionCount'(6212, 6)).
+answer('urn:example:recursionCount'(6213, 7)).
+answer('urn:example:recursionCount'(6214, 7)).
+answer('urn:example:recursionCount'(6215, 5)).
+answer('urn:example:recursionCount'(6216, 5)).
+answer('urn:example:recursionCount'(6217, 4)).
+answer('urn:example:recursionCount'(6218, 3)).
+answer('urn:example:recursionCount'(6219, 2)).
+answer('urn:example:recursionCount'(6220, 6)).
+answer('urn:example:recursionCount'(6221, 6)).
+answer('urn:example:recursionCount'(6222, 4)).
+answer('urn:example:recursionCount'(6223, 7)).
+answer('urn:example:recursionCount'(6224, 2)).
+answer('urn:example:recursionCount'(6225, 3)).
+answer('urn:example:recursionCount'(6226, 4)).
+answer('urn:example:recursionCount'(6227, 5)).
+answer('urn:example:recursionCount'(6228, 4)).
+answer('urn:example:recursionCount'(6229, 3)).
+answer('urn:example:recursionCount'(6230, 7)).
+answer('urn:example:recursionCount'(6231, 7)).
+answer('urn:example:recursionCount'(6232, 7)).
+answer('urn:example:recursionCount'(6233, 4)).
+answer('urn:example:recursionCount'(6234, 7)).
+answer('urn:example:recursionCount'(6235, 2)).
+answer('urn:example:recursionCount'(6236, 3)).
+answer('urn:example:recursionCount'(6237, 5)).
+answer('urn:example:recursionCount'(6238, 3)).
+answer('urn:example:recursionCount'(6239, 6)).
+answer('urn:example:recursionCount'(6240, 1)).
+answer('urn:example:recursionCount'(6241, 7)).
+answer('urn:example:recursionCount'(6242, 2)).
+answer('urn:example:recursionCount'(6243, 7)).
+answer('urn:example:recursionCount'(6244, 4)).
+answer('urn:example:recursionCount'(6245, 7)).
+answer('urn:example:recursionCount'(6246, 2)).
+answer('urn:example:recursionCount'(6247, 7)).
+answer('urn:example:recursionCount'(6248, 1)).
+answer('urn:example:recursionCount'(6249, 5)).
+answer('urn:example:recursionCount'(6250, 3)).
+answer('urn:example:recursionCount'(6251, 5)).
+answer('urn:example:recursionCount'(6252, 3)).
+answer('urn:example:recursionCount'(6253, 2)).
+answer('urn:example:recursionCount'(6254, 7)).
+answer('urn:example:recursionCount'(6255, 4)).
+answer('urn:example:recursionCount'(6256, 7)).
+answer('urn:example:recursionCount'(6257, 7)).
+answer('urn:example:recursionCount'(6258, 7)).
+answer('urn:example:recursionCount'(6259, 3)).
+answer('urn:example:recursionCount'(6260, 4)).
+answer('urn:example:recursionCount'(6261, 5)).
+answer('urn:example:recursionCount'(6262, 4)).
+answer('urn:example:recursionCount'(6263, 3)).
+answer('urn:example:recursionCount'(6264, 2)).
+answer('urn:example:recursionCount'(6265, 7)).
+answer('urn:example:recursionCount'(6266, 4)).
+answer('urn:example:recursionCount'(6267, 6)).
+answer('urn:example:recursionCount'(6268, 6)).
+answer('urn:example:recursionCount'(6269, 4)).
+answer('urn:example:recursionCount'(6270, 3)).
+answer('urn:example:recursionCount'(6271, 4)).
+answer('urn:example:recursionCount'(6272, 5)).
+answer('urn:example:recursionCount'(6273, 5)).
+answer('urn:example:recursionCount'(6274, 7)).
+answer('urn:example:recursionCount'(6275, 7)).
+answer('urn:example:recursionCount'(6276, 6)).
+answer('urn:example:recursionCount'(6277, 7)).
+answer('urn:example:recursionCount'(6278, 7)).
+answer('urn:example:recursionCount'(6279, 3)).
+answer('urn:example:recursionCount'(6280, 2)).
+answer('urn:example:recursionCount'(6281, 3)).
+answer('urn:example:recursionCount'(6282, 4)).
+answer('urn:example:recursionCount'(6283, 3)).
+answer('urn:example:recursionCount'(6284, 1)).
+answer('urn:example:recursionCount'(6285, 7)).
+answer('urn:example:recursionCount'(6286, 6)).
+answer('urn:example:recursionCount'(6287, 7)).
+answer('urn:example:recursionCount'(6288, 1)).
+answer('urn:example:recursionCount'(6289, 5)).
+answer('urn:example:recursionCount'(6290, 7)).
+answer('urn:example:recursionCount'(6291, 2)).
+answer('urn:example:recursionCount'(6292, 3)).
+answer('urn:example:recursionCount'(6293, 6)).
+answer('urn:example:recursionCount'(6294, 5)).
+answer('urn:example:recursionCount'(6295, 3)).
+answer('urn:example:recursionCount'(6296, 4)).
+answer('urn:example:recursionCount'(6297, 3)).
+answer('urn:example:recursionCount'(6298, 5)).
+answer('urn:example:recursionCount'(6299, 6)).
+answer('urn:example:recursionCount'(6300, 3)).
+answer('urn:example:recursionCount'(6301, 1)).
+answer('urn:example:recursionCount'(6302, 7)).
+answer('urn:example:recursionCount'(6303, 6)).
+answer('urn:example:recursionCount'(6304, 7)).
+answer('urn:example:recursionCount'(6305, 1)).
+answer('urn:example:recursionCount'(6306, 3)).
+answer('urn:example:recursionCount'(6307, 6)).
+answer('urn:example:recursionCount'(6308, 5)).
+answer('urn:example:recursionCount'(6309, 3)).
+answer('urn:example:recursionCount'(6310, 1)).
+answer('urn:example:recursionCount'(6311, 7)).
+answer('urn:example:recursionCount'(6312, 7)).
+answer('urn:example:recursionCount'(6313, 6)).
+answer('urn:example:recursionCount'(6314, 7)).
+answer('urn:example:recursionCount'(6315, 7)).
+answer('urn:example:recursionCount'(6316, 5)).
+answer('urn:example:recursionCount'(6317, 3)).
+answer('urn:example:recursionCount'(6318, 6)).
+answer('urn:example:recursionCount'(6319, 5)).
+answer('urn:example:recursionCount'(6320, 7)).
+answer('urn:example:recursionCount'(6321, 7)).
+answer('urn:example:recursionCount'(6322, 7)).
+answer('urn:example:recursionCount'(6323, 4)).
+answer('urn:example:recursionCount'(6324, 7)).
+answer('urn:example:recursionCount'(6325, 2)).
+answer('urn:example:recursionCount'(6326, 3)).
+answer('urn:example:recursionCount'(6327, 5)).
+answer('urn:example:recursionCount'(6328, 3)).
+answer('urn:example:recursionCount'(6329, 6)).
+answer('urn:example:recursionCount'(6330, 6)).
+answer('urn:example:recursionCount'(6331, 6)).
+answer('urn:example:recursionCount'(6332, 4)).
+answer('urn:example:recursionCount'(6333, 6)).
+answer('urn:example:recursionCount'(6334, 3)).
+answer('urn:example:recursionCount'(6335, 5)).
+answer('urn:example:recursionCount'(6336, 6)).
+answer('urn:example:recursionCount'(6337, 3)).
+answer('urn:example:recursionCount'(6338, 5)).
+answer('urn:example:recursionCount'(6339, 3)).
+answer('urn:example:recursionCount'(6340, 7)).
+answer('urn:example:recursionCount'(6341, 7)).
+answer('urn:example:recursionCount'(6342, 7)).
+answer('urn:example:recursionCount'(6343, 3)).
+answer('urn:example:recursionCount'(6344, 6)).
+answer('urn:example:recursionCount'(6345, 3)).
+answer('urn:example:recursionCount'(6346, 5)).
+answer('urn:example:recursionCount'(6347, 2)).
+answer('urn:example:recursionCount'(6348, 7)).
+answer('urn:example:recursionCount'(6349, 1)).
+answer('urn:example:recursionCount'(6350, 1)).
+answer('urn:example:recursionCount'(6351, 7)).
+answer('urn:example:recursionCount'(6352, 2)).
+answer('urn:example:recursionCount'(6353, 5)).
+answer('urn:example:recursionCount'(6354, 3)).
+answer('urn:example:recursionCount'(6355, 6)).
+answer('urn:example:recursionCount'(6356, 3)).
+answer('urn:example:recursionCount'(6357, 7)).
+answer('urn:example:recursionCount'(6358, 7)).
+answer('urn:example:recursionCount'(6359, 7)).
+answer('urn:example:recursionCount'(6360, 3)).
+answer('urn:example:recursionCount'(6361, 5)).
+answer('urn:example:recursionCount'(6362, 3)).
+answer('urn:example:recursionCount'(6363, 6)).
+answer('urn:example:recursionCount'(6364, 5)).
+answer('urn:example:recursionCount'(6365, 3)).
+answer('urn:example:recursionCount'(6366, 6)).
+answer('urn:example:recursionCount'(6367, 4)).
+answer('urn:example:recursionCount'(6368, 6)).
+answer('urn:example:recursionCount'(6369, 6)).
+answer('urn:example:recursionCount'(6370, 6)).
+answer('urn:example:recursionCount'(6371, 3)).
+answer('urn:example:recursionCount'(6372, 5)).
+answer('urn:example:recursionCount'(6373, 3)).
+answer('urn:example:recursionCount'(6374, 2)).
+answer('urn:example:recursionCount'(6375, 7)).
+answer('urn:example:recursionCount'(6376, 4)).
+answer('urn:example:recursionCount'(6377, 7)).
+answer('urn:example:recursionCount'(6378, 7)).
+answer('urn:example:recursionCount'(6379, 7)).
+answer('urn:example:recursionCount'(6380, 5)).
+answer('urn:example:recursionCount'(6381, 6)).
+answer('urn:example:recursionCount'(6382, 3)).
+answer('urn:example:recursionCount'(6383, 5)).
+answer('urn:example:recursionCount'(6384, 7)).
+answer('urn:example:recursionCount'(6385, 7)).
+answer('urn:example:recursionCount'(6386, 6)).
+answer('urn:example:recursionCount'(6387, 7)).
+answer('urn:example:recursionCount'(6388, 7)).
+answer('urn:example:recursionCount'(6389, 1)).
+answer('urn:example:recursionCount'(6390, 3)).
+answer('urn:example:recursionCount'(6391, 5)).
+answer('urn:example:recursionCount'(6392, 6)).
+answer('urn:example:recursionCount'(6393, 3)).
+answer('urn:example:recursionCount'(6394, 1)).
+answer('urn:example:recursionCount'(6395, 7)).
+answer('urn:example:recursionCount'(6396, 6)).
+answer('urn:example:recursionCount'(6397, 7)).
+answer('urn:example:recursionCount'(6398, 1)).
+answer('urn:example:recursionCount'(6399, 3)).
+answer('urn:example:recursionCount'(6400, 4)).
+answer('urn:example:recursionCount'(6401, 3)).
+answer('urn:example:recursionCount'(6402, 1)).
+answer('urn:example:recursionCount'(6403, 7)).
+answer('urn:example:recursionCount'(6404, 6)).
+answer('urn:example:recursionCount'(6405, 7)).
+answer('urn:example:recursionCount'(6406, 1)).
+answer('urn:example:recursionCount'(6407, 5)).
+answer('urn:example:recursionCount'(6408, 6)).
+answer('urn:example:recursionCount'(6409, 3)).
+answer('urn:example:recursionCount'(6410, 3)).
+answer('urn:example:recursionCount'(6411, 5)).
+answer('urn:example:recursionCount'(6412, 7)).
+answer('urn:example:recursionCount'(6413, 7)).
+answer('urn:example:recursionCount'(6414, 6)).
+answer('urn:example:recursionCount'(6415, 7)).
+answer('urn:example:recursionCount'(6416, 7)).
+answer('urn:example:recursionCount'(6417, 1)).
+answer('urn:example:recursionCount'(6418, 5)).
+answer('urn:example:recursionCount'(6419, 6)).
+answer('urn:example:recursionCount'(6420, 1)).
+answer('urn:example:recursionCount'(6421, 7)).
+answer('urn:example:recursionCount'(6422, 2)).
+answer('urn:example:recursionCount'(6423, 7)).
+answer('urn:example:recursionCount'(6424, 4)).
+answer('urn:example:recursionCount'(6425, 7)).
+answer('urn:example:recursionCount'(6426, 2)).
+answer('urn:example:recursionCount'(6427, 7)).
+answer('urn:example:recursionCount'(6428, 1)).
+answer('urn:example:recursionCount'(6429, 5)).
+answer('urn:example:recursionCount'(6430, 7)).
+answer('urn:example:recursionCount'(6431, 7)).
+answer('urn:example:recursionCount'(6432, 7)).
+answer('urn:example:recursionCount'(6433, 3)).
+answer('urn:example:recursionCount'(6434, 6)).
+answer('urn:example:recursionCount'(6435, 3)).
+answer('urn:example:recursionCount'(6436, 5)).
+answer('urn:example:recursionCount'(6437, 2)).
+answer('urn:example:recursionCount'(6438, 7)).
+answer('urn:example:recursionCount'(6439, 1)).
+answer('urn:example:recursionCount'(6440, 6)).
+answer('urn:example:recursionCount'(6441, 6)).
+answer('urn:example:recursionCount'(6442, 4)).
+answer('urn:example:recursionCount'(6443, 6)).
+answer('urn:example:recursionCount'(6444, 4)).
+answer('urn:example:recursionCount'(6445, 3)).
+answer('urn:example:recursionCount'(6446, 6)).
+answer('urn:example:recursionCount'(6447, 5)).
+answer('urn:example:recursionCount'(6448, 2)).
+answer('urn:example:recursionCount'(6449, 7)).
+answer('urn:example:recursionCount'(6450, 7)).
+answer('urn:example:recursionCount'(6451, 7)).
+answer('urn:example:recursionCount'(6452, 7)).
+answer('urn:example:recursionCount'(6453, 3)).
+answer('urn:example:recursionCount'(6454, 3)).
+answer('urn:example:recursionCount'(6455, 4)).
+answer('urn:example:recursionCount'(6456, 3)).
+answer('urn:example:recursionCount'(6457, 3)).
+answer('urn:example:recursionCount'(6458, 7)).
+answer('urn:example:recursionCount'(6459, 7)).
+answer('urn:example:recursionCount'(6460, 1)).
+answer('urn:example:recursionCount'(6461, 7)).
+answer('urn:example:recursionCount'(6462, 2)).
+answer('urn:example:recursionCount'(6463, 5)).
+answer('urn:example:recursionCount'(6464, 6)).
+answer('urn:example:recursionCount'(6465, 3)).
+answer('urn:example:recursionCount'(6466, 4)).
+answer('urn:example:recursionCount'(6467, 6)).
+answer('urn:example:recursionCount'(6468, 4)).
+answer('urn:example:recursionCount'(6469, 6)).
+answer('urn:example:recursionCount'(6470, 5)).
+answer('urn:example:recursionCount'(6471, 1)).
+answer('urn:example:recursionCount'(6472, 7)).
+answer('urn:example:recursionCount'(6473, 2)).
+answer('urn:example:recursionCount'(6474, 5)).
+answer('urn:example:recursionCount'(6475, 3)).
+answer('urn:example:recursionCount'(6476, 6)).
+answer('urn:example:recursionCount'(6477, 3)).
+answer('urn:example:recursionCount'(6478, 7)).
+answer('urn:example:recursionCount'(6479, 7)).
+answer('urn:example:recursionCount'(6480, 6)).
+answer('urn:example:recursionCount'(6481, 5)).
+answer('urn:example:recursionCount'(6482, 1)).
+answer('urn:example:recursionCount'(6483, 7)).
+answer('urn:example:recursionCount'(6484, 2)).
+answer('urn:example:recursionCount'(6485, 7)).
+answer('urn:example:recursionCount'(6486, 4)).
+answer('urn:example:recursionCount'(6487, 7)).
+answer('urn:example:recursionCount'(6488, 2)).
+answer('urn:example:recursionCount'(6489, 7)).
+answer('urn:example:recursionCount'(6490, 3)).
+answer('urn:example:recursionCount'(6491, 6)).
+answer('urn:example:recursionCount'(6492, 5)).
+answer('urn:example:recursionCount'(6493, 1)).
+answer('urn:example:recursionCount'(6494, 7)).
+answer('urn:example:recursionCount'(6495, 7)).
+answer('urn:example:recursionCount'(6496, 6)).
+answer('urn:example:recursionCount'(6497, 7)).
+answer('urn:example:recursionCount'(6498, 7)).
+answer('urn:example:recursionCount'(6499, 5)).
+answer('urn:example:recursionCount'(6500, 5)).
+answer('urn:example:recursionCount'(6501, 4)).
+answer('urn:example:recursionCount'(6502, 3)).
+answer('urn:example:recursionCount'(6503, 1)).
+answer('urn:example:recursionCount'(6504, 7)).
+answer('urn:example:recursionCount'(6505, 6)).
+answer('urn:example:recursionCount'(6506, 7)).
+answer('urn:example:recursionCount'(6507, 3)).
+answer('urn:example:recursionCount'(6508, 3)).
+answer('urn:example:recursionCount'(6509, 4)).
+answer('urn:example:recursionCount'(6510, 4)).
+answer('urn:example:recursionCount'(6511, 5)).
+answer('urn:example:recursionCount'(6512, 5)).
+answer('urn:example:recursionCount'(6513, 7)).
+answer('urn:example:recursionCount'(6514, 7)).
+answer('urn:example:recursionCount'(6515, 6)).
+answer('urn:example:recursionCount'(6516, 7)).
+answer('urn:example:recursionCount'(6517, 7)).
+answer('urn:example:recursionCount'(6518, 3)).
+answer('urn:example:recursionCount'(6519, 3)).
+answer('urn:example:recursionCount'(6520, 3)).
+answer('urn:example:recursionCount'(6521, 5)).
+answer('urn:example:recursionCount'(6522, 3)).
+answer('urn:example:recursionCount'(6523, 2)).
+answer('urn:example:recursionCount'(6524, 7)).
+answer('urn:example:recursionCount'(6525, 4)).
+answer('urn:example:recursionCount'(6526, 7)).
+answer('urn:example:recursionCount'(6527, 7)).
+answer('urn:example:recursionCount'(6528, 7)).
+answer('urn:example:recursionCount'(6529, 3)).
+answer('urn:example:recursionCount'(6530, 1)).
+answer('urn:example:recursionCount'(6531, 7)).
+answer('urn:example:recursionCount'(6532, 2)).
+answer('urn:example:recursionCount'(6533, 5)).
+answer('urn:example:recursionCount'(6534, 3)).
+answer('urn:example:recursionCount'(6535, 6)).
+answer('urn:example:recursionCount'(6536, 3)).
+answer('urn:example:recursionCount'(6537, 7)).
+answer('urn:example:recursionCount'(6538, 7)).
+answer('urn:example:recursionCount'(6539, 7)).
+answer('urn:example:recursionCount'(6540, 7)).
+answer('urn:example:recursionCount'(6541, 7)).
+answer('urn:example:recursionCount'(6542, 7)).
+answer('urn:example:recursionCount'(6543, 3)).
+answer('urn:example:recursionCount'(6544, 3)).
+answer('urn:example:recursionCount'(6545, 4)).
+answer('urn:example:recursionCount'(6546, 3)).
+answer('urn:example:recursionCount'(6547, 3)).
+answer('urn:example:recursionCount'(6548, 7)).
+answer('urn:example:recursionCount'(6549, 7)).
+answer('urn:example:recursionCount'(6550, 6)).
+answer('urn:example:recursionCount'(6551, 6)).
+answer('urn:example:recursionCount'(6552, 4)).
+answer('urn:example:recursionCount'(6553, 6)).
+answer('urn:example:recursionCount'(6554, 4)).
+answer('urn:example:recursionCount'(6555, 5)).
+answer('urn:example:recursionCount'(6556, 4)).
+answer('urn:example:recursionCount'(6557, 3)).
+answer('urn:example:recursionCount'(6558, 3)).
+answer('urn:example:recursionCount'(6559, 7)).
+answer('urn:example:recursionCount'(6560, 7)).
+answer('urn:example:recursionCount'(6561, 7)).
+answer('urn:example:recursionCount'(6562, 7)).
+answer('urn:example:recursionCount'(6563, 3)).
+answer('urn:example:recursionCount'(6564, 3)).
+answer('urn:example:recursionCount'(6565, 4)).
+answer('urn:example:recursionCount'(6566, 5)).
+answer('urn:example:recursionCount'(6567, 4)).
+answer('urn:example:recursionCount'(6568, 6)).
+answer('urn:example:recursionCount'(6569, 4)).
+answer('urn:example:recursionCount'(6570, 3)).
+answer('urn:example:recursionCount'(6571, 7)).
+answer('urn:example:recursionCount'(6572, 7)).
+answer('urn:example:recursionCount'(6573, 7)).
+answer('urn:example:recursionCount'(6574, 3)).
+answer('urn:example:recursionCount'(6575, 3)).
+answer('urn:example:recursionCount'(6576, 4)).
+answer('urn:example:recursionCount'(6577, 3)).
+answer('urn:example:recursionCount'(6578, 3)).
+answer('urn:example:recursionCount'(6579, 7)).
+answer('urn:example:recursionCount'(6580, 3)).
+answer('urn:example:recursionCount'(6581, 3)).
+answer('urn:example:recursionCount'(6582, 7)).
+answer('urn:example:recursionCount'(6583, 7)).
+answer('urn:example:recursionCount'(6584, 7)).
+answer('urn:example:recursionCount'(6585, 3)).
+answer('urn:example:recursionCount'(6586, 6)).
+answer('urn:example:recursionCount'(6587, 3)).
+answer('urn:example:recursionCount'(6588, 5)).
+answer('urn:example:recursionCount'(6589, 2)).
+answer('urn:example:recursionCount'(6590, 4)).
+answer('urn:example:recursionCount'(6591, 3)).
+answer('urn:example:recursionCount'(6592, 3)).
+answer('urn:example:recursionCount'(6593, 7)).
+answer('urn:example:recursionCount'(6594, 7)).
+answer('urn:example:recursionCount'(6595, 7)).
+answer('urn:example:recursionCount'(6596, 4)).
+answer('urn:example:recursionCount'(6597, 7)).
+answer('urn:example:recursionCount'(6598, 2)).
+answer('urn:example:recursionCount'(6599, 3)).
+answer('urn:example:recursionCount'(6600, 4)).
+answer('urn:example:recursionCount'(6601, 5)).
+answer('urn:example:recursionCount'(6602, 4)).
+answer('urn:example:recursionCount'(6603, 3)).
+answer('urn:example:recursionCount'(6604, 1)).
+answer('urn:example:recursionCount'(6605, 7)).
+answer('urn:example:recursionCount'(6606, 6)).
+answer('urn:example:recursionCount'(6607, 4)).
+answer('urn:example:recursionCount'(6608, 6)).
+answer('urn:example:recursionCount'(6609, 4)).
+answer('urn:example:recursionCount'(6610, 5)).
+answer('urn:example:recursionCount'(6611, 5)).
+answer('urn:example:recursionCount'(6612, 5)).
+answer('urn:example:recursionCount'(6613, 5)).
+answer('urn:example:recursionCount'(6614, 7)).
+answer('urn:example:recursionCount'(6615, 7)).
+answer('urn:example:recursionCount'(6616, 6)).
+answer('urn:example:recursionCount'(6617, 6)).
+answer('urn:example:recursionCount'(6618, 4)).
+answer('urn:example:recursionCount'(6619, 6)).
+answer('urn:example:recursionCount'(6620, 4)).
+answer('urn:example:recursionCount'(6621, 5)).
+answer('urn:example:recursionCount'(6622, 4)).
+answer('urn:example:recursionCount'(6623, 3)).
+answer('urn:example:recursionCount'(6624, 2)).
+answer('urn:example:recursionCount'(6625, 7)).
+answer('urn:example:recursionCount'(6626, 4)).
+answer('urn:example:recursionCount'(6627, 6)).
+answer('urn:example:recursionCount'(6628, 6)).
+answer('urn:example:recursionCount'(6629, 4)).
+answer('urn:example:recursionCount'(6630, 3)).
+answer('urn:example:recursionCount'(6631, 5)).
+answer('urn:example:recursionCount'(6632, 3)).
+answer('urn:example:recursionCount'(6633, 6)).
+answer('urn:example:recursionCount'(6634, 5)).
+answer('urn:example:recursionCount'(6635, 3)).
+answer('urn:example:recursionCount'(6636, 6)).
+answer('urn:example:recursionCount'(6637, 4)).
+answer('urn:example:recursionCount'(6638, 6)).
+answer('urn:example:recursionCount'(6639, 6)).
+answer('urn:example:recursionCount'(6640, 1)).
+answer('urn:example:recursionCount'(6641, 7)).
+answer('urn:example:recursionCount'(6642, 2)).
+answer('urn:example:recursionCount'(6643, 5)).
+answer('urn:example:recursionCount'(6644, 6)).
+answer('urn:example:recursionCount'(6645, 3)).
+answer('urn:example:recursionCount'(6646, 4)).
+answer('urn:example:recursionCount'(6647, 6)).
+answer('urn:example:recursionCount'(6648, 4)).
+answer('urn:example:recursionCount'(6649, 6)).
+answer('urn:example:recursionCount'(6650, 7)).
+answer('urn:example:recursionCount'(6651, 7)).
+answer('urn:example:recursionCount'(6652, 7)).
+answer('urn:example:recursionCount'(6653, 3)).
+answer('urn:example:recursionCount'(6654, 3)).
+answer('urn:example:recursionCount'(6655, 4)).
+answer('urn:example:recursionCount'(6656, 5)).
+answer('urn:example:recursionCount'(6657, 4)).
+answer('urn:example:recursionCount'(6658, 6)).
+answer('urn:example:recursionCount'(6659, 4)).
+answer('urn:example:recursionCount'(6660, 6)).
+answer('urn:example:recursionCount'(6661, 6)).
+answer('urn:example:recursionCount'(6662, 4)).
+answer('urn:example:recursionCount'(6663, 6)).
+answer('urn:example:recursionCount'(6664, 4)).
+answer('urn:example:recursionCount'(6665, 5)).
+answer('urn:example:recursionCount'(6667, 5)).
+answer('urn:example:recursionCount'(6668, 4)).
+answer('urn:example:recursionCount'(6669, 6)).
+answer('urn:example:recursionCount'(6670, 4)).
+answer('urn:example:recursionCount'(6671, 6)).
+answer('urn:example:recursionCount'(6672, 6)).
+answer('urn:example:recursionCount'(6673, 4)).
+answer('urn:example:recursionCount'(6674, 6)).
+answer('urn:example:recursionCount'(6675, 4)).
+answer('urn:example:recursionCount'(6676, 5)).
+answer('urn:example:recursionCount'(6677, 4)).
+answer('urn:example:recursionCount'(6678, 3)).
+answer('urn:example:recursionCount'(6679, 3)).
+answer('urn:example:recursionCount'(6680, 6)).
+answer('urn:example:recursionCount'(6681, 4)).
+answer('urn:example:recursionCount'(6682, 6)).
+answer('urn:example:recursionCount'(6683, 6)).
+answer('urn:example:recursionCount'(6684, 4)).
+answer('urn:example:recursionCount'(6685, 6)).
+answer('urn:example:recursionCount'(6686, 4)).
+answer('urn:example:recursionCount'(6687, 3)).
+answer('urn:example:recursionCount'(6688, 6)).
+answer('urn:example:recursionCount'(6689, 5)).
+answer('urn:example:recursionCount'(6690, 4)).
+answer('urn:example:recursionCount'(6691, 6)).
+answer('urn:example:recursionCount'(6692, 4)).
+answer('urn:example:recursionCount'(6693, 6)).
+answer('urn:example:recursionCount'(6694, 6)).
+answer('urn:example:recursionCount'(6695, 4)).
+answer('urn:example:recursionCount'(6696, 6)).
+answer('urn:example:recursionCount'(6697, 3)).
+answer('urn:example:recursionCount'(6698, 5)).
+answer('urn:example:recursionCount'(6699, 6)).
+answer('urn:example:recursionCount'(6700, 3)).
+answer('urn:example:recursionCount'(6701, 5)).
+answer('urn:example:recursionCount'(6702, 3)).
+answer('urn:example:recursionCount'(6703, 6)).
+answer('urn:example:recursionCount'(6704, 5)).
+answer('urn:example:recursionCount'(6705, 3)).
+answer('urn:example:recursionCount'(6706, 4)).
+answer('urn:example:recursionCount'(6707, 3)).
+answer('urn:example:recursionCount'(6708, 3)).
+answer('urn:example:recursionCount'(6709, 4)).
+answer('urn:example:recursionCount'(6710, 5)).
+answer('urn:example:recursionCount'(6711, 5)).
+answer('urn:example:recursionCount'(6712, 4)).
+answer('urn:example:recursionCount'(6713, 3)).
+answer('urn:example:recursionCount'(6714, 1)).
+answer('urn:example:recursionCount'(6715, 7)).
+answer('urn:example:recursionCount'(6716, 6)).
+answer('urn:example:recursionCount'(6717, 7)).
+answer('urn:example:recursionCount'(6718, 3)).
+answer('urn:example:recursionCount'(6719, 3)).
+answer('urn:example:recursionCount'(6720, 3)).
+answer('urn:example:recursionCount'(6721, 4)).
+answer('urn:example:recursionCount'(6722, 5)).
+answer('urn:example:recursionCount'(6723, 5)).
+answer('urn:example:recursionCount'(6724, 7)).
+answer('urn:example:recursionCount'(6725, 7)).
+answer('urn:example:recursionCount'(6726, 6)).
+answer('urn:example:recursionCount'(6727, 7)).
+answer('urn:example:recursionCount'(6728, 7)).
+answer('urn:example:recursionCount'(6729, 3)).
+answer('urn:example:recursionCount'(6730, 6)).
+answer('urn:example:recursionCount'(6731, 3)).
+answer('urn:example:recursionCount'(6732, 5)).
+answer('urn:example:recursionCount'(6733, 3)).
+answer('urn:example:recursionCount'(6734, 2)).
+answer('urn:example:recursionCount'(6735, 7)).
+answer('urn:example:recursionCount'(6736, 4)).
+answer('urn:example:recursionCount'(6737, 7)).
+answer('urn:example:recursionCount'(6738, 7)).
+answer('urn:example:recursionCount'(6739, 7)).
+answer('urn:example:recursionCount'(6740, 5)).
+answer('urn:example:recursionCount'(6741, 1)).
+answer('urn:example:recursionCount'(6742, 7)).
+answer('urn:example:recursionCount'(6743, 2)).
+answer('urn:example:recursionCount'(6744, 5)).
+answer('urn:example:recursionCount'(6745, 3)).
+answer('urn:example:recursionCount'(6746, 6)).
+answer('urn:example:recursionCount'(6747, 3)).
+answer('urn:example:recursionCount'(6748, 7)).
+answer('urn:example:recursionCount'(6749, 7)).
+answer('urn:example:recursionCount'(6750, 3)).
+answer('urn:example:recursionCount'(6751, 7)).
+answer('urn:example:recursionCount'(6752, 7)).
+answer('urn:example:recursionCount'(6753, 7)).
+answer('urn:example:recursionCount'(6754, 3)).
+answer('urn:example:recursionCount'(6755, 3)).
+answer('urn:example:recursionCount'(6756, 4)).
+answer('urn:example:recursionCount'(6757, 3)).
+answer('urn:example:recursionCount'(6758, 3)).
+answer('urn:example:recursionCount'(6759, 7)).
+answer('urn:example:recursionCount'(6760, 4)).
+answer('urn:example:recursionCount'(6761, 6)).
+answer('urn:example:recursionCount'(6762, 6)).
+answer('urn:example:recursionCount'(6763, 4)).
+answer('urn:example:recursionCount'(6764, 6)).
+answer('urn:example:recursionCount'(6765, 4)).
+answer('urn:example:recursionCount'(6766, 5)).
+answer('urn:example:recursionCount'(6767, 4)).
+answer('urn:example:recursionCount'(6768, 3)).
+answer('urn:example:recursionCount'(6769, 3)).
+answer('urn:example:recursionCount'(6770, 3)).
+answer('urn:example:recursionCount'(6771, 7)).
+answer('urn:example:recursionCount'(6772, 7)).
+answer('urn:example:recursionCount'(6773, 7)).
+answer('urn:example:recursionCount'(6774, 3)).
+answer('urn:example:recursionCount'(6775, 3)).
+answer('urn:example:recursionCount'(6776, 4)).
+answer('urn:example:recursionCount'(6777, 5)).
+answer('urn:example:recursionCount'(6778, 4)).
+answer('urn:example:recursionCount'(6779, 6)).
+answer('urn:example:recursionCount'(6780, 3)).
+answer('urn:example:recursionCount'(6781, 3)).
+answer('urn:example:recursionCount'(6782, 7)).
+answer('urn:example:recursionCount'(6783, 7)).
+answer('urn:example:recursionCount'(6784, 7)).
+answer('urn:example:recursionCount'(6785, 3)).
+answer('urn:example:recursionCount'(6786, 3)).
+answer('urn:example:recursionCount'(6787, 4)).
+answer('urn:example:recursionCount'(6788, 3)).
+answer('urn:example:recursionCount'(6789, 3)).
+answer('urn:example:recursionCount'(6790, 4)).
+answer('urn:example:recursionCount'(6791, 3)).
+answer('urn:example:recursionCount'(6792, 3)).
+answer('urn:example:recursionCount'(6793, 7)).
+answer('urn:example:recursionCount'(6794, 7)).
+answer('urn:example:recursionCount'(6795, 7)).
+answer('urn:example:recursionCount'(6796, 3)).
+answer('urn:example:recursionCount'(6797, 6)).
+answer('urn:example:recursionCount'(6798, 3)).
+answer('urn:example:recursionCount'(6799, 5)).
+answer('urn:example:recursionCount'(6800, 2)).
+answer('urn:example:recursionCount'(6801, 7)).
+answer('urn:example:recursionCount'(6802, 2)).
+answer('urn:example:recursionCount'(6803, 5)).
+answer('urn:example:recursionCount'(6804, 6)).
+answer('urn:example:recursionCount'(6805, 3)).
+answer('urn:example:recursionCount'(6806, 6)).
+answer('urn:example:recursionCount'(6807, 3)).
+answer('urn:example:recursionCount'(6808, 6)).
+answer('urn:example:recursionCount'(6809, 3)).
+answer('urn:example:recursionCount'(6810, 7)).
+answer('urn:example:recursionCount'(6811, 5)).
+answer('urn:example:recursionCount'(6812, 3)).
+answer('urn:example:recursionCount'(6813, 6)).
+answer('urn:example:recursionCount'(6814, 5)).
+answer('urn:example:recursionCount'(6815, 3)).
+answer('urn:example:recursionCount'(6816, 4)).
+answer('urn:example:recursionCount'(6817, 3)).
+answer('urn:example:recursionCount'(6818, 5)).
+answer('urn:example:recursionCount'(6819, 6)).
+answer('urn:example:recursionCount'(6820, 2)).
+answer('urn:example:recursionCount'(6821, 3)).
+answer('urn:example:recursionCount'(6822, 4)).
+answer('urn:example:recursionCount'(6823, 3)).
+answer('urn:example:recursionCount'(6824, 1)).
+answer('urn:example:recursionCount'(6825, 7)).
+answer('urn:example:recursionCount'(6826, 6)).
+answer('urn:example:recursionCount'(6827, 7)).
+answer('urn:example:recursionCount'(6828, 1)).
+answer('urn:example:recursionCount'(6829, 5)).
+answer('urn:example:recursionCount'(6830, 5)).
+answer('urn:example:recursionCount'(6831, 6)).
+answer('urn:example:recursionCount'(6832, 3)).
+answer('urn:example:recursionCount'(6833, 5)).
+answer('urn:example:recursionCount'(6834, 7)).
+answer('urn:example:recursionCount'(6835, 7)).
+answer('urn:example:recursionCount'(6836, 6)).
+answer('urn:example:recursionCount'(6837, 7)).
+answer('urn:example:recursionCount'(6838, 7)).
+answer('urn:example:recursionCount'(6839, 1)).
+answer('urn:example:recursionCount'(6840, 6)).
+answer('urn:example:recursionCount'(6841, 5)).
+answer('urn:example:recursionCount'(6842, 1)).
+answer('urn:example:recursionCount'(6843, 7)).
+answer('urn:example:recursionCount'(6844, 2)).
+answer('urn:example:recursionCount'(6845, 7)).
+answer('urn:example:recursionCount'(6846, 4)).
+answer('urn:example:recursionCount'(6847, 7)).
+answer('urn:example:recursionCount'(6848, 2)).
+answer('urn:example:recursionCount'(6849, 7)).
+answer('urn:example:recursionCount'(6850, 3)).
+answer('urn:example:recursionCount'(6851, 3)).
+answer('urn:example:recursionCount'(6852, 7)).
+answer('urn:example:recursionCount'(6853, 7)).
+answer('urn:example:recursionCount'(6854, 7)).
+answer('urn:example:recursionCount'(6855, 3)).
+answer('urn:example:recursionCount'(6856, 6)).
+answer('urn:example:recursionCount'(6857, 3)).
+answer('urn:example:recursionCount'(6858, 5)).
+answer('urn:example:recursionCount'(6859, 2)).
+answer('urn:example:recursionCount'(6860, 6)).
+answer('urn:example:recursionCount'(6861, 4)).
+answer('urn:example:recursionCount'(6862, 6)).
+answer('urn:example:recursionCount'(6863, 6)).
+answer('urn:example:recursionCount'(6864, 4)).
+answer('urn:example:recursionCount'(6865, 6)).
+answer('urn:example:recursionCount'(6866, 4)).
+answer('urn:example:recursionCount'(6867, 3)).
+answer('urn:example:recursionCount'(6868, 6)).
+answer('urn:example:recursionCount'(6869, 5)).
+answer('urn:example:recursionCount'(6870, 3)).
+answer('urn:example:recursionCount'(6871, 3)).
+answer('urn:example:recursionCount'(6872, 7)).
+answer('urn:example:recursionCount'(6873, 7)).
+answer('urn:example:recursionCount'(6874, 7)).
+answer('urn:example:recursionCount'(6875, 3)).
+answer('urn:example:recursionCount'(6876, 3)).
+answer('urn:example:recursionCount'(6877, 4)).
+answer('urn:example:recursionCount'(6878, 3)).
+answer('urn:example:recursionCount'(6879, 3)).
+answer('urn:example:recursionCount'(6880, 6)).
+answer('urn:example:recursionCount'(6881, 5)).
+answer('urn:example:recursionCount'(6882, 1)).
+answer('urn:example:recursionCount'(6883, 7)).
+answer('urn:example:recursionCount'(6884, 2)).
+answer('urn:example:recursionCount'(6885, 5)).
+answer('urn:example:recursionCount'(6886, 6)).
+answer('urn:example:recursionCount'(6887, 3)).
+answer('urn:example:recursionCount'(6888, 4)).
+answer('urn:example:recursionCount'(6889, 6)).
+answer('urn:example:recursionCount'(6890, 3)).
+answer('urn:example:recursionCount'(6891, 6)).
+answer('urn:example:recursionCount'(6892, 5)).
+answer('urn:example:recursionCount'(6893, 1)).
+answer('urn:example:recursionCount'(6894, 7)).
+answer('urn:example:recursionCount'(6895, 2)).
+answer('urn:example:recursionCount'(6896, 5)).
+answer('urn:example:recursionCount'(6897, 3)).
+answer('urn:example:recursionCount'(6898, 6)).
+answer('urn:example:recursionCount'(6899, 3)).
+answer('urn:example:recursionCount'(6900, 7)).
+answer('urn:example:recursionCount'(6901, 7)).
+answer('urn:example:recursionCount'(6902, 7)).
+answer('urn:example:recursionCount'(6903, 3)).
+answer('urn:example:recursionCount'(6904, 3)).
+answer('urn:example:recursionCount'(6905, 4)).
+answer('urn:example:recursionCount'(6906, 4)).
+answer('urn:example:recursionCount'(6907, 4)).
+answer('urn:example:recursionCount'(6908, 3)).
+answer('urn:example:recursionCount'(6909, 3)).
+answer('urn:example:recursionCount'(6910, 7)).
+answer('urn:example:recursionCount'(6911, 7)).
+answer('urn:example:recursionCount'(6912, 2)).
+answer('urn:example:recursionCount'(6913, 5)).
+answer('urn:example:recursionCount'(6914, 6)).
+answer('urn:example:recursionCount'(6915, 3)).
+answer('urn:example:recursionCount'(6916, 6)).
+answer('urn:example:recursionCount'(6917, 3)).
+answer('urn:example:recursionCount'(6918, 6)).
+answer('urn:example:recursionCount'(6919, 5)).
+answer('urn:example:recursionCount'(6920, 7)).
+answer('urn:example:recursionCount'(6921, 2)).
+answer('urn:example:recursionCount'(6922, 3)).
+answer('urn:example:recursionCount'(6923, 6)).
+answer('urn:example:recursionCount'(6924, 5)).
+answer('urn:example:recursionCount'(6925, 3)).
+answer('urn:example:recursionCount'(6926, 4)).
+answer('urn:example:recursionCount'(6927, 3)).
+answer('urn:example:recursionCount'(6928, 5)).
+answer('urn:example:recursionCount'(6929, 6)).
+answer('urn:example:recursionCount'(6930, 3)).
+answer('urn:example:recursionCount'(6931, 5)).
+answer('urn:example:recursionCount'(6932, 6)).
+answer('urn:example:recursionCount'(6933, 3)).
+answer('urn:example:recursionCount'(6934, 1)).
+answer('urn:example:recursionCount'(6935, 7)).
+answer('urn:example:recursionCount'(6936, 6)).
+answer('urn:example:recursionCount'(6937, 7)).
+answer('urn:example:recursionCount'(6938, 1)).
+answer('urn:example:recursionCount'(6939, 3)).
+answer('urn:example:recursionCount'(6940, 3)).
+answer('urn:example:recursionCount'(6941, 6)).
+answer('urn:example:recursionCount'(6942, 5)).
+answer('urn:example:recursionCount'(6943, 1)).
+answer('urn:example:recursionCount'(6944, 7)).
+answer('urn:example:recursionCount'(6945, 7)).
+answer('urn:example:recursionCount'(6946, 6)).
+answer('urn:example:recursionCount'(6947, 7)).
+answer('urn:example:recursionCount'(6948, 7)).
+answer('urn:example:recursionCount'(6949, 5)).
+answer('urn:example:recursionCount'(6950, 4)).
+answer('urn:example:recursionCount'(6951, 3)).
+answer('urn:example:recursionCount'(6952, 3)).
+answer('urn:example:recursionCount'(6953, 7)).
+answer('urn:example:recursionCount'(6954, 7)).
+answer('urn:example:recursionCount'(6955, 7)).
+answer('urn:example:recursionCount'(6956, 4)).
+answer('urn:example:recursionCount'(6957, 7)).
+answer('urn:example:recursionCount'(6958, 2)).
+answer('urn:example:recursionCount'(6959, 3)).
+answer('urn:example:recursionCount'(6960, 4)).
+answer('urn:example:recursionCount'(6961, 6)).
+answer('urn:example:recursionCount'(6962, 4)).
+answer('urn:example:recursionCount'(6963, 6)).
+answer('urn:example:recursionCount'(6964, 6)).
+answer('urn:example:recursionCount'(6965, 4)).
+answer('urn:example:recursionCount'(6966, 6)).
+answer('urn:example:recursionCount'(6967, 3)).
+answer('urn:example:recursionCount'(6968, 5)).
+answer('urn:example:recursionCount'(6969, 6)).
+answer('urn:example:recursionCount'(6970, 4)).
+answer('urn:example:recursionCount'(6971, 3)).
+answer('urn:example:recursionCount'(6972, 3)).
+answer('urn:example:recursionCount'(6973, 7)).
+answer('urn:example:recursionCount'(6974, 7)).
+answer('urn:example:recursionCount'(6975, 7)).
+answer('urn:example:recursionCount'(6976, 3)).
+answer('urn:example:recursionCount'(6977, 6)).
+answer('urn:example:recursionCount'(6978, 3)).
+answer('urn:example:recursionCount'(6979, 5)).
+answer('urn:example:recursionCount'(6980, 3)).
+answer('urn:example:recursionCount'(6981, 6)).
+answer('urn:example:recursionCount'(6982, 5)).
+answer('urn:example:recursionCount'(6983, 1)).
+answer('urn:example:recursionCount'(6984, 7)).
+answer('urn:example:recursionCount'(6985, 2)).
+answer('urn:example:recursionCount'(6986, 5)).
+answer('urn:example:recursionCount'(6987, 3)).
+answer('urn:example:recursionCount'(6988, 6)).
+answer('urn:example:recursionCount'(6989, 3)).
+answer('urn:example:recursionCount'(6990, 3)).
+answer('urn:example:recursionCount'(6991, 5)).
+answer('urn:example:recursionCount'(6992, 6)).
+answer('urn:example:recursionCount'(6993, 3)).
+answer('urn:example:recursionCount'(6994, 5)).
+answer('urn:example:recursionCount'(6995, 3)).
+answer('urn:example:recursionCount'(6996, 6)).
+answer('urn:example:recursionCount'(6997, 5)).
+answer('urn:example:recursionCount'(6998, 3)).
+answer('urn:example:recursionCount'(6999, 6)).
+answer('urn:example:recursionCount'(7000, 4)).
+answer('urn:example:recursionCount'(7001, 3)).
+answer('urn:example:recursionCount'(7002, 5)).
+answer('urn:example:recursionCount'(7003, 6)).
+answer('urn:example:recursionCount'(7004, 3)).
+answer('urn:example:recursionCount'(7005, 5)).
+answer('urn:example:recursionCount'(7006, 3)).
+answer('urn:example:recursionCount'(7007, 6)).
+answer('urn:example:recursionCount'(7008, 5)).
+answer('urn:example:recursionCount'(7009, 3)).
+answer('urn:example:recursionCount'(7010, 3)).
+answer('urn:example:recursionCount'(7011, 4)).
+answer('urn:example:recursionCount'(7012, 3)).
+answer('urn:example:recursionCount'(7013, 5)).
+answer('urn:example:recursionCount'(7014, 6)).
+answer('urn:example:recursionCount'(7015, 3)).
+answer('urn:example:recursionCount'(7016, 5)).
+answer('urn:example:recursionCount'(7017, 3)).
+answer('urn:example:recursionCount'(7018, 2)).
+answer('urn:example:recursionCount'(7019, 7)).
+answer('urn:example:recursionCount'(7020, 5)).
+answer('urn:example:recursionCount'(7021, 3)).
+answer('urn:example:recursionCount'(7022, 4)).
+answer('urn:example:recursionCount'(7023, 3)).
+answer('urn:example:recursionCount'(7024, 5)).
+answer('urn:example:recursionCount'(7025, 6)).
+answer('urn:example:recursionCount'(7026, 3)).
+answer('urn:example:recursionCount'(7027, 5)).
+answer('urn:example:recursionCount'(7028, 7)).
+answer('urn:example:recursionCount'(7029, 7)).
+answer('urn:example:recursionCount'(7030, 6)).
+answer('urn:example:recursionCount'(7031, 5)).
+answer('urn:example:recursionCount'(7032, 3)).
+answer('urn:example:recursionCount'(7033, 4)).
+answer('urn:example:recursionCount'(7034, 3)).
+answer('urn:example:recursionCount'(7035, 5)).
+answer('urn:example:recursionCount'(7036, 6)).
+answer('urn:example:recursionCount'(7037, 3)).
+answer('urn:example:recursionCount'(7038, 2)).
+answer('urn:example:recursionCount'(7039, 7)).
+answer('urn:example:recursionCount'(7040, 3)).
+answer('urn:example:recursionCount'(7041, 6)).
+answer('urn:example:recursionCount'(7042, 5)).
+answer('urn:example:recursionCount'(7043, 3)).
+answer('urn:example:recursionCount'(7044, 4)).
+answer('urn:example:recursionCount'(7045, 3)).
+answer('urn:example:recursionCount'(7046, 5)).
+answer('urn:example:recursionCount'(7047, 6)).
+answer('urn:example:recursionCount'(7048, 5)).
+answer('urn:example:recursionCount'(7049, 3)).
+answer('urn:example:recursionCount'(7050, 5)).
+answer('urn:example:recursionCount'(7051, 3)).
+answer('urn:example:recursionCount'(7052, 6)).
+answer('urn:example:recursionCount'(7053, 5)).
+answer('urn:example:recursionCount'(7054, 3)).
+answer('urn:example:recursionCount'(7055, 4)).
+answer('urn:example:recursionCount'(7056, 3)).
+answer('urn:example:recursionCount'(7057, 5)).
+answer('urn:example:recursionCount'(7058, 6)).
+answer('urn:example:recursionCount'(7059, 3)).
+answer('urn:example:recursionCount'(7060, 3)).
+answer('urn:example:recursionCount'(7061, 5)).
+answer('urn:example:recursionCount'(7062, 3)).
+answer('urn:example:recursionCount'(7063, 6)).
+answer('urn:example:recursionCount'(7064, 5)).
+answer('urn:example:recursionCount'(7065, 3)).
+answer('urn:example:recursionCount'(7066, 4)).
+answer('urn:example:recursionCount'(7067, 3)).
+answer('urn:example:recursionCount'(7068, 3)).
+answer('urn:example:recursionCount'(7069, 4)).
+answer('urn:example:recursionCount'(7070, 6)).
+answer('urn:example:recursionCount'(7071, 3)).
+answer('urn:example:recursionCount'(7072, 5)).
+answer('urn:example:recursionCount'(7073, 3)).
+answer('urn:example:recursionCount'(7074, 6)).
+answer('urn:example:recursionCount'(7075, 5)).
+answer('urn:example:recursionCount'(7076, 3)).
+answer('urn:example:recursionCount'(7077, 4)).
+answer('urn:example:recursionCount'(7078, 6)).
+answer('urn:example:recursionCount'(7079, 4)).
+answer('urn:example:recursionCount'(7080, 5)).
+answer('urn:example:recursionCount'(7081, 2)).
+answer('urn:example:recursionCount'(7082, 7)).
+answer('urn:example:recursionCount'(7083, 2)).
+answer('urn:example:recursionCount'(7084, 5)).
+answer('urn:example:recursionCount'(7085, 6)).
+answer('urn:example:recursionCount'(7086, 3)).
+answer('urn:example:recursionCount'(7087, 6)).
+answer('urn:example:recursionCount'(7088, 3)).
+answer('urn:example:recursionCount'(7089, 4)).
+answer('urn:example:recursionCount'(7090, 3)).
+answer('urn:example:recursionCount'(7091, 7)).
+answer('urn:example:recursionCount'(7092, 7)).
+answer('urn:example:recursionCount'(7093, 7)).
+answer('urn:example:recursionCount'(7094, 3)).
+answer('urn:example:recursionCount'(7095, 3)).
+answer('urn:example:recursionCount'(7096, 4)).
+answer('urn:example:recursionCount'(7097, 4)).
+answer('urn:example:recursionCount'(7098, 4)).
+answer('urn:example:recursionCount'(7099, 3)).
+answer('urn:example:recursionCount'(7100, 3)).
+answer('urn:example:recursionCount'(7101, 4)).
+answer('urn:example:recursionCount'(7102, 3)).
+answer('urn:example:recursionCount'(7103, 5)).
+answer('urn:example:recursionCount'(7104, 6)).
+answer('urn:example:recursionCount'(7105, 3)).
+answer('urn:example:recursionCount'(7106, 5)).
+answer('urn:example:recursionCount'(7107, 3)).
+answer('urn:example:recursionCount'(7108, 2)).
+answer('urn:example:recursionCount'(7109, 7)).
+answer('urn:example:recursionCount'(7110, 4)).
+answer('urn:example:recursionCount'(7111, 6)).
+answer('urn:example:recursionCount'(7112, 7)).
+answer('urn:example:recursionCount'(7113, 1)).
+answer('urn:example:recursionCount'(7114, 3)).
+answer('urn:example:recursionCount'(7115, 4)).
+answer('urn:example:recursionCount'(7116, 5)).
+answer('urn:example:recursionCount'(7117, 4)).
+answer('urn:example:recursionCount'(7118, 3)).
+answer('urn:example:recursionCount'(7119, 2)).
+answer('urn:example:recursionCount'(7120, 3)).
+answer('urn:example:recursionCount'(7121, 7)).
+answer('urn:example:recursionCount'(7122, 6)).
+answer('urn:example:recursionCount'(7123, 7)).
+answer('urn:example:recursionCount'(7124, 1)).
+answer('urn:example:recursionCount'(7125, 3)).
+answer('urn:example:recursionCount'(7126, 4)).
+answer('urn:example:recursionCount'(7127, 5)).
+answer('urn:example:recursionCount'(7128, 5)).
+answer('urn:example:recursionCount'(7129, 7)).
+answer('urn:example:recursionCount'(7130, 5)).
+answer('urn:example:recursionCount'(7131, 1)).
+answer('urn:example:recursionCount'(7132, 7)).
+answer('urn:example:recursionCount'(7133, 6)).
+answer('urn:example:recursionCount'(7134, 7)).
+answer('urn:example:recursionCount'(7135, 1)).
+answer('urn:example:recursionCount'(7136, 3)).
+answer('urn:example:recursionCount'(7137, 4)).
+answer('urn:example:recursionCount'(7138, 3)).
+answer('urn:example:recursionCount'(7139, 2)).
+answer('urn:example:recursionCount'(7140, 6)).
+answer('urn:example:recursionCount'(7141, 3)).
+answer('urn:example:recursionCount'(7142, 1)).
+answer('urn:example:recursionCount'(7143, 7)).
+answer('urn:example:recursionCount'(7144, 6)).
+answer('urn:example:recursionCount'(7145, 7)).
+answer('urn:example:recursionCount'(7146, 1)).
+answer('urn:example:recursionCount'(7147, 3)).
+answer('urn:example:recursionCount'(7148, 6)).
+answer('urn:example:recursionCount'(7149, 5)).
+answer('urn:example:recursionCount'(7150, 3)).
+answer('urn:example:recursionCount'(7151, 4)).
+answer('urn:example:recursionCount'(7152, 3)).
+answer('urn:example:recursionCount'(7153, 1)).
+answer('urn:example:recursionCount'(7154, 7)).
+answer('urn:example:recursionCount'(7155, 6)).
+answer('urn:example:recursionCount'(7156, 7)).
+answer('urn:example:recursionCount'(7157, 1)).
+answer('urn:example:recursionCount'(7158, 5)).
+answer('urn:example:recursionCount'(7159, 6)).
+answer('urn:example:recursionCount'(7160, 5)).
+answer('urn:example:recursionCount'(7161, 5)).
+answer('urn:example:recursionCount'(7162, 4)).
+answer('urn:example:recursionCount'(7163, 3)).
+answer('urn:example:recursionCount'(7164, 1)).
+answer('urn:example:recursionCount'(7165, 7)).
+answer('urn:example:recursionCount'(7166, 6)).
+answer('urn:example:recursionCount'(7167, 7)).
+answer('urn:example:recursionCount'(7168, 3)).
+answer('urn:example:recursionCount'(7169, 3)).
+answer('urn:example:recursionCount'(7170, 3)).
+answer('urn:example:recursionCount'(7171, 4)).
+answer('urn:example:recursionCount'(7172, 5)).
+answer('urn:example:recursionCount'(7173, 4)).
+answer('urn:example:recursionCount'(7174, 3)).
+answer('urn:example:recursionCount'(7175, 1)).
+answer('urn:example:recursionCount'(7176, 7)).
+answer('urn:example:recursionCount'(7177, 6)).
+answer('urn:example:recursionCount'(7178, 4)).
+answer('urn:example:recursionCount'(7179, 6)).
+answer('urn:example:recursionCount'(7180, 2)).
+answer('urn:example:recursionCount'(7181, 3)).
+answer('urn:example:recursionCount'(7182, 5)).
+answer('urn:example:recursionCount'(7183, 3)).
+answer('urn:example:recursionCount'(7184, 6)).
+answer('urn:example:recursionCount'(7185, 5)).
+answer('urn:example:recursionCount'(7186, 3)).
+answer('urn:example:recursionCount'(7187, 4)).
+answer('urn:example:recursionCount'(7188, 3)).
+answer('urn:example:recursionCount'(7189, 3)).
+answer('urn:example:recursionCount'(7190, 7)).
+answer('urn:example:recursionCount'(7191, 2)).
+answer('urn:example:recursionCount'(7192, 7)).
+answer('urn:example:recursionCount'(7193, 2)).
+answer('urn:example:recursionCount'(7194, 5)).
+answer('urn:example:recursionCount'(7195, 6)).
+answer('urn:example:recursionCount'(7196, 3)).
+answer('urn:example:recursionCount'(7197, 6)).
+answer('urn:example:recursionCount'(7198, 3)).
+answer('urn:example:recursionCount'(7199, 6)).
+answer('urn:example:recursionCount'(7200, 5)).
+answer('urn:example:recursionCount'(7201, 3)).
+answer('urn:example:recursionCount'(7202, 4)).
+answer('urn:example:recursionCount'(7203, 3)).
+answer('urn:example:recursionCount'(7204, 5)).
+answer('urn:example:recursionCount'(7205, 6)).
+answer('urn:example:recursionCount'(7206, 3)).
+answer('urn:example:recursionCount'(7207, 5)).
+answer('urn:example:recursionCount'(7208, 7)).
+answer('urn:example:recursionCount'(7209, 7)).
+answer('urn:example:recursionCount'(7210, 3)).
+answer('urn:example:recursionCount'(7211, 7)).
+answer('urn:example:recursionCount'(7212, 6)).
+answer('urn:example:recursionCount'(7213, 7)).
+answer('urn:example:recursionCount'(7214, 1)).
+answer('urn:example:recursionCount'(7215, 3)).
+answer('urn:example:recursionCount'(7216, 4)).
+answer('urn:example:recursionCount'(7217, 5)).
+answer('urn:example:recursionCount'(7218, 5)).
+answer('urn:example:recursionCount'(7219, 7)).
+answer('urn:example:recursionCount'(7220, 4)).
+answer('urn:example:recursionCount'(7221, 6)).
+answer('urn:example:recursionCount'(7222, 6)).
+answer('urn:example:recursionCount'(7223, 7)).
+answer('urn:example:recursionCount'(7224, 7)).
+answer('urn:example:recursionCount'(7225, 5)).
+answer('urn:example:recursionCount'(7226, 5)).
+answer('urn:example:recursionCount'(7227, 5)).
+answer('urn:example:recursionCount'(7228, 5)).
+answer('urn:example:recursionCount'(7229, 5)).
+answer('urn:example:recursionCount'(7230, 3)).
+answer('urn:example:recursionCount'(7231, 7)).
+answer('urn:example:recursionCount'(7232, 7)).
+answer('urn:example:recursionCount'(7233, 6)).
+answer('urn:example:recursionCount'(7234, 7)).
+answer('urn:example:recursionCount'(7235, 7)).
+answer('urn:example:recursionCount'(7236, 5)).
+answer('urn:example:recursionCount'(7237, 5)).
+answer('urn:example:recursionCount'(7238, 4)).
+answer('urn:example:recursionCount'(7239, 3)).
+answer('urn:example:recursionCount'(7240, 5)).
+answer('urn:example:recursionCount'(7241, 1)).
+answer('urn:example:recursionCount'(7242, 7)).
+answer('urn:example:recursionCount'(7243, 7)).
+answer('urn:example:recursionCount'(7244, 6)).
+answer('urn:example:recursionCount'(7245, 7)).
+answer('urn:example:recursionCount'(7246, 7)).
+answer('urn:example:recursionCount'(7247, 5)).
+answer('urn:example:recursionCount'(7248, 3)).
+answer('urn:example:recursionCount'(7249, 6)).
+answer('urn:example:recursionCount'(7250, 6)).
+answer('urn:example:recursionCount'(7251, 3)).
+answer('urn:example:recursionCount'(7252, 5)).
+answer('urn:example:recursionCount'(7253, 7)).
+answer('urn:example:recursionCount'(7254, 7)).
+answer('urn:example:recursionCount'(7255, 6)).
+answer('urn:example:recursionCount'(7256, 7)).
+answer('urn:example:recursionCount'(7257, 7)).
+answer('urn:example:recursionCount'(7258, 1)).
+answer('urn:example:recursionCount'(7259, 5)).
+answer('urn:example:recursionCount'(7260, 3)).
+answer('urn:example:recursionCount'(7261, 4)).
+answer('urn:example:recursionCount'(7262, 5)).
+answer('urn:example:recursionCount'(7263, 5)).
+answer('urn:example:recursionCount'(7264, 7)).
+answer('urn:example:recursionCount'(7265, 7)).
+answer('urn:example:recursionCount'(7266, 6)).
+answer('urn:example:recursionCount'(7267, 7)).
+answer('urn:example:recursionCount'(7268, 7)).
+answer('urn:example:recursionCount'(7269, 3)).
+answer('urn:example:recursionCount'(7270, 5)).
+answer('urn:example:recursionCount'(7271, 5)).
+answer('urn:example:recursionCount'(7272, 5)).
+answer('urn:example:recursionCount'(7273, 5)).
+answer('urn:example:recursionCount'(7274, 5)).
+answer('urn:example:recursionCount'(7275, 7)).
+answer('urn:example:recursionCount'(7276, 7)).
+answer('urn:example:recursionCount'(7277, 6)).
+answer('urn:example:recursionCount'(7278, 6)).
+answer('urn:example:recursionCount'(7279, 4)).
+answer('urn:example:recursionCount'(7280, 7)).
+answer('urn:example:recursionCount'(7281, 5)).
+answer('urn:example:recursionCount'(7282, 5)).
+answer('urn:example:recursionCount'(7283, 4)).
+answer('urn:example:recursionCount'(7284, 3)).
+answer('urn:example:recursionCount'(7285, 1)).
+answer('urn:example:recursionCount'(7286, 7)).
+answer('urn:example:recursionCount'(7287, 6)).
+answer('urn:example:recursionCount'(7288, 7)).
+answer('urn:example:recursionCount'(7289, 3)).
+answer('urn:example:recursionCount'(7290, 7)).
+answer('urn:example:recursionCount'(7291, 7)).
+answer('urn:example:recursionCount'(7292, 5)).
+answer('urn:example:recursionCount'(7293, 3)).
+answer('urn:example:recursionCount'(7294, 6)).
+answer('urn:example:recursionCount'(7295, 5)).
+answer('urn:example:recursionCount'(7296, 3)).
+answer('urn:example:recursionCount'(7297, 4)).
+answer('urn:example:recursionCount'(7298, 3)).
+answer('urn:example:recursionCount'(7299, 5)).
+answer('urn:example:recursionCount'(7300, 6)).
+answer('urn:example:recursionCount'(7301, 5)).
+answer('urn:example:recursionCount'(7302, 3)).
+answer('urn:example:recursionCount'(7303, 4)).
+answer('urn:example:recursionCount'(7304, 3)).
+answer('urn:example:recursionCount'(7305, 5)).
+answer('urn:example:recursionCount'(7306, 6)).
+answer('urn:example:recursionCount'(7307, 3)).
+answer('urn:example:recursionCount'(7308, 2)).
+answer('urn:example:recursionCount'(7309, 7)).
+answer('urn:example:recursionCount'(7310, 5)).
+answer('urn:example:recursionCount'(7311, 1)).
+answer('urn:example:recursionCount'(7312, 7)).
+answer('urn:example:recursionCount'(7313, 6)).
+answer('urn:example:recursionCount'(7314, 7)).
+answer('urn:example:recursionCount'(7315, 1)).
+answer('urn:example:recursionCount'(7316, 3)).
+answer('urn:example:recursionCount'(7317, 4)).
+answer('urn:example:recursionCount'(7318, 3)).
+answer('urn:example:recursionCount'(7319, 2)).
+answer('urn:example:recursionCount'(7320, 3)).
+answer('urn:example:recursionCount'(7321, 7)).
+answer('urn:example:recursionCount'(7322, 7)).
+answer('urn:example:recursionCount'(7323, 6)).
+answer('urn:example:recursionCount'(7324, 7)).
+answer('urn:example:recursionCount'(7325, 7)).
+answer('urn:example:recursionCount'(7326, 5)).
+answer('urn:example:recursionCount'(7327, 5)).
+answer('urn:example:recursionCount'(7328, 4)).
+answer('urn:example:recursionCount'(7329, 3)).
+answer('urn:example:recursionCount'(7330, 4)).
+answer('urn:example:recursionCount'(7331, 6)).
+answer('urn:example:recursionCount'(7332, 6)).
+answer('urn:example:recursionCount'(7333, 4)).
+answer('urn:example:recursionCount'(7334, 7)).
+answer('urn:example:recursionCount'(7335, 2)).
+answer('urn:example:recursionCount'(7336, 3)).
+answer('urn:example:recursionCount'(7337, 4)).
+answer('urn:example:recursionCount'(7338, 5)).
+answer('urn:example:recursionCount'(7339, 4)).
+answer('urn:example:recursionCount'(7340, 3)).
+answer('urn:example:recursionCount'(7341, 7)).
+answer('urn:example:recursionCount'(7342, 7)).
+answer('urn:example:recursionCount'(7343, 7)).
+answer('urn:example:recursionCount'(7344, 4)).
+answer('urn:example:recursionCount'(7345, 7)).
+answer('urn:example:recursionCount'(7346, 2)).
+answer('urn:example:recursionCount'(7347, 3)).
+answer('urn:example:recursionCount'(7348, 5)).
+answer('urn:example:recursionCount'(7349, 3)).
+answer('urn:example:recursionCount'(7350, 5)).
+answer('urn:example:recursionCount'(7351, 1)).
+answer('urn:example:recursionCount'(7352, 7)).
+answer('urn:example:recursionCount'(7353, 2)).
+answer('urn:example:recursionCount'(7354, 7)).
+answer('urn:example:recursionCount'(7355, 4)).
+answer('urn:example:recursionCount'(7356, 7)).
+answer('urn:example:recursionCount'(7357, 2)).
+answer('urn:example:recursionCount'(7358, 7)).
+answer('urn:example:recursionCount'(7359, 1)).
+answer('urn:example:recursionCount'(7360, 6)).
+answer('urn:example:recursionCount'(7361, 3)).
+answer('urn:example:recursionCount'(7362, 5)).
+answer('urn:example:recursionCount'(7363, 3)).
+answer('urn:example:recursionCount'(7364, 2)).
+answer('urn:example:recursionCount'(7365, 7)).
+answer('urn:example:recursionCount'(7366, 4)).
+answer('urn:example:recursionCount'(7367, 7)).
+answer('urn:example:recursionCount'(7368, 7)).
+answer('urn:example:recursionCount'(7369, 7)).
+answer('urn:example:recursionCount'(7370, 3)).
+answer('urn:example:recursionCount'(7371, 4)).
+answer('urn:example:recursionCount'(7372, 5)).
+answer('urn:example:recursionCount'(7373, 4)).
+answer('urn:example:recursionCount'(7374, 3)).
+answer('urn:example:recursionCount'(7375, 2)).
+answer('urn:example:recursionCount'(7376, 7)).
+answer('urn:example:recursionCount'(7377, 4)).
+answer('urn:example:recursionCount'(7378, 6)).
+answer('urn:example:recursionCount'(7379, 6)).
+answer('urn:example:recursionCount'(7380, 2)).
+answer('urn:example:recursionCount'(7381, 3)).
+answer('urn:example:recursionCount'(7382, 4)).
+answer('urn:example:recursionCount'(7383, 5)).
+answer('urn:example:recursionCount'(7384, 5)).
+answer('urn:example:recursionCount'(7385, 7)).
+answer('urn:example:recursionCount'(7386, 7)).
+answer('urn:example:recursionCount'(7387, 6)).
+answer('urn:example:recursionCount'(7388, 7)).
+answer('urn:example:recursionCount'(7389, 7)).
+answer('urn:example:recursionCount'(7390, 7)).
+answer('urn:example:recursionCount'(7391, 2)).
+answer('urn:example:recursionCount'(7392, 3)).
+answer('urn:example:recursionCount'(7393, 4)).
+answer('urn:example:recursionCount'(7394, 3)).
+answer('urn:example:recursionCount'(7395, 1)).
+answer('urn:example:recursionCount'(7396, 7)).
+answer('urn:example:recursionCount'(7397, 6)).
+answer('urn:example:recursionCount'(7398, 7)).
+answer('urn:example:recursionCount'(7399, 1)).
+answer('urn:example:recursionCount'(7400, 3)).
+answer('urn:example:recursionCount'(7401, 6)).
+answer('urn:example:recursionCount'(7402, 5)).
+answer('urn:example:recursionCount'(7403, 3)).
+answer('urn:example:recursionCount'(7404, 4)).
+answer('urn:example:recursionCount'(7405, 3)).
+answer('urn:example:recursionCount'(7406, 5)).
+answer('urn:example:recursionCount'(7407, 6)).
+answer('urn:example:recursionCount'(7408, 5)).
+answer('urn:example:recursionCount'(7409, 3)).
+answer('urn:example:recursionCount'(7410, 6)).
+answer('urn:example:recursionCount'(7411, 3)).
+answer('urn:example:recursionCount'(7412, 1)).
+answer('urn:example:recursionCount'(7413, 7)).
+answer('urn:example:recursionCount'(7414, 6)).
+answer('urn:example:recursionCount'(7415, 7)).
+answer('urn:example:recursionCount'(7416, 1)).
+answer('urn:example:recursionCount'(7417, 3)).
+answer('urn:example:recursionCount'(7418, 6)).
+answer('urn:example:recursionCount'(7419, 5)).
+answer('urn:example:recursionCount'(7420, 5)).
+answer('urn:example:recursionCount'(7421, 1)).
+answer('urn:example:recursionCount'(7422, 7)).
+answer('urn:example:recursionCount'(7423, 7)).
+answer('urn:example:recursionCount'(7424, 6)).
+answer('urn:example:recursionCount'(7425, 7)).
+answer('urn:example:recursionCount'(7426, 7)).
+answer('urn:example:recursionCount'(7427, 5)).
+answer('urn:example:recursionCount'(7428, 3)).
+answer('urn:example:recursionCount'(7429, 6)).
+answer('urn:example:recursionCount'(7430, 3)).
+answer('urn:example:recursionCount'(7431, 7)).
+answer('urn:example:recursionCount'(7432, 7)).
+answer('urn:example:recursionCount'(7433, 7)).
+answer('urn:example:recursionCount'(7434, 4)).
+answer('urn:example:recursionCount'(7435, 7)).
+answer('urn:example:recursionCount'(7436, 2)).
+answer('urn:example:recursionCount'(7437, 3)).
+answer('urn:example:recursionCount'(7438, 5)).
+answer('urn:example:recursionCount'(7439, 3)).
+answer('urn:example:recursionCount'(7440, 4)).
+answer('urn:example:recursionCount'(7441, 6)).
+answer('urn:example:recursionCount'(7442, 6)).
+answer('urn:example:recursionCount'(7443, 4)).
+answer('urn:example:recursionCount'(7444, 6)).
+answer('urn:example:recursionCount'(7445, 3)).
+answer('urn:example:recursionCount'(7446, 5)).
+answer('urn:example:recursionCount'(7447, 6)).
+answer('urn:example:recursionCount'(7448, 3)).
+answer('urn:example:recursionCount'(7449, 5)).
+answer('urn:example:recursionCount'(7450, 3)).
+answer('urn:example:recursionCount'(7451, 7)).
+answer('urn:example:recursionCount'(7452, 7)).
+answer('urn:example:recursionCount'(7453, 7)).
+answer('urn:example:recursionCount'(7454, 3)).
+answer('urn:example:recursionCount'(7455, 6)).
+answer('urn:example:recursionCount'(7456, 3)).
+answer('urn:example:recursionCount'(7457, 5)).
+answer('urn:example:recursionCount'(7458, 2)).
+answer('urn:example:recursionCount'(7459, 7)).
+answer('urn:example:recursionCount'(7460, 5)).
+answer('urn:example:recursionCount'(7461, 1)).
+answer('urn:example:recursionCount'(7462, 7)).
+answer('urn:example:recursionCount'(7463, 2)).
+answer('urn:example:recursionCount'(7464, 5)).
+answer('urn:example:recursionCount'(7465, 3)).
+answer('urn:example:recursionCount'(7466, 6)).
+answer('urn:example:recursionCount'(7467, 3)).
+answer('urn:example:recursionCount'(7468, 7)).
+answer('urn:example:recursionCount'(7469, 7)).
+answer('urn:example:recursionCount'(7470, 6)).
+answer('urn:example:recursionCount'(7471, 3)).
+answer('urn:example:recursionCount'(7472, 5)).
+answer('urn:example:recursionCount'(7473, 3)).
+answer('urn:example:recursionCount'(7474, 6)).
+answer('urn:example:recursionCount'(7475, 5)).
+answer('urn:example:recursionCount'(7476, 3)).
+answer('urn:example:recursionCount'(7477, 6)).
+answer('urn:example:recursionCount'(7478, 4)).
+answer('urn:example:recursionCount'(7479, 6)).
+answer('urn:example:recursionCount'(7480, 5)).
+answer('urn:example:recursionCount'(7481, 6)).
+answer('urn:example:recursionCount'(7482, 3)).
+answer('urn:example:recursionCount'(7483, 5)).
+answer('urn:example:recursionCount'(7484, 3)).
+answer('urn:example:recursionCount'(7485, 2)).
+answer('urn:example:recursionCount'(7486, 7)).
+answer('urn:example:recursionCount'(7487, 4)).
+answer('urn:example:recursionCount'(7488, 7)).
+answer('urn:example:recursionCount'(7489, 7)).
+answer('urn:example:recursionCount'(7490, 3)).
+answer('urn:example:recursionCount'(7491, 5)).
+answer('urn:example:recursionCount'(7492, 6)).
+answer('urn:example:recursionCount'(7493, 3)).
+answer('urn:example:recursionCount'(7494, 5)).
+answer('urn:example:recursionCount'(7495, 7)).
+answer('urn:example:recursionCount'(7496, 7)).
+answer('urn:example:recursionCount'(7497, 6)).
+answer('urn:example:recursionCount'(7498, 7)).
+answer('urn:example:recursionCount'(7499, 7)).
+answer('urn:example:recursionCount'(7500, 5)).
+answer('urn:example:recursionCount'(7501, 3)).
+answer('urn:example:recursionCount'(7502, 6)).
+answer('urn:example:recursionCount'(7503, 5)).
+answer('urn:example:recursionCount'(7504, 3)).
+answer('urn:example:recursionCount'(7505, 4)).
+answer('urn:example:recursionCount'(7506, 3)).
+answer('urn:example:recursionCount'(7507, 5)).
+answer('urn:example:recursionCount'(7508, 6)).
+answer('urn:example:recursionCount'(7509, 3)).
+answer('urn:example:recursionCount'(7510, 3)).
+answer('urn:example:recursionCount'(7511, 4)).
+answer('urn:example:recursionCount'(7512, 3)).
+answer('urn:example:recursionCount'(7513, 1)).
+answer('urn:example:recursionCount'(7514, 7)).
+answer('urn:example:recursionCount'(7515, 6)).
+answer('urn:example:recursionCount'(7516, 7)).
+answer('urn:example:recursionCount'(7517, 1)).
+answer('urn:example:recursionCount'(7518, 5)).
+answer('urn:example:recursionCount'(7519, 6)).
+answer('urn:example:recursionCount'(7520, 6)).
+answer('urn:example:recursionCount'(7521, 3)).
+answer('urn:example:recursionCount'(7522, 5)).
+answer('urn:example:recursionCount'(7523, 7)).
+answer('urn:example:recursionCount'(7524, 7)).
+answer('urn:example:recursionCount'(7525, 6)).
+answer('urn:example:recursionCount'(7526, 7)).
+answer('urn:example:recursionCount'(7527, 7)).
+answer('urn:example:recursionCount'(7528, 1)).
+answer('urn:example:recursionCount'(7529, 5)).
+answer('urn:example:recursionCount'(7530, 5)).
+answer('urn:example:recursionCount'(7531, 1)).
+answer('urn:example:recursionCount'(7532, 7)).
+answer('urn:example:recursionCount'(7533, 2)).
+answer('urn:example:recursionCount'(7534, 7)).
+answer('urn:example:recursionCount'(7535, 4)).
+answer('urn:example:recursionCount'(7536, 7)).
+answer('urn:example:recursionCount'(7537, 2)).
+answer('urn:example:recursionCount'(7538, 7)).
+answer('urn:example:recursionCount'(7539, 1)).
+answer('urn:example:recursionCount'(7540, 3)).
+answer('urn:example:recursionCount'(7541, 7)).
+answer('urn:example:recursionCount'(7542, 7)).
+answer('urn:example:recursionCount'(7543, 7)).
+answer('urn:example:recursionCount'(7544, 3)).
+answer('urn:example:recursionCount'(7545, 6)).
+answer('urn:example:recursionCount'(7546, 3)).
+answer('urn:example:recursionCount'(7547, 5)).
+answer('urn:example:recursionCount'(7548, 2)).
+answer('urn:example:recursionCount'(7549, 7)).
+answer('urn:example:recursionCount'(7550, 4)).
+answer('urn:example:recursionCount'(7551, 6)).
+answer('urn:example:recursionCount'(7552, 6)).
+answer('urn:example:recursionCount'(7553, 4)).
+answer('urn:example:recursionCount'(7554, 6)).
+answer('urn:example:recursionCount'(7555, 4)).
+answer('urn:example:recursionCount'(7556, 3)).
+answer('urn:example:recursionCount'(7557, 6)).
+answer('urn:example:recursionCount'(7558, 5)).
+answer('urn:example:recursionCount'(7559, 2)).
+answer('urn:example:recursionCount'(7560, 3)).
+answer('urn:example:recursionCount'(7561, 7)).
+answer('urn:example:recursionCount'(7562, 7)).
+answer('urn:example:recursionCount'(7563, 7)).
+answer('urn:example:recursionCount'(7564, 3)).
+answer('urn:example:recursionCount'(7565, 3)).
+answer('urn:example:recursionCount'(7566, 4)).
+answer('urn:example:recursionCount'(7567, 3)).
+answer('urn:example:recursionCount'(7568, 3)).
+answer('urn:example:recursionCount'(7569, 7)).
+answer('urn:example:recursionCount'(7570, 5)).
+answer('urn:example:recursionCount'(7571, 1)).
+answer('urn:example:recursionCount'(7572, 7)).
+answer('urn:example:recursionCount'(7573, 2)).
+answer('urn:example:recursionCount'(7574, 5)).
+answer('urn:example:recursionCount'(7575, 6)).
+answer('urn:example:recursionCount'(7576, 3)).
+answer('urn:example:recursionCount'(7577, 4)).
+answer('urn:example:recursionCount'(7578, 6)).
+answer('urn:example:recursionCount'(7579, 4)).
+answer('urn:example:recursionCount'(7580, 6)).
+answer('urn:example:recursionCount'(7581, 5)).
+answer('urn:example:recursionCount'(7582, 1)).
+answer('urn:example:recursionCount'(7583, 7)).
+answer('urn:example:recursionCount'(7584, 2)).
+answer('urn:example:recursionCount'(7585, 5)).
+answer('urn:example:recursionCount'(7586, 3)).
+answer('urn:example:recursionCount'(7587, 6)).
+answer('urn:example:recursionCount'(7588, 3)).
+answer('urn:example:recursionCount'(7589, 7)).
+answer('urn:example:recursionCount'(7590, 3)).
+answer('urn:example:recursionCount'(7591, 6)).
+answer('urn:example:recursionCount'(7592, 5)).
+answer('urn:example:recursionCount'(7593, 1)).
+answer('urn:example:recursionCount'(7594, 7)).
+answer('urn:example:recursionCount'(7595, 2)).
+answer('urn:example:recursionCount'(7596, 7)).
+answer('urn:example:recursionCount'(7597, 4)).
+answer('urn:example:recursionCount'(7598, 7)).
+answer('urn:example:recursionCount'(7599, 2)).
+answer('urn:example:recursionCount'(7600, 3)).
+answer('urn:example:recursionCount'(7601, 5)).
+answer('urn:example:recursionCount'(7602, 3)).
+answer('urn:example:recursionCount'(7603, 6)).
+answer('urn:example:recursionCount'(7604, 5)).
+answer('urn:example:recursionCount'(7605, 3)).
+answer('urn:example:recursionCount'(7606, 4)).
+answer('urn:example:recursionCount'(7607, 3)).
+answer('urn:example:recursionCount'(7608, 3)).
+answer('urn:example:recursionCount'(7609, 4)).
+answer('urn:example:recursionCount'(7610, 5)).
+answer('urn:example:recursionCount'(7611, 5)).
+answer('urn:example:recursionCount'(7612, 4)).
+answer('urn:example:recursionCount'(7613, 3)).
+answer('urn:example:recursionCount'(7614, 1)).
+answer('urn:example:recursionCount'(7615, 7)).
+answer('urn:example:recursionCount'(7616, 6)).
+answer('urn:example:recursionCount'(7617, 7)).
+answer('urn:example:recursionCount'(7618, 3)).
+answer('urn:example:recursionCount'(7619, 3)).
+answer('urn:example:recursionCount'(7620, 3)).
+answer('urn:example:recursionCount'(7621, 4)).
+answer('urn:example:recursionCount'(7622, 5)).
+answer('urn:example:recursionCount'(7623, 5)).
+answer('urn:example:recursionCount'(7624, 7)).
+answer('urn:example:recursionCount'(7625, 7)).
+answer('urn:example:recursionCount'(7626, 6)).
+answer('urn:example:recursionCount'(7627, 7)).
+answer('urn:example:recursionCount'(7628, 7)).
+answer('urn:example:recursionCount'(7629, 3)).
+answer('urn:example:recursionCount'(7630, 6)).
+answer('urn:example:recursionCount'(7631, 3)).
+answer('urn:example:recursionCount'(7632, 5)).
+answer('urn:example:recursionCount'(7633, 3)).
+answer('urn:example:recursionCount'(7634, 2)).
+answer('urn:example:recursionCount'(7635, 7)).
+answer('urn:example:recursionCount'(7636, 4)).
+answer('urn:example:recursionCount'(7637, 7)).
+answer('urn:example:recursionCount'(7638, 7)).
+answer('urn:example:recursionCount'(7639, 7)).
+answer('urn:example:recursionCount'(7640, 5)).
+answer('urn:example:recursionCount'(7641, 1)).
+answer('urn:example:recursionCount'(7642, 7)).
+answer('urn:example:recursionCount'(7643, 2)).
+answer('urn:example:recursionCount'(7644, 5)).
+answer('urn:example:recursionCount'(7645, 3)).
+answer('urn:example:recursionCount'(7646, 6)).
+answer('urn:example:recursionCount'(7647, 3)).
+answer('urn:example:recursionCount'(7648, 7)).
+answer('urn:example:recursionCount'(7649, 7)).
+answer('urn:example:recursionCount'(7650, 3)).
+answer('urn:example:recursionCount'(7651, 7)).
+answer('urn:example:recursionCount'(7652, 7)).
+answer('urn:example:recursionCount'(7653, 7)).
+answer('urn:example:recursionCount'(7654, 3)).
+answer('urn:example:recursionCount'(7655, 3)).
+answer('urn:example:recursionCount'(7656, 4)).
+answer('urn:example:recursionCount'(7657, 3)).
+answer('urn:example:recursionCount'(7658, 3)).
+answer('urn:example:recursionCount'(7659, 7)).
+answer('urn:example:recursionCount'(7660, 4)).
+answer('urn:example:recursionCount'(7661, 6)).
+answer('urn:example:recursionCount'(7662, 6)).
+answer('urn:example:recursionCount'(7663, 4)).
+answer('urn:example:recursionCount'(7664, 6)).
+answer('urn:example:recursionCount'(7665, 4)).
+answer('urn:example:recursionCount'(7666, 5)).
+answer('urn:example:recursionCount'(7667, 4)).
+answer('urn:example:recursionCount'(7668, 3)).
+answer('urn:example:recursionCount'(7669, 3)).
+answer('urn:example:recursionCount'(7670, 3)).
+answer('urn:example:recursionCount'(7671, 7)).
+answer('urn:example:recursionCount'(7672, 7)).
+answer('urn:example:recursionCount'(7673, 7)).
+answer('urn:example:recursionCount'(7674, 3)).
+answer('urn:example:recursionCount'(7675, 3)).
+answer('urn:example:recursionCount'(7676, 4)).
+answer('urn:example:recursionCount'(7677, 5)).
+answer('urn:example:recursionCount'(7678, 4)).
+answer('urn:example:recursionCount'(7679, 6)).
+answer('urn:example:recursionCount'(7680, 3)).
+answer('urn:example:recursionCount'(7681, 3)).
+answer('urn:example:recursionCount'(7682, 7)).
+answer('urn:example:recursionCount'(7683, 7)).
+answer('urn:example:recursionCount'(7684, 7)).
+answer('urn:example:recursionCount'(7685, 3)).
+answer('urn:example:recursionCount'(7686, 3)).
+answer('urn:example:recursionCount'(7687, 4)).
+answer('urn:example:recursionCount'(7688, 3)).
+answer('urn:example:recursionCount'(7689, 3)).
+answer('urn:example:recursionCount'(7690, 4)).
+answer('urn:example:recursionCount'(7691, 3)).
+answer('urn:example:recursionCount'(7692, 3)).
+answer('urn:example:recursionCount'(7693, 7)).
+answer('urn:example:recursionCount'(7694, 7)).
+answer('urn:example:recursionCount'(7695, 7)).
+answer('urn:example:recursionCount'(7696, 3)).
+answer('urn:example:recursionCount'(7697, 6)).
+answer('urn:example:recursionCount'(7698, 3)).
+answer('urn:example:recursionCount'(7699, 5)).
+answer('urn:example:recursionCount'(7700, 6)).
+answer('urn:example:recursionCount'(7701, 3)).
+answer('urn:example:recursionCount'(7702, 5)).
+answer('urn:example:recursionCount'(7703, 3)).
+answer('urn:example:recursionCount'(7704, 6)).
+answer('urn:example:recursionCount'(7705, 5)).
+answer('urn:example:recursionCount'(7706, 3)).
+answer('urn:example:recursionCount'(7707, 4)).
+answer('urn:example:recursionCount'(7708, 6)).
+answer('urn:example:recursionCount'(7709, 4)).
+answer('urn:example:recursionCount'(7710, 3)).
+answer('urn:example:recursionCount'(7711, 4)).
+answer('urn:example:recursionCount'(7712, 5)).
+answer('urn:example:recursionCount'(7713, 4)).
+answer('urn:example:recursionCount'(7714, 3)).
+answer('urn:example:recursionCount'(7715, 1)).
+answer('urn:example:recursionCount'(7716, 7)).
+answer('urn:example:recursionCount'(7717, 6)).
+answer('urn:example:recursionCount'(7718, 4)).
+answer('urn:example:recursionCount'(7719, 6)).
+answer('urn:example:recursionCount'(7720, 5)).
+answer('urn:example:recursionCount'(7721, 5)).
+answer('urn:example:recursionCount'(7722, 5)).
+answer('urn:example:recursionCount'(7723, 5)).
+answer('urn:example:recursionCount'(7724, 5)).
+answer('urn:example:recursionCount'(7725, 7)).
+answer('urn:example:recursionCount'(7726, 7)).
+answer('urn:example:recursionCount'(7727, 6)).
+answer('urn:example:recursionCount'(7728, 6)).
+answer('urn:example:recursionCount'(7729, 4)).
+answer('urn:example:recursionCount'(7730, 3)).
+answer('urn:example:recursionCount'(7731, 4)).
+answer('urn:example:recursionCount'(7732, 5)).
+answer('urn:example:recursionCount'(7733, 4)).
+answer('urn:example:recursionCount'(7734, 3)).
+answer('urn:example:recursionCount'(7735, 2)).
+answer('urn:example:recursionCount'(7736, 7)).
+answer('urn:example:recursionCount'(7737, 4)).
+answer('urn:example:recursionCount'(7738, 6)).
+answer('urn:example:recursionCount'(7739, 6)).
+answer('urn:example:recursionCount'(7740, 6)).
+answer('urn:example:recursionCount'(7741, 3)).
+answer('urn:example:recursionCount'(7742, 5)).
+answer('urn:example:recursionCount'(7743, 3)).
+answer('urn:example:recursionCount'(7744, 6)).
+answer('urn:example:recursionCount'(7745, 5)).
+answer('urn:example:recursionCount'(7746, 3)).
+answer('urn:example:recursionCount'(7747, 6)).
+answer('urn:example:recursionCount'(7748, 4)).
+answer('urn:example:recursionCount'(7749, 6)).
+answer('urn:example:recursionCount'(7750, 5)).
+answer('urn:example:recursionCount'(7751, 1)).
+answer('urn:example:recursionCount'(7752, 7)).
+answer('urn:example:recursionCount'(7753, 2)).
+answer('urn:example:recursionCount'(7754, 5)).
+answer('urn:example:recursionCount'(7755, 6)).
+answer('urn:example:recursionCount'(7756, 3)).
+answer('urn:example:recursionCount'(7757, 4)).
+answer('urn:example:recursionCount'(7758, 6)).
+answer('urn:example:recursionCount'(7759, 4)).
+answer('urn:example:recursionCount'(7760, 3)).
+answer('urn:example:recursionCount'(7761, 7)).
+answer('urn:example:recursionCount'(7762, 7)).
+answer('urn:example:recursionCount'(7763, 7)).
+answer('urn:example:recursionCount'(7764, 3)).
+answer('urn:example:recursionCount'(7765, 3)).
+answer('urn:example:recursionCount'(7766, 4)).
+answer('urn:example:recursionCount'(7767, 5)).
+answer('urn:example:recursionCount'(7768, 4)).
+answer('urn:example:recursionCount'(7769, 6)).
+answer('urn:example:recursionCount'(7770, 4)).
+answer('urn:example:recursionCount'(7771, 6)).
+answer('urn:example:recursionCount'(7772, 6)).
+answer('urn:example:recursionCount'(7773, 4)).
+answer('urn:example:recursionCount'(7774, 6)).
+answer('urn:example:recursionCount'(7775, 4)).
+answer('urn:example:recursionCount'(7776, 5)).
+answer('urn:example:recursionCount'(7778, 5)).
+answer('urn:example:recursionCount'(7779, 4)).
+answer('urn:example:recursionCount'(7780, 6)).
+answer('urn:example:recursionCount'(7781, 4)).
+answer('urn:example:recursionCount'(7782, 6)).
+answer('urn:example:recursionCount'(7783, 6)).
+answer('urn:example:recursionCount'(7784, 4)).
+answer('urn:example:recursionCount'(7785, 6)).
+answer('urn:example:recursionCount'(7786, 4)).
+answer('urn:example:recursionCount'(7787, 5)).
+answer('urn:example:recursionCount'(7788, 4)).
+answer('urn:example:recursionCount'(7789, 3)).
+answer('urn:example:recursionCount'(7790, 4)).
+answer('urn:example:recursionCount'(7791, 6)).
+answer('urn:example:recursionCount'(7792, 4)).
+answer('urn:example:recursionCount'(7793, 6)).
+answer('urn:example:recursionCount'(7794, 6)).
+answer('urn:example:recursionCount'(7795, 4)).
+answer('urn:example:recursionCount'(7796, 6)).
+answer('urn:example:recursionCount'(7797, 4)).
+answer('urn:example:recursionCount'(7798, 3)).
+answer('urn:example:recursionCount'(7799, 6)).
+answer('urn:example:recursionCount'(7800, 5)).
+answer('urn:example:recursionCount'(7801, 2)).
+answer('urn:example:recursionCount'(7802, 7)).
+answer('urn:example:recursionCount'(7803, 2)).
+answer('urn:example:recursionCount'(7804, 5)).
+answer('urn:example:recursionCount'(7805, 6)).
+answer('urn:example:recursionCount'(7806, 3)).
+answer('urn:example:recursionCount'(7807, 6)).
+answer('urn:example:recursionCount'(7808, 3)).
+answer('urn:example:recursionCount'(7809, 4)).
+answer('urn:example:recursionCount'(7810, 2)).
+answer('urn:example:recursionCount'(7811, 3)).
+answer('urn:example:recursionCount'(7812, 5)).
+answer('urn:example:recursionCount'(7813, 3)).
+answer('urn:example:recursionCount'(7814, 6)).
+answer('urn:example:recursionCount'(7815, 5)).
+answer('urn:example:recursionCount'(7816, 3)).
+answer('urn:example:recursionCount'(7817, 4)).
+answer('urn:example:recursionCount'(7818, 3)).
+answer('urn:example:recursionCount'(7819, 3)).
+answer('urn:example:recursionCount'(7820, 7)).
+answer('urn:example:recursionCount'(7821, 5)).
+answer('urn:example:recursionCount'(7822, 5)).
+answer('urn:example:recursionCount'(7823, 4)).
+answer('urn:example:recursionCount'(7824, 3)).
+answer('urn:example:recursionCount'(7825, 1)).
+answer('urn:example:recursionCount'(7826, 7)).
+answer('urn:example:recursionCount'(7827, 6)).
+answer('urn:example:recursionCount'(7828, 7)).
+answer('urn:example:recursionCount'(7829, 3)).
+answer('urn:example:recursionCount'(7830, 2)).
+answer('urn:example:recursionCount'(7831, 3)).
+answer('urn:example:recursionCount'(7832, 4)).
+answer('urn:example:recursionCount'(7833, 5)).
+answer('urn:example:recursionCount'(7834, 5)).
+answer('urn:example:recursionCount'(7835, 7)).
+answer('urn:example:recursionCount'(7836, 7)).
+answer('urn:example:recursionCount'(7837, 6)).
+answer('urn:example:recursionCount'(7838, 7)).
+answer('urn:example:recursionCount'(7839, 7)).
+answer('urn:example:recursionCount'(7840, 5)).
+answer('urn:example:recursionCount'(7841, 6)).
+answer('urn:example:recursionCount'(7842, 3)).
+answer('urn:example:recursionCount'(7843, 5)).
+answer('urn:example:recursionCount'(7844, 3)).
+answer('urn:example:recursionCount'(7845, 2)).
+answer('urn:example:recursionCount'(7846, 7)).
+answer('urn:example:recursionCount'(7847, 4)).
+answer('urn:example:recursionCount'(7848, 7)).
+answer('urn:example:recursionCount'(7849, 7)).
+answer('urn:example:recursionCount'(7850, 6)).
+answer('urn:example:recursionCount'(7851, 5)).
+answer('urn:example:recursionCount'(7852, 1)).
+answer('urn:example:recursionCount'(7853, 7)).
+answer('urn:example:recursionCount'(7854, 2)).
+answer('urn:example:recursionCount'(7855, 5)).
+answer('urn:example:recursionCount'(7856, 3)).
+answer('urn:example:recursionCount'(7857, 6)).
+answer('urn:example:recursionCount'(7858, 3)).
+answer('urn:example:recursionCount'(7859, 7)).
+answer('urn:example:recursionCount'(7860, 3)).
+answer('urn:example:recursionCount'(7861, 3)).
+answer('urn:example:recursionCount'(7862, 7)).
+answer('urn:example:recursionCount'(7863, 7)).
+answer('urn:example:recursionCount'(7864, 7)).
+answer('urn:example:recursionCount'(7865, 3)).
+answer('urn:example:recursionCount'(7866, 3)).
+answer('urn:example:recursionCount'(7867, 4)).
+answer('urn:example:recursionCount'(7868, 3)).
+answer('urn:example:recursionCount'(7869, 3)).
+answer('urn:example:recursionCount'(7870, 6)).
+answer('urn:example:recursionCount'(7871, 4)).
+answer('urn:example:recursionCount'(7872, 6)).
+answer('urn:example:recursionCount'(7873, 6)).
+answer('urn:example:recursionCount'(7874, 4)).
+answer('urn:example:recursionCount'(7875, 6)).
+answer('urn:example:recursionCount'(7876, 4)).
+answer('urn:example:recursionCount'(7877, 5)).
+answer('urn:example:recursionCount'(7878, 4)).
+answer('urn:example:recursionCount'(7879, 3)).
+answer('urn:example:recursionCount'(7880, 3)).
+answer('urn:example:recursionCount'(7881, 3)).
+answer('urn:example:recursionCount'(7882, 7)).
+answer('urn:example:recursionCount'(7883, 7)).
+answer('urn:example:recursionCount'(7884, 7)).
+answer('urn:example:recursionCount'(7885, 3)).
+answer('urn:example:recursionCount'(7886, 3)).
+answer('urn:example:recursionCount'(7887, 4)).
+answer('urn:example:recursionCount'(7888, 5)).
+answer('urn:example:recursionCount'(7889, 4)).
+answer('urn:example:recursionCount'(7890, 4)).
+answer('urn:example:recursionCount'(7891, 3)).
+answer('urn:example:recursionCount'(7892, 3)).
+answer('urn:example:recursionCount'(7893, 7)).
+answer('urn:example:recursionCount'(7894, 7)).
+answer('urn:example:recursionCount'(7895, 7)).
+answer('urn:example:recursionCount'(7896, 3)).
+answer('urn:example:recursionCount'(7897, 3)).
+answer('urn:example:recursionCount'(7898, 4)).
+answer('urn:example:recursionCount'(7899, 3)).
+answer('urn:example:recursionCount'(7900, 3)).
+answer('urn:example:recursionCount'(7901, 7)).
+answer('urn:example:recursionCount'(7902, 7)).
+answer('urn:example:recursionCount'(7903, 7)).
+answer('urn:example:recursionCount'(7904, 3)).
+answer('urn:example:recursionCount'(7905, 3)).
+answer('urn:example:recursionCount'(7906, 4)).
+answer('urn:example:recursionCount'(7907, 4)).
+answer('urn:example:recursionCount'(7908, 4)).
+answer('urn:example:recursionCount'(7909, 3)).
+answer('urn:example:recursionCount'(7910, 7)).
+answer('urn:example:recursionCount'(7911, 2)).
+answer('urn:example:recursionCount'(7912, 7)).
+answer('urn:example:recursionCount'(7913, 2)).
+answer('urn:example:recursionCount'(7914, 5)).
+answer('urn:example:recursionCount'(7915, 6)).
+answer('urn:example:recursionCount'(7916, 3)).
+answer('urn:example:recursionCount'(7917, 6)).
+answer('urn:example:recursionCount'(7918, 3)).
+answer('urn:example:recursionCount'(7919, 6)).
+answer('urn:example:recursionCount'(7920, 7)).
+answer('urn:example:recursionCount'(7921, 7)).
+answer('urn:example:recursionCount'(7922, 5)).
+answer('urn:example:recursionCount'(7923, 3)).
+answer('urn:example:recursionCount'(7924, 6)).
+answer('urn:example:recursionCount'(7925, 5)).
+answer('urn:example:recursionCount'(7926, 3)).
+answer('urn:example:recursionCount'(7927, 4)).
+answer('urn:example:recursionCount'(7928, 3)).
+answer('urn:example:recursionCount'(7929, 5)).
+answer('urn:example:recursionCount'(7930, 7)).
+answer('urn:example:recursionCount'(7931, 2)).
+answer('urn:example:recursionCount'(7932, 3)).
+answer('urn:example:recursionCount'(7933, 4)).
+answer('urn:example:recursionCount'(7934, 3)).
+answer('urn:example:recursionCount'(7935, 1)).
+answer('urn:example:recursionCount'(7936, 7)).
+answer('urn:example:recursionCount'(7937, 6)).
+answer('urn:example:recursionCount'(7938, 7)).
+answer('urn:example:recursionCount'(7939, 1)).
+answer('urn:example:recursionCount'(7940, 3)).
+answer('urn:example:recursionCount'(7941, 5)).
+answer('urn:example:recursionCount'(7942, 6)).
+answer('urn:example:recursionCount'(7943, 3)).
+answer('urn:example:recursionCount'(7944, 5)).
+answer('urn:example:recursionCount'(7945, 7)).
+answer('urn:example:recursionCount'(7946, 7)).
+answer('urn:example:recursionCount'(7947, 6)).
+answer('urn:example:recursionCount'(7948, 7)).
+answer('urn:example:recursionCount'(7949, 7)).
+answer('urn:example:recursionCount'(7950, 3)).
+answer('urn:example:recursionCount'(7951, 6)).
+answer('urn:example:recursionCount'(7952, 5)).
+answer('urn:example:recursionCount'(7953, 1)).
+answer('urn:example:recursionCount'(7954, 7)).
+answer('urn:example:recursionCount'(7955, 2)).
+answer('urn:example:recursionCount'(7956, 7)).
+answer('urn:example:recursionCount'(7957, 4)).
+answer('urn:example:recursionCount'(7958, 7)).
+answer('urn:example:recursionCount'(7959, 2)).
+answer('urn:example:recursionCount'(7960, 4)).
+answer('urn:example:recursionCount'(7961, 3)).
+answer('urn:example:recursionCount'(7962, 3)).
+answer('urn:example:recursionCount'(7963, 7)).
+answer('urn:example:recursionCount'(7964, 7)).
+answer('urn:example:recursionCount'(7965, 7)).
+answer('urn:example:recursionCount'(7966, 3)).
+answer('urn:example:recursionCount'(7967, 6)).
+answer('urn:example:recursionCount'(7968, 3)).
+answer('urn:example:recursionCount'(7969, 5)).
+answer('urn:example:recursionCount'(7970, 4)).
+answer('urn:example:recursionCount'(7971, 6)).
+answer('urn:example:recursionCount'(7972, 4)).
+answer('urn:example:recursionCount'(7973, 6)).
+answer('urn:example:recursionCount'(7974, 6)).
+answer('urn:example:recursionCount'(7975, 4)).
+answer('urn:example:recursionCount'(7976, 6)).
+answer('urn:example:recursionCount'(7977, 4)).
+answer('urn:example:recursionCount'(7978, 3)).
+answer('urn:example:recursionCount'(7979, 6)).
+answer('urn:example:recursionCount'(7980, 4)).
+answer('urn:example:recursionCount'(7981, 3)).
+answer('urn:example:recursionCount'(7982, 3)).
+answer('urn:example:recursionCount'(7983, 7)).
+answer('urn:example:recursionCount'(7984, 7)).
+answer('urn:example:recursionCount'(7985, 7)).
+answer('urn:example:recursionCount'(7986, 3)).
+answer('urn:example:recursionCount'(7987, 3)).
+answer('urn:example:recursionCount'(7988, 4)).
+answer('urn:example:recursionCount'(7989, 3)).
+answer('urn:example:recursionCount'(7990, 3)).
+answer('urn:example:recursionCount'(7991, 6)).
+answer('urn:example:recursionCount'(7992, 5)).
+answer('urn:example:recursionCount'(7993, 1)).
+answer('urn:example:recursionCount'(7994, 7)).
+answer('urn:example:recursionCount'(7995, 2)).
+answer('urn:example:recursionCount'(7996, 5)).
+answer('urn:example:recursionCount'(7997, 6)).
+answer('urn:example:recursionCount'(7998, 3)).
+answer('urn:example:recursionCount'(7999, 4)).
+answer('urn:example:recursionCount'(8000, 6)).
+answer('urn:example:recursionCount'(8001, 3)).
+answer('urn:example:recursionCount'(8002, 6)).
+answer('urn:example:recursionCount'(8003, 5)).
+answer('urn:example:recursionCount'(8004, 2)).
+answer('urn:example:recursionCount'(8005, 7)).
+answer('urn:example:recursionCount'(8006, 2)).
+answer('urn:example:recursionCount'(8007, 5)).
+answer('urn:example:recursionCount'(8008, 6)).
+answer('urn:example:recursionCount'(8009, 3)).
+answer('urn:example:recursionCount'(8010, 3)).
+answer('urn:example:recursionCount'(8011, 6)).
+answer('urn:example:recursionCount'(8012, 3)).
+answer('urn:example:recursionCount'(8013, 6)).
+answer('urn:example:recursionCount'(8014, 5)).
+answer('urn:example:recursionCount'(8015, 2)).
+answer('urn:example:recursionCount'(8016, 7)).
+answer('urn:example:recursionCount'(8017, 2)).
+answer('urn:example:recursionCount'(8018, 5)).
+answer('urn:example:recursionCount'(8019, 3)).
+answer('urn:example:recursionCount'(8020, 6)).
+answer('urn:example:recursionCount'(8021, 3)).
+answer('urn:example:recursionCount'(8022, 6)).
+answer('urn:example:recursionCount'(8023, 3)).
+answer('urn:example:recursionCount'(8024, 6)).
+answer('urn:example:recursionCount'(8025, 5)).
+answer('urn:example:recursionCount'(8026, 2)).
+answer('urn:example:recursionCount'(8027, 7)).
+answer('urn:example:recursionCount'(8028, 2)).
+answer('urn:example:recursionCount'(8029, 7)).
+answer('urn:example:recursionCount'(8030, 5)).
+answer('urn:example:recursionCount'(8031, 6)).
+answer('urn:example:recursionCount'(8032, 3)).
+answer('urn:example:recursionCount'(8033, 6)).
+answer('urn:example:recursionCount'(8034, 3)).
+answer('urn:example:recursionCount'(8035, 6)).
+answer('urn:example:recursionCount'(8036, 5)).
+answer('urn:example:recursionCount'(8037, 2)).
+answer('urn:example:recursionCount'(8038, 7)).
+answer('urn:example:recursionCount'(8039, 7)).
+answer('urn:example:recursionCount'(8040, 2)).
+answer('urn:example:recursionCount'(8041, 5)).
+answer('urn:example:recursionCount'(8042, 6)).
+answer('urn:example:recursionCount'(8043, 3)).
+answer('urn:example:recursionCount'(8044, 6)).
+answer('urn:example:recursionCount'(8045, 3)).
+answer('urn:example:recursionCount'(8046, 6)).
+answer('urn:example:recursionCount'(8047, 5)).
+answer('urn:example:recursionCount'(8048, 2)).
+answer('urn:example:recursionCount'(8049, 7)).
+answer('urn:example:recursionCount'(8050, 7)).
+answer('urn:example:recursionCount'(8051, 2)).
+answer('urn:example:recursionCount'(8052, 5)).
+answer('urn:example:recursionCount'(8053, 6)).
+answer('urn:example:recursionCount'(8054, 3)).
+answer('urn:example:recursionCount'(8055, 6)).
+answer('urn:example:recursionCount'(8056, 3)).
+answer('urn:example:recursionCount'(8057, 6)).
+answer('urn:example:recursionCount'(8058, 5)).
+answer('urn:example:recursionCount'(8059, 3)).
+answer('urn:example:recursionCount'(8060, 2)).
+answer('urn:example:recursionCount'(8061, 7)).
+answer('urn:example:recursionCount'(8062, 2)).
+answer('urn:example:recursionCount'(8063, 5)).
+answer('urn:example:recursionCount'(8064, 6)).
+answer('urn:example:recursionCount'(8065, 3)).
+answer('urn:example:recursionCount'(8066, 6)).
+answer('urn:example:recursionCount'(8067, 3)).
+answer('urn:example:recursionCount'(8068, 6)).
+answer('urn:example:recursionCount'(8069, 3)).
+answer('urn:example:recursionCount'(8070, 5)).
+answer('urn:example:recursionCount'(8071, 2)).
+answer('urn:example:recursionCount'(8072, 7)).
+answer('urn:example:recursionCount'(8073, 2)).
+answer('urn:example:recursionCount'(8074, 5)).
+answer('urn:example:recursionCount'(8075, 6)).
+answer('urn:example:recursionCount'(8076, 3)).
+answer('urn:example:recursionCount'(8077, 6)).
+answer('urn:example:recursionCount'(8078, 3)).
+answer('urn:example:recursionCount'(8079, 4)).
+answer('urn:example:recursionCount'(8080, 6)).
+answer('urn:example:recursionCount'(8081, 5)).
+answer('urn:example:recursionCount'(8082, 2)).
+answer('urn:example:recursionCount'(8083, 7)).
+answer('urn:example:recursionCount'(8084, 2)).
+answer('urn:example:recursionCount'(8085, 5)).
+answer('urn:example:recursionCount'(8086, 6)).
+answer('urn:example:recursionCount'(8087, 3)).
+answer('urn:example:recursionCount'(8088, 6)).
+answer('urn:example:recursionCount'(8089, 4)).
+answer('urn:example:recursionCount'(8090, 3)).
+answer('urn:example:recursionCount'(8091, 3)).
+answer('urn:example:recursionCount'(8092, 7)).
+answer('urn:example:recursionCount'(8093, 7)).
+answer('urn:example:recursionCount'(8094, 7)).
+answer('urn:example:recursionCount'(8095, 3)).
+answer('urn:example:recursionCount'(8096, 3)).
+answer('urn:example:recursionCount'(8097, 4)).
+answer('urn:example:recursionCount'(8098, 4)).
+answer('urn:example:recursionCount'(8099, 4)).
+answer('urn:example:recursionCount'(8100, 3)).
+answer('urn:example:recursionCount'(8101, 6)).
+answer('urn:example:recursionCount'(8102, 3)).
+answer('urn:example:recursionCount'(8103, 6)).
+answer('urn:example:recursionCount'(8104, 5)).
+answer('urn:example:recursionCount'(8105, 2)).
+answer('urn:example:recursionCount'(8106, 7)).
+answer('urn:example:recursionCount'(8107, 2)).
+answer('urn:example:recursionCount'(8108, 5)).
+answer('urn:example:recursionCount'(8109, 3)).
+answer('urn:example:recursionCount'(8110, 6)).
+answer('urn:example:recursionCount'(8111, 4)).
+answer('urn:example:recursionCount'(8112, 3)).
+answer('urn:example:recursionCount'(8113, 5)).
+answer('urn:example:recursionCount'(8114, 6)).
+answer('urn:example:recursionCount'(8115, 3)).
+answer('urn:example:recursionCount'(8116, 5)).
+answer('urn:example:recursionCount'(8117, 3)).
+answer('urn:example:recursionCount'(8118, 6)).
+answer('urn:example:recursionCount'(8119, 5)).
+answer('urn:example:recursionCount'(8120, 3)).
+answer('urn:example:recursionCount'(8121, 3)).
+answer('urn:example:recursionCount'(8122, 4)).
+answer('urn:example:recursionCount'(8123, 3)).
+answer('urn:example:recursionCount'(8124, 5)).
+answer('urn:example:recursionCount'(8125, 6)).
+answer('urn:example:recursionCount'(8126, 3)).
+answer('urn:example:recursionCount'(8127, 5)).
+answer('urn:example:recursionCount'(8128, 3)).
+answer('urn:example:recursionCount'(8129, 2)).
+answer('urn:example:recursionCount'(8130, 6)).
+answer('urn:example:recursionCount'(8131, 5)).
+answer('urn:example:recursionCount'(8132, 3)).
+answer('urn:example:recursionCount'(8133, 4)).
+answer('urn:example:recursionCount'(8134, 3)).
+answer('urn:example:recursionCount'(8135, 5)).
+answer('urn:example:recursionCount'(8136, 6)).
+answer('urn:example:recursionCount'(8137, 3)).
+answer('urn:example:recursionCount'(8138, 5)).
+answer('urn:example:recursionCount'(8139, 7)).
+answer('urn:example:recursionCount'(8140, 5)).
+answer('urn:example:recursionCount'(8141, 6)).
+answer('urn:example:recursionCount'(8142, 5)).
+answer('urn:example:recursionCount'(8143, 3)).
+answer('urn:example:recursionCount'(8144, 4)).
+answer('urn:example:recursionCount'(8145, 3)).
+answer('urn:example:recursionCount'(8146, 5)).
+answer('urn:example:recursionCount'(8147, 6)).
+answer('urn:example:recursionCount'(8148, 3)).
+answer('urn:example:recursionCount'(8149, 2)).
+answer('urn:example:recursionCount'(8150, 2)).
+answer('urn:example:recursionCount'(8151, 3)).
+answer('urn:example:recursionCount'(8152, 6)).
+answer('urn:example:recursionCount'(8153, 5)).
+answer('urn:example:recursionCount'(8154, 3)).
+answer('urn:example:recursionCount'(8155, 4)).
+answer('urn:example:recursionCount'(8156, 3)).
+answer('urn:example:recursionCount'(8157, 5)).
+answer('urn:example:recursionCount'(8158, 6)).
+answer('urn:example:recursionCount'(8159, 5)).
+answer('urn:example:recursionCount'(8160, 7)).
+answer('urn:example:recursionCount'(8161, 5)).
+answer('urn:example:recursionCount'(8162, 3)).
+answer('urn:example:recursionCount'(8163, 6)).
+answer('urn:example:recursionCount'(8164, 5)).
+answer('urn:example:recursionCount'(8165, 3)).
+answer('urn:example:recursionCount'(8166, 4)).
+answer('urn:example:recursionCount'(8167, 3)).
+answer('urn:example:recursionCount'(8168, 5)).
+answer('urn:example:recursionCount'(8169, 6)).
+answer('urn:example:recursionCount'(8170, 2)).
+answer('urn:example:recursionCount'(8171, 3)).
+answer('urn:example:recursionCount'(8172, 5)).
+answer('urn:example:recursionCount'(8173, 3)).
+answer('urn:example:recursionCount'(8174, 6)).
+answer('urn:example:recursionCount'(8175, 5)).
+answer('urn:example:recursionCount'(8176, 3)).
+answer('urn:example:recursionCount'(8177, 4)).
+answer('urn:example:recursionCount'(8178, 3)).
+answer('urn:example:recursionCount'(8179, 3)).
+answer('urn:example:recursionCount'(8180, 5)).
+answer('urn:example:recursionCount'(8181, 6)).
+answer('urn:example:recursionCount'(8182, 3)).
+answer('urn:example:recursionCount'(8183, 5)).
+answer('urn:example:recursionCount'(8184, 3)).
+answer('urn:example:recursionCount'(8185, 6)).
+answer('urn:example:recursionCount'(8186, 5)).
+answer('urn:example:recursionCount'(8187, 3)).
+answer('urn:example:recursionCount'(8188, 4)).
+answer('urn:example:recursionCount'(8189, 6)).
+answer('urn:example:recursionCount'(8190, 3)).
+answer('urn:example:recursionCount'(8191, 5)).
+answer('urn:example:recursionCount'(8192, 2)).
+answer('urn:example:recursionCount'(8193, 7)).
+answer('urn:example:recursionCount'(8194, 2)).
+answer('urn:example:recursionCount'(8195, 5)).
+answer('urn:example:recursionCount'(8196, 6)).
+answer('urn:example:recursionCount'(8197, 3)).
+answer('urn:example:recursionCount'(8198, 6)).
+answer('urn:example:recursionCount'(8199, 3)).
+answer('urn:example:recursionCount'(8200, 6)).
+answer('urn:example:recursionCount'(8201, 3)).
+answer('urn:example:recursionCount'(8202, 6)).
+answer('urn:example:recursionCount'(8203, 3)).
+answer('urn:example:recursionCount'(8204, 6)).
+answer('urn:example:recursionCount'(8205, 5)).
+answer('urn:example:recursionCount'(8206, 2)).
+answer('urn:example:recursionCount'(8207, 7)).
+answer('urn:example:recursionCount'(8208, 2)).
+answer('urn:example:recursionCount'(8209, 7)).
+answer('urn:example:recursionCount'(8210, 3)).
+answer('urn:example:recursionCount'(8211, 3)).
+answer('urn:example:recursionCount'(8212, 4)).
+answer('urn:example:recursionCount'(8213, 3)).
+answer('urn:example:recursionCount'(8214, 5)).
+answer('urn:example:recursionCount'(8215, 6)).
+answer('urn:example:recursionCount'(8216, 3)).
+answer('urn:example:recursionCount'(8217, 5)).
+answer('urn:example:recursionCount'(8218, 3)).
+answer('urn:example:recursionCount'(8219, 2)).
+answer('urn:example:recursionCount'(8220, 6)).
+answer('urn:example:recursionCount'(8221, 4)).
+answer('urn:example:recursionCount'(8222, 6)).
+answer('urn:example:recursionCount'(8223, 7)).
+answer('urn:example:recursionCount'(8224, 1)).
+answer('urn:example:recursionCount'(8225, 3)).
+answer('urn:example:recursionCount'(8226, 4)).
+answer('urn:example:recursionCount'(8227, 5)).
+answer('urn:example:recursionCount'(8228, 4)).
+answer('urn:example:recursionCount'(8229, 3)).
+answer('urn:example:recursionCount'(8230, 3)).
+answer('urn:example:recursionCount'(8231, 3)).
+answer('urn:example:recursionCount'(8232, 7)).
+answer('urn:example:recursionCount'(8233, 6)).
+answer('urn:example:recursionCount'(8234, 7)).
+answer('urn:example:recursionCount'(8235, 1)).
+answer('urn:example:recursionCount'(8236, 3)).
+answer('urn:example:recursionCount'(8237, 4)).
+answer('urn:example:recursionCount'(8238, 5)).
+answer('urn:example:recursionCount'(8239, 5)).
+answer('urn:example:recursionCount'(8240, 6)).
+answer('urn:example:recursionCount'(8241, 5)).
+answer('urn:example:recursionCount'(8242, 1)).
+answer('urn:example:recursionCount'(8243, 7)).
+answer('urn:example:recursionCount'(8244, 6)).
+answer('urn:example:recursionCount'(8245, 7)).
+answer('urn:example:recursionCount'(8246, 1)).
+answer('urn:example:recursionCount'(8247, 3)).
+answer('urn:example:recursionCount'(8248, 4)).
+answer('urn:example:recursionCount'(8249, 3)).
+answer('urn:example:recursionCount'(8250, 5)).
+answer('urn:example:recursionCount'(8251, 6)).
+answer('urn:example:recursionCount'(8252, 3)).
+answer('urn:example:recursionCount'(8253, 1)).
+answer('urn:example:recursionCount'(8254, 7)).
+answer('urn:example:recursionCount'(8255, 6)).
+answer('urn:example:recursionCount'(8256, 7)).
+answer('urn:example:recursionCount'(8257, 1)).
+answer('urn:example:recursionCount'(8258, 3)).
+answer('urn:example:recursionCount'(8259, 6)).
+answer('urn:example:recursionCount'(8260, 2)).
+answer('urn:example:recursionCount'(8261, 3)).
+answer('urn:example:recursionCount'(8262, 4)).
+answer('urn:example:recursionCount'(8263, 3)).
+answer('urn:example:recursionCount'(8264, 1)).
+answer('urn:example:recursionCount'(8265, 7)).
+answer('urn:example:recursionCount'(8266, 6)).
+answer('urn:example:recursionCount'(8267, 7)).
+answer('urn:example:recursionCount'(8268, 1)).
+answer('urn:example:recursionCount'(8269, 5)).
+answer('urn:example:recursionCount'(8270, 7)).
+answer('urn:example:recursionCount'(8271, 5)).
+answer('urn:example:recursionCount'(8272, 5)).
+answer('urn:example:recursionCount'(8273, 4)).
+answer('urn:example:recursionCount'(8274, 3)).
+answer('urn:example:recursionCount'(8275, 1)).
+answer('urn:example:recursionCount'(8276, 7)).
+answer('urn:example:recursionCount'(8277, 6)).
+answer('urn:example:recursionCount'(8278, 7)).
+answer('urn:example:recursionCount'(8279, 3)).
+answer('urn:example:recursionCount'(8280, 2)).
+answer('urn:example:recursionCount'(8281, 3)).
+answer('urn:example:recursionCount'(8282, 4)).
+answer('urn:example:recursionCount'(8283, 5)).
+answer('urn:example:recursionCount'(8284, 4)).
+answer('urn:example:recursionCount'(8285, 3)).
+answer('urn:example:recursionCount'(8286, 1)).
+answer('urn:example:recursionCount'(8287, 7)).
+answer('urn:example:recursionCount'(8288, 6)).
+answer('urn:example:recursionCount'(8289, 4)).
+answer('urn:example:recursionCount'(8290, 7)).
+answer('urn:example:recursionCount'(8291, 2)).
+answer('urn:example:recursionCount'(8292, 3)).
+answer('urn:example:recursionCount'(8293, 5)).
+answer('urn:example:recursionCount'(8294, 3)).
+answer('urn:example:recursionCount'(8295, 6)).
+answer('urn:example:recursionCount'(8296, 5)).
+answer('urn:example:recursionCount'(8297, 3)).
+answer('urn:example:recursionCount'(8298, 4)).
+answer('urn:example:recursionCount'(8299, 3)).
+answer('urn:example:recursionCount'(8300, 5)).
+answer('urn:example:recursionCount'(8301, 6)).
+answer('urn:example:recursionCount'(8302, 3)).
+answer('urn:example:recursionCount'(8303, 6)).
+answer('urn:example:recursionCount'(8304, 3)).
+answer('urn:example:recursionCount'(8305, 6)).
+answer('urn:example:recursionCount'(8306, 5)).
+answer('urn:example:recursionCount'(8307, 2)).
+answer('urn:example:recursionCount'(8308, 7)).
+answer('urn:example:recursionCount'(8309, 7)).
+answer('urn:example:recursionCount'(8310, 6)).
+answer('urn:example:recursionCount'(8311, 5)).
+answer('urn:example:recursionCount'(8312, 3)).
+answer('urn:example:recursionCount'(8313, 4)).
+answer('urn:example:recursionCount'(8314, 3)).
+answer('urn:example:recursionCount'(8315, 5)).
+answer('urn:example:recursionCount'(8316, 6)).
+answer('urn:example:recursionCount'(8317, 3)).
+answer('urn:example:recursionCount'(8318, 5)).
+answer('urn:example:recursionCount'(8319, 7)).
+answer('urn:example:recursionCount'(8320, 3)).
+answer('urn:example:recursionCount'(8321, 3)).
+answer('urn:example:recursionCount'(8322, 7)).
+answer('urn:example:recursionCount'(8323, 6)).
+answer('urn:example:recursionCount'(8324, 7)).
+answer('urn:example:recursionCount'(8325, 1)).
+answer('urn:example:recursionCount'(8326, 3)).
+answer('urn:example:recursionCount'(8327, 4)).
+answer('urn:example:recursionCount'(8328, 5)).
+answer('urn:example:recursionCount'(8329, 5)).
+answer('urn:example:recursionCount'(8330, 6)).
+answer('urn:example:recursionCount'(8331, 4)).
+answer('urn:example:recursionCount'(8332, 6)).
+answer('urn:example:recursionCount'(8333, 6)).
+answer('urn:example:recursionCount'(8334, 7)).
+answer('urn:example:recursionCount'(8335, 7)).
+answer('urn:example:recursionCount'(8336, 5)).
+answer('urn:example:recursionCount'(8337, 5)).
+answer('urn:example:recursionCount'(8338, 5)).
+answer('urn:example:recursionCount'(8339, 5)).
+answer('urn:example:recursionCount'(8340, 3)).
+answer('urn:example:recursionCount'(8341, 3)).
+answer('urn:example:recursionCount'(8342, 7)).
+answer('urn:example:recursionCount'(8343, 7)).
+answer('urn:example:recursionCount'(8344, 6)).
+answer('urn:example:recursionCount'(8345, 7)).
+answer('urn:example:recursionCount'(8346, 7)).
+answer('urn:example:recursionCount'(8347, 5)).
+answer('urn:example:recursionCount'(8348, 5)).
+answer('urn:example:recursionCount'(8349, 4)).
+answer('urn:example:recursionCount'(8350, 6)).
+answer('urn:example:recursionCount'(8351, 5)).
+answer('urn:example:recursionCount'(8352, 1)).
+answer('urn:example:recursionCount'(8353, 7)).
+answer('urn:example:recursionCount'(8354, 7)).
+answer('urn:example:recursionCount'(8355, 6)).
+answer('urn:example:recursionCount'(8356, 7)).
+answer('urn:example:recursionCount'(8357, 7)).
+answer('urn:example:recursionCount'(8358, 5)).
+answer('urn:example:recursionCount'(8359, 3)).
+answer('urn:example:recursionCount'(8360, 5)).
+answer('urn:example:recursionCount'(8361, 6)).
+answer('urn:example:recursionCount'(8362, 3)).
+answer('urn:example:recursionCount'(8363, 5)).
+answer('urn:example:recursionCount'(8364, 7)).
+answer('urn:example:recursionCount'(8365, 7)).
+answer('urn:example:recursionCount'(8366, 6)).
+answer('urn:example:recursionCount'(8367, 7)).
+answer('urn:example:recursionCount'(8368, 7)).
+answer('urn:example:recursionCount'(8369, 1)).
+answer('urn:example:recursionCount'(8370, 2)).
+answer('urn:example:recursionCount'(8371, 3)).
+answer('urn:example:recursionCount'(8372, 4)).
+answer('urn:example:recursionCount'(8373, 5)).
+answer('urn:example:recursionCount'(8374, 5)).
+answer('urn:example:recursionCount'(8375, 7)).
+answer('urn:example:recursionCount'(8376, 7)).
+answer('urn:example:recursionCount'(8377, 6)).
+answer('urn:example:recursionCount'(8378, 7)).
+answer('urn:example:recursionCount'(8379, 7)).
+answer('urn:example:recursionCount'(8380, 7)).
+answer('urn:example:recursionCount'(8381, 5)).
+answer('urn:example:recursionCount'(8382, 5)).
+answer('urn:example:recursionCount'(8383, 5)).
+answer('urn:example:recursionCount'(8384, 5)).
+answer('urn:example:recursionCount'(8385, 5)).
+answer('urn:example:recursionCount'(8386, 7)).
+answer('urn:example:recursionCount'(8387, 7)).
+answer('urn:example:recursionCount'(8388, 6)).
+answer('urn:example:recursionCount'(8389, 6)).
+answer('urn:example:recursionCount'(8390, 7)).
+answer('urn:example:recursionCount'(8391, 7)).
+answer('urn:example:recursionCount'(8392, 5)).
+answer('urn:example:recursionCount'(8393, 5)).
+answer('urn:example:recursionCount'(8394, 4)).
+answer('urn:example:recursionCount'(8395, 3)).
+answer('urn:example:recursionCount'(8396, 1)).
+answer('urn:example:recursionCount'(8397, 7)).
+answer('urn:example:recursionCount'(8398, 6)).
+answer('urn:example:recursionCount'(8399, 7)).
+answer('urn:example:recursionCount'(8400, 2)).
+answer('urn:example:recursionCount'(8401, 5)).
+answer('urn:example:recursionCount'(8402, 6)).
+answer('urn:example:recursionCount'(8403, 3)).
+answer('urn:example:recursionCount'(8404, 6)).
+answer('urn:example:recursionCount'(8405, 3)).
+answer('urn:example:recursionCount'(8406, 6)).
+answer('urn:example:recursionCount'(8407, 5)).
+answer('urn:example:recursionCount'(8408, 2)).
+answer('urn:example:recursionCount'(8409, 7)).
+answer('urn:example:recursionCount'(8410, 5)).
+answer('urn:example:recursionCount'(8411, 6)).
+answer('urn:example:recursionCount'(8412, 5)).
+answer('urn:example:recursionCount'(8413, 3)).
+answer('urn:example:recursionCount'(8414, 4)).
+answer('urn:example:recursionCount'(8415, 3)).
+answer('urn:example:recursionCount'(8416, 5)).
+answer('urn:example:recursionCount'(8417, 6)).
+answer('urn:example:recursionCount'(8418, 3)).
+answer('urn:example:recursionCount'(8419, 2)).
+answer('urn:example:recursionCount'(8420, 6)).
+answer('urn:example:recursionCount'(8421, 5)).
+answer('urn:example:recursionCount'(8422, 1)).
+answer('urn:example:recursionCount'(8423, 7)).
+answer('urn:example:recursionCount'(8424, 6)).
+answer('urn:example:recursionCount'(8425, 7)).
+answer('urn:example:recursionCount'(8426, 1)).
+answer('urn:example:recursionCount'(8427, 3)).
+answer('urn:example:recursionCount'(8428, 4)).
+answer('urn:example:recursionCount'(8429, 3)).
+answer('urn:example:recursionCount'(8430, 3)).
+answer('urn:example:recursionCount'(8431, 3)).
+answer('urn:example:recursionCount'(8432, 7)).
+answer('urn:example:recursionCount'(8433, 7)).
+answer('urn:example:recursionCount'(8434, 6)).
+answer('urn:example:recursionCount'(8435, 7)).
+answer('urn:example:recursionCount'(8436, 7)).
+answer('urn:example:recursionCount'(8437, 5)).
+answer('urn:example:recursionCount'(8438, 5)).
+answer('urn:example:recursionCount'(8439, 4)).
+answer('urn:example:recursionCount'(8440, 6)).
+answer('urn:example:recursionCount'(8441, 4)).
+answer('urn:example:recursionCount'(8442, 6)).
+answer('urn:example:recursionCount'(8443, 6)).
+answer('urn:example:recursionCount'(8444, 4)).
+answer('urn:example:recursionCount'(8445, 7)).
+answer('urn:example:recursionCount'(8446, 2)).
+answer('urn:example:recursionCount'(8447, 3)).
+answer('urn:example:recursionCount'(8448, 4)).
+answer('urn:example:recursionCount'(8449, 5)).
+answer('urn:example:recursionCount'(8450, 3)).
+answer('urn:example:recursionCount'(8451, 3)).
+answer('urn:example:recursionCount'(8452, 7)).
+answer('urn:example:recursionCount'(8453, 7)).
+answer('urn:example:recursionCount'(8454, 7)).
+answer('urn:example:recursionCount'(8455, 4)).
+answer('urn:example:recursionCount'(8456, 7)).
+answer('urn:example:recursionCount'(8457, 2)).
+answer('urn:example:recursionCount'(8458, 3)).
+answer('urn:example:recursionCount'(8459, 5)).
+answer('urn:example:recursionCount'(8460, 6)).
+answer('urn:example:recursionCount'(8461, 5)).
+answer('urn:example:recursionCount'(8462, 1)).
+answer('urn:example:recursionCount'(8463, 7)).
+answer('urn:example:recursionCount'(8464, 2)).
+answer('urn:example:recursionCount'(8465, 7)).
+answer('urn:example:recursionCount'(8466, 4)).
+answer('urn:example:recursionCount'(8467, 7)).
+answer('urn:example:recursionCount'(8468, 2)).
+answer('urn:example:recursionCount'(8469, 7)).
+answer('urn:example:recursionCount'(8470, 5)).
+answer('urn:example:recursionCount'(8471, 6)).
+answer('urn:example:recursionCount'(8472, 3)).
+answer('urn:example:recursionCount'(8473, 5)).
+answer('urn:example:recursionCount'(8474, 3)).
+answer('urn:example:recursionCount'(8475, 2)).
+answer('urn:example:recursionCount'(8476, 7)).
+answer('urn:example:recursionCount'(8477, 4)).
+answer('urn:example:recursionCount'(8478, 7)).
+answer('urn:example:recursionCount'(8479, 7)).
+answer('urn:example:recursionCount'(8480, 2)).
+answer('urn:example:recursionCount'(8481, 3)).
+answer('urn:example:recursionCount'(8482, 4)).
+answer('urn:example:recursionCount'(8483, 5)).
+answer('urn:example:recursionCount'(8484, 4)).
+answer('urn:example:recursionCount'(8485, 3)).
+answer('urn:example:recursionCount'(8486, 2)).
+answer('urn:example:recursionCount'(8487, 7)).
+answer('urn:example:recursionCount'(8488, 4)).
+answer('urn:example:recursionCount'(8489, 6)).
+answer('urn:example:recursionCount'(8490, 7)).
+answer('urn:example:recursionCount'(8491, 2)).
+answer('urn:example:recursionCount'(8492, 3)).
+answer('urn:example:recursionCount'(8493, 4)).
+answer('urn:example:recursionCount'(8494, 5)).
+answer('urn:example:recursionCount'(8495, 5)).
+answer('urn:example:recursionCount'(8496, 7)).
+answer('urn:example:recursionCount'(8497, 7)).
+answer('urn:example:recursionCount'(8498, 6)).
+answer('urn:example:recursionCount'(8499, 7)).
+answer('urn:example:recursionCount'(8500, 7)).
+answer('urn:example:recursionCount'(8501, 2)).
+answer('urn:example:recursionCount'(8502, 5)).
+answer('urn:example:recursionCount'(8503, 6)).
+answer('urn:example:recursionCount'(8504, 3)).
+answer('urn:example:recursionCount'(8505, 6)).
+answer('urn:example:recursionCount'(8506, 3)).
+answer('urn:example:recursionCount'(8507, 6)).
+answer('urn:example:recursionCount'(8508, 5)).
+answer('urn:example:recursionCount'(8509, 3)).
+answer('urn:example:recursionCount'(8510, 2)).
+answer('urn:example:recursionCount'(8511, 3)).
+answer('urn:example:recursionCount'(8512, 6)).
+answer('urn:example:recursionCount'(8513, 5)).
+answer('urn:example:recursionCount'(8514, 3)).
+answer('urn:example:recursionCount'(8515, 4)).
+answer('urn:example:recursionCount'(8516, 3)).
+answer('urn:example:recursionCount'(8517, 5)).
+answer('urn:example:recursionCount'(8518, 6)).
+answer('urn:example:recursionCount'(8519, 5)).
+answer('urn:example:recursionCount'(8520, 5)).
+answer('urn:example:recursionCount'(8521, 6)).
+answer('urn:example:recursionCount'(8522, 3)).
+answer('urn:example:recursionCount'(8523, 1)).
+answer('urn:example:recursionCount'(8524, 7)).
+answer('urn:example:recursionCount'(8525, 6)).
+answer('urn:example:recursionCount'(8526, 7)).
+answer('urn:example:recursionCount'(8527, 1)).
+answer('urn:example:recursionCount'(8528, 3)).
+answer('urn:example:recursionCount'(8529, 6)).
+answer('urn:example:recursionCount'(8530, 6)).
+answer('urn:example:recursionCount'(8531, 5)).
+answer('urn:example:recursionCount'(8532, 1)).
+answer('urn:example:recursionCount'(8533, 7)).
+answer('urn:example:recursionCount'(8534, 7)).
+answer('urn:example:recursionCount'(8535, 6)).
+answer('urn:example:recursionCount'(8536, 7)).
+answer('urn:example:recursionCount'(8537, 7)).
+answer('urn:example:recursionCount'(8538, 5)).
+answer('urn:example:recursionCount'(8539, 3)).
+answer('urn:example:recursionCount'(8540, 3)).
+answer('urn:example:recursionCount'(8541, 3)).
+answer('urn:example:recursionCount'(8542, 7)).
+answer('urn:example:recursionCount'(8543, 7)).
+answer('urn:example:recursionCount'(8544, 7)).
+answer('urn:example:recursionCount'(8545, 4)).
+answer('urn:example:recursionCount'(8546, 7)).
+answer('urn:example:recursionCount'(8547, 2)).
+answer('urn:example:recursionCount'(8548, 3)).
+answer('urn:example:recursionCount'(8549, 5)).
+answer('urn:example:recursionCount'(8550, 6)).
+answer('urn:example:recursionCount'(8551, 4)).
+answer('urn:example:recursionCount'(8552, 6)).
+answer('urn:example:recursionCount'(8553, 6)).
+answer('urn:example:recursionCount'(8554, 4)).
+answer('urn:example:recursionCount'(8555, 6)).
+answer('urn:example:recursionCount'(8556, 3)).
+answer('urn:example:recursionCount'(8557, 5)).
+answer('urn:example:recursionCount'(8558, 6)).
+answer('urn:example:recursionCount'(8559, 3)).
+answer('urn:example:recursionCount'(8560, 3)).
+answer('urn:example:recursionCount'(8561, 3)).
+answer('urn:example:recursionCount'(8562, 7)).
+answer('urn:example:recursionCount'(8563, 7)).
+answer('urn:example:recursionCount'(8564, 7)).
+answer('urn:example:recursionCount'(8565, 3)).
+answer('urn:example:recursionCount'(8566, 6)).
+answer('urn:example:recursionCount'(8567, 3)).
+answer('urn:example:recursionCount'(8568, 5)).
+answer('urn:example:recursionCount'(8569, 2)).
+answer('urn:example:recursionCount'(8570, 6)).
+answer('urn:example:recursionCount'(8571, 5)).
+answer('urn:example:recursionCount'(8572, 1)).
+answer('urn:example:recursionCount'(8573, 7)).
+answer('urn:example:recursionCount'(8574, 2)).
+answer('urn:example:recursionCount'(8575, 5)).
+answer('urn:example:recursionCount'(8576, 3)).
+answer('urn:example:recursionCount'(8577, 6)).
+answer('urn:example:recursionCount'(8578, 3)).
+answer('urn:example:recursionCount'(8579, 7)).
+answer('urn:example:recursionCount'(8580, 5)).
+answer('urn:example:recursionCount'(8581, 6)).
+answer('urn:example:recursionCount'(8582, 3)).
+answer('urn:example:recursionCount'(8583, 5)).
+answer('urn:example:recursionCount'(8584, 3)).
+answer('urn:example:recursionCount'(8585, 6)).
+answer('urn:example:recursionCount'(8586, 5)).
+answer('urn:example:recursionCount'(8587, 3)).
+answer('urn:example:recursionCount'(8588, 6)).
+answer('urn:example:recursionCount'(8589, 4)).
+answer('urn:example:recursionCount'(8590, 3)).
+answer('urn:example:recursionCount'(8591, 5)).
+answer('urn:example:recursionCount'(8592, 6)).
+answer('urn:example:recursionCount'(8593, 3)).
+answer('urn:example:recursionCount'(8594, 5)).
+answer('urn:example:recursionCount'(8595, 3)).
+answer('urn:example:recursionCount'(8596, 2)).
+answer('urn:example:recursionCount'(8597, 7)).
+answer('urn:example:recursionCount'(8598, 4)).
+answer('urn:example:recursionCount'(8599, 7)).
+answer('urn:example:recursionCount'(8600, 2)).
+answer('urn:example:recursionCount'(8601, 7)).
+answer('urn:example:recursionCount'(8602, 2)).
+answer('urn:example:recursionCount'(8603, 5)).
+answer('urn:example:recursionCount'(8604, 6)).
+answer('urn:example:recursionCount'(8605, 3)).
+answer('urn:example:recursionCount'(8606, 6)).
+answer('urn:example:recursionCount'(8607, 3)).
+answer('urn:example:recursionCount'(8608, 6)).
+answer('urn:example:recursionCount'(8609, 3)).
+answer('urn:example:recursionCount'(8610, 7)).
+answer('urn:example:recursionCount'(8611, 5)).
+answer('urn:example:recursionCount'(8612, 3)).
+answer('urn:example:recursionCount'(8613, 6)).
+answer('urn:example:recursionCount'(8614, 5)).
+answer('urn:example:recursionCount'(8615, 3)).
+answer('urn:example:recursionCount'(8616, 4)).
+answer('urn:example:recursionCount'(8617, 3)).
+answer('urn:example:recursionCount'(8618, 5)).
+answer('urn:example:recursionCount'(8619, 6)).
+answer('urn:example:recursionCount'(8620, 2)).
+answer('urn:example:recursionCount'(8621, 3)).
+answer('urn:example:recursionCount'(8622, 4)).
+answer('urn:example:recursionCount'(8623, 3)).
+answer('urn:example:recursionCount'(8624, 1)).
+answer('urn:example:recursionCount'(8625, 7)).
+answer('urn:example:recursionCount'(8626, 6)).
+answer('urn:example:recursionCount'(8627, 7)).
+answer('urn:example:recursionCount'(8628, 1)).
+answer('urn:example:recursionCount'(8629, 5)).
+answer('urn:example:recursionCount'(8630, 5)).
+answer('urn:example:recursionCount'(8631, 6)).
+answer('urn:example:recursionCount'(8632, 3)).
+answer('urn:example:recursionCount'(8633, 5)).
+answer('urn:example:recursionCount'(8634, 7)).
+answer('urn:example:recursionCount'(8635, 7)).
+answer('urn:example:recursionCount'(8636, 6)).
+answer('urn:example:recursionCount'(8637, 7)).
+answer('urn:example:recursionCount'(8638, 7)).
+answer('urn:example:recursionCount'(8639, 1)).
+answer('urn:example:recursionCount'(8640, 6)).
+answer('urn:example:recursionCount'(8641, 5)).
+answer('urn:example:recursionCount'(8642, 1)).
+answer('urn:example:recursionCount'(8643, 7)).
+answer('urn:example:recursionCount'(8644, 2)).
+answer('urn:example:recursionCount'(8645, 7)).
+answer('urn:example:recursionCount'(8646, 4)).
+answer('urn:example:recursionCount'(8647, 7)).
+answer('urn:example:recursionCount'(8648, 2)).
+answer('urn:example:recursionCount'(8649, 7)).
+answer('urn:example:recursionCount'(8650, 3)).
+answer('urn:example:recursionCount'(8651, 3)).
+answer('urn:example:recursionCount'(8652, 7)).
+answer('urn:example:recursionCount'(8653, 7)).
+answer('urn:example:recursionCount'(8654, 7)).
+answer('urn:example:recursionCount'(8655, 3)).
+answer('urn:example:recursionCount'(8656, 6)).
+answer('urn:example:recursionCount'(8657, 3)).
+answer('urn:example:recursionCount'(8658, 5)).
+answer('urn:example:recursionCount'(8659, 2)).
+answer('urn:example:recursionCount'(8660, 6)).
+answer('urn:example:recursionCount'(8661, 4)).
+answer('urn:example:recursionCount'(8662, 6)).
+answer('urn:example:recursionCount'(8663, 6)).
+answer('urn:example:recursionCount'(8664, 4)).
+answer('urn:example:recursionCount'(8665, 6)).
+answer('urn:example:recursionCount'(8666, 4)).
+answer('urn:example:recursionCount'(8667, 3)).
+answer('urn:example:recursionCount'(8668, 6)).
+answer('urn:example:recursionCount'(8669, 5)).
+answer('urn:example:recursionCount'(8670, 3)).
+answer('urn:example:recursionCount'(8671, 3)).
+answer('urn:example:recursionCount'(8672, 7)).
+answer('urn:example:recursionCount'(8673, 7)).
+answer('urn:example:recursionCount'(8674, 7)).
+answer('urn:example:recursionCount'(8675, 3)).
+answer('urn:example:recursionCount'(8676, 3)).
+answer('urn:example:recursionCount'(8677, 4)).
+answer('urn:example:recursionCount'(8678, 3)).
+answer('urn:example:recursionCount'(8679, 3)).
+answer('urn:example:recursionCount'(8680, 6)).
+answer('urn:example:recursionCount'(8681, 5)).
+answer('urn:example:recursionCount'(8682, 1)).
+answer('urn:example:recursionCount'(8683, 7)).
+answer('urn:example:recursionCount'(8684, 2)).
+answer('urn:example:recursionCount'(8685, 5)).
+answer('urn:example:recursionCount'(8686, 6)).
+answer('urn:example:recursionCount'(8687, 3)).
+answer('urn:example:recursionCount'(8688, 4)).
+answer('urn:example:recursionCount'(8689, 6)).
+answer('urn:example:recursionCount'(8690, 3)).
+answer('urn:example:recursionCount'(8691, 6)).
+answer('urn:example:recursionCount'(8692, 5)).
+answer('urn:example:recursionCount'(8693, 1)).
+answer('urn:example:recursionCount'(8694, 7)).
+answer('urn:example:recursionCount'(8695, 2)).
+answer('urn:example:recursionCount'(8696, 5)).
+answer('urn:example:recursionCount'(8697, 3)).
+answer('urn:example:recursionCount'(8698, 6)).
+answer('urn:example:recursionCount'(8699, 3)).
+answer('urn:example:recursionCount'(8700, 5)).
+answer('urn:example:recursionCount'(8701, 2)).
+answer('urn:example:recursionCount'(8702, 7)).
+answer('urn:example:recursionCount'(8703, 2)).
+answer('urn:example:recursionCount'(8704, 5)).
+answer('urn:example:recursionCount'(8705, 6)).
+answer('urn:example:recursionCount'(8706, 3)).
+answer('urn:example:recursionCount'(8707, 6)).
+answer('urn:example:recursionCount'(8708, 3)).
+answer('urn:example:recursionCount'(8709, 4)).
+answer('urn:example:recursionCount'(8710, 2)).
+answer('urn:example:recursionCount'(8711, 3)).
+answer('urn:example:recursionCount'(8712, 5)).
+answer('urn:example:recursionCount'(8713, 3)).
+answer('urn:example:recursionCount'(8714, 6)).
+answer('urn:example:recursionCount'(8715, 5)).
+answer('urn:example:recursionCount'(8716, 3)).
+answer('urn:example:recursionCount'(8717, 4)).
+answer('urn:example:recursionCount'(8718, 3)).
+answer('urn:example:recursionCount'(8719, 3)).
+answer('urn:example:recursionCount'(8720, 7)).
+answer('urn:example:recursionCount'(8721, 5)).
+answer('urn:example:recursionCount'(8722, 5)).
+answer('urn:example:recursionCount'(8723, 4)).
+answer('urn:example:recursionCount'(8724, 3)).
+answer('urn:example:recursionCount'(8725, 1)).
+answer('urn:example:recursionCount'(8726, 7)).
+answer('urn:example:recursionCount'(8727, 6)).
+answer('urn:example:recursionCount'(8728, 7)).
+answer('urn:example:recursionCount'(8729, 3)).
+answer('urn:example:recursionCount'(8730, 2)).
+answer('urn:example:recursionCount'(8731, 3)).
+answer('urn:example:recursionCount'(8732, 4)).
+answer('urn:example:recursionCount'(8733, 5)).
+answer('urn:example:recursionCount'(8734, 5)).
+answer('urn:example:recursionCount'(8735, 7)).
+answer('urn:example:recursionCount'(8736, 7)).
+answer('urn:example:recursionCount'(8737, 6)).
+answer('urn:example:recursionCount'(8738, 7)).
+answer('urn:example:recursionCount'(8739, 7)).
+answer('urn:example:recursionCount'(8740, 5)).
+answer('urn:example:recursionCount'(8741, 6)).
+answer('urn:example:recursionCount'(8742, 3)).
+answer('urn:example:recursionCount'(8743, 5)).
+answer('urn:example:recursionCount'(8744, 3)).
+answer('urn:example:recursionCount'(8745, 2)).
+answer('urn:example:recursionCount'(8746, 7)).
+answer('urn:example:recursionCount'(8747, 4)).
+answer('urn:example:recursionCount'(8748, 7)).
+answer('urn:example:recursionCount'(8749, 7)).
+answer('urn:example:recursionCount'(8750, 6)).
+answer('urn:example:recursionCount'(8751, 5)).
+answer('urn:example:recursionCount'(8752, 1)).
+answer('urn:example:recursionCount'(8753, 7)).
+answer('urn:example:recursionCount'(8754, 2)).
+answer('urn:example:recursionCount'(8755, 5)).
+answer('urn:example:recursionCount'(8756, 3)).
+answer('urn:example:recursionCount'(8757, 6)).
+answer('urn:example:recursionCount'(8758, 3)).
+answer('urn:example:recursionCount'(8759, 7)).
+answer('urn:example:recursionCount'(8760, 3)).
+answer('urn:example:recursionCount'(8761, 3)).
+answer('urn:example:recursionCount'(8762, 7)).
+answer('urn:example:recursionCount'(8763, 7)).
+answer('urn:example:recursionCount'(8764, 7)).
+answer('urn:example:recursionCount'(8765, 3)).
+answer('urn:example:recursionCount'(8766, 3)).
+answer('urn:example:recursionCount'(8767, 4)).
+answer('urn:example:recursionCount'(8768, 3)).
+answer('urn:example:recursionCount'(8769, 3)).
+answer('urn:example:recursionCount'(8770, 6)).
+answer('urn:example:recursionCount'(8771, 4)).
+answer('urn:example:recursionCount'(8772, 6)).
+answer('urn:example:recursionCount'(8773, 6)).
+answer('urn:example:recursionCount'(8774, 4)).
+answer('urn:example:recursionCount'(8775, 6)).
+answer('urn:example:recursionCount'(8776, 4)).
+answer('urn:example:recursionCount'(8777, 5)).
+answer('urn:example:recursionCount'(8778, 4)).
+answer('urn:example:recursionCount'(8779, 3)).
+answer('urn:example:recursionCount'(8780, 3)).
+answer('urn:example:recursionCount'(8781, 3)).
+answer('urn:example:recursionCount'(8782, 7)).
+answer('urn:example:recursionCount'(8783, 7)).
+answer('urn:example:recursionCount'(8784, 7)).
+answer('urn:example:recursionCount'(8785, 3)).
+answer('urn:example:recursionCount'(8786, 3)).
+answer('urn:example:recursionCount'(8787, 4)).
+answer('urn:example:recursionCount'(8788, 5)).
+answer('urn:example:recursionCount'(8789, 4)).
+answer('urn:example:recursionCount'(8790, 4)).
+answer('urn:example:recursionCount'(8791, 3)).
+answer('urn:example:recursionCount'(8792, 3)).
+answer('urn:example:recursionCount'(8793, 7)).
+answer('urn:example:recursionCount'(8794, 7)).
+answer('urn:example:recursionCount'(8795, 7)).
+answer('urn:example:recursionCount'(8796, 3)).
+answer('urn:example:recursionCount'(8797, 3)).
+answer('urn:example:recursionCount'(8798, 4)).
+answer('urn:example:recursionCount'(8799, 3)).
+answer('urn:example:recursionCount'(8800, 6)).
+answer('urn:example:recursionCount'(8801, 5)).
+answer('urn:example:recursionCount'(8802, 2)).
+answer('urn:example:recursionCount'(8803, 7)).
+answer('urn:example:recursionCount'(8804, 2)).
+answer('urn:example:recursionCount'(8805, 5)).
+answer('urn:example:recursionCount'(8806, 6)).
+answer('urn:example:recursionCount'(8807, 3)).
+answer('urn:example:recursionCount'(8808, 6)).
+answer('urn:example:recursionCount'(8809, 4)).
+answer('urn:example:recursionCount'(8810, 5)).
+answer('urn:example:recursionCount'(8811, 6)).
+answer('urn:example:recursionCount'(8812, 3)).
+answer('urn:example:recursionCount'(8813, 5)).
+answer('urn:example:recursionCount'(8814, 3)).
+answer('urn:example:recursionCount'(8815, 6)).
+answer('urn:example:recursionCount'(8816, 5)).
+answer('urn:example:recursionCount'(8817, 3)).
+answer('urn:example:recursionCount'(8818, 4)).
+answer('urn:example:recursionCount'(8819, 6)).
+answer('urn:example:recursionCount'(8820, 2)).
+answer('urn:example:recursionCount'(8821, 3)).
+answer('urn:example:recursionCount'(8822, 4)).
+answer('urn:example:recursionCount'(8823, 5)).
+answer('urn:example:recursionCount'(8824, 4)).
+answer('urn:example:recursionCount'(8825, 3)).
+answer('urn:example:recursionCount'(8826, 1)).
+answer('urn:example:recursionCount'(8827, 7)).
+answer('urn:example:recursionCount'(8828, 6)).
+answer('urn:example:recursionCount'(8829, 4)).
+answer('urn:example:recursionCount'(8830, 7)).
+answer('urn:example:recursionCount'(8831, 5)).
+answer('urn:example:recursionCount'(8832, 5)).
+answer('urn:example:recursionCount'(8833, 5)).
+answer('urn:example:recursionCount'(8834, 5)).
+answer('urn:example:recursionCount'(8835, 5)).
+answer('urn:example:recursionCount'(8836, 7)).
+answer('urn:example:recursionCount'(8837, 7)).
+answer('urn:example:recursionCount'(8838, 6)).
+answer('urn:example:recursionCount'(8839, 6)).
+answer('urn:example:recursionCount'(8840, 2)).
+answer('urn:example:recursionCount'(8841, 3)).
+answer('urn:example:recursionCount'(8842, 4)).
+answer('urn:example:recursionCount'(8843, 5)).
+answer('urn:example:recursionCount'(8844, 4)).
+answer('urn:example:recursionCount'(8845, 3)).
+answer('urn:example:recursionCount'(8846, 2)).
+answer('urn:example:recursionCount'(8847, 7)).
+answer('urn:example:recursionCount'(8848, 4)).
+answer('urn:example:recursionCount'(8849, 6)).
+answer('urn:example:recursionCount'(8850, 5)).
+answer('urn:example:recursionCount'(8851, 6)).
+answer('urn:example:recursionCount'(8852, 3)).
+answer('urn:example:recursionCount'(8853, 5)).
+answer('urn:example:recursionCount'(8854, 3)).
+answer('urn:example:recursionCount'(8855, 6)).
+answer('urn:example:recursionCount'(8856, 5)).
+answer('urn:example:recursionCount'(8857, 3)).
+answer('urn:example:recursionCount'(8858, 6)).
+answer('urn:example:recursionCount'(8859, 4)).
+answer('urn:example:recursionCount'(8860, 6)).
+answer('urn:example:recursionCount'(8861, 5)).
+answer('urn:example:recursionCount'(8862, 1)).
+answer('urn:example:recursionCount'(8863, 7)).
+answer('urn:example:recursionCount'(8864, 2)).
+answer('urn:example:recursionCount'(8865, 5)).
+answer('urn:example:recursionCount'(8866, 6)).
+answer('urn:example:recursionCount'(8867, 3)).
+answer('urn:example:recursionCount'(8868, 4)).
+answer('urn:example:recursionCount'(8869, 6)).
+answer('urn:example:recursionCount'(8870, 3)).
+answer('urn:example:recursionCount'(8871, 3)).
+answer('urn:example:recursionCount'(8872, 7)).
+answer('urn:example:recursionCount'(8873, 7)).
+answer('urn:example:recursionCount'(8874, 7)).
+answer('urn:example:recursionCount'(8875, 3)).
+answer('urn:example:recursionCount'(8876, 3)).
+answer('urn:example:recursionCount'(8877, 4)).
+answer('urn:example:recursionCount'(8878, 5)).
+answer('urn:example:recursionCount'(8879, 4)).
+answer('urn:example:recursionCount'(8880, 6)).
+answer('urn:example:recursionCount'(8881, 4)).
+answer('urn:example:recursionCount'(8882, 6)).
+answer('urn:example:recursionCount'(8883, 6)).
+answer('urn:example:recursionCount'(8884, 4)).
+answer('urn:example:recursionCount'(8885, 6)).
+answer('urn:example:recursionCount'(8886, 4)).
+answer('urn:example:recursionCount'(8887, 5)).
+answer('urn:example:recursionCount'(8889, 5)).
+answer('urn:example:recursionCount'(8890, 4)).
+answer('urn:example:recursionCount'(8891, 6)).
+answer('urn:example:recursionCount'(8892, 4)).
+answer('urn:example:recursionCount'(8893, 6)).
+answer('urn:example:recursionCount'(8894, 6)).
+answer('urn:example:recursionCount'(8895, 4)).
+answer('urn:example:recursionCount'(8896, 6)).
+answer('urn:example:recursionCount'(8897, 4)).
+answer('urn:example:recursionCount'(8898, 5)).
+answer('urn:example:recursionCount'(8899, 4)).
+answer('urn:example:recursionCount'(8900, 3)).
+answer('urn:example:recursionCount'(8901, 3)).
+answer('urn:example:recursionCount'(8902, 7)).
+answer('urn:example:recursionCount'(8903, 7)).
+answer('urn:example:recursionCount'(8904, 7)).
+answer('urn:example:recursionCount'(8905, 3)).
+answer('urn:example:recursionCount'(8906, 3)).
+answer('urn:example:recursionCount'(8907, 4)).
+answer('urn:example:recursionCount'(8908, 4)).
+answer('urn:example:recursionCount'(8909, 4)).
+answer('urn:example:recursionCount'(8910, 3)).
+answer('urn:example:recursionCount'(8911, 5)).
+answer('urn:example:recursionCount'(8912, 2)).
+answer('urn:example:recursionCount'(8913, 7)).
+answer('urn:example:recursionCount'(8914, 2)).
+answer('urn:example:recursionCount'(8915, 5)).
+answer('urn:example:recursionCount'(8916, 6)).
+answer('urn:example:recursionCount'(8917, 3)).
+answer('urn:example:recursionCount'(8918, 6)).
+answer('urn:example:recursionCount'(8919, 3)).
+answer('urn:example:recursionCount'(8920, 7)).
+answer('urn:example:recursionCount'(8921, 2)).
+answer('urn:example:recursionCount'(8922, 3)).
+answer('urn:example:recursionCount'(8923, 5)).
+answer('urn:example:recursionCount'(8924, 3)).
+answer('urn:example:recursionCount'(8925, 6)).
+answer('urn:example:recursionCount'(8926, 5)).
+answer('urn:example:recursionCount'(8927, 3)).
+answer('urn:example:recursionCount'(8928, 4)).
+answer('urn:example:recursionCount'(8929, 3)).
+answer('urn:example:recursionCount'(8930, 7)).
+answer('urn:example:recursionCount'(8931, 7)).
+answer('urn:example:recursionCount'(8932, 5)).
+answer('urn:example:recursionCount'(8933, 5)).
+answer('urn:example:recursionCount'(8934, 4)).
+answer('urn:example:recursionCount'(8935, 3)).
+answer('urn:example:recursionCount'(8936, 1)).
+answer('urn:example:recursionCount'(8937, 7)).
+answer('urn:example:recursionCount'(8938, 6)).
+answer('urn:example:recursionCount'(8939, 7)).
+answer('urn:example:recursionCount'(8940, 7)).
+answer('urn:example:recursionCount'(8941, 2)).
+answer('urn:example:recursionCount'(8942, 3)).
+answer('urn:example:recursionCount'(8943, 4)).
+answer('urn:example:recursionCount'(8944, 5)).
+answer('urn:example:recursionCount'(8945, 5)).
+answer('urn:example:recursionCount'(8946, 7)).
+answer('urn:example:recursionCount'(8947, 7)).
+answer('urn:example:recursionCount'(8948, 6)).
+answer('urn:example:recursionCount'(8949, 7)).
+answer('urn:example:recursionCount'(8950, 3)).
+answer('urn:example:recursionCount'(8951, 5)).
+answer('urn:example:recursionCount'(8952, 6)).
+answer('urn:example:recursionCount'(8953, 3)).
+answer('urn:example:recursionCount'(8954, 5)).
+answer('urn:example:recursionCount'(8955, 3)).
+answer('urn:example:recursionCount'(8956, 2)).
+answer('urn:example:recursionCount'(8957, 7)).
+answer('urn:example:recursionCount'(8958, 4)).
+answer('urn:example:recursionCount'(8959, 7)).
+answer('urn:example:recursionCount'(8960, 3)).
+answer('urn:example:recursionCount'(8961, 6)).
+answer('urn:example:recursionCount'(8962, 5)).
+answer('urn:example:recursionCount'(8963, 1)).
+answer('urn:example:recursionCount'(8964, 7)).
+answer('urn:example:recursionCount'(8965, 2)).
+answer('urn:example:recursionCount'(8966, 5)).
+answer('urn:example:recursionCount'(8967, 3)).
+answer('urn:example:recursionCount'(8968, 6)).
+answer('urn:example:recursionCount'(8969, 3)).
+answer('urn:example:recursionCount'(8970, 4)).
+answer('urn:example:recursionCount'(8971, 3)).
+answer('urn:example:recursionCount'(8972, 3)).
+answer('urn:example:recursionCount'(8973, 7)).
+answer('urn:example:recursionCount'(8974, 7)).
+answer('urn:example:recursionCount'(8975, 7)).
+answer('urn:example:recursionCount'(8976, 3)).
+answer('urn:example:recursionCount'(8977, 3)).
+answer('urn:example:recursionCount'(8978, 4)).
+answer('urn:example:recursionCount'(8979, 3)).
+answer('urn:example:recursionCount'(8980, 4)).
+answer('urn:example:recursionCount'(8981, 6)).
+answer('urn:example:recursionCount'(8982, 4)).
+answer('urn:example:recursionCount'(8983, 6)).
+answer('urn:example:recursionCount'(8984, 6)).
+answer('urn:example:recursionCount'(8985, 4)).
+answer('urn:example:recursionCount'(8986, 6)).
+answer('urn:example:recursionCount'(8987, 4)).
+answer('urn:example:recursionCount'(8988, 5)).
+answer('urn:example:recursionCount'(8989, 4)).
+answer('urn:example:recursionCount'(8990, 4)).
+answer('urn:example:recursionCount'(8991, 3)).
+answer('urn:example:recursionCount'(8992, 3)).
+answer('urn:example:recursionCount'(8993, 7)).
+answer('urn:example:recursionCount'(8994, 7)).
+answer('urn:example:recursionCount'(8995, 7)).
+answer('urn:example:recursionCount'(8996, 3)).
+answer('urn:example:recursionCount'(8997, 3)).
+answer('urn:example:recursionCount'(8998, 4)).
+answer('urn:example:recursionCount'(8999, 5)).
+answer('urn:example:recursionCount'(9000, 4)).
+answer('urn:example:recursionCount'(9001, 4)).
+answer('urn:example:recursionCount'(9002, 3)).
+answer('urn:example:recursionCount'(9003, 3)).
+answer('urn:example:recursionCount'(9004, 7)).
+answer('urn:example:recursionCount'(9005, 7)).
+answer('urn:example:recursionCount'(9006, 7)).
+answer('urn:example:recursionCount'(9007, 3)).
+answer('urn:example:recursionCount'(9008, 3)).
+answer('urn:example:recursionCount'(9009, 4)).
+answer('urn:example:recursionCount'(9010, 4)).
+answer('urn:example:recursionCount'(9011, 4)).
+answer('urn:example:recursionCount'(9012, 4)).
+answer('urn:example:recursionCount'(9013, 3)).
+answer('urn:example:recursionCount'(9014, 3)).
+answer('urn:example:recursionCount'(9015, 7)).
+answer('urn:example:recursionCount'(9016, 7)).
+answer('urn:example:recursionCount'(9017, 7)).
+answer('urn:example:recursionCount'(9018, 3)).
+answer('urn:example:recursionCount'(9019, 3)).
+answer('urn:example:recursionCount'(9020, 3)).
+answer('urn:example:recursionCount'(9021, 4)).
+answer('urn:example:recursionCount'(9022, 4)).
+answer('urn:example:recursionCount'(9023, 4)).
+answer('urn:example:recursionCount'(9024, 3)).
+answer('urn:example:recursionCount'(9025, 3)).
+answer('urn:example:recursionCount'(9026, 7)).
+answer('urn:example:recursionCount'(9027, 7)).
+answer('urn:example:recursionCount'(9028, 7)).
+answer('urn:example:recursionCount'(9029, 3)).
+answer('urn:example:recursionCount'(9030, 3)).
+answer('urn:example:recursionCount'(9031, 3)).
+answer('urn:example:recursionCount'(9032, 4)).
+answer('urn:example:recursionCount'(9033, 4)).
+answer('urn:example:recursionCount'(9034, 4)).
+answer('urn:example:recursionCount'(9035, 3)).
+answer('urn:example:recursionCount'(9036, 3)).
+answer('urn:example:recursionCount'(9037, 7)).
+answer('urn:example:recursionCount'(9038, 7)).
+answer('urn:example:recursionCount'(9039, 7)).
+answer('urn:example:recursionCount'(9040, 7)).
+answer('urn:example:recursionCount'(9041, 3)).
+answer('urn:example:recursionCount'(9042, 3)).
+answer('urn:example:recursionCount'(9043, 4)).
+answer('urn:example:recursionCount'(9044, 4)).
+answer('urn:example:recursionCount'(9045, 4)).
+answer('urn:example:recursionCount'(9046, 3)).
+answer('urn:example:recursionCount'(9047, 3)).
+answer('urn:example:recursionCount'(9048, 7)).
+answer('urn:example:recursionCount'(9049, 7)).
+answer('urn:example:recursionCount'(9050, 7)).
+answer('urn:example:recursionCount'(9051, 7)).
+answer('urn:example:recursionCount'(9052, 3)).
+answer('urn:example:recursionCount'(9053, 3)).
+answer('urn:example:recursionCount'(9054, 4)).
+answer('urn:example:recursionCount'(9055, 4)).
+answer('urn:example:recursionCount'(9056, 4)).
+answer('urn:example:recursionCount'(9057, 3)).
+answer('urn:example:recursionCount'(9058, 3)).
+answer('urn:example:recursionCount'(9059, 7)).
+answer('urn:example:recursionCount'(9060, 7)).
+answer('urn:example:recursionCount'(9061, 7)).
+answer('urn:example:recursionCount'(9062, 7)).
+answer('urn:example:recursionCount'(9063, 3)).
+answer('urn:example:recursionCount'(9064, 3)).
+answer('urn:example:recursionCount'(9065, 4)).
+answer('urn:example:recursionCount'(9066, 4)).
+answer('urn:example:recursionCount'(9067, 4)).
+answer('urn:example:recursionCount'(9068, 3)).
+answer('urn:example:recursionCount'(9069, 3)).
+answer('urn:example:recursionCount'(9070, 3)).
+answer('urn:example:recursionCount'(9071, 7)).
+answer('urn:example:recursionCount'(9072, 7)).
+answer('urn:example:recursionCount'(9073, 7)).
+answer('urn:example:recursionCount'(9074, 3)).
+answer('urn:example:recursionCount'(9075, 3)).
+answer('urn:example:recursionCount'(9076, 4)).
+answer('urn:example:recursionCount'(9077, 4)).
+answer('urn:example:recursionCount'(9078, 4)).
+answer('urn:example:recursionCount'(9079, 3)).
+answer('urn:example:recursionCount'(9080, 3)).
+answer('urn:example:recursionCount'(9081, 3)).
+answer('urn:example:recursionCount'(9082, 7)).
+answer('urn:example:recursionCount'(9083, 7)).
+answer('urn:example:recursionCount'(9084, 7)).
+answer('urn:example:recursionCount'(9085, 3)).
+answer('urn:example:recursionCount'(9086, 3)).
+answer('urn:example:recursionCount'(9087, 4)).
+answer('urn:example:recursionCount'(9088, 4)).
+answer('urn:example:recursionCount'(9089, 4)).
+answer('urn:example:recursionCount'(9090, 4)).
+answer('urn:example:recursionCount'(9091, 3)).
+answer('urn:example:recursionCount'(9092, 3)).
+answer('urn:example:recursionCount'(9093, 7)).
+answer('urn:example:recursionCount'(9094, 7)).
+answer('urn:example:recursionCount'(9095, 7)).
+answer('urn:example:recursionCount'(9096, 3)).
+answer('urn:example:recursionCount'(9097, 3)).
+answer('urn:example:recursionCount'(9098, 4)).
+answer('urn:example:recursionCount'(9099, 4)).
+answer('urn:example:recursionCount'(9100, 4)).
+answer('urn:example:recursionCount'(9101, 4)).
+answer('urn:example:recursionCount'(9102, 4)).
+answer('urn:example:recursionCount'(9103, 3)).
+answer('urn:example:recursionCount'(9104, 3)).
+answer('urn:example:recursionCount'(9105, 7)).
+answer('urn:example:recursionCount'(9106, 7)).
+answer('urn:example:recursionCount'(9107, 7)).
+answer('urn:example:recursionCount'(9108, 3)).
+answer('urn:example:recursionCount'(9109, 3)).
+answer('urn:example:recursionCount'(9110, 4)).
+answer('urn:example:recursionCount'(9111, 6)).
+answer('urn:example:recursionCount'(9112, 3)).
+answer('urn:example:recursionCount'(9113, 6)).
+answer('urn:example:recursionCount'(9114, 5)).
+answer('urn:example:recursionCount'(9115, 2)).
+answer('urn:example:recursionCount'(9116, 7)).
+answer('urn:example:recursionCount'(9117, 2)).
+answer('urn:example:recursionCount'(9118, 5)).
+answer('urn:example:recursionCount'(9119, 6)).
+answer('urn:example:recursionCount'(9120, 4)).
+answer('urn:example:recursionCount'(9121, 3)).
+answer('urn:example:recursionCount'(9122, 6)).
+answer('urn:example:recursionCount'(9123, 3)).
+answer('urn:example:recursionCount'(9124, 6)).
+answer('urn:example:recursionCount'(9125, 5)).
+answer('urn:example:recursionCount'(9126, 2)).
+answer('urn:example:recursionCount'(9127, 7)).
+answer('urn:example:recursionCount'(9128, 2)).
+answer('urn:example:recursionCount'(9129, 5)).
+answer('urn:example:recursionCount'(9130, 3)).
+answer('urn:example:recursionCount'(9131, 6)).
+answer('urn:example:recursionCount'(9132, 3)).
+answer('urn:example:recursionCount'(9133, 6)).
+answer('urn:example:recursionCount'(9134, 3)).
+answer('urn:example:recursionCount'(9135, 6)).
+answer('urn:example:recursionCount'(9136, 5)).
+answer('urn:example:recursionCount'(9137, 2)).
+answer('urn:example:recursionCount'(9138, 7)).
+answer('urn:example:recursionCount'(9139, 2)).
+answer('urn:example:recursionCount'(9140, 3)).
+answer('urn:example:recursionCount'(9141, 5)).
+answer('urn:example:recursionCount'(9142, 6)).
+answer('urn:example:recursionCount'(9143, 3)).
+answer('urn:example:recursionCount'(9144, 6)).
+answer('urn:example:recursionCount'(9145, 3)).
+answer('urn:example:recursionCount'(9146, 6)).
+answer('urn:example:recursionCount'(9147, 5)).
+answer('urn:example:recursionCount'(9148, 2)).
+answer('urn:example:recursionCount'(9149, 7)).
+answer('urn:example:recursionCount'(9150, 7)).
+answer('urn:example:recursionCount'(9151, 2)).
+answer('urn:example:recursionCount'(9152, 5)).
+answer('urn:example:recursionCount'(9153, 6)).
+answer('urn:example:recursionCount'(9154, 3)).
+answer('urn:example:recursionCount'(9155, 6)).
+answer('urn:example:recursionCount'(9156, 3)).
+answer('urn:example:recursionCount'(9157, 6)).
+answer('urn:example:recursionCount'(9158, 5)).
+answer('urn:example:recursionCount'(9159, 2)).
+answer('urn:example:recursionCount'(9160, 7)).
+answer('urn:example:recursionCount'(9161, 7)).
+answer('urn:example:recursionCount'(9162, 2)).
+answer('urn:example:recursionCount'(9163, 5)).
+answer('urn:example:recursionCount'(9164, 6)).
+answer('urn:example:recursionCount'(9165, 3)).
+answer('urn:example:recursionCount'(9166, 6)).
+answer('urn:example:recursionCount'(9167, 3)).
+answer('urn:example:recursionCount'(9168, 6)).
+answer('urn:example:recursionCount'(9169, 5)).
+answer('urn:example:recursionCount'(9170, 7)).
+answer('urn:example:recursionCount'(9171, 2)).
+answer('urn:example:recursionCount'(9172, 7)).
+answer('urn:example:recursionCount'(9173, 2)).
+answer('urn:example:recursionCount'(9174, 5)).
+answer('urn:example:recursionCount'(9175, 6)).
+answer('urn:example:recursionCount'(9176, 3)).
+answer('urn:example:recursionCount'(9177, 6)).
+answer('urn:example:recursionCount'(9178, 3)).
+answer('urn:example:recursionCount'(9179, 6)).
+answer('urn:example:recursionCount'(9180, 3)).
+answer('urn:example:recursionCount'(9181, 5)).
+answer('urn:example:recursionCount'(9182, 2)).
+answer('urn:example:recursionCount'(9183, 7)).
+answer('urn:example:recursionCount'(9184, 2)).
+answer('urn:example:recursionCount'(9185, 5)).
+answer('urn:example:recursionCount'(9186, 6)).
+answer('urn:example:recursionCount'(9187, 3)).
+answer('urn:example:recursionCount'(9188, 6)).
+answer('urn:example:recursionCount'(9189, 3)).
+answer('urn:example:recursionCount'(9190, 3)).
+answer('urn:example:recursionCount'(9191, 6)).
+answer('urn:example:recursionCount'(9192, 5)).
+answer('urn:example:recursionCount'(9193, 2)).
+answer('urn:example:recursionCount'(9194, 7)).
+answer('urn:example:recursionCount'(9195, 2)).
+answer('urn:example:recursionCount'(9196, 5)).
+answer('urn:example:recursionCount'(9197, 6)).
+answer('urn:example:recursionCount'(9198, 3)).
+answer('urn:example:recursionCount'(9199, 6)).
+answer('urn:example:recursionCount'(9200, 3)).
+answer('urn:example:recursionCount'(9201, 4)).
+answer('urn:example:recursionCount'(9202, 4)).
+answer('urn:example:recursionCount'(9203, 4)).
+answer('urn:example:recursionCount'(9204, 3)).
+answer('urn:example:recursionCount'(9205, 3)).
+answer('urn:example:recursionCount'(9206, 7)).
+answer('urn:example:recursionCount'(9207, 7)).
+answer('urn:example:recursionCount'(9208, 7)).
+answer('urn:example:recursionCount'(9209, 3)).
+answer('urn:example:recursionCount'(9210, 4)).
+answer('urn:example:recursionCount'(9211, 3)).
+answer('urn:example:recursionCount'(9212, 6)).
+answer('urn:example:recursionCount'(9213, 3)).
+answer('urn:example:recursionCount'(9214, 6)).
+answer('urn:example:recursionCount'(9215, 5)).
+answer('urn:example:recursionCount'(9216, 2)).
+answer('urn:example:recursionCount'(9217, 7)).
+answer('urn:example:recursionCount'(9218, 2)).
+answer('urn:example:recursionCount'(9219, 5)).
+answer('urn:example:recursionCount'(9220, 4)).
+answer('urn:example:recursionCount'(9221, 6)).
+answer('urn:example:recursionCount'(9222, 4)).
+answer('urn:example:recursionCount'(9223, 3)).
+answer('urn:example:recursionCount'(9224, 5)).
+answer('urn:example:recursionCount'(9225, 6)).
+answer('urn:example:recursionCount'(9226, 3)).
+answer('urn:example:recursionCount'(9227, 5)).
+answer('urn:example:recursionCount'(9228, 3)).
+answer('urn:example:recursionCount'(9229, 6)).
+answer('urn:example:recursionCount'(9230, 4)).
+answer('urn:example:recursionCount'(9231, 3)).
+answer('urn:example:recursionCount'(9232, 3)).
+answer('urn:example:recursionCount'(9233, 4)).
+answer('urn:example:recursionCount'(9234, 3)).
+answer('urn:example:recursionCount'(9235, 5)).
+answer('urn:example:recursionCount'(9236, 6)).
+answer('urn:example:recursionCount'(9237, 3)).
+answer('urn:example:recursionCount'(9238, 5)).
+answer('urn:example:recursionCount'(9239, 3)).
+answer('urn:example:recursionCount'(9240, 3)).
+answer('urn:example:recursionCount'(9241, 6)).
+answer('urn:example:recursionCount'(9242, 5)).
+answer('urn:example:recursionCount'(9243, 3)).
+answer('urn:example:recursionCount'(9244, 4)).
+answer('urn:example:recursionCount'(9245, 3)).
+answer('urn:example:recursionCount'(9246, 5)).
+answer('urn:example:recursionCount'(9247, 6)).
+answer('urn:example:recursionCount'(9248, 3)).
+answer('urn:example:recursionCount'(9249, 5)).
+answer('urn:example:recursionCount'(9250, 3)).
+answer('urn:example:recursionCount'(9251, 5)).
+answer('urn:example:recursionCount'(9252, 6)).
+answer('urn:example:recursionCount'(9253, 5)).
+answer('urn:example:recursionCount'(9254, 3)).
+answer('urn:example:recursionCount'(9255, 4)).
+answer('urn:example:recursionCount'(9256, 3)).
+answer('urn:example:recursionCount'(9257, 5)).
+answer('urn:example:recursionCount'(9258, 6)).
+answer('urn:example:recursionCount'(9259, 3)).
+answer('urn:example:recursionCount'(9260, 7)).
+answer('urn:example:recursionCount'(9261, 2)).
+answer('urn:example:recursionCount'(9262, 3)).
+answer('urn:example:recursionCount'(9263, 6)).
+answer('urn:example:recursionCount'(9264, 5)).
+answer('urn:example:recursionCount'(9265, 3)).
+answer('urn:example:recursionCount'(9266, 4)).
+answer('urn:example:recursionCount'(9267, 3)).
+answer('urn:example:recursionCount'(9268, 5)).
+answer('urn:example:recursionCount'(9269, 6)).
+answer('urn:example:recursionCount'(9270, 7)).
+answer('urn:example:recursionCount'(9271, 7)).
+answer('urn:example:recursionCount'(9272, 5)).
+answer('urn:example:recursionCount'(9273, 3)).
+answer('urn:example:recursionCount'(9274, 6)).
+answer('urn:example:recursionCount'(9275, 5)).
+answer('urn:example:recursionCount'(9276, 3)).
+answer('urn:example:recursionCount'(9277, 4)).
+answer('urn:example:recursionCount'(9278, 3)).
+answer('urn:example:recursionCount'(9279, 5)).
+answer('urn:example:recursionCount'(9280, 7)).
+answer('urn:example:recursionCount'(9281, 2)).
+answer('urn:example:recursionCount'(9282, 3)).
+answer('urn:example:recursionCount'(9283, 5)).
+answer('urn:example:recursionCount'(9284, 3)).
+answer('urn:example:recursionCount'(9285, 6)).
+answer('urn:example:recursionCount'(9286, 5)).
+answer('urn:example:recursionCount'(9287, 3)).
+answer('urn:example:recursionCount'(9288, 4)).
+answer('urn:example:recursionCount'(9289, 3)).
+answer('urn:example:recursionCount'(9290, 3)).
+answer('urn:example:recursionCount'(9291, 5)).
+answer('urn:example:recursionCount'(9292, 6)).
+answer('urn:example:recursionCount'(9293, 3)).
+answer('urn:example:recursionCount'(9294, 5)).
+answer('urn:example:recursionCount'(9295, 3)).
+answer('urn:example:recursionCount'(9296, 6)).
+answer('urn:example:recursionCount'(9297, 5)).
+answer('urn:example:recursionCount'(9298, 3)).
+answer('urn:example:recursionCount'(9299, 4)).
+answer('urn:example:recursionCount'(9300, 3)).
+answer('urn:example:recursionCount'(9301, 3)).
+answer('urn:example:recursionCount'(9302, 4)).
+answer('urn:example:recursionCount'(9303, 4)).
+answer('urn:example:recursionCount'(9304, 4)).
+answer('urn:example:recursionCount'(9305, 3)).
+answer('urn:example:recursionCount'(9306, 3)).
+answer('urn:example:recursionCount'(9307, 7)).
+answer('urn:example:recursionCount'(9308, 7)).
+answer('urn:example:recursionCount'(9309, 7)).
+answer('urn:example:recursionCount'(9310, 3)).
+answer('urn:example:recursionCount'(9311, 6)).
+answer('urn:example:recursionCount'(9312, 3)).
+answer('urn:example:recursionCount'(9313, 6)).
+answer('urn:example:recursionCount'(9314, 3)).
+answer('urn:example:recursionCount'(9315, 6)).
+answer('urn:example:recursionCount'(9316, 5)).
+answer('urn:example:recursionCount'(9317, 2)).
+answer('urn:example:recursionCount'(9318, 7)).
+answer('urn:example:recursionCount'(9319, 2)).
+answer('urn:example:recursionCount'(9320, 4)).
+answer('urn:example:recursionCount'(9321, 3)).
+answer('urn:example:recursionCount'(9322, 3)).
+answer('urn:example:recursionCount'(9323, 4)).
+answer('urn:example:recursionCount'(9324, 3)).
+answer('urn:example:recursionCount'(9325, 5)).
+answer('urn:example:recursionCount'(9326, 6)).
+answer('urn:example:recursionCount'(9327, 3)).
+answer('urn:example:recursionCount'(9328, 5)).
+answer('urn:example:recursionCount'(9329, 3)).
+answer('urn:example:recursionCount'(9330, 4)).
+answer('urn:example:recursionCount'(9331, 6)).
+answer('urn:example:recursionCount'(9332, 4)).
+answer('urn:example:recursionCount'(9333, 6)).
+answer('urn:example:recursionCount'(9334, 7)).
+answer('urn:example:recursionCount'(9335, 1)).
+answer('urn:example:recursionCount'(9336, 3)).
+answer('urn:example:recursionCount'(9337, 4)).
+answer('urn:example:recursionCount'(9338, 5)).
+answer('urn:example:recursionCount'(9339, 4)).
+answer('urn:example:recursionCount'(9340, 4)).
+answer('urn:example:recursionCount'(9341, 3)).
+answer('urn:example:recursionCount'(9342, 3)).
+answer('urn:example:recursionCount'(9343, 7)).
+answer('urn:example:recursionCount'(9344, 6)).
+answer('urn:example:recursionCount'(9345, 7)).
+answer('urn:example:recursionCount'(9346, 1)).
+answer('urn:example:recursionCount'(9347, 3)).
+answer('urn:example:recursionCount'(9348, 4)).
+answer('urn:example:recursionCount'(9349, 5)).
+answer('urn:example:recursionCount'(9350, 3)).
+answer('urn:example:recursionCount'(9351, 6)).
+answer('urn:example:recursionCount'(9352, 5)).
+answer('urn:example:recursionCount'(9353, 1)).
+answer('urn:example:recursionCount'(9354, 7)).
+answer('urn:example:recursionCount'(9355, 6)).
+answer('urn:example:recursionCount'(9356, 7)).
+answer('urn:example:recursionCount'(9357, 1)).
+answer('urn:example:recursionCount'(9358, 3)).
+answer('urn:example:recursionCount'(9359, 4)).
+answer('urn:example:recursionCount'(9360, 3)).
+answer('urn:example:recursionCount'(9361, 5)).
+answer('urn:example:recursionCount'(9362, 6)).
+answer('urn:example:recursionCount'(9363, 3)).
+answer('urn:example:recursionCount'(9364, 1)).
+answer('urn:example:recursionCount'(9365, 7)).
+answer('urn:example:recursionCount'(9366, 6)).
+answer('urn:example:recursionCount'(9367, 7)).
+answer('urn:example:recursionCount'(9368, 1)).
+answer('urn:example:recursionCount'(9369, 3)).
+answer('urn:example:recursionCount'(9370, 7)).
+answer('urn:example:recursionCount'(9371, 2)).
+answer('urn:example:recursionCount'(9372, 3)).
+answer('urn:example:recursionCount'(9373, 4)).
+answer('urn:example:recursionCount'(9374, 3)).
+answer('urn:example:recursionCount'(9375, 1)).
+answer('urn:example:recursionCount'(9376, 7)).
+answer('urn:example:recursionCount'(9377, 6)).
+answer('urn:example:recursionCount'(9378, 7)).
+answer('urn:example:recursionCount'(9379, 1)).
+answer('urn:example:recursionCount'(9380, 7)).
+answer('urn:example:recursionCount'(9381, 7)).
+answer('urn:example:recursionCount'(9382, 5)).
+answer('urn:example:recursionCount'(9383, 5)).
+answer('urn:example:recursionCount'(9384, 4)).
+answer('urn:example:recursionCount'(9385, 3)).
+answer('urn:example:recursionCount'(9386, 1)).
+answer('urn:example:recursionCount'(9387, 7)).
+answer('urn:example:recursionCount'(9388, 6)).
+answer('urn:example:recursionCount'(9389, 7)).
+answer('urn:example:recursionCount'(9390, 7)).
+answer('urn:example:recursionCount'(9391, 2)).
+answer('urn:example:recursionCount'(9392, 3)).
+answer('urn:example:recursionCount'(9393, 4)).
+answer('urn:example:recursionCount'(9394, 5)).
+answer('urn:example:recursionCount'(9395, 4)).
+answer('urn:example:recursionCount'(9396, 3)).
+answer('urn:example:recursionCount'(9397, 1)).
+answer('urn:example:recursionCount'(9398, 7)).
+answer('urn:example:recursionCount'(9399, 6)).
+answer('urn:example:recursionCount'(9400, 7)).
+answer('urn:example:recursionCount'(9401, 3)).
+answer('urn:example:recursionCount'(9402, 3)).
+answer('urn:example:recursionCount'(9403, 4)).
+answer('urn:example:recursionCount'(9404, 4)).
+answer('urn:example:recursionCount'(9405, 4)).
+answer('urn:example:recursionCount'(9406, 3)).
+answer('urn:example:recursionCount'(9407, 3)).
+answer('urn:example:recursionCount'(9408, 7)).
+answer('urn:example:recursionCount'(9409, 7)).
+answer('urn:example:recursionCount'(9410, 3)).
+answer('urn:example:recursionCount'(9411, 5)).
+answer('urn:example:recursionCount'(9412, 6)).
+answer('urn:example:recursionCount'(9413, 3)).
+answer('urn:example:recursionCount'(9414, 6)).
+answer('urn:example:recursionCount'(9415, 3)).
+answer('urn:example:recursionCount'(9416, 6)).
+answer('urn:example:recursionCount'(9417, 5)).
+answer('urn:example:recursionCount'(9418, 2)).
+answer('urn:example:recursionCount'(9419, 7)).
+answer('urn:example:recursionCount'(9420, 3)).
+answer('urn:example:recursionCount'(9421, 6)).
+answer('urn:example:recursionCount'(9422, 5)).
+answer('urn:example:recursionCount'(9423, 3)).
+answer('urn:example:recursionCount'(9424, 4)).
+answer('urn:example:recursionCount'(9425, 3)).
+answer('urn:example:recursionCount'(9426, 5)).
+answer('urn:example:recursionCount'(9427, 6)).
+answer('urn:example:recursionCount'(9428, 3)).
+answer('urn:example:recursionCount'(9429, 5)).
+answer('urn:example:recursionCount'(9430, 4)).
+answer('urn:example:recursionCount'(9431, 3)).
+answer('urn:example:recursionCount'(9432, 3)).
+answer('urn:example:recursionCount'(9433, 7)).
+answer('urn:example:recursionCount'(9434, 6)).
+answer('urn:example:recursionCount'(9435, 7)).
+answer('urn:example:recursionCount'(9436, 1)).
+answer('urn:example:recursionCount'(9437, 3)).
+answer('urn:example:recursionCount'(9438, 4)).
+answer('urn:example:recursionCount'(9439, 5)).
+answer('urn:example:recursionCount'(9440, 4)).
+answer('urn:example:recursionCount'(9441, 6)).
+answer('urn:example:recursionCount'(9442, 4)).
+answer('urn:example:recursionCount'(9443, 6)).
+answer('urn:example:recursionCount'(9444, 6)).
+answer('urn:example:recursionCount'(9445, 7)).
+answer('urn:example:recursionCount'(9446, 7)).
+answer('urn:example:recursionCount'(9447, 5)).
+answer('urn:example:recursionCount'(9448, 5)).
+answer('urn:example:recursionCount'(9449, 5)).
+answer('urn:example:recursionCount'(9450, 4)).
+answer('urn:example:recursionCount'(9451, 3)).
+answer('urn:example:recursionCount'(9452, 3)).
+answer('urn:example:recursionCount'(9453, 7)).
+answer('urn:example:recursionCount'(9454, 7)).
+answer('urn:example:recursionCount'(9455, 6)).
+answer('urn:example:recursionCount'(9456, 7)).
+answer('urn:example:recursionCount'(9457, 7)).
+answer('urn:example:recursionCount'(9458, 5)).
+answer('urn:example:recursionCount'(9459, 5)).
+answer('urn:example:recursionCount'(9460, 3)).
+answer('urn:example:recursionCount'(9461, 6)).
+answer('urn:example:recursionCount'(9462, 5)).
+answer('urn:example:recursionCount'(9463, 1)).
+answer('urn:example:recursionCount'(9464, 7)).
+answer('urn:example:recursionCount'(9465, 7)).
+answer('urn:example:recursionCount'(9466, 6)).
+answer('urn:example:recursionCount'(9467, 7)).
+answer('urn:example:recursionCount'(9468, 7)).
+answer('urn:example:recursionCount'(9469, 5)).
+answer('urn:example:recursionCount'(9470, 3)).
+answer('urn:example:recursionCount'(9471, 5)).
+answer('urn:example:recursionCount'(9472, 6)).
+answer('urn:example:recursionCount'(9473, 3)).
+answer('urn:example:recursionCount'(9474, 5)).
+answer('urn:example:recursionCount'(9475, 7)).
+answer('urn:example:recursionCount'(9476, 7)).
+answer('urn:example:recursionCount'(9477, 6)).
+answer('urn:example:recursionCount'(9478, 7)).
+answer('urn:example:recursionCount'(9479, 7)).
+answer('urn:example:recursionCount'(9480, 7)).
+answer('urn:example:recursionCount'(9481, 2)).
+answer('urn:example:recursionCount'(9482, 3)).
+answer('urn:example:recursionCount'(9483, 4)).
+answer('urn:example:recursionCount'(9484, 5)).
+answer('urn:example:recursionCount'(9485, 5)).
+answer('urn:example:recursionCount'(9486, 7)).
+answer('urn:example:recursionCount'(9487, 7)).
+answer('urn:example:recursionCount'(9488, 6)).
+answer('urn:example:recursionCount'(9489, 7)).
+answer('urn:example:recursionCount'(9490, 7)).
+answer('urn:example:recursionCount'(9491, 7)).
+answer('urn:example:recursionCount'(9492, 5)).
+answer('urn:example:recursionCount'(9493, 5)).
+answer('urn:example:recursionCount'(9494, 5)).
+answer('urn:example:recursionCount'(9495, 5)).
+answer('urn:example:recursionCount'(9496, 5)).
+answer('urn:example:recursionCount'(9497, 7)).
+answer('urn:example:recursionCount'(9498, 7)).
+answer('urn:example:recursionCount'(9499, 6)).
+answer('urn:example:recursionCount'(9500, 7)).
+answer('urn:example:recursionCount'(9501, 7)).
+answer('urn:example:recursionCount'(9502, 3)).
+answer('urn:example:recursionCount'(9503, 3)).
+answer('urn:example:recursionCount'(9504, 4)).
+answer('urn:example:recursionCount'(9505, 4)).
+answer('urn:example:recursionCount'(9506, 4)).
+answer('urn:example:recursionCount'(9507, 3)).
+answer('urn:example:recursionCount'(9508, 3)).
+answer('urn:example:recursionCount'(9509, 7)).
+answer('urn:example:recursionCount'(9510, 7)).
+answer('urn:example:recursionCount'(9511, 2)).
+answer('urn:example:recursionCount'(9512, 5)).
+answer('urn:example:recursionCount'(9513, 6)).
+answer('urn:example:recursionCount'(9514, 3)).
+answer('urn:example:recursionCount'(9515, 6)).
+answer('urn:example:recursionCount'(9516, 3)).
+answer('urn:example:recursionCount'(9517, 6)).
+answer('urn:example:recursionCount'(9518, 5)).
+answer('urn:example:recursionCount'(9519, 2)).
+answer('urn:example:recursionCount'(9520, 3)).
+answer('urn:example:recursionCount'(9521, 5)).
+answer('urn:example:recursionCount'(9522, 6)).
+answer('urn:example:recursionCount'(9523, 5)).
+answer('urn:example:recursionCount'(9524, 3)).
+answer('urn:example:recursionCount'(9525, 4)).
+answer('urn:example:recursionCount'(9526, 3)).
+answer('urn:example:recursionCount'(9527, 5)).
+answer('urn:example:recursionCount'(9528, 6)).
+answer('urn:example:recursionCount'(9529, 3)).
+answer('urn:example:recursionCount'(9530, 3)).
+answer('urn:example:recursionCount'(9531, 6)).
+answer('urn:example:recursionCount'(9532, 5)).
+answer('urn:example:recursionCount'(9533, 1)).
+answer('urn:example:recursionCount'(9534, 7)).
+answer('urn:example:recursionCount'(9535, 6)).
+answer('urn:example:recursionCount'(9536, 7)).
+answer('urn:example:recursionCount'(9537, 1)).
+answer('urn:example:recursionCount'(9538, 3)).
+answer('urn:example:recursionCount'(9539, 4)).
+answer('urn:example:recursionCount'(9540, 4)).
+answer('urn:example:recursionCount'(9541, 3)).
+answer('urn:example:recursionCount'(9542, 3)).
+answer('urn:example:recursionCount'(9543, 7)).
+answer('urn:example:recursionCount'(9544, 7)).
+answer('urn:example:recursionCount'(9545, 6)).
+answer('urn:example:recursionCount'(9546, 7)).
+answer('urn:example:recursionCount'(9547, 7)).
+answer('urn:example:recursionCount'(9548, 5)).
+answer('urn:example:recursionCount'(9549, 5)).
+answer('urn:example:recursionCount'(9550, 4)).
+answer('urn:example:recursionCount'(9551, 6)).
+answer('urn:example:recursionCount'(9552, 4)).
+answer('urn:example:recursionCount'(9553, 6)).
+answer('urn:example:recursionCount'(9554, 6)).
+answer('urn:example:recursionCount'(9555, 4)).
+answer('urn:example:recursionCount'(9556, 7)).
+answer('urn:example:recursionCount'(9557, 2)).
+answer('urn:example:recursionCount'(9558, 3)).
+answer('urn:example:recursionCount'(9559, 4)).
+answer('urn:example:recursionCount'(9560, 4)).
+answer('urn:example:recursionCount'(9561, 3)).
+answer('urn:example:recursionCount'(9562, 3)).
+answer('urn:example:recursionCount'(9563, 7)).
+answer('urn:example:recursionCount'(9564, 7)).
+answer('urn:example:recursionCount'(9565, 7)).
+answer('urn:example:recursionCount'(9566, 4)).
+answer('urn:example:recursionCount'(9567, 7)).
+answer('urn:example:recursionCount'(9568, 2)).
+answer('urn:example:recursionCount'(9569, 3)).
+answer('urn:example:recursionCount'(9570, 3)).
+answer('urn:example:recursionCount'(9571, 6)).
+answer('urn:example:recursionCount'(9572, 5)).
+answer('urn:example:recursionCount'(9573, 1)).
+answer('urn:example:recursionCount'(9574, 7)).
+answer('urn:example:recursionCount'(9575, 2)).
+answer('urn:example:recursionCount'(9576, 7)).
+answer('urn:example:recursionCount'(9577, 4)).
+answer('urn:example:recursionCount'(9578, 7)).
+answer('urn:example:recursionCount'(9579, 2)).
+answer('urn:example:recursionCount'(9580, 3)).
+answer('urn:example:recursionCount'(9581, 5)).
+answer('urn:example:recursionCount'(9582, 6)).
+answer('urn:example:recursionCount'(9583, 3)).
+answer('urn:example:recursionCount'(9584, 5)).
+answer('urn:example:recursionCount'(9585, 3)).
+answer('urn:example:recursionCount'(9586, 2)).
+answer('urn:example:recursionCount'(9587, 7)).
+answer('urn:example:recursionCount'(9588, 4)).
+answer('urn:example:recursionCount'(9589, 7)).
+answer('urn:example:recursionCount'(9590, 7)).
+answer('urn:example:recursionCount'(9591, 2)).
+answer('urn:example:recursionCount'(9592, 3)).
+answer('urn:example:recursionCount'(9593, 4)).
+answer('urn:example:recursionCount'(9594, 5)).
+answer('urn:example:recursionCount'(9595, 4)).
+answer('urn:example:recursionCount'(9596, 3)).
+answer('urn:example:recursionCount'(9597, 2)).
+answer('urn:example:recursionCount'(9598, 7)).
+answer('urn:example:recursionCount'(9599, 4)).
+answer('urn:example:recursionCount'(9600, 7)).
+answer('urn:example:recursionCount'(9601, 7)).
+answer('urn:example:recursionCount'(9602, 7)).
+answer('urn:example:recursionCount'(9603, 3)).
+answer('urn:example:recursionCount'(9604, 3)).
+answer('urn:example:recursionCount'(9605, 4)).
+answer('urn:example:recursionCount'(9606, 4)).
+answer('urn:example:recursionCount'(9607, 4)).
+answer('urn:example:recursionCount'(9608, 3)).
+answer('urn:example:recursionCount'(9609, 3)).
+answer('urn:example:recursionCount'(9610, 7)).
+answer('urn:example:recursionCount'(9611, 7)).
+answer('urn:example:recursionCount'(9612, 2)).
+answer('urn:example:recursionCount'(9613, 5)).
+answer('urn:example:recursionCount'(9614, 6)).
+answer('urn:example:recursionCount'(9615, 3)).
+answer('urn:example:recursionCount'(9616, 6)).
+answer('urn:example:recursionCount'(9617, 3)).
+answer('urn:example:recursionCount'(9618, 6)).
+answer('urn:example:recursionCount'(9619, 5)).
+answer('urn:example:recursionCount'(9620, 7)).
+answer('urn:example:recursionCount'(9621, 2)).
+answer('urn:example:recursionCount'(9622, 3)).
+answer('urn:example:recursionCount'(9623, 6)).
+answer('urn:example:recursionCount'(9624, 5)).
+answer('urn:example:recursionCount'(9625, 3)).
+answer('urn:example:recursionCount'(9626, 4)).
+answer('urn:example:recursionCount'(9627, 3)).
+answer('urn:example:recursionCount'(9628, 5)).
+answer('urn:example:recursionCount'(9629, 6)).
+answer('urn:example:recursionCount'(9630, 3)).
+answer('urn:example:recursionCount'(9631, 5)).
+answer('urn:example:recursionCount'(9632, 6)).
+answer('urn:example:recursionCount'(9633, 3)).
+answer('urn:example:recursionCount'(9634, 1)).
+answer('urn:example:recursionCount'(9635, 7)).
+answer('urn:example:recursionCount'(9636, 6)).
+answer('urn:example:recursionCount'(9637, 7)).
+answer('urn:example:recursionCount'(9638, 1)).
+answer('urn:example:recursionCount'(9639, 3)).
+answer('urn:example:recursionCount'(9640, 3)).
+answer('urn:example:recursionCount'(9641, 6)).
+answer('urn:example:recursionCount'(9642, 5)).
+answer('urn:example:recursionCount'(9643, 1)).
+answer('urn:example:recursionCount'(9644, 7)).
+answer('urn:example:recursionCount'(9645, 7)).
+answer('urn:example:recursionCount'(9646, 6)).
+answer('urn:example:recursionCount'(9647, 7)).
+answer('urn:example:recursionCount'(9648, 7)).
+answer('urn:example:recursionCount'(9649, 5)).
+answer('urn:example:recursionCount'(9650, 4)).
+answer('urn:example:recursionCount'(9651, 3)).
+answer('urn:example:recursionCount'(9652, 3)).
+answer('urn:example:recursionCount'(9653, 7)).
+answer('urn:example:recursionCount'(9654, 7)).
+answer('urn:example:recursionCount'(9655, 7)).
+answer('urn:example:recursionCount'(9656, 4)).
+answer('urn:example:recursionCount'(9657, 7)).
+answer('urn:example:recursionCount'(9658, 2)).
+answer('urn:example:recursionCount'(9659, 3)).
+answer('urn:example:recursionCount'(9660, 4)).
+answer('urn:example:recursionCount'(9661, 6)).
+answer('urn:example:recursionCount'(9662, 4)).
+answer('urn:example:recursionCount'(9663, 6)).
+answer('urn:example:recursionCount'(9664, 6)).
+answer('urn:example:recursionCount'(9665, 4)).
+answer('urn:example:recursionCount'(9666, 6)).
+answer('urn:example:recursionCount'(9667, 3)).
+answer('urn:example:recursionCount'(9668, 5)).
+answer('urn:example:recursionCount'(9669, 6)).
+answer('urn:example:recursionCount'(9670, 4)).
+answer('urn:example:recursionCount'(9671, 3)).
+answer('urn:example:recursionCount'(9672, 3)).
+answer('urn:example:recursionCount'(9673, 7)).
+answer('urn:example:recursionCount'(9674, 7)).
+answer('urn:example:recursionCount'(9675, 7)).
+answer('urn:example:recursionCount'(9676, 3)).
+answer('urn:example:recursionCount'(9677, 6)).
+answer('urn:example:recursionCount'(9678, 3)).
+answer('urn:example:recursionCount'(9679, 5)).
+answer('urn:example:recursionCount'(9680, 3)).
+answer('urn:example:recursionCount'(9681, 6)).
+answer('urn:example:recursionCount'(9682, 5)).
+answer('urn:example:recursionCount'(9683, 1)).
+answer('urn:example:recursionCount'(9684, 7)).
+answer('urn:example:recursionCount'(9685, 2)).
+answer('urn:example:recursionCount'(9686, 5)).
+answer('urn:example:recursionCount'(9687, 3)).
+answer('urn:example:recursionCount'(9688, 6)).
+answer('urn:example:recursionCount'(9689, 3)).
+answer('urn:example:recursionCount'(9690, 3)).
+answer('urn:example:recursionCount'(9691, 5)).
+answer('urn:example:recursionCount'(9692, 6)).
+answer('urn:example:recursionCount'(9693, 3)).
+answer('urn:example:recursionCount'(9694, 5)).
+answer('urn:example:recursionCount'(9695, 3)).
+answer('urn:example:recursionCount'(9696, 6)).
+answer('urn:example:recursionCount'(9697, 5)).
+answer('urn:example:recursionCount'(9698, 3)).
+answer('urn:example:recursionCount'(9699, 6)).
+answer('urn:example:recursionCount'(9700, 3)).
+answer('urn:example:recursionCount'(9701, 7)).
+answer('urn:example:recursionCount'(9702, 7)).
+answer('urn:example:recursionCount'(9703, 7)).
+answer('urn:example:recursionCount'(9704, 3)).
+answer('urn:example:recursionCount'(9705, 3)).
+answer('urn:example:recursionCount'(9706, 4)).
+answer('urn:example:recursionCount'(9707, 4)).
+answer('urn:example:recursionCount'(9708, 4)).
+answer('urn:example:recursionCount'(9709, 3)).
+answer('urn:example:recursionCount'(9710, 7)).
+answer('urn:example:recursionCount'(9711, 2)).
+answer('urn:example:recursionCount'(9712, 7)).
+answer('urn:example:recursionCount'(9713, 2)).
+answer('urn:example:recursionCount'(9714, 5)).
+answer('urn:example:recursionCount'(9715, 6)).
+answer('urn:example:recursionCount'(9716, 3)).
+answer('urn:example:recursionCount'(9717, 6)).
+answer('urn:example:recursionCount'(9718, 3)).
+answer('urn:example:recursionCount'(9719, 6)).
+answer('urn:example:recursionCount'(9720, 7)).
+answer('urn:example:recursionCount'(9721, 7)).
+answer('urn:example:recursionCount'(9722, 5)).
+answer('urn:example:recursionCount'(9723, 3)).
+answer('urn:example:recursionCount'(9724, 6)).
+answer('urn:example:recursionCount'(9725, 5)).
+answer('urn:example:recursionCount'(9726, 3)).
+answer('urn:example:recursionCount'(9727, 4)).
+answer('urn:example:recursionCount'(9728, 3)).
+answer('urn:example:recursionCount'(9729, 5)).
+answer('urn:example:recursionCount'(9730, 7)).
+answer('urn:example:recursionCount'(9731, 2)).
+answer('urn:example:recursionCount'(9732, 3)).
+answer('urn:example:recursionCount'(9733, 4)).
+answer('urn:example:recursionCount'(9734, 3)).
+answer('urn:example:recursionCount'(9735, 1)).
+answer('urn:example:recursionCount'(9736, 7)).
+answer('urn:example:recursionCount'(9737, 6)).
+answer('urn:example:recursionCount'(9738, 7)).
+answer('urn:example:recursionCount'(9739, 1)).
+answer('urn:example:recursionCount'(9740, 3)).
+answer('urn:example:recursionCount'(9741, 5)).
+answer('urn:example:recursionCount'(9742, 6)).
+answer('urn:example:recursionCount'(9743, 3)).
+answer('urn:example:recursionCount'(9744, 5)).
+answer('urn:example:recursionCount'(9745, 7)).
+answer('urn:example:recursionCount'(9746, 7)).
+answer('urn:example:recursionCount'(9747, 6)).
+answer('urn:example:recursionCount'(9748, 7)).
+answer('urn:example:recursionCount'(9749, 7)).
+answer('urn:example:recursionCount'(9750, 3)).
+answer('urn:example:recursionCount'(9751, 6)).
+answer('urn:example:recursionCount'(9752, 5)).
+answer('urn:example:recursionCount'(9753, 1)).
+answer('urn:example:recursionCount'(9754, 7)).
+answer('urn:example:recursionCount'(9755, 2)).
+answer('urn:example:recursionCount'(9756, 7)).
+answer('urn:example:recursionCount'(9757, 4)).
+answer('urn:example:recursionCount'(9758, 7)).
+answer('urn:example:recursionCount'(9759, 2)).
+answer('urn:example:recursionCount'(9760, 4)).
+answer('urn:example:recursionCount'(9761, 3)).
+answer('urn:example:recursionCount'(9762, 3)).
+answer('urn:example:recursionCount'(9763, 7)).
+answer('urn:example:recursionCount'(9764, 7)).
+answer('urn:example:recursionCount'(9765, 7)).
+answer('urn:example:recursionCount'(9766, 3)).
+answer('urn:example:recursionCount'(9767, 6)).
+answer('urn:example:recursionCount'(9768, 3)).
+answer('urn:example:recursionCount'(9769, 5)).
+answer('urn:example:recursionCount'(9770, 4)).
+answer('urn:example:recursionCount'(9771, 6)).
+answer('urn:example:recursionCount'(9772, 4)).
+answer('urn:example:recursionCount'(9773, 6)).
+answer('urn:example:recursionCount'(9774, 6)).
+answer('urn:example:recursionCount'(9775, 4)).
+answer('urn:example:recursionCount'(9776, 6)).
+answer('urn:example:recursionCount'(9777, 4)).
+answer('urn:example:recursionCount'(9778, 3)).
+answer('urn:example:recursionCount'(9779, 6)).
+answer('urn:example:recursionCount'(9780, 4)).
+answer('urn:example:recursionCount'(9781, 3)).
+answer('urn:example:recursionCount'(9782, 3)).
+answer('urn:example:recursionCount'(9783, 7)).
+answer('urn:example:recursionCount'(9784, 7)).
+answer('urn:example:recursionCount'(9785, 7)).
+answer('urn:example:recursionCount'(9786, 3)).
+answer('urn:example:recursionCount'(9787, 3)).
+answer('urn:example:recursionCount'(9788, 4)).
+answer('urn:example:recursionCount'(9789, 3)).
+answer('urn:example:recursionCount'(9790, 3)).
+answer('urn:example:recursionCount'(9791, 6)).
+answer('urn:example:recursionCount'(9792, 5)).
+answer('urn:example:recursionCount'(9793, 1)).
+answer('urn:example:recursionCount'(9794, 7)).
+answer('urn:example:recursionCount'(9795, 2)).
+answer('urn:example:recursionCount'(9796, 5)).
+answer('urn:example:recursionCount'(9797, 6)).
+answer('urn:example:recursionCount'(9798, 3)).
+answer('urn:example:recursionCount'(9799, 4)).
+answer('urn:example:recursionCount'(9800, 3)).
+answer('urn:example:recursionCount'(9801, 3)).
+answer('urn:example:recursionCount'(9802, 7)).
+answer('urn:example:recursionCount'(9803, 7)).
+answer('urn:example:recursionCount'(9804, 7)).
+answer('urn:example:recursionCount'(9805, 3)).
+answer('urn:example:recursionCount'(9806, 3)).
+answer('urn:example:recursionCount'(9807, 4)).
+answer('urn:example:recursionCount'(9808, 4)).
+answer('urn:example:recursionCount'(9809, 4)).
+answer('urn:example:recursionCount'(9810, 3)).
+answer('urn:example:recursionCount'(9811, 5)).
+answer('urn:example:recursionCount'(9812, 2)).
+answer('urn:example:recursionCount'(9813, 7)).
+answer('urn:example:recursionCount'(9814, 2)).
+answer('urn:example:recursionCount'(9815, 5)).
+answer('urn:example:recursionCount'(9816, 6)).
+answer('urn:example:recursionCount'(9817, 3)).
+answer('urn:example:recursionCount'(9818, 6)).
+answer('urn:example:recursionCount'(9819, 3)).
+answer('urn:example:recursionCount'(9820, 7)).
+answer('urn:example:recursionCount'(9821, 2)).
+answer('urn:example:recursionCount'(9822, 3)).
+answer('urn:example:recursionCount'(9823, 5)).
+answer('urn:example:recursionCount'(9824, 3)).
+answer('urn:example:recursionCount'(9825, 6)).
+answer('urn:example:recursionCount'(9826, 5)).
+answer('urn:example:recursionCount'(9827, 3)).
+answer('urn:example:recursionCount'(9828, 4)).
+answer('urn:example:recursionCount'(9829, 3)).
+answer('urn:example:recursionCount'(9830, 7)).
+answer('urn:example:recursionCount'(9831, 7)).
+answer('urn:example:recursionCount'(9832, 5)).
+answer('urn:example:recursionCount'(9833, 5)).
+answer('urn:example:recursionCount'(9834, 4)).
+answer('urn:example:recursionCount'(9835, 3)).
+answer('urn:example:recursionCount'(9836, 1)).
+answer('urn:example:recursionCount'(9837, 7)).
+answer('urn:example:recursionCount'(9838, 6)).
+answer('urn:example:recursionCount'(9839, 7)).
+answer('urn:example:recursionCount'(9840, 7)).
+answer('urn:example:recursionCount'(9841, 2)).
+answer('urn:example:recursionCount'(9842, 3)).
+answer('urn:example:recursionCount'(9843, 4)).
+answer('urn:example:recursionCount'(9844, 5)).
+answer('urn:example:recursionCount'(9845, 5)).
+answer('urn:example:recursionCount'(9846, 7)).
+answer('urn:example:recursionCount'(9847, 7)).
+answer('urn:example:recursionCount'(9848, 6)).
+answer('urn:example:recursionCount'(9849, 7)).
+answer('urn:example:recursionCount'(9850, 3)).
+answer('urn:example:recursionCount'(9851, 5)).
+answer('urn:example:recursionCount'(9852, 6)).
+answer('urn:example:recursionCount'(9853, 3)).
+answer('urn:example:recursionCount'(9854, 5)).
+answer('urn:example:recursionCount'(9855, 3)).
+answer('urn:example:recursionCount'(9856, 2)).
+answer('urn:example:recursionCount'(9857, 7)).
+answer('urn:example:recursionCount'(9858, 4)).
+answer('urn:example:recursionCount'(9859, 7)).
+answer('urn:example:recursionCount'(9860, 3)).
+answer('urn:example:recursionCount'(9861, 6)).
+answer('urn:example:recursionCount'(9862, 5)).
+answer('urn:example:recursionCount'(9863, 1)).
+answer('urn:example:recursionCount'(9864, 7)).
+answer('urn:example:recursionCount'(9865, 2)).
+answer('urn:example:recursionCount'(9866, 5)).
+answer('urn:example:recursionCount'(9867, 3)).
+answer('urn:example:recursionCount'(9868, 6)).
+answer('urn:example:recursionCount'(9869, 3)).
+answer('urn:example:recursionCount'(9870, 4)).
+answer('urn:example:recursionCount'(9871, 3)).
+answer('urn:example:recursionCount'(9872, 3)).
+answer('urn:example:recursionCount'(9873, 7)).
+answer('urn:example:recursionCount'(9874, 7)).
+answer('urn:example:recursionCount'(9875, 7)).
+answer('urn:example:recursionCount'(9876, 3)).
+answer('urn:example:recursionCount'(9877, 3)).
+answer('urn:example:recursionCount'(9878, 4)).
+answer('urn:example:recursionCount'(9879, 3)).
+answer('urn:example:recursionCount'(9880, 4)).
+answer('urn:example:recursionCount'(9881, 6)).
+answer('urn:example:recursionCount'(9882, 4)).
+answer('urn:example:recursionCount'(9883, 6)).
+answer('urn:example:recursionCount'(9884, 6)).
+answer('urn:example:recursionCount'(9885, 4)).
+answer('urn:example:recursionCount'(9886, 6)).
+answer('urn:example:recursionCount'(9887, 4)).
+answer('urn:example:recursionCount'(9888, 5)).
+answer('urn:example:recursionCount'(9889, 4)).
+answer('urn:example:recursionCount'(9890, 4)).
+answer('urn:example:recursionCount'(9891, 3)).
+answer('urn:example:recursionCount'(9892, 3)).
+answer('urn:example:recursionCount'(9893, 7)).
+answer('urn:example:recursionCount'(9894, 7)).
+answer('urn:example:recursionCount'(9895, 7)).
+answer('urn:example:recursionCount'(9896, 3)).
+answer('urn:example:recursionCount'(9897, 3)).
+answer('urn:example:recursionCount'(9898, 4)).
+answer('urn:example:recursionCount'(9899, 5)).
+answer('urn:example:recursionCount'(9900, 4)).
+answer('urn:example:recursionCount'(9901, 3)).
+answer('urn:example:recursionCount'(9902, 3)).
+answer('urn:example:recursionCount'(9903, 7)).
+answer('urn:example:recursionCount'(9904, 7)).
+answer('urn:example:recursionCount'(9905, 7)).
+answer('urn:example:recursionCount'(9906, 3)).
+answer('urn:example:recursionCount'(9907, 3)).
+answer('urn:example:recursionCount'(9908, 4)).
+answer('urn:example:recursionCount'(9909, 4)).
+answer('urn:example:recursionCount'(9910, 3)).
+answer('urn:example:recursionCount'(9911, 6)).
+answer('urn:example:recursionCount'(9912, 5)).
+answer('urn:example:recursionCount'(9913, 2)).
+answer('urn:example:recursionCount'(9914, 7)).
+answer('urn:example:recursionCount'(9915, 2)).
+answer('urn:example:recursionCount'(9916, 5)).
+answer('urn:example:recursionCount'(9917, 6)).
+answer('urn:example:recursionCount'(9918, 3)).
+answer('urn:example:recursionCount'(9919, 6)).
+answer('urn:example:recursionCount'(9920, 3)).
+answer('urn:example:recursionCount'(9921, 5)).
+answer('urn:example:recursionCount'(9922, 6)).
+answer('urn:example:recursionCount'(9923, 3)).
+answer('urn:example:recursionCount'(9924, 5)).
+answer('urn:example:recursionCount'(9925, 3)).
+answer('urn:example:recursionCount'(9926, 6)).
+answer('urn:example:recursionCount'(9927, 5)).
+answer('urn:example:recursionCount'(9928, 3)).
+answer('urn:example:recursionCount'(9929, 4)).
+answer('urn:example:recursionCount'(9930, 7)).
+answer('urn:example:recursionCount'(9931, 2)).
+answer('urn:example:recursionCount'(9932, 3)).
+answer('urn:example:recursionCount'(9933, 4)).
+answer('urn:example:recursionCount'(9934, 5)).
+answer('urn:example:recursionCount'(9935, 4)).
+answer('urn:example:recursionCount'(9936, 3)).
+answer('urn:example:recursionCount'(9937, 1)).
+answer('urn:example:recursionCount'(9938, 7)).
+answer('urn:example:recursionCount'(9939, 6)).
+answer('urn:example:recursionCount'(9940, 7)).
+answer('urn:example:recursionCount'(9941, 7)).
+answer('urn:example:recursionCount'(9942, 5)).
+answer('urn:example:recursionCount'(9943, 5)).
+answer('urn:example:recursionCount'(9944, 5)).
+answer('urn:example:recursionCount'(9945, 5)).
+answer('urn:example:recursionCount'(9946, 5)).
+answer('urn:example:recursionCount'(9947, 7)).
+answer('urn:example:recursionCount'(9948, 7)).
+answer('urn:example:recursionCount'(9949, 6)).
+answer('urn:example:recursionCount'(9950, 7)).
+answer('urn:example:recursionCount'(9951, 2)).
+answer('urn:example:recursionCount'(9952, 3)).
+answer('urn:example:recursionCount'(9953, 4)).
+answer('urn:example:recursionCount'(9954, 5)).
+answer('urn:example:recursionCount'(9955, 4)).
+answer('urn:example:recursionCount'(9956, 3)).
+answer('urn:example:recursionCount'(9957, 2)).
+answer('urn:example:recursionCount'(9958, 7)).
+answer('urn:example:recursionCount'(9959, 4)).
+answer('urn:example:recursionCount'(9960, 3)).
+answer('urn:example:recursionCount'(9961, 5)).
+answer('urn:example:recursionCount'(9962, 6)).
+answer('urn:example:recursionCount'(9963, 3)).
+answer('urn:example:recursionCount'(9964, 5)).
+answer('urn:example:recursionCount'(9965, 3)).
+answer('urn:example:recursionCount'(9966, 6)).
+answer('urn:example:recursionCount'(9967, 5)).
+answer('urn:example:recursionCount'(9968, 3)).
+answer('urn:example:recursionCount'(9969, 6)).
+answer('urn:example:recursionCount'(9970, 3)).
+answer('urn:example:recursionCount'(9971, 6)).
+answer('urn:example:recursionCount'(9972, 5)).
+answer('urn:example:recursionCount'(9973, 1)).
+answer('urn:example:recursionCount'(9974, 7)).
+answer('urn:example:recursionCount'(9975, 2)).
+answer('urn:example:recursionCount'(9976, 5)).
+answer('urn:example:recursionCount'(9977, 6)).
+answer('urn:example:recursionCount'(9978, 3)).
+answer('urn:example:recursionCount'(9979, 4)).
+answer('urn:example:recursionCount'(9980, 4)).
+answer('urn:example:recursionCount'(9981, 3)).
+answer('urn:example:recursionCount'(9982, 3)).
+answer('urn:example:recursionCount'(9983, 7)).
+answer('urn:example:recursionCount'(9984, 7)).
+answer('urn:example:recursionCount'(9985, 7)).
+answer('urn:example:recursionCount'(9986, 3)).
+answer('urn:example:recursionCount'(9987, 3)).
+answer('urn:example:recursionCount'(9988, 4)).
+answer('urn:example:recursionCount'(9989, 5)).
+answer('urn:example:recursionCount'(9990, 4)).
+answer('urn:example:recursionCount'(9991, 6)).
+answer('urn:example:recursionCount'(9992, 4)).
+answer('urn:example:recursionCount'(9993, 6)).
+answer('urn:example:recursionCount'(9994, 6)).
+answer('urn:example:recursionCount'(9995, 4)).
+answer('urn:example:recursionCount'(9996, 6)).
+answer('urn:example:recursionCount'(9997, 4)).
+answer('urn:example:recursionCount'(9998, 5)).

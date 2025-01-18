@@ -18,10 +18,11 @@
 :- dynamic(limit/1).
 :- dynamic(step/3).
 
-version_info('eye2 v1.7.3 (2025-01-18)').
+version_info('eye2 v1.7.4 (2025-01-18)').
 
 % main goal
 main :-
+    catch(use_module(library(format)), _, true),
     assertz(closure(0)),
     assertz(limit(-1)),
     assertz(count(fm, 0)),
@@ -67,7 +68,6 @@ main :-
 run :-
     (   (Conc :+ Prem),     % 1/
         copy_term((Conc :+ Prem), Rule),
-        numbervars(Rule, 0, _),
         Prem,               % 2/
         (   Conc = true     % 3/
         ->  (   \+answer(Prem)
@@ -77,9 +77,7 @@ run :-
         ;   (   Conc = false
             ->  write('% inference fuse, return code 2'),
                 nl,
-                writeq(fuse(Prem)),
-                write('.'),
-                nl,
+                portray_clause(fuse(Prem)),
                 halt(2)
             ;   (   Conc \= (_ :+ _),
                     term_variables(Conc, Vs),
@@ -102,18 +100,14 @@ run :-
                 becomes(closure(Closure), closure(NewClosure)),
                 run
             ;   answer(Prem),
-                writeq(answer(Prem)),
-                write('.'),
-                nl,
+                portray_clause(answer(Prem)),
                 fail
             ;   (   step(_, _, _)
                 ->  nl,
                     write('% proof steps'),
                     nl,
                     step(Rule, Prem, Conc),
-                    writeq(step(Rule, Prem, Conc)),
-                    write('.'),
-                    nl,
+                    portray_clause(step(Rule, Prem, Conc)),
                     fail
                 ;   true
                 )
@@ -165,7 +159,6 @@ conj_list((A, B), [A|C]) :-
 fm(A) :-
     write(user_error, '*** '),
     writeq(user_error, A),
-    write('.'),
     nl,
     count(fm, B),
     C is B+1,
@@ -176,7 +169,6 @@ mf(A) :-
         catch(A, _, fail),
         (   write(user_error, '*** '),
             writeq(user_error, A),
-            write('.'),
             nl,
             count(mf, B),
             C is B+1,

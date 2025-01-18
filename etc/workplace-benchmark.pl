@@ -37,9 +37,7 @@
 
 
 % prepare employee data
-true :+
-    'urn:example:prepare'(1, 30000).
+true :+ 'urn:example:prepare'(1, 30000).
 
 % Query to test if everyone complies with deontic logic
-true :+
-    'urn:example:complies'(_, _).
+true :+ 'urn:example:complies'(_, _).

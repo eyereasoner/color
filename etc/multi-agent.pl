@@ -79,18 +79,9 @@
     'urn:example:violation'(Task),
     'urn:example:assigned'(Task, Employee).
 
-% queries
-true :+
-    'urn:example:obligatory'(_Action).
-
-true :+
-    'urn:example:permitted'(_Action).
-
-true :+
-    'urn:example:forbidden'(_Action).
-
-true :+
-    'urn:example:violation'(_Task).
-
-true :+
-    'urn:example:sanction'(_Employee).
+% query
+true :+ 'urn:example:obligatory'(_Action).
+true :+ 'urn:example:permitted'(_Action).
+true :+ 'urn:example:forbidden'(_Action).
+true :+ 'urn:example:violation'(_Task).
+true :+ 'urn:example:sanction'(_Employee).

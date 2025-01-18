@@ -20,7 +20,7 @@
     member(house(_, spanish, dog, _, _), Houses),                               % 3. The Spaniard owns the dog.
     member(house(green, _, _, coffee, _), Houses),                              % 4. Coffee is drunk in the green house.
     member(house(_, ukrainian, _, tea, _), Houses),                             % 5. The Ukrainian drinks tea.
-    nextto(house(ivory, _, _, _, _), house(green, _, _, _, _), Houses),         % 6. The green house is immediately to the right of the ivory house.
+    next_to(house(ivory, _, _, _, _), house(green, _, _, _, _), Houses),        % 6. The green house is immediately to the right of the ivory house.
     member(house(_, _, snail, _, old_gold), Houses),                            % 7. The Old Gold smoker owns snails.
     member(house(yellow, _, _, _, kools), Houses),                              % 8. Kools are smoked in the yellow house.
     nth1(3, Houses, house(_, _, _, milk, _)),                                   % 9. Milk is drunk in the middle house.
@@ -34,13 +34,12 @@
     member(house(_, ZebraOwner, zebra, _, _), Houses).                          % Who (ZebraOwner) owns the zebra?
 
 adjacent(A, B, List) :-
-    nextto(A, B, List);
-    nextto(B, A, List).
+    next_to(A, B, List);
+    next_to(B, A, List).
 
-nextto(X, Y, [X, Y|_]).
-nextto(X, Y, [_|Zs]) :-
-    nextto(X, Y, Zs).
+next_to(X, Y, [X, Y|_]).
+next_to(X, Y, [_|Zs]) :-
+    next_to(X, Y, Zs).
 
 % query
-true :+
-    'urn:example:zebra'(_, _).
+true :+ 'urn:example:zebra'(_, _).

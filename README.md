@@ -20,7 +20,7 @@
 
 ## Installation and test
 
-Install [Trealla Prolog](https://github.com/trealla-prolog/trealla) and test eye2 as follows
+Install [SWI-Prolog](http://www.swi-prolog.org/Download.html) and test eye2 as follows
 
 ```
 git clone https://github.com/eyereasoner/eye2 2>/dev/null; cd eye2; ./test

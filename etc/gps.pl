@@ -39,22 +39,6 @@ stagecount([C, E|_], B) :-
 stagecount([_|D], B) :-
     stagecount(D, B).
 
-% linear implication
-becomes(A, B) :-
-    catch(A, _, fail),
-    conj_list(A, C),
-    forall(member(D, C), retract(D)),
-    conj_list(B, E),
-    forall(member(F, E), assertz(F)).
-
-conj_list(true, []).
-conj_list(A, [A]) :-
-    A \= (_, _),
-    A \= false,
-    !.
-conj_list((A, B), [A|C]) :-
-    conj_list(B, C).
-
 % test data
 :- dynamic('urn:example:description'/2).
 :- dynamic('urn:example:location'/2).

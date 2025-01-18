@@ -26,5 +26,4 @@
     'urn:example:does'(Person, 'urn:example:access_social_media').
 
 % Query to test if everyone complies with deontic logic
-true :+
-    'urn:example:complies'(_, _).
+true :+ 'urn:example:complies'(_, _).

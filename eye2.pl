@@ -5,9 +5,6 @@
 % See https://github.com/eyereasoner/eye2
 %
 
-:- use_module(library(between)).
-:- use_module(library(format)).
-:- use_module(library(iso_ext)).
 :- use_module(library(lists)).
 :- use_module(library(terms)).
 
@@ -16,31 +13,42 @@
 :- dynamic((:+)/2).
 :- dynamic(answer/1).
 :- dynamic(brake/0).
+:- dynamic(closure/1).
+:- dynamic(fmc/1).
+:- dynamic(limit/1).
+:- dynamic(mfc/1).
 :- dynamic(step/3).
 
-version_info('eye2 v1.6.3 (2025-01-18)').
+version_info('eye2 v1.7.0 (2025-01-18)').
 
 % main goal
 main :-
-    bb_put(closure, 0),
-    bb_put(limit, -1),
-    bb_put(fm, 0),
-    bb_put(mf, 0),
+    assertz(closure(0)),
+    assertz(limit(-1)),
+    assertz(fmc(0)),
+    assertz(mfc(0)),
     (   (_ :+ _)
-    ->  format(":- op(1200, xfx, :+).~n~n", [])
+    ->  write(':- op(1200, xfx, :+).'),
+        nl,
+        nl
     ;   version_info(Version),
-        format("~w~n", [Version])
+        write(Version),
+        nl
     ),
     run,
-    bb_get(fm, Fm),
+    fmc(Fm),
     (   Fm = 0
     ->  true
-    ;   format(user_error, "*** fm=~w~n", [Fm])
+    ;   write(user_error, '*** fm='),
+        write(user_error, Fm),
+        nl
     ),
-    bb_get(mf, Mf),
+    mfc(Mf),
     (   Mf = 0
     ->  true
-    ;   format(user_error, "*** mf=~w~n", [Mf])
+    ;   write(user_error, '*** mf='),
+        write(user_error, Mf),
+        nl
     ),
     halt(0).
 
@@ -59,7 +67,8 @@ main :-
 %
 run :-
     (   (Conc :+ Prem),     % 1/
-        copy_term((Conc :+ Prem), Rule, _),
+        copy_term((Conc :+ Prem), Rule),
+        numbervars(Rule, 0, _),
         Prem,               % 2/
         (   Conc = true     % 3/
         ->  (   \+answer(Prem)
@@ -67,8 +76,11 @@ run :-
             ;   true
             )
         ;   (   Conc = false
-            ->  format("% inference fuse, return code 2~n", []),
-                portray_clause(fuse(Prem)),
+            ->  write('% inference fuse, return code 2'),
+                nl,
+                writeq(fuse(Prem)),
+                write('.'),
+                nl,
                 halt(2)
             ;   (   term_variables(Conc, [])
                 ->  Concl = Conc
@@ -82,19 +94,25 @@ run :-
         ),
         fail                % 4/
     ;   (   brake           % 5/
-        ->  (   bb_get(closure, Closure),
-                bb_get(limit, Limit),
+        ->  (   closure(Closure),
+                limit(Limit),
                 Closure < Limit,
                 NewClosure is Closure+1,
-                bb_put(closure, NewClosure),
+                becomes(closure(Closure), closure(NewClosure)),
                 run
             ;   answer(Prem),
-                portray_clause(answer(Prem)),
+                writeq(answer(Prem)),
+                write('.'),
+                nl,
                 fail
             ;   (   step(_, _, _)
-                ->  format("~n% proof steps~n", []),
+                ->  nl,
+                    write('% proof steps'),
+                    nl,
                     step(Rule, Prem, Conc),
-                    portray_clause(step(Rule, Prem, Conc)),
+                    writeq(step(Rule, Prem, Conc)),
+                    write('.'),
+                    nl,
                     fail
                 ;   true
                 )
@@ -118,29 +136,47 @@ astep(A) :-
 % stable(+Level)
 %   fail if the deductive closure at Level is not yet stable
 stable(Level) :-
-    bb_get(limit, Limit),
+    limit(Limit),
     (   Limit < Level
-    ->  bb_put(limit, Level)
+    ->  becomes(limit(Limit), limit(Level))
     ;   true
     ),
-    bb_get(closure, Closure),
+    closure(Closure),
     Level =< Closure.
+
+% linear implication
+becomes(A, B) :-
+    catch(A, _, fail),
+    conj_list(A, C),
+    forall(member(D, C), retract(D)),
+    conj_list(B, E),
+    forall(member(F, E), assertz(F)).
+
+conj_list(true, []).
+conj_list(A, [A]) :-
+    A \= (_, _),
+    A \= false,
+    !.
+conj_list((A, B), [A|C]) :-
+    conj_list(B, C).
 
 % debugging tools
 fm(A) :-
     write(user_error, '*** '),
-    portray_clause(user_error, A),
-    bb_get(fm, B),
+    writeq(user_error, A),
+    nl,
+    fmc(B),
     C is B+1,
-    bb_put(fm, C).
+    becomes(fmc(B), fmc(C)).
 
 mf(A) :-
     forall(
         catch(A, _, fail),
         (   write(user_error, '*** '),
-            portray_clause(user_error, A),
-            bb_get(mf, B),
+            writeq(user_error, A),
+            nl,
+            mfc(B),
             C is B+1,
-            bb_put(mf, C)
+            becomes(mfc(B), mfc(C))
         )
     ).

@@ -21,5 +21,4 @@
     'urn:example:path'(B, C).
 
 % query
-true :+
-    'urn:example:path'(_, 'urn:example:nantes').
+true :+ 'urn:example:path'(_, 'urn:example:nantes').

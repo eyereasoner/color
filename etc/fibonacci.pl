@@ -18,16 +18,15 @@ fibonacci(A, B, C, D) :-
     B is E/C.
 
 % query
-true :+
-    'urn:example:fibonacci'(1, _),
-    'urn:example:fibonacci'(2, _),
-    'urn:example:fibonacci'(3, _),
-    'urn:example:fibonacci'(4, _),
-    'urn:example:fibonacci'(5, _),
-    'urn:example:fibonacci'(91, _),
-    'urn:example:fibonacci'(283, _),
-    'urn:example:fibonacci'(3674, _),
-    'urn:example:golden_ratio'(1, _),
-    'urn:example:golden_ratio'(10, _),
-    'urn:example:golden_ratio'(100, _),
-    'urn:example:golden_ratio'(1000, _).
+true :+ 'urn:example:fibonacci'(1, _).
+true :+ 'urn:example:fibonacci'(2, _).
+true :+ 'urn:example:fibonacci'(3, _).
+true :+ 'urn:example:fibonacci'(4, _).
+true :+ 'urn:example:fibonacci'(5, _).
+true :+ 'urn:example:fibonacci'(91, _).
+true :+ 'urn:example:fibonacci'(283, _).
+true :+ 'urn:example:fibonacci'(3674, _).
+true :+ 'urn:example:golden_ratio'(1, _).
+true :+ 'urn:example:golden_ratio'(10, _).
+true :+ 'urn:example:golden_ratio'(100, _).
+true :+ 'urn:example:golden_ratio'(1000, _).

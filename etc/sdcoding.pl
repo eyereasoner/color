@@ -101,5 +101,4 @@ bob([X, Y], 3) :-
     'urn:example:sdc'(N, M).
 
 % query
-true :+
-    'urn:example:sdcoding'(_, _).
+true :+ 'urn:example:sdcoding'(_, _).

@@ -14,19 +14,18 @@
 :- dynamic(answer/1).
 :- dynamic(brake/0).
 :- dynamic(closure/1).
-:- dynamic(fmc/1).
+:- dynamic(count/2).
 :- dynamic(limit/1).
-:- dynamic(mfc/1).
 :- dynamic(step/3).
 
-version_info('eye2 v1.7.1 (2025-01-18)').
+version_info('eye2 v1.7.3 (2025-01-18)').
 
 % main goal
 main :-
     assertz(closure(0)),
     assertz(limit(-1)),
-    assertz(fmc(0)),
-    assertz(mfc(0)),
+    assertz(count(fm, 0)),
+    assertz(count(mf, 0)),
     (   (_ :+ _)
     ->  write(':- op(1200, xfx, :+).'),
         nl,
@@ -36,14 +35,14 @@ main :-
         nl
     ),
     run,
-    fmc(Fm),
+    count(fm, Fm),
     (   Fm = 0
     ->  true
     ;   write(user_error, '*** fm='),
         write(user_error, Fm),
         nl
     ),
-    mfc(Mf),
+    count(mf, Mf),
     (   Mf = 0
     ->  true
     ;   write(user_error, '*** mf='),
@@ -166,19 +165,21 @@ conj_list((A, B), [A|C]) :-
 fm(A) :-
     write(user_error, '*** '),
     writeq(user_error, A),
+    write('.'),
     nl,
-    fmc(B),
+    count(fm, B),
     C is B+1,
-    becomes(fmc(B), fmc(C)).
+    becomes(count(fm, B), count(fm, C)).
 
 mf(A) :-
     forall(
         catch(A, _, fail),
         (   write(user_error, '*** '),
             writeq(user_error, A),
+            write('.'),
             nl,
-            mfc(B),
+            count(mf, B),
             C is B+1,
-            becomes(mfc(B), mfc(C))
+            becomes(count(mf, B), count(mf, C))
         )
     ).

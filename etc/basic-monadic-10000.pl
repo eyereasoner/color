@@ -10019,3 +10019,4 @@
 
 % query
 true :+ 'urn:example:cycle'(_, _).
+true :+ \+'urn:example:cycle'(_, _).

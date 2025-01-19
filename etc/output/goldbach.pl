@@ -39,6 +39,7 @@ answer('urn:example:goldbach'(137438953472, [31, 137438953441])).
 answer('urn:example:goldbach'(274877906944, [107, 274877906837])).
 answer('urn:example:goldbach'(549755813888, [7, 549755813881])).
 answer('urn:example:goldbach'(1099511627776, [167, 1099511627609])).
+answer('urn:example:goldbach'(2199023255552, [31, 2199023255521])).
 
 % proof steps
 step((true:+'urn:example:goldbach'(4, [_, _])), 'urn:example:goldbach'(4, [2, 2]), true).
@@ -80,3 +81,4 @@ step((true:+'urn:example:goldbach'(137438953472, [_, _])), 'urn:example:goldbach
 step((true:+'urn:example:goldbach'(274877906944, [_, _])), 'urn:example:goldbach'(274877906944, [107, 274877906837]), true).
 step((true:+'urn:example:goldbach'(549755813888, [_, _])), 'urn:example:goldbach'(549755813888, [7, 549755813881]), true).
 step((true:+'urn:example:goldbach'(1099511627776, [_, _])), 'urn:example:goldbach'(1099511627776, [167, 1099511627609]), true).
+step((true:+'urn:example:goldbach'(2199023255552, [_, _])), 'urn:example:goldbach'(2199023255552, [31, 2199023255521]), true).

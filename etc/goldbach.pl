@@ -42,5 +42,5 @@
 
 % query
 (true :+ 'urn:example:goldbach'(N, [_, _])) :-
-    between(2, 40, I),
+    between(2, 41, I),
     N is 2^I.

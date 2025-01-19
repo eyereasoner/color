@@ -1,5 +1,5 @@
 % Kaprekar's constant
-% See https://en.wikipedia.org/wiki/6174% 
+% See https://en.wikipedia.org/wiki/6174
 
 % recursive case till 6174 is reached
 'urn:example:kaprekar'(A, B, C) :-

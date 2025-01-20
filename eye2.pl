@@ -18,7 +18,7 @@
 :- dynamic(limit/1).
 :- dynamic(step/3).
 
-version_info('eye2 v1.7.7 (2025-01-19)').
+version_info('eye2 v1.7.8 (2025-01-20)').
 
 % main goal
 main :-
@@ -85,7 +85,7 @@ run :-
                 portray_clause(fuse(Prem)),
                 halt(2)
             ;   (   Conc \= (_ :+ _)
-                ->  numbervars(Conc, 0, _)
+                ->  numbervars(Conc, 0, _, [functor_name(skolem)])
                 ;   true
                 ),
                 \+Conc,

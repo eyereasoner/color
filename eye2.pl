@@ -18,7 +18,7 @@
 :- dynamic(limit/1).
 :- dynamic(step/3).
 
-version_info('eye2 v1.7.9 (2025-01-20)').
+version_info('eye2 v1.7.10 (2025-01-20)').
 
 % main goal
 main :-
@@ -176,11 +176,23 @@ dynify(A) :-
     length(C, N),
     (   (   current_predicate(B/N)
         ;   B = /
+        ;   B = ','
         )
     ->  true
-    ;   dynamic(B/N)
+    ;   make_dynamic(B/N)
     ),
     dynify(C).
+
+% from https://github.com/trealla-prolog/trealla/discussions/626#discussioncomment-11895666
+make_dynamic(PI) :-
+    skel(PI, Skel),
+    assertz(Skel),
+    retract(Skel).
+
+skel(F/N, Skel) :-
+    length(L, N),
+    append([F], L, L2),
+    Skel =.. L2.
 
 % debugging tools
 fm(A) :-

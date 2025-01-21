@@ -18,7 +18,7 @@
 :- dynamic(limit/1).
 :- dynamic(step/3).
 
-version_info('eye2 v1.7.13 (2025-01-21)').
+version_info('eye2 v1.7.14 (2025-01-21)').
 
 % main goal
 main :-
@@ -35,23 +35,35 @@ main :-
         write(Version),
         nl
     ),
-    \+ ((Conc :+ Prem), \+dynify((Conc :+ Prem))),
-    run,
+    \+ ((Conc :+ Prem), \+ dynify((Conc :+ Prem))),
+    catch(run, E,
+        (   (   E = halt(Exit)
+            ->  true
+            ;   write(user_error, E),
+                write(user_error, '\n'),
+                Exit = 1
+            )
+        )
+    ),
     count(fm, Fm),
     (   Fm = 0
     ->  true
     ;   write(user_error, '*** fm='),
         write(user_error, Fm),
-        nl
+        write(user_error, '\n')
     ),
     count(mf, Mf),
     (   Mf = 0
     ->  true
     ;   write(user_error, '*** mf='),
         write(user_error, Mf),
-        nl
+        write(user_error, '\n')
     ),
-    halt(0).
+    (   Exit = 0
+    ->  true
+    ;   true
+    ),
+    halt(Exit).
 
 % run eye2 abstract machine
 %
@@ -80,12 +92,12 @@ run :-
             ->  write('% inference fuse, return code 2'),
                 nl,
                 portray_clause(fuse(Prem)),
-                halt(2)
+                throw(halt(2))
             ;   (   Conc \= (_ :+ _)
                 ->  skolemize(Conc, 0, _)
                 ;   true
                 ),
-                \+Conc,
+                \+ Conc,
                 astep(Conc),
                 assertz(step(Rule, Prem, Conc)),
                 retract(brake)
@@ -123,7 +135,7 @@ astep((B, C)) :-
     astep(B),
     astep(C).
 astep(A) :-
-    (   \+A
+    (   \+ A
     ->  assertz(A)
     ;   true
     ).
@@ -157,9 +169,9 @@ stable(Level) :-
 becomes(A, B) :-
     catch(A, _, fail),
     conj_list(A, C),
-    \+ (member(D, C), \+retract(D)),
+    \+ (member(D, C), \+ retract(D)),
     conj_list(B, E),
-    \+ (member(F, E), \+assertz(F)).
+    \+ (member(F, E), \+ assertz(F)).
 
 conj_list(true, []).
 conj_list(A, [A]) :-
@@ -186,9 +198,10 @@ dynify(A) :-
     A =.. [B|C],
     length(C, N),
     (   (   current_predicate(B/N)
-        ;   B = /
-        ;   B = ','
-        ;   B = \+
+        ;   B = (/)
+        ;   B = (=)
+        ;   B = (',')
+        ;   B = (\+)
         )
     ->  true
     ;   % make dynamic thanks to https://github.com/pmoura
@@ -198,11 +211,22 @@ dynify(A) :-
     ),
     dynify(C).
 
+% within(+Low, +High, ?Value)
+%   Value is bound to all integers between Low and High
+within(Low, Low, Low) :-
+    !.
+within(Low, High, Low) :-
+    Low < High.
+within(Low, High, Value) :-
+    Low < High,
+    NextLow is Low + 1,
+    within(NextLow, High, Value).
+
 % debugging tools
 fm(A) :-
     write(user_error, '*** '),
     writeq(user_error, A),
-    nl,
+    write(user_error, '\n'),
     count(fm, B),
     C is B+1,
     becomes(count(fm, B), count(fm, C)).
@@ -211,7 +235,7 @@ mf(A) :-
     \+ (catch(A, _, fail),
         \+ (write(user_error, '*** '),
             writeq(user_error, A),
-            nl,
+            write(user_error, '\n'),
             count(mf, B),
             C is B+1,
             becomes(count(mf, B), count(mf, C))

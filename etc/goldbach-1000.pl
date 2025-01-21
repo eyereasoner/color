@@ -42,4 +42,4 @@
 
 % query
 (true :+ 'urn:example:goldbach'(N, [_, _])) :-
-    between(1000, 10000, N).
+    within(1000, 10000, N).

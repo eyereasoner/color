@@ -1,7 +1,7 @@
 % See https://en.wikipedia.org/wiki/Prime_number
 
 'urn:example:primerange'(A, B, L) :-
-    findall(I, (between(A, B, I), prime(I)), L).
+    findall(I, (within(A, B, I), prime(I)), L).
 
 prime(2).
 prime(3).

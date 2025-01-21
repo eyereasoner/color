@@ -12,4 +12,4 @@
 
 % query
 (true :+ 'urn:example:easter'(Year, [_, _])) :-
-    between(2021, 2050, Year).
+    within(2021, 2050, Year).

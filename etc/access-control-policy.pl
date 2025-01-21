@@ -13,9 +13,9 @@
 'urn:example:pass'(A, 'urn:example:allOfTest') :-
     'urn:example:policy'(B, A),
     'urn:example:Policy'(A),
-    forall(
+    \+ (
         'urn:example:allOf'(A, C),
-        'urn:example:has'(B, C)
+        \+ 'urn:example:has'(B, C)
     ).
 
 'urn:example:pass'(A, 'urn:example:anyOfTest') :-

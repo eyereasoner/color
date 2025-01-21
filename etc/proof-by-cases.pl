@@ -26,9 +26,8 @@
 % proof by cases
 'urn:example:is'(A, 'urn:example:observable') :+
     'urn:example:allPossibleCases'([A], B),
-    forall(
-        member('urn:example:is'(A, C), B),
-        ('urn:example:is'(A, 'urn:example:observable') :+ 'urn:example:is'(A, C))
+    \+ (member('urn:example:is'(A, C), B),
+        \+ ('urn:example:is'(A, 'urn:example:observable') :+ 'urn:example:is'(A, C))
     ).
 
 % query

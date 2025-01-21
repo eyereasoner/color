@@ -54,7 +54,8 @@ zip([H1|T1], [H2|T2], [(H1, H2)|T]) :-
 
 from_to(M, N, L) :-
     (   var(L)
-    ;   is_list(L)
+    ;   L = []
+    ;   L = [_|_]
     ),
     integer(M),
     integer(N),

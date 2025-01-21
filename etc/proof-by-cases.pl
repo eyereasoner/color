@@ -28,7 +28,7 @@
     'urn:example:allPossibleCases'([A], B),
     forall(
         member('urn:example:is'(A, C), B),
-        'urn:example:is'(A, 'urn:example:observable') :+ 'urn:example:is'(A, C)
+        ('urn:example:is'(A, 'urn:example:observable') :+ 'urn:example:is'(A, C))
     ).
 
 % query

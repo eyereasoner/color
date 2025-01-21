@@ -7,7 +7,7 @@ answer('urn:example:violation'('urn:example:task1')).
 answer('urn:example:sanction'('urn:example:agent2')).
 
 % proof steps
-step(('urn:example:completed'(_):+true), true, 'urn:example:completed'(skolem(0))).
+step(('urn:example:completed'(_):+true), true, 'urn:example:completed'(sk_0)).
 step((true:+'urn:example:obligatory'(_)), 'urn:example:obligatory'('urn:example:complete:task'('urn:example:agent2', 'urn:example:task1')), true).
 step((true:+'urn:example:obligatory'(_)), 'urn:example:obligatory'('urn:example:escalate:task'('urn:example:agent1', 'urn:example:task1')), true).
 step((true:+'urn:example:permitted'(_)), 'urn:example:permitted'('urn:example:execute:task'('urn:example:agent2', 'urn:example:task1')), true).

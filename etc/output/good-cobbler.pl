@@ -3,5 +3,5 @@
 answer(('urn:example:is'(_, 'urn:example:good'('urn:example:Cobbler')):+true)).
 
 % proof steps
-step(('urn:example:is'(_, 'urn:example:good'('urn:example:Cobbler')):+true), true, 'urn:example:is'(skolem(0), 'urn:example:good'('urn:example:Cobbler'))).
+step(('urn:example:is'(_, 'urn:example:good'('urn:example:Cobbler')):+true), true, 'urn:example:is'(sk_0, 'urn:example:good'('urn:example:Cobbler'))).
 step((true:+('urn:example:is'(_, 'urn:example:good'(_)):+true)), ('urn:example:is'(_, 'urn:example:good'('urn:example:Cobbler')):+true), true).

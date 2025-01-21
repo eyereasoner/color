@@ -18,7 +18,7 @@
 :- dynamic(limit/1).
 :- dynamic(step/3).
 
-version_info('eye2 v1.7.11 (2025-01-21)').
+version_info('eye2 v1.7.12 (2025-01-21)').
 
 % main goal
 main :-
@@ -35,10 +35,7 @@ main :-
         write(Version),
         nl
     ),
-    forall(
-        (Conc :+ Prem),
-        dynify((Conc :+ Prem))
-    ),
+    \+ ((Conc :+ Prem), \+dynify((Conc :+ Prem))),
     run,
     count(fm, Fm),
     (   Fm = 0
@@ -85,7 +82,7 @@ run :-
                 portray_clause(fuse(Prem)),
                 halt(2)
             ;   (   Conc \= (_ :+ _)
-                ->  numbervars(Conc, 0, _, [functor_name(skolem)])
+                ->  skolemize(Conc, 0, _)
                 ;   true
                 ),
                 \+Conc,
@@ -131,6 +128,18 @@ astep(A) :-
     ;   true
     ).
 
+% skolemize
+skolemize(Term, N0, N) :-
+    term_variables(Term, Vars),
+    skolemize_(Vars, N0, N).
+
+skolemize_([], N, N) :-
+    !.
+skolemize_([Sk|Vars], N0, N) :-
+    atom_concat('sk_', N0, Sk),
+    N1 is N0+1,
+    skolemize_(Vars, N1, N).
+
 % stable(+Level)
 %   fail if the deductive closure at Level is not yet stable
 stable(Level) :-
@@ -146,9 +155,9 @@ stable(Level) :-
 becomes(A, B) :-
     catch(A, _, fail),
     conj_list(A, C),
-    forall(member(D, C), retract(D)),
+    \+ (member(D, C), \+retract(D)),
     conj_list(B, E),
-    forall(member(F, E), assertz(F)).
+    \+ (member(F, E), \+assertz(F)).
 
 conj_list(true, []).
 conj_list(A, [A]) :-
@@ -197,9 +206,8 @@ fm(A) :-
     becomes(count(fm, B), count(fm, C)).
 
 mf(A) :-
-    forall(
-        catch(A, _, fail),
-        (   write(user_error, '*** '),
+    \+ (catch(A, _, fail),
+        \+ (write(user_error, '*** '),
             writeq(user_error, A),
             nl,
             count(mf, B),

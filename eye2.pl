@@ -18,7 +18,7 @@
 :- dynamic(limit/1).
 :- dynamic(step/3).
 
-version_info('eye2 v1.7.12 (2025-01-21)').
+version_info('eye2 v1.7.13 (2025-01-21)').
 
 % main goal
 main :-
@@ -136,7 +136,9 @@ skolemize(Term, N0, N) :-
 skolemize_([], N, N) :-
     !.
 skolemize_([Sk|Vars], N0, N) :-
-    atom_concat('sk_', N0, Sk),
+    number_chars(N0, C0),
+    atom_chars(A0, C0),
+    atom_concat('sk_', A0, Sk),
     N1 is N0+1,
     skolemize_(Vars, N1, N).
 

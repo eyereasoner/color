@@ -28,7 +28,7 @@ do
     start=$(($(date +%s%N)/1000000))
     ../eyelog-swipl "${file}" > output-swipl/${file}
     end=$(($(date +%s%N)/1000000))
-    echo -en "${YELLOW}$(pad "`expr $end - $start` msec" 10)${NORMAL} "
+    echo -en "${YELLOW}$(pad "`expr $end - $start` msec" 12)${NORMAL} "
     if [[ $(git diff output-swipl/${file} | wc -l) -eq 0 ]]; then
         echo -e "${GREEN}OK${NORMAL}"
         ((OK++))

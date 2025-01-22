@@ -18,11 +18,12 @@
 :- dynamic(limit/1).
 :- dynamic(step/3).
 
-version_info('eye2 v1.7.14 (2025-01-21)').
+version_info('eye2 v1.7.15 (2025-01-22)').
 
 % main goal
 main :-
     catch(use_module(library(format)), _, true),
+    set_prolog_flag(double_quotes, chars),
     assertz(closure(0)),
     assertz(limit(-1)),
     assertz(count(fm, 0)),

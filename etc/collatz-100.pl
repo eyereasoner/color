@@ -15,4 +15,4 @@ collatz(N0, N, [N0|J]) :-
 
 % query
 (true :+ 'urn:example:collatz'(N, _)) :-
-    within(1, 100, N).
+    within(50, 100, N).

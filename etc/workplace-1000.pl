@@ -2,7 +2,8 @@
 
 % Facts about what employees are doing
 'urn:example:prepare'(X, Y) :-
-    within(X, Y, N),
+    Z is Y//3,
+    within(X, Z, N),
     number_codes(N, J),
     atom_codes(I, J),
     atom_concat('urn:example:alice', I, A),

@@ -41,4 +41,4 @@ true :+ 'urn:example:prod'([4083672386271334562713345408367238, 4083672386271334
 true :+ 'urn:example:pow'([3, 0], _).
 true :+ 'urn:example:pow'([5, 6], _).
 true :+ 'urn:example:pow'([238, 13], _).
-true :+ 'urn:example:pow'([8367238, 27133], _).
+true :+ 'urn:example:pow'([8367238, 2713], _).

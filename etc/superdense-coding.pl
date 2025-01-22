@@ -83,6 +83,8 @@ bob([X, Y], 2) :-
 bob([X, Y], 3) :-
     id(X, Y).
 
+:- dynamic('urn:example:sdcoding'/2).
+
 % superdense coding
 'urn:example:sdc'(N, M) :-
     r(X, Y),

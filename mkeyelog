@@ -61,7 +61,7 @@ mv eyelog.pl.tmp eyelog.pl
 
 # run the etc tests
 pushd etc > /dev/null
-./test
+./test-swipl
 git diff
 popd > /dev/null
 

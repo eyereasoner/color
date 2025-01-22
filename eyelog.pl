@@ -18,10 +18,11 @@
 :- dynamic(limit/1).
 :- dynamic(step/3).
 
-version_info('eyelog v1.7.16 (2025-01-22)').
+version_info('eyelog v1.7.17 (2025-01-22)').
 
 % main goal
 main :-
+    catch(use_module(library(iso_ext)), _, true),
     catch(use_module(library(format)), _, true),
     set_prolog_flag(double_quotes, chars),
     assertz(closure(0)),

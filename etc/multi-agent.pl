@@ -1,6 +1,8 @@
 % multi-agent example
 % obligations, permissions, and prohibitions depend on the roles, goals and interactions between agents
 
+:- dynamic('urn:example:completed'/1).
+
 % define agents
 'urn:example:agent'('urn:example:agent1').
 'urn:example:agent'('urn:example:agent2').
@@ -76,9 +78,6 @@
 'urn:example:sanction'(Employee) :-
     'urn:example:violation'(Task),
     'urn:example:assigned'(Task, Employee).
-
-% task completion
-'urn:example:completed'(_) :+ true.
 
 % query
 true :+ 'urn:example:obligatory'(_Action).

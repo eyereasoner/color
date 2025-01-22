@@ -1,0 +1,4 @@
+#!/bin/bash
+export EYELOG=$(dirname "$(readlink -f "$0")")/eyelog.pl
+
+scryer-prolog -g main ${EYELOG} "$@"

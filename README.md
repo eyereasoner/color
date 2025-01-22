@@ -20,10 +20,17 @@
 
 ## Installation and test
 
-Install [SWI-Prolog](http://www.swi-prolog.org/Download.html) and test eyelog as follows
+- Install [SWI-Prolog](http://www.swi-prolog.org/Download.html)
+  or [Trealla Prolog](https://github.com/trealla-prolog/trealla#building)
+  or [Scryer Prolog](https://github.com/mthom/scryer-prolog#installing-scryer-prolog)
 
+- Install eyelog and run the tests
 ```
-git clone https://github.com/eyereasoner/eyelog 2>/dev/null; cd eyelog; ./test
+git clone https://github.com/eyereasoner/eyelog
+cd eyelog/etc
+./test-swipl
+./test-tpl
+./test-scryer-prolog
 ```
 
 ## Background

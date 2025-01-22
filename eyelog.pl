@@ -1,8 +1,8 @@
-% ------------------
-% eye2 -- Jos De Roo
-% ------------------
+% --------------------
+% eyelog -- Jos De Roo
+% --------------------
 %
-% See https://github.com/eyereasoner/eye2
+% See https://github.com/eyereasoner/eyelog
 %
 
 :- use_module(library(lists)).
@@ -18,7 +18,7 @@
 :- dynamic(limit/1).
 :- dynamic(step/3).
 
-version_info('eye2 v1.7.15 (2025-01-22)').
+version_info('eyelog v1.7.16 (2025-01-22)').
 
 % main goal
 main :-
@@ -66,7 +66,7 @@ main :-
     ),
     halt(Exit).
 
-% run eye2 abstract machine
+% run eyelog abstract machine
 %
 % 1/ select rule Conc :+ Prem
 % 2/ prove Prem and if it fails backtrack to 1/

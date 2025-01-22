@@ -1,4 +1,4 @@
-# eye2
+# eyelog
 
 - A reasoner using webized prolog which basically means that atoms can be IRIs.
 - Besides top-down reasoning with `conclusion :- premise` rules, it also does bottom-up reasoning with `conclusion :+ premise` rules.
@@ -20,10 +20,10 @@
 
 ## Installation and test
 
-Install [SWI-Prolog](http://www.swi-prolog.org/Download.html) and test eye2 as follows
+Install [SWI-Prolog](http://www.swi-prolog.org/Download.html) and test eyelog as follows
 
 ```
-git clone https://github.com/eyereasoner/eye2 2>/dev/null; cd eye2; ./test
+git clone https://github.com/eyereasoner/eyelog 2>/dev/null; cd eyelog; ./test
 ```
 
 ## Background

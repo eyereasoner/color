@@ -8,10 +8,10 @@ NORMAL="\e[0;39m"
 OK=0
 FAILED=0
 
-echo -e "${YELLOW}------------------------------------${NORMAL}"
-echo -e "${YELLOW}running eye2 examples and test cases${NORMAL}"
-echo -e "${YELLOW}using eye2 $(../eye2 2>&1 | grep eye2 | awk '{ print $2 }') and swipl v$(swipl --version 2>&1 | awk '{ print $3 }')${NORMAL}"
-echo -e "${YELLOW}------------------------------------${NORMAL}"
+echo -e "${YELLOW}--------------------------------------${NORMAL}"
+echo -e "${YELLOW}running eyelog examples and test cases${NORMAL}"
+echo -e "${YELLOW}using eyelog $(../eyelog 2>&1 | grep eyelog | awk '{ print $2 }') and swipl v$(swipl --version 2>&1 | awk '{ print $3 }')${NORMAL}"
+echo -e "${YELLOW}--------------------------------------${NORMAL}"
 echo ""
 
 pad () {
@@ -23,10 +23,10 @@ pad () {
 begin=$(($(date +%s)))
 for file in *.pl
 do
-    [[ "${file}" != eye2.pl ]] || continue
+    [[ "${file}" != eyelog.pl ]] || continue
     echo -en "$(pad "${file}" -26)"
     start=$(($(date +%s%N)/1000000))
-    ../eye2 "${file}" > output/${file}
+    ../eyelog "${file}" > output/${file}
     end=$(($(date +%s%N)/1000000))
     echo -en "${YELLOW}$(pad "`expr $end - $start` msec" 10)${NORMAL} "
     if [[ $(git diff output/${file} | wc -l) -eq 0 ]]; then

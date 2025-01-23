@@ -16,7 +16,7 @@
 - conclusion can not be any other built-in
 - conclusion-only variables are existentials
 - proving the bottom-up reasoning with `step/3` proof steps
-- avoiding loops that could occur with backward chaining
+- avoiding loops that could occur with top-down reasoning
 
 ## Installation and test
 

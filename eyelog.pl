@@ -18,7 +18,7 @@
 :- dynamic(limit/1).
 :- dynamic(step/3).
 
-version_info('eyelog v1.7.17 (2025-01-22)').
+version_info('eyelog v1.7.18 (2025-01-23)').
 
 % main goal
 main :-

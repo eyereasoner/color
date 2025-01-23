@@ -18,7 +18,7 @@
 :- dynamic(limit/1).
 :- dynamic(step/3).
 
-version_info('eyelog v1.7.18 (2025-01-23)').
+version_info('eyelog v1.7.19 (2025-01-23)').
 
 % main goal
 main :-
@@ -82,7 +82,7 @@ main :-
 %
 run :-
     (   (Conc :+ Prem),     % 1/
-        copy_term((Conc :+ Prem), Rule),
+        copy_term((Conc :+ Prem), Rule, _),
         Prem,               % 2/
         (   Conc = true     % 3/
         ->  (   \+answer(Prem)

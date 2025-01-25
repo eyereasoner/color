@@ -35,4 +35,4 @@
 
 % query
 (true :+ 'urn:example:recursionCount'(I, _)) :-
-    within(0, 9999, I).
+    between(0, 9999, I).

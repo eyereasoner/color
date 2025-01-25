@@ -15,7 +15,7 @@ find(State, Left, Cell, Right, OutTape) :-
     continue(Next, A, B, C, OutTape).
 
 continue(halt, Left, Cell, Right, OutTape) :-
-    rev(Left, R),
+    rever(Left, R),
     append(R, [Cell|Right], OutTape).
 continue(State, Left, Cell, Right, OutTape) :-
     find(State, Left, Cell, Right, OutTape).
@@ -26,9 +26,9 @@ move(s, Left, Cell, Right, Left, Cell, Right).
 move(r, Left, Cell, [], [Cell|Left], #, [] ).
 move(r, Left, Cell, [Head|Tail], [Cell|Left], Head, Tail).
 
-rev([], []).
-rev([A|B], C) :-
-    rev(B, D),
+rever([], []).
+rever([A|B], C) :-
+    rever(B, D),
     append(D, [A], C).
 
 % a Turing machine to add 1 to a binary number

@@ -24,6 +24,7 @@ version_info('eyelog v1.7.19 (2025-01-23)').
 main :-
     catch(use_module(library(iso_ext)), _, true),
     catch(use_module(library(format)), _, true),
+    catch(use_module(library(between)), _, true),
     set_prolog_flag(double_quotes, chars),
     assertz(closure(0)),
     assertz(limit(-1)),
@@ -212,17 +213,6 @@ dynify(A) :-
         retractall(T)
     ),
     dynify(C).
-
-% within(+Low, +High, ?Value)
-%   Value is bound to all integers between Low and High
-within(Low, Low, Low) :-
-    !.
-within(Low, High, Low) :-
-    Low < High.
-within(Low, High, Value) :-
-    Low < High,
-    NextLow is Low + 1,
-    within(NextLow, High, Value).
 
 % debugging tools
 fm(A) :-

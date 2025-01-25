@@ -57,7 +57,7 @@
     'urn:example:difference'([[0, 1], A], C),
     'urn:example:sum'([[0, 1], A], D),
     'urn:example:quotient'([C, D], E),
-    'urn:example:log'([[0+e, 0], E], F),
+    'urn:example:log'([[2.718281828459045, 0], E], F),
     'urn:example:quotient'([F, [0, 2]], B).
 
 polar([A, B], [C, D]) :-
@@ -85,8 +85,8 @@ angular(A, B, C, D) :-
 % query
 true :+ 'urn:example:quotient'([[1, 0], [0, 1]], _).
 true :+ 'urn:example:exponentiation'([[-1, 0], [0.5, 0]], _).
-true :+ 'urn:example:exponentiation'([[0+e, 0], [0, pi]], _).
-true :+ 'urn:example:log'([[0+e, 0], [-1, 0]], _).
+true :+ 'urn:example:exponentiation'([[2.718281828459045, 0], [0, pi]], _).
+true :+ 'urn:example:log'([[2.718281828459045, 0], [-1, 0]], _).
 true :+ 'urn:example:log'([[0, 1], [0, 1]], _).
 true :+ 'urn:example:sin'([1.570796326794897, 1.316957896924817], _).
 true :+ 'urn:example:cos'([0, -1.316957896924817], _).

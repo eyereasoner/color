@@ -1,7 +1,8 @@
 # running eyelog v1.7.19 examples and test cases
+| :---         |     :---:      |          ---: |
 
 |etc                       |scryer v0.9.4   |sicstus v4.9.0  |swipl v9.3.19   |trealla v2.63.33|
-|--------------------------|----------------|----------------|----------------|----------------|
+| :---                     |           ---: |           ---: |           ---: |           ---: |
 |access-control-policy.pl  |     117 msec OK|     387 msec OK|      94 msec OK|      72 msec OK|
 |ackermann.pl              |     724 msec OK|     674 msec OK|     361 msec OK|    1184 msec OK|
 |age.pl                    |     137 msec OK|     354 msec OK|      81 msec OK|      65 msec OK|
@@ -55,4 +56,4 @@
 |workplace.pl              |    4350 msec OK|     889 msec OK|     275 msec OK|     369 msec OK|
 |zebra.pl                  |     146 msec OK|     383 msec OK|      93 msec OK|      91 msec OK|
 |                          |                |                |                |                |
-|                          |   841 sec 52 OK|   411 sec 52 OK|    15 sec 52 OK|    40 sec 52 OK|
+|TOTAL                     |   841 sec 52 OK|   411 sec 52 OK|    15 sec 52 OK|    40 sec 52 OK|

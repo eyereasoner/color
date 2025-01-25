@@ -1,5 +1,4 @@
 # running eyelog v1.7.19 examples and test cases
-| :---         |     :---:      |          ---: |
 
 |etc                       |scryer v0.9.4   |sicstus v4.9.0  |swipl v9.3.19   |trealla v2.63.33|
 | :---                     |           ---: |           ---: |           ---: |           ---: |

@@ -1,0 +1,59 @@
+-----------------------------------------
+running eyelog examples and test cases
+using eyelog v1.7.19 and swipl v9.3.19
+-----------------------------------------
+
+access-control-policy.pl       94 msec OK
+ackermann.pl                  361 msec OK
+age.pl                         81 msec OK
+basic-monadic.pl              266 msec OK
+collatz.pl                   1544 msec OK
+combinatorics.pl               83 msec OK
+complex.pl                     84 msec OK
+control-system.pl              79 msec OK
+curly.pl                       76 msec OK
+deep-taxonomy.pl              644 msec OK
+derived-rule.pl                77 msec OK
+diamond-property.pl            81 msec OK
+dog.pl                         77 msec OK
+easter.pl                      76 msec OK
+enigma1225.pl                  86 msec OK
+eulers-identity.pl             80 msec OK
+fast-fourier-transform.pl      78 msec OK
+fibonacci.pl                   79 msec OK
+four-color.pl                  78 msec OK
+fuse.pl                        78 msec OK
+goldbach.pl                  5318 msec OK
+good-cobbler.pl                80 msec OK
+gps.pl                         85 msec OK
+graph.pl                       77 msec OK
+gray-code-counter.pl           82 msec OK
+hanoi.pl                       83 msec OK
+kaprekar.pl                   572 msec OK
+lee.pl                         77 msec OK
+meta-interpretation.pl         85 msec OK
+multi-agent.pl                 79 msec OK
+n-queens.pl                    88 msec OK
+padovan.pl                     86 msec OK
+path-discovery.pl            1105 msec OK
+peano.pl                       75 msec OK
+peasant.pl                     87 msec OK
+pi.pl                         181 msec OK
+polygon.pl                     83 msec OK
+polynomial.pl                  87 msec OK
+prime.pl                       86 msec OK
+proof-by-cases.pl              81 msec OK
+proof-by-contradiction.pl      76 msec OK
+proof-by-contrapositive.pl     82 msec OK
+proof-by-induction.pl          86 msec OK
+qiana.pl                       78 msec OK
+sieve.pl                       86 msec OK
+socrates.pl                    77 msec OK
+superdense-coding.pl           77 msec OK
+takeuchi.pl                   379 msec OK
+turing.pl                      76 msec OK
+universal.pl                   79 msec OK
+workplace.pl                  275 msec OK
+zebra.pl                       93 msec OK
+
+15 sec 52 OK 0 DIFF

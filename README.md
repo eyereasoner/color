@@ -49,7 +49,7 @@
     ./test-trealla
     ```
 
-## [Test results](https://github.com/eyereasoner/eyelog/blob/main/test-results.md)
+- [Test results](https://github.com/eyereasoner/eyelog/blob/main/test-results.md)
 
 ## Background
 

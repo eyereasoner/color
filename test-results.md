@@ -1,6 +1,6 @@
 # running eyelog v1.7.20 examples and test cases
 
-|[etc](etc)                       |scryer v0.9.4   |sicstus v4.9.0  |swipl v9.3.19   |trealla v2.63.33|
+|[etc](etc)                                                  |scryer v0.9.4   |sicstus v4.9.0  |swipl v9.3.19   |trealla v2.63.33|
 | :---                                                       |           ---: |           ---: |           ---: |           ---: |
 |[access-control-policy.pl](etc/access-control-policy.pl)    |     117 msec OK|     387 msec OK|      94 msec OK|      72 msec OK|
 |[ackermann.pl](etc/ackermann.pl)                            |     724 msec OK|     674 msec OK|     361 msec OK|    1184 msec OK|

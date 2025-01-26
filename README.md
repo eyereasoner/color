@@ -21,7 +21,7 @@
 ## Installation and test
 
 - Install [Scryer Prolog](https://github.com/mthom/scryer-prolog#installing-scryer-prolog)
-  or [SICStus Prolog]https://sicstus.sics.se/download4.html
+  or [SICStus Prolog](https://sicstus.sics.se/download4.html)
   or [SWI Prolog](http://www.swi-prolog.org/Download.html)
   or [Trealla Prolog](https://github.com/trealla-prolog/trealla#building)
 

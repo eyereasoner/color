@@ -3,3 +3,4 @@ export EYELOG=$(dirname "$(readlink -f "$0")")/eyelog.pl
 
 cat ${EYELOG} ${1} > /tmp/run.pl
 sicstus --noinfo --nologo --goal "['/tmp/run.pl'], main."
+rm /tmp/run.pl

@@ -49,6 +49,8 @@
     ./test-trealla
     ```
 
+## [Test results](https://github.com/eyereasoner/eyelog/blob/main/test-results.md)
+
 ## Background
 
 - Personal notes by Tim Berners-Lee: [Design Issues](https://www.w3.org/DesignIssues/)

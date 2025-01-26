@@ -83,21 +83,21 @@ bob([X, Y], 2) :-
 bob([X, Y], 3) :-
     id(X, Y).
 
-:- dynamic('urn:example:sdcoding'/2).
+:- dynamic('<urn:example:sdcoding>'/2).
 
 % superdense coding
-'urn:example:sdc'(N, M) :-
+'<urn:example:sdc>'(N, M) :-
     r(X, Y),
     alice(N, [X, B]),
     bob([B, Y], M),
-    (   'urn:example:sdcoding'(N, M)
-    ->  retract('urn:example:sdcoding'(N, M))
-    ;   assertz('urn:example:sdcoding'(N, M))
+    (   '<urn:example:sdcoding>'(N, M)
+    ->  retract('<urn:example:sdcoding>'(N, M))
+    ;   assertz('<urn:example:sdcoding>'(N, M))
     ).
 
 % superdense coding appearing an odd number of times
-'urn:example:sdconot'(N, M) :+
-    'urn:example:sdc'(N, M).
+'<urn:example:sdconot>'(N, M) :+
+    '<urn:example:sdc>'(N, M).
 
 % query
-true :+ 'urn:example:sdcoding'(_, _).
+true :+ '<urn:example:sdcoding>'(_, _).

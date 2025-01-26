@@ -1,6 +1,6 @@
 % See https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
 
-'urn:example:primes'(Limit, Ps) :-
+'<urn:example:primes>'(Limit, Ps) :-
     range(2, Limit, Is),
     sift(Is, Ps).
 
@@ -26,4 +26,4 @@ remove(P, [I|Is], [I|Nis]) :-
     remove(P, Is, Nis).
 
 % query
-true :+ 'urn:example:primes'(1000, _).
+true :+ '<urn:example:primes>'(1000, _).

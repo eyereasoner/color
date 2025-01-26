@@ -3,7 +3,7 @@
 % Using functional logic http://intrologic.stanford.edu/chapters/chapter_11.html
 
 % some x is a good cobbler
-'urn:example:is'(_, 'urn:example:good'('urn:example:Cobbler')) :+ true.
+'<urn:example:is>'(_, '<urn:example:good>'('<urn:example:Cobbler>')) :+ true.
 
 % is there some x which is good at some y
-true :+ ('urn:example:is'(_, 'urn:example:good'(_)) :+ true).
+true :+ ('<urn:example:is>'(_, '<urn:example:good>'(_)) :+ true).

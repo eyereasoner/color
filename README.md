@@ -21,28 +21,33 @@
 ## Installation and test
 
 - Install [Scryer Prolog](https://github.com/mthom/scryer-prolog#installing-scryer-prolog)
-  or [SICStus Prolog](https://sicstus.sics.se/download4.html)
-  or [SWI Prolog](http://www.swi-prolog.org/Download.html)
-  or [Trealla Prolog](https://github.com/trealla-prolog/trealla#building)
-
-- Install eyelog and run the tests:
-```
-git clone https://github.com/eyereasoner/eyelog
-cd eyelog/etc
-./test-scryer
-```
-or
-```
-./test-sicstus
-```
-or
-```
-./test-swipl
-```
-or
-```
-./test-trealla
-```
+  and run the tests
+    ```
+    git clone https://github.com/eyereasoner/eyelog
+    cd eyelog/etc
+    ./test-scryer
+    ```
+- Install [SICStus Prolog](https://sicstus.sics.se/download4.html)
+  and run the tests
+    ```
+    git clone https://github.com/eyereasoner/eyelog
+    cd eyelog/etc
+    ./test-sicstus
+    ```
+- Install [SWI Prolog](http://www.swi-prolog.org/Download.html)
+  and run the tests
+    ```
+    git clone https://github.com/eyereasoner/eyelog
+    cd eyelog/etc
+    ./test-swipl
+    ```
+- Install [Trealla Prolog](https://github.com/trealla-prolog/trealla#building)
+  and run the tests
+    ```
+    git clone https://github.com/eyereasoner/eyelog
+    cd eyelog/etc
+    ./test-trealla
+    ```
 
 ## Background
 
